@@ -8,21 +8,45 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
     
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-TEXTS_DIR = "/Users/jineshn/Documents/Wiki/texts"
+TEXTS_DIR = "/Users/jineshn/Documents/Wiki/reuter_sample/texts"
 MODELS_DIR = "/Users/jineshn/Documents/Wiki/models"
 MAX_K = 10
 NUM_TOPICS = 5
+#stoplist = set(nltk.corpus.stopwords.words("english"))
 
+f = open('/Users/jineshn/Downloads/stop-words-collection-2011.11.21/stop-words/stop-words-english4.txt', 'r')
+stoplist = [w.strip() for w in f.readlines() if w]
+f.close()
+
+def iter_wiki_docs(topdir):
+    """
+    iterate through the wikipedia xml file.
+    understand the end of the article tag and consider it as one xml file.
+    iterate through each yield one article tokens at a time.
+    """
+    for fn in os.listdir(topdir):
+        fin = open(os.path.join(topdir, fn), 'rb')
+        text = fin.read()
+        fin.close()
+        yield (x for x in gensim.utils.tokenize(text, lowercase=True, deacc=True, errors="ignore") if x not in stoplist)
+
+class WikiCorpus(object):
+    
+    def __init__(self, topdir):
+        self.topdir = topdir
+        self.stoplist = stoplist
+        self.dictionary = gensim.corpora.Dictionary(iter_docs(topdir, stoplist))
+    
+    def __iter__(self):
+        for tokens in iter_docs(self.topdir, self.stoplist):
+            yield self.dictionary.doc2bow(tokens)
 
 def iter_docs(topdir, stoplist):
     for fn in os.listdir(topdir):
         fin = open(os.path.join(topdir, fn), 'rb')
         text = fin.read()
         fin.close()
-        yield (x for x in
-               gensim.utils.tokenize(text, lowercase=True, deacc=True,
-                                     errors="ignore")
-               if x not in stoplist)
+        yield (x for x in gensim.utils.tokenize(text, lowercase=True, deacc=True, errors="ignore") if x not in stoplist)
 
 class MyCorpus(object):
     
@@ -35,14 +59,14 @@ class MyCorpus(object):
         for tokens in iter_docs(self.topdir, self.stoplist):
             yield self.dictionary.doc2bow(tokens)
 
-
 def main():
-    stoplist = set(nltk.corpus.stopwords.words("english"))
     corpus = MyCorpus(TEXTS_DIR, stoplist)
-
     corpus.dictionary.save(os.path.join(MODELS_DIR, "mtsamples.dict"))
-    gensim.corpora.MmCorpus.serialize(os.path.join(MODELS_DIR, "mtsamples.mm"),
-                                  corpus)
+    gensim.corpora.MmCorpus.serialize(os.path.join(MODELS_DIR, "mtsamples.mm"), corpus)
+
+    #dictionary = gensim.corpora.Dictionary.load(os.path.join(MODELS_DIR, "mtsamples.dict"))
+    #corpus = gensim.corpora.MmCorpus(os.path.join(MODELS_DIR, "mtsamples.mm"))
+    #gensim.models.LdaModel(corpus=corpus, id2word=dictionary, num_topics=5, passes=100).save(MODELS_DIR+'/lda.model')
 
 def lsi_model():
     dictionary = gensim.corpora.Dictionary.load(os.path.join(MODELS_DIR, "mtsamples.dict"))
@@ -102,13 +126,18 @@ def topic_scatter():
         plt.scatter(X[i][0], X[i][1], c=colors[y[i]], s=10)
     plt.show()
 
+def process_lda_print_topics(input_list):
+    return [item.split('*') for text in input_list for item in text.split('+')]
+
 def lda_model():
     dictionary = gensim.corpora.Dictionary.load(os.path.join(MODELS_DIR, "mtsamples.dict"))
     corpus = gensim.corpora.MmCorpus(os.path.join(MODELS_DIR, "mtsamples.mm"))
     
     # Project to LDA space
     lda = gensim.models.LdaModel(corpus, id2word=dictionary, num_topics=NUM_TOPICS)
-    lda.print_topics(NUM_TOPICS)
+    output = lda.print_topics(NUM_TOPICS)
+    print '******** output **********'
+    print process_lda_print_topics(output)
 
 def word_cloud():
     final_topics = open(os.path.join(MODELS_DIR, "final_topics.txt"), 'rb')
@@ -120,9 +149,8 @@ def word_cloud():
         freqs = []
         for word, score in zip(words, scores):
             freqs.append((word, score))
-        elements = wordcloud.fit_words(freqs, width=120, height=120)
-        wordcloud.draw(elements, "gs_topic_%d.png" % (curr_topic),
-                       width=120, height=120)
+        #elements = wordcloud.fit_words(freqs, width=120, height=120)
+        wordcloud.draw(freqs, "gs_topic_%d.png" % (curr_topic), width=120, height=120)
         curr_topic += 1
     final_topics.close()
 
@@ -132,5 +160,5 @@ if __name__ == '__main__':
     #main()
     #lsi_model()
     #num_topics()
-    #lda_model()
-    word_cloud()
+    lda_model()
+    #word_cloud()
