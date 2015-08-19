@@ -7,6 +7,7 @@ logging.basicConfig(filename='wiki.log', level=logging.INFO)
 
 DICT_PATH = "/tmp/wiki.dict"
 MODEL_PATH = "/tmp/wiki.lda"
+OUTPUT_PATH = "/tmp/output.txt"
 
 
 class TagWiki(object):
@@ -39,12 +40,11 @@ class TagWiki(object):
     def process_topics(self):
         if os.path.exists(MODEL_PATH):
             self.lda = gensim.models.ldamodel.LdaModel.load(MODEL_PATH)
-            return True
-
-        self.lda = gensim.models.ldamodel.LdaModel(
-            corpus=None, id2word=self.dictionary, num_topics=30, 
-            update_every=1, chunksize=1, passes=2)
-        
+        else:
+            self.lda = gensim.models.ldamodel.LdaModel(
+                corpus=None, id2word=self.dictionary, num_topics=30, 
+                update_every=1, chunksize=1, passes=2)
+        f = open(OUTPUT_PATH, "w") 
         for link in self.electrical_links:
             try:
                 page = wikipedia.page(link)
@@ -56,10 +56,11 @@ class TagWiki(object):
             
                 new_bag_of_words = title_bow + content_bow
                 self.lda.update([content_bow])
-            
+                f.write("{0}::    {1}\n".format(link, self.lda.print_topics(5)))
                 logging.info("RESULT: {0}: {1}".format(link, self.lda[new_bag_of_words]))
             except:
                 logging.info("{0}: PROCESSING FAILED!".format(link))
+        f.close()
         self.lda.save(MODEL_PATH)
         return True
     
