@@ -59,7 +59,8 @@ class TagWiki(object):
                 f.write("{0}::    {1}\n".format(link, self.lda.print_topics(5)))
                 logging.info("RESULT: {0}: {1}".format(link, self.lda[new_bag_of_words]))
             except:
-                logging.info("{0}: PROCESSING FAILED!".format(link))
+                logging.info("PROCESSING FAILED!")
+                continue
         f.close()
         self.lda.save(MODEL_PATH)
         return True
