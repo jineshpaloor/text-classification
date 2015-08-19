@@ -1,10 +1,10 @@
-__author__ = 'rajareddykarri'
-
 import wikipedia
 import gensim
 import logging
 
 logging.basicConfig(filename='wiki.log', level=logging.INFO)
+
+DICT_PATH = "/tmp/wiki.dict"
 
 
 class TagWiki(object):
@@ -15,6 +15,9 @@ class TagWiki(object):
 
     # Pass 1: Prepare a dictionary
     def prepare_dictionary(self):
+        if os.path.exists(DICT_PATH):
+            return True
+
         for link in self.electrical_links:
             try:
                 page = wikipedia.page(link)
@@ -37,25 +40,26 @@ class TagWiki(object):
         for link in self.electrical_links:
             try:
                 page = wikipedia.page(link)
+                title = gensim.parsing.preprocess_string(page.title)
+                content = gensim.parsing.preprocess_string(page.content)
+            
+                title_bow = self.dictionary.doc2bow(title)
+                content_bow = self.dictionary.doc2bow(content)
+            
+                new_bag_of_words = title_bow + content_bow
+                logging.info('Content BOW :{0}'.format(content_bow))
+                self.lda.update([content_bow])
+            
+                logging.info("{0}: {1}".format(link, self.lda[new_bag_of_words]))
             except:
-                continue
-            title = gensim.parsing.preprocess_string(page.title)
-            content = gensim.parsing.preprocess_string(page.content)
-        
-            title_bow = self.dictionary.doc2bow(title)
-            content_bow = self.dictionary.doc2bow(content)
-        
-            new_bag_of_words = title_bow + content_bow
-            logging.info('Content BOW :{0}'.format(content_bow))
-            self.lda.update([content_bow])
-        
-            logging.info("{0}: {1}".format(link, self.lda[new_bag_of_words]))
+                logging.info("{0}: PROCESSING FAILED!".format(link))
         return True
     
 def main():
     wiki = TagWiki()
     logging.info("No. of keys at start :{0}".format(wiki.dictionary.keys().__len__()))
     wiki.prepare_dictionary()
+    wiki.dictionary.save(DICT_PATH)
     logging.info("No. of keys after addition of data {0}".format(wiki.dictionary.keys().__len__()))
     wiki.process_topics()
     logging.info("done : {0}".format(wiki.dictionary.__sizeof__()))
