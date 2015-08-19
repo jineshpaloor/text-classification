@@ -47,6 +47,7 @@ class TagWiki(object):
         f = open(OUTPUT_PATH, "w") 
         for link in self.electrical_links:
             try:
+                logging.info("processing: {0}".format(link))
                 page = wikipedia.page(link)
                 title = gensim.parsing.preprocess_string(page.title)
                 content = gensim.parsing.preprocess_string(page.content)
@@ -56,8 +57,7 @@ class TagWiki(object):
             
                 new_bag_of_words = title_bow + content_bow
                 self.lda.update([content_bow])
-                f.write("{0}::    {1}\n".format(link, self.lda.print_topics(5)))
-                logging.info("RESULT: {0}: {1}".format(link, self.lda[new_bag_of_words]))
+                f.write("{0}::    {1}\n".format(link, self.lda[new_bag_of_words]))
             except:
                 logging.info("PROCESSING FAILED!")
                 continue
