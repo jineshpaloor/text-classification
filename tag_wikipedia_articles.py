@@ -1,3 +1,4 @@
+import os
 import wikipedia
 import gensim
 import logging
@@ -16,6 +17,7 @@ class TagWiki(object):
     # Pass 1: Prepare a dictionary
     def prepare_dictionary(self):
         if os.path.exists(DICT_PATH):
+            self.dictionary = gensim.corpora.Dictionary.load(DICT_PATH)
             return True
 
         for link in self.electrical_links:
