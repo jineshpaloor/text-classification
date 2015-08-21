@@ -44,6 +44,7 @@ class TagWiki(object):
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=30, 
                 update_every=1, chunksize=1, passes=2)
+
         f = open(OUTPUT_PATH, "w") 
         for link in self.electrical_links:
             try:
@@ -56,9 +57,11 @@ class TagWiki(object):
                 content_bow = self.dictionary.doc2bow(content)
             
                 new_bag_of_words = title_bow + content_bow
-                self.lda.update([content_bow])
-                f.write("{0}::    {1}\n".format(link, self.lda[new_bag_of_words]))
-            except:
+                #self.lda.update([content_bow])
+                self.lda.update(corpus=[content_bow])
+                self.lda[new_bag_of_words]
+                f.write("{0}::    {1}\n".format(link, self.lda.print_topics()))
+            except UnicodeError:
                 logging.info("PROCESSING FAILED!")
                 continue
         f.close()
