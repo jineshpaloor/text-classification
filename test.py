@@ -1,3 +1,4 @@
+import sys
 import gensim
 import wikipedia
 from gensim.parsing.preprocessing import STOPWORDS
@@ -25,9 +26,10 @@ def test_topic_modelling():
         print title, tokens[:10]  # print the article title and its first ten tokens
 
 # create dictionary
-doc_stream = (tokens for _, tokens in iter_wiki('./data/simplewiki-20140623-pages-articles.xml.bz2'))
+doc_stream = (tokens for _, tokens in iter_wiki(WIKI_PATH))
 id2word_wiki = gensim.corpora.Dictionary(doc_stream)
 print(id2word_wiki)
+
 
 # filtering out extremes - data preparation
 id2word_wiki.filter_extremes(no_below=20, no_above=0.1)
@@ -41,18 +43,20 @@ print(bow)
 
 
 # create a stream of bag-of-words vectors
-wiki_corpus = WikiCorpus('./data/simplewiki-20140623-pages-articles.xml.bz2', id2word_wiki)
+wiki_corpus = WikiCorpus(WIKI_PATH, id2word_wiki)
 vector = next(iter(wiki_corpus))
 print(vector)  # print the first vector in the stream
 
 
-# what is the most common word in that first article?
-most_index, most_count = max(vector, key=lambda (word_index, count): count)
-print(id2word_wiki[most_index], most_count)
+def most_common_word(vector):
+    """ what is the most common word in that first article? """
+    most_index, most_count = max(vector, key=lambda (word_index, count): count)
+    print(id2word_wiki[most_index], most_count)
 
-gensim.corpora.MmCorpus.serialize('./data/wiki_bow.mm', wiki_corpus)
+most_common_word(vector)
 
-mm_corpus = gensim.corpora.MmCorpus('./data/wiki_bow.mm')
+gensim.corpora.MmCorpus.serialize('/tmp/wiki_bow.mm', wiki_corpus)
+mm_corpus = gensim.corpora.MmCorpus('/tmp/wiki_bow.mm')
 
 # Semantic transformations
 clipped_corpus = gensim.utils.ClippedCorpus(mm_corpus, 4000)  # use fewer documents during training, LDA is slow
@@ -70,11 +74,11 @@ lsi_model = gensim.models.LsiModel(tfidf_model[mm_corpus], id2word=id2word_wiki,
 
 
 
-tfidf_corpus = gensim.corpora.MmCorpus('./data/wiki_tfidf.mm')
+tfidf_corpus = gensim.corpora.MmCorpus('/tmp/wiki_tfidf.mm')
 # `tfidf_corpus` is now exactly the same as `tfidf_model[wiki_corpus]`
 print(tfidf_corpus)
 
-lsi_corpus = gensim.corpora.MmCorpus('./data/wiki_lsa.mm')
+lsi_corpus = gensim.corpora.MmCorpus('/tmp/wiki_lsa.mm')
 # and `lsi_corpus` now equals `lsi_model[tfidf_model[wiki_corpus]]` = `lsi_model[tfidf_corpus]`
 print(lsi_corpus)
 
@@ -100,15 +104,14 @@ print(lsi_vector)
 print(lsi_model.print_topic(max(lsi_vector, key=lambda item: abs(item[1]))[0]))
 
 # store all trained models to disk
-lda_model.save('./data/lda_wiki.model')
-lsi_model.save('./data/lsi_wiki.model')
-tfidf_model.save('./data/tfidf_wiki.model')
-id2word_wiki.save('./data/wiki.dictionary')
+lda_model.save('/tmp/lda_wiki.model')
+lsi_model.save('/tmp/lsi_wiki.model')
+tfidf_model.save('/tmp/tfidf_wiki.model')
+id2word_wiki.save('/tmp/wiki.dictionary')
 
 
 # load the same model back; the result is equal to `lda_model`
-same_lda_model = gensim.models.LdaModel.load('./data/lda_wiki.model')
-
+same_lda_model = gensim.models.LdaModel.load('/tmp/lda_wiki.model')
 
 
 #Evaluation
@@ -137,7 +140,7 @@ print("Actual replacements were:")
 print(list(enumerate(replacements)))
 
 # evaluate on 1k documents **not** used in LDA training
-doc_stream = (tokens for _, tokens in iter_wiki('./data/simplewiki-20140623-pages-articles.xml.bz2'))  # generator
+doc_stream = (tokens for _, tokens in iter_wiki(WIKI_PATH))  # generator
 test_docs = list(itertools.islice(doc_stream, 8000, 9000))
 
 
