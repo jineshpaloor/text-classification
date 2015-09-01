@@ -8,13 +8,13 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
     
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-TEXTS_DIR = "/Users/jineshn/Documents/Wiki/reuter_sample/texts"
-MODELS_DIR = "/Users/jineshn/Documents/Wiki/models"
+TEXTS_DIR = "data/reuter_sample/texts"
+MODELS_DIR = "data/models"
 MAX_K = 10
 NUM_TOPICS = 5
 #stoplist = set(nltk.corpus.stopwords.words("english"))
 
-f = open('/Users/jineshn/Downloads/stop-words-collection-2011.11.21/stop-words/stop-words-english4.txt', 'r')
+f = open('data/stop-words/stop-words-english4.txt', 'r')
 stoplist = [w.strip() for w in f.readlines() if w]
 f.close()
 
