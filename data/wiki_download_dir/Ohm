@@ -1,0 +1,72 @@
+Ohm
+The ohm (symbol: Ω) is the SI derived unit of electrical resistance, named after German physicist Georg Simon Ohm. Although several empirically derived standard units for expressing electrical resistance were developed in connection with early telegraphy practice, the British Association for the Advancement of Science proposed a unit derived from existing units of mass, length and time and of a convenient size for practical work as early as 1861. The definition of the ohm was revised several times. Today the definition of the ohm is expressed from the quantum Hall effect.
+
+
+== Definition ==
+
+The ohm is defined as a electrical resistance between two points of a conductor when a constant potential difference of 1 volt, applied to these points, produces in the conductor a current of 1 ampere, the conductor not being the seat of any electromotive force.
+
+in which the following units appear: volt (V), ampere (A), siemens (S), watt (W), second (s), farad (F), joule (J), kilogram (kg), metre (m), and coulomb (C).
+In many cases the resistance of a conductor in ohms is approximately constant within a certain range of voltages, temperatures, and other parameters; one speaks of linear resistors. In other cases resistance varies (e.g., thermistors).
+Commonly used multiples and submultiples in electrical and electronic usage are the microohm, milliohm, kilohm, megohm, and gigaohm, the term "gigohm", though not official, is in common use for the latter.
+In alternating current circuits, electrical impedance is also measured in ohms (Ω).
+
+
+== Conversions ==
+The siemens (symbol: S) is the SI derived unit of electric conductance and admittance, also known as the mho (ohm spelled backwards, symbol is ℧); it is the reciprocal of resistance in ohms (Ω).
+
+
+== Power as a function of resistance ==
+The power dissipated by a resistor may be calculated from its resistance, and the voltage or current involved. The formula is a combination of Ohm's Law and Joule's law:
+
+where:
+P = power in watts
+R = resistance in ohms
+V = voltage across the resistor
+I = current through the resistor in amps
+A linear resistor has a constant resistance value over all applied voltages or currents; many practical resistors are linear over a useful range of currents. Non-linear resistors have a value that may vary depending on the applied voltage (or current). Where alternating current is applied to the circuit,(or where the resistance value is a function of time), the relation above is true at any instant but calculation of average power over an interval of time will require integration of "instantaneous" power over that interval.
+
+
+== History ==
+The rapid rise of electrotechnology in the last half of the 19th century created a demand for a rational, coherent, consistent, and international system of units for electrical quantities. Telegraphers and other early uses of electricity in the 19th century needed a practical standard unit of measurement for resistance. Resistance was often expressed as a multiple of the resistance of a standard length of telegraph wires; different agencies used different bases for a standard, so units were not readily interchangeable. Electrical units so defined were not a coherent system with the units for energy, mass, length, and time, requiring conversion factors to be used in calculations relating energy or power to resistance.
+Two different methods of establishing a system of electrical units can be chosen. Various artifacts, such as a length of wire or a standard electrochemical cell, could be specified as producing defined quantities for resistance, voltage, and so on. Alternatively, the electrical units can be related to the mechanical units by defining, for example, a unit of current that gives a specified force between two wires, or a unit of charge that gives a unit of force between two unit charges. This latter method ensures coherence with the units of energy. Defining a unit for resistance that is coherent with units of energy and time in effect also requires defining units for potential and current. It is desirable that one unit of electrical potential will force one unit of electric current through one unit of electrical resistance, doing one unit of work in one unit of time, otherwise all electrical calculations will require conversion factors.
+Since so-called "absolute" units of charge and current are expressed as combinations of units of mass, length, and time, dimensional analysis of the relations between potential, current and resistance show that resistance is expressed in units of length per time - a velocity. Some early definitions of a unit of resistance, for example, defined a unit resistance as one quadrant of the Earth per second.
+"Absolute" units system related magnetic and electrostatic quantities to metric base units of mass, time, and length. These units had the great advantage of simplifying the equations used in the solution of electromagnetic problems, and eliminated conversion factors in calculations about electrical quantities. However, the CGS units turned out to have impractical sizes for practical measurements.
+Various artifact standards were proposed as the definition of the unit of resistance. In 1860 Werner Siemens published a suggestion for a reproducible resistance standard in Poggendorffs Annalen der Physik und Chemie. He proposed a column of pure mercury, of one square millimetre cross section, one metre long : Siemens mercury unit. However, this unit was not coherent with other units. One proposal was to devise a unit based on a mercury column that would be coherent - in effect, adjusting the length to make the resistance one ohm. Not all users of units had the resources to carry out metrology experiments to the required precision, so working standards notionally based on the physical definition were required.
+In 1861, Latimer Clark and Sir Charles Bright presented a paper at the British Association for the Advancement of Science meeting  suggesting that standards for electrical units be established and suggesting names for these units derived from eminent philosophers, 'Ohma', 'Farad' and 'Volt'. The BAAS in 1861 appointed a committee including Maxwell and Thomson to report upon Standards of Electrical Resistance. Their objectives were to devise a unit that was of convenient size, part of a complete system for electrical measurements, coherent with the units for energy, stable, reproducible and based on the French metrical system. In the third report of the committee, 1864, the resistance unit is referred to as "B.A. unit, or Ohmad". By 1867 the unit is referred to as simply Ohm.
+The B.A. ohm was intended to be 109 CGS units but owing to an error in calculations the definition was 1.3% too small. The error was significant for preparation of working standards.
+On September 21, 1881 the Congrès internationale d'électriciens (international conference of electricians) defined a practical unit of Ohm for the resistance, based on CGS units, using a mercury column at zero deg. Celsius, similar to the apparatus suggested by Siemens.
+A legal ohm, a reproducible standard, was defined by the international conference of electricians at Paris in 1884 as the resistance of a mercury column of specified weight and 106 cm long; this was a compromise value between the B. A. unit (equivalent to 104.7 cm), the Siemens unit (100 cm by definition), and the CGS unit. Although called "legal", this standard was not adopted by any national legislation. The "international" ohm was defined as a mercury column 106.3 cm long of mass 14.4521 grams and 0 °C at the International Electrical Conference 1893 in Chicago. This definition became the basis for the legal definition of the ohm in several countries. In 1908, the next Electrical Conference confirmed this definition. The mercury column standard was maintained until the 1948 General Conference on Weights and Measures, at which the ohm was redefined in absolute terms instead of as an artifact standard.
+By the end of the 19th century, units were well-understood and consistent. Definitions would change with little effect on commercial uses of the units. Advances in metrology allowed definitions to be formulated with a high degree of precision and repeatability.
+
+
+=== Historical units of resistance ===
+
+
+== Realization of standards ==
+The mercury column method of realizing a physical standard ohm turned out to be difficult to reproduce, owing to the effects of non-constant cross section of the glass tubing. Various resistance coils were constructed by the British Association and others, to serve as physical artifact standards for the unit of resistance. The long-term stability and reproducibility of these artifacts was an ongoing field of research, as the effects of temperature, air pressure, humidity, and time on the standards were detected and analyzed.
+Artifact standards are still used, but metrology experiments relating accurately-dimensioned inductors and capacitors provided a more fundamental basis for the definition of the ohm. Since 1990 the quantum Hall effect has been used to define the ohm with high precision and repeatability. The quantum Hall experiments are used to check the stability of working standards that have convenient values for comparison.
+
+
+== Symbol ==
+When preparing electronic documents, some document editing software applications have used the Symbol typeface to render the character Ω. Where the font is not supported, a W is displayed instead ("10 W" instead of "10 Ω", for instance). As W represents the watt, the SI unit of power, this can lead to confusion.
+In the electronics industry it is common to use the character R instead of the Ω symbol, thus, a 10 Ω resistor may be represented as 10R. This is the British standard BS 1852 code. It is used in many instances where the value has a decimal place. For example, 5.6 Ω is listed as 5R6. This method avoids overlooking the decimal period which may not be rendered reliably on components or when duplicating documents.
+In documents printed before WWII the unit symbol often consisted of the raised lowercase omega (ω), such that 56 Ω was written as 56ω.
+Unicode encodes the symbol as U+2126 Ω ohm sign, distinct from Greek omega among letterlike symbols, but it is only included for backwards compatibility and the Greek uppercase omega character U+03A9 Ω greek capital letter omega (HTML &#937; ·  &Omega;) is preferred. In DOS and Windows, the alt code ALT 234 may produce the Ω symbol. In Mac OS, ⌥ Opt+Z does the same.
+
+
+== See also ==
+History of measurement
+International Committee for Weights and Measures
+Resistivity
+
+
+== Notes and references ==
+
+
+== External links ==
+Scanned books of Georg Simon Ohm at the library of the University of Applied Sciences Nuernberg
+Official SI brochure
+NIST Special Publication 811
+History of the ohm at sizes.com
+History of the electrical units.

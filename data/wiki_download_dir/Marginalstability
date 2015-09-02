@@ -1,0 +1,25 @@
+Marginal stability
+In the theory of dynamical systems, and control theory, a linear time-invariant system is marginally stable if it's not asymptotically stable, nor unstable. Marginal stability is sometimes referred to as neutral stability.
+
+
+== Continuous Time ==
+In a continuous linear time-invariant system, this is the case if and only if the real part of every pole in the system's transfer-function is non-positive, and all poles with zero real value are simple roots (i.e. the poles on the imaginary axis are all distinct from one another). If all the poles have strictly negative real parts, the system is instead asymptotically stable. If one or more poles have positive real parts, the system is unstable.
+If the system is in state space representation, marginal stability can be analyzed by deriving the Jordan normal form: if and only if the Jordan blocks corresponding to poles with zero real part are scalar is the system marginally stable.
+
+
+== Discrete Time ==
+A discrete linear time-invariant system is marginally stable if and only if the greatest magnitude of any of the poles of the transfer function is 1, and the poles with magnitude equal to one are all distinct. That is, the transfer function's spectral radius is 1. If the spectral radius is less than 1, the system is instead asymptotically stable.
+
+
+== System Response ==
+A marginally stable system is one that, if given an impulse of finite magnitude as input, will not "blow up" and give an unbounded output. Neither will the output return to zero. A bounded offset or oscillations in the output will persist indefinitely, and so there will in general be no final steady-state output. If the system is given an input at a pole frequency, the system's output will increase indefinitely.
+A system having imaginary poles, i.e. having zero real part in the pole(s), will produce sustained oscillations in the output. For example, an undamped second order system such as the suspension system in an automobile (mass-spring-damper), from where damper has been removed and spring is ideal i.e. no friction is there, will in theory oscillate forever once disturbed. Another example is a frictionless pendulum. A system with a pole at the origin is also marginally stable but in this case there will be no oscillation in the response as the imaginary part is also zero (jw = 0 means w = 0 rad/sec). An example of such a system is a mass on a surface with friction. When a sidewards impulse is applied, the mass will move and never returns to zero. The mass will come to rest due to friction however, and the sidewards movement will remain bounded.
+Since the location of the poles must be exactly on the imaginary axis or unit circle (for continuous time and discrete time systems respectively) for a system to be marginally stable, this situation is unlikely to occur in practice.
+
+
+== See also ==
+Lyapunov stability
+Exponential stability
+
+
+== References ==

@@ -1,0 +1,39 @@
+Inductive output tube
+The inductive output tube (IOT) or klystrode is a variety of high frequency transmitting linear-beam vacuum tube, similar to a klystron, which evolved in the 1980s to meet increasing efficiency requirements for high-power RF amplifiers. The primary commercial use of IOTs is in UHF television transmitters, where they have mostly replaced klystrons because of their higher efficiencies (35% to 40%) and smaller size. IOTs are also used in particle accelerators. They are capable of producing power output up to about 30 kW continuous and 7 MW pulsed and gains of 20–23 dB at frequencies up to about a gigahertz.
+
+
+== History ==
+The inductive output tube (IOT) was invented in 1938 by Andrew V. Haeff. A patent was later issued for the IOT to Andrew V. Haeff and assigned to the Radio Corporation of America (RCA). During the 1939 New York World's Fair the IOT was used in the transmission of the first television images from the Empire State Building to the fair grounds. RCA sold a small IOT commercially for a short time, under the type number 825. It was soon made obsolete by newer developments, and the technology lay more or less dormant for years.
+The inductive output tube has re-emerged within the last twenty years after having been discovered to possess particularly suitable characteristics (broadband linearity) for the transmission of digital television and high-definition digital television.
+The power output of the modern 21st century IOTs is orders of magnitude higher than the first IOTs produced by the RCA in 1940–1941 but the fundamental principle of operation basically remains the same. IOTs since the 1970s have been designed with electromagnetic modeling computer software that has greatly improved their electrodynamic performance.
+
+
+== Description ==
+IOTs have been described as a cross between a klystron and a triode, hence Eimac's trade name for them, Klystrode. They have an electron gun like a klystron, but with a control grid in front of it like a triode, with a very close spacing of around 0.1 mm. The high frequency RF voltage on the grid allows the electrons through in bunches. High voltage DC on a cylindrical anode accelerates the modulated electron beam through a small drift tube like a klystron. This drift tube prevents backflow of electromagnetic radiation. The bunched electron beam passes through the hollow anode into a resonant cavity, similar to the output cavity of a klystron, and strikes a collector electrode. As in a klystron, each bunch passes into the cavity at a time when the electric field decelerates it, transforming the kinetic energy of the beam into potential energy of the RF field, amplifying the signal. The oscillating electromagnetic energy in the cavity is extracted by a coaxial transmission line. An axial magnetic field prevents space charge spreading of the beam. The collector electrode is at a lower potential than the anode (depressed collector) which recovers some of the energy from the beam, increasing efficiency.
+Two differences from the klystron give it a lower cost and higher efficiency. First, the klystron uses velocity modulation to create bunching; its beam current is constant. It requires a drift tube several feet in length to allow the electrons to bunch. In contrast the IOT uses current modulation like an ordinary triode; most of the bunching is done by the grid, so the tube can be much shorter, making it less expensive to build and mount, and less bulky. Secondly, since the klystron has beam current throughout the RF cycle, it can only operate as an inefficient class-A amplifier, while the grid of the IOT allows more versatile operating modes. The grid can be biased so the beam current can be cut off during part of the cycle, enabling it to operate in the more efficient class B or AB mode.
+The highest frequency achievable in an IOT is limited by the grid-to-cathode spacing. The electrons must be accelerated off the cathode and pass the grid before the RF electric field reverses direction. The upper limit on frequency is approximately 1300 MHz. The gain of the IOT is 20–23 dB versus 35–40 dB for a klystron. The lower gain is usually not a problem because at 20 dB the requirements for drive power (1% of output power) is within the capabilities of economical solid state UHF amplifiers.
+
+
+=== Recent advances ===
+The latest versions of IOTs achieve even higher efficiencies (60%-70%) through the use of a Multistage Depressed Collector (MSDC). One manufacturer's version is called the Constant Efficiency Amplifier (CEA), while another manufacturer markets their version as the ESCIOT (Energy Saving Collector IOT). The initial design difficulties of MSDCIOTs were overcome through the use of recirculating high dielectric transformer oil as a combined coolant and insulation medium to prevent arcing and erosion between the closely spaced collector stages and to provide reliable low-maintenance collector cooling for the life of the tube. Earlier MSDC versions had to be air cooled (limited power) or used de-inonized water that had to be filtered, regularly exchanged and provided no freezing or corrosion protection.
+
+
+== Disadvantages ==
+Thermal radiation from the cathode heats the grid. As a result, low-work-function cathode material evaporates and condenses on the grid. This eventually leads to a short between cathode and grid, as the material accreting on the grid narrows the gap between it and the cathode. In addition, the emissive cathode material on the grid causes a negative grid current (reverse electron flow from the grid to the cathode). This can swamp the grid power supply if this reverse current gets too high, changing the grid (bias) voltage and, consequently, the operating point of the tube. Today's IOTs are equipped with coated cathodes that work at relatively low operating temperatures, and hence have slower evaporation rates, minimizing this effect.
+Like most linear beam tubes having external tuning cavities, IOTs are vulnerable to arcing, and must be protected with arc detectors located in the output cavities that trigger a crowbar circuit based on a hydrogen thyratron or a triggered spark gap in the high-voltage supply. The purpose of the crowbar circuit is to instantly dump the massive electrical charge stored in the high voltage beam supply before this energy can damage the tube assembly during an uncontrolled cavity, collector or cathode arc.
+
+
+== See also ==
+Free-electron laser
+
+
+== References ==
+
+
+== External links ==
+http://www.bext.com/iot.htm
+http://www.ebu.ch/departments/technical/trev/trev_273-heppinstall.pdf
+http://www.davidsarnoff.org/kil-chapter03.html
+http://www.allaboutcircuits.com/vol_3/chpt_13/11.html
+http://www.harris.com/view_pressrelease.asp?act=lookup&pr_id=2037
+http://epaper.kek.jp/p95/ARTICLES/TAQ/TAQ02.PDF

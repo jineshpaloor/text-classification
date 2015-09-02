@@ -1,0 +1,48 @@
+Band-stop filter
+In signal processing, a band-stop filter or band-rejection filter is a filter that passes most frequencies unaltered, but attenuates those in a specific range to very low levels. It is the opposite of a band-pass filter. A notch filter is a band-stop filter with a narrow stopband (high Q factor).
+Narrow notch filters (optical) are used in Raman spectroscopy, live sound reproduction (public address systems, or PA systems) and in instrument amplifiers (especially amplifiers or preamplifiers for acoustic instruments such as acoustic guitar, mandolin, bass instrument amplifier, etc.) to reduce or prevent audio feedback, while having little noticeable effect on the rest of the frequency spectrum (electronic or software filters). Other names include 'band limit filter', 'T-notch filter', 'band-elimination filter', and 'band-reject filter'.
+Typically, the width of the stopband is 1 to 2 decades (that is, the highest frequency attenuated is 10 to 100 times the lowest frequency attenuated). However, in the audio band, a notch filter has high and low frequencies that may be only semitones apart.
+
+
+== Examples ==
+
+
+=== In the audio domain ===
+Anti-hum filter
+For countries using 60 Hz power lines:
+Low Freq: 59 Hz
+Middle Freq 60 Hz
+High Freq: 61 Hz
+This means that the filter passes all frequencies, except for the range of 59–61 Hz. This would be used to filter out the mains hum from the 60 Hz power line, though its higher harmonics could still be present.
+For countries where power transmission is at 50Hz, the filter would have a 49–51 Hz range.
+Anti-presence filter
+Low Freq: 1 kHz
+High Freq: 4 kHz
+For attenuating presence.
+
+
+=== In the radio frequency (RF) domain ===
+Non-linearities of power amplifiers
+When measuring the non-linearities of power amplifiers, a very narrow notch filter can be very useful to avoid the carrier frequency. Use of the filter may ensure that the maximum input power of a spectrum analyser used to detect spurious content will not be exceeded.
+Wave trap 
+A notch filter, usually a simple LC circuit, is used to remove a specific interfering frequency. This is a technique used with radio receivers that are so close to a transmitter that it swamps all other signals. The wave trap is used to remove, or greatly reduce, the signal from the local transmitter.
+
+
+=== In the optical domain ===
+Optical notch filters rely on destructive interference.
+
+
+== See also ==
+Band-pass filter
+High-pass filter
+Low-pass filter
+Mains hum
+Parametric equalizer
+Bass instrument amplification (discusses use of notch filter to prevent feedback)
+
+
+== Notes ==
+
+
+== References ==
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C" (in support of MIL-STD-188).

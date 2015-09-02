@@ -1,0 +1,109 @@
+Field-effect transistor
+The field-effect transistor (FET) is a transistor that uses an electric field to control the shape and hence the electrical conductivity of a channel of one type of charge carrier in a semiconductor material. FETs are also known as unipolar transistors as they involve single-carrier-type operation. The FET has several forms, but all have high input impedance. While the conductivity of a non-FET transistor is regulated by the input current (the emitter to base current) and so has a low input impedance, a FET's conductivity is regulated by a voltage applied to a terminal (the gate) which is insulated from the device. The applied gate voltage imposes an electric field into the device, this in turn attracts or repels charge carriers to or from the region between a source terminal and a drain terminal. The density of charge characters in turn influences the conductivity between the source and drain.
+
+
+== History ==
+
+The field-effect transistor was first patented by Julius Edgar Lilienfeld in 1926 and by Oskar Heil in 1934, but practical semiconducting devices (the JFET) were developed only much later after the transistor effect was observed and explained by the team of William Shockley at Bell Labs in 1947, immediately after the 20-year patent period eventually expired. The MOSFET, which largely superseded the JFET and had a more profound effect on electronic development, was invented by Dawon Kahng and Martin Atalla in 1960.
+
+
+== Basic information ==
+
+FETs can be majority-charge-carrier devices, in which the current is carried predominantly by majority carriers, or minority-charge-carrier devices, in which the current is mainly due to a flow of minority carriers. The device consists of an active channel through which charge carriers, electrons or holes, flow from the source to the drain. Source and drain terminal conductors are connected to the semiconductor through ohmic contacts. The conductivity of the channel is a function of the potential applied across the gate and source terminals.
+The FET's three terminals are:
+Source (S), through which the carriers enter the channel. Conventionally, current entering the channel at S is designated by IS.
+Drain (D), through which the carriers leave the channel. Conventionally, current entering the channel at D is designated by ID. Drain-to-source voltage is VDS.
+Gate (G), the terminal that modulates the channel conductivity. By applying voltage to G, one can control ID.
+
+
+== More about terminals ==
+
+All FETs have source, drain, and gate terminals that correspond roughly to the emitter, collector, and base of BJTs. Most FETs have a fourth terminal called the body, base, bulk, or substrate. This fourth terminal serves to bias the transistor into operation; it is rare to make non-trivial use of the body terminal in circuit designs, but its presence is important when setting up the physical layout of an integrated circuit. The size of the gate, length L in the diagram, is the distance between source and drain. The width is the extension of the transistor, in the direction perpendicular to the cross section in the diagram (i.e., into/out of the screen). Typically the width is much larger than the length of the gate. A gate length of 1 µm limits the upper frequency to about 5 GHz, 0.2 µm to about 30 GHz.
+The names of the terminals refer to their functions. The gate terminal may be thought of as controlling the opening and closing of a physical gate. This gate permits electrons to flow through or blocks their passage by creating or eliminating a channel between the source and drain. Electron-flow from the source terminal towards the drain terminal is influenced by an applied voltage. The body simply refers to the bulk of the semiconductor in which the gate, source and drain lie. Usually the body terminal is connected to the highest or lowest voltage within the circuit, depending on the type of the FET. The body terminal and the source terminal are sometimes connected together since the source is often connected to the highest or lowest voltage within the circuit, although there are several uses of FETs which do not have such a configuration, such as transmission gates and cascode circuits.
+
+
+== FET operation ==
+
+The FET controls the flow of electrons (or electron holes) from the source to drain by affecting the size and shape of a "conductive channel" created and influenced by voltage (or lack of voltage) applied across the gate and source terminals. (For simplicity, this discussion assumes that the body and source are connected.) This conductive channel is the "stream" through which electrons flow from source to drain.
+
+
+=== n-channel ===
+In an n-channel depletion-mode device, a negative gate-to-source voltage causes a depletion region to expand in width and encroach on the channel from the sides, narrowing the channel. If the active region expands to completely close the channel, the resistance of the channel from source to drain becomes large, and the FET is effectively turned off like a switch. This is called pinch-off, and the voltage at which it occurs is called the pinch-off voltage. Conversely, a positive gate-to-source voltage increases the channel size and allows electrons to flow easily.
+In an n-channel enhancement-mode device, a conductive channel does not exist naturally within the transistor, and a positive gate-to-source voltage is necessary to create one. The positive voltage attracts free-floating electrons within the body towards the gate, forming a conductive channel. But first, enough electrons must be attracted near the gate to counter the dopant ions added to the body of the FET; this forms a region with no mobile carriers called a depletion region, and the voltage at which this occurs is referred to as the threshold voltage of the FET. Further gate-to-source voltage increase will attract even more electrons towards the gate which are able to create a conductive channel from source to drain; this process is called inversion.
+
+
+=== p-channel ===
+In a p-channel depletion-mode device, a positive voltage from gate to body creates a depletion layer by forcing the positively charged holes away from the gate-insulator/semiconductor interface, leaving exposed a carrier-free region of immobile, negatively charged acceptor ions.
+
+
+=== Operation ===
+For either enhancement- or depletion-mode devices, at drain-to-source voltages much less than gate-to-source voltages, changing the gate voltage will alter the channel resistance, and drain current will be proportional to drain voltage (referenced to source voltage). In this mode the FET operates like a variable resistor and the FET is said to be operating in a linear mode or ohmic mode.
+If drain-to-source voltage is increased, this creates a significant asymmetrical change in the shape of the channel due to a gradient of voltage potential from source to drain. The shape of the inversion region becomes "pinched-off" near the drain end of the channel. If drain-to-source voltage is increased further, the pinch-off point of the channel begins to move away from the drain towards the source. The FET is said to be in saturation mode; although some authors refer to it as active mode, for a better analogy with bipolar transistor operating regions. The saturation mode, or the region between ohmic and saturation, is used when amplification is needed. The in-between region is sometimes considered to be part of the ohmic or linear region, even where drain current is not approximately linear with drain voltage.
+Even though the conductive channel formed by gate-to-source voltage no longer connects source to drain during saturation mode, carriers are not blocked from flowing. Considering again an n-channel enhancement-mode device, a depletion region exists in the p-type body, surrounding the conductive channel and drain and source regions. The electrons which comprise the channel are free to move out of the channel through the depletion region if attracted to the drain by drain-to-source voltage. The depletion region is free of carriers and has a resistance similar to silicon. Any increase of the drain-to-source voltage will increase the distance from drain to the pinch-off point, increasing the resistance of the depletion region in proportion to the drain-to-source voltage applied. This proportional change causes the drain-to-source current to remain relatively fixed, independent of changes to the drain-to-source voltage, quite unlike its ohmic behavior in the linear mode of operation. Thus, in saturation mode, the FET behaves as a constant-current source rather than as a resistor, and can effectively be used as a voltage amplifier. In this case, the gate-to-source voltage determines the level of constant current through the channel.
+
+
+== Composition ==
+FETs can be constructed from various semiconductors, with silicon being by far the most common. Most FETs are made by using conventional bulk semiconductor processing techniques, using a single crystal semiconductor wafer as the active region, or channel.
+Among the more unusual body materials are amorphous silicon, polycrystalline silicon or other amorphous semiconductors in thin-film transistors or organic field-effect transistors (OFETs) that are based on organic semiconductors; often, OFET gate insulators and electrodes are made of organic materials, as well. Such FETs are manufactured using a variety of materials such as silicon carbide (SiC), gallium arsenide (GaAs), gallium nitride (GaN), and indium gallium arsenide (InGaAs). In June 2011, IBM announced that it had successfully used graphene-based FETs in an integrated circuit. These transistors are capable of about 2.23 GHz cutoff frequency, much higher than standard silicon FETs.
+
+
+== Types of field-effect transistors ==
+
+The channel of a FET is doped to produce either an n-type semiconductor or a p-type semiconductor. The drain and source may be doped of opposite type to the channel, in the case of enhancement mode FETs, or doped of similar type to the channel as in depletion mode FETs. Field-effect transistors are also distinguished by the method of insulation between channel and gate. Types of FETs include:
+The JFET (junction field-effect transistor) uses a reverse biased p–n junction to separate the gate from the body.
+The MOSFET (metal–oxide–semiconductor field-effect transistor) utilizes an insulator (typically SiO2) between the gate and the body.
+The DGMOSFET (dual-gate MOSFET) is a FET with two insulated gates.
+The DEPFET is a FET formed in a fully depleted substrate and acts as a sensor, amplifier and memory node at the same time. It can be used as an image (photon) sensor.
+The FREDFET (fast-reverse or fast-recovery epitaxial diode FET) is a specialized FET designed to provide a very fast recovery (turn-off) of the body diode.
+The HIGFET (heterostructure insulated gate field-effect transistor) is now used mainly in research.
+The MODFET (modulation-doped field-effect transistor) uses a quantum well structure formed by graded doping of the active region.
+The TFET (tunnel field-effect transistor) is based on band-to-band tunneling.
+The IGBT (insulated-gate bipolar transistor) is a device for power control. It has a structure akin to a MOSFET coupled with a bipolar-like main conduction channel. These are commonly used for the 200–3000 V drain-to-source voltage range of operation. Power MOSFETs are still the device of choice for drain-to-source voltages of 1 to 200 V.
+The HEMT (high-electron-mobility transistor), also called a HFET (heterostructure FET), can be made using bandgap engineering in a ternary semiconductor such as AlGaAs. The fully depleted wide-band-gap material forms the isolation between gate and body.
+The ISFET (ion-sensitive field-effect transistor) can be used to measure ion concentrations in a solution; when the ion concentration (such as H+, see pH electrode) changes, the current through the transistor will change accordingly.
+The BioFET (Biologically sensitive field-effect transistor) is a class of sensors/biosensors based on ISFET technology which are utilized to detect charged molecules; when a charged molecule is present, changes in the electrostatic field at the BioFET surface result in a measurable change in current through the transistor. These include EnFETs, ImmunoFETs, GenFETs, DNAFETs, CPFETs, BeetleFETs, and FETs based on ion-channels/protein binding.
+The MESFET (metal–semiconductor field-effect transistor) substitutes the p–n junction of the JFET with a Schottky barrier; and is used in GaAs and other III-V semiconductor materials.
+The NOMFET is a nanoparticle organic memory field-effect transistor.
+The GNRFET (graphene nanoribbon field-effect transistor) uses a graphene nanoribbon for its channel.
+The VeSFET (vertical-slit field-effect transistor) is a square-shaped junctionless FET with a narrow slit connecting the source and drain at opposite corners. Two gates occupy the other corners, and control the current through the slit.
+The CNTFET (carbon nanotube field-effect transistor).
+The OFET (organic field-effect transistor) uses an organic semiconductor in its channel.
+The DNAFET (DNA field-effect transistor) is a specialized FET that acts as a biosensor, by using a gate made of single-strand DNA molecules to detect matching DNA strands.
+The QFET (quantum field effect transistor) takes advantage of quantum tunneling to greatly increase the speed of transistor operation by eliminating the traditional transistor's area of electron conduction.
+
+
+== Advantages of FET ==
+The main advantage of the FET is its high input resistance, on the order of 100 MΩ or more. Thus, it is a voltage-controlled device, and shows a high degree of isolation between input and output. It is a unipolar device, depending only on majority current flow.. Because base current noise will increase with shaping time, a FET typically produces less noise than a bipolar junction transistor (BJT), and is thus found in noise sensitive electronics such as tuners and low-noise amplifiers for VHF and satellite receivers. It is relatively immune to radiation. It exhibits no offset voltage at zero drain current and hence makes an excellent signal chopper. It typically has better thermal stability than a BJT.
+
+
+== Disadvantages of FET ==
+It has a relatively low gain-bandwidth product compared to a BJT. The MOSFET has a drawback of being very susceptible to overload voltages, thus requiring special handling during installation. The fragile insulating layer of the MOSFET between the gate and channel makes it vulnerable to electrostatic damage or changes to threshold voltage during handling. This is not usually a problem after the device has been installed in a properly designed circuit.
+FETs often have a very low 'on' resistance and have a high 'off' resistance. However the intermediate resistances are significant, and so FETs can dissipate large amounts of power while switching. Thus efficiency can put a premium on switching quickly, but this can cause transients that can excite stray inductances and generate significant voltages that can couple to the gate and cause unintentional switching. FET circuits can therefore require very careful layout and can involve trades between switching speed and power dissipation. There is also a trade-off between voltage rating and 'on' resistance, so high voltage FETs have a relatively high 'on' resistance and hence conduction losses.
+
+
+== Uses of FET ==
+The most commonly used FET is the MOSFET. The CMOS (complementary metal oxide semiconductor) process technology is the basis for modern digital integrated circuits. This process technology uses an arrangement where the (usually "enhancement-mode") p-channel MOSFET and n-channel MOSFET are connected in series such that when one is ON, the other is OFF.
+In FETs, electrons can flow in either direction through the channel when operated in the linear mode. The naming convention of drain terminal and source terminal is somewhat arbitrary, as the devices are typically (but not always) built symmetrically from source to drain. This makes FETs suitable for switching analog signals between paths (multiplexing). With this concept, one can construct a solid-state mixing board, for example.
+A common use of the FET is as an amplifier. For example, due to its large input resistance and low output resistance, it is effective as a buffer in common-drain (source follower) configuration.
+IGBTs are used in switching internal combustion engine ignition coils, where fast switching and voltage blocking capabilities are important.
+
+
+== See also ==
+Chemical field-effect transistor
+Quantum field effect transistor
+ISFET
+MOSFET
+FET amplifier
+
+
+== References ==
+
+
+== External links ==
+Field Effect Transistor Applications
+PBS The Field Effect Transistor
+Junction Field Effect Transistor
+CMOS gate circuitry
+Winning the Battle Against Latchup in CMOS Analog Switches
+Field Effect Transistors in Theory and Practice
+The Field Effect Transistor as a Voltage Controlled Resistor

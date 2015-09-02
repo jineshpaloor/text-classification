@@ -1,0 +1,38 @@
+Hot wire barretter
+The hot wire barretter was a demodulating detector, invented in 1902 by Reginald Fessenden, that found limited use in early radio receivers. In effect it was a highly sensitive thermoresistor developed to permit the reception of amplitude modulated signals, something that the coherer (the standard detector of the time) could not do.
+The first device used to demodulate audio signals, it was later superseded by the electrolytic detector, also generally attributed to Fessenden. The barretter principle is still used as a detector for microwave radiation, similar to a bolometer.
+
+
+== Description and construction ==
+An extremely fine platinum wire, about 0.003 inches (0.08 mm) in diameter, is embedded in the middle of a silver tube having a diameter of about 0.1 inches (2.5 mm). This compound wire is then drawn until the silver wire had a diameter of about 0.002 inches (0.05 mm); as the platinum wire within it is reduced in the same ratio, it is drawn down to a final diameter of 0.00006 inches (1.5 µm). The result is called Wollaston wire.
+The silver cladding is etched off a short piece of the composite wire, leaving an extremely fine platinum wire; this is supported, on two heavier silver wires, in a loop inside a glass bulb. The leads are taken out through the glass envelope and the whole device is put under vacuum and then sealed.
+
+
+== Operation ==
+The hot wire barretter depends upon the variation (usually an increase) of a metal's resistivity as a function of increasing temperature. The device is biased by a direct current adjusted to heat the wire to its most sensitive temperature. When there is an oscillating current from the antenna through the extremely fine platinum wire loop, the wire is further heated as the current increases and cools as the current decreases again. As the wire heats and cools, it varies its resistance in response to the signals passing through it. Because of the low thermal mass of the wire, it is capable of responding quickly enough to vary its resistance in response to audio signals. However, it cannot vary its resistance fast enough to respond to much higher radio frequencies. The radio frequencies are essentially removed, and the sound is demodulated because the current through the circuit varies with the changing wire resistance. Headphones are connected in series with the D.C. circuit and the variations in the current are rendered as sound.
+
+
+== See also ==
+
+Electrolytic detector a development of the barretter detector.
+Iron-hydrogen resistor
+
+
+== External links ==
+
+
+=== Patents ===
+US 706744 , "Current Actuated Wave Responsive Device" – August, 1902 ("barretter" detector)
+US 727331 , "Receiver for Electromagnetic Waves" – May, 1903 (improved "barretter")
+
+
+=== Other ===
+Detectors of electrical oscillations
+Tech Definitions - Radio Concepts
+United States Early Radio History
+Secor, H. Winfield (January, 1917). Radio Detector Development. The Electrical Experimenter, pages 652+, accessed 2007-12-20.
+
+
+== References ==
+^ History of Wireless Tapan K. Sarkar, Robert Mailloux, Arthur A. Oliner, Magdalena Salazar-Palma, Dipak L. Sengupta ISBN 978-0-471-78301-5 January 2006, Wiley-IEEE Press page 369
+^ IEEE Std. 100 Dictionary of IEEE Standards Terms, 7th Ed. ISBN 0-7381-2601-2

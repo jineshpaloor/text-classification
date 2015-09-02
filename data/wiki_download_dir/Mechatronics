@@ -1,0 +1,95 @@
+Mechatronics
+Mechatronics is a multidisciplinary field of engineering that includes a combination of systems engineering, mechanical engineering, electrical engineering, telecommunications engineering, control engineering and computer engineering. As technology advances the subfields of engineering multiply and adapt. Mechatronics' aim is a design process that unifies these subfields. Originally, mechatronics just included the combination of mechanics and electronics, hence the word is a combination of mechanics and electronics; however, as technical systems have become more and more complex the word has been broadened to include more technical areas.
+The word "mechatronics" originated in Japanese-English and was created by Tetsuro Mori, an engineer of Yaskawa Electric Corporation. The word "mechatronics" was registered as trademark by the company in Japan with the registration number of "46-32714" in 1971. However, afterward the company released the right of using the word to public, and the word "mechatronics" spread to the rest of the world. Nowadays, the word is translated in each language and the word is considered as an essential term for industry.
+French standard NF E 01-010 gives the following definition: “approach aiming at the synergistic integration of mechanics, electronics, control theory, and computer science within product design and manufacturing, in order to improve and/or optimize its functionality".
+Many people treat "mechatronics" as a modern buzzword synonymous with "electromechanical engineering". However, other people draw a distinction between an "electromechanical component"—does not include a computer; an electro-mechanical computer (such as the Z4)—does not include an electronic computer; vs. a "mechatronic system"—a computer-controlled mechanical system, including both an electronic computer and electromechanical components.
+
+
+== Description ==
+
+A mechatronics engineer unites the principles of mechanics, electronics, and computing to generate a simpler, more economical and reliable system. The term "mechatronics" was coined by Tetsuro Mori, the senior engineer of the Japanese company Yaskawa in 1969. An industrial robot is a prime example of a mechatronics system; it includes aspects of electronics, mechanics, and computing to do its day-to-day jobs.
+Engineering cybernetics deals with the question of control engineering of mechatronic systems. It is used to control or regulate such a system (see control theory). Through collaboration, the mechatronic modules perform the production goals and inherit flexible and agile manufacturing properties in the production scheme. Modern production equipment consists of mechatronic modules that are integrated according to a control architecture. The most known architectures involve hierarchy, polyarchy, heterarchy, and hybrid. The methods for achieving a technical effect are described by control algorithms, which might or might not utilize formal methods in their design. Hybrid systems important to mechatronics include production systems, synergy drives, planetary exploration rovers, automotive subsystems such as anti-lock braking systems and spin-assist, and everyday equipment such as autofocus cameras, video, hard disks, and CD players.
+
+
+== Course structure ==
+Mechatronic students take courses in various fields:
+Mechanical engineering and materials science
+Electrical engineering
+Computer engineering (software & hardware engineering)
+Computer science
+Systems and control engineering
+Optical engineering
+
+
+== Application ==
+Machine vision
+Automation and robotics
+Servo-mechanics
+Sensing and control systems
+Automotive engineering, automotive equipment in the design of subsystems such as anti-lock braking systems
+Computer-machine controls, such as computer driven machines like IE CNC milling machines
+Expert systems
+Industrial goods
+Consumer products
+Mechatronics systems
+Medical mechatronics, medical imaging systems
+Structural dynamic systems
+Transportation and vehicular systems
+Mechatronics as the new language of the automobile
+Computer aided and integrated manufacturing systems
+Computer-aided design
+Engineering and manufacturing systems
+Packaging
+Microcontrollers / PLCs
+Mobile apps
+M&E Engineering
+
+
+== Physical implementations ==
+Mechanical modeling calls for modeling and simulating physical complex phenomenon in the scope of a multi-scale and multi-physical approach. This implies to implement and to manage modeling and optimization methods and tools, which are integrated in a systemic approach. The specialty is aimed at students in mechanics who want to open their mind to systems engineering, and able to integrate different physics or technologies, as well as students in mechatronics who want to increase their knowledge in optimization and multidisciplinary simulation technics. The specialty educates students in robust and/or optimized conception methods for structures or many technological systems, and to the main modeling and simulation tools used in R&D. Special courses are also proposed for original applications (multi-materials composites, innovating transducers and actuators, integrated systems, …) to prepare the students to the coming breakthrough in the domains covering the materials and the systems. For some mechatronic systems, the main issue is no longer how to implement a control system, but how to implement actuators. Within the mechatronic field, mainly two technologies are used to produce movement/motion.
+
+
+== Variant of the field ==
+An emerging variant of this field is biomechatronics, whose purpose is to integrate mechanical parts with a human being, usually in the form of removable gadgets such as an exoskeleton. Such an entity is often identified in science fiction as an android. This is the "real-life" version of cyberware.
+Other variant that we can considerer. Motion control for Advance Mechatronics is now recognized as a key technology in mechatronics. The robustness of motion control will be represented as a function of stiffness and a basis for practical realization. Target of motion is parameterized by control stiffness which could be variable according to the task reference. However, the system robustness of motion always requires very high stiffness in the controller.
+
+
+== See also ==
+
+Cybernetics
+Control theory
+Electromechanics
+Mechatronics journals
+List of engineering topics
+Materials engineering
+Mechanical engineering technology
+Robotics
+Stereochemistry
+Supramolecular engineering
+Systems engineering
+
+
+== References ==
+
+
+== Sources ==
+Bradley, Dawson et al., Mechatronics, Electronics in products and processes, Chapman and Hall Verlag, London, 1991.
+Karnopp, Dean C., Donald L. Margolis, Ronald C. Rosenberg, System Dynamics: Modeling and Simulation of Mechatronic Systems, 4th Edition, Wiley, 2006. ISBN 0-471-70965-4 Bestselling system dynamics book using bond graph approach.
+Cetinkunt, Sabri, Mechatronics, John Wiley & Sons, Inc, 2007 ISBN 9780471479871
+James J. Nutaro (2010). Building software for simulation: theory and algorithms, with applications in C++. Wiley. 
+
+
+== Further reading ==
+Robert Munnig Schmidt, Georg Schitter, Adrian Rankers and Jan van Eijk, The Design of High Performance Mechatronics – 2nd revised edition. IOS Press, 2014.
+Bishop, Robert H., Mechatronics: an introduction. CRC Press, 2006.
+De Silva, Clarence W., Mechatronics: an integrated approach. CRC Press, 2005
+Onwubolu, Godfrey C., Mechatronics: principles and applications. Butterworth-Heinemann, 2005.
+Rankers, Adrian M., Machine Dynamics in Mechatronic Systems. University Twente, 1997
+
+
+== External links ==
+IEEE/ASME Transactions on Mechatronics.
+Mechatronics Journal – Elsevier
+mechatronic applications and realisation List of publications concerning examples
+NF E 01-010 2008 – AFNOR (French standard NF E 01-010)
+XP E 01-013 2009 – AFNOR (French standard NF E 01-013)

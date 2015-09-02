@@ -1,0 +1,112 @@
+RF connector
+A coaxial RF connector (radio frequency connector) is an electrical connector designed to work at radio frequencies in the multi-megahertz range. RF connectors are typically used with coaxial cables and are designed to maintain the shielding that the coaxial design offers. Better models also minimize the change in transmission line impedance at the connection. Mechanically, they provide a fastening mechanism (thread, bayonet, braces, blind mate) and springs for a low ohmic electric contact while sparing the gold surface, thus allowing very high mating cycles and reducing the insertion force. Research activity in the area of radio-frequency (RF) circuit design has surged in the 2000s in direct response to the enormous market demand for inexpensive, high-data-rate wireless transceivers.
+
+
+== Standard types ==
+
+7/16 DIN connector, a high-power 50 Ω connector originally developed by Spinner
+4.3-10 connector, a new connector interface, 1 jack - 3 plug designs.
+Belling-Lee connector, also called IEC 169-2 connector, used throughout Europe and some other countries for domestic television and FM radio antenna cabling
+BMA connector, also known as OSP (Omni Spectra push-on)
+BNC connector (Bayonet Neill-Concelman)
+C connector (Concelman)
+Dezifix connector, hermaphrodite connector used mainly by Rohde & Schwarz
+DIN 1.0/2.3 (DIN 47297), used for miniaturized 50 and 75 Ω coaxial modules in data- and telecommunications equipment. It can have a threaded, or a push-pull lock coupling mechanism.
+DIN 1.6/5.6 (DIN 47295), a 75 Ω connector, used for similar purposes as DIN 1.0/2.3.
+F connector, used for domestic television installations and domestic satellite LNBs (75 Ω) world wide
+GR connector (General Radio)
+Motorola connector, standard AM/FM antenna connector used for automotive radios
+Musa connector, a 50 Ω connector used in telecommunications and broadcast video
+N connector (Neill)
+NMO mount connector (new Motorola mount), removable mobile antenna connector uses a 3⁄4 inch (19 mm) mounting hole and has a large base with a 1 1/8" - 18 tpi thread for attaching the antenna.
+SC connector (RF), screw version of C connector [not to be confused with the fiber optic connector of the same name]
+TNC connector (threaded Neill-Concelman)
+Twin-lead
+UHF connector (e.g., PL-259/SO-239). Also referred to as an M-type connector by Japanese manufacturers such as Kenwood
+
+
+=== Miniature types ===
+DIN 47223 connector
+FME connector
+MCX connector
+Miniature BNC connector
+Miniature UHF connector
+SMZ connector - System 43 (BT43 and High Density HD43) for use in DDF
+
+
+=== Sub-miniature types ===
+SMA connector, including variants:
+3.5 and 2.92 mm connectors, which cross-mate with SMA, and
+2.4, 1.85 and 1.0 mm connectors, which do not cross-mate with SMA
+
+SMB connector
+FAKRA - Modified SMB connector with plastic housing and latch used in the automotive industry.
+
+SMC connector
+
+
+=== Micro-miniature types ===
+IMP connector
+MMCX connector
+MMS connector
+MMT connector
+UMP connector
+Hirose U.FL connector
+Hirose W.FL connector
+
+
+=== Precision types ===
+APC-7 connector
+
+
+=== Flange connectors ===
+EIA RF Connectors series of flanged connectors, normally used in high power broadcast transmission sites with rigid lines
+
+
+=== Quick-lock connectors ===
+
+HPQN connector
+Mini Quick connector
+QLS connector
+QMA and QN connector
+Mini-QMA connector
+WQMA connector (Waterproof QMA)
+
+SnapN connector
+
+
+=== High voltage types ===
+HN connector, a high voltage version of the N connector
+MHV connector, a coaxial connector designed for high voltages
+SHV connector, a safer coaxial connector designed for high voltages
+
+
+=== Blindmate types ===
+
+BMA (OSP) connector
+BMMA (OSSP) connector
+BZ connector
+BMZ connector
+SMP (GPO) connector
+SMPM (GPPO) connector
+
+
+== See also ==
+
+Antenna socket
+Coaxial cable
+Optical fiber connector
+List of coaxial connectors
+The following audio and video connectors are sometimes used for RF, but are not generally considered to be RF connectors:
+DIN connector (not to be confused with "7/16 DIN" or "DIN 1.0/2.3" connectors)
+RCA connector (Radio Corporation of America) originally introduced for audio, but now widely used for video as well
+SCART
+Concentric twinax connector
+
+
+== References ==
+
+
+== External links ==
+RF connectors for upper frequencies
+Common Coaxial Connectors

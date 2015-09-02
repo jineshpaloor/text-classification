@@ -1,0 +1,118 @@
+Surge protector
+A surge protector (or surge suppressor) is an appliance/device designed to protect electrical devices from voltage spikes. A surge protector attempts to limit the voltage supplied to an electric device by either blocking or by shorting to ground any unwanted voltages above a safe threshold. This article primarily discusses specifications and components relevant to the type of protector that diverts (shorts) a voltage spike to ground; however, there is some coverage of other methods.
+
+The terms surge protection device (SPD), or transient voltage surge suppressor (TVSS), are used to describe electrical devices typically installed in power distribution panels, process control systems, communications systems, and other heavy-duty industrial systems, for the purpose of protecting against electrical surges and spikes, including those caused by lightning. Scaled-down versions of these devices are sometimes installed in residential service entrance electrical panels, to protect equipment in a household from similar hazards.
+
+Many power strips have basic surge protection built in; these are typically clearly labeled as such. However, power strips that do not provide surge protection are sometimes erroneously referred to as "surge protectors".
+
+
+== Important specifications ==
+These are some of the most prominently featured specifications which define a surge protector for AC mains, as well as for some data communications protection applications.
+
+
+=== Clamping voltage ===
+Also known as the let-through voltage. This specifies what spike voltage will cause the protective components inside a surge protector to divert unwanted energy from the protected line. A lower clamping voltage indicates better protection, but can sometimes result in a shorter life expectancy for the overall protective system. The lowest three levels of protection defined in the UL rating are 330 V, 400 V and 500 V. The standard let-through voltage for 120 V AC devices is 330 volts.
+Underwriters Laboratories (UL), a global independent safety science company, defines how a protector may be used safely. UL 1449, 3rd edition became compliance mandatory in September 2009 to increase safety compared to products conforming to 2nd edition. A Measured Limiting Voltage test, using six times higher current (and energy), defines a Voltage Protection Rating (VPR). For a specific protector, this voltage may be higher compared to a Suppressed Voltage Ratings (SVR) in previous editions that measured let-through voltage with less current. Due to non-linear characteristics of protectors, let-through voltages defined by 2nd edition and 3rd edition testing are not comparable.
+A protector may be larger to obtain a same let-through voltage during 3rd edition testing. Therefore, a 3rd edition protector should provide superior safety with increased life expectancy.
+
+
+=== Joules rating ===
+This number defines how much energy an MOV-based surge protector can theoretically absorb in a single event, without failure. Counter-intuitively, a lower number may indicate longer life expectancy if the device can divert more energy elsewhere and thus absorb less energy. In other words, a protective device offering a lower clamping voltage while diverting the same surge current will cause more of the surge energy to be dissipated elsewhere in that current's path. Better protectors exceed peak ratings of 1000 joules and 40,000 amperes.
+It is often claimed that a lower joule rating is undersized protection, since the total energy in harmful spikes can be significantly larger than this. However, if properly installed, for every joule absorbed by a protector, another 4 to 30 joules may be dissipated harmlessly into ground. An MOV-based protector (described below) with a higher let-through voltage can receive a higher joule rating, even though it lets more surge energy through to the device to be protected.
+The joule rating is a commonly quoted but very misleading parameter for comparing MOV-based surge protectors. A surge of any arbitrary ampere and voltage combination can occur in time, but surges commonly last only for nanoseconds to microseconds, and experimentally modeled surge energy has been far under 100 joules. Well-designed surge protectors should not rely on MOVs to absorb surge energy, but instead to survive the process of harmlessly redirecting it to ground.
+Generally, more joules means an MOV absorbs less energy while diverting even more into ground.
+Some manufacturers commonly design higher joule-rated surge protectors by connecting multiple MOVs in parallel. Since individual MOVs have slightly different non-linear responses when exposed to the same overvoltage, any given MOV might be more sensitive than others. This can cause one MOV in a group to conduct more (a phenomenon called current hogging), leading to overuse and eventually premature failure of that component. If a single inline fuse is placed in series with the MOVs as a power-off safety feature, it will open and fail the surge protector even if remaining MOVs are intact. Thus, the effective surge energy absorption capacity of the entire system is dependent on the MOV with the lowest clamping voltage, and the additional MOVs do not provide any further benefit. This limitation can be surmounted by using carefully matched sets of MOVs, but this matching must be carefully coordinated with the original manufacturer of the MOV components.
+According to industry standards, power line surges inside a building can be up to 6,000 volts, 3,000 amperes, and deliver up to 90 joules of energy, including surges from external sources.
+Lightning and other high-energy transient voltage surges can be suppressed with a whole house surge protector. These products are more expensive than simple single-outlet surge protectors, and often need professional installation on the incoming electrical power feed; however, they provide whole house protection from surges via that path. Damage from direct lightning strikes via other paths must be controlled separately.
+
+
+=== Response time ===
+Surge protectors don't operate instantaneously; a slight delay exists. The longer the response time, the longer the connected equipment will be exposed to the surge. However, surges don't happen instantly either. Surges usually take around a few microseconds to reach their peak voltage, and a surge protector with a nanosecond response time would kick in fast enough to suppress the most damaging portion of the spike.
+Therefore, response time under standard testing is not a useful measure of a surge protector's ability when comparing MOV devices. All MOVs have response times measured in nanoseconds, while test waveforms usually used to design and calibrate surge protectors are all based on modeled waveforms of surges measured in microseconds. As a result, MOV-based protectors have no trouble producing impressive response-time specs.
+Slower-responding technologies (notably, GDTs) may have difficulty protecting against fast spikes. Therefore, good designs incorporating slower but otherwise useful technologies usually combine them with faster-acting components, to provide more comprehensive protection.
+
+
+=== Standards ===
+Some frequently listed standards include:
+IEC 61643-1
+EN 61643-11 and 61643-21
+Telcordia Technologies Technical Reference TR-NWT-001011
+ANSI/IEEE C62.xx
+Underwriters Laboratories (UL) 1449.
+Each standard defines different protector characteristics, test vectors, or operational purpose.
+The UL1449 (3rd Edition) standard for SPDs is a major rewrite of previous editions, and has also been accepted as an ANSI standard for the first time.
+EN 62305 and ANSI/IEEE C62.xx define what spikes a protector might be expected to divert. EN 61643-11 and 61643-21 specify both the product's performance and safety requirements. In contrast, the IEC only writes standards and does not certify any particular product as meeting those standards. IEC Standards are used by members of the CB Scheme of international agreements to test and certify products for safety compliance.
+None of those standards guarantee that a protector will provide proper protection in a given application. Each standard defines what a protector should do or might accomplish, based on standardized tests that may or may not correlate to conditions present in a particular real-world situation. A specialized engineering analysis may be needed to provide sufficient protection, especially in situations of high lightning risk.
+
+
+== Primary components ==
+Systems used to reduce or limit high voltage surges can include one or more of the following types of electronic components. Some surge suppression systems use multiple technologies, since each method has its strong and weak points. The first six methods listed operate primarily by diverting unwanted surge energy away from the protected load, through a protective component connected in a parallel (or shunted) topology. The last two methods also block unwanted energy by using a protective component connected in series with the power feed to the protected load, and additionally may shunt the unwanted energy like the earlier systems.
+
+
+=== Metal oxide varistor (MOV) ===
+
+A metal oxide varistor consists of a bulk semiconductor material (typically sintered granular zinc oxide) that can conduct large currents (effectively short-circuits) when presented with a voltage above its rated voltage. MOVs typically limit voltages to about 3 to 4 times the normal circuit voltage by diverting surge current elsewhere than the protected load. MOVs may be connected in parallel to increase current capability and life expectancy, providing they are matched sets (unmatched MOVs have a tolerance of approximately ±20% on voltage ratings, which is not sufficient). For more details on the effectiveness of parallel-connected MOVs, see the section on Joules Rating elsewhere in this article.
+MOVs have finite life expectancy and "degrade" when exposed to a few large transients, or many more smaller transients. As a MOV degrades, its triggering voltage falls lower and lower. If the MOV is being used to protect a low-power signal line, the ultimate failure mode typically is a partial or complete short circuit of the line, terminating normal circuit operation.
+If used in a power filtering application, eventually the MOV behaves as a part-time effective short circuit on an AC (or DC) power line, which will cause it to heat up, starting a process called thermal runaway. As the MOV heats up, it may degrade further, causing a catastrophic failure that can result in a small explosion or fire, if the line current is not otherwise limited. An undersized MOV fails when "Absolute Maximum Ratings" in manufacturer's data-sheet are significantly exceeded.
+MOVs are often connected in series with a thermal fuse, so that the fuse disconnects before catastrophic failure can happen. When this happens, only the MOV is disconnected. A failing MOV is a fire risk, which is a reason for the National Fire Protection Association's (NFPA) UL1449 in 1986 and subsequent revisions in 1998 and 2009. NFPA's primary concern is protection from fire.
+When used in power applications, MOVs usually are thermal fused or otherwise protected to avoid persistent short circuits and other fire hazards. In a typical power strip, the visible circuit breaker is distinct from the internal thermal fuse, which is not normally visible to the end user. The circuit breaker has no function related to disconnecting an MOV. A thermal fuse or some equivalent solution protects from MOV generated hazards.
+If a surge current is so excessively large as to exceed the MOV parameters and blow the thermal fuse, then a light found on some protectors would indicate unacceptable failure. Even adequately sized MOV protectors will eventually degrade beyond acceptable limits, with or without a failure light indication. Therefore, all MOV-based protectors intended for long-term use should have an indicator that the protective components have failed, and this indication must be checked on a regular basis to insure that protection is still functioning.
+Because of their good price/performance ratio, MOVs are the most common protector component in low-cost basic AC power protectors.
+
+
+=== Transient voltage suppression (TVS) diode ===
+A TVS diode is a type of Zener diode, also called an avalanche diode or silicon avalanche diode (SAD), which can limit voltage spikes. These components provide the fastest limiting action of protective components (theoretically in picoseconds), but have a relatively low energy absorbing capability. Voltages can be clamped to less than twice the normal operation voltage. If current impulses remain within the device ratings, life expectancy is exceptionally long. If component ratings are exceeded, the diode may fail as a permanent short circuit; in such cases, protection may remain but normal circuit operation is terminated in the case of low-power signal lines. Due to their relatively limited current capacity, TVS diodes are often restricted to circuits with smaller current spikes. TVS diodes are also used where spikes occur significantly more often than once a year, since this component will not degrade when used within its ratings. A unique type of TVS diode (trade names Transzorb or Transil) contains reversed paired series avalanche diodes for bi-polar operation.
+TVS diodes are often used in high-speed but low-power circuits, such as occur in data communications. These devices can be paired in series with another diode to provide low capacitance as required in communication circuits.
+
+
+=== Thyristor surge protection device (TSPD) ===
+
+A Trisil is a type of thyristor surge protection device (TSPD), a specialized solid-state electronic device used in crowbar circuits to protect against overvoltage conditions. A SIDACtor is another thyristor type device used for similar protective purposes.
+These thyristor-family devices can be viewed as having characteristics much like a spark gap or a GDT, but can operate much faster. They are related to TVS diodes, but can "breakover" to a low clamping voltage analogous to an ionized and conducting spark gap. After triggering, the low clamping voltage allows large current surges to flow while limiting heat dissipation in the device.
+
+
+=== Gas discharge tube (GDT) ===
+
+A gas discharge tube (GDT) is a sealed glass-enclosed device containing a special gas mixture trapped between two electrodes, which conducts electric current after becoming ionized by a high voltage spike. GDTs can conduct more current for their size than other components. Like MOVs, GDTs have a finite life expectancy, and can handle a few very large transients or a greater number of smaller transients. The typical failure mode occurs when the triggering voltage rises so high that the device becomes ineffective, although lightning surges can occasionally cause a dead short.
+GDTs take a relatively long time to trigger, permitting a higher voltage spike to pass through before the GDT conducts significant current. It is not uncommon for a GDT to let through pulses of 500 V or more of 100 ns in duration. In some cases, additional protective components are necessary to prevent damage to a protected load, caused by high-speed let-through voltage which occurs before the GDT begins to operate.
+GDTs create an effective short circuit when triggered, so that if any electrical energy (spike, signal, or power) is present, the GDT will short this. Once triggered, a GDT will continue conducting (called follow-on current) until all electric current sufficiently diminishes, and the gas discharge quenches. Unlike other shunt protector devices, a GDT once triggered will continue to conduct at a voltage less than the high voltage that initially ionized the gas; this behavior is called negative resistance. Additional auxiliary circuitry may be needed in DC (and some AC) applications to suppress follow-on current, to prevent it from destroying the GDT after the initiating spike has dissipated. Some GDTs are designed to deliberately short out to a grounded terminal when overheated, thereby triggering an external fuse or circuit breaker.
+Many GDTs are light-sensitive, in that exposure to light lowers their triggering voltage. Therefore, GDTs should be shielded from light exposure, or opaque versions that are insensitive to light should be used.
+The CG2 SN series of surge arrestors formerly produced by C P Clare, are advertised as being non-radioactive, and the datasheet for that series states that some members of the CG/CG2 series (75-470V) are radioactive. 
+Due to their exceptionally low capacitance, GDTs are commonly used on high frequency lines, such as are used in telecommunications equipment. Because of their high current handling capability, GDTs can also be used to protect power lines, but the follow-on current problem must be controlled.
+
+
+=== Selenium voltage suppressor ===
+An "overvoltage clamping" bulk semiconductor similar to an MOV, though it does not clamp as well. However, it usually has a longer life than an MOV. It is used mostly in high-energy DC circuits, like the exciter field of an alternator. It can dissipate power continuously, and it retains its clamping characteristics throughout the surge event, if properly sized.
+
+
+=== Carbon block spark gap overvoltage suppressor ===
+
+A spark gap is one of the oldest protective electrical technologies still found in telephone circuits, having been developed in the nineteenth century. A carbon rod electrode is held with an insulator a specific distance from a second electrode. The gap dimension determines the voltage at which a spark will jump between the two parts and short to ground. The typical spacing for telephone applications in North America is 0.076 mm (0.003"). Carbon block suppressors are similar to gas arrestors (GDTs) but with the two electrodes exposed to the air, so their behavior is affected by the surrounding atmosphere, especially the humidity. Since their operation produces an open spark, these devices should never be installed where an explosive atmosphere may develop.
+
+
+=== Quarter-wave coaxial surge arrestor ===
+Used in RF signal transmission paths, this technology features a tuned quarter-wavelength short-circuit stub that allows it to pass a bandwidth of frequencies, but presents a short to any other signals, especially down towards DC. The passbands can be narrowband (about ±5% to ±10% bandwidth) or wideband (above ±25% to ±50% bandwidth). Quarter-wave coax surge arrestors have coaxial terminals, compatible with common coax cable connectors (especially N or 7-16 types). They provide the most rugged available protection for RF signals above 400 MHz; at these frequencies they can perform much better than the gas discharge cells typically used in the universal/broadband coax surge arrestors. Quarter-wave arrestors are useful for telecommunications applications, such as Wi-Fi at 2.4 or 5 GHz but less useful for TV/CATV frequencies. Since a quarter-wave arrestor shorts out the line for low frequencies, it is not compatible with systems which send DC power for a LNB up the coaxial downlink.
+
+
+=== Series Mode (SM) surge suppressors ===
+These devices are not rated in joules because they operate differently from the earlier suppressors, and they do not depend on materials that inherently wear out during repeated surges. SM suppressors are primarily used to control transient voltage surges on electrical power feeds to protected devices. They are essentially heavy-duty low-pass filters connected so that they allow 50/60 Hz line voltages through to the load, while blocking and diverting higher frequencies. This type of suppressor differs from others by using banks of inductors, capacitors and resistors that suppress voltage surges and in rush current to the neutral wire, whereas other designs shunt to the ground wire. Surges are not diverted but actually suppressed. The inductors slow down the energy. Since the inductor in series with the circuit path slows the current spike, the peak surge energy is spread out in the time domain and harmlessly absorbed and slowly released from a capacitor bank.
+Experimental results show that most surge energies occur at under 100 Joules, so exceeding the SM design parameters is unlikely. SM suppressors do not present a fire risk should the absorbed energy exceed design limits of the dielectric material of the components because the surge energy is also limited via arc-over to ground during lightning strikes, leaving a surge remnant that often does not exceed a theoretical maximum (such as 6000 V at 3000 A with a modeled shape of 8 x 20 microsecond waveform specified by IEEE/ANSI C62.41). Because SM work on both the current rise and the voltage rise, they can safely operate in the worst surge environments.
+SM suppression focuses its protective philosophy on a power supply input, but offers nothing to protect against surges appearing between the input of an SM device and data lines, such as antennae, telephone or LAN connections, or multiple such devices cascaded and linked to the primary devices. This is because they do not divert surge energy to the ground line. Data transmission requires the ground line to be clean in order to be used as a reference point. In this design philosophy, such events are already protected against by the SM device before the power supply. NIST reports that "Sending them [surges] down the drain of a grounding conductor only makes them reappear within a microsecond about 200 meters away on some other conductor." So having protection on a data transmission line is only required if surges are diverted to the ground line.
+In comparison to devices relying on 10 cent components that operate only briefly (such as MOVs or GDTs), SM devices tend to be bulkier and heavier than those simpler spike shunting components. The initial costs of SM filters are higher, typically 130 USD and up, but a long service life can be expected if they are used properly. In-field installation costs can be higher, since SM devices are installed in series with the power feed, requiring the feed to be cut and reconnected.
+
+
+== See also ==
+Lightning arrester
+Surge arrester
+Lightning rod
+Thyristor
+Varistor
+
+
+== References ==
+
+
+== External links ==
+Surge protector at DMOZ
+Surge Protection in Low-Voltage AC Power Circuits: An 8-part Anthology A comprehensive compilation of papers and articles published 1963-2003, hosted by the National Institute of Standards and Technology (NIST), an agency of the US Commerce Department.
+NEMA Surge Protection Institute

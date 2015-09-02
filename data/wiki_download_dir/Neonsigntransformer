@@ -1,0 +1,23 @@
+Neon-sign transformer
+A neon-sign transformer (NST) is a transformer made for the purpose of powering a neon sign. They convert line voltage from the 120-347 V range up to high voltages, usually in the range of 2 to 15 kV. Most of these transformers generate between 30 - 120 mA. Note that strict terminology is "luminous tube", rather than "neon", the latter referring to the first such signs, which used neon.
+
+
+== Types ==
+Older NSTs are simply iron-cored transformers, usually embedded in asphalt to reduce noise. The core either has a magnetic shunt, or a gap in the Iron core, both of which serves to current-limit the output, allowing them to run indefinitely in short-circuit conditions. They can also run indefinitely with no load. Iron cored varieties are quite heavy, for example a 15 kV, 60 mA device may weigh up to 20 kg. Some newer manufactured Iron Cored NSTs include a large capacitor in parallel with the output for PFC (power factor correction). This serves to correct the shift in the phase of voltage and current caused by the large inductance of the transformer.
+Since the 1990s, manufacturers have been producing switch mode power supplies to power neon signs. These generate the same voltage and current ranges as iron cored transformers, but in much smaller, lighter designs at high frequency (not the common 50–60 Hz). They are gradually replacing iron cored transformers in neon signs.
+All NST's are designed to produce a high voltage starting pulse to a tube, then limit the current through the tube when it has started.This is opposite of most line transformers, which will produce full voltage to a load even if overloaded, unless the resistance of windings is too great to allow the excess current or until a winding burns out.
+
+
+== Other uses ==
+Besides the obvious purpose of powering neon signs, iron cored NST's are often used by hobbyists for:
+Tesla coil power supplies – used in small to medium sized tesla coils as the main source of high voltage.
+Jacob's Ladder – a climbing arc device often pictured in older horror films.
+Charging Capacitors – an NST makes a useful high voltage power supply to charge high voltage capacitors. Although the output of an NST is AC, it can be rectified by the proper diode or bridge rectifier.
+.
+
+
+== Safety ==
+Electrocution – The shock from a neon sign transformer could be lethal. The high voltage allows a large current to flow, even with light contact against dry skin. The transformer is current-limited, but typically to a level well above the threshold for ventricular fibrillation. Disconnect power to the transformer before servicing. Use appropriate insulation around connections; typical insulation, including standard electrical tape and most insulated wire, is rated only for much lower voltages.
+UV Light – The ultraviolet light emitted from the high voltage electrical arc can be harmful to ones eyes. It is recommended that the arc be viewed through the appropriate welding goggles or at the very least a high quality pair of sunglasses.
+Ozone – the production of ozone can be noticeable when there are problems with a luminous tube transformer installation. Ozone usually indicates failed secondary wiring, loose connections, high capacitance coupling, or a failing transformer.
+Fires – The arc length on 15 kV is in excess of 2 inches. Keep wiring inside grounded 1/2" metallic conduit (watertight if applicable). Be sure to use proper enclosures for transformers. Stray electric arcs will ignite combustible materials.

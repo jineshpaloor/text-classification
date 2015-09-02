@@ -1,0 +1,30 @@
+Electric power conversion
+In electrical engineering, power engineering and the electric power industry, power conversion is converting electric energy from one form to another, converting between AC and DC, or just changing the voltage or frequency, or some combination of these. A power converter is an electrical or electro-mechanical device for converting electrical energy. This could be as simple as a transformer to change the voltage of AC power, but also includes far more complex systems. The term can also refer to a class of electrical machinery that is used to convert one frequency of alternating current into another frequency.
+Power conversion systems often incorporate redundancy and voltage regulation.
+One way of classifying power conversion systems is according to whether the input and output are alternating current (AC) or direct current (DC), thus:
+There are also devices and methods to convert between power systems designed for single and three-phase operation.
+The standard power frequency varies from country to country, and sometimes within a country. In North America and northern South America it is usually 60 hertz (Hz), but in many other parts of the world, is usually 50 Hz. Aircraft often use 400 Hz power, so 50 Hz or 60 Hz to 400 Hz frequency conversion is needed for use in the ground power unit used to power the airplane while it is on the ground.
+Certain specialized circuits, such as the flyback transformer for a CRT, can also be considered power converters.
+Consumer electronics usually include an AC adapter (a type of power supply) to convert mains-voltage AC current to low-voltage DC suitable for consumption by microchips. Consumer voltage converters (also known as "travel converters") are used when travelling between countries that use ~120 V vs. ~240 V AC mains power. (There are also consumer "adapters" which merely form an electrical connection between two differently shaped AC power plugs and sockets, but these change neither voltage nor frequency.)
+
+
+== See also ==
+Cascade converter
+Motor-generator
+Rotary converter
+Three-phase electric power
+
+
+== References ==
+
+Abraham I. Pressman (1997). Switching Power Supply Design. McGraw-Hill. ISBN 0-07-052236-7.
+Ned Mohan, Tore M. Undeland, William P. Robbins (2002). Power Electronics : Converters, Applications, and Design. Wiley. ISBN 0-471-22693-9.
+Fang Lin Luo, Hong Ye, Muhammad H. Rashid (2005). Digital Power Electronics and Applications. Elsevier. ISBN 0-12-088757-6.
+Fang Lin Luo, Hong Ye (2004). Advanced DC/DC Converters. CRC Press. ISBN 0-8493-1956-0.
+Mingliang Liu (2006). Demystifying Switched-Capacitor Circuits. Elsevier. ISBN 0-7506-7907-7.
+
+
+== External links ==
+[1]. A general description of DC-DC converters.
+U.S. based 50 Hz, 60 Hz and 400 Hz frequency converter manufacturer
+GlobTek, Inc. Glossary of Electric power conversion Power Supply Terms

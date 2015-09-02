@@ -1,0 +1,44 @@
+Category 6 cable
+Category 6 cable, commonly referred to as Cat 6, is a standardized cable for Gigabit Ethernet and other network physical layers that is backward compatible with the Category 5/5e and Category 3 cable standards. Compared with Cat 5 and Cat 5e, Cat 6 features more stringent specifications for crosstalk and system noise. The cable standard provides performance of up to 250 MHz and is suitable for 10BASE-T, 100BASE-TX (Fast Ethernet), 1000BASE-T/1000BASE-TX (Gigabit Ethernet), and 10GBASE-T (10-Gigabit Ethernet).
+
+
+== DescriptionEdit ==
+Whereas Category 6 cable has a reduced maximum length when used for 10GBASE-T, Category 6A cable (or Augmented Category 6) is characterized to 500 MHz and has improved alien crosstalk characteristics, allowing 10GBASE-T to be run for the same 100 meter distance as previous Ethernet variants.
+Category 6 cable can be identified by the printing on the side of the cable sheath.
+Cat 6 patch cables are normally terminated in 8P8C modular connectors. If Cat 6 rated patch cables, jacks and connectors are not used with Cat 6 wiring, overall performance is degraded and will not meet Cat 6 performance specifications.
+Connectors use either T568A or T568B pin assignments; although performance is comparable provided both ends of a cable are the same.
+
+
+== Category 6aEdit ==
+The latest standard from the TIA for enhanced performance standards for twisted pair cable systems was defined in February 2009 in ANSI/TIA-568-C.1. Category 6A is defined at frequencies up to 500 MHz—twice that of Cat 6.
+Category 6A performs at improved specifications, in particular in the area of alien crosstalk as compared to Cat 6 UTP (unshielded twisted pair), which exhibited high alien noise in high frequencies.
+The global cabling standard ISO/IEC 11801 has been extended by the addition of amendment 2. This amendment defines new specifications for Cat 6A components and Class EA permanent links. These new global Cat 6A/Class EA specifications require a new generation of connecting hardware offering far superior performance compared to the existing products that are based on the American TIA standard.
+The most important point is a performance difference between ISO/IEC and EIA/TIA component specifications for the NEXT transmission parameter. At a frequency of 500 MHz, an ISO/IEC Cat 6A connector performs 3 dB better than a Cat 6A connector that conforms with the EIA/TIA specification. 3 dB equals 50% reduction of near-end crosstalk noise signal power; see 3dB-point.
+Confusion therefore arises because of the different naming conventions and performance benchmarks laid down by the International ISO/IEC and American TIA/EIA standards, which in turn are different from the regional European standard, EN 50173-1. In broad terms, the ISO standard for Cat 6A is the highest, followed by the European standard, and then the American (1 on 1 matching capability).
+
+
+== Maximum lengthEdit ==
+When used for 10/100/1000BASE-T, the maximum allowed length of a Cat 6 cable is 100 meters (328 ft). This consists of 90 meters (295 ft) of solid "horizontal" cabling between the patch panel and the wall jack, plus 10 meters (33 ft) of stranded patch cable between each jack and the attached device.
+
+
+== Installation caveatsEdit ==
+Category 6 and 6A cable must be properly installed and terminated to meet specifications. The cable must not be kinked or bent too tightly (the bend radius should be at least four times the outer diameter of the cable). The wire pairs must not be untwisted and the outer jacket must not be stripped back more than 0.5 in (12.7 mm).
+Cable shielding may be required in order to improve a Cat 6 cable's performance in high electromagnetic interference (EMI) environments. This shielding reduces the corrupting effect of EMI on the cable's data. Shielding is typically maintained from one cable end to the other using a drain wire that runs through the cable alongside the twisted pairs. The shield's electrical connection to the chassis on each end is made through the jacks. The requirement for ground connections at both cable ends creates the possibility that a ground loop may result if one of the networked chassis is at different instantaneous electrical potential with respect to its mate. This undesirable situation may compel currents to flow between chassis through the network cable shield, and these currents may in turn induce detrimental noise in the signal being carried by the cable.
+
+
+== Category 6eEdit ==
+Category 6e is not a standard, and is frequently misused because category 5 followed with 5e as an enhancement on category 5. Soon after the ratification of Cat 6, a number of manufacturers began offering cable labeled as "Category 6e". Their intent was to suggest their offering was an upgrade to the Category 6 standard—presumably naming it after Category 5e. However, no legitimate Category 6e standard exists, and Cat 6e is not a recognized standard by the Telecommunications Industry Association, nor will it be. Category 7 is an international ISO standard, but not a TIA standard. Cat 7 is already in place as a shielded cable solution with non-traditional connectors that are not backward-compatible with category 3 through 6A. Category 8 is the next UTP cabling offering to be backward compatible.
+While all so-called cat 6e cables presumably meet category 6 standards, the actual increase in transfer speeds, if any, is unverified. The maximum cable length cannot vary from that established by TIA 568. Cat 6e cable will likely vary from manufacturer to manufacturer, owing to the fact it is simply a marketing name, not a standard in any way.
+
+
+== See alsoEdit ==
+Ethernet crossover cable
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+"10 Gb/s Over Copper: Horizontal Cabling Choices". The Siemon Company. 2006-01-10. Retrieved 2015-02-13.  Information on cable construction and alien crosstalk mitigation.
+Schmidt, John (March–April 2007). "Determining the Right Media" (PDF). BICSI News 28 (2). Archived from the original (PDF) on 2010-01-04.  Information on TIA TSB-155 37m versus IEEE 55m limitations.
+"What Really Changes With Category 6". The Siemon Company. Retrieved 2013-01-05.

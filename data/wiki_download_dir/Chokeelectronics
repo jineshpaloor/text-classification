@@ -1,0 +1,32 @@
+Choke (electronics)
+In electronics, a choke is an inductor used to block higher-frequency alternating current (AC) in an electrical circuit, while passing lower-frequency or direct current (DC). A choke usually consists of a coil of insulated wire often wound on a magnetic core, although some consist of a donut-shaped "bead" of ferrite material strung on a wire. The choke's impedance increases with frequency. Its low electrical resistance passes both AC and DC with little power loss, but it can limit the amount of AC due to its reactance.
+The name comes from blocking—“choking”—high frequencies while passing low frequencies. It is a functional name; the name “choke” is used if an inductor is used for blocking or decoupling higher frequencies, but is simply called an “inductor” if used in electronic filters or tuned circuits. Inductors designed for use as chokes are usually distinguished by not having the low-loss construction (high Q factor) required in inductors used in tuned circuits and filtering applications.
+
+
+== Types and construction ==
+
+Chokes are divided into two broad classes – audio frequency chokes (AFC), those designed to block audio and power line frequencies while allowing DC to pass, and radio frequency chokes (RFC), designed to block radio frequencies while allowing audio and DC to pass.
+
+
+=== Audio frequency and power supply filter chokes ===
+Audio frequency (AF) chokes usually have ferromagnetic cores to increase their inductance. They are often constructed similarly to transformers, with laminated iron cores. A major use in the past was in power supplies to produce direct current (DC), where they were used in conjunction with large electrolytic capacitors as filters to remove the alternating current (AC) ripple at the output of rectifiers. A rectifier circuit designed for a choke-input filter may produce too much DC output voltage and subject the rectifier and filter capacitors to excessive in-rush and ripple currents if the inductor is removed. However, modern electrolytic capacitors with high ripple current ratings, and voltage regulators that remove more power supply ripple than chokes could, have eliminated heavy, bulky chokes from mains frequency power supplies. Smaller chokes are used in switching power supplies to remove the higher-frequency switching transients from the output (and sometimes from feeding back into the mains input); these often have toroidal ferrite cores.
+
+
+=== RF chokes ===
+Chokes for higher frequencies often have iron powder or ferrite cores. They are often wound in complex patterns (basket winding) to reduce self-capacitance and proximity effect losses. Chokes for even higher frequencies have non-magnetic cores and low inductance. A modern form of choke used for eliminating digital RF noise from lines is the ferrite bead, a cylindrical or torus-shaped core of ferrite slipped over a wire. These are often seen on computer cables. A typical RF choke (RFC) value could be 2 millihenries.
+
+
+=== Common-mode choke ===
+
+Common-mode chokes, where two coils are wound on a single core, are useful for prevention of electromagnetic interference (EMI) and radio frequency interference (RFI) from power supply lines and for prevention of malfunctioning of electronic equipment. They pass differential currents (equal but opposite), while blocking common-mode currents. Magnetic fields produced by differential-mode currents in the windings tend to cancel each other out; thus the choke presents little inductance or impedance to differential-mode currents. This also means the core will not saturate even for large differential-mode currents, and the maximum current rating is instead determined by the heating effect of the winding resistance. Common-mode currents, however, see a high impedance due to the combined inductance of the windings.
+
+
+== References ==
+
+
+== See also ==
+Line reactor
+
+
+== External links ==
+Common Mode Choke Theory

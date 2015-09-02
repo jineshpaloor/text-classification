@@ -1,0 +1,30 @@
+Prospective short circuit current
+The prospective short circuit current (PSCC) or available fault current or short circuit making current is the highest electric current which can exist in a particular electrical system under short-circuit conditions. It is determined by the voltage and impedance of the supply system. It is of the order of a few thousand amperes for a standard domestic mains electrical installation, but may be as low as a few milliamperes in a SELV (Safety Extra Low Voltage or, occasionally, Separated Extra Low Voltage) system or as high as hundreds of thousands of amps in large industrial power systems.
+Protective devices such as circuit breakers and fuses must be selected with an interrupting rating that exceeds the prospective short circuit current, if they are to safely protect the circuit from a fault. When a large electric current is interrupted an arc forms, and if the breaking capacity of a fuse or circuit breaker is exceeded, it will not extinguish the arc. Current will continue, resulting in damage to equipment, fire or explosion.
+
+
+== Residential ==
+In designing domestic power installations the short-circuit current available on the electrical outlets should not be too high or too low. The effect of too high short circuit current is discussed in the previous paragraph. The short circuit current should be around 20 times the rating of the circuit to ensure the branch circuit protection clears a fault quickly. Quick disconnecting is needed, because in live-ground short circuit the grounding pin potential on the power outlet can rise compared to the local earth (concrete floor, water pipe etc.) during short circuit to a dangerous voltage, which needs to be shut down quickly for safety. If the short circuit current is lower than this figure, special precautions need to be taken to make sure that the system is safe; those usually include using a residual current device (sometimes called a ground fault interrupter) for extra protection.
+The short circuit current available on the electrical outlets is often tested when inspecting new electrical installations to make sure that the short circuit current is within reasonable limits. A high short circuit current on the outlet also shows that the resistance from the electrical panel to the outlet is low, so there won't be an unacceptably high voltage drop on the wires under normal load.
+The resistance path is the total resistance back through the supply transformer; to measure this an engineer will use an "earth fault loop impedance meter". The application of a low voltage allows a small current to pass from the socket back through earth to the supply transformer and distribution board. The resistance measured can be used to calculate the short-circuit current.
+
+
+== Utility and industrial ==
+In power transmission systems and industrial power systems, often the short-circuit current is calculated from nameplate impedances of connected equipment and the impedance of interconnecting wiring. For simple radial distribution systems with only a few elements, hand calculation is feasible, but computer software is generally used for more complex systems. Where rotating machines (generators and motors) are present in the system, the time-varying effect of their contribution to a short circuit may be evaluated. Stored energy in a generator may contribute much more current to a short circuit in the first few cycles than later on; this affects the interrupting rating selected for circuit breakers and fuses. An isolated generator may be specially designed to ensure it can source enough current on a short-circuit to allow subordinate overcurrent protection devices to operate properly.
+Where an industrial system is fed from an electrical utility, the short circuit level at the point of connection may be specified, often with minimum and maximum values or values to be expected after system growth. This allows calculation by an industrial customer of its internal fault levels within its plant. If the prospective short circuit current from the utility source is very large compared to the customer's system size, an "infinite bus" is assumed, with zero effective internal impedance; the only limit to the prospective short circuit current is then the impedances after the defined "infinite bus".
+In polyphase electrical systems, generally phase-to-phase, phase to ground (earth), and phase to neutral faults are examined, as well as a case where all three phases are short-circuited. Because impedances of cables or devices varies between phases, the prospective short circuit current varies depending on the type of fault. Protection devices in the system must respond to all three cases. The technique of symmetrical components is used to simplify analysis of unsymmetrical faults in three-phase systems. 
+
+
+== See also ==
+Current limiting reactor
+Fault (power engineering)
+Power system protection
+
+
+== References ==
+
+
+== External links ==
+Short-Circuit Current Calculations (GET-3550F).
+ARCAD Short Circuit Calculation Software. Free Demo
+A Simple Approach To Short Circuit Calculations (Cooper Bussmann Bulletin EDP-1 2004).

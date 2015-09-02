@@ -1,0 +1,11 @@
+Thyristor drive
+A thyristor drive is a motor drive circuit where AC supply current is regulated by a thyristor phase control to provide variable voltage to a DC motor.
+
+
+== ApplicationsEdit ==
+Thyristor drives are very simple and were first introduced in the 1960s. They remained the predominant type of industrial motor controller until the end of the 1980s when the availability of low cost electronics led to their replacement by chopper drives for high performance systems and inverters for high reliability with AC motors.
+They are still employed in very high power applications, such as locomotives, where the high power capability of the thyristors and the simplicity of the design can make them a more attractive proposition than transistor based controllers.
+A derivative of the thyristor drive is the simple AC phase controller. This uses a single phase controlled triac to provide a variable voltage AC output for regulating a universal motor. This is the type of motor speed control most commonly used in domestic appliances, such as food mixers, and small AC powered tools, such as electric drills.
+
+
+== ReferencesEdit ==

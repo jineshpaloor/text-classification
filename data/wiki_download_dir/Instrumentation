@@ -1,0 +1,93 @@
+Instrumentation
+Instrumentation is the use of measuring instruments to monitor and control a process. It is the art and science of measurement and control of process variables within a production, laboratory, or manufacturing area.
+An instrument is a device that measures a physical quantity such as flow, temperature, level, distance, angle, or pressure. Instruments may be as simple as direct reading thermometers or may be complex multi-variable process analyzers. Instruments are often part of a control system in refineries, factories, and vehicles. The control of processes is one of the main branches of applied instrumentation. Instrumentation can also refer to handheld devices that measure some desired variable. Diverse handheld instrumentation is common in laboratories, but can be found in the household as well. For example, a smoke detector is a common instrument found in most western homes.
+Instruments attached to a control system may provide signals used to operate solenoids, valves, regulators, circuit breakers, or relays. These devices control a desired output variable, and provide either remote or automated control capabilities. These are often referred to as final control elements when controlled remotely or by a control system.
+A transmitter is a device that produces an output signal, often in the form of a 4–20 mA electrical current signal, although many other options using voltage, frequency, pressure, or ethernet are possible. This signal can be used for informational purposes, or it can be sent to a PLC, DCS, SCADA system, LabVIEW or other type of computerized controller, where it can be interpreted into readable values and used to control other devices and processes in the system.
+Control instrumentation plays a significant role in both gathering information from the field and changing the field parameters, and as such are a key part of control loops.
+
+
+== History ==
+Elements of industrial instrumentation have long histories. Scales for comparing weights and simple pointers to indicate position are ancient technologies. Some of the earliest measurements were of time. One of the oldest water clocks was found in the tomb of the Egyptian pharaoh Amenhotep I, buried around 1500 BCE. Improvements were incorporated in the clocks. By 270 BCE they had the rudiments of an automatic control system device. In 1663 Christopher Wren presented the Royal Society with a design for a "weather clock". A drawing shows meteorological sensors moving pens over paper driven by clockwork. Such devices did not become standard in meteorology for two centuries. The concept has remained virtually unchanged as evidenced by pneumatic chart recorders, where a pressurized bellows displaces a pen. Integrating sensors, displays, recorders and controls was uncommon until the industrial revolution, limited by both need and practicality.
+In the early years of process control, process indicators and control elements such as valves were monitored by an operator that walked around the unit adjusting the valves to obtain the desired temperatures, pressures, and flows. As technology evolved pneumatic controllers were invented and mounted in the field that monitored the process and controlled the valves. This reduced the amount of time process operators were needed to monitor the process. Later years the actual controllers were moved to a central room and signals were sent into the control room to monitor the process and outputs signals were sent to the final control element such as a valve to adjust the process as needed. These controllers and indicators were mounted on a wall called a control board. The operators stood in front of this board walking back and forth monitoring the process indicators. This again reduced the number and amount of time process operators were needed to walk around the units. The most standard pneumatic signal level used during these years was 3-15 psig.
+Electronics enabled wiring to replace pipes. The transistor was commercialized by the mid-1950s. Each instrument company introduced their own standard instrumentation signal, causing confusion until the 4-20 mA range was used as the standard electronic instrument signal for transmitters and valves. This signal was eventually standardized as ANSI/ISA S50, “Compatibility of Analog Signals for Electronic Industrial Process Instruments", in the 1970s. The transformation of instrumentation from mechanical pneumatic transmitters, controllers, and valves to electronic instruments reduced maintenance costs as electronic instruments were more dependable than mechanical instruments. This also increased efficiency and production due to their increase in accuracy. Pneumatics enjoyed some advantages, being favored in corrosive and explosive atmospheres.
+The pneumatic and electronic signaling standards allowed centralized monitoring and control of a distributed process. The concept was limited by communication line lengths (perhaps 100 meters for pneumatics). Each pipe or wire pair carried one signal. The next evolution of instrumentation came with the production of Distributed Control Systems (DCS) which allowed monitoring and control from multiple locations which could be widely separated. A process operator could sit in front of a screen (no longer a control board) and monitor thousands of points throughout a large complex. A closely related development was termed “Supervisory Control and Data Acquisition” (SCADA). These technologies were supported by personal computers, networks and graphical user interfaces.
+
+
+== Definition ==
+The Oxford English Dictionary says (as its last definition of Instrumentation), "The design, construction, and provision of instruments for measurement, control, etc; the state of being equipped with or controlled by such instruments collectively." It notes that this use of the word originated in the U.S.A. in the early 20th century. More traditional uses of the word were associated with musical or surgical instruments. While the word is traditionally a noun, it is also used as an adjective (as instrumentation engineer, instrumentation amplifier and instrumentation system). Other dictionaries note that the word is most common in describing aeronautical, scientific or industrial instruments.
+Measurement instruments have three traditional classes of use:
+Monitoring of processes and operations
+Control of processes and operations
+Experimental engineering analysis
+While these uses appear distinct, in practice they are less so. All measurements have the potential for decisions and control. A home owner may change a thermostat setting in response to a utility bill computed from meter readings.
+
+
+== Examples ==
+In some cases the sensor is a very minor element of the mechanism. Digital cameras and wristwatches might technically meet the loose definition of instrumentation because they record and/or display sensed information. Under most circumstances neither would be called instrumentation, but when used to measure the elapsed time of a race and to document the winner at the finish line, both would be called instrumentation.
+
+
+=== Household ===
+A very simple example of an instrumentation system is a mechanical thermostat, used to control a household furnace and thus to control room temperature. A typical unit senses temperature with a bi-metallic strip. It displays temperature by a needle on the free end of the strip. It activates the furnace by a mercury switch. As the switch is rotated by the strip, the mercury makes physical (and thus electrical) contact between electrodes.
+Another example of an instrumentation system is a home security system. Such a system consists of sensors (motion detection, switches to detect door openings), simple algorithms to detect intrusion, local control (arm/disarm) and remote monitoring of the system so that the police can be summoned. Communication is an inherent part of the design.
+Kitchen appliances use sensors for control.
+A refrigerator maintains a constant temperature by measuring the internal temperature.
+A microwave oven sometimes cooks via a heat-sense-heat-sense cycle until sensing done.
+An automatic ice machine makes ice until a limit switch is thrown.
+Pop-up bread toasters can operate by time or by heat measurements.
+Some ovens use a temperature probe to cook until a target internal food temperature is reached.
+A common toilet refills the water tank until a float closes the valve. The float is acting as a water level sensor.
+
+
+=== Automotive ===
+Modern automobiles have complex instrumentation. In addition to displays of engine rotational speed and vehicle linear speed, there are also displays of battery voltage and current, fluid levels, fluid temperatures, distance traveled and feedbacks of various controls (turn signals, parking brake, headlights, transmission position). Cautions may be displayed for special problems (fuel low, check engine, tire pressure low, door ajar, seat belt unfastened). Problems are recorded so they can be reported to diagnostic equipment. Navigation systems can provide voice commands to reach a destination. Automotive instrumentation must be cheap and reliable over long periods in harsh environments. There may be independent airbag systems which contain sensors, logic and actuators. Anti-skid braking systems use sensors to control the brakes, while cruise control affects throttle position. A wide variety of services can be provided via communication links as the OnStar system. Autonomous cars (with exotic instrumentation) have been demonstrated.
+
+
+=== Aircraft ===
+Early aircraft had a few sensors. "Steam gauges" converted air pressures into needle deflections that could be interpreted as altitude and airspeed. A magnetic compass provided a sense of direction. The displays to the pilot were as critical as the measurements.
+A modern aircraft has a far more sophisticated suite of sensors and displays, which are embedded into avionics systems. The aircraft may contain inertial navigation systems, global positioning systems, weather radar, autopilots, and aircraft stabilization systems. Redundant sensors are used for reliability. A subset of the information may be transferred to a crash recorder to aid mishap investigations. Modern pilot displays now include computer displays including head-up displays.
+Air traffic control radar is distributed instrumentation system. The ground portion transmits an electromagnetic pulse and receives an echo (at least). Aircraft carry transponders that transmit codes on reception of the pulse. The system displays aircraft map location, an identifier and optionally altitude. The map location is based on sensed antenna direction and sensed time delay. The other information is embedded in the transponder transmission.
+
+
+=== Laboratory instrumentation ===
+Among the possible uses of the term is a collection of laboratory test equipment controlled by a computer through an IEEE-488 bus (also known as GPIB for General Purpose Instrument Bus or HPIB for Hewlitt Packard Instrument Bus). Laboratory equipment is available to measure many electrical and chemical quantities. Such a collection of equipment might be used to automate the testing of drinking water for pollutants.
+
+
+== Measurement ==
+Instrumentation is used to measure many parameters (physical values). These parameters include:
+
+
+== Control ==
+
+In addition to measuring field parameters, instrumentation is also responsible for providing the ability to modify some field parameters. That means the instrument is not only for measuring purposes, but also for changing and modification of the process system, these instruments are generally referred to as actuators. In industries, actuators are used to regulate fluid, control flow, moderate temperatures and open/close electric circuits.
+
+
+== Instrumentation engineering ==
+Instrumentation engineering is the engineering specialization focused on the principle and operation of measuring instruments that are used in design and configuration of automated systems in electrical, pneumatic domains etc. They typically work for industries with automated processes, such as chemical or manufacturing plants, with the goal of improving system productivity, reliability, safety, optimization, and stability. To control the parameters in a process or in a particular system, devices such as microprocessors, microcontrollers or PLCs are used, but their ultimate aim is to control the parameters of a system.
+Instrumentation engineering is loosely defined because the required tasks are very domain dependent. An expert in the biomedical instrumentation of laboratory rats has very different concerns than the expert in rocket instrumentation. Common concerns of both are the selection of appropriate sensors based on size, weight, cost, reliability, accuracy, longevity, environmental robustness and frequency response. Some sensors are literally fired in artillery shells. Others sense thermonuclear explosions until destroyed. Invariably sensor data must be recorded, transmitted or displayed. Recording rates and capacities vary enormously. Transmission can be trivial or can be clandestine, encrypted and low-power in the presence of jamming. Displays can be trivially simple or can require consultation with human factors experts. Control system design varies from trivial to a separate specialty.
+Instrumentation engineers are commonly responsible for integrating the sensors with the recorders, transmitters, displays or control systems. They may design or specify installation, wiring and signal conditioning. They may be responsible for calibration, testing and maintenance of the system.
+In a research environment it is common for subject matter experts to have substantial instrumentation system expertise. An astronomer knows the structure of the universe and a great deal about telescopes - optics, pointing and cameras (or other sensing elements). That often includes the hard-won knowledge of the operational procedures that provide the best results. For example, an astronomer is often knowledgeable of techniques to minimize temperature gradients that cause air turbulence within the telescope.
+
+
+== Instrumentation technologists and mechanics ==
+Instrumentation technologists, technicians and mechanics specialize in troubleshooting and repairing and maintenance of instruments and instrumentation systems.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+International Society of Automation
+Industrial Instrumentation & Controls Technology Alliance
+The field of instrumentation is richly served with periodicals. Examples:
+Instrumentation
+Instrumentation and Measurement Magazine
+Lab Manager Magazine
+Measurement & Control
+Process Controls And Instrumentation News
+Sensors Magazine
+Sensors & Transducers Magazine
+Process &Control
+Many other periodicals serve specific industries (hydraulics, pneumatics, medical, chemical, imaging, nuclear, robotics...).

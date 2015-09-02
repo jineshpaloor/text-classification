@@ -1,0 +1,52 @@
+Electrostatic motor
+An electrostatic motor or capacitor motor is a type of electric motor based on the attraction and repulsion of electric charge.
+An alternative type of electrostatic motor is the spacecraft electrostatic ion drive thruster where forces and motion are created by electrostatically accelerating ions.
+
+
+== Overview ==
+An electrostatic motor is based on the attraction and repulsion of electric charge. Usually, electrostatic motors are the dual of conventional coil-based motors. They typically require a high voltage power supply, although very small motors employ lower voltages. Conventional electric motors instead employ magnetic attraction and repulsion, and require high current at low voltages. In the 1740s and 1750s, the first electrostatic motors were developed by Andrew Gordon and by Benjamin Franklin. Today the electrostatic motor finds frequent use in micro-mechanical (MEMS) systems where their drive voltages are below 100 volts, and where moving, charged plates are far easier to fabricate than coils and iron cores.
+Also, the molecular machinery which runs living cells is often based on linear and rotary electrostatic motors.
+
+
+== Nanotube nanomotor ==
+
+Researchers at University of California, Berkeley, recently developed rotational bearings based upon multiwall carbon nanotubes. By attaching a gold plate (with dimensions of the order of 100 nm) to the outer shell of a suspended multiwall carbon nanotube (like nested carbon cylinders), they are able to electrostatically rotate the outer shell relative to the inner core. These bearings are very robust; devices have been oscillated thousands of times with no indication of wear. These nanoelectromechanical systems (NEMS) are the next step in miniaturization and may find their way into commercial applications in the future.
+
+
+== Electrostatic ion drive ==
+See also: Electrostatic ion thrusters
+Electric motors, in general, produce motion when powered by electric currents. The common type of spacecraft ion drive uses electrostatic forces to accelerate ions to generate forces to create motion, and thus can be considered as unconventional electric motors.
+Gridded electrostatic ion thrusters commonly utilize xenon gas. This gas has no charge and is ionized by bombarding it with energetic electrons. These electrons can be provided from a hot cathode filament and accelerated in the electrical field of the cathode fall to the anode (Kaufman type ion thruster). Alternatively, the electrons can be accelerated by the oscillating electric field induced by an alternating magnetic field of a coil, which results in a self-sustaining discharge and omits any cathode (radiofrequency ion thruster).
+
+
+== Patents ==
+The prime classifications of electrostatic motors by the USPTO are:
+Class 310 ELECTRICAL GENERATOR OR MOTOR STRUCTURE
+300 NON-DYNAMOELECTRIC
+308 Charge accumulating
+309 Electrostatic
+
+U.S. Patent 633,829 -- J. Gallegos -- "Static electric Machine"
+U.S. Patent 735,621 -- E. Thomson -- "Electrostatic motor"
+U.S. Patent 993,561 -- Harold B. Smith -- "Apparatus for transforming electrical energy into mechanical energy"
+U.S. Patent 1,693,806 -- W. G. Cady -- "Electromechanical System"
+U.S. Patent 1,974,483 —- T. T. Brown -- "Electrostatic motor" (1934-09-25)
+U.S. Patent 3,433,981 -- B. Bollee -- "Electrostatic Motor" (ed. Electrostatics from Atmospheric Electricity)
+U.S. Patent 3,436,630 -- B. Bollee -- "Electrostatic Motor"
+U.S. Patent 5,552,654 -- MITSUBISHI CHEM CORP -- "Electrostatic actuator"
+U.S. Patent 5,965,968 -- Robert, et al. -- "Electrostatic Motor"
+
+
+== See also ==
+Electrostatic generator
+Molecular motors
+Nanomotor
+
+
+== External articles and further reading ==
+de Queiroz, Antonio Carlos M., "An Electrostatic Linear Motor". 24 January 2002.
+William J. Beaty, "Simple Electrostatic Motor".
+"ElectrostaticMotor". tm.net.
+Fast and Flexible Electrostatic Motors at Univ. Tokyo"[1]".
+Heavy Lifting Electrostatic Motors at Univ. Tokyo"[2]".
+E. Sarajlic et al., MEMS electrostatic micromotors [3]

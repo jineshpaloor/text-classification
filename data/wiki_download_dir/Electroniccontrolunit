@@ -1,0 +1,50 @@
+Electronic control unit
+In automotive electronics, electronic control unit (ECU) is a generic term for any embedded system that controls one or more of the electrical system or subsystems in a motor vehicle.
+Types of ECU include Electronic/engine Control Module (ECM), Powertrain Control Module (PCM), Transmission Control Module (TCM), Brake Control Module (BCM or EBCM), Central Control Module (CCM), Central Timing Module (CTM), General Electronic Module (GEM), Body Control Module (BCM), Suspension Control Module (SCM), control unit, or control module. Taken together, these systems are sometimes referred to as the car's computer. (Technically there is no single computer but multiple ones.) Sometimes one assembly incorporates several of the individual control modules (PCM is often both engine and transmission)
+Some modern motor vehicles have up to 80 ECUs. Embedded software in ECUs continue to increase in line count, complexity, and sophistication. Managing the increasing complexity and number of ECUs in a vehicle has become a key challenge for original equipment manufacturers (OEMs).
+Door control unit (DCU)
+Engine control unit (ECU)—not to be confused with electronic control unit, the generic term for all these devices
+Electric Power Steering Control Unit (PSCU)— Generally this will be integrated into the EPS powerpack.
+Human-machine interface (HMI)
+Powertrain control module (PCM): Sometimes the functions of the Engine Control Unit and transmission control unit (TCU) are combined into a single unit called the Powertrain Control Module.
+Seat Control Unit
+Speed control unit (SCU)
+Telematic control unit (TCU)
+Transmission control unit (TCU)
+Brake Control Module (BCM; ABS or ESC)
+Battery management system
+
+
+== Key elements of an ECU ==
+Core
+Microcontroller
+
+Memory
+SRAM
+EEPROM
+Flash
+
+Inputs
+Supply Voltage
+Digital inputs
+Analog inputs
+
+Outputs
+Relay drivers
+H bridge drivers
+Injector drivers
+Logic outputs
+
+Communication links
+Housing
+
+
+== Design and development ==
+The development of an ECU involves both hardware and software required to perform the functions expected from that particular module. Automotive ECU's are being developed following the V-model. Recently the trend is to dedicate a significant amount of time and effort to develop safe modules by following standards like ISO 26262. It is rare that a module is developed fully from scratch. The design is generally iterative and improvements are made to both the hardware and software. The development of most ECU's are carried out by Tier 1 suppliers based on specifications provided by the OEM.
+
+
+== Testing and validation ==
+As part of the development cycle, manufacturers perform detailed FMEAs and other failure analyses to catch failure modes that can lead to unsafe conditions or driver annoyance. Extensive testing and validation activities are carried out as part of the Production part approval process to gain confidence of the hardware and software. On-board diagnostics or OBD help provide specific data related to which system or component failed or caused a failure during run time and help perform repairs.
+
+
+== References ==

@@ -1,0 +1,38 @@
+Stable polynomial
+A polynomial is said to be stable if either:
+all its roots lie in the open left half-plane, or
+all its roots lie in the open unit disk.
+The first condition provides stability for (or continuous-time) linear systems, and the second case relates to stability of discrete-time linear systems. A polynomial with the first property is called at times a Hurwitz polynomial and with the second property a Schur polynomial. Stable polynomials arise in control theory and in mathematical theory of differential and difference equations. A linear, time-invariant system (see LTI system theory) is said to be BIBO stable if every bounded input produces bounded output. A linear system is BIBO stable if its characteristic polynomial is stable. The denominator is required to be Hurwitz stable if the system is in continuous-time and Schur stable if it is in discrete-time. In practice, stability is determined by applying any one of several stability criteria.
+
+
+== Properties ==
+The Routh-Hurwitz theorem provides an algorithm for determining if a given polynomial is Hurwitz stable, which is implemented in the Routh–Hurwitz and Liénard–Chipart tests.
+To test if a given polynomial P (of degree d) is Schur stable, it suffices to apply this theorem to the transformed polynomial
+
+obtained after the Möbius transformation  which maps the left half-plane to the open unit disc: P is Schur stable if and only if Q is Hurwitz stable and . For higher degree polynomials the extra computation involved in this mapping can be avoided by testing the Schur stability by the Schur-Cohn test, the Jury test or the Bistritz test.
+Necessary condition: a Hurwitz stable polynomial (with real coefficients) has coefficients of the same sign (either all positive or all negative).
+Sufficient condition: a polynomial  with (real) coefficients such that:
+
+is Schur stable.
+Product rule: Two polynomials f and g are stable (of the same type) if and only if the product fg is stable.
+
+
+== Examples ==
+ is Schur stable because it satisfies the sufficient condition;
+ is Schur stable (because all its roots equal 0) but it does not satisfy the sufficient condition;
+ is not Hurwitz stable (its roots are -1,2) because it violates the necessary condition;
+ is Hurwitz stable (its roots are -1,-2).
+The polynomial  (with positive coefficients) is neither Hurwitz stable nor Schur stable. Its roots are the four primitive fifth roots of unity
+
+Note here that
+
+It is a "boundary case" for Schur stability because its roots lie on the unit circle. The example also shows that the necessary (positivity) conditions stated above for Hurwitz stability are not sufficient.
+
+
+== See also ==
+Stability criterion
+Stability radius
+
+
+== External links ==
+Mathworld page

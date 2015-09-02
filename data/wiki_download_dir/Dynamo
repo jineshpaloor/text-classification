@@ -1,0 +1,88 @@
+Dynamo
+A dynamo is an electrical generator that produces direct current with the use of a commutator. Dynamos were the first electrical generators capable of delivering power for industry, and the foundation upon which many other later electric-power conversion devices were based, including the electric motor, the alternating-current alternator, and the rotary converter. Today, the simpler alternator dominates large scale power generation, for efficiency, reliability and cost reasons. A dynamo has the disadvantages of a mechanical commutator. Also, converting alternating to direct current using power rectification devices (vacuum tube or more recently solid state) is effective and usually economic.
+
+
+== Etymology ==
+The word dynamo (from the Greek word dynamis; meaning power) was originally another name for an electrical generator, and still has some regional usage as a replacement for the word generator. After the invention of the AC Generator and that alternating current can be used as a power supply, the word dynamo became associated exclusively with the commutated direct current electric generator, while an AC electrical generator using either slip rings or rotor magnets would become known as an alternator.
+A small electrical generator built into the hub of a bicycle wheel to power lights is called a hub dynamo, although these are invariably AC devices, and are actually magnetos.
+
+
+== History ==
+
+
+=== Development ===
+
+The operating principle of electromagnetic generators was discovered in the years of 1831–1832 by Michael Faraday. The principle, later called Faraday's law, is that an electromotive force is generated in an electrical conductor which encircles a varying magnetic flux.
+He also built the first electromagnetic generator, called the Faraday disk, a type of homopolar generator, using a copper disc rotating between the poles of a horseshoe magnet. It produced a small DC voltage. This was not a dynamo in the current sense, because it did not use a commutator.
+This design was inefficient, due to self-cancelling counterflows of current in regions that were not under the influence of the magnetic field. While current was induced directly underneath the magnet, the current would circulate backwards in regions that were outside the influence of the magnetic field. This counterflow limited the power output to the pickup wires, and induced waste heating of the copper disc. Later homopolar generators would solve this problem by using an array of magnets arranged around the disc perimeter to maintain a steady field effect in one current-flow direction.
+Another disadvantage was that the output voltage was very low, due to the single current path through the magnetic flux. Faraday and others found that higher, more useful voltages could be produced by winding multiple turns of wire into a coil. Wire windings can conveniently produce any voltage desired by changing the number of turns, so they have been a feature of all subsequent generator designs, requiring the invention of the commutator to produce direct current.
+Independently of Faraday, the Hungarian Anyos Jedlik started experimenting in 1827 with the electromagnetic rotating devices which he called electromagnetic self-rotors. In the prototype of the single-pole electric starter, both the stationary and the revolving parts were electromagnetic.
+About 1856 he formulated the concept of the dynamo about six years before Siemens and Wheatstone but did not patent it as he thought he was not the first to realize this. His dynamo used, instead of permanent magnets, two electromagnets placed opposite to each other to induce the magnetic field around the rotor. It was also the discovery of the principle of dynamo self-excitation.
+
+
+==== Early dynamos ====
+
+The first dynamo based on Faraday's principles was built in 1832 by Hippolyte Pixii, a French instrument maker. It used a permanent magnet which was rotated by a crank. The spinning magnet was positioned so that its north and south poles passed by a piece of iron wrapped with insulated wire.
+Pixii found that the spinning magnet produced a pulse of current in the wire each time a pole passed the coil. However, the north and south poles of the magnet induced currents in opposite directions. To convert the alternating current to DC, Pixii invented a commutator, a split metal cylinder on the shaft, with two springy metal contacts that pressed against it.
+
+This early design had a problem: the electric current it produced consisted of a series of "spikes" or pulses of current separated by none at all, resulting in a low average power output. As with electric motors of the period, the designers did not fully realize the seriously detrimental effects of large air gaps in the magnetic circuit.
+Antonio Pacinotti, an Italian physics professor, solved this problem around 1860 by replacing the spinning two-pole axial coil with a multi-pole toroidal one, which he created by wrapping an iron ring with a continuous winding, connected to the commutator at many equally spaced points around the ring; the commutator being divided into many segments. This meant that some part of the coil was continually passing by the magnets, smoothing out the current.
+
+The Woolrich Electrical Generator of 1844, now in Thinktank, Birmingham Science Museum, is the earliest electrical generator used in an industrial process. It was used by the firm of Elkingtons for commercial electroplating.
+
+
+=== Practical designs ===
+
+The dynamo was the first electrical generator capable of delivering power for industry. The modern dynamo, fit for use in industrial applications, was invented independently by Sir Charles Wheatstone, Werner von Siemens and Samuel Alfred Varley. Varley took out a patent on 24 December 1866, while Siemens and Wheatstone both announced their discoveries on 17 January 1867, the latter delivering a paper on his discovery to the Royal Society.
+The "dynamo-electric machine" employed self-powering electromagnetic field coils rather than permanent magnets to create the stator field. Wheatstone's design was similar to Siemens', with the difference that in the Siemens design the stator electromagnets were in series with the rotor, but in Wheatstone's design they were in parallel. The use of electromagnets rather than permanent magnets greatly increased the power output of a dynamo and enabled high power generation for the first time. This invention led directly to the first major industrial uses of electricity. For example, in the 1870s Siemens used electromagnetic dynamos to power electric arc furnaces for the production of metals and other materials.
+The dynamo machine that was developed consisted of a stationary structure, which provides the magnetic field, and a set of rotating windings which turn within that field. On larger machines the constant magnetic field is provided by one or more electromagnets, which are usually called field coils.
+
+Zénobe Gramme reinvented Pacinotti's design in 1871 when designing the first commercial power plants operated in Paris. An advantage of Gramme's design was a better path for the magnetic flux, by filling the space occupied by the magnetic field with heavy iron cores and minimizing the air gaps between the stationary and rotating parts. The Gramme dynamo was one of the first machines to generate commercial quantities of power for industry. Further improvements were made on the Gramme ring, but the basic concept of a spinning endless loop of wire remains at the heart of all modern dynamos.
+Charles F. Brush assembled his first dynamo in the summer of 1876 using a horse-drawn treadmill to power it. Brush's design modified the Gramme dynamo by shaping the ring armature like a disc rather than a cylinder shape. The field electromagnets were also positioned on the sides of the armature disc rather than around the circumference.
+
+
+=== Rotary converters ===
+After dynamos and motors were found to allow easy conversion back and forth between mechanical or electrical power, they were combined in devices called rotary converters, rotating machines whose purpose was not to provide mechanical power to loads but to convert one type of electric current into another, for example DC into AC. They were multi-field single-rotor devices with two or more sets of rotating contacts (either commutators or sliprings, as required), one to provide power to one set of armature windings to turn the device, and one or more attached to other windings to produce the output current.
+The rotary converter can directly convert, internally, any type of electric power into any other. This includes converting between direct current (DC) and alternating current (AC), three phase and single phase power, 25 Hz AC and 60 Hz AC, or many different output voltages at the same time. The size and mass of the rotor was made large so that the rotor would act as a flywheel to help smooth out any sudden surges or dropouts in the applied power.
+The technology of rotary converters was replaced in the early 20th century by mercury-vapor rectifiers, which were smaller, did not produce vibration and noise, and required less maintenance. The same conversion tasks are now performed by solid state power semiconductor devices. Rotary converters were still used for the West Side IRT subway in Manhattan into the late 1960s, and possibly some years later. They were powered by 25 Hz AC, and provided DC at 600 volts for the trains.
+
+
+== Description ==
+The dynamo uses rotating coils of wire and magnetic fields to convert mechanical rotation into a pulsing direct electric current through Faraday's law of induction. A dynamo machine consists of a stationary structure, called the stator, which provides a constant magnetic field, and a set of rotating windings called the armature which turn within that field. The motion of the wire within the magnetic field causes the field to push on the electrons in the metal, creating an electric current in the wire. On small machines the constant magnetic field may be provided by one or more permanent magnets; larger machines have the constant magnetic field provided by one or more electromagnets, which are usually called field coils.
+
+
+=== Commutation ===
+
+The commutator is needed to produce direct current. When a loop of wire rotates in a magnetic field, the potential induced in it reverses with each half turn, generating an alternating current. However, in the early days of electric experimentation, alternating current generally had no known use. The few uses for electricity, such as electroplating, used direct current provided by messy liquid batteries. Dynamos were invented as a replacement for batteries. The commutator is essentially a rotary switch. It consists of a set of contacts mounted on the machine's shaft, combined with graphite-block stationary contacts, called "brushes", because the earliest such fixed contacts were metal brushes. The commutator reverses the connection of the windings to the external circuit when the potential reverses, so instead of alternating current, a pulsing direct current is produced.
+
+
+=== Excitation ===
+
+The earliest dynamos used permanent magnets to create the magnetic field. These were referred to as "magneto-electric machines" or magnetos. However, researchers found that stronger magnetic fields, and so more power, could be produced by using electromagnets (field coils) on the stator. These were called "dynamo-electric machines" or dynamos. The field coils of the stator were originally separately excited by a separate, smaller, dynamo or magneto. An important development by Wilde and Siemens was the discovery (by 1866) that a dynamo could also bootstrap itself to be self-excited, using current generated by the dynamo itself. This allowed the growth of a much more powerful field, thus far greater output power.
+
+
+== Historical uses ==
+
+
+=== Electric power generation ===
+Dynamos, usually driven by steam engines, were widely used in power stations to generate electricity for industrial and domestic purposes. They have since been replaced by alternators.
+
+
+=== Transport ===
+Dynamos were used in motor vehicles to generate electricity for battery charging. An early type was the third-brush dynamo. They have, again, been replaced by alternators.
+
+
+== Modern uses ==
+Dynamos still have some uses in low power applications, particularly where low voltage DC is required, since an alternator with a semiconductor rectifier can be inefficient in these applications.
+Hand cranked dynamos are used in clockwork radios, hand powered flashlights, mobile phone rechargers, and other human powered equipment to recharge batteries.
+
+
+== See also ==
+
+Bottle dynamo
+
+
+== References ==
+
+
+== External links ==

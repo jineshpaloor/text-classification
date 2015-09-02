@@ -1,0 +1,24 @@
+Electrophorus
+An electrophorus is a simple manual capacitive generator used to produce electrostatic charge via the process of electrostatic induction. A first version of it was invented in 1762 by Swedish professor Johan Carl Wilcke, but Italian scientist Alessandro Volta improved and popularized the device in 1775, and is sometimes erroneously credited with its invention. The word electrophorus was coined by Volta from the Greek ήλεκτρον ('elektron'), and ϕέρω ('phero'), meaning 'electricity bearer'.
+
+
+== Description and operation ==
+The electrophorus consists of a dielectric plate (originally a 'cake' of resinous material such as pitch or wax, but in modern versions plastic is used) and a metal plate with an insulating handle. The dielectric plate is first charged through the triboelectric effect by rubbing it with fur or cloth. For this discussion, imagine the dielectric gains negative charge by rubbing, as in the illustration below. The metal plate is then placed onto the dielectric plate. The dielectric does not transfer a significant fraction of its surface charge to the metal because the microscopic contact is poor. Instead the electrostatic field of the charged dielectric causes the charges in the metal plate to separate. It develops two regions of charge — the positive charges in the plate are attracted to the side facing down toward the dielectric, charging it positively, while the negative charges are repelled to the side facing up, charging it negatively, with the plate remaining electrically neutral as a whole. Then, the side facing up is momentarily grounded (which can be done by touching it with a finger), draining off the negative charge. Finally, the metal plate, now carrying only one sign of charge (positive in our example), is lifted.
+
+Since the charge on the dielectric is not depleted in this process, the charge on the metal plate can be used for experiments, for example by touching it to metal conductors allowing the charge to drain away, and the uncharged metal plate can be placed back on the dielectric and the process repeated to get another charge. This can be repeated as often as desired, so in principle an unlimited amount of induced charge can be obtained from a single charge on the dielectric. For this reason Volta called it elettroforo perpetuo (the perpetual electricity bearer). In actual use the charge on the dielectric will eventually (within a few days at most) leak off through the surface of the cake or the atmosphere to recombine with opposite charges around to restore neutrality.
+One of the largest examples of an electrophorus was built in 1777 by German scientist Georg Christoph Lichtenberg. It was 6 feet (2 m) in diameter, with the metal plate raised and lowered using a pulley system. It could reportedly produce 15 inch (38 cm) sparks. Lichtenberg used its discharges to create the strange treelike marks known as Lichtenberg figures.
+
+
+== The source of the charge ==
+Charge in the universe is conserved. The electrophorus simply separates positive and negative charges. A positive or negative charge ends up on the metal plate (or other storage conductor), and the opposite charge is stored in another object after grounding (in the earth or the person touching the metal plate). This separation takes work since the lowest energy state implies uncharged objects. Work is done by raising the charged metal plate away from the oppositely charged resinous plate. This additional energy put into the system is converted to potential energy in the form of charge separation (opposite charges that were originally on the plate), so raising the metal plate actually increases its voltage relative to the dielectic plate.
+The electrophorus is thus actually a manually operated electrostatic generator, using the same principle of electrostatic induction as electrostatic machines such as the Wimshurst machine and the Van de Graaff generator.
+
+
+== Notes ==
+
+
+== References ==
+Pancaldi, Giuliano (2003). Volta, Science and Culture in the Age of Enlightenment. Princeton University Press. ISBN 0-691-12226-1. , pp. 73–105 Volta's 'invention' of the electrophorus
+Jones, Thomas B. (July 2007). "Electrophorus and accessories". Thomas B. Jones website. University of Rochester. Retrieved 27 December 2007. 
+Schiffer, Michael Brian (2003). Draw the Lightning Down:Benjamin Franklin and electrical technology in the Age of Enlightenment. University of California Press. ISBN 0-520-23802-8.  pp. 55–57. Place of electrophorus in history of electrostatics, although the author does not mention Wilcke's contribution.
+"Electrophorus". Encyclopaedia Britannica, 11th Ed. 9. The Encyclopaedia Britannica Publishing Co. 1910. p. 237. Retrieved 27 December 2007.

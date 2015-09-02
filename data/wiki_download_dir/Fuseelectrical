@@ -1,0 +1,193 @@
+Fuse (electrical)
+In electronics and electrical engineering, a fuse (from the French fusée, Italian fuso, "spindle") is a type of low resistance resistor that acts as a sacrificial device to provide overcurrent protection, of either the load or source circuit. Its essential component is a metal wire or strip that melts when too much current flows through it, interrupting the circuit that it connects. Short circuits, overloading, mismatched loads, or device failure are the prime reasons for excessive current. Fuses are an alternative to circuit breakers.
+A fuse interrupts excessive current ("blows") so that further damage by overheating or fire is prevented. Wiring regulations often define a maximum fuse current rating for particular circuits. Overcurrent protection devices are essential in electrical systems to limit threats to human life and property damage. The time and current operating characteristics of fuses are chosen to provide adequate protection without needless interruption. Slow blow fuses are designed to allow harmless short term currents over their rating while still interrupting a sustained overload. Fuses are manufactured in a wide range of current and voltage ratings to protect wiring systems and electrical equipment. Self-resetting fuses automatically restore the circuit after the overload has cleared, and are useful in environments where a human replacing a blown fuse would be difficult or impossible, for example in aerospace or nuclear applications.
+
+
+== History ==
+In 1847, Breguet recommended use of reduced-section conductors to protect telegraph stations from lightning strikes; by melting, the smaller wires would protect apparatus and wiring inside the building. A variety of wire or foil fusible elements were in use to protect telegraph cables and lighting installations as early as 1864.
+A fuse was patented by Thomas Edison in 1890 as part of his electric distribution system.
+
+
+== Construction ==
+A fuse consists of a metal strip or wire fuse element, of small cross-section compared to the circuit conductors, mounted between a pair of electrical terminals, and (usually) enclosed by a non-combustible housing. The fuse is arranged in series to carry all the current passing through the protected circuit. The resistance of the element generates heat due to the current flow. The size and construction of the element is (empirically) determined so that the heat produced for a normal current does not cause the element to attain a high temperature. If too high a current flows, the element rises to a higher temperature and either directly melts, or else melts a soldered joint within the fuse, opening the circuit.
+The fuse element is made of zinc, copper, silver, aluminum, or alloys to provide stable and predictable characteristics. The fuse ideally would carry its rated current indefinitely, and melt quickly on a small excess. The element must not be damaged by minor harmless surges of current, and must not oxidize or change its behavior after possibly years of service.
+The fuse elements may be shaped to increase heating effect. In large fuses, current may be divided between multiple strips of metal. A dual-element fuse may contain a metal strip that melts instantly on a short-circuit, and also contain a low-melting solder joint that responds to long-term overload of low values compared to a short-circuit. Fuse elements may be supported by steel or nichrome wires, so that no strain is placed on the element, but a spring may be included to increase the speed of parting of the element fragments.
+The fuse element may be surrounded by air, or by materials intended to speed the quenching of the arc. Silica sand or non-conducting liquids may be used.
+
+
+== Characteristic parameters ==
+
+
+=== Rated current IN ===
+A maximum current that the fuse can continuously conduct without interrupting the circuit.
+
+
+=== Speed ===
+The speed at which a fuse blows depends on how much current flows through it and the material of which the fuse is made. The operating time is not a fixed interval, but decreases as the current increases. Fuses have different characteristics of operating time compared to current, characterized as, according to time required to respond to an overcurrent condition. A standard fuse may require twice its rated current to open in one second, a fast-blow fuse may require twice its rated current to blow in 0.1 seconds, and a slow-blow fuse may require twice its rated current for tens of seconds to blow.
+Fuse selection depends on the load's characteristics. Semiconductor devices may use a fast or ultrafast fuse as semiconductor devices heat rapidly when excess current flows. The fastest blowing fuses are designed for the most sensitive electrical equipment, where even a short exposure to an overload current could be very damaging. Normal fast-blow fuses are the most general purpose fuses. The time delay fuse (also known as anti-surge, or slow-blow) are designed to allow a current which is above the rated value of the fuse to flow for a short period of time without the fuse blowing. These types of fuse are used on equipment such as motors, which can draw larger than normal currents for up to several seconds while coming up to speed.
+
+
+=== The I2t value ===
+The I2t rating is related to the amount of energy let through by the fuse element when it clears the electrical fault. This term is normally used in short circuit conditions and the values are used to perform co-ordination studies in electrical networks. I2t parameters are provided by charts in manufacturer data sheets for each fuse family. For coordination of fuse operation with upstream or downstream devices, both melting I2t and clearing I2t are specified. The melting I2t, is proportional to the amount of energy required to begin melting the fuse element. The clearing I2t is proportional to the total energy let through by the fuse when clearing a fault. The energy is mainly dependent on current and time for fuses as well as the available fault level and system voltage. Since the I2t rating of the fuse is proportional to the energy it lets through, it is a measure of the thermal damage and magnetic forces that will be produced by a fault.
+
+
+=== Breaking capacity ===
+
+The breaking capacity is the maximum current that can safely be interrupted by the fuse. Generally, this should be higher than the prospective short circuit current. Miniature fuses may have an interrupting rating only 10 times their rated current. Some fuses are designated High Rupture Capacity (HRC) and are usually filled with sand or a similar material. Fuses for small, low-voltage, usually residential, wiring systems are commonly rated, in North American practice, to interrupt 10,000 amperes. Fuses for larger power systems must have higher interrupting ratings, with some low-voltage current-limiting high interrupting fuses rated for 300,000 amperes. Fuses for high-voltage equipment, up to 115,000 volts, are rated by the total apparent power (megavolt-amperes, MVA) of the fault level on the circuit.
+
+
+=== Rated voltage ===
+Voltage rating of the fuse must be equal to, or greater than, what would become the open circuit voltage. For example, a glass tube fuse rated at 32 volts would not reliably interrupt current from a voltage source of 120 or 230 V. If a 32 V fuse attempts to interrupt the 120 or 230 V source, an arc may result. Plasma inside the glass tube may continue to conduct current until the current diminishes to the point where the plasma becomes a non-conducting gas. Rated voltage should be higher than the maximum voltage source it would have to disconnect. Connecting fuses in series does not increase the rated voltage of the combination, nor of any one fuse.
+Medium-voltage fuses rated for a few thousand volts are never used on low voltage circuits, because of their cost and because they cannot properly clear the circuit when operating at very low voltages.
+
+
+== Voltage drop ==
+A voltage drop across the fuse is usually provided by its manufacturer. There is a direct relationship between a fuse's cold resistance and its voltage drop value. Once current is applied, resistance and voltage drop of a fuse will constantly grow with the rise of its operating temperature until the fuse finally reaches thermal equilibrium or alternatively melts when higher currents than its rated current are administered over sufficiently long periods of time. This resulting voltage drop should be taken into account, particularly when using a fuse in low-voltage applications. Voltage drop often is not significant in more traditional wire type fuses, but can be significant in other technologies such as resettable fuse (PPTC) type fuses.
+
+
+== Temperature derating ==
+Ambient temperature will change a fuse's operational parameters. A fuse rated for 1 A at 25 °C may conduct up to 10% or 20% more current at −40 °C and may open at 80% of its rated value at 100 °C. Operating values will vary with each fuse family and are provided in manufacturer data sheets.
+
+
+== Markings ==
+
+Most fuses are marked on the body or end caps with markings that indicate their ratings. Surface-mount technology "chip type" fuses feature few or no markings, making identification very difficult.
+Similar appearing fuses may have significantly different properties, identified by their markings. Fuse markings will generally convey the following information, either explicitly as text, or else implicit with the approval agency marking for a particular type:
+Ampere rating of the fuse.
+Voltage rating of the fuse.
+Time-current characteristic; i.e. fuse speed.
+Approvals by national and international standards agencies.
+Manufacturer/part number/series.
+Breaking capacity
+
+
+== Packages and materials ==
+
+Fuses come in a vast array of sizes and styles to serve in many applications, manufactured in standardised package layouts to make them easily interchangeable. Fuse bodies may be made of ceramic, glass, plastic, fiberglass, molded mica laminates, or molded compressed fibre depending on application and voltage class.
+Cartridge (ferrule) fuses have a cylindrical body terminated with metal end caps. Some cartridge fuses are manufactured with end caps of different sizes to prevent accidental insertion of the wrong fuse rating in a holder, giving them a bottle shape.
+Fuses for low voltage power circuits may have bolted blade or tag terminals which are secured by screws to a fuseholder. Some blade-type terminals are held by spring clips. Blade type fuses often require the use of a special purpose extractor tool to remove them from the fuse holder.
+Renewable fuses have replaceable fuse elements, allowing the fuse body and terminals to be reused if not damaged after a fuse operation.
+Fuses designed for soldering to a printed circuit board have radial or axial wire leads. Surface mount fuses have solder pads instead of leads.
+High-voltage fuses of the expulsion type have fiber or glass-reinforced plastic tubes and an open end, and can have the fuse element replaced.
+Semi-enclosed fuses are fuse wire carriers in which the fusible wire itself can be replaced. The exact fusing current is not as well controlled as an enclosed fuse, and it is extremely important to use the correct diameter and material when replacing the fuse wire, and for these reasons these fuses are slowly falling from favour. (Current ratings from Table 53A of BS 7671: 1992)
+These are still used in consumer units in some parts of the world, but are becoming less common. While glass fuses have the advantage of a fuse element visible for inspection purposes, they have a low breaking capacity which generally restricts them to applications of 15 A or less at 250 VAC. Ceramic fuses have the advantage of a higher breaking capacity, facilitating their use in circuits with higher current and voltage. Filling a fuse body with sand provides additional cooling of the arc and increases the breaking capacity of the fuse. Medium-voltage fuses may have liquid-filled envelopes to assist in the extinguishing of the arc. Some types of distribution switchgear use fuse links immersed in the oil that fills the equipment.
+Fuse packages may include a rejection feature such as a pin, slot, or tab, which prevents interchange of otherwise similar appearing fuses. For example, fuse holders for North American class RK fuses have a pin that prevents installation of similar-appearing class H fuses, which have a much lower breaking capacity and a solid blade terminal that lacks the slot of the RK type.
+
+
+== Dimensions ==
+Fuses can be built with different sized enclosures to prevent interchange of different ratings of fuse. For example, bottle style fuses distinguish between ratings with different cap diameters. Automotive glass fuses were made in different lengths, to prevent high-rated fuses being installed in a circuit intended for a lower rating.
+
+
+=== Special features ===
+Glass cartridge and plug fuses allow direct inspection of the fusible element. Other fuses have other indication methods including:
+Indicating pin or striker pin — extends out of the fuse cap when the element is blown.
+Indicating disc — a coloured disc (flush mounted in the end cap of the fuse) falls out when the element is blown.
+Element window — a small window built into the fuse body to provide visual indication of a blown element.
+External trip indicator — similar function to striker pin, but can be externally attached (using clips) to a compatible fuse.
+Some fuses allow a special purpose micro switch or relay unit to be fixed to the fuse body. When the fuse element blows, the indicating pin extends to activate the micro switch or relay, which, in turn, triggers an event.
+Some fuses for medium-voltage applications use two separate barrels and two fuse elements in parallel.
+
+
+== Fuse standards ==
+
+
+=== IEC 60269 fuses ===
+
+The International Electrotechnical Commission publishes standard 60269 for low-voltage power fuses. The standard is in four volumes, which describe general requirements, fuses for industrial and commercial applications, fuses for residential applications, and fuses to protect semiconductor devices. The IEC standard unifies several national standards, thereby improving the interchangeability of fuses in international trade. All fuses of different technologies tested to meet IEC standards will have similar time-current characteristics, which simplifies design and maintenance.
+
+
+=== UL 248 fuses (North America) ===
+In the United States and Canada, low-voltage fuses to 1 kV AC rating are made in accordance with Underwriters Laboratories standard UL 248 or the harmonized Canadian Standards Association standard C22.2 No. 248. This standard applies to fuses rated 1 kV or less, AC or DC, and with breaking capacity up to 200 kA. These fuses are intended for installations following Canadian Electrical Code, Part I (CEC), or the National Electrical Code, NFPA 70 (NEC). The standard ampere ratings for fuses (and circuit breakers) in USA/Canada are considered 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 110, 125, 150, 175, 200, 225, 250, 300, 350, 400, 450, 500, 600, 700, 800, 1000, 1200, 1600, 2000, 2500, 3000, 4000, 5000, and 6000 amperes. Additional standard ampere ratings for fuses are 1, 3, 6, 10, and 601.
+IEC and UL nomenclature varies slightly. IEC standards refer to a "fuse" as the assembly of a fuse link and fuse holder. In North American standards, the fuse is the replaceable portion of the assembly, and a fuse link would be a bare metal element for installation in a fuse.
+
+
+== Automotive fuses ==
+
+Automotive fuses are used to protect the wiring and electrical equipment for vehicles. There are several different types of automotive fuses and their usage is dependent upon the specific application, voltage, and current demands of the electrical circuit. Automotive fuses can be mounted in fuse blocks, inline fuse holders, or fuse clips. Some automotive fuses are occasionally used in non-automotive electrical applications. Standards for automotive fuses are published by SAE International (formerly known as the Society of Automotive Engineers).
+Automotive fuses can be classified into four distinct categories:
+Blade fuses
+Glass tube or Bosch type
+Fusible links
+Fuse limiters
+Most automotive fuses rated at 32 volts are used on circuits rated 24 volts DC and below. Some vehicles use a dual 12/42 V DC electrical system that will require a fuse rated at 58 V DC.
+
+
+== High voltage fuses ==
+
+Fuses are used on power systems up to 115,000 volts AC. High-voltage fuses are used to protect instrument transformers used for electricity metering, or for small power transformers where the expense of a circuit breaker is not warranted. A circuit breaker at 115 kV may cost up to five times as much as a set of power fuses, so the resulting saving can be tens of thousands of dollars.
+In medium-voltage distribution systems, a power fuse may be used to protect a transformer serving 1–3 houses. Pole-mounted distribution transformers are nearly always protected by a fusible cutout, which can have the fuse element replaced using live-line maintenance tools.
+Medium-voltage fuses are also used to protect motors, capacitor banks and transformers and may be mounted in metal enclosed switchgear, or (rarely in new designs) on open switchboards.
+Large power fuses use fusible elements made of silver, copper or tin to provide stable and predictable performance. High voltage expulsion fuses surround the fusible link with gas-evolving substances, such as boric acid. When the fuse blows, heat from the arc causes the boric acid to evolve large volumes of gases. The associated high pressure (often greater than 100 atmospheres) and cooling gases rapidly quench the resulting arc. The hot gases are then explosively expelled out of the end(s) of the fuse. Such fuses can only be used outdoors.
+
+These type of fuses may have an impact pin to operate a switch mechanism, so that all three phases are interrupted if any one fuse blows.
+High-power fuse means that these fuses can interrupt several kiloamperes. Some manufacturers have tested their fuses for up to 63 kA short-circuit current.
+
+
+== Fuses compared with circuit breakers ==
+Fuses have the advantages of often being less costly and simpler than a circuit breaker for similar ratings. The blown fuse must be replaced with a new device which is less convenient than simply resetting a breaker and therefore likely to discourage people from ignoring faults. On the other hand, replacing a fuse without isolating the circuit first (most building wiring designs do not provide individual isolation switches for each fuse) can be dangerous in itself, particularly if the fault is a short circuit.
+High rupturing capacity fuses can be rated to safely interrupt up to 300,000 amperes at 600  V AC. Special current-limiting fuses are applied ahead of some molded-case breakers to protect the breakers in low-voltage power circuits with high short-circuit levels.
+Current-limiting fuses operate so quickly that they limit the total "let-through" energy that passes into the circuit, helping to protect downstream equipment from damage. These fuses open in less than one cycle of the AC power frequency; circuit breakers cannot match this speed.
+Some types of circuit breakers must be maintained on a regular basis to ensure their mechanical operation during an interruption. This is not the case with fuses, which rely on melting processes where no mechanical operation is required for the fuse to operate under fault conditions.
+In a multi-phase power circuit, if only one fuse opens, the remaining phases will have higher than normal currents, and unbalanced voltages, with possible damage to motors. Fuses only sense overcurrent, or to a degree, over-temperature, and cannot usually be used independently with protective relaying to provide more advanced protective functions, for example, ground fault detection.
+Some manufacturers of medium-voltage distribution fuses combine the overcurrent protection characteristics of the fusible element with the flexibility of relay protection by adding a pyrotechnic device to the fuse operated by external protective relays.
+
+
+== Fuse boxes ==
+
+
+=== UK ===
+In the UK, older electrical consumer units (also called fuse boxes) are fitted either with semi-enclosed (rewirable) fuses (BS 3036) or cartridge fuses (BS 1361). (Fuse wire is commonly supplied to consumers as short lengths of 5 A-, 15 A- and 30 A-rated wire wound on a piece of cardboard.) Modern consumer units usually contain miniature circuit breakers (MCBs) instead of fuses, though cartridge fuses are sometimes still used, as MCBs are prone to nuisance tripping.
+Renewable fuses (rewirable or cartridge) allow user replacement, but this can be hazardous as it is easy to put a higher-rated or double fuse element (link or wire) into the holder (overfusing), or simply fitting it with copper wire or even a totally different type of conducting object (coins, hairpins, paper clips, nails, etc.) to the existing carrier. One form of fuse box abuse was to put a penny in the socket, which defeated overcurrent protection and resulted in a dangerous condition. Such tampering will not be visible without full inspection of the fuse. Fuse wire was never used in North America for this reason, although renewable fuses continue to be made for distribution boards.
+UK fuse boxes and rewirable fuses
+
+The Wylex standard consumer unit was very popular in the United Kingdom until the wiring regulations started demanding residual-current devices (RCDs) for sockets that could feasibly supply equipment outside the equipotential zone. The design does not allow for fitting of RCDs or RCBOs. Some Wylex standard models were made with an RCD instead of the main switch, but (for consumer units supplying the entire installation) this is no longer compliant with the wiring regulations as alarm systems should not be RCD-protected. There are two styles of fuse base that can be screwed into these units: one designed for rewirable fusewire carriers and one designed for cartridge fuse carriers. Over the years MCBs have been made for both styles of base. In both cases, higher rated carriers had wider pins, so a carrier couldn't be changed for a higher rated one without also changing the base. Cartridge fuse carriers are also now available for DIN-rail enclosures.
+
+
+=== North America ===
+In North America, fuses were used in buildings wired before 1960. These Edison Base fuses would screw into a fuse socket similar to Edison-base incandescent lamps. Ratings were 5, 10, 15, 20, 25, and 30 amperes. To prevent installation of fuses with an excessive current rating, later fuse boxes included rejection features in the fuse-holder socket, commonly known as Rejection Base (Type S fuses) which have smaller diameters and vary, depending on the rating of the fuse. This means that fuses can only be replaced by the preset (Type S) fuse rating. This is a North American, tri-national standard (UL 4248-11; CAN/CSA-C22.2 NO. 4248.11-07 (R2012); and, NMX-J-009/4248/11-ANCE). Existing Edison fuse boards can easily be converted to only accept Rejection Base (Type S) fuses, by screwing-in a tamper-proof adapter. This adapter screws into the existing Edison fuse holder, and has a smaller diameter threaded hole to accept the designated Type S rated fuse.
+
+Some companies manufacture resettable miniature thermal circuit breakers, which screw into a fuse socket. Some installations use these Edison-base circuit breakers. However, any such breaker sold today does have one flaw. It may be installed in a circuit-breaker box with a door. If so, if the door is closed, the door may hold down the breaker's reset button. While in this state, the breaker is effectively useless: it does not provide any overcurrent protection.
+In the 1950s, fuses in new residential or industrial construction for branch circuit protection were superseded by low voltage circuit breakers.
+
+
+== Coordination of fuses in series ==
+Where several fuses are connected in series at the various levels of a power distribution system, it is desirable to blow (clear) only the fuse (or other overcurrent device) electrically closest to the fault. This process is called "coordination" or "discrimination" and may require the time-current characteristics of two fuses to be plotted on a common current basis. Fuses are selected so that the minor, branch, fuse disconnects its circuit well before the supplying, major, fuse starts to melt. In this way, only the faulty circuit is interrupted with minimal disturbance to other circuits fed by a common supplying fuse.
+Where the fuses in a system are of similar types, simple rule-of-thumb ratios between ratings of the fuse closest to the load and the next fuse towards the source can be used.
+
+
+== Other fuse types ==
+
+
+=== Resettable fuses ===
+
+So-called self-resetting fuses use a thermoplastic conductive element known as a Polymeric Positive Temperature Coefficient (or PPTC) thermistor that impedes the circuit during an overcurrent condition (by increasing device resistance). The PPTC thermistor is self-resetting in that when current is removed, the device will cool and revert to low resistance. These devices are often used in aerospace/nuclear applications where replacement is difficult, or on a computer motherboard so that a shorted mouse or keyboard does not cause motherboard damage.
+
+
+=== Thermal fuses ===
+
+A thermal fuse is often found in consumer equipment such as coffee makers, hair dryers or transformers powering small consumer electronics devices. They contain a fusible, temperature-sensitive alloy which holds a spring contact mechanism normally closed. When the surrounding temperature gets too high, the alloy melts and allows the spring contact mechanism to break the circuit. The device can be used to prevent a fire in a hair dryer for example, by cutting off the power supply to the heater elements when the air flow is interrupted (e.g., the blower motor stops or the air intake becomes accidentally blocked). Thermal fuses are a 'one shot', non-resettable device which must be replaced once they have been activated (blown).
+
+
+== See also ==
+
+Antifuse
+Power system protection
+Programmable read-only memory
+Recloser
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Semiconductor Fuses: Terms and Explanations
+Fuse-selection checklist Len Lundy, "The fuse-selection checklist: a quick update" EDN Magazine 26 Sept 1996 p121
+Littelfuse: Leading fuse provider Information on circuit protection, surface mount fuses, axial lead & cartridge fuses, blade terminal & special mount fuses, fuseholders, fuse blocks & clips and military fuses and fuseholders
+bussmann.com/2/ApplicationTools for the Bussmann manual of fuse selection
+wiki.diyfaq.org.uk - Fuses vs MCBs
+SELECTING THE RIGHT FUSES How to select the right fuses
+How to test if a fuse is blown. (Requires a multimeter)
+LAWSON FUSES. (Manufacture of HRC low voltage fuses.)

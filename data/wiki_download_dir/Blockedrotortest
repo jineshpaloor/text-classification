@@ -1,0 +1,30 @@
+Blocked rotor test
+A blocked rotor test is conducted on an induction motor. It is also known as short circuit test, locked rotor test or stalled torque test. From this test, short circuit current at normal voltage, power factor on short circuit, total leakage reactance, and starting torque of the motor can be found. The test is conducted at low voltage because if the applied voltage was normal voltage then the current through the stator windings would be high enough to overheat the windings and damage them. The blocked rotor torque test is not performed on wound-rotor motors because the starting torque can be varied as desired. However, a blocked rotor current test is conducted on squirrel cage rotor motors.
+
+
+== Method ==
+In the blocked rotor test, the rotor is locked. A low voltage is applied on the stator terminals so that there is full load current in the stator winding, and the current, voltage and power input are measured at that point. When the rotor is stationary, the slip, . The test is conducted at  the rated frequency as recommended by IEEE, because the rotor's effective resistance at low frequency may differ at high frequency. The test can be repeated for different values of voltage to ensure the values obtained are consistent. As the current through the stator may exceed the rated current, the test should be conducted quickly. By using the parameters found by this test, the motor circle diagram can be constructed.
+
+
+== Calculations involved ==
+
+
+=== Short circuit current at normal voltage ===
+ is the short circuit current at voltage  is the short circuit current at normal voltage 
+
+
+=== Short circuit power factor ===
+ is the total input power on short circuit is the line voltage on short circuit is the line current on short circuit is the short circuit power factor
+
+
+=== Leakage reactance ===
+ is the short circuit impedance as referred to stator is the leakage reactance per phase as referred to stator
+ is the total copper loss is the core loss
+
+
+== See also ==
+Open circuit test
+Circle diagram
+
+
+== References ==

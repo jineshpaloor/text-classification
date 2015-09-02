@@ -1,0 +1,76 @@
+Bayer filter
+A Bayer filter mosaic is a color filter array (CFA) for arranging RGB color filters on a square grid of photosensors. Its particular arrangement of color filters is used in most single-chip digital image sensors used in digital cameras, camcorders, and scanners to create a color image. The filter pattern is 50% green, 25% red and 25% blue, hence is also called RGBG, GRGB, or RGGB.
+It is named after its inventor, Bryce Bayer of Eastman Kodak. Bayer is also known for his recursively defined matrix used in ordered dithering.
+Alternatives to the Bayer filter include both various modifications of colors and arrangement and completely different technologies, such as color co-site sampling, the Foveon X3 sensor or dichroic mirrors.
+
+
+== Explanation ==
+
+Bryce Bayer's patent (U.S. Patent No. 3,971,065) in 1976 called the green photosensors luminance-sensitive elements and the red and blue ones chrominance-sensitive elements. He used twice as many green elements as red or blue to mimic the physiology of the human eye. The luminance perception of the human retina uses M and L cone cells combined, during daylight vision, which are most sensitive to green light. These elements are referred to as sensor elements, sensels, pixel sensors, or simply pixels; sample values sensed by them, after interpolation, become image pixels. At the time Bayer registered his patent, he also proposed to use a cyan-magenta-yellow combination, that is another set of opposite colors. This arrangement was unpractical at the time because the necessary dyes did not exist, but is used in some new digital cameras. The big advantage of the new CMY dyes is that they have an improved light absorption characteristic; that is, their quantum efficiency is higher.
+The raw output of Bayer-filter cameras is referred to as a Bayer pattern image. Since each pixel is filtered to record only one of three colors, the data from each pixel cannot fully specify each of the red, green, and blue values on its own. To obtain a full-color image, various demosaicing algorithms can be used to interpolate a set of complete red, green, and blue values for each pixel. These algorithms make use of the surrounding pixels of the corresponding colors to estimate the values for a particular pixel.
+Different algorithms requiring various amounts of computing power result in varying-quality final images. This can be done in-camera, producing a JPEG or TIFF image, or outside the camera using the raw data directly from the sensor.
+
+
+== Demosaicing ==
+Demosaicing can be performed in different ways. Simple methods interpolate the color value of the pixels of the same color in the neighborhood. For example once the chip has been exposed to an image, each pixel can be read. A pixel with a green filter provides an exact measurement of the green component. The red and blue components for this pixel are obtained from the neighbors. For a green pixel, two red neighbors can be interpolated to yield the red value, also two blue pixels can be interpolated to yield the blue value.
+This simple approach works well in areas with constant color or smooth gradients, but it can cause artifacts such as color bleeding in areas where there are abrupt changes in color or brightness especially noticeable along sharp edges in the image. Because of this, other demosaicing methods attempt to identify high-contrast edges and only interpolate along these edges, but not across them.
+Other algorithms are based on the assumption that the color of an area in the image is relatively constant even under changing light conditions, so that the color channels are highly correlated with each other. Therefore, the green channel is interpolated at first then the red and afterwards the blue channel, so that the color ratio red-green respective blue-green are constant. There are other methods that make different assumptions about the image content and starting from this attempt to calculate the missing color values.
+
+
+== Artifacts ==
+Images with small-scale detail close to the resolution limit of the digital sensor can be a problem to the demosaicing algorithm, producing a result which is not looking like the model. The most frequent artifact is Moiré, which may appear as repeating patterns, color artifacts or pixels arranged in an unrealistic maze-like pattern
+
+
+=== False color artifact ===
+A common and unfortunate artifact of Color Filter Array (CFA) demosaicing is what is known and seen as false coloring. Typically this artifact manifests itself along edges, where abrupt or unnatural shifts in color occur as a result of misinterpolating across, rather than along, an edge. For preventing and removing this false coloring various methods exist. Smooth hue transition interpolation is used during the demosaicing to prevent false colors from manifesting themselves in the final image. However, there are other algorithms that can remove false colors after demosaicing. These have the benefit of removing false coloring artifacts from the image while using a more robust demosaicing algorithm for interpolating the red and blue color planes.
+
+
+=== Zippering artifact ===
+The zippering artifact is another side effect of CFA demosaicing, which also occurs primarily along edges, is known as the zipper effect. Simply put, zippering is another name for edge blurring that occurs in an on/off pattern along an edge. This effect occurs when the demosaicing algorithm averages pixel values over an edge, especially in the red and blue planes, resulting in its characteristic blur. As mentioned before, the best methods for preventing this effect are the various algorithms which interpolate along, rather than across image edges. Pattern recognition interpolation, adaptive color plane interpolation, and directionally weighted interpolation all attempt to prevent zippering by interpolating along edges detected in the image.
+
+However, even with a theoretically perfect sensor that could capture and distinguish all colors at each photosite, Moiré and other artifacts could still appear. This is an unavoidable consequence of any system that samples an otherwise continuous signal at discrete intervals or locations. For this reason, virtually every photographic digital sensor incorporates something called an optical low-pass filter (OLPF) or an anti-aliasing (AA) filter. This is typically a thin layer directly in front of the sensor, and works by effectively blurring any potentially problematic details that are finer than the resolution of the sensor.
+
+
+== Modifications ==
+
+The Bayer filter is almost universal on consumer digital cameras. Alternatives include the CYGM filter (cyan, yellow, green, magenta) and RGBE filter (red, green, blue, emerald), which require similar demosaicing. The Foveon X3 sensor (which layers red, green, and blue sensors vertically rather than using a mosaic) and arrangements of three separate CCDs (one for each color) don't need demosaicing.
+
+
+=== "Panchromatic" cells ===
+On June 14, 2007, Eastman Kodak announced an alternative to the Bayer filter: a color-filter pattern that increases the sensitivity to light of the image sensor in a digital camera by using some "panchromatic" cells that are sensitive to all wavelengths of visible light and collect a larger amount of light striking the sensor. They present several patterns, but none with a repeating unit as small as the Bayer pattern's 2×2 unit.
+
+Another 2007 U.S. patent filing, by Edward T. Chang, claims a sensor where "the color filter has a pattern comprising 2×2 blocks of pixels composed of one red, one blue, one green and one transparent pixel," in a configuration intended to include infrared sensitivity for higher overall sensitivity. The Kodak patent filing was earlier.
+Such cells have previously been used in "CMYW" (cyan, magenta, yellow, and white) "RGBW" (red, green, blue, white) sensors, but Kodak has not compared the new filter pattern to them yet.
+
+
+=== Fujifilm "EXR" color filter array ===
+
+Fujifilm's EXR color filter array are manufactured in both CCD (SuperCCD) and CMOS (BSI CMOS). As with the SuperCCD, the filter itself is rotated 45 degrees. Unlike conventional Bayer filter designs, there are always two adjacent photosites detecting the same color. The main reason for this type of array is to contribute to pixel "binning", where two adjacent photosites can be merged, making the sensor itself more "sensitive" to light. Another reason is for the sensor to record two different exposures, which is then merged to produce an image with greater dynamic range. The underlying circuitry has two read-out channels that take their information from alternate rows of the sensor. The result is that it can act like two interleaved sensors, with different exposure times for each half of the photosites. Half of the photosites can be intentionally underexposed so that they fully capture the brighter areas of the scene. This retained highlight information can then be blended in with the output from the other half of the sensor that is recording a 'full' exposure, again making use of the close spacing of similarly colored photosites.
+
+
+=== Fujifilm "X-Trans" filter ===
+
+The Fujifilm X-Trans CMOS sensor used in many Fujifilm X-series cameras is claimed to provide better resistance to color moiré than the Bayer filter, and as such they can be made without an anti-aliasing filter. This in turn allows cameras using the sensor to achieve a higher resolution with the same megapixel count. Also, the new design is claimed to reduce the incidence of false colors, by having red, blue and green pixels in each line. The semi-random arrangement of these pixels is also said to provide grain more like film.
+
+
+== See also ==
+Autochrome Lumière
+PenTile matrix family
+
+
+== References ==
+
+US patent 3971065, Bryce E. Bayer, "Color imaging array", issued 1976-07-20  on web
+
+
+== Notes ==
+
+
+== External links ==
+RGB "Bayer" Color and MicroLenses, Silicon Imaging (design, manufacturing and marketing of high-definition digital cameras and image processing solutions)
+eLynx image processing library, Big set of Bayer mosaic manipulation source code under GPL.
+Efficient, high-quality Bayer demosaic filtering on GPUs
+Evaluation of compression algorithms for Bayer format
+http://www.inf.fu-berlin.de/lehre/WS02/robotik/Vorlesungen/Vorlesung2/ComputerVision-2.pdf
+http://www.arl.army.mil/arlreports/2010/ARL-TR-5061.pdf
+http://www.cambridgeincolour.com/tutorials/camera-sensors.htm

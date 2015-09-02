@@ -1,0 +1,85 @@
+Euler's identity
+In mathematics, Euler's identity (also known as Euler's equation) is the equality
+
+where
+e is Euler's number, the base of natural logarithms,
+i is the imaginary unit, which satisfies i2 = −1, and
+π is pi, the ratio of the circumference of a circle to its diameter.
+Euler's identity is named after the Swiss mathematician Leonhard Euler. It is considered an example of mathematical beauty.
+
+
+== ExplanationEdit ==
+
+Euler's identity is a special case of Euler's formula from complex analysis, which states that for any real number x,
+
+where the inputs of the trigonometric functions sine and cosine are given in radians.
+In particular, when x = π, or one half-turn (180°) around a circle:
+
+Since
+
+and
+
+it follows that
+
+which yields Euler's identity:
+
+
+== Mathematical beautyEdit ==
+Euler's identity is often cited as an example of deep mathematical beauty. Three of the basic arithmetic operations occur exactly once each: addition, multiplication, and exponentiation. The identity also links five fundamental mathematical constants:
+The number 0, the additive identity.
+The number 1, the multiplicative identity.
+The number π, which is ubiquitous in the geometry of Euclidean space and analytical mathematics (π = 3.14159265...)
+The number e, the base of natural logarithms, which occurs widely in mathematical analysis (e = 2.718281828...).
+The number i, the imaginary unit of the complex numbers, a field of numbers that contains the roots of all polynomials (that are not constants), and whose study leads to deeper insights into many areas of algebra and calculus.
+(Both π and e are transcendental numbers.)
+Furthermore, the equation is given in the form of an expression set equal to zero, which is common practice in several areas of mathematics.
+Stanford University mathematics professor Keith Devlin has said, "like a Shakespearean sonnet that captures the very essence of love, or a painting that brings out the beauty of the human form that is far more than just skin deep, Euler's equation reaches down into the very depths of existence". And Paul Nahin, a professor emeritus at the University of New Hampshire, who has written a book dedicated to Euler's formula and its applications in Fourier analysis, describes Euler's identity as being "of exquisite beauty".
+The mathematics writer Constance Reid has opined that Euler's identity is "the most famous formula in all mathematics". And Benjamin Peirce, a noted American 19th-century philosopher, mathematician, and professor at Harvard University, after proving Euler's identity during a lecture, stated that the identity "is absolutely paradoxical; we cannot understand it, and we don't know what it means, but we have proved it, and therefore we know it must be the truth".
+A poll of readers conducted by The Mathematical Intelligencer in 1990 named Euler's identity as the "most beautiful theorem in mathematics". In another poll of readers that was conducted by Physics World in 2004, Euler's identity tied with Maxwell's equations (of electromagnetism) as the "greatest equation ever".
+
+
+== GeneralizationsEdit ==
+Euler's identity is also a special case of the more general identity that the nth roots of unity, for n > 1, add up to 0:
+
+Euler's identity is the case where n = 2.
+In another field of mathematics, by using quaternion exponentiation, one can show that a similar identity also applies to quaternions. Let {i, j, k} be the basis elements, then,
+
+In general, given real a1, a2, and a3 such that , then,
+
+For octonions, with real an such that  and the octonion basis elements {i1, i2,..., i7}, then,
+
+
+== HistoryEdit ==
+It has been claimed that Euler's identity appears in his monumental work of mathematical analysis published in 1748, Introductio in analysin infinitorum. However, it is questionable whether this particular concept can be attributed to Euler himself, as he may never have expressed it. (Moreover, while Euler did write in the Introductio about what we today call "Euler's formula", which relates e with cosine and sine terms in the field of complex numbers, the English mathematician Roger Cotes also knew of this formula and Euler may have acquired the knowledge through his Swiss compatriot Johann Bernoulli.)
+
+
+== See alsoEdit ==
+De Moivre's formula
+Exponential function
+Gelfond's constant
+
+
+== Notes and referencesEdit ==
+Notes
+
+References
+
+
+== SourcesEdit ==
+Conway, John Horton, and Guy, Richard (1996). The Book of Numbers (Springer, 1996). ISBN 978-0-387-97993-9.
+Crease, Robert P., "The greatest equations ever", PhysicsWeb, October 2004 (registration required).
+Crease, Robert P. "Equations as icons," PhysicsWeb, March 2007 (registration required).
+Derbyshire, J. Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics (New York: Penguin, 2004).
+Dunham, William (1999). Euler: The Master of Us All. Mathematical Association of America. ISBN 978-0-88385-328-3.
+Euler, Leonhard. Leonhardi Euleri opera omnia. 1, Opera mathematica. Volumen VIII, Leonhardi Euleri introductio in analysin infinitorum. Tomus primus (Leipzig: B. G. Teubneri, 1922).
+Kasner, E., and Newman, J., Mathematics and the Imagination (Simon & Schuster, 1940).
+Maor, Eli, e: The Story of a number (Princeton University Press, 1998). ISBN 0-691-05854-7
+Nahin, Paul J., Dr. Euler's Fabulous Formula: Cures Many Mathematical Ills (Princeton University Press, 2006). ISBN 978-0-691-11822-2
+Paulos, John Allen, Beyond Numeracy: An Uncommon Dictionary of Mathematics (Penguin Books, 1992). ISBN 0-14-014574-5
+Reid, Constance, From Zero to Infinity (Mathematical Association of America, various editions).
+Sandifer, C. Edward. Euler's Greatest Hits (Mathematical Association of America, 2007). ISBN 978-0-88385-563-8
+
+
+== External linksEdit ==
+Complete derivation of Euler's identity
+Intuitive understanding of Euler's formula

@@ -1,0 +1,106 @@
+Information
+Information (shortened as info or info.) is that which informs, i.e. an answer to a question, as well as that from which knowledge and data can be derived (as data represents values attributed to parameters, and knowledge signifies understanding of real things or abstract concepts). As it regards data, the information's existence is not necessarily coupled to an observer (it exists beyond an event horizon, for example), while in the case of knowledge, the information requires a cognitive observer.
+At its most fundamental, information is any propagation of cause and effect within a system. Information is conveyed either as the content of a message or through direct or indirect observation of some thing. That which is perceived can be construed as a message in its own right, and in that sense, information is always conveyed as the content of a message.
+Information can be encoded into various forms for transmission and interpretation (for example, information may be encoded into a sequence of signs, or transmitted via a sequence of signals). It can also be encrypted for safe storage and communication.
+Information resolves uncertainty. The uncertainty of an event is measured by its probability of occurrence and is inversely proportional to that. The more uncertain an event, the more information is required to resolve uncertainty of that event. The bit is a typical unit of information, but other units such as the nat may be used. Example: information in one "fair" coin ﬂip: log2(2/1) = 1 bit, and in two fair coin flips is log2(4/1) = 2 bits.
+The concept that information is the message has different meanings in different contexts. Thus the concept of information becomes closely related to notions of constraint, communication, control, data, form, education, knowledge, meaning, understanding, mental stimuli, pattern, perception, representation, and entropy.
+
+
+== Etymology ==
+
+The English word was apparently derived from the Latin stem (information-) of the nominative (informatio): this noun is derived from the verb informare (to inform) in the sense of "to give form to the mind", "to discipline", "instruct", "teach". Inform itself comes (via French informer) from the Latin verb informare, which means to give form, or to form an idea of. Furthermore, Latin itself already contained the word informatio meaning concept or idea, but the extent to which this may have influenced the development of the word information in English is not clear.
+The ancient Greek word for form was μορφή (morphe; cf. morph) and also εἶδος (eidos) "kind, idea, shape, set", the latter word was famously used in a technical philosophical sense by Plato (and later Aristotle) to denote the ideal identity or essence of something (see Theory of Forms). "Eidos" can also be associated with thought, proposition, or even concept.
+The ancient Greek word for information is πληροφορία, which transliterates (plērophoria) from πλήρης (plērēs) "fully" and φέρω (phorein) frequentative of (pherein) to carry-through. It literally means "fully bears" or "conveys fully". In modern Greek language the word Πληροφορία is still in daily use and has the same meaning as the word information in English. Unfortunately biblical scholars have translated (plērophoria) into "full assurance" creating a connotative meaning of the word. In addition to its primary meaning, the word Πληροφορία as a symbol has deep roots in Aristotle's semiotic triangle. In this regard it can be interpreted to communicate information to the one decoding that specific type of sign. This is something that occurs frequently with the etymology of many words in ancient and modern Greek language where there is a very strong denotative relationship between the signifier, e.g. the word symbol that conveys a specific encoded interpretation, and the signified, e.g. a concept whose meaning the interpretant attempts to decode.
+
+
+== Information theory approach ==
+
+From the stance of information theory, information is taken as an ordered sequence of symbols from an alphabet, say an input alphabet χ, and an output alphabet ϒ. Information processing consists of an input-output function that maps any input sequence from χ into an output sequence from ϒ. The mapping may be probabilistic or deterministic. It may have memory or be memoryless.
+
+
+== As sensory input ==
+Often information can be viewed as a type of input to an organism or system. Inputs are of two kinds; some inputs are important to the function of the organism (for example, food) or system (energy) by themselves. In his book Sensory Ecology Dusenbery called these causal inputs. Other inputs (information) are important only because they are associated with causal inputs and can be used to predict the occurrence of a causal input at a later time (and perhaps another place). Some information is important because of association with other information but eventually there must be a connection to a causal input. In practice, information is usually carried by weak stimuli that must be detected by specialized sensory systems and amplified by energy inputs before they can be functional to the organism or system. For example, light is often a causal input to plants but provides information to animals. The colored light reflected from a flower is too weak to do much photosynthetic work but the visual system of the bee detects it and the bee's nervous system uses the information to guide the bee to the flower, where the bee often finds nectar or pollen, which are causal inputs, serving a nutritional function.
+
+
+== As representation and complexity ==
+The cognitive scientist and applied mathematician Ronaldo Vigo argues that information is a concept that involves at least two related entities in order to make quantitative sense. These are, any dimensionally defined category of objects S, and any of its subsets R. R, in essence, is a representation of S, or, in other words, conveys representational (and hence, conceptual) information about S. Vigo then defines the amount of information that R conveys about S as the rate of change in the complexity of S whenever the objects in R are removed from S. Under "Vigo information", pattern, invariance, complexity, representation, and information—five fundamental constructs of universal science—are unified under a novel mathematical framework. Among other things, the framework aims to overcome the limitations of Shannon-Weaver information when attempting to characterize and measure subjective information.
+
+
+== As an influence which leads to a transformation ==
+Information is any type of pattern that influences the formation or transformation of other patterns. In this sense, there is no need for a conscious mind to perceive, much less appreciate, the pattern. Consider, for example, DNA. The sequence of nucleotides is a pattern that influences the formation and development of an organism without any need for a conscious mind.
+Systems theory at times seems to refer to information in this sense, assuming information does not necessarily involve any conscious mind, and patterns circulating (due to feedback) in the system can be called information. In other words, it can be said that information in this sense is something potentially perceived as representation, though not created or presented for that purpose. For example, Gregory Bateson defines "information" as a "difference that makes a difference".
+If, however, the premise of "influence" implies that information has been perceived by a conscious mind and also interpreted by it, the specific context associated with this interpretation may cause the transformation of the information into knowledge. Complex definitions of both "information" and "knowledge" make such semantic and logical analysis difficult, but the condition of "transformation" is an important point in the study of information as it relates to knowledge, especially in the business discipline of knowledge management. In this practice, tools and processes are used to assist a knowledge worker in performing research and making decisions, including steps such as:
+reviewing information in order to effectively derive value and meaning
+referencing metadata if any is available
+establishing a relevant context, often selecting from many possible contexts
+deriving new knowledge from the information
+making decisions or recommendations from the resulting knowledge.
+Stewart (2001) argues that the transformation of information into knowledge is a critical one, lying at the core of value creation and competitive advantage for the modern enterprise.
+The Danish Dictionary of Information Terms argues that information only provides an answer to a posed question. Whether the answer provides knowledge depends on the informed person. So a generalized definition of the concept should be: "Information" = An answer to a specific question".
+When Marshall McLuhan speaks of media and their effects on human cultures, he refers to the structure of artifacts that in turn shape our behaviors and mindsets. Also, pheromones are often said to be "information" in this sense.
+
+
+== As a property in physics ==
+
+Information has a well-defined meaning in physics. In 2003 J. D. Bekenstein claimed that a growing trend in physics was to define the physical world as being made up of information itself (and thus information is defined in this way) (see Digital physics). Examples of this include the phenomenon of quantum entanglement, where particles can interact without reference to their separation or the speed of light. Material information itself cannot travel faster than light even if that information is transmitted indirectly. This could lead to all attempts at physically observing a particle with an "entangled" relationship to another being slowed down, even though the particles are not connected in any other way other than by the information they carry.
+The mathematical universe hypothesis suggests a new paradigm, in which virtually everything, from particles and fields, through biological entities and consciousness, to the multiverse itself, could be described by mathematical patterns of information. By the same token, the cosmic void can be conceived of as the absence of material information in space (setting aside the virtual particles that pop in and out of existence due to quantum fluctuations, as well as the gravitational field and the dark energy). Nothingness can be understood then as that within which no space, time, energy, matter, or any other type of information could exist, which would be possible if symmetry and structure break within the manifold of the multiverse (i.e. the manifold would have tears or holes).
+Another link is demonstrated by the Maxwell's demon thought experiment. In this experiment, a direct relationship between information and another physical property, entropy, is demonstrated. A consequence is that it is impossible to destroy information without increasing the entropy of a system; in practical terms this often means generating heat. Another more philosophical outcome is that information could be thought of as interchangeable with energy. Toyabe et al. experimentally showed in nature that information can be converted into work. Thus, in the study of logic gates, the theoretical lower bound of thermal energy released by an AND gate is higher than for the NOT gate (because information is destroyed in an AND gate and simply converted in a NOT gate). Physical information is of particular importance in the theory of quantum computers.
+In Thermodynamics, information is any kind of event that affects the state of a dynamic system that can interpret the information.
+
+
+== The application of information study ==
+The information cycle (addressed as a whole or in its distinct components) is of great concern to Information Technology, Information Systems, as well as Information Science. These fields deal with those processes and techniques pertaining to information capture (through sensors) and generation (through computation), processing (including encoding, encryption, compression, packaging), transmission (including all telecommunication methods), presentation (including visualization / display methods), storage (including magnetic, optical, holographic methods), etc. Information does not cease to exist, it may only get scrambled beyond any possibility of retrieval (within Information Theory, see lossy compression, for example; while in Physics, the black hole information paradox gets solved with the aid of the holographic principle).
+Information Visualization (shortened as InfoVis) depends on the computation and digital representation of data, and assists users in pattern recognition and anomaly detection.
+
+Information Security (shortened as InfoSec) is the ongoing process of exercising due diligence to protect information, and information systems, from unauthorized access, use, disclosure, destruction, modification, disruption or distribution, through algorithms and procedures focused on monitoring and detection, as well as incident response and repair.
+Information Analysis is the process of inspecting, transforming, and modelling information, by converting raw data into actionable knowledge, in support of the decision-making process.
+Information Communication represents the convergence of informatics, telecommunication and audio-visual media & content.
+
+
+== Technologically mediated information ==
+It is estimated that the world's technological capacity to store information grew from 2.6 (optimally compressed) exabytes in 1986 – which is the informational equivalent to less than one 730-MB CD-ROM per person (539 MB per person) – to 295 (optimally compressed) exabytes in 2007. This is the informational equivalent of almost 61 CD-ROM per person in 2007.
+The world’s combined technological capacity to receive information through one-way broadcast networks was the informational equivalent of 174 newspapers per person per day in 2007.
+The world's combined effective capacity to exchange information through two-way telecommunication networks was the informational equivalent of 6 newspapers per person per day in 2007.
+
+
+== As records ==
+Records are specialized forms of information. Essentially, records are information produced consciously or as by-products of business activities or transactions and retained because of their value. Primarily, their value is as evidence of the activities of the organization but they may also be retained for their informational value. Sound records management ensures that the integrity of records is preserved for as long as they are required.
+The international standard on records management, ISO 15489, defines records as "information created, received, and maintained as evidence and information by an organization or person, in pursuance of legal obligations or in the transaction of business". The International Committee on Archives (ICA) Committee on electronic records defined a record as, "a specific piece of recorded information generated, collected or received in the initiation, conduct or completion of an activity and that comprises sufficient content, context and structure to provide proof or evidence of that activity".
+Records may be maintained to retain corporate memory of the organization or to meet legal, fiscal or accountability requirements imposed on the organization. Willis (2005) expressed the view that sound management of business records and information delivered "...six key requirements for good corporate governance...transparency; accountability; due process; compliance; meeting statutory and common law requirements; and security of personal and corporate information."
+
+
+== Semiotics ==
+Beynon-Davies explains the multi-faceted concept of information in terms of signs and signal-sign systems. Signs themselves can be considered in terms of four inter-dependent levels, layers or branches of semiotics: pragmatics, semantics, syntax, and empirics. These four layers serve to connect the social world on the one hand with the physical or technical world on the other.
+Pragmatics is concerned with the purpose of communication. Pragmatics links the issue of signs with the context within which signs are used. The focus of pragmatics is on the intentions of living agents underlying communicative behaviour. In other words, pragmatics link language to action.
+Semantics is concerned with the meaning of a message conveyed in a communicative act. Semantics considers the content of communication. Semantics is the study of the meaning of signs - the association between signs and behaviour. Semantics can be considered as the study of the link between symbols and their referents or concepts – particularly the way in which signs relate to human behavior.
+Syntax is concerned with the formalism used to represent a message. Syntax as an area studies the form of communication in terms of the logic and grammar of sign systems. Syntax is devoted to the study of the form rather than the content of signs and sign-systems.
+Empirics is the study of the signals used to carry a message; the physical characteristics of the medium of communication. Empirics is devoted to the study of communication channels and their characteristics, e.g., sound, light, electronic transmission etc..
+Nielsen (2008) discusses the relationship between semiotics and information in relation to dictionaries. The concept of lexicographic information costs is introduced and refers to the efforts users of dictionaries need to make in order to, first, find the data sought and, secondly, understand the data so that they can generate information.
+Communication normally exists within the context of some social situation. The social situation sets the context for the intentions conveyed (pragmatics) and the form in which communication takes place. In a communicative situation intentions are expressed through messages which comprise collections of inter-related signs taken from a language which is mutually understood by the agents involved in the communication. Mutual understanding implies that agents involved understand the chosen language in terms of its agreed syntax (syntactics) and semantics. The sender codes the message in the language and sends the message as signals along some communication channel (empirics). The chosen communication channel will have inherent properties which determine outcomes such as the speed with which communication can take place and over what distance.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Alan Liu (2004). The Laws of Cool: Knowledge Work and the Culture of Information, University of Chicago Press
+Bekenstein, Jacob D. (2003, August). Information in the holographic universe. Scientific American.
+Gleick, James (2011). The Information: A History, a Theory, a Flood. Pantheon, New York, NY.
+Shu-Kun Lin (2008). 'Gibbs Paradox and the Concepts of Information, Symmetry, Similarity and Their Relationship', Entropy, 10 (1), 1-5. Available online at Entropy journal website.
+Luciano Floridi, (2005). 'Is Information Meaningful Data?', Philosophy and Phenomenological Research, 70 (2), pp. 351 – 370. Available online at PhilSci Archive
+Luciano Floridi, (2005). 'Semantic Conceptions of Information', The Stanford Encyclopedia of Philosophy (Winter 2005 Edition), Edward N. Zalta (ed.). Available online at Stanford University
+Luciano Floridi, (2010). Information: A Very Short Introduction, Oxford University Press, Oxford.
+Sandro Nielsen: 'The Effect of Lexicographical Information Costs on Dictionary Making and Use', Lexikos 18/2008, 170-189.
+Stewart, Thomas, (2001). Wealth of Knowledge. Doubleday, New York, NY, 379 p.
+Young, Paul. The Nature of Information (1987). Greenwood Publishing Group, Westport, Ct. ISBN 0-275-92698-2.
+
+
+== External links ==
+Semantic Conceptions of Information Review by Luciano Floridi for the Stanford Encyclopedia of Philosophy
+Principia Cybernetica entry on negentropy
+Fisher Information, a New Paradigm for Science: Introduction, Uncertainty principles, Wave equations, Ideas of Escher, Kant, Plato and Wheeler. This essay is continually revised in the light of ongoing research.
+How Much Information? 2003 an attempt to estimate how much new information is created each year (study was produced by faculty and students at the School of Information Management and Systems at the University of California at Berkeley)
+(Danish) Informationsordbogen.dk The Danish Dictionary of Information Terms / Informationsordbogen

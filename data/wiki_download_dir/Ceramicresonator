@@ -1,0 +1,28 @@
+Ceramic resonator
+A ceramic resonator is an electronic component consisting of a piece of a piezoelectric ceramic material with two or more metal electrodes attached. When connected in an electronic oscillator circuit, resonant mechanical vibrations in the device generate an oscillating signal of a specific frequency. Like the similar quartz crystal, they are used in crystal oscillators for purposes such as generating the clock signal used to control timing in computers and other digital logic devices.
+Ceramic resonators are made of high-stability piezoelectric ceramics, generally lead zirconium titanate (PZT) which functions as a mechanical resonator. In operation, mechanical vibrations induce an oscillating voltage in the attached electrodes due to the piezoelectricity of the material. The thickness of the ceramic substrate determines the resonant frequency of the device.
+
+
+== Packages ==
+A typical ceramic resonator package has either two or three connections. They come in both surface-mount and through-hole varieties with a number of different footprints. The oscillation takes place across two of the pins (connections). The third pin (if present; typically the center pin) is connected to ground.
+
+
+== Applications ==
+Ceramic resonators can be found in many circuit boards as they can be used as the source of the clock signal for digital circuits such as microprocessors where the frequency accuracy is not critical. Quartz has a 0.001% frequency tolerance, while PZT has a 0.5% tolerance.
+They are also likely to be found in timing circuitry for a wide array of applications such as TVs, VCRs, automotive electronic devices, telephones, copiers, cameras, voice synthesizers, communication equipment, remote controls and toys. A ceramic resonator is often used in place of quartz crystals as a reference clock or signal generator in electronic circuitry due to its low cost and smaller size.
+
+
+== Ceramic filters ==
+Ceramic resonators look similar to ceramic filters. Ceramic filters are frequently used in the IF stages of superheterodyne receivers.
+
+
+== See also ==
+Electronic oscillator
+Crystal oscillator
+Crystal filter
+
+
+== References ==
+^ ZTT Series Datasheet
+^ AWSCR Series Datasheet
+^ PIC12F675 Data sheet

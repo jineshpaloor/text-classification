@@ -1,0 +1,46 @@
+Crosstalk
+In electronics, crosstalk is any phenomenon by which a signal transmitted on one circuit or channel of a transmission system creates an undesired effect in another circuit or channel. Crosstalk is usually caused by undesired capacitive, inductive, or conductive coupling from one circuit, part of a circuit, or channel, to another.
+
+
+== In cabling ==
+In structured cabling, crosstalk can refer to electromagnetic interference from one unshielded twisted pair to another twisted pair, normally running in parallel.
+Near end crosstalk (NEXT)
+NEXT is a measure of the ability of cabling to reject crosstalk. Interference between two pairs in a cable is measured at the same end of the cable as the interfering transmitter. Crosstalk is undesirable. In crosstalk, the signals traveling through adjacent pairs of wire in twisted-pair cabling interfere with each other. The pair causing the interference is called the “disturbing pair,” while the pair experiencing the interference is the “disturbed pair.” Channel NEXT is the NEXT value measured between one wire pair and another in the same cable; NEXT is measured at both ends of the wire. The NEXT value for a given cable type is generally expressed in decibels per feet or decibels per 1000 feet. NEXT value varies with the frequency of transmission. The higher the NEXT value, the greater the cable’s ability to reject crosstalk at its local connection. Generally specifications for cabling (such as CAT 5) include the minimum NEXT values.
+Power sum near end crosstalk (PSNEXT)
+PSNEXT is a NEXT measurement which includes the sum of crosstalk contributions of all adjacent pairs.
+Far end crosstalk (FEXT)
+Interference between two pairs of a cable measured at the other end of the cable with respect to the interfering transmitter.
+Equal level far end crosstalk (ELFEXT)
+An FEXT measurement with attenuation compensation.
+Alien crosstalk (AXT)
+Interference caused by other cables routed close to the cable of interest.
+
+
+== Other examples ==
+In telecommunication or telephony, crosstalk is often distinguishable as pieces of speech or signaling tones leaking from other people's connections. If the connection is analog, twisted pair cabling can often be used to reduce the effects of crosstalk. Alternatively, the signals can be converted to digital form, which is much less susceptible to crosstalk.
+In wireless communication, crosstalk is often denoted co-channel interference, and is related to adjacent-channel interference.
+In integrated circuit design, crosstalk normally refers to a signal affecting another nearby signal. Usually the coupling is capacitive, and to the nearest neighbor, but other forms of coupling and effects on signal further away are sometimes important, especially in analog designs. See signal integrity for tools used to measure and prevent this problem, and substrate coupling for a discussion of crosstalk conveyed through the integrated circuit substrate. There are a wide variety of possible fixes, with increased spacing, wire re-ordering, and shielding being the most common.
+In stereo audio reproduction crosstalk can refer to signal leaking across from one program channel to another. This is an electrical effect and can be quantified with a crosstalk measurement.
+In full-field optical coherence tomography, "crosstalk" refers to the phenomenon that due to highly scattering objects, multiple scattered photons reach the image plane and generate coherent signal after traveling a pathlength that matches that of the sample depth within a coherence length.
+In stereoscopic 3D displays, "crosstalk" refers to the incomplete isolation of the left and right image channels so that one leaks or bleeds into the other - like a double exposure, which produces a ghosting effect.
+
+
+== See also ==
+Attenuation-to-crosstalk ratio
+Audio system measurements
+Co-channel interference (CCI)
+Federal Standard 1037C
+MIL-STD-188
+Print-through
+Signal integrity
+Signal-to-interference ratio (SIR or S/I), also known as carrier-to-interference ratio (CIR or C/I)
+Substrate coupling
+Unger model
+
+
+== References ==
+
+
+== External links ==
+Educational slideshow on capacitive and inductive crosstalk
+Minimizing Crosstalk in Wiring and Cabling

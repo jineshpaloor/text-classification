@@ -1,0 +1,31 @@
+Scott-T transformer
+A Scott-T transformer (also called a Scott connection) is a type of circuit used to derive two-phase electric power (2-φ, 90-degree phase rotation) from a three-phase (3-φ, 120-degree phase rotation) source, or vice versa. The Scott connection evenly distributes a balanced load between the phases of the source. The Scott three-phase transformer was invented by a Westinghouse engineer Charles F. Scott in the late 1890s to bypass Thomas Edison's more expensive rotary converter and thereby permit two-phase generator plants to drive Nikola Tesla's three-phase motors.
+
+
+== Interconnection ==
+At this time two-phase motor loads also existed and the Scott connection allowed connecting them to newer three-phase supplies with the currents equal on the three phases. This was valuable for getting equal voltage drop and thus feasible regulation of the voltage from the electric generator (the phases cannot be varied separately in a three-phase machine). Nikola Tesla's original polyphase power system was based on simple to build two-phase four-wire components. However, as transmission distances increased, the more transmission line efficient three-phase system became more common. (Three phase power can be transmitted with only three wires, where the two-phase power systems required four wires, two per phase.) Both 2-φ and 3-φ components coexisted for a number of years and the Scott-T transformer connection allowed them to be interconnected.
+
+
+== Technical details ==
+
+Assuming the desired voltage is the same on the two and three phase sides, the Scott-T transformer connection (shown right) consists of a centre-tapped 1:1 ratio main transformer, T1, and an 86.6% (0.5√3) ratio teaser transformer, T2. The centre-tapped side of T1 is connected between two of the phases on the three-phase side. Its centre tap then connects to one end of the lower turn count side of T2, the other end connects to the remaining phase. The other side of the transformers then connect directly to the two pairs of a two-phase four-wire system.
+
+
+== Unbalanced loads ==
+Two-phase motors draw constant power the same as three-phase motors, so a balanced two-phase load is converted to a balanced three-phase load. However if the two-phase load is not balanced (more power on one phase than the other), the Scott-T transformer (or any connection of transformers) cannot fix this. Unbalanced current on the two-phase side causes unbalanced current on the three-phase side. As the typical 2 phase load was a motor, equality of the current in the 2 phases was inherently presumed during the Scott development. In modern times people have tried to revive the Scott connection as a way to power single-phase electric railways from 3 phase Utility supplies. This will not result in balanced current on the 3 phase side as it is unlikely that 2 different railway sections connected as the 2 phases will at all times conform to the Scott presumption of being equal. The instantaneous difference in loading on the 2 sections will be seen as an imbalance in the 3 phase supply; there is no ability to smooth it out.
+
+
+== Back to back arrangement ==
+
+The Scott-T transformer connection may be also be used in a back-to-back T-to-T arrangement for a 3-phase to 3-phase connection. This is a cost-saving in the lower-power transformers due to the 2-coil T connected to a secondary 2-coil T instead of the traditional 3-coil primary to 3-coil secondary transformer. In this arrangement the X0 neutral tap is part way up on the secondary teaser transformer (see right). The voltage stability of this T-to-T arrangement as compared to the traditional 3-coil primary to 3-coil secondary transformer is questioned, as the "per unit" impedance of the two windings (primary and secondary, respectively) are not the same in a T-to-T configuration, whereas the three windings (primary and secondary, respectively) are the same in a three transformer configuration, if the three transformers are identical.
+Three-phase to three-phase (also called "T-connected") distribution transformers are seeing increasing applications. The primary must be delta-connected, but the secondary may be delta or wye-connected, at the customer's option, with X0 providing the neutral for the wye case. Taps for either case are usually provided. The customary maximum capacity of such a distribution transformer is 333 kV-A (a third of a megawatt).
+
+
+== See also ==
+Alternating current
+Polyphase coil
+Symmetrical components
+High-leg delta
+
+
+== References ==

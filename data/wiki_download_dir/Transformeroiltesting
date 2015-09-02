@@ -1,0 +1,72 @@
+Transformer oil testing
+
+== Introduction ==
+The insulation oil of voltage- and current-transformers fulfills the purpose of insulating as well as cooling. Thus, the dielectric quality of transformer oil is a matter of secure operation of a transformer.
+As transformer oil deteriorates through aging and moisture ingress, transformer oil should, depending on economics, transformer duty and other factors, be tested periodically.
+
+Transformer oil testing sequences and procedures are defined by various international standards.
+Power utility companies have a vested interest in periodic oil testing since transformers represent a large proportion of their total assets.
+Through such testing, transformers' life can be substantially increased, thus delaying new investment of replacement transformer assets.
+
+
+== Types ==
+Color; e.g., ASTM D1500
+Dielectric breakdown voltage; e.g., D 877, ASTM D1816
+Dissolved gas analysis; e.g., ASTM D3612
+Dissolved metals; e.g., ASTM D7151
+Flash point, fire point; e.g., ASTM D92
+Interfacial tension; e.g. D 971
+Furanic compounds; e.g., ASTM D5837
+Karl Fischer moisture; e.g., ASTM D1533
+Liquid power factor; e.g., ASTM D924
+Neutralization number; e.g., ASTM D974
+Oxidation inhibitor content; e.g., ASTM D2668
+Polychlorinated biphenyls content; e.g., ASTM D4059
+Relative density (specific gravity); e.g., D 1298, ASTM D1524
+Resistivity; e.g., ASTM D1169
+Visual examination; e.g., ASTM D1524
+
+
+== Transformer oil testing procedure ==
+To assess the insulating property of dielectric transformer oil, a sample of the transformer oil is taken and its breakdown voltage is measured.
+The transformer oil is filled in the vessel of the testing device. Two standard-compliant test electrodes with a typical clearance of 2.5 mm are surrounded by the dielectric oil.
+A test voltage is applied to the electrodes and is continuously increased up to the breakdown voltage with a constant, standard-compliant slew rate of e.g. 2 kV/s.
+At a certain voltage level breakdown occurs in an electric arc, leading to a collapse of the test voltage.
+An instant after ignition of the arc, the test voltage is switched off automatically by the testing device. Ultra fast switch off is highly desirable, as the carbonisation due to the electric arc must be limited to keep the additional pollution as low as possible.
+The transformer oil testing device measures and reports the root mean square value of the breakdown voltage.
+After the transformer oil test is completed, the insulation oil is stirred automatically and the test sequence is performed repeatedly. (Typically 5 Repetitions, depending on the standard)
+As a result the breakdown voltage is calculated as mean value of the individual measurements.
+Conclusion: The lower the resulting breakdown voltage, the poorer the quality of the transformer oil!
+
+
+== On-site transformer oil testing ==
+Recently time consuming testing procedures in test labs have been replaced by on-site oil testing procedures. There are various manufacturers of portable oil testers. With low weight devices in the range of 20 to 40 kg tests up to 100 kV rms can be performed and reported on-site automatically. Some of them are even battery-powered and come with accessories.
+
+
+== International transformer oil testing standards ==
+VDE370-5/96
+OVE EN60156
+IEC 60156/95,
+ASTM1816-04-1
+ASTM1816-04-2
+ASTM877-02A
+ASTM877-02B
+AS1767.2.1
+BS EN60156
+NEN 10 156
+NF EN60156
+PA SEV EN60156
+SABS EN60156
+UNE EN60156
+
+
+== See also ==
+Severity factor
+
+
+== References ==
+
+
+== External links ==
+Equipment for transformer oil testing up to 100kV
+S.D. Myers Intelligent Transformer Management - Transformer Oil Testing Diagnostics

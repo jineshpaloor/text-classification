@@ -1,0 +1,164 @@
+Gauss–Seidel method
+In numerical linear algebra, the Gauss–Seidel method, also known as the Liebmann method or the method of successive displacement, is an iterative method used to solve a linear system of equations. It is named after the German mathematicians Carl Friedrich Gauss and Philipp Ludwig von Seidel, and is similar to the Jacobi method. Though it can be applied to any matrix with non-zero elements on the diagonals, convergence is only guaranteed if the matrix is either diagonally dominant, or symmetric and positive definite. It was only mentioned in a private letter from Gauss to his student Gerling in 1823. A publication was not delivered before 1874 by Seidel.
+
+
+== Description ==
+The Gauss–Seidel method is an iterative technique for solving a square system of n linear equations with unknown x:
+.
+It is defined by the iteration
+
+where  is the kth approximation or iteration of  is the next or k + 1 iteration of , and the matrix A is decomposed into a lower triangular component , and a strictly upper triangular component U: .
+In more detail, write out A, x and b in their components:
+
+Then the decomposition of A into its lower triangular component and its strictly upper triangular component is given by:
+
+The system of linear equations may be rewritten as:
+
+The Gauss–Seidel method now solves the left hand side of this expression for x, using previous value for x on the right hand side. Analytically, this may be written as:
+
+However, by taking advantage of the triangular form of , the elements of x(k+1) can be computed sequentially using forward substitution:
+ 
+The procedure is generally continued until the changes made by an iteration are below some tolerance, such as a sufficiently small residual.
+
+
+=== Discussion ===
+The element-wise formula for the Gauss–Seidel method is extremely similar to that of the Jacobi method.
+The computation of xi(k+1) uses only the elements of x(k+1) that have already been computed, and only the elements of x(k) that have not yet to be advanced to iteration k+1. This means that, unlike the Jacobi method, only one storage vector is required as elements can be overwritten as they are computed, which can be advantageous for very large problems.
+However, unlike the Jacobi method, the computations for each element cannot be done in parallel. Furthermore, the values at each iteration are dependent on the order of the original equations.
+Gauss-Seidel is the same as SOR (successive over-relaxation) with .
+
+
+== Convergence ==
+The convergence properties of the Gauss–Seidel method are dependent on the matrix A. Namely, the procedure is known to converge if either:
+A is symmetric positive-definite, or
+A is strictly or irreducibly diagonally dominant.
+The Gauss–Seidel method sometimes converges even if these conditions are not satisfied.
+
+
+== Algorithm ==
+Since elements can be overwritten as they are computed in this algorithm, only one storage vector is needed, and vector indexing is omitted. The algorithm goes as follows:
+
+Inputs: A, b
+Output: 
+
+Choose an initial guess  to the solution
+repeat until convergence
+    for i from 1 until n do
+        
+        for j from 1 until n do
+            if j ≠ i then
+                
+            end if
+        end (j-loop)
+        
+    end (i-loop)
+    check if convergence is reached
+end (repeat)
+
+
+== Examples ==
+
+
+=== An example for the matrix version ===
+A linear system shown as  is given by:
+ and 
+We want to use the equation
+
+in the form
+
+where:
+ and 
+We must decompose  into the sum of a lower triangular component  and a strict upper triangular component :
+ and 
+The inverse of  is:
+.
+Now we can find:
+
+Now we have  and  and we can use them to obtain the vectors  iteratively.
+First of all, we have to choose : we can only guess. The better the guess, the quicker the algorithm will perform.
+We suppose:
+
+We can then calculate:
+
+As expected, the algorithm converges to the exact solution:
+
+In fact, the matrix A is strictly diagonally dominant (but not positive definite).
+
+
+=== Another example for the matrix version ===
+Another linear system shown as  is given by:
+ and 
+We want to use the equation
+
+in the form
+
+where:
+ and 
+We must decompose  into the sum of a lower triangular component  and a strict upper triangular component :
+ and 
+The inverse of  is:
+.
+Now we can find:
+
+Now we have  and  and we can use them to obtain the vectors  iteratively.
+First of all, we have to choose : we can only guess. The better the guess, the quicker will perform the algorithm.
+We suppose:
+
+We can then calculate:
+
+If we test for convergence we'll find that the algorithm diverges. In fact, the matrix A is neither diagonally dominant nor positive definite. Then, convergence to the exact solution
+
+is not guaranteed and, in this case, will not occur.
+
+
+=== An example for the equation version ===
+Suppose given k equations where xn are vectors of these equations and starting point x0. From the first equation solve for x1 in terms of  For the next equations substitute the previous values of xs.
+To make it clear let's consider an example.
+
+Solving for , ,  and  gives:
+
+Suppose we choose (0, 0, 0, 0) as the initial approximation, then the first approximate solution is given by
+
+Using the approximations obtained, the iterative procedure is repeated until the desired accuracy has been reached. The following are the approximated solutions after four iterations.
+The exact solution of the system is (1, 2, −1, 1).
+
+
+=== An example using Python 3 and NumPy ===
+The following numerical procedure simply iterates to produce the solution vector.
+
+Produces the output:
+
+
+=== Program to solve arbitrary no. of equations using Matlab ===
+The following code uses the formula 
+
+
+== See also ==
+Jacobi method
+Successive over-relaxation
+Iterative method. Linear systems
+Gaussian belief propagation
+Matrix splitting
+Richardson iteration
+
+
+== Notes ==
+
+
+== References ==
+Gauss, Carl Friedrich (1903), Werke (in German) 9, Göttingen: Köninglichen Gesellschaft der Wissenschaften .
+Golub, Gene H.; Van Loan, Charles F. (1996), Matrix Computations (3rd ed.), Baltimore: Johns Hopkins, ISBN 978-0-8018-5414-9 .
+Black, Noel and Moore, Shirley, "Gauss-Seidel Method", MathWorld.
+This article incorporates text from the article Gauss-Seidel_method on CFD-Wiki that is under the GFDL license.
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001), "Seidel method", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Gauss–Seidel from www.math-linux.com
+Module for Gauss–Seidel Iteration
+Gauss–Seidel From Holistic Numerical Methods Institute
+Gauss Siedel Iteration from www.geocities.com
+The Gauss-Seidel Method
+Bickson
+Matlab code
+C code example

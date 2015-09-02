@@ -1,0 +1,34 @@
+Electromechanics
+In engineering, electromechanics combines electrical and mechanical processes and procedures drawn from electrical engineering and mechanical engineering. Electrical engineering in this context also encompasses electronics engineering.
+Devices which carry out electrical operations by using moving parts are known as electromechanical. Strictly speaking, a manually operated switch is an electromechanical component, but the term is usually understood to refer to devices which involve an electrical signal to create mechanical movement, or mechanical movement to create an electric signal. Often involving electromagnetic principles such as in relays, which allow a voltage or current to control other, oftentimes isolated circuit voltage or current by mechanically switching sets of contacts, and solenoids, by which a voltage can actuate a moving linkage as in solenoid valves. Piezoelectric devices are electromechanical, but do not use electromagnetic principles. Piezoelectric devices can create sound or vibration from an electrical signal or create an electrical signal from sound or mechanical vibration.
+Before the development of modern electronics, electromechanical devices were widely used in complicated systems subsystems, including electric typewriters, teleprinters, very early television systems, and the very early electromechanical digital computers.
+
+
+== History of electromechanics ==
+Relays originated with telegraphy as electromechanical devices used to regenerate telegraph signals. In 1885, Michael Pupin at Columbia University taught mathematical physics and electromechanics until 1931.
+The Strowger switch, the Panel switch, and similar ones were widely used in early automated telephone exchanges. Crossbar switches were first widely installed in the middle 20th century in Sweden, the United States, Canada, and Great Britain, and these quickly spread to the rest of the world - especially to Japan. The electromechanical television systems of the late 19th century were less successful.
+Electric typewriters developed, up to the 1980s, as "power-assisted typewriters". They contained a single electrical component, the motor. Where the keystroke had previously moved a typebar directly, now it engaged mechanical linkages that directed mechanical power from the motor into the typebar. This was also true of the later IBM Selectric. At Bell Labs, in the 1940s, the Bell Model V computer was developed. It was an electromechanical relay-based device; cycles took seconds. In 1968 electromechanical systems were still under serious consideration for an aircraft flight control computer, until a device based on large scale integration electronics was adopted in the Central Air Data Computer.
+
+
+== Modern practice ==
+Beginning in the last third of the century, much equipment which for most of the 20th century would have used electromechanical devices for control, has come to use less expensive and more reliable integrated microcontroller circuits containing ultimately a few million transistors, and a program to carry out the same task through logic, with electromechanical components only where moving parts, such as mechanical electric actuators, are a requirement. Such chips have replaced most electromechanical devices, because any point in a system which must rely on mechanical movement for proper operation will have mechanical wear and eventually fail. Properly designed electronic circuits without moving parts will continue to operate properly almost indefinitely and are used in most simple feedback control systems, and appear in huge numbers in everything from traffic lights to washing machines.
+As of 2010, approximately 16,400 people work as electro-mechanical technicians in the US, about 1 out of every 9000 workers. Their median annual wage is about 50% more than the median annual wage over all occupations. 
+
+
+== See also ==
+
+
+== Further reading ==
+A first course in electromechanics. By Hugh Hildreth Skilling. Wiley, 1960.
+Electromechanics: a first course in electromechanical energy conversion, Volume 1. By Hugh Hildreth Skilling. R. E. Krieger Pub. Co., Jan 1, 1979.
+Electromechanics and electrical machinery. By J. F. Lindsay, M. H. Rashid. Prentice-Hall, 1986.
+Electromechanical motion devices. By Hi-Dong Chai. Prentice Hall PTR, 1998.
+Mechatronics: Electromechanics and Contromechanics. By Denny K. Miu. Springer London, Limited, 2011.
+
+
+== References and notes ==
+General
+Davim, J. Paulo, editor (2011) Mechatronics, John Wiley & Sons ISBN 978-1-84821-308-1 .
+Furlani, Edward P. (August 15, 2001). Permanent Magnet and Electromechanical Devices: Materials, Analysis and Applications. Academic Press Series in Electromagnetism. San Diego: Academic Press. ISBN 0-12-269951-3. OCLC 47726317. 
+Krause, Paul C.; Wasynczuk, Oleg (1989). Electromechanical Motion Devices. McGraw-Hill Series in Electrical and Computer Engineering. New York: McGraw-Hill. ISBN 0-07-035494-4. OCLC 18224514. 
+Citations

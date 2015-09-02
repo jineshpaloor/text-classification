@@ -1,0 +1,57 @@
+Voltage controller
+A voltage controller, also called an AC voltage controller or AC regulator is an electronic module based on either thyristors, TRIACs, SCRs or IGBTs, which converts a fixed voltage, fixed frequency alternating current (AC) electrical input supply to obtain variable voltage in output delivered to a resistive load. This varied voltage output is used for dimming street lights, varying heating temperatures in homes or industry, speed control of fans and winding machines and many other applications, in a similar fashion to an autotransformer. Voltage controller modules come under the purview of power electronics. Because they are low-maintenance and very efficient, voltage controllers have largely replaced such modules as magnetic amplifiers and saturable reactors in industrial use.
+
+
+== Modes of operation ==
+Voltage controllers work in two different ways; either through "on-and-off control" or through "phase control". 
+
+
+=== On-and-off control ===
+In an on-and-off controller, thyristors are used to switch on the circuits for a few cycles of voltage and off for certain cycles, thus altering the total RMS voltage value of the output and acting as a high speed AC switch. The rapid switching results in high frequency distortion artifacts which can cause a rise in temperature, and may lead to interference in nearby electronics. Such designs are not practical except in low power applications.
+
+
+=== Phase angle control ===
+In phase angle control, thyristors are used to halve the voltage cycle during input. By controlling the phase angle or trigger angle, the output RMS voltage of the load can be varied. The thyristor is turned on for every half-cycle and switched off for each remaining half-cycle. The phase angle is the position at which the thyristor is switched on. TRIACs are often used instead of thyristors to perform the same function for better efficiency. If the load is a combination of resistance and inductance, the current cycle lags the voltage cycle, decreasing overall power output.
+
+
+== Types of voltage controllers ==
+There are essentially two types of voltage controllers: single-phase voltage controllers which control voltage of 230 rms, 50–60 Hz power supply, and three-phase voltage controllers which control 400 rms voltage, 50–60 Hz power supply (depending on the country).
+
+
+== Restrictions on use ==
+Voltage controllers are only used under certain conditions:
+
+There has to be a load for a voltage controller to function: Since voltage controllers use thyristors for varying voltage, they need some kind of resistive load at the end to function.
+The overall power is reduced by any inductive component of the resistive load.
+The load has to be of increasing torque in nature: Voltage controllers can alter the speed of a motor by altering the incoming voltage, but the motor must have an increasing torque load (e.g. Industrial fans, winding machines). Voltage controllers are not suitable for a constant torque application. An example of an increasing torque application would be a wire winding machine: the initial load is almost zero as there is no wire wound at the beginning, with time the wire wound increases, thus increasing the torque (the force needed to turn the winding) proportionally. A voltage controller would be suitable here for increasing or decreasing the speed of the winding machine.
+The starting torque must be low: The motor attached to the voltage controller is usually never started with high starting torque (or a loaded start); supplying a low voltage to a motor with a high load can heat up the motor and burn its windings (e.g. trying to start a motor which is attached to a stone crusher which is filled with stones).
+
+
+== Applications ==
+
+Light dimming circuits for street lights
+Industrial & domestic heating
+Induction heating
+transformer tap changing
+Speed control of Motors (variable torque)
+speed control of winding machines,fans
+AC magnet controls 
+
+
+== See also ==
+
+Dimmer
+Motor soft starter
+DC injection braking
+Space Vector Modulation
+Variable speed air compressor
+Vector control (motor)
+Motor controller
+Adjustable-speed drive
+Electronic speed control
+Variable-frequency drive
+Thyristor drive
+DC motor starter section of Electric motor
+
+
+== References ==

@@ -1,0 +1,16 @@
+Synchronous circuit
+A synchronous circuit is a digital circuit in which the parts are synchronized by a clock signal. In a sequential digital logic circuit, data is stored in memory devices called flip-flops or latches. The output of a flip-flop is constant until a pulse is applied to its "clock" input, upon which the input of the flip-flop is latched into its output. In a synchronous logic circuit, an electronic oscillator called the clock generates a string of pulses. This clock signal is applied to every storage element, so in an ideal synchronous circuit, every change in the logical levels of its storage components is simultaneous. These transitions follow the level of change of a special signal called as the clock. Ideally, the input to each storage element has reached its final value before the next clock occurs, so the behaviour of the whole circuit can be predicted exactly. Practically, some delay is required for each logical operation, resulting in a maximum speed at which each synchronous system can run.
+To make these circuits work correctly, a great deal of care is needed in the design of the Clock Distribution Networks. Static timing analysis is often used to determine the maximum safe operating speed.
+Nearly all digital circuits, and in particular nearly all CPUs, are fully synchronous circuits with a global clock. Exceptions are often compared to fully synchronous circuits. Exceptions include self-synchronous circuits, globally asynchronous locally synchronous circuits, and fully asynchronous circuits.
+
+
+== See also ==
+Synchronous network
+Asynchronous circuit
+Moore machine
+Mealy machine
+Finite state machine
+Sequential logic
+
+
+== References ==

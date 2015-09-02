@@ -1,0 +1,91 @@
+Firmware
+In electronic systems and computing, firmware is a type of software that provides control, monitoring and data manipulation of engineered products and systems. Typical examples of devices containing firmware are embedded systems (such as traffic lights, consumer appliances, and digital watches), computers, computer peripherals, mobile phones, and digital cameras. The firmware contained in these devices provides the low-level control program for the device. As of 2013, most firmware can be updated.
+Firmware is held in non-volatile memory devices such as ROM, EPROM, or flash memory. Changing the firmware of a device may rarely or never be done during its economic lifetime; some firmware memory devices are permanently installed and cannot be changed after manufacture. Common reasons for updating firmware include fixing bugs or adding features to the device. This may require ROM integrated circuits to be physically replaced, or flash memory to be reprogrammed through a special procedure. Firmware such as the ROM BIOS of a personal computer may contain only elementary basic functions of a device and may only provide services to higher-level software. Firmware such as the program of an embedded system may be the only program that will run on the system and provide all of its functions.
+Before integrated circuits, other firmware devices included a discrete semiconductor diode matrix. The Apollo guidance computer had firmware consisting of a specially manufactured core memory plane, called "core rope memory", where data were stored by physically threading wires through (1) or around (0) the core storing each data bit.
+
+
+== History ==
+Ascher Opler coined the term "firmware" in a 1967 Datamation article. Originally, it meant the contents of a writable control store (a small specialized high speed memory), containing microcode that defined and implemented the computer's instruction set, and that could be reloaded to specialize or modify the instructions that the central processing unit (CPU) could execute. As originally used, firmware contrasted with hardware (the CPU itself) and software (normal instructions executing on a CPU). It was not composed of CPU machine instructions, but of lower-level microcode involved in the implementation of machine instructions. It existed on the boundary between hardware and software; thus the name "firmware".
+Still later, popular usage extended the word "firmware" to denote anything ROM-resident, including processor machine-instructions for BIOS, bootstrap loaders, or specialized applications.
+Until the mid-1990s, updating firmware typically involved replacing a storage medium containing firmware, usually a socketed ROM integrated circuit. Flash memory allows firmware to be updated without physically removing an integrated circuit from the system. An error during the update process may make the device non-functional, or "bricked".
+
+
+== Applications ==
+
+
+=== Personal computers ===
+
+In some respects, the various firmware components are as important as the operating system in a working computer. However, unlike most modern operating systems, firmware rarely has a well-evolved automatic mechanism of updating itself to fix any functionality issues detected after shipping the unit.
+The BIOS may be "manually" updated by a user, using a small utility program. In contrast, firmware in storage devices (harddisks, DVD drives, flash storage) rarely gets updated, even when flash (rather than ROM) storage is used for the firmware; there are no standardized mechanisms for detecting or updating firmware versions.
+Most computer peripherals are themselves special-purpose computers. Devices such as printers, scanners, cameras and USB flash drives have internally stored firmware; some devices may also permit field upgrading of their firmware.
+Some low-cost peripherals no longer contain non-volatile memory for firmware, and instead rely on the host system to transfer the device control program from a disk file or CD.
+
+
+=== Consumer products ===
+As of 2010 most portable music players support firmware upgrades. Some companies use firmware updates to add new playable file formats (codecs); iriver added Vorbis playback support this way, for instance. Other features that may change with firmware updates include the GUI or even the battery life. Most mobile phones have a Firmware Over The Air firmware upgrade capability for much the same reasons; some may even be upgraded to enhance reception or sound quality, illustrating the fact that firmware is used at more than one level in complex products (in a CPU-like microcontroller versus in a digital signal processor, in this particular case).
+
+
+=== Automobiles ===
+Since 1996 most automobiles have employed an on-board computer and various sensors to detect mechanical problems. As of 2010 modern vehicles also employ computer-controlled ABS systems and computer-operated Transmission Control Units (TCU). The driver can also get in-dash information while driving in this manner, such as real-time fuel-economy and tire-pressure readings. Local dealers can update most vehicle firmware.
+
+
+== Examples ==
+Examples of firmware include:
+In consumer products:
+Timing and control systems for washing machines
+Controlling sound and video attributes, as well as the channel list, in modern TVs
+EPROM chips used in the Eventide H-3000 series of digital music processors
+
+In computers:
+The BIOS found in IBM-compatible personal computers
+The (U)EFI-compliant firmware used on Itanium systems, Intel-based computers from Apple, and many Intel desktop computer motherboards
+Open Firmware, used in SPARC-based computers from Sun Microsystems and Oracle Corporation, PowerPC-based computers from Apple, and computers from Genesi
+ARCS, used in computers from Silicon Graphics
+Kickstart, used in the Amiga line of computers (POST, hardware init + Plug and Play auto-configuration of peripherals, kernel, etc.)
+RTAS (Run-Time Abstraction Services), used in computers from IBM
+The Common Firmware Environment (CFE)
+
+In routers and firewalls:
+LibreCMC –  a 100% free software router distribution based on the Linux-libre kernel
+IPFire –  an open-source firewall/router distribution based on the Linux kernel
+fli4l –  an open-source firewall/router distribution based on the Linux kernel
+OpenWrt –  an open-source firewall/router distribution based on the Linux kernel
+m0n0wall –  an embedded firewall distribution of FreeBSD
+
+In NAS systems:
+NAS4Free –  an open-source NAS operating system based on FreeBSD 9.1
+Openfiler –  a open-source NAS operating system based on the Linux kernel
+
+
+== Flashing ==
+Flashing involves the overwriting of existing firmware or data on EEPROM modules present in an electronic device with new data. This can be done to upgrade a device or to change the provider of a service associated with the function of the device, such as changing from one mobile phone service provider to another or installing a new operating system. If firmware is upgradable, it is often done via a program from the provider, and will often allow the old firmware to be saved before upgrading so it can be reverted to if the process fails, or if the newer version performs worse.
+
+
+== Firmware hacking ==
+
+Sometimes, third parties create an unofficial new or modified ("aftermarket") version of firmware to provide new features or to unlock hidden functionality; this is referred to as custom firmware (also "Custom Firmware" in the video game console community). An example is Rockbox as a firmware replacement for portable media players. There are many homebrew projects for video game consoles, which often unlock general-purpose computing functionality in previously limited devices (e.g., running Doom on iPods).
+Firmware hacks usually take advantage of the firmware update facility on many devices to install or run themselves. Some, however, must resort to exploits in order to run, because the manufacturer has attempted to lock the hardware to stop it from running unlicensed code.
+Most firmware hacks are free software.
+
+
+=== HDD firmware hacks ===
+The Moscow-based Kaspersky Lab discovered that a group of developers it refers to as the "Equation Group" has developed hard disk drive firmware modifications for various drive models, containing a trojan horse that allows data to be stored on the drive in locations that will not be erased even if the drive is formatted or wiped. Although the Kaspersky Lab report did not explicitly claim that this group is part of the United States National Security Agency (NSA), evidence obtained from the code of various Equation Group software suggests that they are part of the NSA.
+Researchers from the Kaspersky Lab categorized the undertakings by Equation Group as the most advanced hacking operation ever uncovered, also documenting around 500 infections caused by the Equation Group in at least 42 countries.
+
+
+== Security risks ==
+Mark Shuttleworth, founder of the Ubuntu Linux distribution, has described proprietary firmware as a security risk, saying that "firmware on your device is the NSA's best friend" and calling firmware "a trojan horse of monumental proportions". He has pointed out that low-quality, nonfree firmware is a major threat to system security: "Your biggest mistake is to assume that the NSA is the only institution abusing this position of trust –  in fact, it's reasonable to assume that all firmware is a cesspool of insecurity, courtesy of incompetence of the highest degree from manufacturers, and competence of the highest degree from a very wide range of such agencies". As a solution to this problem, he has called for declarative firmware, which would describe "hardware linkage and dependencies" and "should not include executable code".
+Custom firmware hacks have also focused on injecting malware into devices such as smartphones or USB devices. One such smartphone injection was demonstrated on the Symbian OS at MalCon, a hacker convention. A USB device firmware hack called BadUSB was presented at Black Hat USA 2014 conference, demonstrating how a USB flash drive microcontroller can be reprogrammed to spoof various other device types in order to take control of a computer, exfiltrate data, or spy on the user. Other security researchers have worked further on how to exploit the principles behind BadUSB, releasing at the same time the source code of hacking tools that can be used to modify the behavior of different USB devices.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+BadUSB - On Accessories that Turn Evil on YouTube, by Karsten Nohl and Jakob Lell
+Phison 2251-03 (2303) Custom Firmware & Existing Firmware Patches (BadUSB)
+Hard disk hacking (includes an analysis of feasible security exploits through firmware modifications, in eight parts)
+Snake on a keyboard (firmware modifications, in seven parts)

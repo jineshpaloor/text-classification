@@ -1,0 +1,135 @@
+Y-Δ transform
+The Y-Δ transform, also written wye-delta and also known by many other names, is a mathematical technique to simplify the analysis of an electrical network. The name derives from the shapes of the circuit diagrams, which look respectively like the letter Y and the Greek capital letter Δ. This circuit transformation theory was published by Arthur Edwin Kennelly in 1899. It is widely used in analysis of three-phase electric power circuits.
+The Y-Δ transform can be considered a special case of the star-mesh transform for three resistors. In mathematics, the Y-Δ transform plays an important role in theory of circular planar graphs.
+
+
+== Names ==
+
+The Y-Δ transform is known by a variety of other names, mostly based upon the two shapes involved, listed in either order. The Y, spelled out as wye, can also be called T or star; the Δ, spelled out as delta, can also be called triangle, Π (spelled out as pi), or mesh. Thus, common names for the transformation include wye-delta or delta-wye, star-delta, star-mesh, or T-Π.
+
+
+== Basic Y-Δ transformation ==
+
+The transformation is used to establish equivalence for networks with three terminals. Where three elements terminate at a common node and none are sources, the node is eliminated by transforming the impedances. For equivalence, the impedance between any pair of terminals must be the same for both networks. The equations given here are valid for complex as well as real impedances.
+
+
+=== Equations for the transformation from Δ to Y ===
+The general idea is to compute the impedance  at a terminal node of the Y circuit with impedances ,  to adjacent node in the Δ circuit by
+
+where  are all impedances in the Δ circuit. This yields the specific formulae
+
+
+=== Equations for the transformation from Y to Δ ===
+The general idea is to compute an impedance  in the Δ circuit by
+
+where  is the sum of the products of all pairs of impedances in the Y circuit and  is the impedance of the node in the Y circuit which is opposite the edge with . The formula for the individual edges are thus
+
+
+=== Circuit Analysis: Techniques for Solving Δ to Y ===
+A circuit that has a combination of Δ-loads and Y-loads should be converted to the Y configuration. By converting from Δ to Y, each circuit element can be analyzed separately. Converting from Δ to Y is a technique aimed to simplify circuit analysis. (Note: harmonic behavior from the original circuit remained unchanged). The conversion from the Δ notation to Y notation is as follows.
+
+
+== A proof of the existence and uniqueness of the transformation ==
+The feasibility of the transformation can be shown as a consequence of superposition theorem in electric circuit. A short proof, rather than derived as a corollary of the more general star-mesh transform, can be given as follows. The equivalence lies in the statement that for any external voltages (,  and ) applying at the three nodes (,  and ), the corresponding currents (,  and ) are exactly the same for both the Y and Δ circuit, and vice versa. In this proof, we start with given external currents at the nodes. According to superposition theorem, the voltages can be obtained by studying the linear summation of the resulting voltages at the nodes of following three problems: apply at the three nodes with current (1) , , , (2) , ,  and (3) , , . It can be readily shown that due to Kirchhoff's circuit laws, one has . One notes that now each problem is relatively simple, since it only involves one single ideal current source. To obtain exactly the same outcome voltages at the nodes for each problem, the equivalent resistances in two circuits must be the same, this can be easily found by using the basic rules of series and parallel circuits:
+ 
+Though usually six equations are more than enough to express three variables () in term of the other three variables(), here it is straightforward to show that these equations indeed lead to the above designed expressions. In fact, the superposition theorem not only establishes the relation between the values of the resistances, but also guarantees the uniqueness of such solution.
+
+
+== Simplification of networks ==
+Resistive networks between two terminals can theoretically be simplified to a single equivalent resistor (more generally, the same is true of impedance). Series and parallel transforms are basic tools for doing so, but for complex networks such as the bridge illustrated here, they do not suffice.
+The Y-Δ transform can be used to eliminate one node at a time and produce a network that can be further simplified, as shown.
+
+The reverse transformation, Δ-Y, which adds a node, is often handy to pave the way for further simplification as well.
+
+Every network represented by a planar graph can be reduced to a single equivalent resistor by a sequence of series, parallel, Y-Δ, and Δ-Y transformations.  However, there are networks that cannot be simplified using these transformations, such as a regular square grid wrapped around a torus, or any member of the Petersen family.
+
+
+== Graph theory ==
+In graph theory, the Y-Δ transform means replacing a Y subgraph of a graph with the equivalent Δ subgraph. The transform preserves the number of edges in a graph, but not the number of vertices or the number of cycles. Two graphs are said to be Y-Δ equivalent if one can be obtained from the other by a series of Y-Δ transforms in either direction. For example, the Petersen family is a Y-Δ equivalence class.
+
+
+== Demonstration ==
+
+
+=== Δ-load to Y-load transformation equations ===
+
+To relate  from Δ to  from Y, the impedance between two corresponding nodes is compared. The impedance in either configuration is determined as if one of the nodes is disconnected from the circuit.
+The impedance between N1 and N2 with N3 disconnected in Δ:
+
+To simplify, let  be the sum of .
+
+Thus,
+
+The corresponding impedance between N1 and N2 in Y is simple:
+
+hence:
+   (1)
+Repeating for :
+   (2)
+and for :
+   (3)
+From here, the values of  can be determined by linear combination (addition and/or subtraction).
+For example, adding (1) and (3), then subtracting (2) yields
+
+thus,
+
+where 
+For completeness:
+ (4)
+
+ (5)
+
+ (6)
+
+
+=== Y-load to Δ-load transformation equations ===
+Let
+.
+We can write the Δ to Y equations as
+   (1)
+
+   (2)
+
+   (3)
+Multiplying the pairs of equations yields
+   (4)
+
+   (5)
+
+   (6)
+and the sum of these equations is
+   (7)
+Factor  from the right side, leaving  in the numerator, canceling with an  in the denominator.
+
+ (8)
+Note the similarity between (8) and {(1),(2),(3)}
+Divide (8) by (1)
+
+which is the equation for . Dividing (8) by (2) or (3) (expressions for  or ) gives the remaining equations.
+
+
+== See also ==
+Star-mesh transform
+Analysis of resistive circuits
+Electrical network, single-phase electric power, alternating-current electric power, three-phase power, polyphase systems for examples of Y and Δ connections
+AC motor for a discussion of the Y-Δ starting technique
+Nikola Tesla
+John Hopkinson
+Mikhail Dolivo-Dobrovolsky
+Charles Proteus Steinmetz
+
+
+== Notes ==
+^ A.E. Kennelly, "Equivalence of triangles and three-pointed stars in conducting networks", Electrical World and Engineer, vol. 34, pp. 413–414, 1899.
+^ E.B. Curtis, D. Ingerman, J.A. Morrow, Circular planar graphs and resistor networks, Linear Algebra and its Applications, vol. 238, pp. 115–150, 1998.
+^ Klaus Truemper. On the delta-wye reduction for planar graphs. J. Graph Theory 13(2):141–148, 1989.
+
+
+== References ==
+William Stevenson, Elements of Power System Analysis 3rd ed., McGraw Hill, New York, 1975, ISBN 0-07-061285-4
+
+
+== External links ==
+Dela/Wye Transforms "Behind the scenes" article
+Star-Triangle Conversion: Knowledge on resistive networks and resistors
+Calculator of Star-Triangle transform

@@ -1,0 +1,25 @@
+Network protector
+A network protector is a type of electric protective device used in electricity distribution systems. The network protector automatically disconnect its associated power transformer from the secondary network when the power starts flowing in reverse direction. Network protectors are used on both spot networks and grid networks. The secondary grid system improves continuity of service for customers, since multiple sources are available to supply the load; a fault with any one supply is automatically isolated by the network protector and does not interrupt service from the other sources. Secondary grids are often used in downtown areas of cities where there are many customers in a small area.
+
+
+== Operation ==
+Typically the network protector is set to close when the voltage difference and phase angle are such that the transformer will supply power to the secondary grid, and is set to open when the secondary grid would back-feed through the transformer and supply power to the primary circuit.
+Network protectors typically have three settings, "automatic", "open", and "ground". This includes the function of a disconnect switch and optionally grounding the supply.
+A network protector has a circuit breaker set of contacts and a controlling protection relay. The components are enclosed in a protective housing; some network protectors are installed on transformers below grade and must be in water-resistant enclosures. The mechanism contains electrical and mechanical parts to switch open and close the secondary contacts. The controlling relay monitors voltage and current in the transformer, and opens or closes the contact mechanism through electrical signals. The relay uses a power/time curve so that small, short term reverse power flow (such as from elevator hoists) are ignored.
+
+
+== Application ==
+The network protector does not protect the (secondary) network cable from overload. The network protector is installed to protect the stability and reliability of the secondary grid by preventing power flow away from the customers and into the primary feeders.
+If there is a fault on the primary feeder, the substation circuit-breaker is meant to open, disconnecting the primary feeder from one side. The problem is that this primary cable is also connected to a network transformer, which is interconnected to other network transformers on its secondary side. The secondary network will energize the primary feeder through the network transformer. This can be very dangerous, because a fault will continue to be 'fed' from the secondary network side of transformer. Even without a fault, if the electric utility wants to perform maintenance on that primary cable, they must have a way to fully disconnect that primary cable, without worrying about the cable being energized by the secondary network through the network transformer. Thus, the network protector is designed to open its contacts if the relay senses backwards flowing current.
+However, if there is a fault on the secondary grid, the network protector is not designed to open its contacts up. The secondary fault will continue to be fed from the primary side of the system. In some cases, networks are designed with cable limiters (like fuses) to melt and disconnect the secondary fault under the right conditions. In other cases, the utility lets cable 'burn clear', in which case the fault is allowed to remain fed until the cables fuse, then the fault is isolated.
+Analysis of the system is required to ensure that the system can, indeed, supply enough current to fuse the cables, wherever the fault is. This method tends to works well at 120 volts but it is less reliable at higher voltages. The danger in depending on the cable to 'burn clear' is that some conditions will not cause the cable to burn in this manner and instead, the entire section of cable can be damaged from excessive, long-term overloading, causing fires and damage to the secondary network.
+Typically, network protectors are contained inside a submersible enclosure which is bolted to the throat of the network transformer and placed in underground vaults. IEEE standard C57.12.44 covers network protectors.
+
+
+== See also ==
+Autorecloser
+
+
+== References ==
+Richards Manufacturing Company
+Eaton network protectors

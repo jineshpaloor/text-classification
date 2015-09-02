@@ -1,0 +1,71 @@
+Electronic speed control
+An electronic speed control or ESC is an electronic circuit with the purpose to vary an electric motor's speed, its direction and possibly also to act as a dynamic brake. ESCs are often used on electrically powered radio controlled models, with the variety most often used for brushless motors essentially providing an electronically generated three-phase electric power low voltage source of energy for the motor.
+An ESC can be a stand-alone unit which plugs into the receiver's throttle control channel or incorporated into the receiver itself, as is the case in most toy-grade R/C vehicles. Some R/C manufacturers that install proprietary hobby-grade electronics in their entry-level vehicles, vessels or aircraft use onboard electronics that combine the two on a single circuit board.
+
+
+== Function ==
+Regardless of the type used, an ESC interprets control information not as mechanical motion as would be the case of a servo, but rather in a way that varies the switching rate of a network of field effect transistors, or FETs. The rapid switching of the transistors is what causes the motor itself to emit its characteristic high-pitched whine, especially noticeable at lower speeds. It also allows much smoother and more precise variation of motor speed in a far more efficient manner than the mechanical type with a resistive coil and moving arm once in common use.
+Most modern ESCs incorporate a battery eliminator circuit (or BEC) to regulate voltage for the receiver, removing the need for separate receiver batteries. BECs are usually either linear or switched mode voltage regulators.
+DC ESCs in the broader sense are PWM controllers for electric motors. The ESC generally accepts a nominal 50 Hz PWM servo input signal whose pulse width varies from 1 ms to 2 ms. When supplied with a 1 ms width pulse at 50 Hz, the ESC responds by turning off the DC motor attached to its output. A 1.5 ms pulse-width input signal drives the motor at approximately half-speed. When presented with 2.0 ms input signal, the motor runs at full speed.
+
+
+=== Brushless ESC ===
+
+ESC systems for brushed motors are very different by design; as a result brushed ESC's are not compatible with brushless motors. Brushless ESC systems basically drive tri-phase brushless motors by sending a sequence of signals for rotation. Brushless motors, otherwise called outrunners or inrunners, have become very popular with radio controlled airplane hobbyists because of their efficiency, power, longevity and light weight in comparison to traditional brushed motors. However, brushless AC motor controllers are much more complicated than brushed motor controllers.
+The correct phase varies with the motor rotation, which is to be taken into account by the ESC: Usually, back EMF from the motor is used to detect this rotation, but variations exist that use magnetic (Hall Effect) or optical detectors. Computer-programmable speed controls generally have user-specified options which allow setting low voltage cut-off limits, timing, acceleration, braking and direction of rotation. Reversing the motor's direction may also be accomplished by switching any two of the three leads from the ESC to the motor.
+
+
+== Classification ==
+ESCs are normally rated according to maximum current, for example, 25 amperes or 25 A. Generally the higher the rating, the larger and heavier the ESC tends to be which is a factor when calculating mass and balance in airplanes. Many modern ESCs support nickel metal hydride, lithium ion polymer and lithium iron phosphate batteries with a range of input and cut-off voltages. The type of battery and number of cells connected is an important consideration when choosing a Battery eliminator circuit (BEC), whether built into the controller or as a stand-alone unit. A higher number of cells connected will result in a reduced power rating and therefore a lower number of servos supported by an integrated BEC, if it uses a linear voltage regulator. A well designed BEC using a switching regulator should not have a similar limitation.
+
+
+== Vehicle applications ==
+
+
+=== Electric cars ===
+Increasing oil prices and insufficient resources for carbon fuels have been pushing car makers to research electric propulsion alternatives. Brushless electric motors are projected to be the major power source in a couple decades or sooner. Larger size and increased current offer better torque and much less maintenance for tomorrow's electric cars. Vendors are working on ways to improve batteries, charging times and weight.
+
+
+=== Electric bicycles ===
+A motor used in an electric bicycle application requires high initial torque and therefore uses Hall sensor commutation for speed measurement. Electric bicycle controllers generally use brake application sensors, pedal rotation sensors and provide potentiometer-adjustable motor speed, closed-loop speed control for precise speed regulation, protection logic for over-voltage, over-current, and thermal protection. Sometimes pedal torque sensors are used to enable motor assist proportional to applied torque and sometimes support is provided for regenerative braking but infrequent braking and the low mass of bicycles limits recovered energy. An implementation is described in an  for a 200 W, 24 V Brushless DC (BLDC) motor.
+P.A.S or PAS may appear within the list of components of electric conversion kits for bicycles which implies Pedal Assistance Sensor or sometimes Pulse Pedal Assistance Sensor. Pulse usually relates to a magnet and sensor which measures the rotational velocity of the crank. Pedal pressure sensors under the feet are possible but not common.
+
+
+=== Electric aircraft ===
+Experimental electric aircraft such as the eLazair use electronic speed controls. Most of the requirements and tradeoffs are similar to those for any other electric vehicle.
+
+
+== Remote control applications ==
+
+
+=== Cars ===
+ESCs designed for sport use in cars generally have reversing capability; newer sport controls can have the reversing ability overridden so that it can not be used in a race. Controls designed specifically for racing and even some sport controls have the added advantage of dynamic braking capability. The ESC forces the motor to act as a generator by placing an electrical load across the armature. This in turn makes the armature harder to turn, thus slowing or stopping the model. Some controllers add the benefit of regenerative braking.
+
+
+=== Helicopters ===
+ESCs designed for radio-control helicopters do not require a braking feature (since the one way bearing would render it useless anyhow) nor do they require reverse direction (although it can be helpful since the motor wires can often be difficult to access and change once installed). Many high-end helicopter ESCs provide a "Governor mode" which fixes the motor RPM to a set speed, greatly aiding CCPM-based flight.
+
+
+=== Airplanes ===
+ESCs designed for radio-control airplanes usually contain a few safety features. If the power coming from the battery is insufficient to continue running the electric motor the ESC will reduce or cut off power to the motor while allowing continued use of ailerons, rudder and elevator function. This allows the pilot to retain control of the airplane to glide or fly on low power to safety.
+
+
+=== Boats ===
+ESCs designed for boats are by necessity waterproof. The watertight structure is significantly different from that of non-marine type ESCs, with a more packed air trapping enclosure. Thus arises the need to cool the motor and ESC effectively to prevent rapid failure. Most marine-grade ESCs are cooled by circulated water run by the motor, or negative propeller vacuum near the drive shaft output. Like car ESCs, boat ESCs have braking and reverse capability.
+
+
+=== Quadcopters ===
+Electronic Speed Controllers (ESC) are an essential component of modern Quadcopters (and all multirotors) that offer high power, high frequency, high resolution 3-phase AC power to the motors in an extremely compact miniature package. These craft depend entirely on the variable speed of the motors driving the propellers. This wide variation and fine RPM control in motor/prop speed gives all of the control necessary for a Quadcopter (and all multirotors) to fly.
+Height is determined by the amount of power to all four motors. Forward motion is achieved by driving the aft(back) props faster than the forward props. Sideways motion is achieved by running the left or right props faster. 'Rudder' movements (yaw), (turning left or right) are again achieved by slowing or speeding individual motors - and this control is reliant on the fact that two of the rotors rotate 'clockwise' while the other two are 'widdershins' so that, again, slowing or speeding individual motors(and props) will produce a change in attitude in the craft.
+Quadcopters are a rapidly growing hobby subject but also provide very stable aerial mounts for video cameras for sports coverage, agricultural research, inspection of electrical pylons and historic exploration.
+
+
+== ESC firmware ==
+Most modern ESC contain a microcontroller interpreting the input signal and appropriately controlling the motor using a built-in program, or firmware. In some cases it is possible to change the factory built-in firmware for an alternate, publicly available, open source firmware. This is done generally to adapt the ESC to a particular application. Some ESCs are factory built with the capability of user upgradable firmware. Others require soldering to connect a programmer.
+
+
+== See also ==
+JST connector
+
+
+== References ==

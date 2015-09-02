@@ -1,0 +1,31 @@
+Digital micromirror device
+The digital micromirror device, or DMD, is an optical semiconductor that is the core of the trademarked DLP projection technology from Texas Instruments (TI). The DMD was invented by solid state physicist and TI Fellow Emeritus Dr. Larry Hornbeck in 1987.
+The DMD project began as the Deformable Mirror Device in 1977 using micromechanical analog light modulators. The first analog DMD product was the TI DMD2000 airline ticket printer that used a DMD instead of a laser scanner.
+A DMD chip has on its surface several hundred thousand microscopic mirrors arranged in a rectangular array which correspond to the pixels in the image to be displayed. The mirrors can be individually rotated ±10-12°, to an on or off state. In the on state, light from the projector bulb is reflected into the lens making the pixel appear bright on the screen. In the off state, the light is directed elsewhere (usually onto a heatsink), making the pixel appear dark.
+To produce greyscales, the mirror is toggled on and off very quickly, and the ratio of on time to off time determines the shade produced (binary pulse-width modulation). Contemporary DMD chips can produce up to 1024 shades of gray (10 bits). See Digital Light Processing for discussion of how color images are produced in DMD-based systems.
+
+The mirrors themselves are made out of aluminum and are around 16 micrometres across. Each one is mounted on a yoke which in turn is connected to two support posts by compliant torsion hinges. In this type of hinge, the axle is fixed at both ends and literally twists in the middle. Because of the small scale, hinge fatigue is not a problem  and tests have shown that even 1 trillion (1012) operations do not cause noticeable damage. Tests have also shown that the hinges cannot be damaged by normal shock and vibration, since it is absorbed by the DMD superstructure.
+Two pairs of electrodes control the position of the mirror by electrostatic attraction. Each pair has one electrode on each side of the hinge, with one of the pairs positioned to act on the yoke and the other acting directly on the mirror. The majority of the time, equal bias charges are applied to both sides simultaneously. Instead of flipping to a central position as one might expect, this actually holds the mirror in its current position. This is because attraction force on the side the mirror is already tilted towards is greater, since that side is closer to the electrodes.
+To move the mirrors, the required state is first loaded into an SRAM cell located beneath each pixel, which is also connected to the electrodes. Once all the SRAM cells have been loaded, the bias voltage is removed, allowing the charges from the SRAM cell to prevail, moving the mirror. When the bias is restored, the mirror is once again held in position, and the next required movement can be loaded into the memory cell.
+The bias system is used because it reduces the voltage levels required to address the pixels such that they can be driven directly from the SRAM cell, and also because the bias voltage can be removed at the same time for the whole chip, so every mirror moves at the same instant. The advantages of the latter are more accurate timing and a more cinematic moving image.
+
+
+== Applications ==
+Televisions and HDTVs.
+Holographic Versatile Discs.
+Head-mounted displays.
+Digital cinema
+DLP projector : Digital Light Processing (DLP).
+Metrology : optical metrology
+
+
+== References ==
+^ "Larry Hornbeck, Digital Micromirror Device, US Patent No. 5,061,049, Inducted in 2009", "National Inventors Hall of Fame"
+^ Douglass, M. R. (1998). "Lifetime estimates and unique failure mechanisms of the Digital Micromirror Device (DMD)". 1998 IEEE International Reliability Physics Symposium Proceedings 36th Annual (Cat No 98CH36173) RELPHY-98. pp. 9–9. doi:10.1109/RELPHY.1998.670436. ISBN 0-7803-4400-6. 
+^ Metrology.
+
+
+== External links ==
+DLP White Paper Library
+DMD Resource
+Schematic drawing of a DMD

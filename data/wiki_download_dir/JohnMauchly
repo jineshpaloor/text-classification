@@ -1,0 +1,73 @@
+John Mauchly
+John William Mauchly (August 30, 1907 – January 8, 1980) was an American physicist who, along with J. Presper Eckert, designed ENIAC, the first general purpose electronic digital computer, as well as EDVAC, BINAC and UNIVAC I, the first commercial computer made in the United States.
+Together they started the first computer company, the Eckert-Mauchly Computer Corporation (EMCC), and pioneered fundamental computer concepts including the stored program, subroutines, and programming languages. Their work, as exposed in the widely read First Draft of a Report on the EDVAC (1945) and as taught in the Moore School Lectures (1946), influenced an explosion of computer development in the late 1940s all over the world.
+
+
+== Moore School ==
+In 1941 Dr. Mauchly took a course in wartime electronics at the Moore School of Electrical Engineering, part of the University of Pennsylvania. There he met J. Presper Eckert, a recent Moore School graduate. Mauchly accepted a teaching position at the Moore School, which was a center for wartime computing. Eckert encouraged Mauchly to believe that vacuum tubes could be made reliable with proper engineering practices. The critical problem that was consuming the Moore School was ballistics: the calculation of firing tables for the large number of new guns that the U.S. Army was developing for the war effort.
+
+
+=== ENIAC ===
+
+In 1942 Mauchly wrote a memo proposing the building of a general-purpose electronic computer. The proposal, which circulated within the Moore School (but the significance of which was not immediately recognized), emphasized the enormous speed advantage that could be gained by using digital electronics with no moving parts. Lieutenant Herman Goldstine, who was the liaison between the United States Army and Moore School, picked up on the idea and asked Mauchly to write a formal proposal. In April 1943, the Army contracted with the Moore School to build the Electronic Numerical Integrator and Computer (ENIAC). Mauchly led the conceptual design while Eckert led the hardware engineering on ENIAC. A number of other talented engineers contributed to the confidential "Project PX".
+Because of its high-speed calculations, ENIAC could solve problems that were previously unsolvable. It was roughly a thousand times faster than the existing technology. It could add 5,000 numbers or do 357 10-digit multiplications in one second.
+ENIAC could be programmed to perform sequences and loops of addition, subtraction, multiplication, division, square-root, input/output functions, and conditional branches. Programming was initially accomplished with patch cords and switches, and reprogramming took days. It was redesigned in 1948 to allow the use of stored programs with some loss in speed.
+In 2002, for his work on ENIAC he was inducted, posthumously, into the National Inventors Hall of Fame.
+
+
+== EDVAC ==
+The ENIAC design was frozen in 1944 to allow construction. Eckert and Mauchly were already aware of the limitations of the machine and began plans on a second computer, to be called EDVAC. By January 1945 they had procured a contract to build this stored-program computer. Eckert had proposed a mercury delay line memory to store both program and data. Later that year, mathematician John von Neumann learned of the project and joined in some of the engineering discussions. He produced what was understood to be an internal document describing the EDVAC.
+The term von Neumann architecture arose from von Neumann's paper, First Draft of a Report on the EDVAC. Dated June 30, 1945, it was an early written account of a general purpose stored-program computing machine (the EDVAC). Goldstine, in a move that was to become controversial, removed any reference to Eckert or Mauchly and distributed the document to a number of von Neumann's associates across the country. The ideas became widely known within the very small world of computer designers.
+Besides the lack of credit, Eckert and Mauchly suffered additional setbacks due to Goldstine's actions. The ENIAC patent U.S. Patent 3,120,606, issued in 1964 was filed on June 26, 1947, and granted February 4, 1964, but the public disclosure of design details of EDVAC in the First Draft (which were also common to ENIAC) was later cited as one cause for the 1973 invalidation of the ENIAC patent.
+
+
+== The Moore School Lectures ==
+
+In March 1946, just after the ENIAC was announced, the Moore School decided to change their patent policy, in order to gain commercial rights to any future and past computer development there. Eckert and Mauchly decided this was unacceptable; they resigned. However they had already been contracted to do one more thing at the Moore School: to give a series of talks on computer design.
+The course "The Theory and Techniques for Design of Digital Computers", ran from July 8 to August 31, 1946. Eckert gave 11 of the lectures; Mauchly and Goldstine each delivered 6. "The Moore School Lectures", as they came to be known, were attended by representatives from the army, the navy, MIT, the National Bureau of Standards, Cambridge University, Columbia, Harvard, the Institute for Advanced Study, IBM, Bell Labs, Eastman Kodak, General Electric, and National Cash Register. A number of the attendees were to later go on to develop computers, such as Maurice Wilkes, of Cambridge, who built EDSAC.
+
+
+== Eckert-Mauchly Computer Corporation ==
+In 1947 Eckert and Mauchly formed the first computer company, the Eckert-Mauchly Computer Corporation (EMCC); Mauchly was president. They secured a contract with the National Bureau of Standards to build an "EDVAC II", later named UNIVAC. UNIVAC, the first computer designed for business applications, had many significant technical advantages such as magnetic tape for mass storage. As an interim product, the company created and delivered a smaller computer, BINAC, but were still in a shaky financial situation. They were purchased by Remington Rand and became the UNIVAC division.
+
+
+== Software ==
+Very early in the history of EMCC, John Mauchly assumed responsibility for programming, coding, and applications for the planned computer systems. His early interaction with representatives of the Census Bureau in 1944 and 1945, and discussion with people interested in statistics, weather prediction, and various business problems in 1945 and 1946 focused his attention on the need to provide new users with the software to accomplish their objectives. He knew it would be difficult to sell computers without application materials, and without training in how to use the systems. And so, EMCC began to assemble a staff of mathematicians interested in coding in early 1947. (from Norberg)
+Mauchly’s interest lay in the application of computers, as well as to their architecture and organization. His experience with programming the ENIAC and its successors led him to create Short Code (see "The UNIVAC SHORT CODE"), the first programming language actually used on a computer (predated by Zuse’s conceptual Plankalkul). It was a pseudocode interpreter for mathematical problems proposed in 1949 and ran on the UNIVAC I and II. Mauchly's belief in the importance of languages led him to hire Grace Murray Hopper to develop a compiler for the UNIVAC.
+John Mauchly has also been credited for being the first one using the verb "to program" in his 1942 paper on electronic computing, although in the context of ENIAC, not in its current meaning.
+
+
+== Career ==
+Dr. Mauchly stayed involved in computers for the rest of his life. He was a founding member and president of the Association for Computing Machinery (ACM) and also helped found the Society for Industrial and Applied Mathematics (SIAM), serving as its fourth president. The Eckert-Mauchly Corporation was bought by Remington Rand in 1950 and for ten years Dr. Mauchly remained as Director of Univac Applications Research. Leaving in 1959 he formed Mauchly Associates, a consulting company that later introduced the critical path method (CPM) for construction scheduling by computer. In 1967 he founded Dynatrend, a computer consulting organization. In 1973 he became a consultant to Sperry Univac.
+
+
+== Awards ==
+Mauchly received numerous award and honors. He was a life member of the Franklin Institute, the National Academy of Engineering and the Society for Advancement of Management. He was elected a Fellow of the IRE, a predecessor society of IEEE, in 1957, and was a Fellow of the American Statistical Association. He received an LLD (Hon) degree from the University of Pennsylvania and aDSc(Hon) degree from Ursinus College. He was a recipient of the Philadelphia Award, the Scott Medal, the Goode Medal of AFIPS (American Federation of Information Processing Societies), the Pennsylvania Award, the Emanual R. Piore Award, the Howard N. Potts Medal, and numerous other awards.
+
+
+== Patent controversy ==
+Mauchly and Eckert's patent on the ENIAC was invalidated by U.S. Federal Court decision in October, 1973 for several reasons. Some had to do with the time between publication (the First Draft) and the patent filing date (1947). The federal judge who presided over the case ruled that "the subject matter was derived" from the earlier Atanasoff–Berry Computer (ABC). This statement has become the center of a controversy.
+Critics note that while the court said that the ABC was the first electronic digital computer, it did not define the term computer. It had originally referred to a person who computes, but was adapted to apply to a machine.
+Critics of the court decision also note that there is, at a component level, nothing in common between the two machines. The ABC was binary; the ENIAC was decimal. The ABC used regenerative drum memory; The ENIAC used electronic decade counters. The ABC used its tubes to implement a binary serial adder while the ENIAC used tubes to implement a complete set of decimal operations. The ENIAC's general-purpose instruction set, together with the ability to automatically sequence through them, made it a general-purpose computer.
+Proponents for the court decision emphasize that the testimony established that Mauchly definitely had complete access to Atanasoff's machine and the documents describing it. Letters he wrote to Atanasoff show that he was at one time at least considering building on Atanasoff's approach.
+Mauchly consistently maintained that it was the use of high-speed electronic flip-flops in cosmic-ray counting devices at Swarthmore College that gave him the idea for computing at electronic speeds.
+
+
+== See also ==
+Mauchly's sphericity test
+
+
+== References ==
+
+McCartney, Scott (1999). ENIAC: The Triumphs and Tragedies of the World's First Computer. Walker & Co. ISBN 0-8027-1348-3. 
+Shurkin, Joel N. (1996). Engines of the Mind: The Evolution of the Computer from Mainframes to Microprocessors. W.W. Norton. ISBN 0-393-01804-0. 
+Antonelli, Kathleen R. (April 1984). "John Mauchly's Early Years". Annals of the History of Computing 6 (2): 116–138. doi:10.1109/MAHC.1984.10022. 
+Stern, Nancy (1981). From ENIAC to UNIVAC: An Appraisal of the Eckert-Mauchly Computers. Bedford, Massachusetts: Digital Press. ISBN 0-932376-14-2. 
+Norberg, Arthur L. (2005-06-01). Computers and Commerce: A Study of Technology and Management at Eckert-Mauchly Computer Company, Engineering Research Associates, and Remington Rand, 1946-1957. The MIT Press. ISBN 0-262-14090-X. 
+
+
+== External links ==
+Oral history interview with J. Presper Eckert at Charles Babbage Institute, University of Minnesota, Minneapolis. Eckert, a co-inventor of the ENIAC, discusses its development at the University of Pennsylvania and the interaction of the personnel at the Moore School.
+John W. Mauchly and the Development of the ENIAC Computer - by Asaf Goldschmidt and Atsushi Akera, An Exhibition in the Department of Special Collections Van Pelt Library, University of Pennsylvania
+Mauchly: The Computer and the Skateboard. The only work to contain archival footage of John Mauchly speaking about the development of the ENIAC.
+O'Connor, John J.; Robertson, Edmund F., "John Mauchly", MacTutor History of Mathematics archive, University of St Andrews .

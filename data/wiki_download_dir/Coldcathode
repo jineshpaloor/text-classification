@@ -1,0 +1,45 @@
+Cold cathode
+A cold cathode is a cathode that is not electrically heated by a filament. A cathode may be considered "cold" if it emits more electrons than can be supplied by thermionic emission alone. It is used in gas-discharge lamps, such as neon lamps, discharge tubes, and some types of vacuum tube. The other type of cathode is a hot cathode, which is heated by electric current passing through a filament. A cold cathode does not necessarily operate at a low temperature: it is often heated to its operating temperature by other methods, such as the current passing from the cathode into the gas.
+
+
+== Cold-cathode devices ==
+A cold-cathode vacuum tube does not rely on external heating of an electrode to provide thermionic emission of electrons. Early cold-cathode devices included the Geissler tube and Plucker tube, and early cathode ray tubes. Study of the phenomena in these devices led to the discovery of the electron.
+Neon lamps are used both to produce light as indicators and for special-purpose illumination, and also as circuit elements displaying negative resistance. Addition of a trigger electrode to a device allowed the glow discharge to be initiated by an external control circuit; Bell Laboratories developed a "trigger tube" cold cathode device in 1936.
+Many types of cold-cathode switching tube were developed, including various types of thyratron, the krytron, cold cathode displays (Nixie tube) and others. Voltage regulator tubes rely on the relatively constant voltage of a glow discharge over a range of current, and were used to stabilize power supply voltages in tube-based instruments. A Dekatron is a cold-cathode tube with multiple electrodes that is used for counting. Each time a pulse is applied to a control electrode, a glow discharge moves to a step electrode; by providing ten electrodes in each tube and cascading the tubes, a counter system can be developed and the count observed by the position of the glow discharges. Counter tubes were used widely before development of integrated circuit counter devices.
+The flash tube is a cold-cathode device filled with xenon gas, used to produce an intense short pulse of light for photography or to act as a stroboscope to examine the motion of moving parts.
+
+
+=== Lamps ===
+Cold-cathode lamps include cold-cathode fluorescent lamps (CCFLs) and neon lamps. Neon lamps primarily rely on excitation of gas molecules to emit light; CCFLs use a discharge in mercury vapor to develop ultraviolet light, which in turn causes a fluorescent coating on the inside of the lamp to emit visible light.
+Cold-cathode lamps are used for backlighting of LCDs, for example computer monitors and television screens.
+In the lighting industry, “cold cathode” historically refers to luminous tubing which is larger than 20mm in diameter and operates on a current of 120 to 240 milliamps. This larger diameter tubing is often used for interior alcove and general lighting. The term "neon lamp" refers to tubing that is smaller than 15 mm diameter and typically operates at approximately 40 milliamps. These lamps are commonly used for neon signs.
+
+
+== Details ==
+The cathode is the negative electrode. Any gas discharge lamp has a positive (anode) and a negative electrode. Both electrodes alternate between acting as an anode and a cathode when these devices run with alternating current.
+A cold cathode is distinguished from a hot cathode that is heated to induce thermionic emission of electrons. Discharge tubes with hot cathodes have an envelope filled with low pressure gas and containing two electrodes. Examples are most common fluorescent lamps, high pressure discharge lamps and vacuum fluorescent displays.
+The surface of cold cathodes can emit secondary electrons at a ratio greater than unity (breakdown). An electron that leaves the cathode will collide with neutral gas molecules. The collision may just excite the molecule, but sometimes it will knock an electron free to create a positive ion. The original electron and the freed electron continue toward the anode and may create more positive ions. The result is for each electron that leaves the cathode, several positive ions are generated that eventually crash onto the cathode. Some crashing positive ions may generate a secondary electron. The discharge is self-sustaining when for each electron that leaves the cathode, enough positive ions hit the cathode to free, on average, another electron. External circuitry limits the discharge current. Cold cathode discharge lamps use higher voltages than hot cathode ones. The resulting strong electric field near the cathode accelerates ions to a sufficient velocity to create free electrons from the cathode material.
+Another mechanism to generate free electrons from a cold metallic surface is field electron emission. It is used in some x-ray tubes, the field electron microscope (FEM), and field emission displays (FEDs).
+Cold cathodes sometimes have a rare earth coating to enhance electron emission. Some types contain a source of beta radiation to start ionization of the gas that fills the tube. In some tubes, glow discharge around the cathode is usually minimized; instead there is a so-called positive column, filling the tube. Examples are the neon lamp and nixie tubes. Nixie tubes too are cold-cathode neon displays that are in-line, but not in-plane, display devices.
+Cold cathode devices typically use a complex high voltage power supply with some mechanism for limiting current. Although creating the initial space charge and the first arc of current through the tube may require a very high voltage, once the tube begins to heat up the electrical resistance drops, thus increasing the electric current through the lamp. To offset this effect and maintain normal operation, the supply voltage is gradually lowered. In the case of tubes with an ionizing gas, the gas can become a very hot plasma and electrical resistance is greatly reduced. If operated from a simple power supply without current limiting, this reduction in resistance would lead to damage to the power supply and overheating of the tube electrodes.
+
+
+== Applications ==
+Cold cathodes are used in cold-cathode rectifiers, such as the crossatron and mercury-arc valves, and cold cathode amplifiers, such as in automatic message accounting and other pseudospark switching applications. Other examples include the thyratron, krytron, sprytron, and ignitron tubes.
+A common cold-cathode application is in neon signs and other locations where the ambient temperature is likely to drop well below freezing, The Clock Tower, Palace of Westminster (Big Ben) uses cold-cathode lighting behind the clock faces where continual striking and failure to strike in cold weather would be undesirable. Large cold-cathode fluorescent lamps (CCFLs) have been produced in the past, and are still used today when shaped, long-life linear light sources are required. As of 2011, miniature CCFLs were extensively used as backlights for computer and television liquid crystal displays. CCFL lifespans vary in LCD televisions depending on transient voltage surges and temperature levels in usage environments.
+Due to its efficiency, CCFL technology has expanded into room lighting. Costs are similar to those of fluorescent lighting, but with several advantages. The light emitted is easier on the eyes, bulbs turn on instantly to full output and are also dimmable.
+
+
+=== Effects of internal heating ===
+In systems using alternating current but without separate anode structures, the electrodes alternate as anodes and cathodes, and the impinging electrons can cause substantial localized heating, often to red heat. The electrode may take advantage of this heating to facilitate the thermionic emission of electrons when it is acting as a cathode. (Instant start fluorescent lamps employ this aspect; they start as cold-cathode devices, but soon localized heating of the fine tungsten wire cathodes causes them to operate in the same mode as hot cathode lamps.)
+This aspect is problematic in the case of backlights used for LCD TV displays. New energy efficiency regulations being proposed in many countries will require variable backlighting—this also improves the perceived contrast range highly desirable for LCD TV sets. However, CCFLs are strictly limited in the degree to which they can be dimmed, both because a lower plasma current will lower the temperature of the cathode, causing erratic operation, and because running the cathode at too low a temperature drastically shortens the life of the lamps. Much research is being directed to this problem, but high-end manufacturers are now turning to high-efficiency white LEDs as a better solution.
+
+
+== See also ==
+CCFL inverter (or resonance transformer)
+
+
+== References and notes ==
+Notes
+
+Citations

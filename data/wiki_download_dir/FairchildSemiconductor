@@ -1,0 +1,113 @@
+Fairchild Semiconductor
+Fairchild Semiconductor International, Inc. is an American semiconductor company based in San Jose, California. Originally founded in 1957 as a division of Fairchild Camera and Instrument, it became a pioneer in the manufacturing of transistors and of integrated circuits. Schlumberger bought the firm in 1979 and sold it to National Semiconductor in 1987; Fairchild was spun off as an independent company again in 1997.
+The company has locations in the United States at San Jose, California; South Portland, Maine; West Jordan, Utah; Mountaintop, Pennsylvania. Outside the U.S. it operates locations in Singapore; Bucheon, South Korea; Penang, Malaysia; Suzhou, China; and Cebu, Philippines; among others. A design center has been launched in Pune, India.
+
+
+== Company history ==
+
+
+=== 1950s ===
+
+In 1956, William Shockley opened Shockley Semiconductor Laboratory as a division of Beckman Instruments in Mountain View, California; his plan was to develop a new type of "4-layer diode" that would work faster and have more uses than then-current transistors. At first he attempted to hire some of his former colleagues from Bell Labs, but none were willing to move to the West Coast or work with Shockley again at that time. Shockley then founded the core of the new company with what he considered the best and brightest graduates coming out of American engineering schools.
+While Shockley was effective as a recruiter, he was less effective as a manager. A core group of Shockley employees, later known as the traitorous eight, became unhappy with his management of the company. The eight men were Julius Blank, Victor Grinich, Jean Hoerni, Eugene Kleiner, Jay Last, Gordon Moore, Robert Noyce, and Sheldon Roberts. Looking for funding on their own project, they turned to Sherman Fairchild's Fairchild Camera and Instrument, an Eastern U.S. company with considerable military contracts. In 1957 the Fairchild Semiconductor division was started with plans to make silicon transistors at a time when germanium was still the most common material for semiconductor use.
+According to Sherman Fairchild, Noyce's impassioned presentation of his vision was the reason Sherman Fairchild had agreed to create the semiconductor division for the traitorous eight. Noyce advocated the use of silicon as substrate — since the material costs would consist of sand and a few fine wires, the major cost would be in the manufacturing process. Noyce also expressed his belief that silicon semiconductors would herald the start of disposable appliances that, due to cheap electronic components, would not be repaired but merely discarded when worn out.
+Their first transistors were of the silicon mesa variety, innovative for their time, but with several drawbacks. Later Fairchild pioneered the planar process developed by Jean Hoerni in 1958, which was a huge improvement — transistors could be made more easily, at a lower cost and with higher performance. Fairchild's planar process made most other transistor processes obsolete. One casualty of this was Philco's transistor division, which had just built a $40 million plant to make their now-totally obsolete germanium PADT process transistors. Within a few years every other transistor company copied or licensed the Fairchild planar process.
+Their first marketed transistor was the 2N697 (1958) (initially a mesa transistor), and was a huge success. The first batch of 100 was sold to IBM for $150 a piece. The first planar silicon transistor was the 2N1613 developed by Jean Hoerni. Its introduction was a historic event in semiconductor history. Only two years later (1960) they had managed to build a circuit with four transistors on a single wafer of silicon, thereby creating the first silicon integrated circuit (Texas Instruments' Jack Kilby had developed an integrated circuit made of germanium on September 12, 1958, and was awarded a U.S. patent). The company grew from twelve to twelve thousand employees, and was soon making $130 million a year.
+
+
+=== 1960s ===
+Fairchild's Noyce and Texas Instrument's Kilby had independently invented the integrated circuit (IC) based on bipolar technology. In 1960, Noyce invented the planar integrated circuit. The industry preferred Fairchild's invention over Texas Instruments' because the transistors in planar ICs were interconnected by a thin film deposit, whereas Texas Instruments' invention required fine wires to connect the individual circuits. Noyce's invention was enabled by the planar process developed by Jean Hoerni.
+In the early 1960s, Fairchild R&D began development of MOSFET (metal–oxide–semiconductor field-effect transistor) technology, which had been pioneered by RCA and Bell Labs. The experiments led to Fairchild's development of MOS integrated circuits. However, the instability of the technology would not lead to manufacturing production of MOS integrated circuits in Fairchild.
+In 1963, Fairchild hired Robert Widlar to design analog operational amplifiers using Fairchild's process. Since Fairchild's processes were optimized for digital circuits, Widlar collaborated with process engineer Dave Talbert. The collaboration resulted in two revolutionary products — µA702 and µA709.
+Hence, Fairchild dominated the analog integrated circuit market, having introduced the first IC operational amplifiers, or "op-amps", Bob Widlar's µA702 (in 1964) and µA709. In 1968, Fairchild introduced David Fullagar's µA741, which became the most popular IC op amp of all time.
+By 1965, Fairchild's process improvements had brought low-cost manufacturing to the semiconductor industry — making Fairchild nearly the only profitable semiconductor manufacturer in the United States. Fairchild dominated the market in DTL, op-amps and mainframe computer custom circuits.
+Fairchild had not initially done well in the digital integrated circuit market. Their first line of ICs was the "micrologic" RTL (Resistor-Transistor-Logic) line which was used in the Apollo Guidance Computer. It had the advantage of being extremely simple — each inverter consisted of just one transistor and two resistors. The logic family had many drawbacks that had made it marginal for commercial purposes, and not well suited for military applications: The logic could only tolerate about 100 millivolts of noise — far too low for comfort. It was a while before Fairchild relied on more robust designs, such as DTL (diode-transistor-logic) which had much better noise margins.
+Sales due to Fairchild semiconductor division had doubled each year and by the mid-1960s comprised two thirds of total sales of the parent company. In 1966, Fairchild's sales were second to those of Texas Instruments, followed in third place by Motorola. Noyce was rewarded with the position of corporate vice-president and hence became the de facto head of the semiconductor division.
+However, internal trouble at Fairchild began to surface with a drop in earnings in 1967. There was increasing competition from newer start-ups. The semiconductor division, situated in Mountain View and Palo Alto, California, was actually managed by executives from Syosset, New York, who visited the California sites once a year, even though the semiconductor division earned most of the profits of the company. Fairchild's president at that time, John Carter, had used all the profits to fund acquisitions of unprofitable ventures.
+Noyce's position on Fairchild's executive staff was consistently compromised by Sherman Fairchild's faction. Charles E. Sporck was Noyce's operations manager. Sporck was reputed to run the tightest operation in the world. Sporck, Pierre Lamond and most managers had grown upset and disillusioned with corporate focus on unprofitable ventures at the expense of the semiconductor division. Executives at the semiconductor division were allotted substantially fewer stock options compared to other divisions. In March 1967, Sporck was hired away by Peter J. Sprague to National Semiconductor. Sporck brought with him four other Fairchild personnel. Actually, Lamond had previously assembled a team of Fairchild managers in preparation to defect to Plessey, a British company. Lamond had recruited Sporck to be his own boss. When negotiations with Plessey broke down over stock options, Lamond and Sporck succumbed to Widlar's and Talbert's (who were already employed at National Semiconductor) suggestion that they look to National Semiconductor. Widlar and Talbert had earlier left Fairchild to join Molectro, which was later acquired by National Semiconductor.
+In the fall of 1967, Fairchild suffered a loss for the first time since 1958 and announced write-offs of $4 million due to excess capacity, which contributed to a total loss of $7.6 million. Profits had sunk to $0.50 a share, compared to $3 a share the previous year, while the value of the stock dropped in half. In December 1967, the board ordered Carter to sell off all of Fairchild's unprofitable ventures. Carter responded to the order by resigning abruptly.
+Furthermore, Fairchild's DTL technology was being overtaken by Texas Instruments's faster TTL (transistor–transistor logic).
+While Noyce was considered the natural successor to Carter, the board decided not to promote him. Sherman Fairchild led the board to choose Richard Hodgson. Within a few months Hodgson was replaced by a management committee led by Noyce, while Sherman Fairchild looked for a new CEO other than Noyce. In response, Noyce discreetly planned a new company with Gordon Moore, the head of R&D. They left Fairchild to found Intel in 1968 and were soon joined by Andrew Grove and Leslie L. Vadász, who took with them the revolutionary MOS Silicon Gate Technology (SGT), recently created in the Fairchild R&D Laboratory by Federico Faggin who also designed the Fairchild 3708, the world’s first commercial MOS integrated circuit using SGT. Fairchild MOS Division was slow in understanding the potential of the SGT which promised not only faster, more reliable, and denser circuits, but also new device types that could enlarge the field of solid state electronics — for example, CCDs for image sensors, dynamic RAMs, and non-volatile memory devices such as EPROM and flash memories. Intel took advantage of the SGT for its memory development. Federico Faggin, frustrated, left Fairchild to join Intel in 1970 and design the first microprocessors using SGT. Among the investors of Intel were Hodgson and five of the founding members of Fairchild.
+Sherman Fairchild hired Lester Hogan, who was the head of Motorola semiconductor division. Hogan proceeded to hire another hundred managers from Motorola to entirely displace the management of Fairchild.
+The loss of these iconic executives, coupled with Hogan's displacement of Fairchild managers demoralized Fairchild and prompted the entire exodus of employees to found new companies.
+Many of the original founders, otherwise known as the "fairchildren", had left Fairchild in the 1960s to form companies that grew to prominence in the 1970s. Robert Noyce and Gordon Moore were among the last of the original founders to leave, at which point the brain-drain of talents that had fueled the growth of the company was complete.
+A Fairchild advertisement of the time showed a collage of the logos of Silicon Valley with the annotation "We started it all.".
+
+
+=== 1970s ===
+Hogan's action to hire from Motorola had Motorola file a lawsuit against Fairchild, which the court then decided in Fairchild's favor in 1973. Judge William Copple ruled that Fairchild's results were so unimpressive that it was impossible to assess damages "under any theory." Hogan was dismissed as president the next year, but remained as vice chairman.
+In 1973, Fairchild became the first company to produce a commercial Charge-coupled device (CCD) following its invention at Bell Labs. Digital image sensors are still produced today at their descendant company, Fairchild Imaging. The CCD had a difficult birth, with the devastating effects on Fairchild of the 1973–75 recession that followed on the 1973 oil crisis.
+After Intel introduced the 8008 8-bit microprocessor, Fairchild developed the Fairchild F8 8-bit microprocessor, which had an unusual architecture and was not a great market success.
+In 1976, the company released the first video game system to use ROM cartridges, the Fairchild Video Entertainment System (or VES) later renamed Channel F, using the F8 microprocessor. The system was successful initially, but quickly lost popularity when the Atari 2600 Video Computer System (or VCS) was released.
+By the end of the 1970s they had few new products in the pipeline, and increasingly turned to niche markets with their existing product line, notably "hardened" integrated circuits for military and space applications and isoplanar ECL products used in exotic applications like Cray Computers. Fairchild was being operated at a loss, and the bottomline subsisted mostly from licensing of its patents.
+In 1979, Fairchild Camera and Instrument was purchased by Schlumberger Limited, an oil field services company, for $425 million. At this time, Fairchild's intellectual properties, on which Fairchild had been subsisting, were expiring.
+
+
+=== 1980s ===
+In 1980, under Schlumberger management, the Fairchild Laboratory for Artificial Intelligence Research (FLAIR) was started within Fairchild Research. In 1985 the lab was separated to form Schlumberger Palo Alto Research (SPAR).
+Fairchild research developed the Clipper architecture, a 32-bit RISC-like computer architecture, in the 1980s, resulting in the shipping of the C100 chip in 1986. The technology was later sold to Intergraph, its main customer.
+Schlumberger sold Fairchild to National Semiconductor in 1987 for $200 million. The sale did not include Fairchild's Test Division, which designed and produced automated test equipment (ATE) for the semiconductor manufacturing industry, nor did it include Schlumberger Palo Alto Research.
+
+
+=== 1996 ===
+Gil Amelio, then CEO, had divided National Semiconductor products into two divisions: Standard Products group which comprises low-margin, logic and memory chips — commodity products which were more susceptible to cyclical demands and through which National Semiconductor had matured; and Communications & Computing group which comprises high-margin, value-added analogue and mixed-signal chips.
+Amelio's divisioning of products would prepare National Semiconductor for the eventual disposal of low-margin commodity product lines. These product lines were constituted into the Fairchild division, headed by Kirk Pond, within National Semiconductor during Brian Halla's tenure.
+
+
+=== 1997 ===
+In 1997, the reconstituted Fairchild Semiconductor was reborn as an independent company, based in South Portland, Maine with Kirk Pond as CEO.
+On March 11, 1997, National Semiconductor Corporation announced the US$550 million sale of a reconstituted Fairchild to the management of Fairchild with the backing of Sterling LLC, a unit of Citicorp Venture Capital. Fairchild carried with it what was mostly the Standard Products group previously segregated by Amelio.
+The reconstitution was characterised by having most of existing formerly Fairchild facilities retained by National Semiconductor, with the exception of the original Fairchild facilities in South Portland, Maine, while Fairchild inherited some offshore locations that were formerly National Semiconductor facilities.
+The Fairchild Semiconductor Corporation announced November 27, 1997 that it would acquire the semiconductor division of the Raytheon Corporation for about $120 million in cash. The acquisition was completed on December 31, 1997.
+
+
+=== 1998–1999 ===
+In December 1998, Fairchild announced the acquisition of Samsung's power division, which made power MOSFETs, IGBTs, etc. The deal was finalized in April 1999 for $450 million. To this day, Fairchild remains an important supplier for Samsung.
+In August 1999, Fairchild Semiconductor again became a publicly traded company on the New York Stock Exchange with the ticker symbol FCS. Fairchild's South Portland, Maine and Mountaintop, Pennsylvania locations are the longest continuously operating semiconductor manufacturing facilities in the world, both operating since 1960.
+
+
+=== 2001 ===
+On March 19, 2001 Fairchild Semiconductor announced that it had completed the acquisition of Intersil Corporation's discrete power business for approximately $338 million in cash. The acquisition moved Fairchild to a position as the second largest power MOSFET supplier in the world, representing a 20 percent share of this $3 billion market that grew 40 percent last year.
+The original Intersil was founded by Jean Hoerni in 1967, a founding member of the original Fairchild semiconductor division in 1957. Intersil had undergone the same fate of being a reconstituted namesake company.
+On September 6, 2001 Fairchild Semiconductor announced the acquisition of Impala Linear Corporation, based in San Jose, CA for approximately $6 million in stock and cash. Impala brought with it expertise in designing analog power management semiconductors for hand-held devices like laptops, MP3 players, cell phones, portable test equipment and PDA's.
+
+
+=== 2004 ===
+On January 9, 2004, Fairchild Semiconductor CEO Kirk Pond was appointed as a Director of the Federal Reserve Bank of Boston, elected by member banks to serve a three-year term.
+
+
+=== 2005 ===
+On April 13, 2005, Fairchild announced appointment of Mark Thompson as CEO of the corporation. Thompson would also be President, Chief Executive Officer and a member of the board of directors of Fairchild Semiconductor International. He originally joined Fairchild as Executive Vice President, Manufacturing and Technology Group.
+Kirk Pond remained as Chairman of the board.
+Prior to joining Fairchild, Dr. Thompson served as CEO of Big Bear Networks. He also serves on the board of directors of American Science and Engineering, Inc. in Massachusetts. Thompson holds a Ph.D. from the University of North Carolina and a bachelor's degree from the State University of New York.
+
+
+=== 2006 ===
+On March 15, 2006 Fairchild Semiconductor announced that Kirk P. Pond would retire as Chairman at the company's annual stockholders' meeting on May 3, 2006. Pond would continue as a member of the company’s board of directors. Mark Thompson, then CEO, became Chairman.
+
+
+=== 2007 ===
+Fairchild Semiconductor celebrates a symbolic 50 year anniversary of the original Fairchild semiconductor division which was established in 1957 and its 10th year as being the newly reconstituted Fairchild.
+On September 1, 2007, NJ-based RF semiconductor supplier Anadigics acquired Fairchild Semiconductor's RF design team, located in Tyngsboro, Massachusetts, for $2.4 million.
+
+
+=== 2011 ===
+In April 2011, Fairchild Semiconductor acquired TranSiC, a silicon carbide power transistor company, originally based in Sweden.
+
+
+== Alumni ==
+
+
+== See also ==
+Fairchild Aircraft
+
+
+== References ==
+
+
+== External links ==
+Official website
+Fairchild Imaging
+IT Corporate Histories Collection link to Fairchild Semiconductor history content on the Computer History Museum site.
+Buying Tomatoes at the Birthplace of Silicon Valley: What happened to the original Fairchild site and to Shockley Lab.
+The Silicon Gate Technology, developed at Fairchild in 1968 by F. Faggin et al., was presented at the IDEM in Washington DC, in Oct. 1968.

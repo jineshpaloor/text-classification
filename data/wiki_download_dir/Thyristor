@@ -1,0 +1,145 @@
+Thyristor
+A thyristor is a solid-state semiconductor device with four layers of alternating N and P-type material. It acts exclusively as a bistable switch, conducting when the gate receives a current trigger, and continuing to conduct while the voltage across the device is not reversed (forward-biased). A three-lead thyristor is designed to control the larger current of its two leads by combining that current with the smaller current of its other lead, known as its control lead. In contrast, a two-lead thyristor is designed to switch on if the potential difference between its leads is sufficiently large (breakdown voltage).
+Some sources define silicon-controlled rectifier (SCR) and thyristor as synonymous. Other sources define thyristors as a larger set of devices with at least four layers of alternating N and P-type material.
+The first thyristor devices were released commercially in 1956. Because thyristors can control a relatively large amount of power and voltage with a small device, they find wide application in control of electric power, ranging from light dimmers and electric motor speed control to high-voltage direct current power transmission. Thyristors may be used in power-switching circuits, relay-replacement circuits, inverter circuits, oscillator circuits, level-detector circuits, chopper circuits, light-dimming circuits, low-cost timer circuits, logic circuits, speed-control circuits, phase-control circuits, etc. Originally, thyristors relied only on current reversal to turn them off, making them difficult to apply for direct current; newer device types can be turned on and off through the control gate signal. The latter is known as a gate turn-off thyristor, or GTO thyristor. A thyristor is not a proportional device like a transistor. In other words, a thyristor can only be fully on or off, while a transistor can lie in between on and off states. This makes a thyristor unsuitable as an analog amplifier, but useful as a switch.
+
+
+== Introduction ==
+The thyristor is a four-layered, three terminal semiconductor device, with each layer consisting of alternately N-type or P-type material, for example P-N-P-N. The main terminals, labelled anode and cathode, are across all four layers. The control terminal, called the gate, is attached to p-type material near the cathode. (A variant called an SCS—Silicon Controlled Switch—brings all four layers out to terminals.) The operation of a thyristor can be understood in terms of a pair of tightly coupled bipolar junction transistors, arranged to cause a self-latching action:
+
+Thyristors have three states:
+Reverse blocking mode — Voltage is applied in the direction that would be blocked by a diode
+Forward blocking mode — Voltage is applied in the direction that would cause a diode to conduct, but the thyristor has not been triggered into conduction
+Forward conducting mode — The thyristor has been triggered into conduction and will remain conducting until the forward current drops below a threshold value known as the "holding current"
+
+
+=== Function of the gate terminal ===
+The thyristor has three p-n junctions (serially named J1, J2, J3 from the anode).
+
+When the anode is at a positive potential VAK with respect to the cathode with no voltage applied at the gate, junctions J1 and J3 are forward biased, while junction J2 is reverse biased. As J2 is reverse biased, no conduction takes place (Off state). Now if VAK is increased beyond the breakdown voltage VBO of the thyristor, avalanche breakdown of J2 takes place and the thyristor starts conducting (On state).
+If a positive potential VG is applied at the gate terminal with respect to the cathode, the breakdown of the junction J2 occurs at a lower value of VAK. By selecting an appropriate value of VG, the thyristor can be switched into the on state quickly.
+Once avalanche breakdown has occurred, the thyristor continues to conduct, irrespective of the gate voltage, until: (a) the potential VAK is removed or (b) the current through the device (anode−cathode) is less than the holding current specified by the manufacturer. Hence VG can be a voltage pulse, such as the voltage output from a UJT relaxation oscillator.
+The gate pulses are characterized in terms of gate trigger voltage (VGT) and gate trigger current (IGT). Gate trigger current varies inversely with gate pulse width in such a way that it is evident that there is a minimum gate charge required to trigger the thyristor.
+
+
+=== Switching characteristics ===
+
+In a conventional thyristor, once it has been switched on by the gate terminal, the device remains latched in the on-state (i.e. does not need a continuous supply of gate current to remain in the on state), providing the anode current has exceeded the latching current (IL). As long as the anode remains positively biased, it cannot be switched off until the anode current falls below the holding current (IH).
+A thyristor can be switched off if the external circuit causes the anode to become negatively biased (a method known as natural, or line, commutation). In some applications this is done by switching a second thyristor to discharge a capacitor into the cathode of the first thyristor. This method is called forced commutation.
+After the current in a thyristor has extinguished, a finite time delay must elapse before the anode can again be positively biased and retain the thyristor in the off-state. This minimum delay is called the circuit commutated turn off time (tQ). Attempting to positively bias the anode within this time causes the thyristor to be self-triggered by the remaining charge carriers (holes and electrons) that have not yet recombined.
+For applications with frequencies higher than the domestic AC mains supply (e.g. 50 Hz or 60 Hz), thyristors with lower values of tQ are required. Such fast thyristors can be made by diffusing heavy metal ions such as gold or platinum which act as charge combination centers into the silicon. Today, fast thyristors are more usually made by electron or proton irradiation of the silicon, or by ion implantation. Irradiation is more versatile than heavy metal doping because it permits the dosage to be adjusted in fine steps, even at quite a late stage in the processing of the silicon.
+
+
+== History ==
+The Silicon Controlled Rectifier (SCR) or Thyristor proposed by William Shockley in 1950 and championed by Moll and others at Bell Labs was developed in 1956 by power engineers at General Electric (G.E.), led by Gordon Hall and commercialized by G.E.'s Frank W. "Bill" Gutzwiller.
+
+
+=== Etymology ===
+An earlier gas filled tube device called a thyratron provided a similar electronic switching capability, where a small control voltage could switch a large current. It is from a combination of "thyratron" and "transistor" that the term "thyristor" is derived.
+
+
+== Applications ==
+
+Thyristors are mainly used where high currents and voltages are involved, and are often used to control alternating currents, where the change of polarity of the current causes the device to switch off automatically, referred to as Zero Cross operation. The device can be said to operate synchronously; being that, once the device is triggered, it conducts current in phase with the voltage applied over its cathode to anode junction with no further gate modulation being required, i.e., the device is biased fully on. This is not to be confused with asymmetrical operation, as the output is unidirectional, flowing only from cathode to anode, and so is asymmetrical in nature.
+Thyristors can be used as the control elements for phase angle triggered controllers, also known as phase fired controllers.
+They can also be found in power supplies for digital circuits, where they are used as a sort of "enhanced circuit breaker" to prevent a failure in the power supply from damaging downstream components. A thyristor is used in conjunction with a Zener diode attached to its gate, and if the output voltage of the supply rises above the Zener voltage, the thyristor will conduct and short-circuit the power supply output to ground (in general also tripping an upstream breaker or fuse). This kind of protection circuit is known as a crowbar, and has the advantage over a standard circuit breaker or fuse in that it creates a high-conductance path to ground for the damaging supply voltage and potentially for stored energy in the system being powered.
+The first large-scale application of thyristors, with associated triggering diac, in consumer products related to stabilized power supplies within color television receivers in the early 1970s. or The stabilized high voltage DC supply for the receiver was obtained by moving the switching point of the thyristor device up and down the falling slope of the positive going half of the AC supply input (if the rising slope was used the output voltage would always rise towards the peak input voltage when the device was triggered and thus defeat the aim of regulation). The precise switching point was determined by the load on the DC output supply, as well as AC input fluctuations.
+Thyristors have been used for decades as lighting dimmers in television, motion pictures, and theater, where they replaced inferior technologies such as autotransformers and rheostats. They have also been used in photography as a critical part of flashes (strobes).
+
+
+=== Snubber circuits ===
+Thyristors can be triggered by a high rise-rate of off-state voltage. This is prevented by connecting a resistor-capacitor (RC) snubber circuit between the anode and cathode terminals in order to limit the dV/dt (i.e., rate of voltage change over time).
+
+
+=== HVDC electricity transmission ===
+
+Since modern thyristors can switch power on the scale of megawatts, thyristor valves have become the heart of high-voltage direct current (HVDC) conversion either to or from alternating current. In the realm of this and other very high power applications, both electrically triggered (ETT) and light triggered (LTT) thyristors are still the primary choice. The valves are arranged in stacks usually suspended from the ceiling of a transmission building called a valve hall. Thyristors are arranged into a diode bridge circuit and to reduce harmonics are connected in series to form a 12 pulse converter. Each thyristor is cooled with deionized water, and the entire arrangement becomes one of multiple identical modules forming a layer in a multilayer valve stack called a quadruple valve. Three such stacks are typically mounted on the floor or hung from the ceiling of the valve hall of a long distance transmission facility.
+
+
+== Comparisons to other devices ==
+The functional drawback of a thyristor is that, like a diode, it only conducts in one direction. A similar self-latching 5-layer device, called a TRIAC, is able to work in both directions. This added capability, though, also can become a shortfall. Because the TRIAC can conduct in both directions, reactive loads can cause it to fail to turn off during the zero-voltage instants of the AC power cycle. Because of this, use of TRIACs with (for example) heavily inductive motor loads usually requires the use of a "snubber" circuit around the TRIAC to assure that it will turn off with each half-cycle of mains power. Inverse parallel SCRs can also be used in place of the triac; because each SCR in the pair has an entire half-cycle of reverse polarity applied to it, the SCRs, unlike TRIACs, are sure to turn off. The "price" to be paid for this arrangement, however, is the added complexity of two separate, but essentially identical gating circuits.
+Although thyristors are heavily used in megawatt scale rectification of AC to DC, in low and medium power (from few tens of watts to few tens of kilowatts) they have virtually been replaced by other devices with superior switching characteristics like MOSFETs or IGBTs. One major problem associated with SCRs is that they are not fully controllable switches. The GTO thyristor and IGCT are two devices related to the thyristor that address this problem. In high-frequency applications, thyristors are poor candidates due to large switching times arising from bipolar conduction. MOSFETs, on the other hand, have much faster switching capability because of their unipolar conduction (only majority carriers carry the current).
+
+
+== Failure modes ==
+Thyristor manufacturers generally specify a region of safe firing defining acceptable levels of voltage and current for a given operating temperature. The boundary of this region is partly determined by the requirement that the maximum permissible gate power (PG), specified for a given trigger pulse duration, is not exceeded.
+As well as the usual failure modes due to exceeding voltage, current or power ratings, thyristors have their own particular modes of failure, including:
+Turn on di/dt — in which the rate of rise of on-state current after triggering is higher than can be supported by the spreading speed of the active conduction area (SCRs & triacs).
+Forced commutation — in which the transient peak reverse recovery current causes such a high voltage drop in the sub-cathode region that it exceeds the reverse breakdown voltage of the gate cathode diode junction (SCRs only).
+Switch on dv/dt — the thyristor can be spuriously fired without trigger from the gate if the anode-to-cathode voltage rise-rate is too great.
+
+
+== Silicon carbide thyristors ==
+In recent years, some manufacturers have developed thyristors using Silicon carbide (SiC) as the semiconductor material. These have applications in high temperature environments, being capable of operating at temperatures up to 350 °C.
+
+
+== Types ==
+ACS
+ACST
+AGT — Anode Gate Thyristor — A thyristor with gate on n-type layer near to the anode
+ASCR — Asymmetrical SCR
+BCT — Bidirectional Control Thyristor — A bidirectional switching device containing two thyristor structures with separate gate contacts
+BOD — Breakover Diode — A gateless thyristor triggered by avalanche current
+DIAC — Bidirectional trigger device
+Dynistor — Unidirectional switching device
+Shockley diode — Unidirectional trigger and switching device
+SIDAC — Bidirectional switching device
+Trisil, SIDACtor — Bidirectional protection devices
+
+BRT — Base Resistance Controlled Thyristor
+ETO — Emitter Turn-Off Thyristor
+GTO — Gate Turn-Off thyristor
+DB-GTO — Distributed buffer gate turn-off thyristor
+MA-GTO — Modified anode gate turn-off thyristor
+
+IGCT — Integrated gate-commutated thyristor
+Ignitor — Spark generators for fire-lighter ckts
+LASCR — Light-activated SCR, or LTT — light-triggered thyristor
+LASS — light-activated semiconducting switch
+Latchup
+MCT — MOSFET Controlled Thyristor — It contains two additional FET structures for on/off control.
+CSMT or MCS — MOS composite static induction thyristor
+PUT or PUJT — Programmable Unijunction Transistor — A thyristor with gate on n-type layer near to the anode used as a functional replacement for unijunction transistor
+RCT — Reverse Conducting Thyristor
+SCS — Silicon Controlled Switch or Thyristor Tetrode — A thyristor with both cathode and anode gates
+SCR — Silicon Controlled Rectifier
+SITh — Static Induction Thyristor, or FCTh — Field Controlled Thyristor — containing a gate structure that can shut down anode current flow.
+TRIAC — Triode for Alternating Current — A bidirectional switching device containing two thyristor structures with common gate contact
+Quadrac — special type of thyristor which combines a DIAC and a TRIAC into a single package.
+
+
+=== Reverse conducting thyristor ===
+A reverse conducting thyristor (RCT) has an integrated reverse diode, so is not capable of reverse blocking. These devices are advantageous where a reverse or freewheel diode must be used. Because the SCR and diode never conduct at the same time they do not produce heat simultaneously and can easily be integrated and cooled together. Reverse conducting thyristors are often used in frequency changers and inverters.
+
+
+=== Photothyristors ===
+
+Photothyristors are activated by light. The advantage of photothyristors is their insensitivity to electrical signals, which can cause faulty operation in electrically noisy environments. A light triggered thyristor (LTT) has an optically sensitive region in its gate, into which electromagnetic radiation (usually infrared) is coupled via an optical fiber. Since no electronic boards need to be provided at the potential of the thyristor in order to trigger it, light triggered thyristors can be an advantage in high voltage applications such as HVDC. Light triggered thyristors are available with in-built over-voltage (VBO) protection which triggers the thyristor when the forward voltage across it becomes too high; they have also been made with in-built forward recovery protection, but not commercially. Despite the simplification they can bring to the electronics of an HVDC valve, light triggered thyristors may still require some simple monitoring electronics and are only available from a few manufacturers.
+Two common photothyristors include the light-activated SCR (LASCR) and the light-activated triac. A LASCR acts as a switch that turns on when exposed to light. Following light exposure, when light is absent, if the power is not removed and the polarities of the cathode and anode have not yet reversed, the LASCR is still in the "on" state. A light-activated triac resembles a LASCR, except that it is designed for alternating currents.
+
+
+== See also ==
+
+Latchup
+Quadrac
+Thyristor drive
+Thyristor tower
+
+
+== References ==
+
+
+== Further reading ==
+Wintrich, Arendt; Nicolai, Ulrich; Tursky, Werner; Reimann, Tobias (2011). PDF-Version (PDF) (2nd ed.). Nuremberg: Semikron. ISBN 978-3-938843-66-6. 
+Thyristor Theory and Design Considerations; ON Semiconductor; 240 pages; 2006; HBD855/D. (Free PDF download)
+Dr. Ulrich Nicolai, Dr. Tobias Reimann, Prof. Jürgen Petzoldt, Josef Lutz: Application Manual IGBT and MOSFET Power Modules, 1. Edition, ISLE Verlag, 1998, ISBN 3-932633-24-5. (Free PDF download)
+SCR Manual; 6th edition; General Electric Corporation; Prentice-Hall; 1979.
+
+
+== External links ==
+The Early History of the Silicon Controlled Rectifier — by Frank William Gutzwiller (of G.E.)
+THYRISTORS — from All About Circuits
+Universal thyristor driving circuit
+Thyristor Resources (simpler explanation)
+Thyristors of STMicroelectronics
+Thyristor basics

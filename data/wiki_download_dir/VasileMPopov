@@ -1,0 +1,26 @@
+Vasile M. Popov
+Vasile Mihai Popov (born 1928) is a leading systems theorist and control engineering specialist. He is well known for having developed a method to analyze stability of nonlinear dynamical systems, now known as Popov criterion.
+
+
+== Biography ==
+He was born in Galaţi, Romania on July 7, 1928. He received the engineering degree in electronics from the Bucharest Polytechnic Institute in 1950.
+He worked for a few years as Assistant Professor at the Bucharest Polytechnic Institute in the Faculty of Electronics. His main research interests during this period were in frequency modulation and parametric oscillations. In the mid 1950s, he joined the Institute for Energy of Romanian Academy of Science in Bucharest. In the 1960s, Popov headed the Control group at the Institute of Energy of the Romanian Academy.
+In 1968 Popov left Romania. He was a visiting professor at the Electrical Engineering departments of University of California, Berkeley, and Stanford University, and then Professor in the department of electrical engineering at the University of Maryland College Park. In 1975 he joined the mathematics department of University of Florida Gainesville.
+He retired in 1993 and currently resides in Gainesville, Florida, USA.
+
+
+== Work ==
+
+
+=== Qualitative theory of differential equations ===
+Motivated by stability issues in nuclear reactors and by his participation in a seminar series on qualitative theory of differential equations run by A. Halanay, Popov started working in stability of nonlinear feedback systems, in particular on the Lur'e-Postnikov problem.
+In 1958/59 he obtained, through a very original approach, the first frequency stability criterion for a class of nonlinear feedback control systems. He continued this work and obtained the equivalence between the state space (Lyapunov function based) approach and the frequency domain approach for stability and obtained a very perceptive characterization of passive systems, nowadays known as the celebrated Kalman–Yakubovich–Popov lemma.
+
+
+=== Hyperstability ===
+In the early 1960s, Popov also conceived the notion of hyperstability, a concept that he viewed as generalization of absolute stability. This introduced a new and a very fruitful point of view for the analysis and synthesis of nonlinear feedback systems.
+This research work was published in the first half of the sixties and led to the book Hyperstability of Dynamic Systems, first published in Romania in 1966, and subsequently translated into French and English (Springer-Verlag, 1973). Popov was also the first to discover the geometric invariants of linear systems with respect to certain "transformation groups" and he introduced a "canonical" form for uniquely describing the multivariable systems.
+
+
+== References ==
+Anderson, B.D.O.; P. Kokotovic; I.D. Landau; J.C Willems (2002). "Dissipativity of dynamical systems: applications in control -- dedicated to Vasile Mihai Popov". European Journal of Control 8 (Special issue). .

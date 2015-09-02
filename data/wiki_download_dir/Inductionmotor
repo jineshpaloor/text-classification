@@ -1,0 +1,130 @@
+Induction motor
+An induction or asynchronous motor is an AC electric motor in which the electric current in the rotor needed to produce torque is obtained by electromagnetic induction from the magnetic field of the stator winding. An induction motor therefore does not require mechanical commutation, separate-excitation or self-excitation for all or part of the energy transferred from stator to rotor, as in universal, DC and large synchronous motors. An induction motor's rotor can be either wound type or squirrel-cage type.
+Three-phase squirrel-cage induction motors are widely used in industrial drives because they are rugged, reliable and economical. Single-phase induction motors are used extensively for smaller loads, such as household appliances like fans. Although traditionally used in fixed-speed service, induction motors are increasingly being used with variable-frequency drives (VFDs) in variable-speed service. VFDs offer especially important energy savings opportunities for existing and prospective induction motors in variable-torque centrifugal fan, pump and compressor load applications. Squirrel cage induction motors are very widely used in both fixed-speed and variable-frequency drive (VFD) applications. Variable voltage and variable frequency drives are also used in variable-speed service.
+
+
+== History ==
+
+In 1824, the French physicist François Arago formulated the existence of rotating magnetic fields, termed Arago's rotations, which, by manually turning switches on and off, Walter Baily demonstrated in 1879 as in effect the first primitive induction motor. The first alternating-current commutatorless induction motors have been independently invented by Galileo Ferraris and Nikola Tesla, a working motor model having been demonstrated by the former in 1885 and by the latter in 1887. Tesla applied for U.S. patents in October and November 1887 and was granted some of these patents in May 1888. In April 1888, the Royal Academy of Science of Turin published Ferraris's research on his AC polyphase motor detailing the foundations of motor operation. In May 1888 Tesla presented the technical paper A New System for Alternating Current Motors and Transformers to the American Institute of Electrical Engineers (AIEE) describing three four-stator-pole motor types: one with a four-pole rotor forming a non-self-starting reluctance motor, another with a wound rotor forming a self-starting induction motor, and the third a true synchronous motor with separately excited DC supply to rotor winding. George Westinghouse, who was developing an alternating current power system at that time, licensed Tesla’s patents in 1888 and purchased a US patent option on Ferraris' induction motor concept. Tesla was also employed for one year as a consultant. Westinghouse employee C. F. Scott was assigned to assist Tesla and later took over development of the induction motor at Westinghouse. Steadfast in his promotion of three-phase development, Mikhail Dolivo-Dobrovolsky's invented the cage-rotor induction motor in 1889 and the three-limb transformer in 1890. However, he claimed that Tesla's motor was not practical because of two-phase pulsations, which prompted him to persist in his three-phase work. Although Westinghouse achieved its first practical induction motor in 1892 and developed a line of polyphase 60 hertz induction motors in 1893, these early Westinghouse motors were two-phase motors with wound rotors until B. G. Lamme developed a rotating bar winding rotor. The General Electric Company (GE) began developing three-phase induction motors in 1891. By 1896, General Electric and Westinghouse signed a cross-licensing agreement for the bar-winding-rotor design, later called the squirrel-cage rotor. Arthur E. Kennelly was the first to bring out full significance of the letter "i" (the square root of minus one) to designate the 90-degree rotation operator in complex number analysis of AC problems. GE's Charles Proteus Steinmetz greatly developed application of AC complex quantities including in terms now commonly known as the induction motor's Steinmetz equivalent circuit. Induction motor improvements flowing from these inventions and innovations were such that a 100 horsepower induction motor currently has the same mounting dimensions as a 7.5 horsepower motor in 1897.
+
+
+== Principles of operation ==
+
+In both induction and synchronous motors, the AC power supplied to the motor's stator creates a magnetic field that rotates in time with the AC oscillations. Whereas a synchronous motor's rotor turns at the same rate as the stator field, an induction motor's rotor rotates at a slower speed than the stator field. The induction motor stator's magnetic field is therefore changing or rotating relative to the rotor. This induces an opposing current in the induction motor's rotor, in effect the motor's secondary winding, when the latter is short-circuited or closed through an external impedance. The rotating magnetic flux induces currents in the windings of the rotor; in a manner similar to currents induced in a transformer's secondary winding(s). The currents in the rotor windings in turn create magnetic fields in the rotor that react against the stator field. Due to Lenz's Law, the direction of the magnetic field created will be such as to oppose the change in current through the rotor windings. The cause of induced current in the rotor windings is the rotating stator magnetic field, so to oppose the change in rotor-winding currents the rotor will start to rotate in the direction of the rotating stator magnetic field. The rotor accelerates until the magnitude of induced rotor current and torque balances the applied load. Since rotation at synchronous speed would result in no induced rotor current, an induction motor always operates slower than synchronous speed. The difference, or "slip," between actual and synchronous speed varies from about 0.5 to 5.0% for standard Design B torque curve induction motors. The induction machine's essential character is that it is created solely by induction instead of being separately excited as in synchronous or DC machines or being self-magnetized as in permanent magnet motors.
+For rotor currents to be induced, the speed of the physical rotor must be lower than that of the stator's rotating magnetic field (); otherwise the magnetic field would not be moving relative to the rotor conductors and no currents would be induced. As the speed of the rotor drops below synchronous speed, the rotation rate of the magnetic field in the rotor increases, inducing more current in the windings and creating more torque. The ratio between the rotation rate of the magnetic field induced in the rotor and the rotation rate of the stator's rotating field is called slip. Under load, the speed drops and the slip increases enough to create sufficient torque to turn the load. For this reason, induction motors are sometimes referred to as asynchronous motors. An induction motor can be used as an induction generator, or it can be unrolled to form a linear induction motor which can directly generate linear motion.
+
+
+=== Synchronous speed ===
+An AC motor's synchronous speed, , is the rotation rate of the stator's magnetic field, which is expressed in revolutions per minute as
+ (RPM),
+where  is the motor supply's frequency in hertz and  is the number of magnetic poles. That is, for a six-pole three-phase motor with three pole-pairs set 120° apart,  equals 6 and  equals 1,000 RPM and 1,200 RPM respectively for 50 Hz and 60 Hz supply systems.
+
+
+=== Slip ===
+
+Slip, , is defined as the difference between synchronous speed and operating speed, at the same frequency, expressed in rpm or in percent or ratio of synchronous speed. Thus
+
+where  is stator electrical speed,  is rotor mechanical speed. Slip, which varies from zero at synchronous speed and 1 when the rotor is at rest, determines the motor's torque. Since the short-circuited rotor windings have small resistance, a small slip induces a large current in the rotor and produces large torque. At full rated load, slip varies from more than 5% for small or special purpose motors to less than 1% for large motors. These speed variations can cause load-sharing problems when differently sized motors are mechanically connected. Various methods are available to reduce slip, VFDs often offering the best solution.
+
+
+=== Torque ===
+
+
+==== Standard torque ====
+
+The typical speed-torque relationship of a standard NEMA Design B polyphase induction motor is as shown in the curve at right. Suitable for most low performance loads such as centrifugal pumps and fans, Design B motors are constrained by the following typical torque ranges:
+Breakdown torque, 175-300 percent of rated torque
+Locked-rotor torque, 75-275 percent of rated torque
+Pull-up torque, 65-190 percent of rated torque.
+Over a motor's normal load range, the torque's slope is approximately linear or proportional to slip because the value of rotor resistance divided by slip, , dominates torque in linear manner. As load increases above rated load, stator and rotor leakage reactance factors gradually become more significant in relation to  such that torque gradually curves towards breakdown torque. As torque increases beyond breakdown torque the motor stalls. Although polyphase motors are inherently self-starting, their starting and pull-up torque design limits must be high enough to overcome actual load conditions. In two-pole single-phase motors, the torque goes to zero at 100% slip (zero speed), so these require alterations to the stator such as shaded-poles to provide starting torque.
+
+
+==== Starting ====
+
+There are three basic types of competing small induction motors: single-phase split-phase and shaded-pole types, and small polyphase induction motors.
+A single-phase induction motor requires separate starting circuitry to provide a rotating field to the motor. The normal running windings within such a single-phase motor can cause the rotor to turn in either direction, so the starting circuit determines the operating direction.
+In certain smaller single-phase motors, starting is done by means of a shaded pole with a copper wire turn around part of the pole. The current induced in this turn lags behind the supply current, creating a delayed magnetic field around the shaded part of the pole face. This imparts sufficient rotational field energy to start the motor. These motors are typically used in applications such as desk fans and record players, as the required starting torque is low, and the low efficiency is tolerable relative to the reduced cost of the motor and starting method compared to other AC motor designs.
+Larger single phase motors are split-phase motors and have a second stator winding fed with out-of-phase current; such currents may be created by feeding the winding through a capacitor or having it receive different values of inductance and resistance from the main winding. In capacitor-start designs, the second winding is disconnected once the motor is up to speed, usually either by a centrifugal switch acting on weights on the motor shaft or a thermistor which heats up and increases its resistance, reducing the current through the second winding to an insignificant level. The capacitor-run designs keep the second winding on when running, improving torque. A resistance start design uses a starter inserted in series with the startup winding, creating reactance.
+Self-starting polyphase induction motors produce torque even at standstill. Available cage induction motor starting methods include direct-on-line starting, reduced-voltage reactor or auto-transformer starting, star-delta starting or, increasingly, new solid-state soft assemblies and, of course, VFDs.
+Polyphase motors have rotor bars shaped to give different speed-torque characteristics. The current distribution within the rotor bars varies depending on the frequency of the induced current. At standstill, the rotor current is the same frequency as the stator current, and tends to travel at the outermost parts of the cage rotor bars (by skin effect). The different bar shapes can give usefully different speed-torque characteristics as well as some control over the inrush current at startup.
+In wound rotor motors, rotor circuit connection through slip rings to external resistances allows change of speed-torque characteristics for acceleration control and speed control purposes.
+
+
+==== Speed control ====
+
+Before the development of semiconductor power electronics, it was difficult to vary the frequency, and cage induction motors were mainly used in fixed speed applications. Applications such as electric overhead cranes used DC drives or wound rotor motors (WRIM) with slip rings for rotor circuit connection to variable external resistance allowing considerable range of speed control. However, resistor losses associated with low speed operation of WRIMs is a major cost disadvantage, especially for constant loads. Large slip ring motor drives, termed slip energy recovery systems, some still in use, recover energy from the rotor circuit, rectify it, and return it to the power system using a VFD. In many industrial variable-speed applications, DC and WRIM drives are being displaced by VFD-fed cage induction motors. The most common efficient way to control asynchronous motor speed of many loads is with VFDs. Barriers to adoption of VFDs due to cost and reliability considerations have been reduced considerably over the past three decades such that it is estimated that drive technology is adopted in as many as 30-40% of all newly installed motors.
+
+
+== Construction ==
+
+The stator of an induction motor consists of poles carrying supply current to induce a magnetic field that penetrates the rotor. To optimize the distribution of the magnetic field, the windings are distributed in slots around the stator, with the magnetic field having the same number of north and south poles. Induction motors are most commonly run on single-phase or three-phase power, but two-phase motors exist; in theory, induction motors can have any number of phases. Many single-phase motors having two windings can be viewed as two-phase motors, since a capacitor is used to generate a second power phase 90° from the single-phase supply and feeds it to the second motor winding. Single-phase motors require some mechanism to produce a rotating field on startup. Cage induction motor rotor's conductor bars are typically skewed to reduce noise.
+
+
+== Rotation reversal ==
+The method of changing the direction of rotation of an induction motor depends on whether it is a three-phase or single-phase machine. In the case of three phase, reversal is carried out by swapping connection of any two phase conductors. In a single-phase split-phase motor, it is achieved by changing the connection between the primary winding and the start circuit. Single-phase split-phase motors that are designed for specific applications may have the connection between the primary winding and the start circuit connected internally so that the rotation cannot be changed. Also, single-phase shaded-pole motors have a fixed rotation, and the direction cannot be changed.
+
+
+== Power factor ==
+The power factor of induction motors varies with load, typically from around 0.85 or 0.90 at full load to as low as 0.35 at no-load, due to stator and rotor leakage and magnetizing reactances. Power factor can be improved by connecting capacitors either on an individual motor basis or, by preference, on a common bus covering several motors. For economic and other considerations, power systems are rarely power factor corrected to unity power factor. Power capacitor application with harmonic currents requires power system analysis to avoid harmonic resonance between capacitors and transformer and circuit reactances. Common bus power factor correction is recommended to minimize resonant risk and to simplify power system analysis.
+
+
+== Efficiency ==
+(See also Energy savings)
+Full load motor efficiency varies from about 85% to 97%, related motor losses being broken down roughly as follows:
+Friction and windage, 5% – 15%
+Iron or core losses, 15% – 25%
+Stator losses, 25% – 40%
+Rotor losses, 15% – 25%
+Stray load losses, 10% – 20%.
+Various regulatory authorities in many countries have introduced and implemented legislation to encourage the manufacture and use of higher efficiency electric motors. There is existing and forthcoming legislation regarding the future mandatory use of premium-efficiency induction-type motors in defined equipment. For more information, see: Premium efficiency and Copper in energy efficient motors.
+
+
+== Steinmetz equivalent circuit ==
+Many useful motor relationships between time, current, voltage, speed, power factor and torque can be obtained from analysis of the Steinmetz equivalent circuit (also termed T-equivalent circuit or IEEE recommended equivalent circuit), a mathematical model used to describe how an induction motor's electrical input is transformed into useful mechanical energy output. The equivalent circuit is a single-phase representation of a multiphase induction motor that is valid in steady-state balanced-load conditions.
+The Steinmetz equivalent circuit is expressed simply in terms of the following components:
+Stator resistance and leakage reactance (, ).
+Rotor resistance, leakage reactance, and slip (,  or , , and ).
+Magnetizing reactance ().
+Paraphrasing from Alger in Knowlton, an induction motor is simply an electrical transformer the magnetic circuit of which is separated by an air gap between the stator winding and the moving rotor winding. The equivalent circuit can accordingly be shown either with equivalent circuit components of respective windings separated by an ideal transformer or with rotor components referred to the stator side as shown in the following circuit and associated equation and parameter definition tables.
+
+The following rule-of-thumb approximations apply to the circuit:
+Maximum current happens under locked rotor current (LRC) conditions and is somewhat less than , with LRC typically ranging between 6 and 7 times rated current for standard Design B motors.
+Breakdown torque  happens when  and  such that  and thus, with constant voltage input, a low-slip induction motor's percent-rated maximum torque is about half its percent-rated LRC.
+The relative stator to rotor leakage reactance of standard Design B cage induction motors is
+.
+Neglecting stator resistance, an induction motor's torque curve reduces to the Kloss equation
+, where  is slip at .
+
+
+== Linear induction motor ==
+
+Linear induction motors, that work on same general principles as rotary induction motors and are frequently three-phase, are designed to produce straight line motion. Uses include magnetic levitation, linear propulsion, linear actuators, and liquid metal pumping.
+
+
+== See also ==
+AC motor
+Circle diagram
+Induction generator
+Premium efficiency
+Copper in energy efficient motors
+Induction motors modelling in ABC frame of reference
+Variable refrigerant flow
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Classical sources ==
+Bailey, Benjamin Franklin (1911). The Induction Motor. McGraw-Hill. 
+Behrend, Bernhard Arthur (1901). The Induction Motor: A Short Treatise on its Theory and Design, With Numerous Experimental Data and Diagrams. McGraw Publishing Company / Electrical World and Engineer. 
+Boy de la Tour, Henri (1906). The Induction Motor: Its Theory and Design, Set Forth By a Practical Method of Calculation. Translated Cyprien Odilon Mailloux. McGraw Pub. Co. 
+
+
+== External links ==
+An induction motor drawing
+Rotating magnetic fields: interactive, (Italian)
+Construct your squirrel cage induction motor, using povray
+Induction motor topics from Hyperphysics website hosted by C.R. Nave, GSU Physics and Astronomy Dept.

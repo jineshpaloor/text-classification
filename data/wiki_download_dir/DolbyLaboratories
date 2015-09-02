@@ -1,0 +1,89 @@
+Dolby Laboratories
+Dolby Laboratories, Inc., often shortened to Dolby Labs, is an American company specializing in audio noise reduction and audio encoding/compression. Dolby licenses its technologies to consumer electronics manufacturers.
+
+
+== History ==
+Dolby Labs was founded by American Ray Dolby (1933-2013) in the United Kingdom in 1965. He moved the company to the United States (San Francisco, California) in 1967. The first product Dolby Labs produced was the Dolby 301 unit which incorporated Type A Dolby Noise Reduction, a compander based noise reduction system. These units were intended for use in professional recording studios.
+Dolby was persuaded by Henry Kloss of KLH to manufacture a consumer version of his noise reduction. Dolby worked more on companding systems and introduced Type B in 1968.
+Dolby also sought to improve film sound. As the corporation's history explains:
+Upon investigation, Dolby found that many of the limitations in optical sound stemmed directly from its significantly high background noise. To filter this noise, the high-frequency response of theatre playback systems was deliberately curtailed… To make matters worse, to increase dialogue intelligibility over such systems, sound mixers were recording soundtracks with so much high-frequency pre-emphasis that high distortion resulted.
+The first film with Dolby sound was A Clockwork Orange (1971), which used Dolby noise reduction on all pre-mixes and masters, but a conventional optical sound track on release prints. Callan (1974) was the first film with a Dolby-encoded optical soundtrack. In 1975 Dolby released Dolby Stereo, which included a noise reduction system in addition to more audio channels (Dolby Stereo could actually contain additional center and surround channels matrixed from the left and right). The first film with a Dolby-encoded stereo optical soundtrack was Lisztomania (1975), although this only used an LCR (Left-Center-Right) encoding technique. The first true LCRS (Left-Center-Right-Surround) soundtrack was encoded on the movie A Star Is Born in 1976. In less than ten years, 6,000 cinemas worldwide were equipped to use Dolby Stereo sound. Dolby reworked the system slightly for home use and introduced Dolby Surround, which only extracted a surround channel, and the more impressive Dolby Pro Logic, which was the domestic equivalent of the theatrical Dolby Stereo.
+Dolby developed a digital surround sound compression scheme for the cinema. Dolby Stereo Digital (now simply called Dolby Digital) was first featured on the 1992 film Batman Returns. Introduced to the home theater market as Dolby AC-3 with the 1995 laserdisc release of Clear and Present Danger, the format did not become widespread in the consumer market, partly because of extra hardware that was necessary to make use of it, until it was adopted as part of the DVD specification. Dolby Digital is now found in the HDTV (ATSC) standard of the USA, DVD players, and many satellite-TV and cable-TV receivers. Dolby developed a digital surround sound compression scheme for TV series The Simpsons.
+On February 17, 2005, the company became public, offering its shares on the New York Stock Exchange, under the symbol DLB. On March 15, 2005, Dolby celebrated its fortieth anniversary at the ShoWest 2005 Festival in San Francisco.
+On January 8, 2007, Dolby announced the arrival of Dolby Volume at the International Consumer Electronics Show. It enables users to maintain a steady volume while switching through channels or program elements (i.e., loud TV commercials).
+On June 18, 2010, Dolby introduced Dolby Surround 7.1, and set up theaters worldwide with 7.1 surround speaker setups to deliver theatrical 7.1 surround sound. The first film to be released with this format was Pixar's Toy Story 3 which was later followed by 50 releases using the format. As of April 2012, there are 3,600 Dolby Surround 7.1 movie theaters. In April 2012, Dolby introduced its Dolby Atmos, a new cinematic technology consisting of overhead speakers, which was first utilized in Pixar's motion picture Brave. In July 2014, Dolby Laboratories announced plans to bring Atmos to the home theatre industry.
+On February 24, 2014, Dolby acquired Doremi Labs for $92.5 million in cash plus an additional $20 million in contingent consideration that may be earned over a four-year period.
+
+
+== Technologies ==
+
+
+=== Analog audio noise reduction ===
+Dolby A/B/C/S-Type NR: professional and consumer noise reduction systems for tapes and analog cassettes.
+Dolby SR (Spectral Recording): professional four-channel noise reduction system in use since 1986, which improves the dynamic range of analog recordings and transmissions by as much as 25 dB. Dolby SR is utilized by recording and post-production engineers, broadcasters, and other audio professionals. It is also the benchmark in analog film sound, being included today on nearly all 35 mm film prints. On films with digital soundtracks, the SR track is used in cinemas not equipped for digital playback, and it serves as a backup in case of problems with the digital track.
+Dolby FM: noise reduction system for FM broadcast radio. Dolby FM was tried by a few radio stations starting with WFMT in 1971. It used Dolby B, combined with 25 microsecond pre-emphasis. A small number of models of tuners and receivers were offered with the necessary decoder built in. In addition, a few cassette deck models appeared that allowed the deck's internal Dolby B decoder to be put in the line in to line out "pass-through" path, permitting its use with Dolby FM broadcasts. The system was not successful and was on the decline by 1974.
+Dolby HX Pro: single-ended system used on high-end tape recorders to increase headroom. The recording bias is lowered as the high frequency component of the signal being recorded increases, and vice versa. It does nothing to the actual audio that is being recorded, and it does not require a special decoder. Any HX Pro recorded tape will have, in theory, better sound on any deck.
+Dolby Advanced Audio: Dolby surround sound, locking preferred volume level, optimizes audio performance for specific PC model and lets turning up the volume to the built-in speakers without distorting the sound.
+
+
+=== Audio encoding/compression ===
+Dolby Digital (also known as AC-3) is a lossy audio compression format. It supports channel configurations from mono up to six discrete channels (referred to as "5.1"). This format first allowed and popularized surround sound. It was first developed for movie theater sound and spread to Laserdisc and DVD. It has been adopted in many broadcast formats including all North American digital television (ATSC), DVB-T, direct broadcast satellite, cable television, DTMB, IPTV, and surround sound radio services. It is also part of both the Blu-ray and the now defunct HD DVD standards. Dolby Digital is used to enable surround sound output by most video game consoles. Several personal computers support converting all audio to Dolby Digital for output.
+Dolby Digital EX: introduces a matrix-encoded center rear surround channel to Dolby Digital for 6.1 channel output. This center rear channel is often split to two rear back speakers for 7.1 channel output.
+Dolby Digital Plus (also known as E-AC-3) is a lossy audio codec based on Dolby Digital that is backward compatible, but more advanced. The DVD Forum has selected Dolby Digital Plus as a standard audio format for HD DVD video. It supports datarates up to 6 Mbit/s, an increase from Dolby Digital's 640 kbit/s maximum. On Blu-ray, Dolby Digital Plus is implemented differently, as a legacy 640 kbit/s Dolby Digital stream plus an additional stream to expand the surround sound, with a total bandwidth of approximately 1.7 Mbit/s. Dolby Digital Plus is also optimized for limited datarate environments such as Digital broadcasting.
+Dolby Digital Live is a real-time hardware encoding technology for interactive media such as video games. It converts any audio signals on a PC or game console into the 5.1-channel Dolby Digital format and transports it via a single S/PDIF cable. A similar technology known as DTS Connect is available from competitor DTS.
+
+Dolby E: professional coding system optimized for the distribution of surround and multichannel audio through digital two-channel post-production and broadcasting infrastructures, or for recording surround audio on two audio tracks of conventional digital video tapes, video servers, communication links, switchers, and routers. The Dolby E signal does not reach viewers at home. It is transcoded to Dolby Digital at lower datarate for final DTV transmission.
+Dolby Stereo (also known as Stereo A): original analog optical technology developed for 35 mm prints and is encoded with four sound channels: Left/Center/Right (which are located behind the screen) and Surround (which is heard over speakers on the sides and rear of the theatre) for ambient sound and special effects. This technology also employs A-type or SR-type noise reduction, listed above with regards to analog cassette tapes. See also Dolby Surround
+Dolby TrueHD: Dolby's current lossless coding technology. It offers bit-for-bit sound reproduction identical to the studio master. Over seven full-range 24-bit/96 kHz discrete channels are supported (plus a LFE channel, making it 7.1 surround) along with the HDMI interface. Theoretically, Dolby TrueHD can support more channels, but this number has been limited to 8 for HD DVD and Blu-ray Disc.
+AAC
+aacPlus: A codec developed by the Swedish company Coding Technologies that combines MPEG-2 AAC with Spectral Band Replication. The format would be standardized as MPEG-4 HE-AAC. Coding Technologies was acquired by Dolby Labs in 2007.
+Dolby Pulse: released in 2009, it is identical to the HE-AAC v2 codec except for the addition of Dolby metadata, which is common to Dolby's other digital audio codecs. This metadata "ensures consistency of broadcast quality."
+
+
+=== Audio processing ===
+
+Dolby Headphone: an implementation of virtual surround, simulating 5.1 surround sound in a standard pair of stereo headphones.
+Dolby Virtual Speaker: simulates 5.1 surround sound in a setup of two standard stereo speakers.
+Dolby Surround, Dolby Pro Logic, Dolby Pro Logic II, Dolby Pro Logic IIx, and Dolby Pro Logic IIz: these decoders expand sound to a greater number of channels. All can decode surround sound that has been matrixed into two channels; some can expand surround sound to a greater number of speakers than the original source material. See the referenced articles for more details on each decoder.
+Audistry: sound enhancement technologies
+Dolby Volume: reduces volume level changes
+Dolby Mobile: A version of Dolby's surround sound technology specifically designed for mobile phones, notably the HTC Desire HD, LG Arena and LG Renoir
+Dolby Audio Plug-in for Android: An API packaged as a Java Library that allows Android Developers to take advantage of Dolby Digital Plus Technology embedded into mobile and tablet devices, notably the Kindle Fire HD & HDX and Samsung Galaxy Tab 3 series
+
+
+=== Video processing ===
+Dolby Contrast provides enhanced image contrast to LCD screens with LED backlight units by means of local dimming.
+Dolby Vision
+Dolby Perceptual Quantizer (PQ): Allows for the display of high dynamic range (HDR) video with a luminance level of up to 10,000 cd/m2 and can be used with the Rec. 2020 color space.
+
+
+=== Digital Cinema ===
+Dolby Digital Cinema
+Dolby 3D
+Dolby Atmos
+Dolby Cinema
+
+
+=== Live Sound ===
+Dolby Lake Processor
+
+
+== See also ==
+CX (analog noise reduction competitor)
+dbx (analog noise reduction competitor)
+High Com (analog noise reduction competitor)
+DTS (digital soundspace competitor)
+Meridian Lossless Packing (lossless coding for DVD-Audio)
+SRS Labs (surround sound competitor)
+Sony Dynamic Digital Sound (digital soundspace competitor)
+
+
+== References ==
+
+
+== External links ==
+Dolby Labs site
+Dolby Developer Site
+Dolby Laboratories companies grouped at OpenCorporates
+Transcripts of Dolby Laboratories, Inc.'s Quarterly Conference Calls
+Dolby Headphone/Virtual Speaker DEMO

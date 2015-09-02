@@ -1,0 +1,34 @@
+Motor soft starter
+A motor soft starter is a device used with AC electrical motors to temporarily reduce the load and torque in the power train and electric current surge of the motor during start-up. This reduces the mechanical stress on the motor and shaft, as well as the electrodynamic stresses on the attached power cables and electrical distribution network, extending the lifespan of the system.
+It can consist of mechanical or electrical devices, or a combination of both. Mechanical soft starters include clutches and several types of couplings using a fluid, magnetic forces, or steel shot to transmit torque, similar to other forms of torque limiter. Electrical soft starters can be any control system that reduces the torque by temporarily reducing the voltage or current input, or a device that temporarily alters how the motor is connected in the electric circuit.
+Across-the line starting of induction motors is accompanied by inrush currents up to 7 times higher than running current, and starting torque up to 3 times higher than running torque. The increased torque results in sudden mechanical stress on the machine which leads to a reduced service life. Moreover, the high inrush current stresses the power supply, which may lead to voltage dips. As a result, the operability of sensitive consumers may be impaired.
+A soft start-up eliminates the undesired side effects. Several types based on control of the supply voltage or mechanical devices such as slip clutches were developed. The list provides an overview of the various electric start-up types. The current and torque characteristic curves show the behavior of the respective starter solution. Torque surges entail high mechanical stress on the machine, which results in higher service costs and increased wear. High currents and current peaks lead to high fixed costs charged by the power supply companies (peak current calculation) and to increased mains and generator loads.
+A soft starter continuously controls the three-phase motor’s voltage supply during the start-up phase. This way, the motor is adjusted to the machine’s load behavior. Mechanical operating equipment is accelerated smoothly. Service life, operating behavior and work flows are positively influenced. Electrical soft starters can use solid state devices to control the current flow and therefore the voltage applied to the motor. They can be connected in series with the line voltage applied to the motor, or can be connected inside the delta (Δ) loop of a delta-connected motor, controlling the voltage applied to each winding. Solid state soft starters can control one or more phases of the voltage applied to the induction motor with the best results achieved by three-phase control. Typically, the voltage is controlled by reverse-parallel-connected silicon-controlled rectifiers (thyristors), but in some circumstances with three-phase control, the control elements can be a reverse-parallel-connected SCR and diode.
+Another way to limit motor starting current is a series reactor. If an air core is used for the series reactor then a very efficient and reliable soft starter can be designed which is suitable for all types of 3 phase induction motor [ synchronous / asynchronous ] ranging from 25 kW 415 V to 30 MW 11 kV. Using an air core series reactor soft starter is very common practice for applications like pump, compressor, fan etc. Usually high starting torque applications do not use this method.
+
+
+== Applications ==
+Soft starters can be set up to the requirements of the individual application. In pump applications, a soft start can avoid pressure surges. Conveyor belt systems can be smoothly started, avoiding jerk and stress on drive components. Fans or other systems with belt drives can be started slowly to avoid belt slipping. Soft starts are seen in electrical R/C helicopters, and allow the rotor blades to spool-up in a smooth, controlled manner rather than a sudden surge. In all systems, a soft start limits the inrush current and so improves stability of the power supply and reduces transient voltage drops that may affect other loads. 
+Non-Applications As described above, soft starters can be an excellent method for providing "gentle" startup of pumps and motors. However, they should not be used in applications that require full torque at startup.
+
+
+== See also ==
+Adjustable-speed drive
+Braking chopper
+DC motor starter section of Electric motor
+Electronic speed control
+Korndorfer starter
+Motor controller
+Space Vector Modulation
+Thyristor drive
+Variable-frequency drive
+Variable speed air compressor
+Vector control (motor)
+
+
+== References ==
+^ a b Siskind, Charles S. (1963). Electrical Control Systems in Industry. New York: McGraw-Hill, Inc. p. 150. ISBN 0-07-057746-3. 
+^ "Soft starters". machinedesign.com. 
+^ Bartos, Frank J. (2004-09-01). "AC Drives Stay Vital for the 21st Century". Control Engineering (Reed Business Information). Retrieved 2008-03-28. 
+^ Eisenbrown, Robert E. (2008-05-18). "AC Drives, Historical and Future Perspective of Innovation and Growth". Keynote Presentation for the 25th Anniversary of The Wisconsin Electric Machines and Power Electronics Consortium (WEMPEC). University of Wisconsin, Madison, WI, USA: WEMPEC. pp. 6–10. Retrieved 2008-03-28. 
+^ Jahns, Thomas M.; Owen, Edward L. (January 2001). "AC Adjustable-Speed Drives at the Millennium: How Did We Get Here?". IEEE Transactions on Power Electronics (IEEE) 16 (1): 17–25. doi:10.1109/63.903985.

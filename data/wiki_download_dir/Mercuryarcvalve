@@ -1,0 +1,96 @@
+Mercury-arc valve
+A mercury-arc valve or mercury-vapor rectifier or (UK) mercury-arc rectifier is a type of electrical rectifier used for converting high-voltage or high-current alternating current (AC) into direct current (DC). It is a type of cold cathode gas-filled tube, but is unusual in that the cathode, instead of being solid, is made from a pool of liquid mercury and is therefore self-restoring. As a result, mercury-arc valves were much more rugged, long-lasting and could carry much higher currents than most other types of gas discharge tube.
+Invented in 1902 by Peter Cooper Hewitt, mercury-arc rectifiers were used to provide power for industrial motors, electric railways, streetcars, and electric locomotives, as well as for radio transmitters and for high-voltage direct current (HVDC) power transmission. They were the primary method of high power rectification before the advent of semiconductor rectifiers, such as diodes, thyristors and gate turn-off thyristors (GTOs) in the 1970s.
+
+
+== History ==
+
+The mercury arc rectifier was invented by Peter Cooper Hewitt in 1902 and further developed throughout the 1920s and 1930s by researchers in both Europe and North America. Before its invention, the only way to convert AC current provided by utilities to DC was by using expensive, inefficient, and high maintenance rotary converters or motor-generator sets. Mercury-arc rectifiers or "converters" were used for charging storage batteries, arc lighting systems the DC traction motors for trolley buses, trams and subways and electroplating equipment. The mercury rectifier was used well into the 1970s, when it was finally replaced by semiconductor rectifiers.
+
+
+== Operating principles ==
+
+Operation of the rectifier relies on an electrical arc discharge between electrodes in a sealed envelope containing mercury vapor at very low pressure. A pool of liquid mercury acts as a self-renewing cathode that does not deteriorate with time. The mercury emits electrons freely, whereas the carbon anodes emit very few electrons even when heated, so the current of electrons can only pass through the tube in one direction, from cathode to anode, which allows the tube to rectify alternating current.
+When an arc is formed, electrons are emitted from the surface of the pool, causing ionization of mercury vapor along the path towards the anodes. The mercury ions are attracted towards the cathode, and the resulting ionic bombardment of the pool maintains the temperature of the emission spot, so long as a current of a few amperes continues.
+Since the current is carried by electrons and ions, the conduction path is largely unaffected by the space charge effects which limit the performance of vacuum tubes. Consequently, the valve can carry high currents at low arc voltages (typically 20-30 V) and so is an efficient rectifier. Hot-cathode, gas discharge tubes such as the thyratron may also achieve similar levels of efficiency but heated cathode filaments are delicate and have a short operating life when used at high current.
+The temperature of the envelope must be carefully controlled, since the behaviour of the arc is determined largely by the vapor pressure of the mercury, which in turn is set by the coolest spot on the enclosure wall. A typical design maintains temperature at 40° Celsius (104° Fahrenheit) and a mercury vapor pressure of 7 millipascals.
+The mercury ions emit light at characteristic wavelengths, the relative intensities of which are determined by the pressure of the vapor. At the low pressure within a rectifier, the light appears pale blue-violet and contains much ultraviolet light.
+
+
+== Construction ==
+The construction of a mercury arc valve takes one of two basic forms — the glass-bulb type and the steel-tank type. Steel-tank valves were used for higher current ratings above approximately 500 A.
+
+
+=== Glass-bulb valves ===
+
+The earliest type of mercury vapor electric rectifier consists of an evacuated glass bulb with a pool of liquid mercury sitting in the bottom as the cathode. Over it curves the glass bulb, which condenses the mercury that is evaporated as the device operates. The glass envelope has one or more arms with graphite rods as anodes. Their number depends on the application, with one anode usually provided per phase. The shape of the anode arms ensures that any mercury that condenses on the glass walls drains back into the main pool quickly to avoid providing a conductive path between the cathode and respective anode. In European rectifiers the anode arms slant to the left, whereas in American rectifiers the anode arms slant to the right. American rectifiers also generally have a smaller diameter, but taller glass bulb.
+Glass envelope rectifiers can handle hundreds of kilowatts of direct-current power in a single unit. A six-phase rectifier rated 150 amperes has a glass envelope approximately 600 mm (24 inches) high by 300 mm (12 inches) outside diameter. These rectifiers will contain several kilograms of liquid mercury. The large size of the envelope is required due to the low thermal conductivity of glass. Mercury vapor in the upper part of the envelope must dissipate heat through the glass envelope in order to condense and return to the cathode pool. Some glass tubes were immersed in an oil bath to better control the temperature.
+The current-carrying capacity of a glass-bulb rectifier is limited partly by the fragility of the glass envelope (the size of which increases with rated power) and partly by the size of the wires fused into the glass envelope for connection of the anodes and cathode. Development of high-current rectifiers required leadwire materials and glass with very similar coefficients of thermal expansion in order to prevent leakage of air into the envelope. Current ratings of up to 500 A had been achieved by the mid-1930s, but most rectifiers for current ratings above this were realised using the more robust steel-tank design.
+
+
+=== Steel-tank valves ===
+For larger valves, a steel tank with ceramic insulators for the electrodes is used, with a vacuum pump system to counteract slight leakage of air into the tank around imperfect seals. Steel-tank valves, with water cooling for the tank, were developed with current ratings of several thousand amps.
+Like glass-bulb valves, steel-tank mercury arc valves were built with only a single anode per tank (a type also known as the excitron) or with multiple anodes per tank. Multiple-anode valves were usually used for multi-phase rectifier circuits (with 2, 3, 6 or 12 anodes per tank) but in HVDC applications multiple anodes were often simply connected in parallel in order to increase the current rating.
+
+
+=== Starting (ignition) ===
+A conventional mercury-arc rectifier is started by a brief high-voltage arc within the rectifier, between the cathode pool and a starting electrode. By one of a number of means, the starting electrode is brought into contact with the pool and allowed to pass current through an inductive circuit. The contact with the pool is then broken, resulting in a high emf and an arc discharge.
+The momentary contact between the starting electrode and the pool may be achieved by a number of methods, including:
+allowing an external electromagnet to pull the electrode into contact with the pool; the electromagnet can also serve as the starting inductance.
+arranging the electromagnet to tip the bulb of a small rectifier, just enough to allow mercury from the pool to reach the starting electrode.
+providing a narrow neck of mercury between two pools, and by passing a very high current at negligible voltage through the neck, displacing the mercury by magnetostriction, thus opening the circuit.
+Passing current into the mercury pool through a bimetallic strip, which warms up under the heating action of the current and bends in such a way as to break the contact with the pool.
+
+
+=== Excitation ===
+Since momentary interruptions or reductions of output current may cause the cathode spot to extinguish, many rectifiers incorporate an additional electrode to maintain an arc whenever the plant is in use. Typically, a two or three phase supply of a few amperes passes through small excitation anodes. A magnetically shunted transformer of a few hundred VA rating is commonly used to provide this supply.
+This excitation or keep-alive circuit was absolutely necessary for single-phase rectifiers such as the excitron and for mercury-arc rectifiers used in the high-voltage supply of radiotelegraphy transmitters, as current flow was regularly interrupted every time the Morse key was released.
+
+
+=== Grid control ===
+Both glass and metal envelope rectifiers may have control grids inserted between the anode and cathode.
+Installation of a control grid between the anode and the pool cathode allows control of the conduction of the valve, thereby giving control of the mean output voltage produced by the rectifier. Start of the current flow can be delayed past the point at which the arc would form in an uncontrolled valve. This allows the output voltage of a valve group to be adjusted by delaying the firing point, and allows controlled mercury-arc valves to form the active switching elements in an inverter converting direct current into alternating current.
+To maintain the valve in the non-conducting state, a negative bias of a few volts or tens of volts is applied to the grid. As a result, electrons emitted from the cathode are repelled away from the grid, back towards the cathode, and so are prevented from reaching the anode. With a small positive bias applied to the grid, electrons pass through the grid, towards the anode, and the process of establishing an arc discharge can commence. However, once the arc has been established, it cannot be stopped by grid action, because the positive mercury ions produced by ionisation are attracted to the negatively charged grid and effectively neutralise it. The only way of stopping conduction is to make the external circuit force the current to drop below a (low) critical current.
+Although grid-controlled mercury-arc valves bear a superficial resemblance to triode valves, mercury-arc valves cannot be used as amplifiers except at extremely low values of current, well below the critical current needed to maintain the arc.
+
+
+=== Anode grading electrodes ===
+
+Mercury-arc valves are prone to an effect called arc-back (or backfire), whereby the valve conducts in the reverse direction when the voltage across it is negative. Arc-backs can be damaging or destructive to the valve, as well as creating high short-circuit currents in the external circuit, and are more prevalent at higher voltages. For many years this effect limited the practical operating voltage of mercury-arc valves to a few kilovolts.
+The solution was found to be to include grading electrodes between the anode and control grid, connected to an external resistor-capacitor divider circuit. Dr. Uno Lamm conducted pioneering work at ASEA in Sweden on this problem throughout the 1930s and 1940s, leading to the first truly practical mercury-arc valve for HVDC transmission, which was put into service on the 20 MW, 100 kV HVDC link from mainland Sweden to the island of Gotland in 1954.
+Uno Lamm’s work on high voltage mercury-arc valves led him to be known as the " Father of HVDC" power transmission  and inspired the IEEE to dedicate an award named after him, for outstanding contributions in the field of HVDC.
+Mercury arc valves with grading electrodes of this type were developed up to voltage ratings of 150 kV. However, the tall porcelain column required to house the grading electrodes was more difficult to cool than the steel tank at cathode potential, so the usable current rating was limited to about 200–300 A per anode. Mercury arc valves for HVDC were, therefore, often constructed with four or six anode columns in parallel. The anode columns were always air-cooled, with the cathode tanks either water-cooled or air-cooled.
+
+
+== Circuits ==
+Single-phase mercury-arc rectifiers were rarely used because the current dropped and the arc could be extinguished when the AC voltage changed polarity. The direct current produced by a single-phase rectifier thus contained a varying component (ripple) at twice the power supply frequency, which was undesirable in many applications for DC. The solution was to use two-, three-, or even six-phase AC power supplies so that the rectified current would maintain a more constant voltage level. Polyphase rectifiers also balanced the load on the supply system, which is desirable for reasons of system performance and economy.
+Most applications of mercury-arc valves for rectifiers used full-wave rectification with separate pairs of anodes for each phase.
+In full-wave rectification both halves of the AC waveform are utilised. The cathode is connected to the + side of the DC load, the other side being connected to the center tap of the transformer secondary winding, which always remains at zero potential with respect to ground or earth. For each AC phase, a wire from each end of that phase winding is connected to a separate anode "arm" on the mercury-arc rectifier. When the voltage at each anode becomes positive, it will begin to conduct through the mercury vapor from the cathode. As the anodes of each AC phase are fed from opposite ends of the centre tapped transformer winding, one will always be positive with respect to the center tap and both halves of the AC Waveform will cause current to flow in one direction only through the load. This rectification of the whole AC waveform is thus called full-wave recification
+With three-phase alternating current and full-wave rectification, six anodes were used to provide a smoother direct current. Three phase operation can improve the efficiency of the transformer as well as providing smoother DC current by enabling two anodes to conduct simultaneously. During operation, the arc transfers to the anodes at the highest positive potential (with respect to the cathode).
+
+In HVDC applications, a full-wave three-phase bridge rectifier or Graetz-bridge circuit was usually used, each valve accommodated in a single tank.
+
+
+== Applications ==
+As solid-state metal rectifiers became available for low-voltage rectification in the 1920s, mercury arc tubes became limited to higher voltage and especially high-power applications.
+Mercury-arc valves were widely used until the 1960s for the conversion of alternating current into direct current for large industrial uses. Applications included power supply for streetcars, electric railways, and variable-voltage power supplies for large radio transmitters. Mercury-arc stations were used to provide DC power to legacy Edison-style DC power grids in urban centers until the 1950s. In the 1960s, however, solid-state silicon devices, first diodes and then thyristors, replaced all lower-power and lower voltage rectifier applications of mercury arc tubes.
+Several electric locomotives, including the New Haven EP5 and the Virginian EL-C, carried ignitrons on board to rectify incoming AC to traction motor DC.
+
+One of the last major uses of mercury arc valves was in HVDC power transmission, where they were used in many projects until the early 1970s, including the HVDC Inter-Island link between the North and South Islands of New Zealand and the HVDC Kingsnorth link from Kingsnorth power station to London. However, starting about 1975, silicon devices have made mercury-arc rectifiers largely obsolete, even in HVDC applications. The largest ever mercury-arc rectifiers, built by English Electric, were rated at 150-kV, 1800 A and were used until 2004 at the Nelson River DC Transmission System high-voltage DC-power-transmission project. The valves for the Inter-Island and Kingsnorth projects used four anode columns in parallel, while those of the Nelson River project used six anode columns in parallel in order to obtain the necessary current rating. The Inter-Island link was the last HVDC transmission scheme in operation using mercury arc valves. It was formally decommissioned on 1 August 2012. A similar mercury arc valve scheme, the HVDC Vancouver Island link between Vancouver Island and the Canadian mainland had been previously removed from service. The mercury arc valve converter stations of the New Zealand scheme were replaced by new thyristor converter stations. The Vancouver Island scheme was replaced by a three-phase AC link.
+Mercury arc valves remain in use in some South African mines, Kenya (at Mombasa Polytechnic - Electrical & Electronic department), and on the Manx Electric Railway on the Isle of Man.
+Mercury arc valves were used extensively in DC power systems on London Underground, and one was still observed to be in operation in 2004 at the disused deep-level air-raid shelter at Belsize Park. After they were no longer needed as shelters, Belsize Park and several other deep shelters were used as secure storage, particularly for music and television archives. This led to the mercury-arc rectifier at the Goodge Street shelter featuring in an early episode of Doctor Who as an alien brain, cast for its "eerie glow".
+
+
+== Others ==
+Special types of single-phase mercury-arc rectifiers are the Ignitron and the Excitron. The Excitron is similar to other types of valve described above but depends critically on the existence of an excitation anode to maintain an arc discharge during the half-cycle when the valve is not conducting current. The Ignitron dispenses with excitation anodes by igniting the arc each time conduction is required to start. In this way, ignitrons also avoid the need for control grids.
+In 1919, the book "Cyclopedia of Telephony & Telegraphy Vol. 1" described an amplifier for telephone signals that used a magnetic field to modulate an arc in a mercury rectifier tube. This was never commercially important.
+
+
+== Environmental hazard ==
+Mercury compounds are toxic, highly persistent in the environment, and present a danger to humans and the environment. The use of large quantities of mercury in fragile glass envelopes presents a hazard of potential release of mercury to the environment should the glass bulb be broken. Some HVDC converter stations have required extensive clean-up to eliminate traces of mercury emitted from the station over its service life. Steel tank rectifiers frequently required vacuum pumps, which continually emitted small amounts of mercury vapor.
+
+
+== References ==
+
+
+== Further reading ==

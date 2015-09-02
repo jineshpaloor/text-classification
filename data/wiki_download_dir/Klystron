@@ -1,0 +1,88 @@
+Klystron
+A klystron is a specialized linear-beam vacuum tube, invented in 1937 by American electrical engineers Russell and Sigurd Varian, which is used as an amplifier for high radio frequencies, from UHF up into the microwave range. Low-power klystrons are used as oscillators in terrestrial microwave relay communications links, while high-power klystrons are used as output tubes in UHF television transmitters, satellite communication, and radar transmitters, and to generate the drive power for modern particle accelerators.
+In the klystron, an electron beam interacts with the radio waves as it passes through resonant cavities, metal boxes along the length of the tube. The electron beam first passes through a cavity to which the input signal is applied. The energy of the electron beam amplifies the signal, and the amplified signal is taken from a cavity at the other end of the tube. The output signal can be coupled back into the input cavity to make an electronic oscillator to generate radio waves. The gain of klystrons can be high, 60 dB (one million) or more, with output power up to tens of megawatts, but the bandwidth is narrow, usually a few percent although it can be up to 10% in some devices.
+A reflex klystron is an obsolete type in which the electron beam was reflected back along its path by a high potential electrode, used as an oscillator.
+The name klystron comes from the stem form κλυσ- (klys) of a Greek verb referring to the action of waves breaking against a shore, and the suffix -τρον ("tron") meaning the place where the action happens. The name "klystron" was suggested by Hermann Fränkel, a professor in the classics department at Stanford University when the klystron was under development.
+
+
+== History ==
+
+The klystron was the first significantly powerful source of radio waves in the microwave range. Before its invention the only sources were the Barkhausen-Kurz tube and split anode magnetron which were limited to very low power.
+The klystron was invented by the brothers Russell and Sigurd Varian at Stanford University. Their prototype was completed and demonstrated successfully on August 30, 1937. Upon publication in 1939, news of the klystron immediately influenced the work of US and UK researchers working on radar equipment. The Varians went on to found Varian Associates to commercialize the technology (for example, to make small linear accelerators to generate photons for external beam radiation therapy). Their work built on the description of velocity modulation by A. Arsenjewa-Heil and Oskar Heil (wife and husband) in 1935, though the Varians were probably unaware of the Heils' work.
+The work of physicist W.W. Hansen was instrumental in the development of the klystron and was cited by the Varian brothers in their 1939 paper. His resonator analysis, which dealt with the problem of accelerating electrons toward a target, could be used just as well to decelerate electrons (i.e., transfer their kinetic energy to RF energy in a resonator). During the second World War, Hansen lectured at the MIT Radiation labs two days a week, commuting to Boston from Sperry gyroscope company on Long Island. His resonator was called a "rhumbatron" by the Varian brothers. Hansen died of beryllium disease in 1949 as a result of exposure to beryllium oxide (BeO).
+During the Second World War, the Axis powers relied mostly on (then low-powered and long wavelength) klystron technology for their radar system microwave generation, while the Allies used the far more powerful but frequency-drifting technology of the cavity magnetron for much shorter one centimeter microwave generation. Klystron tube technologies for very high-power applications, such as synchrotrons and radar systems, have since been developed.
+Right after WW II AT&T used 4 watt klystrons in its brand new network of microwave links that covered the US continent. The network provided long distance telephone service and also carried television signals for the major TV networks. Western Union Telegraph Company also built point-to-point microwave communication links using intermediate repeater stations at about 40 mile intervals at that time, using 2K25 reflex klystrons in both the transmitters and receivers.
+
+
+== How it works ==
+Klystrons amplify RF signals by converting the kinetic energy in a DC electron beam into radio frequency power. A beam of electrons is produced by a thermionic cathode (a heated pellet of low work function material), and accelerated by high-voltage electrodes (typically in the tens of kilovolts). This beam is then passed through an input cavity resonator. RF energy is fed into the input cavity at, or near, its resonant frequency, creating standing waves, which produce an oscillating voltage which acts on the electron beam. The electric field causes the electrons to "bunch": electrons that pass through when the electric field opposes their motion are slowed, while electrons which pass through when the electric field is in the same direction are accelerated, causing the previously continuous electron beam to form bunches at the input frequency. To reinforce the bunching, a klystron may contain additional "buncher" cavities. The beam then passes through a "drift" tube in which the faster electrons catch up to the slower ones, creating the "bunches", then through a "catcher" cavity. In the output "catcher" cavity, each bunch enters the cavity at the time in the cycle when the electric field opposes the electrons' motion, decelerating them. Thus the kinetic energy of the electrons is converted to potential energy of the field, increasing the amplitude of the oscillations. The oscillations excited in the catcher cavity are coupled out through a coaxial cable or waveguide. The spent electron beam, with reduced energy, is captured by a collector electrode.
+To make an oscillator, the output cavity can be coupled to the input cavity(s) with a coaxial cable or waveguide. Positive feedback excites spontaneous oscillations at the resonant frequency of the cavities.
+
+
+== Two-cavity klystron ==
+
+The simplest klystron tube is the two-cavity klystron. In this tube there are two microwave cavity resonators, the "catcher" and the "buncher". When used as an amplifier, the weak microwave signal to be amplified is applied to the buncher cavity through a coaxial cable or waveguide, and the amplified signal is extracted from the catcher cavity.
+At one end of the tube is the hot cathode heated by a filament which produces electrons. The electrons are attracted and pass through an anode cylinder at a high positive potential; these act as an electron gun to produce a high velocity stream of electrons. An external electromagnet winding creates a longitudinal magnetic field along the beam axis which prevents the beam from spreading.
+The beam first passes through the "buncher" cavity resonator, through grids attached to each side. The buncher grids have an oscillating AC potential across them, produced by standing wave oscillations within the cavity, excited by the input signal at the cavity's resonant frequency applied by a coaxial cable or waveguide. The direction of the field between the grids changes twice per cycle of the input signal. Electrons entering when the entrance grid is negative and the exit grid is positive encounter an electric field in the same direction as their motion, and are accelerated by the field. Electrons entering a half-cycle later, when the polarity is opposite, encounter an electric field which opposes their motion, and are decelerated.
+Beyond the buncher grids is a space called the drift space. This space is long enough so that the accelerated electrons catch up to the retarded electrons, forming "bunches" longitudinally along the beam axis. Its length is chosen to allow maximum bunching at the resonant frequency, and may be several feet long.
+
+The electrons then pass through a second cavity, called the "catcher", through a similar pair of grids on each side of the cavity. The function of the catcher grids is to absorb energy from the electron beam. The bunches of electrons passing through excite standing waves in the cavity, which has the same resonant frequency as the buncher cavity. Each bunch of electrons passes between the grids at a point in the cycle when the exit grid is negative with respect to the entrance grid, so the electric field in the cavity between the grids opposes the electrons motion. The electrons thus do work on the electric field, and are decelerated, their kinetic energy is converted to electric potential energy, increasing the amplitude of the oscillating electric field in the cavity. Thus the oscillating field in the catcher cavity is an amplified copy of the signal applied to the buncher cavity. The amplified signal is extracted from the catcher cavity through a coaxial cable or waveguide.
+After passing through the catcher and giving up its energy, the lower energy electron beam is absorbed by a "collector" electrode, a second anode which is kept at a small positive voltage.
+
+
+=== Klystron oscillator ===
+An electronic oscillator can be made from a klystron tube, by providing a feedback path from output to input by connecting the "catcher" and "buncher" cavity with a coaxial cable or waveguide. When the device is turned on, electronic noise in the cavity is amplified by the tube and fed back from the output catcher to the buncher cavity to be amplified again. Because of the high Q of the cavities, the signal quickly becomes a sine wave at the resonant frequency of the cavities.
+
+
+== Multicavity klystron ==
+In all modern klystrons, the number of cavities exceeds two. Additional "buncher" cavities added between the first "buncher" and the "catcher" may be used to increase the gain of the klystron, or to increase the bandwidth.
+The residual kinetic energy in the electron beam when it hits the collector electrode represents wasted energy, which is dissipated as heat, which must be removed by a cooling system. Some modern klystrons include depressed collectors, which recover energy from the beam before collecting the electrons, increasing efficiency. Multistage depressed collectors enhance the energy recovery by "sorting" the electrons in energy bins.
+
+
+== Reflex klystron ==
+
+The reflex klystron (also known as a Sutton tube after one of its inventors, Robert Sutton) was a low power klystron tube with a single cavity, which functioned as an oscillator. It was used as a local oscillator in some radar receivers and a modulator in microwave transmitters the 1950s and 60s, but is now obsolete, replaced by semiconductor microwave devices.
+In the reflex klystron the electron beam passes through a single resonant cavity. The electrons are fired into one end of the tube by an electron gun. After passing through the resonant cavity they are reflected by a negatively charged reflector electrode for another pass through the cavity, where they are then collected. The electron beam is velocity modulated when it first passes through the cavity. The formation of electron bunches takes place in the drift space between the reflector and the cavity. The voltage on the reflector must be adjusted so that the bunching is at a maximum as the electron beam re-enters the resonant cavity, thus ensuring a maximum of energy is transferred from the electron beam to the RF oscillations in the cavity. The reflector voltage may be varied slightly from the optimum value, which results in some loss of output power, but also in a variation in frequency. This effect is used to good advantage for automatic frequency control in receivers, and in frequency modulation for transmitters. The level of modulation applied for transmission is small enough that the power output essentially remains constant. At regions far from the optimum voltage, no oscillations are obtained at all.
+There are often several regions of reflector voltage where the reflex klystron will oscillate; these are referred to as modes. The electronic tuning range of the reflex klystron is usually referred to as the variation in frequency between half power points—the points in the oscillating mode where the power output is half the maximum output in the mode.
+Modern semiconductor technology has effectively replaced the reflex klystron in most applications.
+
+
+== Tuning a klystron ==
+
+Some klystrons have cavities that are tunable. Tuning a klystron is delicate work which, if not done properly, can cause damage to equipment or injury to the technician due to the very high voltages that could be produced. By adjusting the frequency of individual cavities, the technician can change the operating frequency, gain, output power, or bandwidth of the amplifier. The technician must be careful not to exceed the limits of the graduations, or damages to the klystron can result.
+Manufacturers generally send a card with the unique calibrations for a klystron's performance characteristics, that lists the graduations to be set to attain any of a set of listed frequencies. No two klystrons are exactly identical (even when comparing like part/model number klystrons), and so every card is specific to the individual unit. Klystrons have serial numbers on each of them to uniquely identify each unit, and for which manufacturers may (hopefully) have the performance characteristics in a database. If not, loss of the calibration card may be an economically insoluble problem, making the klystron unusable or perform marginally un-tuned.
+Other precautions taken when tuning a klystron include using nonferrous tools. Some klystrons employ permanent magnets. If a technician uses ferrous tools (which are ferromagnetic) and comes too close to the intense magnetic fields that contain the electron beam, such a tool can be pulled into the unit by the intense magnetic force, smashing fingers, injuring the technician, or damaging the unit. Special lightweight nonmagnetic (aka diamagnetic) tools made of beryllium alloy have been used for tuning U.S. Air Force klystrons.
+Precautions are routinely taken when transporting klystron devices in aircraft, as the intense magnetic field can interfere with magnetic navigation equipment. Special overpacks are designed to help limit this field "in the field," and thus allow such devices to be transported safely.
+
+
+== Optical klystron ==
+The technique of amplification used in the klystron is also being applied experimentally at optical frequencies in a type of laser called the free-electron laser (FEL); these devices are called optical klystrons. Instead of microwave cavities, these use devices called undulators. The electron beam passes through an undulator, in which a laser light beam causes bunching of the electrons. Then the beam passes through a second undulator, in which the electron bunches cause oscillation to create a second, more powerful light beam.
+
+
+== Floating drift tube klystron ==
+The floating drift tube klystron has a single cylindrical chamber containing an electrically isolated central tube. Electrically, this is similar to the two cavity oscillator klystron with a lot of feedback between the two cavities. Electrons exiting the source cavity are velocity modulated by the electric field as they travel through the drift tube and emerge at the destination chamber in bunches, delivering power to the oscillation in the cavity. This type of oscillator klystron has an advantage over the two-cavity klystron on which it is based. It only needs one tuning element to effect changes in frequency. The drift tube is electrically insulated from the cavity walls, and DC bias is applied separately. The DC bias on the drift tube may be adjusted to alter the transit time through it, thus allowing some electronic tuning of the oscillating frequency. The amount of tuning in this manner is not large and is normally used for frequency modulation when transmitting.
+
+
+== Applications ==
+Klystrons can produce far higher microwave power outputs than solid state microwave devices such as Gunn diodes. In modern systems, they are used from UHF (hundreds of MHz) up through hundreds of gigahertz (as in the Extended Interaction Klystrons in the CloudSat satellite). Klystrons can be found at work in radar, satellite and wideband high-power communication (very common in television broadcasting and EHF satellite terminals), medicine (radiation oncology), and high-energy physics (particle accelerators and experimental reactors). At SLAC, for example, klystrons are routinely employed which have outputs in the range of 50 megawatts (pulse) and 50 kilowatts (time-averaged) at 2856 MHz. The Arecibo Planetary Radar uses two klystrons that provide a total power output of 1 megawatt (continuous) at 2380 MHz.
+Popular Science's "Best of What's New 2007" described a company, Global Resource Corporation, currently defunct, using a klystron to convert the hydrocarbons in everyday materials, automotive waste, coal, oil shale, and oil sands into natural gas and diesel fuel.
+Science fiction movie reference to a klystron tube. The essential "klystron monitor" was destroyed by the Monster from the ID in the 1956 classic Forbidden Planet.(13)
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Animation of how a Klystron works
+(Two cavity klystron)
+(Multicavity klystron)
+(Reflex klystron)
+(High power for linear accelerator)
+History of the Klystron from Varian
+Stanford Linear Accelerator Center (249) Klystron Gallery Pictures
+Klystron collection in the Virtual Valve Museum
+Klystron Amplifier
+"Microwave Gun" klystron developed at the SLAC

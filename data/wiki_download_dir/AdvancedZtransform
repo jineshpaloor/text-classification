@@ -1,0 +1,43 @@
+Advanced Z-transform
+In mathematics and signal processing, the advanced Z-transform is an extension of the Z-transform, to incorporate ideal delays that are not multiples of the sampling time. It takes the form
+
+where
+T is the sampling period
+m (the "delay parameter") is a fraction of the sampling period 
+It is also known as the modified Z-transform.
+The advanced Z-transform is widely applied, for example to accurately model processing delays in digital control.
+
+
+== Properties ==
+If the delay parameter, m, is considered fixed then all the properties of the Z-transform hold for the advanced Z-transform.
+
+
+=== Linearity ===
+
+
+=== Time shift ===
+
+
+=== Damping ===
+
+
+=== Time multiplication ===
+
+
+=== Final value theorem ===
+
+
+== Example ==
+Consider the following example where :
+
+If  then  reduces to the transform
+,
+which is clearly just the Z-transform of .
+
+
+== See also ==
+Z-transform
+
+
+== Bibliography ==
+Eliahu Ibraham Jury, Theory and Application of the Z-Transform Method, Krieger Pub Co, 1973. ISBN 0-88275-122-0.

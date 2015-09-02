@@ -1,0 +1,68 @@
+Ripple (electrical)
+The most common meaning of ripple in electrical science is the small unwanted residual periodic variation of the direct current (dc) output of a power supply which has been derived from an alternating current (ac) source. This ripple is due to incomplete suppression of the alternating waveform within the power supply.
+As well as this time-varying phenomenon, there is a frequency domain ripple that arises in some classes of filter and other signal processing networks. In this case the periodic variation is a variation in the insertion loss of the network against increasing frequency. The variation may not be strictly linearly periodic. In this meaning also, ripple is usually to be considered an unwanted effect, its existence being a compromise between the amount of ripple and other design parameters.
+
+
+== Time-domain ripple ==
+
+Ripple factor (γ) may be defined as the ratio of the root mean square (rms) value of the ripple voltage to the absolute value of the dc component of the output voltage, usually expressed as a percentage. However, ripple voltage is also commonly expressed as the peak-to-peak value. This is largely because peak-to-peak is both easier to measure on an oscilloscope and is simpler to calculate theoretically. Filter circuits intended for the reduction of ripple are usually called smoothing circuits.
+The simplest scenario in AC to DC conversion is a rectifier without any smoothing circuitry at all. The ripple voltage is very large in this situation; the peak-to-peak ripple voltage is equal to the peak ac voltage. A more common arrangement is to allow the rectifier to work into a large smoothing capacitor which acts as a reservoir. After a peak in output voltage the capacitor (C) supplies the current to the load (R) and continues to do so until the capacitor voltage has fallen to the value of the now rising next half-cycle of rectified voltage. At that point the rectifiers turn on again and deliver current to the reservoir until peak voltage is again reached. If the time constant, CR, is large in comparison to the period of the ac waveform, then a reasonably accurate approximation can be made by assuming that the capacitor voltage falls linearly. A further useful assumption can be made if the ripple is small compared to the dc voltage. In this case the phase angle through which the rectifiers conduct will be small and it can be assumed that the capacitor is discharging all the way from one peak to the next with little loss of accuracy.
+
+With the above assumptions the peak-to-peak ripple voltage can be calculated as:
+For a full-wave rectifier:
+
+For a half-wave rectification:
+
+where
+
+ is the peak-to-peak ripple voltage
+ is the current in the circuit
+ is the frequency of the ac power
+ is the capacitance
+
+For the rms value of the ripple voltage, the calculation is more involved as the shape of the ripple waveform has a bearing on the result. Assuming a sawtooth waveform is a similar assumption to the ones above and yields the result:
+
+where
+
+ is the ripple factor
+ is the resistance of the load
+
+Another approach to reducing ripple is to use a series choke. A choke has a filtering action and consequently produces a smoother waveform with less high-order harmonics. Against this, the dc output is close to the average input voltage as opposed to the higher voltage with the reservoir capacitor which is close to the peak input voltage. With suitable approximations, the ripple factor is given by:
+
+where
+
+ is the angular frequency 
+ is the inductance of the choke
+
+More complex arrangements are possible; the filter can be an LC ladder rather than a simple choke or the filter and the reservoir capacitor can both be used to gain the benefits of both. The most commonly seen of these is a low-pass Π-filter consisting of a reservoir capacitor followed by a series choke followed by a further shunt capacitor. However, use of chokes is deprecated in contemporary designs for economic reasons. A more common solution where good ripple rejection is required is to use a reservoir capacitor to reduce the ripple to something manageable and then pass through a voltage regulator circuit. The regulator circuit, as well as regulating the output, will incidentally filter out nearly all of the ripple as long as the minimum level of the ripple waveform does not go below the voltage being regulated to.
+The majority of power supplies are now switched mode. The filtering requirements for such power supplies are much easier to meet owing to the frequency of the ripple waveform being very high. In traditional power supply designs the ripple frequency is either equal to (half-wave), or twice (full-wave) the ac line frequency. With switched mode power supplies the ripple frequency is not related to the line frequency, but is instead related to the frequency of the chopper circuit.
+
+
+=== Effects of ripple ===
+Ripple is undesirable in many electronic applications for a variety of reasons:
+The ripple frequency and its harmonics are within the audio band and will therefore be audible on equipment such as radio receivers, equipment for playing recordings and professional studio equipment.
+The ripple frequency is within television video bandwidth. Analogue TV receivers will exhibit a pattern of moving wavy lines if too much ripple is present.
+The presence of ripple can reduce the resolution of electronic test and measurement instruments. On an oscilloscope it will manifest itself as a visible pattern on screen.
+Within digital circuits, it reduces the threshold, as does any form of supply rail noise, at which logic circuits give incorrect outputs and data is corrupted.
+High-amplitude ripple currents shorten the life of electrolytic capacitors.
+
+
+== Frequency-domain ripple ==
+
+Ripple in the context of the frequency domain is referring to the periodic variation in insertion loss with frequency of a filter or some other two-port network. Not all filters exhibit ripple, some have monotonically increasing insertion loss with frequency such as the Butterworth filter. Common classes of filter which exhibit ripple are the Chebyshev filter, inverse Chebyshev filter and the Elliptical filter. The ripple is not usually strictly linearly periodic as can be seen from the example plot. Other examples of networks exhibiting ripple are impedance matching networks that have been designed using Chebyshev polynomials. The ripple of these networks, unlike regular filters, will never reach 0 dB at minimum loss if designed for optimum transmission across the passband as a whole.
+The amount of ripple can be traded for other parameters in the filter design. For instance, the rate of roll-off from the passband to the stopband can be increased at the expense of increasing the ripple without increasing the order of the filter (that is, the number of components has stayed the same). On the other hand, the ripple can be reduced by increasing the order of the filter while at the same time maintaining the same rate of roll-off.
+
+
+== See also ==
+Ringing (signal)
+
+
+== Notes ==
+
+  11. AC-DC rectifying for solid capacitors https://www.academia.edu/15289400/Substitution_of_electrolytic_capacitor_to_digital_controlled_solid_capacitors
+
+
+== References ==
+Ryder, J D, Electronic Fundamentals & Applications, Pitman Publishing, 1970.
+Millman-Halkias, Integrated Electronics, McGraw-Hill Kogakusha, 1972.
+Matthaei, Young, Jones, Microwave Filters, Impedance-Matching Networks, and Coupling Structures McGraw-Hill 1964.

@@ -1,0 +1,39 @@
+Ampacity
+Ampacity is a portmanteau for ampere capacity defined by National Electrical Safety Codes, in some North American countries. Ampacity is defined as the maximum amount of electric current a conductor or device can carry before sustaining immediate or progressive deterioration. Also described as current rating or current-carrying capacity, ampacity is the RMS electric current which a device or conductor can continuously carry while remaining within its temperature rating.
+The ampacity of a conductor depends on:
+its insulation temperature rating;
+the electrical resistance of the conductor material;
+frequency of the current, in the case of alternating current;
+ability to dissipate heat, which depends on conductor geometry and its surroundings;
+ambient temperature.
+All common electrical conductors have some resistance to the flow of electricity. Electric current flowing through them causes voltage drop and power dissipation, which heats conductors. Copper or aluminum can conduct a large amount of current without damage, but long before conductor damage, insulation would, typically, be damaged by the resultant heat.
+The ampacity for a conductor is based on physical and electrical properties of the material and construction of the conductor and of its insulation, ambient temperature, and environmental conditions adjacent to the conductor. Having a large overall surface area can dissipate heat well if the environment can absorb the heat.
+In cables different conditions govern, and installation regulations normally specify that the most severe condition along the run will govern each cable conductor's rating. Cables run in wet or oily locations may carry a lower temperature rating than in a dry installation. Derating is necessary for multiple cables in close proximity. When multiple cables are in close proximity, each contributes heat to the others and diminishes the amount of external cooling affecting the individual cable conductors. The overall ampacity of insulated cable conductors in a bundle of more than three cables must also be derated, whether in a raceway or cable. Usually the derating factor is tabulated in a nation's wiring regulations.
+Depending on the type of insulating material, common maximum allowable temperatures at the surface of the conductor are 60, 75, and 90 °C, often with an ambient air temperature of 30 °C. In the United States, 105 °C is allowed with ambient of 40 °C, for larger power cables, especially those operating at more than 2 kV. Likewise, specific insulations are rated 150, 200, or 250 °C.
+The allowed current in a conductor generally needs to be decreased (derated) when conductors are in a grouping or cable, enclosed in conduit, or an enclosure restricting heat dissipation. e.g. The United States National Electric Code, Table 310.15(B)(16), specifies that up to three 8 AWG copper wires having a common insulating material (THWN) in a raceway, cable, or direct burial has an ampacity of 50 A when the ambient air is 30°C, the conductor surface temperature allowed to be 75°C. A single insulated conductor in free air has 70 A rating.
+Ampacity rating is normally for continuous current, and short periods of overcurrent occur without harm in most cabling systems. The acceptable magnitude and duration of overcurrent is a more complex topic than ampacity.
+When designing an electrical system, one will normally need to know the current rating for the following:
+Wires
+Printed Circuit Board traces, where included
+Fuses
+Circuit breakers
+All or nearly all components used
+Some devices are limited by power rating, and when this power rating occurs below their current limit, it is not necessary to know the current limit to design a system. A common example of this is lightbulb holders.
+
+
+== Current rating ==
+For electronic components (such as transistors, voltage regulators, and the like), the term current rating is more-commonly used than ampacity, but the considerations are broadly similar. However the tolerance of short-term overcurrent is near zero for semiconductor devices, as their thermal capacities are extremely small.
+
+
+== See also ==
+American wire gauge (has table)
+Aluminum wire
+Cables
+Canadian Electrical Code
+National Electrical Code (USA)
+
+
+== External links ==
+BS 7671:2008 Cable Sizing Tool
+Online Cable Sizing Tool to IEC 60364-5-52:2009
+online cablecalculation tool Cable++ mini

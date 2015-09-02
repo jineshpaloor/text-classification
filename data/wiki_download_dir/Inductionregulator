@@ -1,0 +1,35 @@
+Induction regulator
+An Induction regulator is a device, based on an induction motor, which can provide a continuous (analogue) variable output voltage. In the past, it was used to control the voltage of electric networks. Nowadays, it has been replaced in this function by the tap transformer. Its usage is now mostly confined to electrical laboratories, electrochemical processes and arc welding. With minor variations, its setup can be used as an isolator phase-shifting power transformer.
+
+
+== Construction ==
+The induction regulator can be regarded as a wound induction motor. The rotor is not allowed to turn freely and it can be mechanically shifted by means of a worm gear. The rest of the regulator's construction follows that of a wound rotor induction motor with a slotted three-phase stator and a wound three-phase rotor with ends connected to accessible slip rings plus common point (neutral)
+Depending on the application, the ratio of number of turns on the rotor and the stator can vary.
+
+
+== Working ==
+If the rotor terminals are connected to a three-phase electric power network, a rotating magnetic field will be driven into the magnetic core. The resulting flux will produce an emf on the windings of the stator with the particularity that if rotor and stator are physically shifted by an angle α, then the electric phase shifting of both windings is α too. Considering just the fundamental harmonic, and ignoring the shifting, the following equation rules:
+
+Where ξ is the winding factor, a constant related to the construction of the windings.
+If the stator winding is connected to the primary phase, the total voltage seen from the neutral (N) will be the sum of the voltages at both windings rotor and stator. Translating this to electric phasors, both phasors are connected. However, there is an angular shifting of α between them. Since α can be freely chosen between [0, π], both phasors can be added or subtracted, so all the values in between are attainable. The primary and secondary are not isolated. Also, the ratio of transformation between rotor/stator is constant. What makes the regulation possible is the angular shifting.
+
+
+== Advantages ==
+The output voltage can be continuously regulated within the nominal range. This is a clear benefit against tap transformers where output voltage takes discrete values. Also, the voltage can be easily regulated under working conditions.
+
+
+== Drawbacks ==
+In comparison to tap transformers, induction regulators are expensive, with lower efficiency, high open circuit currents (due to the airgap) and limited in voltage to less than 20kV.
+
+
+== Applications ==
+An induction regulator for power networks is usually designed to have a nominal voltage of 14kV and ±(10-15)% of regulation, but this use has declined. Nowadays, its main uses are in electrical laboratories and arc welding.
+
+
+== Bibliography ==
+Fraile-Mora, J. Jesús (2003). Máquinas Eléctricas. McGraw-Hill. pp. 358–359. ISBN 84-481-3913-5. 
+Serrano-Iribarnegaray, Luis (1989). Fundamentos de Máquinas Eléctricas Rotativas. Marcombo Boixareu. pp. 208–210. ISBN 8426707637.  Ras, Enrique (1991). Transformadores de potencia de medida y de protección. Marcombo Boixareu. p. 160. ISBN 84-267-0690-8. 
+
+
+== See also ==
+Variable frequency transformer

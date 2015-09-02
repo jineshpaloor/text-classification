@@ -1,0 +1,53 @@
+Demodulation
+Demodulation is the act of extracting the original information-bearing signal from a modulated carrier wave. A demodulator is an electronic circuit (or computer program in a software-defined radio) that is used to recover the information content from the modulated carrier wave. There are many types of modulation so there are many types of demodulators. The signal output from a demodulator may represent sound (an analog audio signal), images (an analog video signal) or binary data (a digital signal).
+These terms are traditionally used in connection with radio receivers, but many other systems use many kinds of demodulators. For example, in a modem, which is a contraction of the terms modulator/demodulator, a demodulator is used to extract a serial digital data stream from a carrier signal which is used to carry it through a telephone line, coaxial cable, or optical fiber.
+
+
+== History ==
+Demodulation was first used in chutiya radio receivers. In the wireless telegraphy radio systems used during the first 3 decades of radio (1884-1914) the transmitter did not communicate audio (sound) but transmitted information in the form of pulses of radio waves that represented text messages in Morse code. Therefore, the receiver merely had to detect the presence or absence of the radio signal, and produce a click sound. The device that did this was called a detector. The first detectors were coherers, simple devices that acted as a switch. The term detector stuck, was used for other types of demodulators and continues to be used to the present day for a demodulator in a radio receiver.
+The first type of modulation used to transmit sound over radio waves was amplitude modulation (AM), invented by Reginald Fessendon around 1900. An AM radio signal can be demodulated by rectifying it, removing the radio frequency pulses on one side of the carrier, converting it from alternating current (AC) to a pulsating direct current (DC). The amplitude of the DC varies with the modulating audio signal, so it can drive an earphone. Fessendon invented the first AM demodulator in 1904 called the electrolytic detector, consisting of a short needle dipping into a cup of dilute acid. The same year John Ambrose Fleming invented the Fleming valve or thermionic diode which could also rectify an AM signal.
+
+
+== Techniques ==
+There are several ways of demodulation depending on how parameters of the base-band signal such as amplitude, frequency or phase are transmitted in the carrier signal. For example, for a signal modulated with a linear modulation like AM (amplitude modulation), we can use a synchronous detector. On the other hand, for a signal modulated with an angular modulation, we must use an FM (frequency modulation) demodulator or a PM (phase modulation) demodulator. Different kinds of circuits perform these functions.
+Many techniques such as carrier recovery, clock recovery, bit slip, frame synchronization, rake receiver, pulse compression, Received Signal Strength Indication, error detection and correction, etc., are only performed by demodulators, although any specific demodulator may perform only some or none of these techniques.
+Many things can act as a demodulator, if they pass the radio waves on nonlinearly. For example, near a powerful radio station, it has been known for the metal sides of a van to demodulate the radio signal as sound.
+
+
+== AM radio ==
+An AM signal encodes the information onto the carrier wave by varying its amplitude in direct sympathy with the analogue signal to be sent. There are two methods used to demodulate AM signals:
+The envelope detector is a very simple method of demodulation that does not require a coherent demodulator. It consists of an envelope detector that can be a rectifier (anything that will pass current in one direction only) or other non-linear that enhances one half of the received signal over the other and a low-pass filter. The rectifier may be in the form of a single diode or may be more complex. Many natural substances exhibit this rectification behaviour, which is why it was the earliest modulation and demodulation technique used in radio. The filter is usually an RC low-pass type but the filter function can sometimes be achieved by relying on the limited frequency response of the circuitry following the rectifier. The crystal set exploits the simplicity of AM modulation to produce a receiver with very few parts, using the crystal as the rectifier and the limited frequency response of the headphones as the filter.
+The product detector multiplies the incoming signal by the signal of a local oscillator with the same frequency and phase as the carrier of the incoming signal. After filtering, the original audio signal will result.
+SSB is a form of AM in which the carrier is reduced or suppressed entirely, which require coherent demodulation. For further reading, see sideband.
+
+
+== FM radio ==
+Frequency modulation (FM) has numerous advantages over AM such as better fidelity and noise immunity. However, it is much more complex to both modulate and demodulate a carrier wave with FM and AM predates it by several decades.
+There are several common types of FM demodulators:
+The quadrature detector, which phase shifts the signal by 90 degrees and multiplies it with the unshifted version. One of the terms that drops out from this operation is the original information signal, which is selected and amplified.
+The signal is fed into a PLL and the error signal is used as the demodulated signal.
+The most common is a Foster-Seeley discriminator. This is composed of an electronic filter which decreases the amplitude of some frequencies relative to others, followed by an AM demodulator. If the filter response changes linearly with frequency, the final analog output will be proportional to the input frequency, as desired.
+A variant of the Foster-Seeley discriminator called the ratio detector
+Another method uses two AM demodulators, one tuned to the high end of the band and the other to the low end, and feed the outputs into a difference amplifier.
+Using a digital signal processor, as used in software-defined radio.
+
+
+== PM ==
+
+
+== QFM ==
+
+QAM demodulation requires a coherent receiver.
+
+
+== See also ==
+Detection theory
+Detector (radio)
+Fax demodulator
+
+
+== References ==
+
+
+== External links ==
+Interactive presentation of soft-demapping for AWGN-channel in a web-demo Institute of Telecommunications, University of Stuttgart

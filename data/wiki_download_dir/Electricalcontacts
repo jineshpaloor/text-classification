@@ -1,0 +1,72 @@
+Electrical contacts
+An electrical contact is an electrical circuit component found in electrical switches, relays and breakers. It is composed of two pieces of electrically conductive metal that pass electrical current or insulate when the gap between them is closed or open. The gap must be an insulating medium of air, vacuum, oil, SF6 or other electrically insulating fluid. Contacts may be operated by humans in pushbuttons and switches, by mechanical pressure in sensors or machine cams, and electromechanically in relays. Contact materials are usually composed of superior conduction materials such as silver or gold. Cheaper metals may be used to reduce costs for the main contact bump and plated with superior metals. The contact arms are typically spring metals to allow operation motion without breaking.
+
+
+== Normally closed contacts ==
+
+A normally closed (N.C.) contact is a contact that is closed or in a conductive state when it, or the device operating it, is in a de-energized or relaxed state.
+
+
+== Normally open contact ==
+A normally open (N.O.) contact is a contact that is open or in a non-conductive state when it, or the device operating it, is in a de-energized or relaxed state.
+An example of a normally open contact usage is the common household light switch.
+
+
+== Latching state devices ==
+Where the state of the operating device can be latched in either state and therefore the normal state is not clearly defined a different style of contact definitions may be used.
+
+
+=== Form A contact ===
+A Form A contact is closed when the operating device main contact or mechanism is closed or latched. Its function is logically equal to the device it resides on.
+
+
+=== Form B contact ===
+A Form B contact is a contact that is closed when the operating device main contacts or mechanism is open or latched open. Its function is logically inverted to the device it resides on.
+
+
+== Form C contact ==
+
+A Form C contact is a combination contact composed of a normally closed and a normally open contact operated by the same device, with a common electrical connection resulting in only three connection terminals. These are usually labelled as normally open, common, normally closed (NO-C-NC).
+These contacts are quite frequently found in electrical switches and relays as the common contact element provides a mechanically economical method of providing a higher contact count.
+KYZ contacts used on energy meter outputs are an example of Form C contacts where each contact reversal or contact state change represents a measured amount of energy (Kp, Ki or Ke).
+
+
+== Contact wipe ==
+Contact wipe is an action designed into a contact so that the contact motion exceeds the initial electrical contact touch point. Using a flexible contact arm causes the contact surface to wipe against its counterpart as the arm bends slightly. This removes oxide and contaminants from the electrical contact surface, counteracting electrical resistance build-up.
+
+
+== Bifurcated contact ==
+A bifurcated contact is a contact whereby each contact arm splits into two smaller arms each with its own contact bump. Only one electrical circuit can be used for this arrangement. This is a design feature to help ensure more stable mechanical operation, improve electrical contact and heat dissipation.
+
+
+== Electrical ratings ==
+Contacts are rated for the current carrying capacity while closed and the voltage breaking capacity when opening (due to arcing) or while open. Opening voltage rating may be an A.C. voltage rating, D.C. voltage rating or both. Some manufacturers offer guaranteed minimum operation counts based on accelerated testing.
+
+
+== Arc snuffing ==
+
+In high current and high voltage applications a secondary contact may be used to transfer load to a load break mechanism in order to avoid arcing wear and tear of the main contact.
+Many other methods to avoid arcing of contacts are used including air blasts, magnetic forces, elongation of arc, alternate resistive current paths and various combinations of these methods.
+
+
+== Materials Used ==
+Cold headed contacts can be produced from a wide variety of materials. Typical alloys include:
+Silver
+Fine grained silver
+Silver-Nickel
+Silver-Iron
+Silver-Graphite
+Silver-Cadmium Oxide
+Silver-Tin Oxide
+Gold
+Platinum
+Palladium
+Paliney® alloys
+
+
+== See also ==
+Wetting current
+Wetting voltage
+
+
+== References ==

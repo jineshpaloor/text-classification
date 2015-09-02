@@ -1,0 +1,164 @@
+Microgeneration
+Microgeneration is the small-scale generation of heat and electric power by individuals, small businesses and communities to meet their own needs, as alternatives or supplements to traditional centralized grid-connected power. Although this may be motivated by practical considerations, such as unreliable grid power or long distance from the electrical grid, the term is mainly used currently for environmentally conscious approaches that aspire to zero or low-carbon footprints or cost reduction. It differs from micropower in that it is principally concerned with fixed power plants rather than for use with mobile devices.
+
+
+== Technologies and set-up ==
+Microgeneration technologies include small-scale wind turbines, micro hydro, solar PV systems, microbial fuel cells, ground source heat pumps, and micro combined heat and power installations.
+
+
+=== The power plant ===
+In addition to the electricity production plant (e.g. wind turbine and solar panel), infrastructure for energy storage and power conversion and a hook-up to the regular electricity grid is usually needed and/or foreseen. Although a hookup to the regular electricity grid is not essential, it helps to decrease costs by allowing financial recompensation schemes. In the developing world however, the start-up cost for this equipment is generally too high, thus leaving no choice but to opt for alternative set-ups.
+
+
+=== Extra equipment needed besides the power plant ===
+
+The whole of the equipment required to set up a working system and for an off-the-grid generation and/or a hook up to the electricity grid herefore is termed a balance of system and is composed of the following parts with PV-systems:
+
+
+==== Energy storage apparatus ====
+A major issue with off-grid solar and wind systems is that the power is often needed when the sun is not shining or when the wind is calm, this is generally not required for purely grid-connected systems:
+a series of deep cycle, stationary or sealed maintenance free batteries (the most common solution) 
+or other means of energy storage (e.g. hydrogen fuel cells, Flywheel energy storage, pumped-storage hydroelectricity, compressed air tanks, ...)
+a charge controller for charging the batteries or other energy storage
+For converting DC battery power into AC as required for many appliances, or for feeding excess power into a commercial power grid:
+an inverter or grid-interactive inverter. The whole is also sometimes referred to as "power conditioning equipment"
+
+
+==== Safety equipment ====
+groundings, transfer switches or isolator switches and surge protector. The whole is also sometimes referred to as "safety equipment"
+Usually, in microgeneration for homes in the developing world, a prefabricated house-wiring systems (as wiring harnesses or prefabricated distribution units) is used instead . Simplified house-wiring boxes, known as wiring harnesses can be simply bought and drilled in the wall without requiring much knowledge on the wiring itself. As such, even people without technical expertise are able to install them. In addition, they are also comparatively cheap and offer safety advantages.
+battery meters (for charging rate and voltage), and meters for power consumption and electricity provision to the regular power grid
+
+
+==== Wind turbine specific ====
+With wind turbines, hydroelectric plants, ... the extra equipment needed  is more or less the same as with PV-systems (depending on the type of wind turbine used, yet also include:
+a manual disconnect switch
+foundation for the tower
+grounding system
+shutoff and/or dummy-load devices for use in high wind when power generated exceeds current needs and storage system capacity.
+
+
+===== Vibro-wind power =====
+A new wind energy technology is being developed that converts energy from wind energy vibrations to electricity. This energy, called Vibro-Wind technology, can use winds of less strength than normal wind turbines, and can be placed in almost any location. The vibro-wind setup is also more economically viable.
+A prototype consisted of a panel mounted with oscillators made out of pieces of foam. The conversion from mechanical to electrical energy is done using a piezoelectric transducer, a device made of a ceramic or polymer that emits electrons when stressed. The building of this prototype was led by Francis Moon, professor of mechanical and aerospace engineering at Cornell University. Moon's work in Vibro-Wind Technology was funded by the Atkinson Center for a Sustainable Future at Cornell.
+
+
+=== Possible set-ups ===
+Several microgeneration set-ups are possible. These are:
+Off-the-grid set-ups which include:
+Off-the grid set-ups without energy storage (e.g., battery, ...)
+Off-the grid set-ups with energy storage (e.g., battery, ...)
+Battery charging stations 
+
+Grid-connected set-ups which include:
+Grid connected with backup to power critical loads
+Grid-connected set-ups without financial recompensation scheme
+Grid-connected set-ups with net metering
+Grid connected set-ups with net purchase and sale 
+
+All set-ups mentioned can work either on a single power plant or a combination of power plants (in which case it is called a hybrid power system). For safety, grid-connected set-ups must automatically switch off or enter an "anti-islanding mode" when there is a failure of the mains power supply. For more about this, see the article on the condition of islanding.
+
+
+== Costs ==
+Depending on the set-up chosen (financial recompensation scheme, power plant, extra equipment), prices may vary. According to Practical Action, microgeneration at home which uses the latest in cost saving-technology (wiring harnesses, ready boards, cheap DIY-power plants, e.g. DIY wind turbines) the household expenditure can be extremely low-cost. In fact, Practical Action mentions that many households in farming communities in the developing world spend less than $1 for electricity per month. . However, if matters are handled less economically (using more commercial systems/approaches), costs will be dramatically higher. In most cases however, financial advantage will still be done using microgeneration on renewable power plants; often in the range of 50-90%  as local production has no electricity transportation losses on long distance power lines or energy losses from the Joule effect in transformers where in general 8-15% of the energy is lost.
+In the UK, the government offers both grants and feedback payments to help businesses, communities and private homes to install these technologies. Businesses can write the full cost of installation off against taxable profits whilst homeowners receive a flat rate grant or payments per kW h of electricity generated and paid back into the national grid. Community organisations can also receive up to £200,000 in grant funding.
+In the UK, the Microgeneration Certification Scheme provides approval for Microgeneration Installers and Products which is a mandatory requirement of funding schemes such as the Feed in Tariffs and Renewable Heat Incentive.
+
+
+=== Grid parity ===
+Grid parity (or socket parity) occurs when an alternative energy source can generate electricity at a levelized cost (LCoE) that is less than or equal to the price of purchasing power from the electricity grid. Reaching grid parity is considered to be the point at which an energy source becomes a contender for widespread development without subsidies or government support. It is widely believed that a wholesale shift in generation to these forms of energy will take place when they reach grid parity.
+Grid parity has been reached in some locations with on-shore wind power around 2000, and with solar power it was achieved for the first time in Spain in 2013.
+
+
+== Comparison with large-scale generation ==
+Microgeneration can dynamically balance the supply and demand for electric power, by producing more power during periods of high demand and high grid prices, and less power during periods of low demand and low grid prices. This "hybridized grid" allows both microgeneration systems and large power plants to operate with greater energy efficiency and cost effectiveness than either could alone.
+
+
+== Domestic self-sufficiency ==
+
+Microgeneration can be integrated as part of a self-sufficient house and is typically complemented with other technologies such as domestic food production systems (permaculture and agroecosystem), rainwater harvesting, composting toilets or even complete greywater treatment systems. Domestic microgeneration technologies include: photovoltaic solar systems, small-scale wind turbines, micro combined heat and power installations, biodiesel and biogas.
+
+Private generation decentralizes the generation of electricity and may also centralize the pooling of surplus energy. While they have to be purchased, solar shingles and panels are both available. Capital cost is high, but saves in the long run. With appropriate power conversion, solar PV panels can run the same electric appliances as electricity from other sources.
+Passive solar water heating is another effective method of utilizing solar power. The simplest method is the solar (or a black plastic) bag. Set between 1 and 5 gallons out in the sun and allow to heat. Perfect for a quick warm shower.
+The ‘breadbox’ heater can be constructed easily with recycled materials and basic building experience. Consisting of a single or array of black tanks mounted inside a sturdy box insulated on the bottom and sides. The lid, either horizontal or angled to catch the most sun, should be well sealed and of a transparent glazing material (glass, fiberglass, or high temp resistant molded plastic). Cold water enters the tank near the bottom, heats and rises to the top where it is piped back into the home.
+Ground source heat pumps exploit stable ground temperatures by benefiting from the thermal energy storage capacity of the ground. Typically ground source heat pumps have a high initial cost and are difficult to install by the average homeowner. They use electric motors to transfer heat from the ground with a high level of efficiency. The electricity may come from renewable sources or from external non-renewable sources.
+
+
+=== Fuel ===
+Biodiesel is an alternative fuel that can power diesel engines and can be used for domestic heating. Numerous forms of biomass, including soybeans, peanuts, and algae (which has the highest yield), can be used to make biodiesel. Recycled vegetable oil (from restaurants) can also be converted into biodiesel.
+Biogas is another alternative fuel, created from the waste product of animals. Though less practical for most homes, a farm environment provides a perfect place to implement the process. By mixing the waste and water in a tank with space left for air, methane produces naturally in the airspace. This methane can be piped out and burned, and used for a cookfire.
+The biogaspro digester provides an easily installed digester suitable for small farms or even large homes. Groups of homes can possible group together to use a digester 
+
+
+== Government policy ==
+Policymakers were accustomed to an energy system based on big, centralised projects like nuclear or gas-fired power stations. A change of mindsets and incentives are bringing microgeneration into the mainstream. Planning regulations may also require streamlining to facilitate the retrofitting of microgenerating facilities onto homes and buildings.
+Most of developed countries, including Canada (Alberta), the United Kingdom, Germany, Poland, Israel and USA have laws allowing microgenerated electricity to be sold into the national grid.
+
+
+=== Alberta, Canada ===
+In January 2009, the Government of Alberta‘s Micro-Generation Regulation came into effect, setting rules that allow Albertans to generate their own environmentally friendly electricity and receive credit for any power they send into the electricity grid.
+
+
+=== Poland ===
+In December 2014, the Polish government will vote on a bill which calls for microgeneration, as well as large scale wind farms in the Baltic Sea as a solution to cut back on co2 emissions from the country's coal plants as well as to reduce Polish dependence on Russian gas. Under the terms of the new bill, individuals and small businesses which generate up to 40 kW of 'green' energy will receive 100% of market price for any electricity they feed back into the grid, and businesses who set up large-scale offshore wind farms in the Baltic will be eligible for subsidization by the state. Costs of implementing these new policies will be offset by the creation of a new tax on non-sustainable energy use. 
+
+
+=== United States ===
+The United States has inconsistent energy generation policies across its 50 states. State energy policies and laws may vary significantly with location. Some states have imposed requirements on utilities that a certain percentage of total power generation be from renewable sources. For this purpose, renewable sources include wind, hydroelectric, and solar power whether from large or microgeneration projects. Further, in some areas transferrable "renewable source energy" credits are needed by power companies to meet these mandates. As a result, in some portions of the United States, power companies will pay a portion of the cost of renewable source microgeneration projects in their service areas. These rebates are in addition to any Federal or State renewable-energy income-tax credits that may be applicable. In other areas, such rebates may differ or may not be available.
+
+
+=== United Kingdom ===
+The UK Government published its Microgeneration Strategy in March 2006, although it was seen as a disappointment by many commentators. In contrast, the Climate Change and Sustainable Energy Act 2006 has been viewed as a positive step. To replace earlier schemes, the Department of Trade and Industry (DTI) launched the Low Carbon Buildings Programme in April 2006, which provided grants to individuals, communities and businesses wishing to invest in microgenerating technologies. These schemes have been replaced in turn by new proposals from the Department for Energy and Climate Change (DECC) for clean energy cashback via Feed-In Tariffs  for generating electricity from April 2010 and the Renewable Heat Incentive  for generating renewable heat from 28 November 2011.
+Feed-In Tariffs are intended to incentivise small-scale (less than 5MW), low-carbon electricity generation. These feed-in tariffs work alongside the Renewables Obligation (RO), which will remain the primary mechanism to incentivise deployment of large-scale renewable electricity generation. The Renewable Heat Incentive (RHI) in intended to incentivise the generation of heat from renewable sources. They also currently offer up to 21p per kWh from December 2011 in the Tariff for photovoltaics plus another 3p for the Export Tariff - an overall figure which could see a household earning back double what they currently pay for their electricity.
+On 31 October 2011, the government announced a sudden cut in the feed-in tariff from 43.3p/kWh to 21p/kWh with the new tariff to apply to all new solar PV installations with an eligibility date on or after 12 December 2011.
+Prominent British politicians who have announced they are fitting microgenerating facilities to their homes include the Conservative party leader, David Cameron, and the Labour Science Minister, Malcolm Wicks. These plans included small domestic sized wind turbines. Cameron, before becoming Prime Minister in the 2010 general elections, had been asked during an interview on BBC One’s The Politics Show on October 29, 2006, if he would do the same should he get to 10 Downing Street. “If they’d let me, yes,” he replied.
+In the December 2006 Pre-Budget Report the government announced that the sale of surplus electricity from installations designed for personal use, would not be subject to Income Tax. Legislation to this effect has been included in the Finance Bill 2007.
+
+
+== In popular culture ==
+Microgeneration has been popularised by several movies, TV-shows, and magazines. Movies such as The Mosquito Coast, Jericho, The Time Machine, and Beverly Hills Family Robinson have done a great deal in raising interest to the general public. More specialised magazines such as OtherPower and Home Power give more practical advice and guidance. Websites such as Instructables and Practical Action are increasing the popularity of microgeneration by proposing DIY-solutions which can decrease the cost of microgeneration.
+
+
+== See also ==
+
+Appropriate technology; includes a list of technology usable to set up microgeneration
+Autonomous building
+Deep cycle battery (the type of batteries to be used in domestic, off-grid systems)
+Distributed generation
+Domestic energy consumption (offers calculations to set up microgeneration-plants)
+Emergency power system
+Home fuel cell
+Hydrogen station
+MicroFIT
+Photovoltaic array
+Small hydro
+Small-scale wind power
+
+
+== References ==
+
+
+== External links ==
+
+
+=== Systems' self-sufficiency parts ===
+Microgeneration.com - Basic information on setting up microgeneration at home
+Information on precise domestic power consumption calculations to create partial/or completely off-grid systems
+Practical action's info on setting up microgeneration at home
+Hope Farm Information on Wind Power - Page on securing incentives, building, and monitoring power generated by small-scale wind on Upstate NY farm.
+Turbine-Free Wind Power - The New York Times
+Micro-Generation Regulation
+
+
+=== UK-related ===
+http://www.nogrid.co.uk
+http://www.berr.gov.uk/energy/sources
+Renewable Heat Incentive
+Microgeneration Certification Scheme Information Installers
+Ofgem information on Feed-in Tariffs
+Micropower Council - In the UK they act as the industry's main contact point for government, opinion formers, the press, and the public
+Building for a Future magazine: Microgeneration - Good or bad?
+
+
+=== Academic paper focusing on India ===
+[7] Kumar, A., Shankar, R., Momaya, K. and Gupte, S. (2010), “The Market for Wireless Electricity: the Case of India”, Energy Policy, 38(3), 1537–1547

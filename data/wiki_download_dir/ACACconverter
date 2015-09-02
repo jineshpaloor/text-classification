@@ -1,0 +1,41 @@
+AC/AC converter
+A solid-state AC-AC converter converts an AC waveform to another AC waveform, where the output voltage and frequency can be set arbitrarily.
+
+
+== Categories ==
+
+Referring to Fig 1, AC-AC converters can be categorized as follows:
+Indirect AC-AC (or AC/DC-AC) converters (i.e., with rectifier, DC link and inverter)
+Cycloconverters
+Hybrid matrix converters
+Matrix converters (MC).
+
+
+== DC link converters ==
+
+There are two types of converters with DC link:
+Voltage-source inverter (VSI) converters (Fig. 2): In VSI converters, the rectifier consists of a diode-bridge and the DC link consists of a shunt capacitor.
+Current-source inverter (CSI) converters (Fig. 3): In CSI converters, the rectifer consists of a phase-controlled switching device bridge and the DC link consists of 1 or 2 series inductors between one or both legs of the connection between rectifier and inverter.
+Any dynamic braking operation required for the motor can be realized by means of braking DC chopper and resistor shunt connected across the rectifier. Alternatively, an anti-parallel thyristor bridge must be provided in the rectifier section to feed energy back into the AC line. Such phase-controlled thyristor-based rectifiers however have higher AC line distortion and lower power factor at low load than diode-based rectifiers.
+An AC-AC converter with approximately sinusoidal input currents and bidirectional power flow can be realized by coupling a pulse-width modulation (PWM) rectifier and a PWM inverter to the DC-link. The DC-link quantity is then impressed by an energy storage element that is common to both stages, which is a capacitor C for the voltage DC-link or an inductor L for the current DC-link. The PWM rectifier is controlled in a way that a sinusoidal AC line current is drawn, which is in phase or anti-phase (for energy feedback) with the corresponding AC line phase voltage.
+Due to the DC-link storage element, there is the advantage that both converter stages are to a large extent decoupled for control purposes. Furthermore, a constant, AC line independent input quantity exists for the PWM inverter stage, which results in high utilization of the converter’s power capability. On the other hand, the DC-link energy storage element has a relatively large physical volume, and when electrolytic capacitors are used, in the case of a voltage DC-link, there is potentially a reduced system lifetime.
+
+
+== Cycloconverters ==
+
+A cycloconverter constructs an output, variable-frequency, approximately sinusoid waveform by switching segments of the input waveform to the output; there is no intermediate DC link. With switching elements such as SCRs, the output frequency must be lower than the input. Very large cycloconverters (on the order of 10 MW) are manufactured for compressor and wind-tunnel drives, or for variable-speed applications such as cement kilns.
+
+
+== Matrix converters ==
+
+In order to achieve higher power density and reliability, it makes sense to consider Matrix Converters that achieve three-phase AC-AC conversion without any intermediate energy storage element. Conventional Direct Matrix Converters (Fig. 4) perform voltage and current conversion in one single stage.
+There is the alternative option of indirect energy conversion by employing the Indirect Matrix Converter (Fig. 5) or the Sparse matrix converter which was invented by Prof. Johann W. Kolar from the ETH Zurich. As with the DC-link based VSI and CSI controllers (Fig. 2 and Fig. 3), separate stages are provided for voltage and current conversion, but the DC-link has no intermediate storage element. Generally, by employing matrix converters, the storage element in the DC-link is eliminated at the cost of a larger number of semiconductors. Matrix converters are often seen as a future concept for variable speed drives technology, but despite intensive research over the decades they have until now only achieved low industrial penetration. However, citing recent availability of low-cost, high performance semiconductors, one larger drive manufacturer has over past few years been actively promoting matrix converters.
+
+
+== See also ==
+Variable-frequency drive
+Frequency changer
+Sparse matrix converter
+
+
+== References ==

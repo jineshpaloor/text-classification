@@ -1,0 +1,40 @@
+Polyphase system
+A polyphase system is a means of distributing alternating-current electrical power. Polyphase systems have three or more energized electrical conductors carrying alternating currents with a definite time offset between the voltage waves in each conductor. Polyphase systems are particularly useful for transmitting power to electric motors. The most common example is the three-phase power system used for industrial applications and for power transmission. A major advantage of three phase power transmission (using three conductors, as opposed to a single phase power transmission, which uses two conductors), is that, since the remaining conductors act as the return path for any single conductor, the power transmitted by a balanced three phase system is three times that of a single phase transmission but only one extra conductor is used. Thus, a 50% / 1.5x increase in the transmission costs achieves a 200% / 3.0x increase in the power transmitted.
+
+
+== Phases ==
+In the very early days of commercial electric power, some installations used two-phase four-wire systems for motors. The chief advantage of these was that the winding configuration was the same as for a single-phase capacitor-start motor and, by using a four-wire system, conceptually the phases were independent and easy to analyse with mathematical tools available at the time.
+Two-phase systems can also be implemented using three wires (two "hot" plus a common neutral). However this introduces asymmetry; the voltage drop in the neutral makes the phases not exactly 90 degrees apart.
+Two-phase systems have been replaced with three-phase systems. A two-phase supply with 90 degrees between phases can be derived from a three-phase system using a Scott-connected transformer.
+A polyphase system must provide a defined direction of phase rotation, so mirror image voltages do not count towards the phase order. A 3-wire system with two phase conductors 180 degrees apart is still only single phase. Such systems are sometimes described as split-phase.
+
+
+== Motors ==
+
+Polyphase power is particularly useful in AC motors, such as the induction motor, where it generates a rotating magnetic field. When a three-or-more-phase supply completes one full cycle, the magnetic field of a two-poles-per-phase motor has rotated through 360° in physical space; motors with more than two poles per phase require more power supply cycles to complete one physical revolution of the magnetic field and so these motors run slower. Induction motors using a rotating magnetic field were independently invented by Galileo Ferraris and Nikola Tesla and developed in a three-phase form by Mikhail Dolivo-Dobrovolsky in 1889. Previously all commercial motors were DC, with expensive commutators, high-maintenance brushes and characteristics unsuitable for operation on an alternating current network. Polyphase motors are simple to construct, are self-starting and have little vibration compared with single-phase motors.
+
+
+== Higher phase order ==
+Higher phase numbers than three have been used. A common practice for rectifier installations and in HVDC converters is to provide six phases, with 60 degree phase spacing, to reduce harmonic generation in the AC supply system and to provide smoother direct current. Experimental high-phase-order transmission lines have been built with up to 12 phases. These allow application of Extra High Voltage (EHV) design rules at lower voltages and would permit increased power transfer in the same transmission line corridor width. WAPA Power distributed to some US National Labs is Six-Phase. Although for normal usage, it is divided into two Three-Phase Banks, for the highest demand applications that needed minimal rectified DC Ripple, all Six Phases are used. This was also used for Timing purposes; the Six-Phase 60 Hz based WAPA waveform was Divided in Analog to 12, 18, and 36 Synched Phases per second for National Laboratory distribution. The BEVALAC used the WAPA-based Six Phase Timing in generating a once-every 6 Second Particle Pulse. It accepted the 2 Ms Injector Pulse, tunable to the Microsecond, which proved to wander, because the WAPA Frequency itself wandered, at the Nanosecond level.
+
+
+== See also ==
+Symmetrical components
+Alternating current
+Delta-wye transformer
+Phase converter
+Polyphase coil
+Charles Proteus Steinmetz
+John Hopkinson
+Electric motor
+Y-Δ transform
+Nikola Tesla
+Jaruga - Hydroelectric Power Plant
+
+
+== References ==
+^ Ion Boldea, Syed Abu Nasar, The Induction Machine Handbook - CRC Press, 2002, page 2
+
+
+== Further reading ==
+Thompson, S. P. (1900). Polyphase electric currents and alternate-current motors. New York: Spon & Chamberlain.

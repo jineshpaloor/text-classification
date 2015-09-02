@@ -1,0 +1,42 @@
+Remanence
+Remanence or remanent magnetization or residual magnetism is the magnetization left behind in a ferromagnetic material (such as iron) after an external magnetic field is removed. It is also the measure of that magnetization. Colloquially, when a magnet is "magnetized" it has remanence. The remanence of magnetic materials provides the magnetic memory in magnetic storage devices, and is used as a source of information on the past Earth's magnetic field in paleomagnetism.
+The equivalent term residual magnetization is generally used in engineering applications. In transformers, electric motors and generators a large residual magnetization is not desirable (see also electrical steel) as it is an unwanted contamination, for example a magnetization remaining in an electromagnet after the current in the coil is turned off. Where it is unwanted, it can be removed by degaussing.
+Sometimes the term retentivity is used for remanence measured in units of magnetic flux density.
+
+
+== Types of remanence ==
+
+
+=== Saturation remanence ===
+
+The default definition of magnetic remanence is the magnetization remaining in zero field after a large magnetic field is applied (enough to achieve saturation). The effect of a magnetic hysteresis loop is measured using instruments such as a vibrating sample magnetometer; and the zero-field intercept is a measure of the remanence. In physics this measure is converted to an average magnetization (the total magnetic moment divided by the volume of the sample) and denoted in equations as Mr. If it must be distinguished from other kinds of remanence it is called the saturation remanence or saturation isothermal remanence (SIRM) and denoted by Mrs.
+In engineering applications the residual magnetization is often measured using a B-H Analyzer, which measures the response to an AC magnetic field (as in Fig. 1). This is represented by a flux density Br. This value of remanence is one of the most important parameters characterizing permanent magnets; it measures the strongest magnetic field they can produce. Neodymium magnets, for example, have a remanence approximately equal to 1.3 teslas.
+
+
+=== Isothermal remanence ===
+Often a single measure of remanence does not provide adequate information on a magnet. For example, magnetic tapes contain a large number of small magnetic particles (see magnetic storage), and these particles are not identical. Magnetic minerals in rocks may have a wide range of magnetic properties (see rock magnetism). One way to look inside these materials is to add or subtract small increments of remanence. One way of doing this is first demagnetizing the magnet in an AC field, and then applying a field H and removing it. This remanence, denoted by Mr(H), depends on the field. It is called the initial remanence or the isothermal remanent magnetization (IRM).
+Another kind of IRM can be obtained by first giving the magnet a saturation remanence in one direction and then applying and removing a magnetic field in the opposite direction. This is called demagnetization remanence or DC demagnetization remanence and is denoted by symbols like Md(H), where H is the magnitude of the field. Yet another kind of remanence can be obtained by demagnetizing the saturation remanence in an ac field. This is called AC demagnetization remanence or alternating field demagnetization remanence and is denoted by symbols like Maf(H).
+If the particles are noninteracting single-domain particles with uniaxial anisotropy, there are simple linear relations between the remanences.
+
+
+=== Anhysteretic remanence ===
+Another kind of laboratory remanence is anhysteretic remanence or anhysteretic remanent magnetization (ARM). This is induced by exposing a magnet to a large alternating field plus a small dc bias field. The amplitude of the alternating field is gradually reduced to zero to get an anhysteretic magnetization, and then the bias field is removed to get the remanence. The anhysteretic magnetization curve is often close to an average of the two branches of the hysteresis loop, and is assumed in some models to represent the lowest-energy state for a given field. ARM has also been studied because of its similarity to the write process in some magnetic recording technology and to the acquisition of natural remanent magnetization in rocks.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Coercivity and Remanence in Permanent Magnets
+Magnet Man
+
+
+== See also ==
+Coercivity
+Hysteresis
+Rock magnetism
+Thermoremanent magnetization
+Viscous remanent magnetization

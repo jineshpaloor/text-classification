@@ -1,0 +1,126 @@
+Oliver Heaviside
+Oliver Heaviside FRS (/ˈɒlɪvər ˈhɛvisaɪd/; 18 May 1850 – 3 February 1925) was a self-taught English electrical engineer, mathematician, and physicist who adapted complex numbers to the study of electrical circuits, invented mathematical techniques for the solution of differential equations (later found to be equivalent to Laplace transforms), reformulated Maxwell's field equations in terms of electric and magnetic forces and energy flux, and independently co-formulated vector analysis. Although at odds with the scientific establishment for most of his life, Heaviside changed the face of telecommunications, mathematics, and science for years to come.
+
+
+== Biography ==
+
+
+=== Early years ===
+Heaviside was born at 55 Kings Street (now Plender Street) in London's Camden Town. He was short and red-headed, and suffered from scarlet fever when young, which left him with a hearing impairment. A small legacy enabled the family to move to a better part of Camden when he was thirteen and he was sent to Camden House Grammar School. He was a good student (e.g. placed fifth out of five hundred students in 1865) but his parents couldn't keep him at school after he was 16 so he continued studying for a year by himself and had no further formal education.
+Heaviside's uncle by marriage was Sir Charles Wheatstone (1802–1875), the original co-inventor of the first commercially successful telegraph in the mid-1830s, and an internationally celebrated expert in telegraphy and electromagnetism. Wheatstone took a strong interest in his nephew's education and in 1867 sent him north to work with his older brother Arthur who was managing one of Wheatstone's telegraph companies in Newcastle-upon-Tyne.
+Two years later he took a job as a telegraph operator with the Danish Great Northern Telegraph Company laying a cable from Newcastle to Denmark using British contractors, soon becoming an electrician. Heaviside continued to study while working, and by the age of 22 he published an article in the prestigious Philosophical Magazine on "The Best Arrangement of Wheatstone's Bridge for measuring a Given Resistance with a Given Galvanometer and Battery" which received positive comments from physicists who had unsuccessfully tried to solve this algebraic problem, including Sir William Thomson, to whom he gave a copy of the paper, and James Clerk Maxwell. However, when he published an article on the duplex method of using a telegraph cable, he poked fun at R. S. Culley, the engineer in chief of the Post Office telegraph system who had been dismissing duplex as impractical. Later in 1873 his application to join the Society of Telegraph Engineers was turned down with the comment that "they didn't want telegraph clerks". This riled Heaviside who asked Thomson to sponsor him, and with the support also of the president he was admitted "despite the P.O. snobs".
+In 1873 Heaviside had encountered Maxwell's newly published, and today famous, two-volume Treatise on Electricity and Magnetism. In his old age Heaviside recalled:
+
+I remember my first look at the great treatise of Maxwell's when I was a young man... I saw that it was great, greater and greatest, with prodigious possibilities in its power... I was determined to master the book and set to work. I was very ignorant. I had no knowledge of mathematical analysis (having learned only school algebra and trigonometry which I had largely forgotten) and thus my work was laid out for me. It took me several years before I could understand as much as I possibly could. Then I set Maxwell aside and followed my own course. And I progressed much more quickly... It will be understood that I preach the gospel according to my interpretation of Maxwell.
+
+Doing research from home, he helped develop transmission line theory (also known as the "telegrapher's equations"). Heaviside showed mathematically that uniformly distributed inductance in a telegraph line would diminish both attenuation and distortion, and that, if the inductance were great enough and the insulation resistance not too high, the circuit would be distortionless while currents of all frequencies would have equal speeds of propagation. Heaviside's equations helped further the implementation of the telegraph.
+
+
+=== Middle years ===
+From 1882 to 1902, except for three years, he contributed regular articles to the trade paper The Electrician, which wished to improve its standing, for which he was paid £40 per year. This was hardly enough to live on, but his demands were very small and he was doing what he most wanted to. Between 1883 and 1887 these averaged 2–3 articles per month and these articles later formed the bulk of his Electromagnetic Theory and Electrical Papers.
+In 1880, Heaviside researched the skin effect in telegraph transmission lines. That same year he patented, in England, the coaxial cable. In 1884 he recast Maxwell's mathematical analysis from its original cumbersome form (they had already been recast as quaternions) to its modern vector terminology, thereby reducing twelve of the original twenty equations in twenty unknowns down to the four differential equations in two unknowns we now know as Maxwell's equations. The four re-formulated Maxwell's equations describe the nature of electric charges (both static and moving), magnetic fields, and the relationship between the two, namely electromagnetic fields.
+Between 1880 and 1887, Heaviside developed the operational calculus (involving the D notation for the differential operator, which he is credited with creating), a method of solving differential equations by transforming them into ordinary algebraic equations which caused a great deal of controversy when first introduced, owing to the lack of rigour in his derivation of it. He famously said, "Mathematics is an experimental science, and definitions do not come first, but later on." He was replying to criticism over his use of operators that were not clearly defined. On another occasion he stated somewhat more defensively, "I do not refuse my dinner simply because I do not understand the process of digestion."
+In 1887, Heaviside worked with his brother Arthur on a paper entitled "The Bridge System of Telephony". However the paper was blocked by Arthur's superior, William Henry Preece of the Post Office, because part of the proposal was that loading coils (inductors) should be added to telephone and telegraph lines to increase their self-induction and correct the distortion which they suffered. Preece had recently declared self-inductance to be the great enemy of clear transmission. Heaviside was also convinced that Preece was behind the sacking of the editor of The Electrician which brought his long-running series of articles to a halt (until 1891). There was a long history of animosity between Preece and Heaviside. Heaviside considered Preece to be mathematically incompetent; an assessment supported by the biographer Paul J. Nahin: "Preece was a powerful government official, enormously ambitious, and in some remarkable ways, an utter blockhead." Preece's motivations in suppressing Heaviside's work were more to do with protecting Preece's own reputation and avoiding having to admit error than any perceived faults in Heaviside's work.
+The importance of Heaviside's work remained undiscovered for some time after publication in The Electrician, and so its rights lay in the public domain. In 1897, AT&T employed one of its own scientists, George A. Campbell, and an external investigator Michael I. Pupin to find some respect in which Heaviside's work was incomplete or incorrect. Campbell and Pupin extended Heaviside's work, and AT&T filed for patents covering not only their research, but also the technical method of constructing the coils previously invented by Heaviside. AT&T later offered Heaviside money in exchange for his rights; it is possible that the Bell engineers' respect for Heaviside influenced this offer. However, Heaviside refused the offer, declining to accept any money unless the company were to give him full recognition. Heaviside was chronically poor, making his refusal of the offer even more striking.
+But this setback had the effect of turning Heaviside's attention towards electromagnetic radiation, and in two papers of 1888 and 1889, Heaviside calculated the deformations of electric and magnetic fields surrounding a moving charge, as well as the effects of it entering a denser medium. This included a prediction of what is now known as Cherenkov radiation, and inspired his friend George FitzGerald to suggest what now is known as the Lorentz–FitzGerald contraction.
+In 1889, Heaviside first published a correct derivation of the magnetic force on a moving charged particle, which is now called the Lorentz Force.
+In the late 1880s and early 1890s, Heaviside worked on the concept of electromagnetic mass. Heaviside treated this as material mass, capable of producing the same effects. Wilhelm Wien later verified Heaviside's expression (for low velocities).
+In 1891 the British Royal Society recognized Heaviside's contributions to the mathematical description of electromagnetic phenomena by naming him a Fellow of the Royal Society, and the following year devoting more than fifty pages of the Philosophical Transactions of the Society to his vector methods and electromagnetic theory. In 1905 Heaviside was given an honorary doctorate by the University of Göttingen.
+
+
+=== Later years and views ===
+In 1896, FitzGerald and John Parry obtained a civil list pension of £120 per year for Heaviside, who was now living in Devon, and persuaded him to accept it, after he had rejected other charitable offers from the Royal Society.
+In 1902, Heaviside proposed the existence of what is now known as the Kennelly–Heaviside layer of the ionosphere. Heaviside's proposal included means by which radio signals are transmitted around the Earth's curvature. The existence of the ionosphere was confirmed in 1923. The predictions by Heaviside, combined with Planck's radiation theory, probably discouraged further attempts to detect radio waves from the Sun and other astronomical objects. For whatever reason, there seem to have been no attempts for 30 years, until Jansky's development of radio astronomy in 1932.
+In later years his behavior became quite eccentric. According to associate B. A. Behrend, he became a recluse who was so averse to meeting people that he delivered the manuscripts of his Electrician papers to a grocery store, where the editors picked them up. Though he had been an active cyclist in his youth, his health seriously declined in his sixth decade. During this time Heaviside would sign letters with the initials "W.O.R.M." after his name. Heaviside also reportedly started painting his fingernails pink and had granite blocks moved into his house for furniture. In 1922, he became the first recipient of the Faraday Medal, which was established that year.
+On Heaviside's religious views, he was a Unitarian, but not a religious one. He was even said to have made fun of people who put their faith on a supreme being.
+
+Heaviside died at Torquay in Devon, and is buried near the eastern corner of Paignton cemetery. He is buried with his father, Thomas Heaviside and his mother, Rachel Elizabeth Heaviside. The gravestone was cleaned thanks to an anonymous donor sometime in 2005. Most of his recognition was gained posthumously.
+
+
+=== Heaviside Memorial Project ===
+In July 2014, academics at Newcastle University, UK and the Newcastle Electromagnetics Interest Group founded the Heaviside Memorial Project in a bid to fully restore the monument through public subscription. The restored memorial was ceremonially unveiled on 30 August 2014 by Alan Heather, a distant relative of Heaviside. The unveiling was attended by the Mayor of Torbay, the MP for Torbay, an ex-curator of the Science Museum (representing the Institution of Engineering and Technology), the Chairman of the Torbay Civic Society, and delegates from Newcastle University.
+
+
+== Innovations and discoveries ==
+Heaviside did much to develop and advocate vector methods and the vector calculus. Maxwell's formulation of electromagnetism consisted of 20 equations in 20 variables. Heaviside employed the curl and divergence operators of the vector calculus to reformulate 12 of these 20 equations into four equations in four variables (B, E, J, and ρ), the form by which they have been known ever since (see Maxwell's equations). Less well known is that Heaviside's equations and Maxwell's are not exactly the same, and in fact it is easier to modify the latter to make them compatible with quantum physics.
+He invented the Heaviside step function and employed it to model the current in an electric circuit. He invented the operator method for solving linear differential equations, which resembles current Laplace transform methods (see inverse Laplace transform, also known as the "Bromwich integral"). The UK mathematician Thomas John I'Anson Bromwich later devised a rigorous mathematical justification for Heaviside's operator method.
+Heaviside advanced the idea that the Earth's uppermost atmosphere contained an ionized layer known as the ionosphere; in this regard, he predicted the existence of what later was dubbed the Kennelly–Heaviside layer. In 1945 Edward Victor Appleton received the Nobel Prize in Physics for proving that this layer really existed. Heaviside developed the transmission line theory (also known as the "telegrapher's equations"), which had the effect of increasing the transmission rate over transatlantic cables by a factor of ten. It originally took ten minutes to transmit each character, and this immediately improved to one character per minute. Closely related to this was his discovery that telephone transmission could be greatly improved by placing electrical inductance in series with the cable. Heaviside also independently discovered the Poynting vector.
+
+
+=== Electromagnetic terms ===
+Heaviside coined the following terms of art in electromagnetic theory:
+admittance (December 1887);
+conductance (September 1885);
+electret for the electric analogue of a permanent magnet, or, in other words, any substance that exhibits a quasi-permanent electric polarization (e.g. ferroelectric);
+impedance (July 1886);
+inductance (February 1886);
+permeability (September 1885);
+permittance (later susceptance; June 1887);
+reluctance (May 1888).
+
+
+== Publications ==
+1885, 1886, and 1887, "Electromagnetic induction and its propagation", The Electrician.
+1887. Electrical Papers.
+1888/89, "Electromagnetic waves, the propagation of potential, and the electromagnetic effects of a moving charge", The Electrician.
+1889, "On the Electromagnetic Effects due to the Motion of Electrification through a Dielectric", Phil.Mag.S.5 27: 324.
+1892, "On the Forces, Stresses, and Fluxes of Energy in the Electromagnetic Field", Philosophical Transaction of the Royal Society A 183:423–80.
+Heaviside, Oliver (1892). Electrical Papers. Volume 1. Macmillan Co, London and New York. 
+Heaviside, Oliver (1894). Electrical Papers. Volume 2. Macmillan Co, London and New York. 
+
+1893, "A gravitational and electromagnetic analogy," The Electrician.
+Heaviside, Oliver (1893). Electromagnetic Theory. Volume 1. The Electrician Printing and Publishing Co, London. 
+Heaviside, Oliver (1899). Electromagnetic Theory. Volume 2. The Electrician Printing and Publishing Co, London. 
+Heaviside, Oliver (1912). Electromagnetic Theory. Volume 3. The Electrician Printing and Publishing Co, London. 
+
+1951. Electromagnetic theory: The complete & unabridged edition. ASIN B0000CI0WA
+Heaviside, Oliver (1971). Electromagnetic theory: Including an account of Heaviside's unpublished notes for a fourth volume. Chelsea Publishing Company, Incorporated. ISBN 0-8284-0237-X. 
+Heaviside, Oliver (1970). Electrical Papers. Chelsea Publishing Company, Incorporated. ISBN 978-0-8284-0235-4. 
+Heaviside, Oliver (1 December 2001). Electrical Papers. ISBN 978-0-8218-2840-3. 
+
+
+== See also ==
+Physics: Microwave, 1850 in science
+Mathematics: Analytical Society, Differential operator, Quaternions, Vector calculus
+Other: Heaviside condition
+
+
+== References ==
+
+
+== Further reading ==
+Sorted by date.
+Lee, G. (1947). Oliver Heaviside. London. 
+The Heaviside Centenary Volume. The Institution of Electrical Engineers, London. 1950. 
+Josephs, H. J. (1963). Oliver Heaviside : a biography. London. 
+Moore, Douglas H.; Whittaker, Edmund Taylor (1928). Heaviside operational calculus: an elementary foundation. ISBN 0-444-00090-9. 
+Buchwald, Jed Z. (1985). From Maxwell to Microphysics: Aspects of Electromagnetic Theory in the Last Quarter of the Nineteenth Century. University of Chicago Press. ISBN 978-0-226-07882-3. 
+Searle, G. F. C. (1987). Oliver Heaviside, the man. ISBN 0-906340-05-5. 
+Nahin, Paul J. (1987). Oliver Heaviside, sage in solitude: the life, work, and times of an electrical genius of the Victorian age. IEEE. ISBN 978-0-87942-238-7. 
+Laithwaite, E. R., "Oliver Heaviside – establishment shaker". Electrical Review, 12 November 1982.
+Hunt, Bruce J. (1991). The Maxwellians (paperback 2005 ed.). Cornell University Press. ISBN 978-0-8014-8234-2. 
+Lynch, A. C. (1991). G. Hollister-Short, ed. "The Sources for a Biography of Oliver Heaviside". History of Technology, London & New York. Vol. 13. 
+Yavetz, I. (1995). From Obscurity to Enigma: The Work of Oliver Heaviside, 1872–1889. Birkhauser. ISBN 978-3-7643-5180-9. 
+James B. Calvert (2002) Heaviside, Laplace, and the Inversion Integral, from University of Denver.
+Mahon, Basil (11 May 2009). Oliver Heaviside: Maverick Mastermind of Electricity. Institution of Engineering and Technology. ISBN 978-0-86341-965-2. 
+
+
+== External links ==
+Works by or about Oliver Heaviside at Internet Archive
+The MacTutor History of Mathematics archive, "Oliver Heaviside". School of Mathematics and Statistics. University of St Andrews, Scotland
+Heather, Alan, Oliver Heaviside. Torbay Amateur Radio Society.
+Katz, Eugenii, "Oliver Heaviside" at the Wayback Machine (archived October 27, 2009). Hebrew University of Jerusalem.
+John H. Lienhard (1990). "Oliver Heaviside". The Engines of Our Ingenuity. Episode 426http://www.uh.edu/engines/epi426.htm . NPR. KUHF-FM Houston. 
+Ghigo, F., "Pre-History of Radio Astronomy, Oliver Heaviside (1850–1925)". National Radio Astronomy Observatory, Green Bank, West Virginia.
+Eric W. Weisstein, "Heaviside, Oliver (1850–1925)". Eric Weisstein’s World of Scientific Biography. Wolfram Media, Inc.
+Naughton, Russell, "Oliver W. Heaviside: 1850 – 1925". Adventures in CyberSound.
+Bexte, Peter, "Kabel im Denkraum" (German)
+Tr. "Cable in the thinking area"
+
+McGinty, Phil, "Oliver Heaviside". Devon Life, Torbay Library Services.
+Gustafson, Grant, "Heaviside's Methods". math.Utah.edu. (PDF)
+The Dibner Library Portrait Collection, "Oliver Heaviside".
+"Physical units". 1911 Encyclopædia
+Heaviside's Operator Calculus
+JACKSON, W (1950). "Life and work of Oliver Heaviside (May 18, 1850 – February 3, 1925).". Nature (24 June 1950) 165 (4208): 991–3. Bibcode:1950Natur.165..991J. doi:10.1038/165991a0. PMID 15439051. 
+ This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). Encyclopædia Britannica (11th ed.). Cambridge University Press.

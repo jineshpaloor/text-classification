@@ -1,0 +1,70 @@
+Power-system automation
+Power-system automation is the act of automatically controlling the power system via instrumentation and control devices. Substation automation refers to using data from Intelligent electronic devices (IED), control and automation capabilities within the substation, and control commands from remote users to control power-system devices.
+Since full substation automation relies on substation integration, the terms are often used interchangeably. Power-system automation includes processes associated with generation and delivery of power. Monitoring and control of power delivery systems in the substation and on the pole reduce the occurrence of outages and shorten the duration of outages that do occur. The IEDs, communications protocols, and communications methods, work together as a system to perform power-system automation. The term “power system” describes the collection of devices that make up the physical systems that generate, transmit, and distribute power. The term “instrumentation and control (I&C) system” refers to the collection of devices that monitor, control, and protect the power system.
+
+
+== Automation tasks ==
+Power-system automation is composed of several tasks.
+Data acquisition
+Data acquisition refers to acquiring, or collecting, data. This data is collected in the form of measured analog current or voltage values or the open or closed status of contact points. Acquired data can be used locally within the device collecting it, sent to another device in a substation, or sent from the substation to one or several databases for use by operators, engineers, planners, and administration.
+Supervision
+Computer processes and personnel supervise, or monitor, the conditions and status of the power system using this acquired data. Operators and engineers monitor the information remotely on computer displays and graphical wall displays or locally, at the device, on front-panel displays and laptop computers.
+Control
+Control refers to sending command messages to a device to operate the I&C and power-system devices. Traditional supervisory control and data acquisition (SCADA) systems rely on operators to supervise the system and initiate commands from an operator console on the master computer. Field personnel can also control devices using front-panel push buttons or a laptop computer.
+In addition, another task is power-system integration, which is the act of communicating data to, from, or among IEDs in the I&C system and remote users. Substation integration refers to combining data from the IED’s local to a substation so that there is a single point of contact in the substation for all of the I&C data.
+Power-system automation processes rely on data acquisition; power-system supervision and power-system control all working together in a coordinated automatic fashion. The commands are generated automatically and then transmitted in the same fashion as operator initiated commands.
+
+
+== Hardware structure of the power-system automation ==
+
+
+=== Data acquisition ===
+The instrument transformers with protective relays are used to sense the power-system voltage and current. They are physically connected to power-system apparatus and convert the actual power-system signals. The transducers convert the analog output of an instrument transformer from one magnitude to another or from one value type to another, such as from an ac current to dc voltage. Also the input data is taken from the auxiliary contacts of switch gears and power-system control equipment.
+
+
+=== Main processing instrumentation and control (I&C) device ===
+The I&C devices built using microprocessors are commonly referred to as intelligent electronic devices (IEDs). Microprocessors are single chip computers that allow the devices into which they are built to process data, accept commands, and communicate information like a computer. Automatic processes can be run in the IEDs. Some IEDs used in power-system automation are:
+Remote Terminal Unit (RTU)
+A remote terminal unit is an IED that can be installed in a remote location, and acts as a termination point for field contacts. A dedicated pair of copper conductors is used to sense every contact and transducer value. These conductors originate at the power-system device, are installed in trenches or overhead cable trays, and are then terminated on panels within the RTU. The RTU can transfer collected data to other devices and receive data and control commands from other devices. User programmable RTUs are referred to as “smart RTUs.”
+Meter
+A meter is an IED that is used to create accurate measurements of power-system current, voltage, and power values. Metering values such as demand and peak are saved within the meter to create historical information about the activity of the power system.
+Digital fault recorder
+A digital fault recorder (DFR) is an IED that records information about power-system disturbances. It is capable of storing data in a digital format when triggered by conditions detected on the power system. Harmonics, frequency, and voltage are examples of data captured by DFRs.
+Programmable logic controller (PLC)
+A Programmable Logic Controller can be programmed to perform logical control. As with the RTU, a dedicated pair of copper conductors for each contact and transducer value is terminated on panels within the PLC.It is like a work-horse which work upon the command given by their master.
+Protective relay
+A protective relay is an IED designed to sense power-system disturbances and automatically perform control actions on the I&C system and the power system to protect personnel and equipment. The relay has local termination so that the copper conductors for each contact do not have to be routed to a central termination panel associated with RTU
+
+
+=== Controlling (output) devices ===
+Load tap changer (LTC)
+Load tap changers are devices used to change the tap position on transformers. These devices work automatically or can be controlled via another local IED or from a remote operator or process.
+Recloser controller
+Recloser controllers remotely control the operation of automated reclosers and switches. These devices monitor and store power-system conditions and determine when to perform control actions. They also accept commands from a remote operator or process.
+
+
+=== Communications devices ===
+Communications processor
+A communications processor is a substation controller that incorporates the functions of many other I&C devices into one IED. It has many communications ports to support multiple simultaneous communications links. The communications processor performs data acquisition and control of the other substation IEDs and also concentrates the data it acquires for transmission to one or many masters inside and outside the substation.
+
+
+== Applications ==
+
+
+=== Overcurrent protection ===
+All lines and all electrical equipment must be protected against prolonged overcurrent. If the cause of the overcurrent is nearby then automatically that current is interrupted immediately. But if the cause of the overcurrent is outside the local area then a backup provision automatically disconnects all affected circuits after a suitable time delay.
+Note that disconnection can, unfortunately, have a cascade effect, leading to overcurrent in other circuits that then also must therefore disconnect automatically.
+Also note that generators that suddenly have lost their load because of such a protection operation will have to shut down automatically immediately, and it may take many hours to restore a proper balance between demand and supply in the system, partly because there must be proper synchronization before any two parts of the system can be reconnected.
+Reclosing operations of circuit breakers usually are attempted automatically, and often are successful during thunderstorms, for example.
+
+
+=== Supervisory control and data acquisition ===
+
+A supervisory control and data acquisition system (SCADA) transmits and receives logic or data from events of controls, metering, measuring, safety and monitoring of process devices such as Electrical equipment, Instrumentation devices, telecommunication on industrial applications. Power system elements ranging from pole-mounted switches to entire power plants can be controlled remotely over long distance communication links. Remote switching, telemetering of grids (showing voltage, current, power, direction, consumption in kWh, etc.), even automatic synchronization is used in some power systems.
+
+
+== See also ==
+Automatic generation control
+Smart grid
+Smart meter
+International Council on Large Electric Systems (CIGRE)

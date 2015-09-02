@@ -1,0 +1,56 @@
+Symmetrical components
+In electrical engineering, the method of symmetrical components is used to simplify analysis of unbalanced three-phase power systems under both normal and abnormal conditions. The basic idea is that an asymmetrical set of N phasors can be expressed as a linear combination of N symmetrical sets of phasors by means of a complex linear transformation. In the most common case of three-phase system, the resulting "symmetrical" components are referred to as direct (or positive), inverse (or negative) and zero (or homopolar). The analysis of power system is much simpler in the domain of symmetrical components, because the resulting equations are mutually linearly independent if the circuit itself is balanced.
+
+
+== Description ==
+
+In 1918 Charles Legeyt Fortescue presented a paper which demonstrated that any set of N unbalanced phasors (that is, any such polyphase signal) could be expressed as the sum of N symmetrical sets of balanced phasors, for values of N that are prime. Only a single frequency component is represented by the phasors.
+In a three-phase system, one set of phasors has the same phase sequence as the system under study (positive sequence; say ABC), the second set has the reverse phase sequence (negative sequence; ACB), and in the third set the phasors A, B and C are in phase with each other (zero sequence). Essentially, this method converts three unbalanced phases into three independent sources, which makes asymmetric fault analysis more tractable.
+By expanding a one-line diagram to show the positive sequence, negative sequence and zero sequence impedances of generators, transformers and other devices including overhead lines and cables, analysis of such unbalanced conditions as a single line to ground short-circuit fault is greatly simplified. The technique can also be extended to higher order phase systems.
+Physically, in a three phase winding a positive sequence set of currents produces a normal rotating field, a negative sequence set produces a field with the opposite rotation, and the zero sequence set produces a field that oscillates but does not rotate between phase windings. Since these effects can be detected physically with sequence filters, the mathematical tool became the basis for the design of protective relays, which used negative-sequence voltages and currents as a reliable indicator of fault conditions. Such relays may be used to trip circuit breakers or take other steps to protect electrical systems.
+The analytical technique was adopted and advanced by engineers at General Electric and Westinghouse and after World War II it was an accepted method for asymmetric fault analysis.
+As shown in the figure to the right, the three sets of symmetrical components (positive, negative, and zero sequence) add up to create the system of three unbalanced phases as pictured in the bottom of the diagram. The imbalance between phases arises because of the difference in magnitude and phase shift between the sets of vectors. Notice that the colors (red, blue, and yellow) of the separate sequence vectors correspond to three different phases (A, B, and C, for example). To arrive at the final plot, the sum of vectors of each phase is calculated. This resulting vector is the effective phasor representation of that particular phase. This process, repeated, produces the phasor for each of the three phases.
+
+
+== The three-phase case ==
+Symmetrical components are most commonly used for analysis of three-phase electrical power systems. If the phase quantities are expressed in phasor notation using complex numbers, a vector can be formed for the three phase quantities. For example, a vector for three phase voltages could be written as
+
+where the subscripts 0, 1, and 2 refer respectively to the zero, positive, and negative sequence components. The sequence components differ only by their phase angles, which are symmetrical and so are  radians or 120°. Define the operator  phasor vector forward by that angle.
+
+Note that α3 = 1 so that α−1 = α2.
+The zero sequence components are in phase; denote them as:
+
+and the other phase sequences as:
+
+Thus,
+
+where
+
+Conversely, the sequence components are generated from the analysis equations
+
+where
+
+
+== An intuitive feeling ==
+The phasors  form a closed triangle (e.g., outer voltages or line to line voltages). To find the synchronous and inverse components of the phases, take any side of the outer triangle and draw the two possible equilateral triangles sharing the selected side as base. These two equilateral triangles represent a synchronous and inverse system. If the phasors V were a perfectly synchronous system, the vertex of the outer triangle not on the base line would be at the same position as the corresponding vertex of the equilateral triangle representing the synchronous system. Any amount of inverse component would mean a deviation from this position. The deviation is exactly 3 times the inverse phase component. The synchronous component is in the same manner 3 times the deviation from the "inverse equilateral triangle". The directions of these components are correct for the relevant phase. It seems counter intuitive that this works for all three phases regardless of the side chosen but that is the beauty of this illustration.
+For an illustration see Napoleon's Theorem.
+
+
+== Poly-phase case ==
+It can be seen that the transformation matrix above is a discrete Fourier transform, and as such, symmetrical components can be calculated for any poly-phase system. However, by Pontryagin duality, only certain groups have a unique inverse, which is necessary for use in fault analysis.
+
+
+== See also ==
+Symmetry
+Dqo transformation
+Alpha–beta transformation
+
+
+== References ==
+Notes
+
+Bibliography
+J. Lewis Blackburn Symmetrical Components for Power Systems Engineering, Marcel Dekker, New York (1993). ISBN 0-8247-8767-6
+William D. Stevenson, Jr. Elements of Power System Analysis Third Edition, McGraw-Hill, New York (1975). ISBN 0-07-061285-4.
+History article from IEEE on early development of symmetrical components, retrieved May 12, 2005.
+Westinghouse Corporation, Applied Protective Relaying, 1976, Westinghouse Corporation, no ISBN, Library of Congress card no. 76-8060 - a standard reference on electromechanical protective relays

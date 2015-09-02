@@ -1,0 +1,14 @@
+Dual loop
+Dual-loop is a method of electrical circuit termination used in electronic security applications, particularly modern intruder alarms. It is called 'dual-loop' because two circuits (alarm and anti-tamper) are combined into one using resistors. It has become widespread in use over the last few years replacing the basic closed-circuit system, mainly because of changes in international standards and practices.
+
+
+== Method ==
+Dual-loop allows the burglar alarm control panel to read the values of end-of-line resistors for the purpose of telling a zone's status. For example: if an alarm system's software uses 2K ohms as its non-alarm value, an inactive detector will give a reading of 2K ohms as the circuit is passing through just one resistor. When the detector goes into an active state (i.e. a door contact being opened), the circuit path has been altered and it must now pass through a second resistor wired in series with the first. This gives a reading of 4K ohms and will trigger an intruder alarm. If a resistance reading is not recognised by the system either due to short-circuit or open-circuit, an anti-tamper alarm will trigger.
+
+
+== References ==
+^ Mandatory UK standard
+
+
+== External links ==
+Calculators for resistors in series and parallel.

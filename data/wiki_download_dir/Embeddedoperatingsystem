@@ -1,0 +1,16 @@
+Embedded operating system
+An embedded operating system is an operating system for embedded computer systems. These operating systems are designed to be compact, efficient at resource usage, and reliable, forsaking many functions that non-embedded computer operating systems provide, and which may not be used by the specialized applications they run. They are frequently also referred to as real-time operating systems, and the term RTOS is often used as a synonym for embedded operating system.
+Usually, the hardware running an embedded operating system is very limited in resources such as RAM and ROM therefore systems made for embedded hardware tend to be very specific, which means that due to the available resources (low if compared to non-embedded systems) these systems are created to cover specific tasks or scopes. In order to get advantage of the processing power of the main (or only) CPU, system creators often write them in assembly. This machine efficient language "squeezes" the potentiality in terms of speed and determinism, which means maximizing the responsiveness of the operating system. Though, it is not an absolute rule that all embedded operating systems are written in assembly language, as many of them are written in more portable languages, like C.
+An important difference between most embedded operating systems and desktop operating systems is that the application, including the operating system, is usually statically linked together into a single executable image. Unlike a desktop operating system, the embedded operating system does not load and execute applications. This means that the system is only able to run a single application.
+
+
+== See also ==
+
+OpenWrt
+Embedded Linux
+List of embedded operating systems
+Principle of least privilege (computer security)
+These operating systems are specially designed to deal with limited processing power, size and memory constrains.
+
+
+== References ==

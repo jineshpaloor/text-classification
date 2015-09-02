@@ -1,0 +1,10 @@
+Gain scheduling
+In control theory, gain scheduling is an approach to control of non-linear systems that uses a family of linear controllers, each of which provides satisfactory control for a different operating point of the system.
+One or more observable variables, called the scheduling variables, are used to determine what operating region the system is currently in and to enable the appropriate linear controller. For example in an aircraft flight control system, the altitude and Mach number might be the scheduling variables, with different linear controller parameters available (and automatically plugged into the controller) for various combinations of these two variables.
+A relatively large scope state of the art about gain scheduling has been published in (Survey of Gain-Scheduling Analysis & Design, D.J.Leith, WE.Leithead).
+
+
+== References ==
+
+
+== Further reading ==

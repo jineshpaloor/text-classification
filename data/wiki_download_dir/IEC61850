@@ -1,0 +1,111 @@
+IEC 61850
+IEC 61850 is a standard for the design of electrical substation automation. IEC 61850 is a part of the International Electrotechnical Commission's (IEC) Technical Committee 57 (TC57) reference architecture for electric power systems. The abstract data models defined in IEC 61850 can be mapped to a number of protocols. Current mappings in the standard are to MMS (Manufacturing Message Specification), GOOSE (Generic Object Oriented Substation Event), SMV (Sampled Measured Values), and soon to Web Services. These protocols can run over TCP/IP networks or substation LANs using high speed switched Ethernet to obtain the necessary response times below four milliseconds for protective relaying.
+
+
+== Standard Documents ==
+IEC 61850 consists of the following parts detailed in separate IEC 61850 standard documents
+IEC 61850-1: Introduction and overview
+IEC 61850-2: Glossary
+IEC 61850-3: General requirements
+IEC 61850-4: System and project management - Ed.2
+IEC 61850-5: Communication requirements for functions and device models
+IEC 61850-6: Configuration language for communication in electrical substations related to IEDs - Ed.2
+IEC 61850-7: Basic communication structure for substation and feeder equipment
+IEC 61850-7-1: Principles and models - Ed.2
+IEC 61850-7-2: Abstract communication service interface (ACSI) - Ed.2
+IEC 61850-7-3: Common Data Classes - Ed.2
+IEC 61850-7-4: Compatible logical node classes and data classes - Ed.2
+IEC 61850-7-10: Communication networks and systems in power utility automation - Requirements for web-based and structured access to the IEC 61850 information models [Approved new work]
+
+IEC 61850-8: Specific communication service mapping (SCSM)
+IEC 61850-8-1: Mappings to MMS (ISO/IEC9506-1 and ISO/IEC 9506-2) - Ed.2
+
+IEC 61850-9: Specific communication service mapping (SCSM)
+IEC 61850-9-1: Sampled values over serial unidirectional multidrop point to point link
+IEC 61850-9-2: Sampled values over ISO/IEC 802-3 - Ed.2
+
+IEC 61850-10: Conformance testing
+
+
+== History ==
+Multiple protocols exist for substation automation, which include many proprietary protocols with custom communication links. Interoperation of devices from different vendors would be an advantage to users of substation automation devices. An IEC project group of about 60 members from different countries worked in three IEC working groups from 1995. They responded to all the concerns and objectives and created IEC 61850. The objectives set for the standard were:
+A single protocol for complete substation considering modelling of different data required for substation.
+Definition of basic services required to transfer data so that the entire mapping to communication protocol can be made future proof.
+Promotion of high inter-operability between systems from different vendors.
+A common method/format for storing complete data.
+Define complete testing required for the equipment which conforms to the standard.
+
+
+== Features ==
+IEC 61850 features include:
+Data Modeling — Primary process objects as well as protection and control functionality in the substation is modelled into different standard logical nodes which can be grouped under different logical devices. There are logical nodes for data/functions related to the logical device (LLN0) and physical device (LPHD).
+Reporting Schemes — There are various reporting schemes (BRCB & URCB) for reporting data from server through a server-client relationship which can be triggered based on pre-defined trigger conditions.
+Fast Transfer of events — Generic Substation Events (GSE) are defined for fast transfer of event data for a peer-to-peer communication mode. This is again subdivided into GOOSE & GSSE.
+Setting Groups — The setting group control Blocks (SGCB) are defined to handle the setting groups so that user can switch to any active group according to the requirement.
+Sampled Data Transfer — Schemes are also defined to handle transfer of sampled values using Sampled Value Control blocks (SVCB)
+Commands — Various command types are also supported by IEC 61850 which include direct & select before operate (SBO) commands with normal and enhanced securities.
+Data Storage — Substation Configuration Language (SCL) is defined for complete storage of configured data of the substation in a specific format.
+
+
+== Related standards ==
+IEC 61850-7-410 — Hydroelectric Power Plants - Communication for monitoring and control. [Published]
+IEC 61850-7-420 — Communications systems for Distributed Energy Resources (DER) - Logical nodes [Published]
+IEC 61850-7-500 — Use of logical nodes to model functions of a substation Automation system. [Approved New Work]
+IEC 61850-7-510 — Use of logical nodes to model functions of a Hydro Power Plant. [Approved New Work]
+IEC 61850-90-1 — Use of IEC 61850 for the communication between substations [Published]
+IEC 61850-90-2 — Use of IEC 61850 for the communication between control centres and substations [Approved New Work]
+IEC 61850-90-3 — Using IEC 61850 for Condition Monitoring [Approved New Work]
+IEC 61850-90-4 — IEC 61850 - Network Engineering Guidelines [Approved New Work]
+IEC 61850-90-5 — Use of IEC 61850 to transmit synchrophasor information according to IEEE C37.118 [Approved New Work]
+IEC 61850-90-6 — Use of IEC 61850 for Distribution Feeder Automation System [Approved New Work]
+IEC 61850-90-7 — Object Models for Photovoltaic,Storage and other DER inverters [Approved New Work]
+IEC 61850-90-8 — Object Models for Electrical Transportation (E-Mobility [Approved New Work])
+IEC 61850-90-9 — Object Models for Batteries [Approved New Work]
+IEC 61850-90-10 — Object Models for Scheduling [Approved New Work]
+IEC 61850-80-1 — Guideline to exchanging information from a CDC-based data model using IEC 60870-5-101 or IEC 60870-5-104 [Published]
+IEC 61400-25 — Application of the IEC 61850 methodology for Wind turbines
+IEC 61400-25-1 — Wind turbines - Part 25-1: Communications for monitoring and control of wind power plants - Overall description of principles and models [Published]
+IEC 61400-25-2 — Wind turbines - Part 25-2: Communications for monitoring and control of wind power plants - Information models [Published]
+IEC 61400-25-3 — Wind turbines - Part 25-3: Communications for monitoring and control of wind power plants - Information exchange models [Published]
+IEC 61400-25-4 — Wind turbines - Part 25-4: Communications for monitoring and control of wind power plants - Mapping to communication profile
+Mapping to SOAP-based Web Service [Published]
+Mapping to MMS [Published]
+Mapping to OPC XML [Published]
+Mapping to IEC 60870-5-104 [Published]
+Mapping to DNP3 [Published]
+
+IEC 61400-25-5 — Wind turbines - Part 25-5: Communications for monitoring and control of wind power plants - Conformance testing [Published]
+IEC 61400-25-6 — Wind Turbines - Part 25-6: Communications for monitoring and control of wind power plants - Logical node classes and data classes for condition monitoring [Published]
+
+IEC 62271-3 — Communications for monitoring and control of high-voltage switchgear (published)
+
+
+== See also ==
+IEC TC 57
+Generic Substation Events (GSE)
+Substation Configuration Language (SCL)
+IEC 61968
+IEC 61970
+OLE for process control
+
+
+== References ==
+
+
+== External links ==
+STRI-Independent Interoperability Project for IEC 61850
+Detailed Introduction to IEC 61850
+IEC Website for IEC 61850 standards
+IEC 61850 Technical Issues Website
+UCA International Users Group
+OpenIEC61850, IEC 61850 MMS client and server Java library at openmuc.org, LGPL-licensed
+Advantages of IEC 61850 over other substation protocols
+IEC61850: A Protocol with Powerful Potential
+Perspectives and priorities on RuggedCom Smart Grid Research IEC 61850 Technologies
+IEC 61850 Technical Overview
+Projects with Smart Substation Solution
+Smart High Voltage Substation Based on IEC 61850 Process Bus and IEEE 1588 Time Synchronization
+Test and evaluation system for multi-protocol sampled value protection schemes by Dr. David M.E. Ingram
+libIEC61850 - open source (GPL) IEC 61850 MMS server and client C library
+Resumen IEC 61850 Español
+Free Training Videos for IEC 61850

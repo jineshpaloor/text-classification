@@ -1,0 +1,64 @@
+Load following power plant
+A load following power plant, also known as mid-merit, is a power plant that adjusts its power output as demand for electricity fluctuates throughout the day. Load following plants are typically in-between base load and peaking power plants in efficiency, speed of start up and shut down, construction cost, cost of electricity and capacity factor.
+
+
+== Base load and peaking power plants ==
+Base load power plants operate at maximum output. They shut down or reduce power only to perform maintenance or repair. These plants produce electricity at the lowest cost of any type of power plant, and so are most economically used at maximum capacity. Base load power plants include coal, fuel oil, almost all nuclear, geothermal, hydroelectric, biomass and combined cycle natural gas plants.
+Peaking power plants operate only during times of peak demand. In countries with widespread air conditioning, demand peaks around the middle of the afternoon, so a typical peaking power plant may start up a couple of hours before this point and shut down a couple of hours after. However, the duration of operation for peaking plants varies from a good portion of the waking day to only a couple dozen hours per year. Peaking power plants include hydroelectric and gas turbine power plants. Many gas turbine power plants can be fuelled with natural gas or diesel. Most plants burn natural gas, but a supply of diesel is sometimes kept on hand in case the gas supply is interrupted. Other gas turbines can only burn either diesel or natural gas.
+
+
+== Load following power plants ==
+Load following power plants run during the day and early evening. They either shut down or greatly curtail output during the night and early morning, when the demand for electricity is the lowest. The exact hours of operation depend on numerous factors. One of the most important factors for a particular plant is how efficiently it can convert fuel into electricity. The most efficient plants, which are almost invariably the least costly to run per kilowatt-hour produced, are brought online first. As demand increases, the next most efficient plants are brought on line and so on. The status of the electrical grid in that region, especially how much base load generating capacity it has, and the variation in demand are also very important. An additional factor for operational variability is that demand does not vary just between night and day. There are also significant variations in the time of year and day of the week. A region that has large variations in demand will require a large load following or peaking power plant capacity because base load power plants can only cover the capacity equal to that needed during times of lowest demand.
+Load following power plants can be hydroelectric power plants, diesel and gas engine power plants, combined cycle gas turbine power plants and steam turbine power plants that run on natural gas or heavy fuel oil, although heavy fuel oil plants make up a very small portion of the energy mix. A relatively efficient model of gas turbine that runs on natural gas can also make a decent load following plant.
+
+
+=== Gas turbine power plants ===
+Gas turbine power plants are the most flexible in terms of adjusting power level, but are also among the most expensive to operate. Therefore they are generally used as "peaking" units at times of maximum power demand. Gas turbines find only limited application as prime movers for power generation; one such use is power generation at remote military facilities, mine sites and rural or isolated communities. This is because gas turbine generators typically have significantly higher heat loss rates than steam turbine or diesel power plants; their higher fuel costs quickly outweigh their initial advantages in most applications. Applications to be evaluated include:
+Supplying relatively large power requirements in a facility where space is at a significant premium, such as hardened structures.
+Mobile, temporary or difficult access site such as isolated communities, isolated mine sites, or troop support or line-of-sight stations.
+Peak shaving, in conjunction with a more-efficient generating station.
+Emergency power, where a gas turbine’s lightweight and relatively vibration-free operation are of greater importance than fuel consumption over short periods of operation. However, the starting time of gas turbines may not be suitable for a given application.
+Combined cycle or cogeneration power plants where turbine exhaust waste heat can be economically used to generate additional power and thermal energy for process or space heating.
+
+
+=== Diesel and gas engine power plants ===
+Diesel and gas engine power plants can be used for base load to stand-by power production due to their high overall flexibility. Such power plants can be started rapidly to meet the grid demands. These engines can be operated efficiently on a wide variety of fuels, adding to their flexibility.
+Some applications are: base load power generation, wind-diesel, load following, cogeneration and trigeneration.
+
+
+=== Hydroelectric power plants ===
+Hydroelectric power plants can operate as base load, load following or peaking power plants. They have the ability to start within minutes, and in some cases seconds. How the plant operates depends heavily on its water supply. Many plants do not have enough water to operate anywhere near their full capacity on a continuous basis. Plants that have a large amount of water may operate as base load or as load following power plants. Those that have limited amounts of water may operate as peaking power plants.
+Also, the plants may change their operating style depending on the time of year. For example, the plant may operate as a peaking power plant during the dry season, and as a base load or load following power plant during the wet season. This generated with the water released to maintain the stream habitat. For example, a 100 MW hydroelectric plant may generate 5 MW when it is releasing only enough water for downstream habitat.
+Except when it is undergoing maintenance and the water is bypassed around the turbines, the plant will always be generating at least 5 MW. Some plants have a small turbine for these releases because it is inefficient to run a little bit of water through a large turbine. Run of the river hydroelectric plants do not have any water storage. They simply divert water from a stream, run it through the turbines and then return it to the stream. For this reason, they are always base load plants. However, they may be forced to shut down or reduce the amount of diverted water when the stream flow is insufficient to provide habitat for aquatic organisms while providing water for electricity generation.
+Hydro electric power plants can be effectively utilised for making extra revenue/profit in an electric grid with highly erratic /fluctuating grid frequency where there is no effective grid management. When grid frequency is above the rated value (ex; Indian grid frequency is exceeding the rated 50 Hz for most of the duration in a month/day), the extra energy/power available can be consumed by adding extra load (say agriculture pump sets load) to the grid and this energy drawl is available at nominal price or no price. However, there is no guarantee for the erratic grid frequency falling below the rated value with the added extra load which would call for high energy drawl price. To arrest the fall of frequency below the optimum / rated value, the available hydro power plants shall be kept normally in no load/nominal load operation in synchronized condition and the load would automatically ramp up/down strictly following the grid frequency (i.e. the hydro units would run at no load condition when frequency is above 50 Hz and generate power up to full load in case the grid frequency is below 50 Hz). Thus an utility can draw two or more times energy from the grid by loading the hydro units less than 50% of the duration and the effective use of available water is enhanced more than twice the conventional peak load operation. However, the hydro units have to be operated as per the permitted ramping rate as per the operating instructions of the turbine manufacturer or system design.
+
+
+=== Coal based power plants ===
+Large size coal fired thermal power plants can also be used as load following / variable load power stations. These power plants are generally incorporated with following features to achieve this flexibility techno economically.
+Sliding pressure operation: Sliding pressure operation of the steam generator allows the power plant to generate electricity without much deterioration in fuel efficiency at part load operation up to 75% of the nameplate capacity.
+Over loading capability: The power plants are generally designed to run at 5 to 7% above the name plate rating for 5% duration in a year
+Frequency follow governor controls: The load generation can be automatically varied to suit the grid frequency needs.
+Two shift daily operation for five days in a week: The needed warm and hot start up of these power stations are designed to take lesser time to achieve full load operation. Thus these power plants are not strictly base load power generation units.
+HP/LP steam bypass systems: This feature allows the steam turbo generator to reduce the load quickly and allows the steam generator to adjust to the load requirement with a lag.
+
+
+=== Nuclear power plants ===
+Older nuclear (and coal) power plants may take many hours, if not days, to achieve a steady state power output. In general it is not economical for large thermal installations such as nuclear power plants to practice load following.
+Modern nuclear plants with light water reactors are designed to have strong manoeuvring capabilities. Nuclear power plants in France and in Germany operate in load-following mode and so participate in the primary and secondary frequency control. Some units follow a variable load programme with one or two large power changes per day. Some designs allow for rapid changes of power level around rated power, a capability that is usable for frequency regulation.
+
+
+==== Boiling water reactors ====
+Boiling water reactors (BWR) and Advanced Boiling Water Reactors can use a combination of control rods and the speed of recirculation water flow to quickly reduce their power level down to under 60% of rated power, making them useful for overnight load-following. In markets such as Chicago, Illinois where half of the local utility's fleet is BWRs, it is common to load-follow (although less economic to do so).
+
+
+==== Pressurized water reactors ====
+Pressurized water reactors (PWR) use a chemical shim in the moderator/coolant (see nuclear reactor technology) to control power level, and so normally do not load follow. (In most PWRs, control rods are either fully withdrawn or fully inserted - variable control is difficult, partly due to the large bundle sizes.)
+In France, however, nuclear power plants use load following. French PWRs use "grey" control rods, in order to replace chemical shim, without introducing a large perturbation of the power distribution. These plants have the capability to make power changes between 30% and 100% of rated power, with a slope of 5% of rated power per minute. Their licensing permits them to respond very quickly to the grid requirements.
+
+
+== See also ==
+Relative cost of electricity generated by different sources
+Economics of new nuclear power plants (for more cost comparisons)
+
+
+== References ==

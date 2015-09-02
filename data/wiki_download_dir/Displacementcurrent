@@ -1,0 +1,157 @@
+Displacement current
+In electromagnetism, displacement current is a quantity appearing in Maxwell's equations that is defined in terms of the rate of change of electric displacement field. Displacement current has the units of electric current density, and it has an associated magnetic field just as actual currents do. However it is not an electric current of moving charges, but a time-varying electric field. In materials, there is also a contribution from the slight motion of charges bound in atoms, dielectric polarization.
+The idea was conceived by James Clerk Maxwell in his 1861 paper On Physical Lines of Force, Part III in connection with the displacement of electric particles in a dielectric medium. Maxwell added displacement current to the electric current term in Ampère's Circuital Law. In his 1865 paper A Dynamical Theory of the Electromagnetic Field Maxwell used this amended version of Ampère's Circuital Law to derive the electromagnetic wave equation. This derivation is now generally accepted as a historical landmark in physics by virtue of uniting electricity, magnetism and optics into one single unified theory. The displacement current term is now seen as a crucial addition that completed Maxwell's equations and is necessary to explain many phenomena, most particularly the existence of electromagnetic waves.
+
+
+== Explanation ==
+The electric displacement field is defined as:
+
+where:
+ε0 is the permittivity of free space
+E is the electric field intensity
+P is the polarization of the medium
+Differentiating this equation with respect to time defines the displacement current density, which therefore has two components in a dielectric:
+
+The first term on the right hand side is present in material media and in free space. It doesn't necessarily come from any actual movement of charge, but it does have an associated magnetic field, just as does a current due to charge motion. Some authors apply the name displacement current to the first term by itself.
+The second term on the right hand side comes from the change in polarization of the individual molecules of the dielectric material. Polarization results when the charges in molecules have moved from a position of exact cancellation under the influence of an applied electric field. The positive and negative charges in molecules separate, causing an increase in the state of polarization P. A changing state of polarization corresponds to charge movement and so is equivalent to a current.
+This polarization is the displacement current as it was originally conceived by Maxwell. Maxwell made no special treatment of the vacuum, treating it as a material medium. For Maxwell, the effect of P was simply to change the relative permittivity εr in the relation D = εrε0 E.
+The modern justification of displacement current is explained below.
+
+
+=== Isotropic dielectric case ===
+In the case of a very simple dielectric material the constitutive relation holds:
+
+where the permittivity ε = ε0 εr,
+εr is the relative permittivity of the dielectric and
+ε0 is the electric constant.
+In this equation the use of ε accounts for the polarization of the dielectric.
+The scalar value of displacement current may also be expressed in terms of electric flux:
+
+The forms in terms of ε are correct only for linear isotropic materials. More generally ε may be replaced by a tensor, may depend upon the electric field itself, and may exhibit frequency dependence (dispersion).
+For a linear isotropic dielectric, the polarization P is given by:
+
+where χe is known as the electric susceptibility of the dielectric. Note that:
+
+
+== Necessity ==
+Some implications of the displacement current follow, which agree with experimental observation, and with the requirements of logical consistency for the theory of electromagnetism.
+
+
+=== Generalizing Ampère's circuital law ===
+
+
+==== Current in capacitors ====
+An example illustrating the need for the displacement current arises in connection with capacitors with no medium between the plates. Consider the charging capacitor in the figure. The capacitor is in a circuit that transfers charge (on a wire external to the capacitor) from the left plate to the right plate, charging the capacitor and increasing the electric field between its plates. The same current enters the right plate (say I ) as leaves the left plate. Although current is flowing through the capacitor, no actual charge is transported through the vacuum between its plates. Nonetheless, a magnetic field exists between the plates as though a current were present there as well. The explanation is that a displacement current ID "flows" in the vacuum, and this current produces the magnetic field in the region between the plates according to Ampère's law:
+
+where
+
+ is the closed line integral around some closed curve C.
+ is the magnetic field measured in teslas.
+ is the vector dot product.
+ is an infinitesimal line element (or differential 1-form) along the curve C, that is, a vector with magnitude equal to the length element of C, and direction given by the tangent to the curve C).
+ is the magnetic constant, also called the permeability of free space.
+ is the net displacement current that passes through a small surface bounded by the curve C.
+
+The magnetic field between the plates is the same as that outside the plates, so the displacement current must be the same as the conduction current in the wires, that is,
+
+which extends the notion of current beyond a mere transport of charge.
+Next, this displacement current is related to the charging of the capacitor. Consider the current in the imaginary cylindrical surface shown surrounding the left plate. A current, say I, passes outward through the left surface L of the cylinder, but no conduction current (no transport of real charges) crosses the right surface R. Notice that the electric field between the plates E increases as the capacitor charges. That is, in a manner described by Gauss's law, assuming no dielectric between the plates:
+
+where S refers to the imaginary cylindrical surface. Assuming a parallel plate capacitor with uniform electric field, and neglecting fringing effects around the edges of the plates, differentiation provides:
+
+where the sign is negative because charge leaves this plate (the charge is decreasing), and where S is the area of the face R. The electric field at face L is zero because the field due to charge on the right-hand plate is terminated by the equal but opposite charge on the left-hand plate. Under the assumption of a uniform electric field distribution inside the capacitor, the displacement current density JD is found by dividing by the area of the surface:
+
+where I is the current leaving the cylindrical surface (which must equal −ID as the two currents sum to zero) and JD is the flow of charge per unit area into the cylindrical surface through the face R.
+
+Combining these results, the magnetic field is found using the integral form of Ampère's law with an arbitrary choice of contour provided the displacement current density term is added to the conduction current density (the Ampère-Maxwell equation):
+
+This equation says that the integral of the magnetic field B around a loop ∂S is equal to the integrated current J through any surface spanning the loop, plus the displacement current term ε0 ∂E / ∂t through the surface. Applying the Ampère-Maxwell equation to surface S1 we find:
+
+However, applying this law to surface S2, which is bounded by exactly the same curve , but lies between the plates, provides:
+
+Any surface that intersects the wire has current I passing through it so Ampère's law gives the correct magnetic field. Also, any surface bounded by the same loop but passing between the capacitor's plates has no charge transport flowing through it, but the ε0 ∂E / ∂t term provides a second source for the magnetic field besides charge conduction current. Because the current is increasing the charge on the capacitor's plates, the electric field between the plates is increasing, and the rate of change of electric field gives the correct value for the field B found above.
+
+
+==== Mathematical formulation ====
+In a more mathematical vein, the same results can be obtained from the underlying differential equations. Consider for simplicity a non-magnetic medium where the relative magnetic permeability is unity, and the complication of magnetization current (bound current) is absent, so that M=0 and J=Jf. The current leaving a volume must equal the rate of decrease of charge in a volume. In differential form this continuity equation becomes:
+
+where the left side is the divergence of the free current density and the right side is the rate of decrease of the free charge density. However, Ampère's law in its original form states:
+
+which implies that the divergence of the current term vanishes, contradicting the continuity equation. (Vanishing of the divergence is a result of the mathematical identity that states the divergence of a curl is always zero.) This conflict is removed by addition of the displacement current, as then:
+
+and
+
+which is in agreement with the continuity equation because of Gauss's law:
+
+
+=== Wave propagation ===
+The added displacement current also leads to wave propagation by taking the curl of the equation for magnetic field.
+
+Substituting this form for J into Ampère's law, and assuming there is no bound or free current density contributing to J :
+
+with the result:
+
+However,
+
+leading to the wave equation:
+
+where use is made of the vector identity that holds for any vector field V(r, t):
+
+and the fact that the divergence of the magnetic field is zero. An identical wave equation can be found for the electric field by taking the curl:
+
+If J, P and ρ are zero, the result is:
+
+The electric field can be expressed in the general form:
+
+where φ is the electric potential (which can be chosen to satisfy Poisson's equation) and A is a vector potential. The ∇φ component on the right hand side is the Gauss's law component, and this is the component that is relevant to the conservation of charge argument above. The second term on the right-hand side is the one relevant to the electromagnetic wave equation, because it is the term that contributes to the curl of E. Because of the vector identity that says the curl of a gradient is zero, ∇φ does not contribute to ∇×E.
+
+
+== History and interpretation ==
+Maxwell's displacement current was postulated in part III of his 1861 paper 'On Physical Lines of Force'. Few topics in modern physics have caused as much confusion and misunderstanding as that of displacement current. This is in part due to the fact that Maxwell used a sea of molecular vortices in his derivation, while modern textbooks operate on the basis that displacement current can exist in free space. Maxwell's derivation is unrelated to the modern day derivation for displacement current in the vacuum, which is based on consistency between Ampère's law for the magnetic field and the continuity equation for electric charge.
+Maxwell's purpose is stated by him at (Part I, p. 161):
+
+I propose now to examine magnetic phenomena from a mechanical point of view, and to determine what tensions in, or motions of, a medium are capable of producing the mechanical phenomena observed.
+
+He is careful to point out the treatment is one of analogy:
+
+The author of this method of representation does not attempt to explain the origin of the observed forces by the effects due to these strains in the elastic solid, but makes use of the mathematical analogies of the two problems to assist the imagination in the study of both.
+
+In part III, in relation to displacement current, he says
+
+I conceived the rotating matter to be the substance of certain cells, divided from each other by cell-walls composed of particles which are very small compared with the cells, and that it is by the motions of these particles, and their tangential action on the substance in the cells, that the rotation is communicated from one cell to another.
+
+Clearly Maxwell was driving at magnetization even though the same introduction clearly talks about dielectric polarization.
+Maxwell concluded, using Newton's equation for the speed of sound (Lines of Force, Part III, equation (132)), that “light consists of transverse undulations in the same medium that is the cause of electric and magnetic phenomena.”
+But although the above quotations point towards a magnetic explanation for displacement current, for example, based upon the divergence of the above curl equation, Maxwell's explanation ultimately stressed linear polarization of dielectrics:
+
+This displacement...is the commencement of a current...The amount of displacement depends on the nature of the body, and on the electromotive force so that if h is the displacement, R the electromotive force, and E a coefficient depending on the nature of the dielectric:
+
+and if r is the value of the electric current due to displacement
+
+These relations are independent of any theory about the mechanism of dielectrics; but when we find electromotive force producing electric displacement in a dielectric, and when we find the dielectric recovering from its state of electric displacement...we cannot help regarding the phenomena as those of an elastic body, yielding to a pressure and recovering its form when the pressure is removed.—Part III – The theory of molecular vortices applied to statical electricity , pp. 14–15
+
+With some change of symbols (and units): r → J, R → −E and the material constant E−2 → 4π εrε0 these equations take the familiar form:
+
+When it came to deriving the electromagnetic wave equation from displacement current in his 1865 paper A Dynamical Theory of the Electromagnetic Field, he got around the problem of the non-zero divergence associated with Gauss's law and dielectric displacement by eliminating the Gauss term and deriving the wave equation exclusively for the solenoidal magnetic field vector.
+Maxwell's emphasis on polarization diverted attention towards the electric capacitor circuit, and led to the common belief that Maxwell conceived of displacement current so as to maintain conservation of charge in an electric capacitor circuit. There are a variety of debatable notions about Maxwell's thinking, ranging from his supposed desire to perfect the symmetry of the field equations to the desire to achieve compatibility with the continuity equation.
+
+
+== See also ==
+Electromagnetic wave equation
+Ampère's law
+Capacitance
+
+
+== References ==
+
+
+== Maxwell's papers ==
+On Faraday's Lines of Force Maxwell's paper of 1855
+On Physical Lines of Force, Part I, Part II, Part II cont., Part III, Part IV - Philosophical Magazine
+On Physical Lines of Force Maxwell's paper of 1861
+A Dynamical Theory of the Electromagnetic Field Maxwell's paper of 1864
+
+
+== Further reading ==
+AM Bork Maxwell, Displacement Current, and Symmetry (1963)
+AM Bork Maxwell and the Electromagnetic Wave Equation (1967)

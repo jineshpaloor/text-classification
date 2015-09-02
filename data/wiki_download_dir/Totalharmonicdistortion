@@ -1,0 +1,72 @@
+Total harmonic distortion
+The total harmonic distortion, or THD, of a signal is a measurement of the harmonic distortion present and is defined as the ratio of the sum of the powers of all harmonic components to the power of the fundamental frequency. THD is used to characterize the linearity of audio systems and the power quality of electric power systems. Distortion factor is a closely related term, sometimes used as a synonym.
+In audio systems, lower distortion means the components in a loudspeaker, amplifier or microphone or other equipment produce a more accurate reproduction of an audio recording.
+In radiocommunications, lower THD means pure signal emission without causing interferences to other electronic devices. Moreover, the problem of distorted and not eco-friendly radio emissions appear to be also very important in the context of spectrum sharing and spectrum sensing.
+In power systems, lower THD means reduction in peak currents, heating, emissions, and core loss in motors.
+
+
+== Definitions and examples ==
+To understand a system with an input and an output, such as an audio amplifier, we start with an ideal system where the transfer function is linear and time-invariant. When a signal passes through a non-ideal, non-linear device, additional content is added at the harmonics of the original frequencies. THD is a measurement of the extent of that distortion.
+When the main performance criterion is the ″purity″ of the original sine wave (in other words, the contribution of the original frequency with respect to its harmonics), the measurement is most commonly defined as the ratio of the RMS amplitude of a set of higher harmonic frequencies to the RMS amplitude of the first harmonic, or fundamental, frequency
+
+where Vn is the RMS voltage of nth harmonic and n = 1 is the fundamental frequency.
+In practice, the THDF is commonly used in audio distortion specifications (percentage THD); however, THD is a non-standardized specification and the results between manufacturers are not easily comparable. Since individual harmonic amplitudes are measured, it is required that the manufacturer disclose the test signal frequency range, level and gain conditions, and number of measurements taken. It is possible to measure the full 20–20 kHz range using a sweep (though distortion for a fundamental above 10 kHz is inaudible). For all signal processing equipment, except microphone preamplifiers, the preferred gain setting is unity. For microphone preamplifiers, standard practice is to use maximum gain.
+Measurements for calculating the THD are made at the output of a device under specified conditions. The THD is usually expressed in percent or in dB relative to the fundamental as distortion attenuation.
+A variant definition uses the fundamental plus harmonics as the reference, though usage is discouraged:
+
+These can be distinguished as THDF (for "fundamental"), and THDR (for "root mean square"). THDR cannot exceed 100%. At low distortion levels, the difference between the two calculation methods is negligible. For instance, a signal with THDF of 10% has a very similar THDR of 9.95%. However, at higher distortion levels the discrepancy becomes large. For instance, a signal with THDF 266% has a THDR of 94%. A pure square wave with infinite harmonics has THDF of 48.3%, or THDR of 43.5%.
+Some use the term "distortion factor" as a synonym for THDR, while others use it as a synonym for THDF.
+
+
+== THD+N ==
+THD+N means total harmonic distortion plus noise. This measurement is much more common and more comparable between devices. It is usually measured by inputting a sine wave, notch filtering the output, and comparing the ratio between the output signal with and without the sine wave:
+
+Like the THD measurement, this is a ratio of RMS amplitudes, and can be measured as THDF (bandpassed or calculated fundamental as the denominator) or, more commonly, as THDR (total distorted signal as the denominator). Audio Precision measurements are THDR, for instance.
+A meaningful measurement must include the bandwidth of measurement. This measurement includes effects from ground loop power line hum, high-frequency interference, intermodulation distortion between these tones and the fundamental, and so on, in addition to harmonic distortion. For psychoacoustic measurements, a weighting curve is applied such as A-weighting or ITU-R BS.468, which is intended to accentuate what is most audible to the human ear, contributing to a more accurate measurement.
+For a given input frequency and amplitude, THD+N is equal to SINAD, provided that both measurements are made over the same bandwidth.
+
+
+== Measurement ==
+The distortion of a waveform relative to a pure sinewave can be measured either by using a THD analyzer to analyse the output wave into its constituent harmonics and noting the amplitude of each relative to the fundamental; or by cancelling out the fundamental with a notch filter and measuring the remaining signal, which will be total aggregate harmonic distortion plus noise.
+Given a sinewave generator of very low inherent distortion, it can be used as input to amplification equipment, whose distortion at different frequencies and signal levels can be measured by examining the output waveform.
+There is electronic equipment both to generate sinewaves and to measure distortion; but a general-purpose digital computer equipped with a sound card can carry out harmonic analysis with suitable software. Different software can be used to generate sinewaves, but the inherent distortion may be too high for measurement of very low-distortion amplifiers.
+
+
+=== Interpretation ===
+For many purposes different types of harmonics are not equivalent. For instance, crossover distortion at a given THD is much more audible than clipping distortion at the same THD, since the harmonics produced are at higher frequencies, which are not as easily masked by the fundamental. A single THD number is inadequate to specify audibility, and must be interpreted with care. Taking THD measurements at different output levels would expose whether the distortion is clipping (which increases with level) or crossover (which decreases with level).
+THD is an average of a number of harmonics equally weighted, even though research performed decades ago identifies that lower order harmonics are harder to hear at the same level, compared with higher order ones. In addition, even order harmonics are said to be generally harder to hear than odd order. A number of formulas that attempt to correlate THD with actual audibility have been published, however none have gained mainstream use.
+
+
+== Examples ==
+For many standard signals, the above criterion may be calculated analytically in a closed-form. For example, a pure square wave has THDF equal to
+
+The sawtooth signal possesses
+
+The pure symmetrical triangle wave has THDF of
+
+For the rectangular pulse train with the duty cycle μ (called sometimes the cyclic ratio), the THDF has the form
+
+and logically, reaches the minimum (≈0.483) when the signal becomes symmetrical μ=0.5, i.e. the pure square wave. Appropriate filtering of these signals may drastically reduce the resulting THD. For instance, the pure square wave filtered by the Butterworth low-pass filter of the second-order (with the cutoff frequency set equal to the fundamental frequency) has THDF of 5.3%, while the same signal filtered by the fourth-order filter has THDF of 0.6%. However, analytic computation of the THDF for complicated waveforms and filters often represents a difficult task, and the resulting expressions may be quite laborious to obtain. For example, the closed-form expression for the THDF of the sawtooth wave filtered by the first-order Butterworth low-pass filter is simply
+
+while that for the same signal filtered by the second-order Butterworth filter is given by a rather cumbersome formula
+
+Yet, the closed-form expression for the THDF of the pulse train filtered by the pth-order Butterworth low-pass filter is even more complicated and has the following form
+
+where μ is the duty cycle, 0<μ<1, and
+
+see for more details.
+
+
+== See also ==
+Audio system measurements
+Signal-to-noise ratio
+Timbre
+
+
+== References ==
+
+
+== External links ==
+Conversion: Distortion attenuation in dB to distortion factor THD in %
+Swept Harmonic Distortion Measurements
+Harmonic Distortion Measurements in the Presence of Noise

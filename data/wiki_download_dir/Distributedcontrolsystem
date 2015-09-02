@@ -1,0 +1,96 @@
+Distributed control system
+A distributed control system (DCS) is a control system for a process or plant, wherein control elements are distributed throughout the system. This is in contrast to non-distributed systems, which use a single controller at a central location. In a DCS, a hierarchy of controllers is connected by communications networks for command and monitoring.
+Example scenarios where a DCS might be used include:
+Chemical plants
+Petrochemical (oil) and refineries
+Boiler controls and power plant systems
+Nuclear power plants
+Environmental control systems
+Water management systems
+Metallurgical process plants
+Pharmaceutical manufacturing
+Sugar refining plants
+Dry cargo and bulk oil carrier ships
+
+
+== Elements ==
+
+A DCS typically uses custom designed processors as controllers and uses both proprietary interconnections and standard communications protocol for communication. Input and output modules form component parts of the DCS. The processor receives information from input modules and sends information to output modules. The input modules receive information from input instruments in the process (or field) and the output modules transmit instructions to the output instruments in the field. The inputs and outputs can be either analog signal which are continuously changing or discrete signals which are 2 state either on or off . Computer buses or electrical buses connect the processor and modules through multiplexer or demultiplexers. Buses also connect the distributed controllers with the central controller and finally to the Human–machine interface (HMI) or control consoles. See Process automation systems.
+The elements of a DCS may connect directly to physical equipment such as switches, pumps and valves and to Human Machine Interface (HMI) via SCADA. The differences between a DCS and SCADA is often subtle, especially with advances in technology allowing the functionality of each to overlap.
+
+
+== Applications ==
+Distributed control systems (DCSs) are dedicated systems used to control manufacturing processes that are continuous or batch-oriented, such as oil refining, petrochemicals, central station power generation, fertilizers, pharmaceuticals, food and beverage manufacturing, cement production, steelmaking, and papermaking. DCSs are connected to sensors and actuators and use setpoint control to control the flow of material through the plant. The most common example is a setpoint control loop consisting of a pressure sensor, controller, and control valve. Pressure or flow measurements are transmitted to the controller, usually through the aid of a signal conditioning input/output (I/O) device. When the measured variable reaches a certain point, the controller instructs a valve or actuation device to open or close until the fluidic flow process reaches the desired setpoint. Large oil refineries have many thousands of I/O points and employ very large DCSs. Processes are not limited to fluidic flow through pipes, however, and can also include things like paper machines and their associated quality controls (see quality control system QCS), variable speed drives and motor control centers, cement kilns, mining operations, ore processing facilities, and many others.
+A typical DCS consists of functionally and/or geographically distributed digital controllers capable of executing from 1 to 256 or more regulatory control loops in one control box. The input/output devices (I/O) can be integral with the controller or located remotely via a field network. Today’s controllers have extensive computational capabilities and, in addition to proportional, integral, and derivative (PID) control, can generally perform logic and sequential control. Modern DCSs also support neural networks and fuzzy application.
+DCSs are usually designed with redundant processors to enhance the reliability of the control system. Most systems come with displays and configuration software that enable the end-user to configure the control system without the need for performing low-level programming, allowing the user also to better focus on the application rather than the equipment. However, considerable system knowledge and skill is required to properly deploy the hardware, software, and applications. Many plants have dedicated personnel who focus on these tasks, augmented by vendor support that may include maintenance support contracts.
+DCSs may employ one or more workstations and can be configured at the workstation or by an off-line personal computer. Local communication is handled by a control network with transmission over twisted -pair, coaxial, or fiber-optic cable. A server and/or applications processor may be included in the system for extra computational, data collection, and reporting capability.
+
+
+== History ==
+Early minicomputers were used in the control of industrial processes since the beginning of the 1960s. The IBM 1800, for example, was an early computer that had input/output hardware to gather process signals in a plant for conversion from field contact levels (for digital points) and analog signals to the digital domain.
+The first industrial control computer system was built 1959 at the Texaco Port Arthur, Texas, refinery with an RW-300 of the Ramo-Wooldridge Company
+In 1975, both Honeywell and Japanese electrical engineering firm Yokogawa introduced their own independently produced DCS's with Yokogawa introducing and successfully installing before Honeywell, with the TDC 2000 and CENTUM systems, respectively. US-based Bristol also introduced their UCS 3000 universal controller in 1975. In 1978 Metso(known as Valmet in 1978) introduced their own DCS system called Damatic (latest generation named Metso DNA). In 1980, Bailey (now part of ABB) introduced the NETWORK 90 system, Fisher Controls (now part of Emerson Electric) introduced the PROVoX system, Fischer & Porter Company (now also part of ABB) introduced DCI-4000 (DCI stands for Distributed Control Instrumentation).
+The DCS largely came about due to the increased availability of microcomputers and the proliferation of microprocessors in the world of process control. Computers had already been applied to process automation for some time in the form of both direct digital control (DDC) and set point control. In the early 1970s Taylor Instrument Company, (now part of ABB) developed the 1010 system, Foxboro the FOX1 system, Fisher Controls the DC2 system and Bailey Controls the 1055 systems. All of these were DDC applications implemented within minicomputers (DEC PDP-11, Varian Data Machines, MODCOMP etc.) and connected to proprietary Input/Output hardware. Sophisticated (for the time) continuous as well as batch control was implemented in this way. A more conservative approach was set point control, where process computers supervised clusters of analog process controllers. A CRT-based workstation provided visibility into the process using text and crude character graphics. Availability of a fully functional graphical user interface was a way away.
+Central to the DCS model was the inclusion of control function blocks. Function blocks evolved from early, more primitive DDC concepts of "Table Driven" software. One of the first embodiments of object-oriented software, function blocks were self-contained "blocks" of code that emulated analog hardware control components and performed tasks that were essential to process control, such as execution of PID algorithms. Function blocks continue to endure as the predominant method of control for DCS suppliers, and are supported by key technologies such as Foundation Fieldbus today.
+Midac Systems, of Sydney, Australia, developed an objected-oriented distributed direct digital control system in 1982. The central system ran 11 microprocessors sharing tasks and common memory and connected to a serial communication network of distributed controllers each running two Z80s. The system was installed at the University of Melbourne.
+Digital communication between distributed controllers, workstations and other computing elements (peer to peer access) was one of the primary advantages of the DCS. Attention was duly focused on the networks, which provided the all-important lines of communication that, for process applications, had to incorporate specific functions such as determinism and redundancy. As a result, many suppliers embraced the IEEE 802.4 networking standard. This decision set the stage for the wave of migrations necessary when information technology moved into process automation and IEEE 802.3 rather than IEEE 802.4 prevailed as the control LAN.
+
+
+=== The network-centric era of the 1980s ===
+In the 1980s, users began to look at DCSs as more than just basic process control. A very early example of a Direct Digital Control DCS was completed by the Australian business Midac in 1981–82 using R-Tec Australian designed hardware. The system installed at the University of Melbourne used a serial communications network, connecting campus buildings back to a control room "front end". Each remote unit ran two Z80 microprocessors, while the front end ran eleven Z80s in a parallel processing configuration with paged common memory to share tasks and that could run up to 20,000 concurrent control objects.
+It was believed that if openness could be achieved and greater amounts of data could be shared throughout the enterprise that even greater things could be achieved. The first attempts to increase the openness of DCSs resulted in the adoption of the predominant operating system of the day: UNIX. UNIX and its companion networking technology TCP-IP were developed by the US Department of Defense for openness, which was precisely the issue the process industries were looking to resolve.
+As a result, suppliers also began to adopt Ethernet-based networks with their own proprietary protocol layers. The full TCP/IP standard was not implemented, but the use of Ethernet made it possible to implement the first instances of object management and global data access technology. The 1980s also witnessed the first PLCs integrated into the DCS infrastructure. Plant-wide historians also emerged to capitalize on the extended reach of automation systems. The first DCS supplier to adopt UNIX and Ethernet networking technologies was Foxboro, who introduced the I/A Series system in 1987.
+
+
+=== The application-centric era of the 1990s ===
+The drive toward openness in the 1980s gained momentum through the 1990s with the increased adoption of commercial off-the-shelf (COTS) components and IT standards. Probably the biggest transition undertaken during this time was the move from the UNIX operating system to the Windows environment. While the realm of the real time operating system (RTOS) for control applications remains dominated by real time commercial variants of UNIX or proprietary operating systems, everything above real-time control has made the transition to Windows.
+The introduction of Microsoft at the desktop and server layers resulted in the development of technologies such as OLE for process control (OPC), which is now a de facto industry connectivity standard. Internet technology also began to make its mark in automation and the DCS world, with most DCS HMI supporting Internet connectivity. The 1990s were also known for the "Fieldbus Wars", where rival organizations competed to define what would become the IEC fieldbus standard for digital communication with field instrumentation instead of 4–20 milliamp analog communications. The first fieldbus installations occurred in the 1990s. Towards the end of the decade, the technology began to develop significant momentum, with the market consolidated around Ethernet I/P, Foundation Fieldbus and Profibus PA for process automation applications. Some suppliers built new systems from the ground up to maximize functionality with fieldbus, such as Rockwell PlantPAX System, Honeywell with Experion & Plantscape SCADA systems, ABB with System 800xA, Emerson Process Management with the Emerson Process Management DeltaV control system, Siemens with the SPPA-T3000 or Simatic PCS 7, Forbes Marshall with the Microcon+ control system and Azbil Corporation with the Harmonas-DEO system. Fieldbus technics have been used to integrate machine, drives, quality and condition monitoring applications to one DCS with Metso DNA system.
+The impact of COTS, however, was most pronounced at the hardware layer. For years, the primary business of DCS suppliers had been the supply of large amounts of hardware, particularly I/O and controllers. The initial proliferation of DCSs required the installation of prodigious amounts of this hardware, most of it manufactured from the bottom up by DCS suppliers. Standard computer components from manufacturers such as Intel and Motorola, however, made it cost prohibitive for DCS suppliers to continue making their own components, workstations, and networking hardware.
+As the suppliers made the transition to COTS components, they also discovered that the hardware market was shrinking fast. COTS not only resulted in lower manufacturing costs for the supplier, but also steadily decreasing prices for the end users, who were also becoming increasingly vocal over what they perceived to be unduly high hardware costs. Some suppliers that were previously stronger in the PLC business, such as Rockwell Automation and Siemens, were able to leverage their expertise in manufacturing control hardware to enter the DCS marketplace with cost effective offerings, while the stability/scalability/reliability and functionality of these emerging systems are still improving. The traditional DCS suppliers introduced new generation DCS System based on the latest Communication and IEC Standards, which resulting in a trend of combining the traditional concepts/functionalities for PLC and DCS into a one for all solution—named "Process Automation System". The gaps among the various systems remain at the areas such as: the database integrity, pre-engineering functionality, system maturity, communication transparency and reliability. While it is expected the cost ratio is relatively the same (the more powerful the systems are, the more expensive they will be), the reality of the automation business is often operating strategically case by case. The current next evolution step is called Collaborative Process Automation Systems.
+To compound the issue, suppliers were also realizing that the hardware market was becoming saturated. The life cycle of hardware components such as I/O and wiring is also typically in the range of 15 to over 20 years, making for a challenging replacement market. Many of the older systems that were installed in the 1970s and 1980s are still in use today, and there is a considerable installed base of systems in the market that are approaching the end of their useful life. Developed industrial economies in North America, Europe, and Japan already had many thousands of DCSs installed, and with few if any new plants being built, the market for new hardware was shifting rapidly to smaller, albeit faster growing regions such as China, Latin America, and Eastern Europe.
+Because of the shrinking hardware business, suppliers began to make the challenging transition from a hardware-based business model to one based on software and value-added services. It is a transition that is still being made today. The applications portfolio offered by suppliers expanded considerably in the '90s to include areas such as production management, model-based control, real-time optimization, plant asset management (PAM), Real-time performance management (RPM) tools, alarm management, and many others. To obtain the true value from these applications, however, often requires a considerable service content, which the suppliers also provide.
+
+
+=== Modern systems (2010 onwards) ===
+The latest developments in DCS include the following new technologies:
+Wireless systems and protocols
+Remote transmission, logging and data historian
+Mobile interfaces and controls
+Embedded web-servers
+Increasingly, and ironically, DCS are becoming centralised at plant level, with the ability to log in to remote equipment. This enables the provision of a superior human-machine interface (HMI) especially from the point of view of remote access and portability.
+As wireless protocols are developed and refined, DCS increasingly includes wireless communication. DCS controllers are now often equipped with embedded servers and provide on-the-go web access.
+Many vendors provide the option of a mobile HMI, ready for both Android and iOS. With these interfaces, the threat of security breaches and possible damage to plant and process are now very real.
+
+
+== See also ==
+OSIsoft
+Building Automation
+Direct Digital Control
+SCADA
+Programmable logic controller
+Fieldbus
+First-out alarm
+Midac
+Safety instrumented system, (SIS)
+Industrial control systems
+Industrial safety systems
+Annunciator panel
+EPICS
+TANGO
+
+
+== References ==
+^ "Introduction to Industrial Control Networks". IEEE Communications Surveys and Tutorials. 2012. 
+^ Stout, T. M. and Williams, T. J. (1995). "Pioneering Work in the Field of Computer Process Control". IEEE Annals of the History of Computing 17 (1). 
+^ [1] CENTUM
+^ a b [2] Metso DNA
+^ [3] INFI 90
+^ [4] DCI-4000
+^ [5] Foundation Fieldbus
+^ [6] Foxboro I/A Series Distributed Control System
+^ ABB System 800xA
+^ [7] Emerson Process Management
+^ [8] SPPA-T3000
+^ [9] Simatic PCS 7
+^ [10] Forbes Marshall
+^ [11] Azbil Corporation

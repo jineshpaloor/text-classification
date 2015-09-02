@@ -1,0 +1,76 @@
+Electrical steel
+Electrical steel, also called lamination steel, silicon electrical steel, silicon steel, relay steel or transformer steel, is specialty steel tailored to produce certain magnetic properties, such as a small hysteresis area (small energy dissipation per cycle, or low core loss) and high permeability.
+The material is usually manufactured in the form of cold-rolled strips less than 2 mm thick. These strips are called laminations when stacked together to form a core. Once assembled, they form the laminated cores of transformers or the stator and rotor parts of electric motors. Lamination may be cut to their finished shape by a punch and die, or in smaller quantities may be cut by a laser, or by wire EDM.
+
+
+== Metallurgy ==
+Electrical steel is an iron alloy which may have from zero to 6.5% silicon (Si:5Fe). Commercial alloys usually have silicon content up to 3.2% (higher concentrations usually provoke brittleness during cold rolling). Manganese and aluminum can be added up to 0.5%.
+Silicon significantly increases the electrical resistivity of the steel, which decreases the induced eddy currents and narrows the hysteresis loop of the material, thus lowering the core loss. However, the grain structure hardens and embrittles the metal, which adversely affects the workability of the material, especially when rolling it. When alloying, the concentration levels of carbon, sulfur, oxygen and nitrogen must be kept low, as these elements indicate the presence of carbides, sulfides, oxides and nitrides. These compounds, even in particles as small as one micrometer in diameter, increase hysteresis losses while also decreasing magnetic permeability. The presence of carbon has a more detrimental effect than sulfur or oxygen. Carbon also causes magnetic aging when it slowly leaves the solid solution and precipitates as carbides, thus resulting in an increase in power loss over time. For these reasons, the carbon level is kept to 0.005% or lower. The carbon level can be reduced by annealing the steel in a decarburizing atmosphere, such as hydrogen.
+
+
+=== Iron-silicon relay steel ===
+
+
+=== Physical properties examples ===
+Melting point: ~1,500 °C (example for ~3.1% silicon content)
+Density: 7,650 kg/m3 (example for 3% silicon content)
+Resistivity: 47.2×10−8 (Ω·m) (example for 3% silicon content)
+
+
+== Grain orientation ==
+
+Electrical steel made without special processing to control crystal orientation, non-oriented steel, usually has a silicon level of 2 to 3.5% and has similar magnetic properties in all directions, i.e., it is isotropic. Cold-rolled non-grain-oriented steel is often abbreviated to CRNGO.
+Grain-oriented electrical steel usually has a silicon level of 3% (Si:11Fe). It is processed in such a way that the optimal properties are developed in the rolling direction, due to a tight control (proposed by Norman P. Goss) of the crystal orientation relative to the sheet. The magnetic flux density is increased by 30% in the coil rolling direction, although its magnetic saturation is decreased by 5%. It is used for the cores of power and distribution transformers, cold-rolled grain-oriented steel is often abbreviated to CRGO.
+CRGO is usually supplied by the producing mills in coil form and has to be cut into "laminations", which are then used to form a transformer core, which is an integral part of any transformer. Grain-oriented steel is used in large power and distribution transformers and in certain audio output transformers.
+CRNGO is less expensive than CRGO. It is used when cost is more important than efficiency and for applications where the direction of magnetic flux is not constant, as in electric motors and generators with moving parts. It can be used when there is insufficient space to orient components to take advantage of the directional properties of grain-oriented electrical steel.
+
+
+=== Amorphous steel ===
+This material is a metallic glass prepared by pouring molten alloy steel onto a rotating cooled wheel, which cools the metal at a rate of about one megakelvin per second, so fast that crystals do not form. Amorphous steel is limited to foils of about 50 µm thickness. It has poorer mechanical properties and as of 2010 it costs about twice as much as conventional steel, making it cost-effective only for some distribution-type transformers. Transformers with amorphous steel cores can have core losses of one-third that of conventional electrical steels.
+
+
+== Lamination coatings ==
+Electrical steel is usually coated to increase electrical resistance between laminations, reducing eddy currents, to provide resistance to corrosion or rust, and to act as a lubricant during die cutting. There are various coatings, organic and inorganic, and the coating used depends on the application of the steel. The type of coating selected depends on the heat treatment of the laminations, whether the finished lamination will be immersed in oil, and the working temperature of the finished apparatus. Very early practice was to insulate each lamination with a layer of paper or a varnish coating, but this reduced the stacking factor of the core and limited the maximum temperature of the core.
+ASTM A976-03 classifies different types of coating for electrical steel.
+
+
+== Magnetic properties ==
+The magnetic properties of electrical steel are dependent on heat treatment, as increasing the average crystal size decreases the hysteresis loss. Hysteresis loss is determined by a standard test, and for common grades of electrical steel may range from about 2 to 10 watts per kilogram (1 to 5 watts per pound) at 60 Hz and 1.5 tesla magnetic field strength. Semi-processed electrical steels are delivered in a state that, after punching the final shape, a final heat treatment develops the desired 150-micrometer grain size. The fully processed steels are usually delivered with insulating coating, full heat treatment, and defined magnetic properties, for applications where the punching operation does not significantly degrade the material properties. Excessive bending, incorrect heat treatment, or even rough handling of core steel can adversely affect its magnetic properties and may also increase noise due to magnetostriction.
+Magnetic properties of electrical steels are tested using the internationally standardised Epstein frame method.
+
+
+== Practical concerns ==
+Core steel is much more costly than mild steel—in 1981 it was more than twice the cost per unit weight.
+The size of magnetic domains in the sheet can be reduced by scribing the surface of the sheet with a laser, or mechanically. This greatly reduces the hysteresis losses in the assembled core.
+
+
+== See also ==
+Ferrosilicon, starter material for silicon steel
+
+
+== References ==
+^ K.H.J. Buschown et al, ed., Encyclopedia of Materials:Science and Technology, Elsevier, 2001, ISBN 0-08-043152-6 pp.4807-4808
+^ Y. Sidor, F. Kovac: Contribution to modeling of decarburization process in electrical steels
+^ "ASTM A867". ASTM A867. ASTM. Retrieved 1 December 2011. 
+^ "Silicon Core Iron "A"". Retrieved 1 December 2011. 
+^ "Silicon Core Iron "A-FM"". Retrieved 1 December 2011. 
+^ a b http://cartech.ides.com/datasheet.aspx?i=103&e=190&c=techart
+^ "Note on electromigration of grain boundaries in silicon iron" - Journal of Materials Science 10 (1975) - Letters
+^ Single Ended vs. Push Pull: The Deep, Dark Secrets of Output Transformers
+^ John Whincup, News Item Globe and Mail March 3rd, Federal Pioneer BAT, March 1983
+^ Beatty, Standard Handbook for Electrical Engineers 11th ed., pg. 4-111
+^ a b c Les Jump, Transformer Steel and Cores, Federal Pioneer BAT, March 1981
+^ "ASTM A976 - 03(2008) Standard Classification of Insulating Coatings by Composition, Relative Insulating Ability and Application". ASTM A976 - 03(2008). ASTM. 
+^ "Classification of Insulating Coating for Electrical Steel" (PDF). Retrieved 27 March 2013. 
+^ IEC 60404-2
+^ Richard de Lhorbe Steel No Lasers Here, Federal Pioneer BAT, June/July 1981
+
+
+== External links ==
+Dynamic domain movement video Video-File from www.youtube.de
+Comparison of grain oriented and non oriented electrical/ silicon steel PDF-File(4500KB) from www.matesy.com
+Allegheny Ludlum
+Encyclopædia Britannica
+Transformer Scrap, Transformer Core, Cold Rolled Steel
+EMERF, the Electric Motor Education and Research Foundation
+Summary of Silicon Steels

@@ -1,0 +1,69 @@
+Phasor measurement unit
+A phasor measurement unit (PMU) or synchrophasor is a device which measures the electrical waves on an electricity grid, using a common time source for synchronization. Time synchronization allows synchronized real-time measurements of multiple remote measurement points on the grid. In power engineering, these are also commonly referred to as synchrophasors and are considered one of the most important measuring devices in the future of power systems. A PMU can be a dedicated device, or the PMU function can be incorporated into a protective relay or other device.
+
+
+== History ==
+In 1893, Charles Proteus Steinmetz presented a paper on simplified mathematical description of the waveforms of alternating current electricity. Steinmetz called his representation a phasor. With the invention of phasor measurement units (PMU) in 1988 by Dr. Arun G. Phadke and Dr. James S. Thorp at Virginia Tech, Steinmetz’s technique of phasor calculation evolved into the calculation of real time phasor measurements that are synchronized to an absolute time reference provided by the Global Positioning System. Early prototypes of the PMU were built at Virginia Tech, and Macrodyne built the first PMU (model 1690) in 1992.
+
+
+== Operation ==
+A PMU can measure 50/60 Hz AC waveforms (voltages and currents) typically at a rate of 48 samples per cycle (2880 samples per second for 60Hz systems). The analog AC waveforms are digitized by an Analog to Digital converter for each phase. A phase-lock oscillator along with a Global Positioning System (GPS) reference source provides the needed high-speed synchronized sampling with 1 microsecond accuracy. The resultant time tagged phasors can be transmitted to a local or remote receiver at rates up to 60 samples per second.
+
+
+== Technical overview ==
+A phasor is a complex number that represents both the magnitude and phase angle of the sine waves found in electricity. Phasor measurements that occur at the same time are called "synchrophasors", as are the PMU devices that allow their measurement. In typical applications phasor measurement units are sampled from widely dispersed locations in the power system network and synchronized from the common time source of a global positioning system (GPS) radio clock. Synchrophasor technology provides a tool for system operators and planners to measure the state of the electrical system and manage power quality.
+Synchrophasors measure voltages and currents at principal intersecting locations (critical substations) on a power grid and can output accurately time-stamped voltage and current phasors. Because these phasors are truly synchronized, synchronized comparison of two quantities is possible in real time. These comparisons can be used to assess system conditions-such as; frequency changes, MW, MVARs, kVolts, etc. The monitored points are preselected through various studies to make extremely accurate phase angle measurements to indicate shifts in system (grid) stability. The phasor data is collected either on-site or at centralized locations using Phasor Data Concentrator technologies. The data is then transmitted to a regional monitoring system which is maintained by the local Independent System Operator (ISO). These ISO's will monitor phasor data from individual PMU's or from as many as 150 PMU's - this monitoring provides an accurate means of establishing controls for power flow from multiple energy generation sources (nuclear, coal, wind, etc.).
+The technology has the potential to change the economics of power delivery by allowing increased power flow over existing lines. Synchrophasor data could be used to allow power flow up to a line's dynamic limit instead of to its worst-case limit. Synchrophasor technology will usher in a new process for establishing centralized and selective controls for the flow of electrical energy over the grid. These controls will affect both large scale (multiple-states) and individual transmission line sections at intersecting substations. Transmission line congestion (over-loading) and protection and controls will therefore be improved on a multiple region scale (US, Canada, Mexico) through interconnecting ISO's.
+
+
+== Phasor networks ==
+A phasor network consists of phasor measurement units (PMUs) dispersed throughout the electricity system, Phasor Data Concentrators (PDC) to collect the information and a Supervisory Control And Data Acquisition (SCADA) system at the central control facility. Such a network is used in Wide Area Measurement Systems (WAMS), the first of which was begun in 2000 by the Bonneville Power Administration. The complete network requires rapid data transfer within the frequency of sampling of the phasor data. GPS time stamping can provide a theoretical accuracy of synchronization better than 1 microsecond. “Clocks need to be accurate to ± 500 nanoseconds to provide the one microsecond time standard needed by each device performing synchrophasor measurement.”  For 60 Hz systems, PMUs must deliver between 10 and 30 synchronous reports per second depending on the application. The PDC correlates the data, and controls and monitors the PMUs (from a dozen up to 60). At the central control facility, the SCADA system presents system wide data on all generators and substations in the system every 2 to 10 seconds.
+PMUs often use phone lines to connect to PDCs, which then send data to the SCADA or Wide Area Measurement System (WAMS) server. Additionally, PMUs can use ubiquitous mobile (cellular) networks for data transfer (GPRS, UMTS), which allows potential savings in infrastructure and deployment costs, at the expense of a larger data reporting latency. However, the introduced data latency makes such systems more suitable for R&D measurement campaigns and near real-time monitoring, and limits their use in real-time protective systems.
+PMUs from multiple vendors can yield inaccurate readings. In one test, readings differed by 47 microseconds – or a difference of 1 degree of at 60 Hz- an unacceptable variance. China's solution to the problem was to build all its own PMUs adhering to its own specifications and standards so there would be no multi-vendor source of conflicts, standards, protocols, or performance characteristics.
+
+
+== Installation ==
+Installation of a typical 10 Phasor PMU is a simple process. A phasor will be either a 3 phase voltage or a 3 phase current. Each phasor will, therefore, require 3 separate electrical connections (one for each phase). Typically an electrical engineer designs the installation and interconnection of a PMU at a substation or at a generation plant. Substation personnel will bolt equipment rack to the floor of the substation following established seismic mounting requirements. Then the PMU along with a modem and other support equipment will be mounted on the equipment rack. They will also install the Global Positioning Satellite (GPS) antenna on the roof of the substation per manufacturer instructions. Substation personnel will also install "shunts" in all Current transformer (CT) secondary circuits that are to be measured. The PMU will also require communication circuit connection (Modem if using 4-wire connection or Ethernet for network connection).
+
+
+== Implementations ==
+The Bonneville Power Administration (BPA) is the first utility to implement comprehensive adoption of synchrophasors in its wide-area monitoring system. Today there are several implementations underway.
+The FNET project operated by Virginia Tech and the University of Tennessee utilizes a network of approximately 80 low-cost, high-precision Frequency Disturbance Recorders to collect syncrophasor data from the U.S. power grid. [1]
+The New York Independent System Operator has installed 48 PMUs throughout New York State, partly in response to a devastating 2003 blackout that originated in Ohio and affected regions in both the United States and Canada.
+In 2006, China's Wide Area Monitoring Systems (WAMS) for its 6 grids had 300 PMUs installed mainly at 500 kV and 330 kV substations and power plants. By 2012, China plans to have PMUs at all 500kV substations and all powerplants of 300MW and above. Since 2002, China has built its own PMUs to its own national standard. One type has higher sampling rates than typical and is used in power plants to measure rotor angle of the generator, reporting excitation voltage, excitation current, valve position, and output of the power system stabilizer (PSS). All PMUs are connected via private network, and samples are received within 40 ms on average.
+The North American Synchrophasor Initiative (NASPI), previously known as The Eastern Interconnect Phasor Project (EIPP), has over 120 connected phasor measurement units collecting data into a "Super Phasor Data Concentrator" system centered at Tennessee Valley Authority (TVA). This data concentration system is now an open source project known as the openPDC.
+The DOE has sponsored several related research projects, including GridStat [2] at Washington State University.
+
+
+== Applications ==
+Power system automation, as in smart grids
+Load shedding and other load control techniques such as demand response mechanisms to manage a power system. (i.e. Directing power where it is needed in real-time)
+Increase the reliability of the power grid by detecting faults early, allowing for isolation of operative system, and the prevention of power outages.
+Increase power quality by precise analysis and automated correction of sources of system degradation.
+Wide area measurement and control through state estimation, in very wide area super grids, regional transmission networks, and local distribution grids.
+Phasor measurement technology and synchronized time stamping can be used for Security improvement through synchronized encryptions like trusted sensing base. 
+
+
+== Standards ==
+The IEEE 1344 standard for synchrophasors was completed in 1995, and reaffirmed in 2001. In 2005, it was replaced by IEEE C37.118-2005, which was a complete revision and dealt with issues concerning use of PMUs in electric power systems. The specification describes standards for measurement, the method of quantifying the measurements, testing & certification requirements for verifying accuracy, and data transmission format and protocol for real-time data communication. This standard was not comprehensive- it did not attempt to address all factors that PMUs can detect in power system dynamic activity. A new version of the standard was released in December 2011, which split the IEEE C37.118-2005 standard into two parts: C37.118-1 dealing with the phasor estimation & C37.118-2 the communications protocol. It also introduced two classifications of PMU, M - measurement & P - protection. M class is close in performance requirements to that in the original 2005 standard, primarily for steady state measurement. P class has relaxed some performance requirements and is intended to capture dynamic system behaviour.
+Other standards used with PMU interfacing:
+OPC-DA / OPC-HDA - A Microsoft Windows based interface protocol that is currently being generalized to use XML and run on non Windows computers.
+IEC 61850 a standard for electrical substation automation
+BPA PDCStream - a variant of IEEE 1344 used by the Bonneville Power Administration (BPA) PDCs and user interface software.
+
+
+== See also ==
+Utility frequency
+Power system automation
+Electric power transmission
+Smart grid
+
+
+== References ==
+
+
+== External links ==
+[3] A simple and cheap Wide Area Frequency Measurement System.
+[4] Free and open source Phasor Data Concentrator (iPDC) and PMU Simulator for Linux.
+[5] New York Independent System Operator
+[6] A GPRS-oriented ad-hoc WAM system

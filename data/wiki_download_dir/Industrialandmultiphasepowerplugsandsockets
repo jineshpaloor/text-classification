@@ -1,0 +1,138 @@
+Industrial and multiphase power plugs and sockets
+Industrial and multiphase plugs and sockets provide a connection to the electrical mains rated at higher voltages and currents than household plugs and sockets. They are generally used in polyphase systems, with high currents, or when protection from environmental hazards is required. Industrial outlets may have weatherproof covers, waterproofing sleeves, or may be interlocked with a switch to prevent accidental disconnection of an energized plug. Some types of connectors are approved for hazardous areas such as coal mines or petrochemical plants, where flammable gas may be present.
+Almost all three-phase power plugs have an earth (ground) connection, but may not have a neutral because three-phase loads such as motors do not need the neutral. Such plugs have only four prongs (earth, and the three phases). An example of a socket with neutral is the L21-30 (30 A) and the L21-20 (20 A) both of which have five pins (earth, neutral, and X, Y, Z phases).
+While some forms of power plugs and sockets are set by international standards, countries may have their own different standards and regulations. For example, the colour-coding of wires may not be the same as for small mains plugs.
+
+
+== Europe ==
+
+
+=== Europe-wide IEC 60309 system ===
+
+In Europe, the most common range of heavy commercial and industrial plugs are made to IEC 60309 (formerly IEC 309) and various standards based on it (including BS 4343 and BS EN 60309-2). These are often referred to in the UK as CEE industrial, CEEform or simply CEE plugs, or as "Commando connectors" (after the MK Commando brand name for these connectors).
+Plugs are available in P+N+E (unbalanced single phase with neutral), 2P+E (balanced single phase), 3P+E (3 phase without neutral), and 3P+N+E (three phase with neutral). Current ratings available are 16 A, 32 A, 63 A, 125 A and 200 A.
+Voltage and other characteristics are represented by a colour code (in three-phase plugs the stated voltage is the phase-phase voltage, not the phase-neutral voltage). The different voltages have the earth pin of a larger diameter than the others, and located in different places depending on the voltage rating, making it impossible to mate, for instance, a blue plug with a yellow socket. Since the different current ratings have different overall sizes, it is also not possible to mate different pin configurations or current ratings. For example, a 16 A 3P+E 400 V plug will not mate with a 16 A 3P+N+E 400 V socket and a 16 A P+N+E 230 V plug will not mate with a 32 A P+N+E 230 V socket.
+Notes:
+All AC systems are either 50 or 60 Hz unless otherwise stated.
+All three phase plugs and socket are available in 3P+E or 3P+N+E (but see Note 7).
+1: Single phase.
+2: Three phase line voltage (phase-phase).
+3: Single phase voltage or three phase line voltage (phase-phase) including supplies from an isolating transformer.
+4: Three phase line voltage (phase-phase) at 60 Hz only.
+5: Greater than 50 volts three phase line voltage (phase-phase). Not available in single phase version.
+6: Greater than 50 volts single phase or three phase line voltage (phase-phase).
+7: Single and 3 phase (3P+E only) supplied from an isolating transformer (except for yellow plug supplies).
+8: Only available in 16 and 32 Amp sizes.
+9: Most frequently used for low voltage supplies that do not fall into any of the specified ranges.
+Yellow 2P+E, blue P+N+E, yellow 3P+E, red 3P+E, and red 3P+N+E are by far the most common arrangements. Blue P+N+E sockets (generally 16 A, although 32 A is becoming more common) are used as standard by British and Danish campsites and yacht marinas to provide 240 V domestic mains power to frame-tents, trailer-tents, caravans, and boats; they are also used elsewhere in Europe for the same purpose, though in some countries the local domestic plug is also widely used. Static caravans generally use the similar 32 A version because of the requirement to power electrical cooking and heating appliances. The blue P+N+E 16 A version carrying 240 V is also used in shopping malls and their peripherals to power 'temporary' stalls not incorporated within a lock-up shop, there is also use in domestic gardens within Britain to power garden equipment, barbecues, and temporary lighting. The yellow 2P+E 16 A version carrying 115 V is used extensively on the London Underground railway system to power temporary usage of heavy-duty fans; it is also frequently used by tradesmen within the UK, built into a portable transformer box that is powered from a standard 13 A 240 V mains supply, to run heavy-duty power-tools designed to operate at 115 V.
+A small number of marinas provide 230 V single-phase power through a red three-phase connector (breaking the relevant standards in the process). This goes some way to ensuring that only boats that have paid the required fee (and thus obtained an appropriately made-up adaptor cable) are able to use the electricity.
+
+
+=== Entertainment industry ===
+Throughout Europe, a common use of industrial power connectors is in the entertainment and broadcast industries.
+In this industry the above-mentioned IEC 60309 connectors are referred to as Ceeform connectors. 230 V single-phase (blue) and 400 V three-phase (red) connectors between 16 A and 125 A ratings are used.
+Where more current carrying capacity is required, such as between generator sets and distribution boards, VEAM Powerlocks or Camlocks may be used. These connectors are single pole so five are required to accommodate each phase and neutral and ground. Powerlocks have a rating of 400 A or 660 A at 1 kV. Camlocks E1016 Series are rated at 600 V 315 A.
+Powerlocks are identified with the European harmonized colour code, they are also annotated as follows:
+Brown, L1
+Black, L2
+Grey, L3
+Blue, N
+Green, Earth
+Camlocks are also available in these colours.
+Where it is necessary to run separate feeds through multicable, the Socapex 19-pin connector is often encountered on theatre and studio lighting rigs.
+
+
+=== UK: Lewden plugs ===
+Lewden plugs and sockets are metal bodied waterproof plugs and sockets made by Lewden. The pin arrangements of the smaller single phase varieties are the same as BS 1363 and BS 546 plugs and sockets. These plugs and sockets will mate with normal plugs and sockets of the same pin arrangement but they are only waterproof when a Lewden plug is used in a Lewden socket and the screw ring is properly tightened (sockets have a metal cover that screws on to waterproof them when not in use).
+
+
+=== UK: BS 196 ===
+In 1930, the BS 196 standard for industrial plugs and sockets was introduced. The plugs are available in 5 A, 15 A and 30 A variants, with various configurations of keyways and pins to cater for different voltages. BS 196 plugs have now been superseded by BS 4343 (CEE type) connectors in most modern applications.
+
+
+=== Sweden, Germany & Netherlands: Perilex plugs ===
+
+Perilex plugs and sockets are 5-pin 3-phase connectors. The system provides 400 V 3P+N+PE and exists in 16 A and 25 A versions. In Sweden, the 16 A is generally used for stoves and to some extent for other heating devices in kitchens. Nowadays Perilex is mostly obsolete.
+
+
+=== Sweden: Semko 17 plugs ===
+Semko 17 were 3/4-pin 3-phase connectors, with (4-pin) or without (3-pin) a neutral connector. Earth were provided via the shield. The connectors were available in different sizes, 16 A with rounded corners; 25 A and 63 A were rectangular. These connectors were used mainly in industrial and agricultural installations. Manufacturing and selling of Semko-17 connectors with metal shells was prohibited in 1989. A few years later manufacturing and selling of all Semko-17 connectors were prohibited. Existing connectors may be used but not by any employee (prohibited by "Arbetsmiljöverket"). The reason for the prohibition is that Semko-17 had several safety issues. The ground connection can become oxidized and when the shells are made of metal any ground fault goes right through the hands of a person connecting/disconnecting a male and a female cable connector (unless the person wears insulating gloves). Incorrect use of the ground connector as a neutral was not uncommon. Perhaps the worst issue is that in some connectors the ground screw could rust so severely that the ground wire comes loose and in the worst case make contact with a live (phase) wire nearby.
+
+
+=== Croatia, Serbia, BiH, Slovenia, Montenegro, Macedonia ===
+This type of three phase plug and sockets are mainly used in ex. Yugoslavian countries, they are 5-pin 3-phase connectors, rated at 16 A, 380 V.
+
+
+== North America ==
+
+
+=== Pin and sleeve ===
+
+Pin and Sleeve circular connectors are not compatible with the newer IEC 60309 type. Current ratings are 30, 60, 100, 200, and 400 A. All are rated for voltages up to 250 V DC or 600 V AC. Contact arrangements are from 2 to 4 pins. There are two styles depending on the treatment of the ground. Style 1 grounds only on the shell. Style 2 uses one of the contacts as well as the shell, internally connected together. They are not strongly typed for specific circuits and voltages as the IEC 309 are. One insert rotation option is available to prevent mating of similar connectors with different voltages.
+The contacts in the plug are simple cylinders (sleeves), while the pin contacts in the receptacle have the spring arrangement to hold contact pressure, the reverse of the IEC 60309 type connectors. All contacts are the same diameter. Originally metal construction was used, but now they are also made with plastic shells. Since only keying in the connector shell is used, and since the keys can be damaged in industrial use, it is possible to mis-match worn connectors.
+
+
+=== NEMA connectors ===
+
+NEMA devices are not exclusively industrial devices, and some types are found in nearly all buildings in the United States. Many of these standards are identical to their counterparts in Canada, although there are some exceptions. NEMA wiring devices are made in current ratings from 15–60 A, and voltage ratings from 125–600 V.
+There are two basic classifications of NEMA device: straight-blade and locking. The locking type is found mostly in industrial applications. Numbers prefixed by L are twistlock, others are straight blade.
+
+
+==== NEMA 10-20, 10-30 and 10-50 ====
+
+NEMA 10 devices are a curious throwback to an earlier time. They are classified as 125/250 V non-grounding, yet they are usually used in a manner that effectively grounds the appliance, albeit not in a manner consistent with most modern practice.
+As commonly used, 10-30 and 10-50 plugs have the frame of the appliance grounded through the neutral pin. This was a legal grounding method under the National Electrical Code for electric ranges and electric clothes dryers from the 1947 to the 1996 edition. Since North American dryers and ranges have certain parts (timers, lights, fans, etc.) that run on 120 V, this means that the wire used for grounding is also carrying current. Although this is contrary to modern grounding practice, such installations remain extremely common in the United States and are relatively safe, because the larger conductors used are less likely to be broken than the smaller conductors used in ordinary appliance cords.
+Persons moving their older appliances to newer NEMA 14-equipped buildings (or vice versa) should have the cords replaced by a qualified electrician, as the grounding details may be quite confusing to the uninitiated.
+NEMA 10-20 devices are very rare nowadays. There is also a similar obsolete design, lacking a NEMA configuration number, rated 125 V 15 A or 250 V 10 A which is nearly identical to the AS/NZS 3112 standard used in Australia/New Zealand. These are also extremely rare.
+
+
+==== NEMA 14 ====
+
+The NEMA 14 devices are 4-wire grounding devices available in ratings of 15–60 A. Of the straight-blade NEMA 14 devices, only the 14-30 and 14-50 are common. The voltage rating is a design maximum of 125/250 V. They are essentially the replacements for the connectors above with the addition of a separate grounding connection.
+All NEMA 14 devices offer two hots, a neutral and a ground, allowing for both 120 V and 240 V (or 120 V and 208 V if the supply system is three phase wye rather than split phase or three phase center tapped delta) appliances. They differ in rating and shape of the neutral pin. The 14-30 has a rating of 30 A and an L-shaped neutral pin. The 14-50 has a rating of 50 A and a straight neutral pin sized so that it will not fit in the slot of a 14-30.
+NEMA 14-30 devices are most commonly found serving electrically-heated clothes dryers, while 14-50 devices most commonly serve kitchen ranges. In the United States, these are generally found in buildings constructed after the 1996 National Electrical Code, although they are also found in considerably earlier mobile homes. In Canada, the use of NEMA 10 devices was discontinued much earlier (if it was ever permitted at all), so NEMA 14 devices are more common there.
+
+
+==== Twist-locking connectors ====
+
+Twist-locking connectors were first invented by Harvey Hubbell III in 1938 and Twist-Lock remains a registered trademark of Hubbell Incorporated to this day, although the term tends to be used generically to refer to NEMA twist-locking connectors manufactured by any company. Twist-locking connectors all use curved blades that have shapes that conform to portions of the circumference of a circle. Once pushed into the receptacle, the plug is twisted and its now-rotated prongs latch into the receptacle. To unlatch the plug, the rotation is reversed. The locking coupling makes for a very reliable connection in commercial and industrial settings.
+Like non-locking connectors, these come in a variety of standardized configurations and follow the same general naming scheme except that they all begin with an L for locking. The connector families are designed so that 120 V connectors, 208/240 V connectors, and various other, higher-voltage connectors can not be accidentally intermated.
+
+
+=== Stage pin connectors ===
+
+A stage pin connector (SPC), or grounded stage pin (GSP), is a connector used primarily in the theatre industry for stage lighting applications in the United States. Stage pin connectors are generally used for conducting dimmed power from a dimmer to stage lighting instruments, although occasionally they can power other equipment.
+The primary advantage of the stage pin connector over the NEMA 5-15 connector (commonly known as an Edison connector in the theatre industry) is its increased durability and resistance to damage due to its more robust construction and the ability to compensate for wear with a pin splitter. Having a distinct connector designated for dimmable power also helps prevent confusion of dimmed and non-dimmed circuits which could lead to equipment damage. Even the smallest stage pin connectors are rated for 20 A, which translates to 2.4 kW at 120 V, compared to the 15 A and 1.8 kW of the NEMA 5-15. In applications where cables are on the floor, the low profile of the connector allows for connections that are only slightly higher than the cables they connect.
+
+
+=== California 50 A Connector ===
+In North America for moderate current requirements the 50 A California style connector is commonly used. It features a twist-lock design with a metal sleeve full protecting the blades on the male connector and a center ground spike on the female connector to aid in centering. California connectors are commonly used at outdoor events, shows and conventions and at construction sites.
+
+For example, a three phase plug which requires a neutral connection cannot be inserted into a socket outlet which does not provide for such a connection. However, a plug which does not require a neutral connection can be inserted into a socket outlet which provides such a connection, although the neutral connection would not be utilised in that situation.
+For stage lighting use, a common plug is the 32A 5-pin connector with a neutral pin. Motor loads that don't need the neutral use a four-pin connector. Larger requirements may use powerlock or camlock connectors. In the IT industry, the IEC 60309 system is sometimes used.
+In standard AS/NZS 3112, single phase plugs of lower current rating may be inserted into single phase socket outlets of higher current rating but not vice versa.
+Compatibility is grouped like this, such that larger sockets in one group can take the same plug or any smaller plugs from that group only:
+Single phase flat pin plugs & sockets (250v rating) - 10A, 15A, 20A
+Single phase size 1 (round pin) plugs & sockets (250v rating) - 20A
+Single phase size 2 (round pin) plugs & sockets (250v rating) - 32A
+Multiphase size 1 unique (500v rating) - 16A (no neutral pin)
+Multiphase size 1 (500v rating) - 10A, 20A (all available with or without neutral)
+Multiphase size 2 (500v rating) - 32A, 40A, 50A (all available with or without neutral)
+
+There are also metal clad plugs and sockets that go up to 63 amp ratings, at a significantly higher cost.
+Within each size group, certain "lugs" on the outside of the plugs of higher current rating prevent a plug rated for a higher current being installed into a socket outlet rated for a lower current. However, a plug rated for a lower current can be installed into a socket outlet of the same size group rated for a higher current. For example, a 32A 4-pin plug without neutral can plug into a 50A 5-pin socket with neutral available. However a 10A 5-pin plug cannot fit a 32A 5-pin socket, as the plugs are different diameters.
+
+
+== See also ==
+Domestic AC power plugs and sockets
+Double insulated
+Electricity
+Electrical power
+Ground and neutral
+Protective multiple earthing
+
+
+== References ==
+
+
+== External links ==

@@ -1,0 +1,31 @@
+Booster (electric power)
+A booster was a motor-generator (MG) set used for voltage regulation in direct current (DC) electrical power circuits. The development of alternating current and solid-state devices has rendered it obsolete. Boosters were made in various configurations to suit different applications.
+
+
+== Line booster ==
+In the days of direct current mains, voltage drop along the line was a problem so line boosters were used to correct it. Suppose that the mains voltage was 110 V. Houses near the power station would receive 110 volts but those remote from the power station might receive only 100 V so a line booster would be inserted at an appropriate point to "boost" the voltage. It consisted of a motor, connected in parallel with the mains, driving a generator, in series with the mains. The motor ran at the depleted mains voltage of 100 V and the generator added another 10 V to restore the voltage to 110 V. This was an inefficient system and was made obsolete by the development of alternating current mains, which allowed for high-voltage distribution and voltage regulation by transformers.
+
+
+== Milking booster ==
+Again in the days of direct current mains, power stations often had large lead-acid batteries for load balancing. These supplemented the steam-powered generators during peak periods and were re-charged off-peak. Sometimes one cell in the battery would become "sick" (faulty, reduced capacity) and a "milking booster" would be used to give it an additional charge and restore it to health. The milking booster was so-called because it "milked" the healthy cells in the battery to give an extra charge to the faulty one. The motor side of the booster was connected across the whole battery but the generator side was connected only across the faulty cell. During discharge periods the booster supplemented the output of the faulty cell.
+
+
+== Reversible booster ==
+Before solid-state technology became available, reversible boosters were sometimes used for speed control in DC electric locomotives. To avoid confusion, it should be explained that it is the electrical output of the booster that is reversible, not the direction of rotation.
+The motor of the MG set was connected in parallel with the supply, usually at 600 volts, and was mechanically coupled, via a shaft with a heavy flywheel, to the generator. The generator was connected in series with the supply and the traction motors, and its output could be varied between +600 volts, through zero, to -600 volts by adjusting switches and resistors in the field circuit. This allowed the generator voltage to either oppose, or supplement, the line voltage. The net output voltage could therefore be varied smoothly between zero and 1,200 volts as follows:
+Generator producing maximum opposing voltage, net output zero volts
+Generator producing zero volts, net output 600 volts
+Generator producing maximum supplementary voltage, net output 1,200 volts
+To match the 1,200 volt output, the locomotive would have three 400 volt traction motors connected in series. Later locomotives had two 600 volt motors in series.
+When the locomotive was working at full power, half the energy came through the MG set and the other half came directly from the supply. This meant that the power rating of the MG set needed to be only half the rating of the traction motors. Thus there was a saving in weight and cost compared to the Ward Leonard system, in which the MG set had to be equal in power rating to the traction motors.
+If the power supply to the locomotive was interrupted (e.g. because of a gap in the third rail at a junction) the flywheel would power the MG set for a short period to bridge the gap. During this period, the motor of the MG set would temporarily run as a generator. It was this system that was used in the design of British Rail classes 70, 71 and 74 (Class 73 does not utilise booster equipment).
+
+
+== Metadyne ==
+Some types of London Underground stock (e.g. London Underground O Stock) were fitted with Metadynes. These were four-brush electrical machines which differed from the reversible boosters described above.
+
+
+== References ==
+^ Elliott, T. C., Electric Accumulator Manual, George Newnes Ltd, London, 1948, page 29
+^ Cooper, B. K., Electric Trains and Locomotives, Leonard Hill Ltd, London, 1954, pp 35–38
+^ Cooper, B. K., Electric Trains and Locomotives, Leonard Hill Ltd, London, 1954, page 38

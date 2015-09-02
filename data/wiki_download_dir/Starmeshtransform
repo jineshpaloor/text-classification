@@ -1,0 +1,25 @@
+Star-mesh transform
+The star-mesh transform (or star-polygon transform) is a mathematical circuit analysis technique to transform a resistive network into an equivalent network with one less node. The equivalence follows from the Schur complement identity applied to the Kirchhoff matrix of the network.
+
+The equivalent impedance betweens nodes A and B is given by:
+,
+where  is the impedance between node A and the central node being removed.
+The transform replaces N resistors with  resistors. For , the result is an increase in the number of resistors, so the transform has no general inverse without additional constraints.
+It is possible, though not necessarily efficient, to transform an arbitrarily complex two-terminal resistive network into a single equivalent resistor by repeatedly applying the star-mesh transform to eliminate each non-terminal node.
+
+
+== Special cases ==
+N = 1: For a single dangling resistor, the transform eliminates the resistor.
+N = 2: For two resistors, the "star" is simply the two resistors in series, and the transform yields a single equivalent resistor.
+N = 3: The special case of three resistors is better known as the Y-Δ transform. Since the result also has three resistors, this transform has an inverse Δ-Y transform.
+
+
+== See also ==
+Topology of electrical circuits
+Network Analysis
+
+
+== References ==
+van Lier, M.; Otten, R. (March 1973). "Planarization by transformation". IEEE Transactions on Circuit Theory 20 (2): 169–171. doi:10.1109/TCT.1973.1083633. 
+Bedrosian, S. (December 1961). "Converse of the Star-Mesh Transformation". IRE Transactions on Circuit Theory 8 (4): 491–493. doi:10.1109/TCT.1961.1086832. 
+E.B. Curtis, D. Ingerman, J.A. Morrow. Circular planar graphs and resistor networks. Linear Algebra and its Applications. Volume 283, Issues 1–3, 1 November 1998, pp. 115–150.

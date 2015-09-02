@@ -1,0 +1,48 @@
+Radio-frequency engineering
+Radio-frequency engineering is a subset of electrical engineering that deals with devices that are designed to operate in the radio frequency (RF) spectrum. These devices operate within the range of about 3 kHz up to 300 GHz.
+Radio-frequency engineering is incorporated into almost everything that transmits or receives a radio wave, which includes, but is not limited to, mobile phones, radios, Wi-Fi, and two-way radios.
+Radio-frequency engineering is a highly specialized field falling typically in one of two areas:
+providing or controlling coverage with some kind of antenna/transmission system
+generating or receiving signals to or from that transmission system to other communications electronics or controls.
+To produce quality results, an in-depth knowledge of mathematics, physics, general electronics theory as well as specialized training in areas such as wave propagation, impedance transformations, filters, microstrip circuit board design, etc. may be required. Because of the many ways RF is conducted both through typical conductors as well as through space, an initial design of an RF circuit usually bears very little resemblance to the final optimized physical circuit. Revisions to the design are often required to achieve intended results.
+
+
+== Radio electronics ==
+Radio electronics is concerned with electronic circuits which receive or transmit radio signals.
+Typically, such circuits must operate at radio frequency and power levels, which imposes special constraints on their design. These constraints increase in their importance with higher frequencies. At microwave frequencies, the reactance of signal traces becomes a crucial part of the physical layout of the circuit.
+List of radio electronics topics:
+RF oscillators: PLL, Voltage-controlled oscillator
+Transmitters, transmission lines, RF connectors
+Antennas, antenna theory, list of antenna terms
+Receivers, tuners
+Amplifiers
+Modulators, demodulators, detectors
+RF filters
+RF shielding, Ground plane
+PCB layout guidelines
+DSSS, noise power
+Digital radio
+
+
+== Duties ==
+Radio-frequency engineers are specialists in their respective field and can take on many different roles, such as design, installation, and maintenance. Radio-frequency engineers require many years of extensive experience in the area of study. This type of engineer has experience with transmission systems, device design, and placement of antennas for optimum performance. A radio-frequency engineer at a broadcast facility is responsible for maintenance of the stations high-power broadcast transmitters and associated systems. This includes transmitter site emergency power, remote control, main transmission line and antenna adjustments, microwave radio relay STL/TSL links, and more.
+In addition, a radio-frequency design engineer must be able to understand electronic hardware design, circuit board material, antenna radiation, and the effect of interfering frequencies that prevent optimum performance within the piece of equipment being developed.
+
+
+== Early radio-frequency engineers ==
+
+Many notable individuals have contributed to the advancement of Radio-frequency engineering theory and design, including the following:
+Heinrich Hertz, demonstrated the existence of radio waves and developed the unit of measure to describe frequency of a wave.
+Nikola Tesla, known for his high-voltage, high-frequency power experiments in New York and Colorado Springs. Tesla's primary interest was wireless power transmission through a medium (primarily the Earth) with demonstrations in 1893 in St. Louis, Missouri, at the Franklin Institute in Philadelphia, Pennsylvania, and at the National Electric Light Association but saw communication as a side aspect.
+Guglielmo Marconi, who developed the first successful commercial wireless telegraphy system based on air-born radio frequency waves (called Herzian waves at the time) and transmitted the first radio signal across the Atlantic Ocean.
+Phillip H. Smith, who developed a graphical method of calculating impedances, admittances, reflection coefficients and scattering parameters.
+
+
+== See also ==
+
+Broadcast engineering
+Overlap zone
+SPLAT! A software program for visualizing terrain and performing Longley-Rice path loss and coverage prediction using the Irregular Terrain Model.
+
+
+== References ==

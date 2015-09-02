@@ -1,0 +1,77 @@
+Variety (cybernetics)
+In cybernetics the term variety denotes the total number of distinct states of a system.
+
+
+== §Overview ==
+The term Variety was introduced by W. Ross Ashby to denote the count of the total number of states of a system. The condition for dynamic stability under perturbation (or input) was described by his Law of Requisite Variety. Ashby says:
+
+Thus, if the order of occurrence is ignored, the collection
+c, b, c, a, c, c, a, b, c, b, b, a
+which contains twelve elements, contains only three distinct elements- a, b, c. Such a set will be said to have a variety of three elements.
+
+He adds
+
+The observer and his powers of discrimination may have to be specified if the variety is to be well defined.
+
+Variety can be stated as an integer, as above, or as the logarithm to the base 2 of the number i.e. in bits.
+
+
+=== §The law of requisite variety ===
+If a system is to be stable the number of states of its control mechanism must be greater than or equal to the number of states in the system being controlled. Ashby states the Law as "variety can destroy variety". He sees this as aiding the study of problems in biology and a "wealth of possible applications" . He sees his approach as introductory to Shannon Information Theory (1948) which deals with the case of "incessant fluctuations" or noise. The Requisite Variety condition can be seen as a simple statement of a necessary dynamic equilibrium condition in information theory terms c.f. Newton's third law, Le Chatelier's principle.
+[ A system has good Control if and only if the dependent variables remain the same even when the independent variables or the State Function have changed. In a real system this implies that the State Function is a composition of two functions, such that the second is the inverse of ( the possible changes of ) the first:
+y = F(G(x)) where
+F = controller system's function of state
+G = controlled system's function of state
+x = inputs, OR, independent variables
+y = outputs, OR, dependent variables.]
+
+Later, in 1970, Conant working with Ashby produced the good regulator theorem  which required autonomous systems to acquire an internal model of their environment to persist and achieve stability (e.g. Nyquist stability criterion) or dynamic equilibrium.
+Stafford Beer defines variety as "the total number of possible states of a system, or of an element of a system", c.f. Ludwig Boltzmann's Wahrscheinlichkeit. Beer restates the Law of Requisite Variety as "Variety absorbs variety". Stated more simply the logarithmic measure of variety represents the minimum number of choices (by binary chop) needed to resolve uncertainty. Beer used this to allocate the management resources necessary to maintain process viability.
+
+
+== §Applications ==
+In general a description of the required inputs and outputs is established then encoded with the minimum variety necessary. The mapping of input bits to output bits can then produce an estimate the minimum hardware or software components necessary to produce the desired control behaviour; for example, in a piece of computer software or computer hardware.
+The cybernetician Frank George discussed the variety of teams competing in games like football or rugby to produce goals or tries. A winning chess player might be said to have more variety than his losing opponent. Here a simple ordering is implied. The attenuation and amplification of variety were major themes in Stafford Beer's work in management  (the profession of control, as he called it). The number of staff needed to answer telephones, control crowds or tend to patients are clear examples.
+The application of natural and analogue signals to variety analysis require an of estimate Ashby's "powers of discrimination" (see above quote). Given the butterfly effect of dynamical systems care must be taken before quantitative measures can be produced. Small quantities, which might be overlooked, can have big effects. In his Designing Freedom Stafford Beer discusses the patient in a hospital with a temperature denoting fever. Action must be taken immediately to isolate the patient. Here no amount of variety recording the patients' average temperature would detect this small signal which might have a big effect. Monitoring is required on individuals thus amplifying variety (see Algedonic alerts in the Viable System Model or VSM). Beer's work in management cybernetics and VSM is largely based on variety engineering.
+Further applications involving Ashby's view of state counting include the analysis of digital bandwidth requirements, redundancy and software bloat, the bit representation of data types and indexes, analogue to digital conversion, the bounds on finite state machines and data compression. See also, e.g., Excited state, State (computer science), State pattern, State (controls) and Cellular automaton. Requisite Variety can be seen in Chaitin's Algorithmic information theory where a longer, higher variety program or finite state machine produces incompressible output with more variety or information content.
+Recently James Lovelock suggested burning and burying carbonized agricultural waste to sequester carbon. A variety calculation requires estimates of global annual agricultural waste production, burial and pyrolysis efficiency to estimate the mass of carbon thus sequestered from the atmosphere.
+
+
+== §See also ==
+Cardinality
+Complexity
+Degrees of freedom
+Power set
+Practopoiesis
+Waterbed theory
+
+
+== §References ==
+^ Ashby (1956) p 124
+^ Ashby (1956) p125
+^ Ashby (1956) p126
+^ Ashby (1956) p207
+^ Conant 1981
+^ a b Beer (1981)
+^ Beer (1979) p286
+^ Beer (1974)
+^ New Scientist 24 January 2009
+
+
+== §Further reading ==
+Ashby, W.R. 1956, An Introduction to Cybernetics, Chapman & Hall, 1956, ISBN 0-416-68300-2 (also available in electronic form as a PDF from Principia Cybernetica)
+Ashby, W.R. 1958, Requisite Variety and its implications for the control of complex systems, Cybernetica (Namur) Vo1 1, No 2, 1958.
+Beer, S. 1974, Designing Freedom, CBC Learning Systems, Toronto, 1974; and John Wiley, London and New York, 1975. Translated into Spanish and Japanese.
+Beer, S. 1975, Platform for Change, John Wiley, London and New York. Reprinted with corrections 1978.
+Beer, S. 1979, The Heart of Enterprise, John Wiley, London and New York. Reprinted with corrections 1988.
+Beer, S. 1981, Brain of the Firm; Second Edition (much extended), John Wiley, London and New York. Reprinted 1986, 1988. Translated into Russian.
+Beer, S. 1985, Diagnosing the System for Organisations; John Wiley, London and New York. Translated into Italian and Japanese. Reprinted 1988, 1990, 1991.
+Conant, R. 1981 Mechanisms of Intelligence: Ross Ashby's papers and writings Intersystems Publications ISBN 1-127-19770-3
+
+
+== §External links ==
+The Law of Requisite Variety in the Principia Cybernetica Web, 2001.
+Systems concepts and 9/11 Allenna Leonard on Requisite Variety
+All references to The Law of Requisite Variety in Ross Ashby's journal 1953-1961.
+Management Cybernetics: The Law of Requisite Variety Livas short introductory videos on YouTube
+Practopoiesis: How biological systems get their variety

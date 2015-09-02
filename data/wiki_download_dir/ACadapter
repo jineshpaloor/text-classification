@@ -1,0 +1,109 @@
+AC adapter
+An AC adapter, AC/DC adapter, or AC/DC converter is a type of external power supply, often enclosed in a case similar to an AC plug. Other common names include plug pack, plug-in adapter, adapter block, domestic mains adapter, line power adapter, wall wart, power brick, and power adapter. Adapters for battery-powered equipment may be described as chargers or rechargers (see also battery charger). AC adapters are used with electrical devices that require power but do not contain internal components to derive the required voltage and power from mains power. The internal circuitry of an external power supply is very similar to the design that would be used for a built-in or internal supply.
+External power supplies are used both with equipment with no other source of power and with battery-powered equipment, where the supply, when plugged in, can sometimes charge the battery in addition to powering the equipment.
+Use of an external power supply allows portability of equipment powered either by mains or battery without the added bulk of internal power components, and makes it unnecessary to produce equipment for use only with a specified power source; the same device can be powered from 120VAC or 230VAC mains, vehicle or aircraft battery by using a different adapter.
+
+
+== Modes of operation ==
+
+Originally, most AC/DC adapters were linear power supplies, containing a transformer to convert the mains electricity voltage to a lower voltage, a rectifier to convert it to pulsating DC, and a filter to smooth the pulsating waveform to DC, with residual ripple variations small enough to leave the powered device unaffected. Size and weight of the device was largely determined by the transformer, which in turn was determined by the power output and mains frequency. Ratings over a few watts made the devices too large and heavy to be physically supported by a wall outlet. The output voltage of these adapters varied with load; for equipment requiring a more stable voltage, linear voltage regulator circuitry was added. Losses in the transformer and the linear regulator were considerable; efficiency was relatively low, and significant power dissipated as heat even when not driving a load.
+In the early twenty-first century, switched-mode power supplies (SMPSs) became almost ubiquitous for this purpose. Mains voltage is rectified to a high direct voltage driving a switching circuit, which contains a transformer operating at a high frequency and outputs direct current at the desired voltage. The high-frequency ripple is more easily filtered out than mains-frequency. The high frequency allows the transformer to be small, which reduces its losses; and the switching regulator can be much more efficient than a linear regulator. The result is a much more efficient, smaller, and lighter device. Safety is ensured, as in the older linear circuit, because there is still a transformer which electrically isolates the output from the mains.
+A linear circuit must be designed for a specific, narrow range of input voltages (e.g., 220–240VAC) and must use a transformer appropriate for the frequency (usually 50 or 60 Hz), but a switched-mode supply can work efficiently over a very wide range of voltages and frequencies; a single 100–240VAC unit will handle almost any mains supply in the world.
+However, unless very carefully designed and using suitable components, switching adapters are more likely to fail than the older type, due in part to complex circuitry and the use of semiconductors. Unless designed well, these adapters may be easily damaged by overloads, even transient ones, which can come from lightning, brief mains overvoltage (sometimes caused by an incandescent light on the same power circuit failing), component degradation, etc. A very common mode of failure is due to the use of electrolytic capacitors whose equivalent series resistance (ESR) increases with age; switching regulators are very sensitive to high ESR (the older linear circuit also used electrolytic capacitors, but the effect of degradation is much less dramatic). Well-designed circuits pay attention to the ESR, ripple current rating, pulse operation, and temperature rating of capacitors.
+
+
+== Advantages ==
+External AC adapters are widely used to power small or portable electronic devices. The advantages include:
+Safety — External power adapters can free product designers from worrying about some safety issues. Much of this style of equipment uses only voltages low enough not to be a safety hazard internally, although the power supply must out of necessity use dangerous mains voltage. If an external power supply is used (usually via a power connector, often of coaxial type), the equipment need not be designed with concern for hazardous voltages inside the enclosure. This is particularly relevant for equipment with lightweight cases which may break and expose internal electrical parts.
+Heat reduction — Heat reduces reliability and longevity of electronic components, and can cause sensitive circuits to become inaccurate or malfunction. A separate power supply removes a source of heat from the apparatus.
+Electrical noise reduction — Because radiated electrical noise falls off with the square of the distance, it is to the manufacturer's advantage to convert potentially noisy AC line power or automotive power to "clean", filtered DC in an external adapter, at a safe distance from noise-sensitive circuitry.
+Weight and size reduction — Removing power components and the mains connection plug from equipment powered by rechargeable batteries reduces the weight and size which must be carried.
+Ease of replacement — Power supplies are more prone to failure than other circuitry due to their exposure to power spikes and their internal generation of waste heat. External power supplies can be replaced quickly by a user without the need to have the powered device repaired.
+
+Configuration versatility — Externally powered electronic products can be used with different power sources as needed (e.g. 120VAC, 240VAC, 12VDC, or external battery pack), for convenient use in the field, or when traveling.
+Simplified product inventory, distribution, and certification — An electronic product that is sold and used internationally must be powered from a wide range of power sources, and must meet product safety regulations in many jurisdictions, usually requiring expensive certification by national or regional safety agencies such as Underwriters Laboratories or Technischer Überwachungsverein. A single version of a device may be used in many markets, with the different power requirements met by different external power supplies, so that only one version of the device need be manufactured, stocked, and tested. If the design of the device is modified over time (a frequent occurrence), the power supply design itself need not be retested (and vice versa).
+
+
+== Problems ==
+
+While useful for many purposes, some external AC adapters have attracted criticism. Problems with this type of power supply include, but are not limited to:
+Size — Power supplies which plug into the mains directly without using a plug on a cable (true wall warts) are bulkier than bare plugs; sometimes they are too large to plug into power sockets with restricted space, or into adjacent sockets on power strips (due to the fact that they can block other plugs also).
+Weight — Some AC adapters can be heavy, exerting excess weight on the power socket (this depends on the socket design of the country in question). Some external power supplies are "power bricks" (also known as "line lumps") having a short AC cord so they can lie on the floor, thus relieving strain, at the expense of clutter. Other wall-hanging types are made long and thin, minimizing the leverage of their weight vector that pulls the plug out, but exacerbating the size problem. The weight for equipment that must be carried (e.g. for traveling) is not a disadvantage of external supplies, as the alternative is an equally heavy internal supply; but in many cases a single universal supply could replace several proprietary ones.
+Inefficiency — Some idling power is wasted as the power supply is left running when the equipment power switch is off or the equipment is disconnected from the power supply. In recent years it has become common for equipment with internal supplies to share this problem due to the use of a "soft" power switch.
+Confusion — External power supplies are often generic and not clearly marked to identify the equipment they are designed to power. It is very easy to separate power supply and equipment, and can be difficult to re-match the many devices with their power supplies.
+Compatibility problems — There is no standardization of connectors; the same connector is often used for different voltages, and for both DC supplies and AC-to-AC transformers. Incompatible voltage or polarity may be present on physically interchangeable connectors. This easily leads to using the wrong power supply, which can destroy equipment.
+A survey of consumers showed widespread dissatisfaction with the cost, inconvenience, and wastefulness of the profusion of power adapters used by electronic devices. Science fiction author and satirist Douglas Adams wrote an essay bemoaning the profusion and confusion of power adapters, and calling for more standardization.
+
+
+=== Dangerous and unreliable adapters ===
+Manufacturers of equipment supplied with AC adapters often supply replacements at high prices; this has encouraged the manufacture of compatible third-party aftermarket replacements, which may be of satisfactory quality and performance at significantly lower prices. However, some adapters, usually at very low prices, and sometimes with unknown brands or sometimes fraudulently marked with the name of a reputable manufacturer, have various deficiencies which can cause inadequate performance (e.g. poor regulation and ripple, maximum power capacity lower than specified, hot running), unreliability (e.g. overheating to temperatures exceeding component ratings), and electrical or fire danger to users (e.g. insulation which frays with wear, lack of fuse).
+Spurious marks of conformity to standards may be present; in one case it was reported that "Chinese manufacturers were submitting well-engineered electrical products to obtain conformity testing reports, but then removing non-essential components in production to reduce costs". A test of 27 chargers found that all the eight legitimately branded with a reputable name met safety standards, but none of those unbranded or with minor names did, despite bearing the  mark of conformity.
+
+
+== Efficiency (Historical) ==
+
+The issue of inefficiency of some power supplies has become well known, with US president George W. Bush referring in 2001 to such devices as "Energy Vampires". Legislation is being enacted in the EU and a number of U.S. states, to reduce the level of energy wasted by some of these devices. Such initiatives include standby power and the One Watt Initiative.
+But others have argued that these inefficient devices are low powered, e.g., devices that are used for small battery chargers, so even if they have a low efficiency, the amount of energy they waste is less than 1% of household consumption of electric energy.
+Considering the total efficiency of power supplies for small electronic equipment, the older mains-frequency linear transformer-based power supply was found in a 2002 report to have efficiencies from 20–75%, and have considerable energy loss even when powered up but not supplying power. Switched-mode power supplies (SMPSs) are much more efficient; a good design can be 80–90% efficient, and is also much smaller and lighter. In 2002 most external plug-in "wall wart" power adapters commonly used for low-power consumer electronics devices were of linear design, as well as supplies built into some equipment.
+External supplies are usually left plugged in even when not in use, and consume from a few watts to 35 watts of power in that state. The report concluded that about 32 billion kilowatt-hours (kWh) per year, about 1% of total electrical energy consumption, could be saved in the United States by replacing all linear power supplies (average efficiency 40–50%) with advanced switching designs (efficiency 80–90%), by replacing older switching supplies (efficiencies of less than 70%) with advanced designs (efficiency of at least 80%), and by reducing standby consumption of supplies to not more than 1 watt.
+Since the report was published, SMPSs have indeed replaced linear supplies to a great extent, even in wall warts. The 2002 report estimated that 6% of electrical energy used in the US "flows through" power supplies (not counting only the wall warts). The website where the report was published said in 2010 that despite the spread of SMPSs, "today's power supplies consume at least 2% of all U.S. electricity production. More efficient power supply designs could cut that usage in half".
+Since wasted electrical energy is released as heat, an inefficient power supply is hot to the touch, as is one that wastes power without an electrical load. This waste heat is itself a problem in warm weather, since it may require additional air conditioning to prevent overheating, and even to remove the unwanted heat from large supplies.
+
+
+== Reuse ==
+
+AC adapters are often reused on other appliances, but there are 5 parameters which all must suit the appliance:
+Voltage
+Current capacity
+Polarity (not relevant with AC)
+Voltage regulation (or stabilization)
+Connector type
+"Universal" adapters are available on which the user can adjust these parameters, except for voltage regulation (which is a fixed characteristic of a given power supply design).
+
+
+== Universal power adapters ==
+
+External power adapters can fail, and can become separated from the product they are intended to power. Consequently there is a market for replacement adapters. The replacement must match input and output voltages, match or exceed current capability, and be fitted with a matching connector. Many electrical products are poorly labeled with information concerning the power supply they require, so it is prudent to record the specifications of the original power supply in advance, to ease replacement if the original is later lost. Careful labeling of power adapters can also reduce the likelihood of a mixup which could cause equipment damage.
+Some "universal" replacement power supplies allow output voltage and polarity to be switched to match a range of equipment. With the advent of switch-mode supplies, adapters which can work with any voltage from 110VAC to 240VAC became widely available; previously either 100-120VAC or 200-240VAC versions were used. Adaptors which can also be used with motor vehicle and aircraft power (see EmPower) are available.
+Four-way X connectors or six-way star connectors, also known as spider connectors, with multiple plug sizes and types are common on generic power supplies. Other replacement power supplies have arrangements for changing the power connector, with four to nine different alternatives available when purchased in a set. RadioShack sells universal AC adapters of various capacities, branded as "Enercell Adaptaplug", and fitted with 2-pin female sockets compatible with their Adaptaplug connector lineup. This allows many different configurations of AC adapters to be put together, without requiring soldering. Philmore and other competing brands offer similar AC adapters with interchangeable connectors.
+The label on a power supply may not be a reliable guide to the actual voltage it supplies under varying conditions. Many low-cost power supplies are "unregulated", in that their voltage can change considerably with load. If they are lightly loaded, they may put out much more than the nominal "name plate" voltage, which could damage the load. If they are heavily loaded, the output voltage may droop appreciably, in some cases well below the nominal label voltage even within the nominal rated current, causing the equipment being supplied to malfunction or be damaged. Supplies with linear (as against switched) regulators are heavy, bulky, and expensive.
+Modern switched-mode power supplies (SMPSs) are smaller, lighter, and more efficient. They put out a much more constant voltage than unregulated supplies as the input voltage and the load current vary. When introduced, their prices were high, but by the early 21st century the prices of switch-mode components had dropped to a degree which allowed even cheap supplies to use this technology, saving the cost of a larger and heavier mains-frequency transformer.
+
+
+=== Auto-sensing adapters ===
+Some universal adapters automatically set their output voltage and maximum current according to which of a range of interchangeable tips is fitted; tips are available to fit and supply appropriate power to many notebook computers and mobile devices. Different tips may use the same connector, but automatically supply different power; it is essential to use the right tip for the apparatus being powered, but no switch needs to be set correctly by the user. The advent of switch-mode power supplies has allowed adapters to work from any AC mains supply from 100 to 240V with an appropriate plug; operation from standard 12V DC vehicle and aircraft supplies can also be supported. With the appropriate adapter, accessories, and tips, a variety of equipment can be powered from almost any source of power.
+A "Green Plug" system has been proposed, based on USB technology, by which the consuming device would tell the external power supply what kind of power is needed.
+
+
+== Use of USB ==
+
+The USB connector (and voltage) has emerged as a de facto standard in low-power AC adapters for many portable devices. In addition to serial digital data exchange, the USB standard also provides 5V DC power, up to 500 mA (900 mA over USB 3.0). Numerous accessory gadgets ("USB decorations") were designed to connect to USB only for DC power and not for data interchange. The USB Implementers Forum in March, 2007 released the USB Battery Charging Specification which defines, "...limits as well as detection, control and reporting mechanisms to permit devices to draw current in excess of the USB 2.0 specification for charging ...". Electric fans, lamps, alarms, coffee warmers, battery chargers, and even toys have been designed to tap power from a USB connector. Plug-in adapters equipped with USB receptacles are widely available to convert 120 V AC or 240 V AC power or 12 V DC automotive power to 5 V DC USB power (see photo at right).
+
+
+== Standards ==
+The trend towards more-compact electronic devices has driven a shift towards the micro-USB and mini-USB connectors, which are electrically compatible in function to the original USB connector but physically smaller. In 2009, the International Telecommunication Union (ITU) announced support of the Open Mobile Terminal Platform's (OMTP) "Common Charging and Local Data Connectivity" standard. The ITU published Recommendation ITU-T L.1000, "Universal power adapter and charger solution for mobile terminals and other hand-held ICT devices", which specifies a charger similar in most respects to that of the GSMA/OMTP proposal and to the European Common External Power Supply. The ITU recommendation was expanded and updated in June, 2011. The hope is to markedly reduce the profusion of non-interchangeable power adapters.
+The European Union defined a Common External Power Supply for "hand-held data-enabled mobile phones" (smartphones) sold from 2010, intended to replace the many incompatible proprietary power supplies and eliminate waste by reducing the total number of supplies manufactured. Conformant supplies deliver 5V DC via a micro-USB connector, with preferred input voltage handled ranging from 90 to 264 V AC.
+In 2012 a USB Power Delivery Specification was proposed to standardize delivery of up to 100 watts, suitable for devices such as laptop computers that usually depend on proprietary adapters.
+Larry Page, a founder of Google, proposed a 12 V and up to 15 A standard for almost all equipment requiring an external converter, with new buildings fitted with 12V DC wiring, making external AC-to-DC adapter circuitry unnecessary.
+IEC has created a standard for interchangeable laptop power supplies, IEC Technical Specification 62700: DC Power supply for notebook computer, which was published on February 6, 2014.
+
+
+== See also ==
+
+AC power plugs and sockets describes the usual sources of power for an AC adapter
+Adapter
+Battery eliminator
+Coaxial power connector has extensive coverage of the profusion of coaxial DC power connectors in use.
+Common External Power Supply describes standards for mobile phone battery chargers.
+Power supply describes other types of power supplies.
+USB Power describes the USB standards for DC power delivery to connected devices.
+Switched-mode power supply applications (SMPS) applications
+
+
+== References ==
+
+
+== External links ==
+How to choose a wallwart for your small appliance, and how to get rid of them
+External Power Supplies Energy star information on external power supply specification and testing
+Free eBook: TEST AC Power Adapters

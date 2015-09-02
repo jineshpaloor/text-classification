@@ -1,0 +1,59 @@
+Open-circuit test
+The open-circuit test, or "no-load test", is one of the methods used in electrical engineering to determine the no-load impedance in the excitation branch of a transformer.
+
+
+== Method ==
+The secondary of the transformer is left open-circuited. A wattmeter is connected to the primary. An ammeter is connected in series with the primary winding. A voltmeter is optional since the applied voltage is the same as the voltmeter reading. Rated voltage is applied at primary.
+If the applied voltage is normal voltage then normal flux will be set up. Since iron loss is a function of applied voltage, normal iron loss will occur. Hence the iron loss is maximum at rated voltage. This maximum iron loss is measured using the wattmeter. Since the impedance of the series winding of the transformer is very small compared to that of the excitation branch, all of the input voltage is dropped across the excitation branch. Thus the wattmeter measures only the iron loss. This test only measures the combined iron losses consisting of the hysteresis loss and the eddy current loss. Although the hysteresis loss is less than the eddy current loss, it is not negligible. The two losses can be separated by driving the transformer from a variable frequency source since the hysteresis loss varies linearly with supply frequency and the eddy current loss varies with the square.
+Since the secondary of the transformer is open, the primary draws only no-load current, which will have some copper loss. This no-load current is very small and because the copper loss in the primary is proportional to the square of this current, it is negligible. There is no copper loss in the secondary because there is no secondary current.
+Current, voltage and power are measured at the primary winding to ascertain the admittance and power-factor angle.
+Another method of determining the series impedance of a real transformer is the short circuit test.
+
+
+== Calculations ==
+The current  is very small.
+If  is the wattmeter reading then,
+
+That equation can be rewritten as,
+
+Thus,
+
+
+=== Impedance ===
+By using the above equations,  and  can be calculated as,
+
+Thus,
+
+or
+
+
+=== Admittance ===
+The admittance is the inverse of impedance. Therefore,
+
+The conductance  can be calculated as,
+
+Hence the susceptance,
+
+or
+
+Here,
+ is the wattmeter reading
+ is the applied rated voltage
+ is the no-load current
+ is the magnetizing component of no-load current
+ is the core loss component of no-load current
+ is the exciting impedance
+ is the exciting admittance
+
+
+== References ==
+Kosow (2007). Electric Machinery and Transformers. Pearson Education India. 
+Smarajit Ghosh (2004). Fundamentals of Electrical and Electronics Engineering. PHI Learning Pvt. Ltd. 
+Wildi, Wildi Theodore (2007). Electrical Machines , Drives And Power Systems, 6th edtn. Pearson. 
+
+
+== See also ==
+Short-circuit test
+Thévenin's theorem
+Blocked rotor test
+Circle diagram

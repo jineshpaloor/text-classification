@@ -1,0 +1,39 @@
+Linear variable differential transformer
+The linear variable differential transformer (LVDT) (also called just a differential transformer, linear variable displacement transformer, or linear variable displacement transducer ) is a type of electrical transformer used for measuring linear displacement (position). A counterpart to this device that is used for measuring rotary displacement is called a rotary variable differential transformer (RVDT).
+
+
+== Introduction ==
+LVDTs are robust, absolute linear position/displacement transducers; inherently frictionless, they have a virtually infinite cycle life when properly used. As AC operated LVDTs do not contain any electronics, they can be designed to operate at cryogenic temperatures or up to 1200 °F (650 °C), in harsh environments, under high vibration and shock levels. LVDTs have been widely used in applications such as power turbines, hydraulics, automation, aircraft, satellites, nuclear reactors, and many others. These transducers have low hysteresis and excellent repeatability.
+The LVDT converts a position or linear displacement from a mechanical reference (zero, or null position) into a proportional electrical signal containing phase (for direction) and amplitude (for distance) information. The LVDT operation does not require an electrical contact between the moving part (probe or core assembly) and the coil assembly, but instead relies on electromagnetic coupling.
+
+
+== Operation ==
+The linear variable differential transformer has three solenoidal coils placed end-to-end around a tube. The center coil is the primary, and the two outer coils are the top and bottom secondaries. A cylindrical ferromagnetic core, attached to the object whose position is to be measured, slides along the axis of the tube. An alternating current drives the primary and causes a voltage to be induced in each secondary proportional to the length of the core linking to the secondary. The frequency is usually in the range 1 to 10 kHz.
+As the core moves, the primary's linkage to the two secondary coils changes and causes the induced voltages to change. The coils are connected so that the output voltage is the difference (hence "differential") between the top secondary voltage and the bottom secondary voltage. When the core is in its central position, equidistant between the two secondaries, equal voltages are induced in the two secondary coils, but the two signals cancel, so the output voltage is theoretically zero. In practice minor variations in the way in which the primary is coupled to each secondary means that a small voltage is output when the core is central.
+When the core is displaced toward the top, the voltage in the top secondary coil increases as the voltage in the bottom decreases. The resulting output voltage increases from zero. This voltage is in phase with the primary voltage. When the core moves in the other direction, the output voltage also increases from zero, but its phase is opposite to that of the primary. The phase of the output voltage determines the direction of the displacement (up or down) and amplitude indicates the amount of displacement. A synchronous detector can determine a signed output voltage that relates to the displacement.
+The LVDT is designed with long slender coils to make the output voltage essentially linear over displacement up to several inches (several hundred millimetres) long.
+The LVDT can be used as an absolute position sensor. Even if the power is switched off, on restarting it, the LVDT shows the same measurement, and no positional information is lost. Its biggest advantages are repeatability and reproducibility once it is properly configured. Also, apart from the uni-axial linear motion of the core, any other movements such as the rotation of the core around the axis will not affect its measurements.
+Because the sliding core does not touch the inside of the tube, it can move without friction, making the LVDT a highly reliable device. The absence of any sliding or rotating contacts allows the LVDT to be completely sealed against the environment.
+LVDTs are commonly used for position feedback in servomechanisms, and for automated measurement in machine tools and many other industrial and scientific applications.
+
+
+== See also ==
+Dot convention
+Linear encoder
+Rotary encoder
+
+
+== References ==
+
+Baumeister, Theodore; Marks, Lionel S., eds. (1967), Standard Handbook for Mechanical Engineers (Seventh ed.), McGraw-Hill, LCCN 16-12915 
+
+
+== External links ==
+How LVDTs Work (interactive)
+How LVDTs Work
+Phasing Explanation
+LVDT models and applications
+Analog Devices AD598 datasheet
+http://www.meas-spec.com/downloads/LVDT_Selection,_Handling_and_Installation_Guidelines.pdf LVDT selection, handling and installation guidelines; describes parameters that are significant in the application of LVDTs
+http://www.meas-spec.com/downloads/Principles_of_the_LVDT.pdf The LVDT: construction and principle of operation
+http://www.meas-spec.com/downloads/LVDT_Technology.pdf March 2013; pictures of internal construction; cross-axis rejection, shielding, corrosion issues

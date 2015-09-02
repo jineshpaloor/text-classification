@@ -1,0 +1,149 @@
+Carrier current
+Carrier current is a method of low power AM radio transmission that uses AC electrical wiring to propagate a medium frequency AM signal to a relatively small area, such as a building or a group of buildings. In the United States, carrier current stations do not require a broadcasting license from the FCC, as long as the emissions adhere to the Part 15 Rules for unlicensed transmissions.
+
+
+== Predecessor ==
+As described in the article Muzak, in the 1920s Wired Radio's subscription music service was delivered over electrical power lines, and billed for on the customer's electric bill. As AM broadcasting improved and grew, its business model, in which content is supported by advertising rather than subscriber fees, destroyed the home market for this service. In 1934, its owner created the Muzak company, focused on the business market.
+
+
+== Application ==
+Carrier current broadcasting has been used by many types of facilities that need to transmit radio to a small area. Carrier current is most often associated with college radio and high school radio, but was formerly used for hospital radio stations and at military bases, sports stadiums, convention halls, mental and penal institutions, trailer parks, summer camps, office buildings, and drive-in movie theaters. Many college stations that went on to obtain broadcasting licenses started out as carrier current stations because of the low cost and relative ease of starting up such a radio station.
+Carrier current stations generally operate with very low power. Though a typical carrier current transmitter's output might be 5 to 30 watts, using AC wiring as an antenna is very inefficient and can result in an effective radiated power of less than one watt. The usable range of the signal is usually less than 200 feet (60 meters) from the wire. These signals cannot pass through utility transformers, and are prone to the electromagnetic interference from alternating current. Transmitters that use carrier current are very simple, making them an effective option for students interested in radio. Transmissions can be of good quality, although there is a low frequency background hum (60 hertz in North American installations) associated with carrier current, due to the alternating current. Not all listeners notice this hum, nor is it reproduced well by all receivers.
+
+
+== European broadcasters ==
+In Germany, carrier current transmission was called Drahtfunk. In Switzerland, Telefonrundspruch used telephone lines. In the Soviet Union, PLC was very common for broadcasting since the 1930s because of its low cost and accessibility, and because it made reception of uncensored over-the-air transmissions more difficult. In Norway the radiation of PLC systems from powerlines was sometimes used for radio supply. These facilities were called Linjesender. In Britain such systems were for a time used in areas where reception from conventional BBC transmitters was poor.
+In all cases the radio programme was fed by special transformers into the lines. To prevent uncontrolled propagation, filters for the carrier frequencies of the PLC systems were installed in substations and at line branches.
+An example of the programs formerly carried by "wire broadcasting" in Switzerland:
+175 kHz Swiss Radio International
+208 kHz RSR1 "la première" (French)
+241 kHz "classical music"
+274 kHz RSI1 "rete UNO" (Italian)
+307 kHz DRS 1 (German)
+340 kHz "easy music"
+Systems using telephone wires were incompatible with ISDN use which required the same bandwidth for digital data. The Swiss and German systems have been discontinued, but in Italy Filodiffusione still has several hundred thousand subscribers.
+
+
+== Community radio ==
+There are many examples of community radio stations being operated in the United States using carrier current AM broadcasting. Signals may pass a transformer if the utility company has bypass lines installed (typically when non-conflicting carrier current-based data systems of their own are in operation). Signals may also be impressed onto the neutral leg of the three-phase electric power system, a practice known as "neutral loading", in an effort both to reduce (sometimes eliminate) 60 Hz hum, and to extend effective transmission line distance. It has been successful in both ways in community and campus installations.
+Extensive systems can include multiple unit installations with linear amplifiers and splitters to increase the coupling points to a large electrical grid (whether a campus, a high-rise apartment or a community). These systems would typically require coaxial cable interconnection from a transmitter to the linear amplifiers. In the 1990s, LPB, Inc., possibly the largest manufacturer of these transmission systems, designed and supplied several extensive campus-based systems that included fiber-optic links between linear amplifiers to prevent heterodyne interference.
+
+
+== Student-run carrier current or cable cast stations ==
+
+As with most other student-run stations, these stations often operate on sporadic schedules. Most of these stations are also supplemented by other broadcasting methods, such as LPFM, closed circuit, and streaming audio. Many carrier current stations have been, and continue to be, replaced by these technologies as well. Though legal, these stations are not licensed by the FCC and their call letters are entirely self-styled.
+
+
+=== Existing stations ===
+Bulls Radio 1620 - University of South Florida, also heard on licensed WMNF-HD2
+KAMP-1570 at the University of Arizona
+KANM-1580 at Texas A&M University
+KASR-1330 Arizona State University
+KDUP-1580 at University of Portland, (Portland, Oregon) http://kdup.up.edu/
+KCIZ 1650 at Mora High School, Mora, Minnesota
+KJACK 1680 - Northern Arizona University
+KLBC-1610 at Long Beach City College
+KMSC-1500 at Minnesota State University Moorhead
+KRFH at Humboldt State University
+KRIO 1660 at Rio Linda High School
+K-ROCKS RadioOne AM Stereo 1670 and AM Stereo 710 in Casper Wyoming 
+KSSU 1580 AM at California State University, Sacramento
+KUR-1670/88.3 at Kutztown University
+KUTE-1620 University of Utah
+Radio SNHU 1620 at Southern New Hampshire University
+WALT-1610 at Davidson College
+WERW 1570 AM at Syracuse University
+WEXP at La Salle University
+WGCC 650 AM at Genesee Community College
+The WIRE - 1710 AM at the University of Oklahoma
+WMAX 540 at Mount Washington College in Manchester, New Hampshire
+WNEC 91.7 FM at New England College in Henniker, New Hampshire
+Wolfpack Radio-1700 at the University of Nevada
+WPPJ-670 Point Park College
+WPMD-1700 at Cerritos College
+WSIN-1590 at Southern Connecticut State University
+WSLU-1620/100.1] at Saint Leo University, St. Leo, Florida
+KSUB at Seattle University in conjunction with 8 mW low-power broadcasting and Internet radio
+WTBU 640 AM/89.3 FM at Boston University
+Radio Laurier Macdonald 560 AM at Laurier Macdonald High School in St. Leonard, Montreal, Quebec, Canada
+
+
+=== Former stations ===
+Brown Student Radio at Brown University in Providence, Rhode Island, on A.M. 600.
+CHRW-FM at the University of Western Ontario started as a carrier current station at 610 kHz
+K.C. AM at Colby College, now WMHB
+KARL-AM at Carleton College, now KRLX
+KAL at University of California, Berkeley - now KALX
+KCC at Chabot College, Hayward, California - now KCRH 89.9
+KCWS-AM at Central Washington State College - now KCWU-FM
+KDVS, originally KCD at University of California, Davis
+KFRH at Washington University in St. Louis - now KWUR-FM
+KMPS-AM at University of Alaska Fairbanks - now KSUA-FM
+KNAB at Chapman University, Orange, California - ceased carrier current in 1991, now internet-only station ChapmanRadio.com
+KOWL at Rice University - now Rice Radio
+KRLK 97.5 at Rio Linda High School, California - now KRIO 1660
+KSU at Stanford University – now KZSU-FM
+KSWC at Southwestern College in Winfield, Kansas - now at 100.3 FM
+KUOK at the University of Kansas - now KJHK
+WBMB at Baruch College, CUNY; started as a carrier current station at 590AM
+WBSC on 640 AM at Bloomsburg State College (now Bloomsburg University) in Bloomsburg, Pennsylvania, but has merged with 91.1 FM WBUQ after that station signed on in 1985. For several years, both stations operated independent of one another prior to the merger.
+WCAR 550 AM at the University of North Carolina at Chapel Hill - now WXYC-FM 89.3
+WCHP 650 AM at Central Michigan University at Mount Pleasant Michigan
+WCUR as WSCS 640 AM, and WCUR 680 AM at West Chester University in West Chester, Pennsylvania, but has since migrated to 91.7 FM, as well as online at wcur.org
+WDBS 560 AM at Duke University - now WXDU-FM 88.7
+WERU 710 AM/104.7 FM at Embry–Riddle Aeronautical University - now WIKD-LP 102.5
+WFAL 1610 AM at Bowling Green State University
+WFVS-LP 530 AM and recently LPFM at 100.5 at Fort Valley State University in Fort Valley, Georgia (fiber-optic linked carrier current system)
+WHAT 530 AM at Johns Hopkins University, later WHSR and now WJHU
+WHEN 640 AM at the University of Delaware
+WHEN 570 AM "The Rock of Macomb" at Western Illinois University -
+WJHU at Johns Hopkins University, Baltimore, Maryland.
+WJJX 640AM at the University of Michigan from 1952 to mid-1990's, predecessor to (and previously using the call letters) WCBN now on FM 88.3 
+WJPZ at Syracuse University, now 89.1 FM
+WKC at Knox College, Galesburg, Illinois - now WVKC-FM
+WKCO at Kenyon College, Gambier, OH - now WKCO-FM
+WKDU-FM 91.7, the student-run radio station of Drexel University formally WMAX (1958)
+WKDT 89.3 FM, the cadet radio station, United States Military Academy, West Point, New York
+WLCR-AM 640 (originally WCDW-AM 830) operated by Summer campers at Camp Shaw-Mi-Del-Eca in Lewisburg, West Virginia.
+WLKR AM Lake Superior State University, Sault Ste. Marie, Michigan - Now WLSO 90.1 FM "The Sounds of Lake State"
+WMTU-FM at Michigan Technological University; started as a carrier-current AM station
+WMUC-FM at the University of Maryland, College Park; started in 1937 on 650 AM
+WNYU on 800 AM in New York University's dorms at its Lower Manhattan campus
+WOCR-650, a "pirate" carrier current station in Ocean City, Maryland, in 1973
+WOLF at North Carolina State University in Raleigh, North Carolina - now WKNC
+WPSM at Penn State's McKeesport campus (now Penn State Greater Allegheny) - now an internet station WMKP
+WQAD/WFQR/WIN/WIUS at Indiana University - now WIUX-LP
+WRAF on 590 AM at Binghamton University - now WHRW
+WRCC-AM at 640 AM at Rockland Community College
+WRCR-AM Rockford College
+WRCT on 900 AM at Carnegie Mellon University - now WRCT-FM
+WRIU Studio B, now only online, at the University of Rhode Island and licensed to Kingston, Rhode Island, on A.M. 580.
+WRPS-730 AM at SUNY Potsdam (NY), now WAIH 90.3
+WRLC-AM on 1110 and 1150 AM at Rutgers University, now WVPH-FM
+WRUR-AM 1090 at the University of Rochester in Rochester, New York - now WRUR-FM; see also campus radio
+WSAC 710 AM at St. Anselm College, Goffstown, New Hampshire
+WSGR (South Green Radio) at Ohio University in Athens, Ohio
+WSOE on 1200 AM at the Milwaukee School of Engineering in Milwaukee, Wisconsin - now WMSE on 91.7 FM
+WTGR 530 AM (1969) at Memphis State University in Memphis, Tennessee, now the University of Memphis - now WUMR on 91.7 FM
+WUFI-540AM at Florida International University, now WRGP 88.1 & 95.3 FM
+WUVT 640 AM at Virginia Tech
+WVAT (Voice of Alfred Tech) at SUNY, Alfred, New York - started broadcasting January 1965, now WETD-FM
+WVAU on 610 AM at American University, Washington, D.C. (station is still present, but they no longer broadcast carrier current)
+WVBU on 640 AM at Bucknell University later licensed to 90.5 MHz FM, carrier current turned off several years later
+WVOF on 620 AM at Fairfield University, Connecticut
+WVYC 640 AM at York College of Pennsylvania, sister station to FCC-licensed WVYC FM 99.7, also on the Internet
+WXOU 88.3 FM at Oakland University in Rochester Hills, Michigan (licensed to Auburn Hills, Michigan)
+WXPN and WQHS-730 at the University of Pennsylvania
+WYBC/640 at Yale University
+
+
+== See also ==
+Power line communication
+Leaky feeder
+
+
+== References ==
+
+
+== External links ==
+Carrier Current Broadcasting Theory by LPB

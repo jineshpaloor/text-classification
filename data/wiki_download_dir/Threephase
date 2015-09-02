@@ -1,0 +1,95 @@
+Three-phase
+In electrical engineering, three-phase electric power systems have at least three conductors carrying alternating current voltages that are offset in time by one-third of the period. A three-phase system may be arranged in delta (∆) or star (Y) (also denoted as wye in some areas). A wye system allows the use of two different voltages from all three phases, such as a 230/400 V system which provides 230 V between the neutral (centre hub) and any one of the phases, and 400 V across any two phases. A delta system arrangement only provides one voltage magnitude, however it has a greater redundancy as it may continue to operate normally with one of the three supply windings offline, albeit at 57.7% of total capacity. Harmonic currents in the neutral may become very large if non-linear loads are connected.
+
+
+== DefinitionsEdit ==
+
+In a star (wye) connected topology, with rotation sequence L1 - L2 - L3, the time-varying instantaneous voltages can be calculated for each phase A,C,B respectively by:
+
+where:
+ is the peak voltage,
+ is the phase angle in radians
+ is the time in seconds
+ is the frequency in cycles per second and
+
+voltages L1-N, L2-N and L3-N are referenced to the star connection point.
+
+
+== Balanced loadsEdit ==
+Generally, in electric power systems, the loads are distributed as evenly as is practical between the phases. It is usual practice to discuss a balanced system first and then describe the effects of unbalanced systems as deviations from the elementary case.
+
+
+=== Constant power transferEdit ===
+An important property of three-phase power is that the power available to a resistive load, , is constant at all times.
+
+To simplify the mathematics, we define a nondimensionalized power for intermediate calculations, 
+
+Hence (substituting back):
+
+since we have eliminated  we can see that the total power does not vary with time. This is essential for keeping large generators and motors running smoothly. Actually, the load need not be resistive for achieving a constant instantaneous power since, as long as it is balanced or the same for all phases, it may be written as
+
+so that the peak current is
+
+for all phases and the instantaneous currents are
+
+Now the instantaneous powers in the phases are
+
+Using angle subtraction formulae:
+
+which add up for a total instantaneous power
+
+Since the three terms enclosed in square brackets are a three-phase system, they add up to zero and the total power becomes
+
+or
+
+
+=== No neutral currentEdit ===
+For the case of equal loads on each of three phases, no net current flows in the neutral. The neutral current is the inverted vector sum of the line currents. See Kirchhoff's circuit laws.
+
+We define a non-dimensionalized current, :
+
+Since we have shown that the neutral current is zero we can see that removing the neutral core will have no effect on the circuit, provided the system is balanced. Such connections are generally used only when the load on the three phases is part of the same piece of equipment (for example a three-phase motor), as otherwise switching loads and slight imbalances would cause large voltage fluctuations.
+
+
+== Unbalanced systemsEdit ==
+In practice, systems rarely have perfectly balanced loads, currents, voltages and impedances in all three phases. The analysis of unbalanced cases is greatly simplified by the use of the techniques of symmetrical components. An unbalanced system is analysed as the superposition of three balanced systems, each with the positive, negative or zero sequence of balanced voltages.
+When specifying wiring sizes in a three-phase system, we only need to know the magnitude of the phase and neutral currents. The neutral current can be determined by adding the three phase currents together as complex numbers and then converting from rectangular to polar co-ordinates. If the three phase RMS (Root Mean Square) currents are ,  and , the neutral RMS current is:
+
+which resolves to
+
+The polar magnitude of this is the square root of the sum of the squares of the real and imaginary parts, which reduces to
+
+
+=== Non-linear loadsEdit ===
+With linear loads, the neutral only carries the current due to imbalance between the phases. Devices that utilize rectifier-capacitor front ends (such as switch-mode power supplies for computers, office equipment and the like) introduce third order harmonics. Third harmonic currents are in-phase on each of the supply phases and therefore will add together in the neutral which can cause the neutral current in a wye system to exceed the phase currents.
+
+
+== Revolving magnetic fieldEdit ==
+Any polyphase system, by virtue of the time displacement of the currents in the phases, makes it possible to easily generate a magnetic field that revolves at the line frequency. Such a revolving magnetic field makes polyphase induction motors possible. Indeed, where induction motors must run on single-phase power (such as is usually distributed in homes), the motor must contain some mechanism to produce a revolving field, otherwise the motor cannot generate any stand-still torque and will not start. The field produced by a single-phase winding can provide energy to a motor already rotating, but without auxiliary mechanisms the motor will not accelerate from a stop when energized.
+A rotating magnetic field of steady amplitude requires that all three phase currents be equal in magnitude, and accurately displaced one-third of a cycle in phase. Unbalanced operation results in undesirable effects on motors and generators.
+
+
+== Conversion to other phase systemsEdit ==
+Provided two voltage waveforms have at least some relative displacement on the time axis, other than a multiple of a half-cycle, any other polyphase set of voltages can be obtained by an array of passive transformers. Such arrays will evenly balance the polyphase load between the phases of the source system. For example, balanced two-phase power can be obtained from a three-phase network by using two specially constructed transformers, with taps at 50% and 86.6% of the primary voltage. This Scott T connection produces a true two-phase system with 90° time difference between the phases. Another example is the generation of higher-phase-order systems for large rectifier systems, to produce a smoother DC output and to reduce the harmonic currents in the supply.
+When three-phase is needed but only single-phase is readily available from the electricity supplier, a phase converter can be used to generate three-phase power from the single phase supply.
+
+
+== System measurementsEdit ==
+It is possible to measure the power in a three-phase system using two transducers when there is no neutral, or three transducers when there is neutral. Blondel's theorem states that the number of measurement elements required is one less than the number of current-carrying conductors.
+
+
+== See alsoEdit ==
+Charles Proteus Steinmetz
+Electric motor
+Galileo Ferraris
+John Hopkinson
+Mikhail Dolivo-Dobrovolsky
+Nikola Tesla
+Polyphase system
+Three-phase electric power
+Y-Δ transform
+
+
+== ReferencesEdit ==
+
+Stevenson, William D., Jr. (1975). Elements of Power Systems Analysis. McGraw-Hill Electrical and Electronic Engineering Series (3rd ed.). New York: McGraw-Hill. ISBN 0-07-061285-4.

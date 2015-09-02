@@ -1,0 +1,39 @@
+Quadrature booster
+A phase angle regulating transformer, phase angle regulator (PAR, American usage), phase-shifting transformer, phase shifter (West coast American usage), or quadrature booster (quad booster, British usage), is a specialised form of transformer used to control the flow of real power on three-phase electricity transmission networks.
+For an alternating current transmission line, power flow through the line is proportional to the sine of the difference in the phase angle of the voltage between the transmitting end and the receiving end of the line. Where parallel circuits with different capacity exist between two points in a transmission grid (for example, an overhead line and an underground cable), direct manipulation of the phase angle allows control of the division of power flow between the paths, preventing overload. Quadrature boosters thus provide a means of relieving overloads on heavily laden circuits and re-routing power via more favorable paths.
+Alternately, where an interchange partner is intentionally causing significant "inadvertent energy" to flow through an unwilling interchange partner's system, the unwilling partner may threaten to install a phase shifter to prevent such "inadvertent energy", with the unwilling partner's tactical objective being the improvement of his system's stability at the expense of the other system's stability. As power system reliability is really a regional or national strategic objective, the threat to install a phase shifter is usually sufficient to cause the other system to implement the required changes to his system to reduce or eliminate the "inadvertent energy".
+The capital cost of a quadrature booster can be high: as much as four to six million GBP (6–9 million USD) for a unit rated over 2 GVA. However, the utility to transmission system operators in flexibility and speed of operation, and particularly savings in permitting more economical dispatch of generation, can soon recover the cost of ownership.
+
+
+== Method of operation ==
+
+By means of a voltage derived from the supply that is first phase-shifted by 90° (hence is in quadrature), and then re-applied to it, a phase angle is developed across the quadrature booster. It is this induced phase angle that affects the flow of power through specified circuits.
+
+
+== Arrangement ==
+A quadrature booster typically consists of two separate transformers: a shunt unit and a series unit. The shunt unit has its windings connected across the phases, so it produces output voltages shifted by 90° with respect to the supply. Its output is then applied as input to the series unit, which, because its secondary winding is in series with the main circuit, adds the phase-shifted component. The overall output voltage is hence the vector sum of the supply voltage and the 90° quadrature component.
+Tap connections on the shunt unit allow the magnitude of the quadrature component to be controlled, and thus the magnitude of the phase shift across the quadrature booster. The flow on the circuit containing the quadrature booster may be increased (boost tapping) or reduced (buck tapping). Subject to system conditions, the flow may even be bucked enough to completely reverse from its neutral-tap direction.
+
+
+== Illustration of effect ==
+The one-line diagram below shows the effect of tapping a quadrature booster on a notional 100 MW generator-load system with two parallel transmission lines, one of which features a quadrature booster (shaded grey) with a tap range of 1 to 19.
+In the left-hand image, the quadrature booster is at its centre tap position of 10 and has a phase angle of 0°. It thus does not affect the power flow through its circuit and both lines are equally loaded at 50 MW. The right-hand image shows the same network with the quadrature booster tapped down so to buck the power flow. The resulting negative phase angle has diverted 23 MW of loading onto the parallel circuit, while the total load supplied is unchanged at 100 MW. (Note that the values used here are hypothetical; the actual phase angle and transfer in load would depend upon the parameters of the quadrature booster and the transmission lines.)
+
+The intended effect is opposite: equalizing power on lines where naturally one would be heavily loaded and one would be lightly loaded.
+
+
+== See also ==
+Induction regulator
+Variable-frequency transformer
+
+
+== References ==
+Bibliography
+Weedy, D. (1988). Electrical Power Systems. Wiley. ISBN 0-471-97677-6. 
+Guile, A. Paterson, W. (1977). Electrical Power Systems vol 1. Pergamon. ISBN 0-08-021729-X. 
+Notes
+
+
+== External links ==
+Phase Shifting Transformers: Principles and Applications (overview article and a case study)
+Phase Shifting Transformers: Principles and Applications (Book by John Winders, CRC Press, Apr 12, 2002)

@@ -1,0 +1,124 @@
+Recursive least squares filter
+The Recursive least squares (RLS) is an adaptive filter which recursively finds the coefficients that minimize a weighted linear least squares cost function relating to the input signals. This is in contrast to other algorithms such as the least mean squares (LMS) that aim to reduce the mean square error. In the derivation of the RLS, the input signals are considered deterministic, while for the LMS and similar algorithm they are considered stochastic. Compared to most of its competitors, the RLS exhibits extremely fast convergence. However, this benefit comes at the cost of high computational complexity.
+
+
+== Motivation ==
+RLS was discovered by Gauss but laid unused or ignored until 1950 when Plackett rediscovered the original work of Gauss from 1821. In general, the RLS can be used to solve any problem that can be solved by adaptive filters. For example, suppose that a signal d(n) is transmitted over an echoey, noisy channel that causes it to be received as
+
+where  represents additive noise. We will attempt to recover the desired signal  by use of a -tap FIR filter, :
+
+where  is the vector containing the  most recent samples of . Our goal is to estimate the parameters of the filter , and at each time n we refer to the new least squares estimate by . As time evolves, we would like to avoid completely redoing the least squares algorithm to find the new estimate for , in terms of .
+The benefit of the RLS algorithm is that there is no need to invert matrices, thereby saving computational power. Another advantage is that it provides intuition behind such results as the Kalman filter.
+
+
+== Discussion ==
+The idea behind RLS filters is to minimize a cost function  by appropriately selecting the filter coefficients , updating the filter as new data arrives. The error signal  and desired signal  are defined in the negative feedback diagram below:
+
+The error implicitly depends on the filter coefficients through the estimate :
+
+The weighted least squares error function —the cost function we desire to minimize—being a function of e(n) is therefore also dependent on the filter coefficients:
+
+where  is the "forgetting factor" which gives exponentially less weight to older error samples.
+The cost function is minimized by taking the partial derivatives for all entries  of the coefficient vector  and setting the results to zero
+
+Next, replace  with the definition of the error signal
+
+Rearranging the equation yields
+
+This form can be expressed in terms of matrices
+
+where  is the weighted sample covariance matrix for , and  is the equivalent estimate for the cross-covariance between  and . Based on this expression we find the coefficients which minimize the cost function as
+
+This is the main result of the discussion.
+
+
+=== Choosing ===
+The smaller  is, the smaller contribution of previous samples. This makes the filter more sensitive to recent samples, which means more fluctuations in the filter co-efficients. The  case is referred to as the growing window RLS algorithm. In practice,  is usually chosen between 0.98 and 1.
+
+
+== Recursive algorithm ==
+The discussion resulted in a single equation to determine a coefficient vector which minimizes the cost function. In this section we want to derive a recursive solution of the form
+
+where  is a correction factor at time . We start the derivation of the recursive algorithm by expressing the cross covariance  in terms of 
+
+where  is the  dimensional data vector
+
+Similarly we express  in terms of  by
+
+In order to generate the coefficient vector we are interested in the inverse of the deterministic auto-covariance matrix. For that task the Woodbury matrix identity comes in handy. With
+
+The Woodbury matrix identity follows
+
+To come in line with the standard literature, we define
+
+where the gain vector  is
+
+Before we move on, it is necessary to bring  into another form
+
+Subtracting the second term on the left side yields
+
+With the recursive definition of  the desired form follows
+
+Now we are ready to complete the recursion. As discussed
+
+The second step follows from the recursive definition of . Next we incorporate the recursive definition of  together with the alternate form of  and get
+
+With  we arrive at the update equation
+
+where  is the a priori error. Compare this with the a posteriori error; the error calculated after the filter is updated:
+
+That means we found the correction factor
+
+This intuitively satisfying result indicates that the correction factor is directly proportional to both the error and the gain vector, which controls how much sensitivity is desired, through the weighting factor, .
+
+
+== RLS algorithm summary ==
+The RLS algorithm for a p-th order RLS filter can be summarized as
+Note that the recursion for  follows an Algebraic Riccati equation and thus draws parallels to the Kalman filter.
+
+
+== Lattice recursive least squares filter (LRLS) ==
+The Lattice Recursive Least Squares adaptive filter is related to the standard RLS except that it requires fewer arithmetic operations (order N). It offers additional advantages over conventional LMS algorithms such as faster convergence rates, modular structure, and insensitivity to variations in eigenvalue spread of the input correlation matrix. The LRLS algorithm described is based on a posteriori errors and includes the normalized form. The derivation is similar to the standard RLS algorithm and is based on the definition of . In the forward prediction case, we have  with the input signal  as the most up to date sample. The backward prediction case is , where i is the index of the sample in the past we want to predict, and the input signal  is the most recent sample.
+
+
+=== Parameter Summary ===
+ is the forward reflection coefficient
+ is the backward reflection coefficient
+ represents the instantaneous a posteriori forward prediction error
+ represents the instantaneous a posteriori backward prediction error
+ is the minimum least-squares backward prediction error
+ is the minimum least-squares forward prediction error
+ is a conversion factor between a priori and a posteriori errors
+ are the feedforward multiplier coefficients.
+ is a small positive constant that can be 0.01
+
+
+=== LRLS Algorithm Summary ===
+The algorithm for a LRLS filter can be summarized as
+
+
+== Normalized lattice recursive least squares filter (NLRLS) ==
+The normalized form of the LRLS has fewer recursions and variables. It can be calculated by applying a normalization to the internal variables of the algorithm which will keep their magnitude bounded by one. This is generally not used in real-time applications because of the number of division and square-root operations which comes with a high computational load.
+
+
+=== NLRLS algorithm summary ===
+The algorithm for a NLRLS filter can be summarized as
+
+
+== See also ==
+Adaptive filter
+Kernel adaptive filter
+Least mean squares filter
+Zero forcing equalizer
+
+
+== References ==
+Hayes, Monson H. (1996). "9.4: Recursive Least Squares". Statistical Digital Signal Processing and Modeling. Wiley. p. 541. ISBN 0-471-59431-8. 
+Simon Haykin, Adaptive Filter Theory, Prentice Hall, 2002, ISBN 0-13-048434-2
+M.H.A Davis, R.B. Vinter, Stochastic Modelling and Control, Springer, 1985, ISBN 0-412-16200-8
+Weifeng Liu, Jose Principe and Simon Haykin, Kernel Adaptive Filtering: A Comprehensive Introduction, John Wiley, 2010, ISBN 0-470-44753-2
+R.L.Plackett, Some Theorems in Least Squares, Biometrika, 1950, 37, 149-157, ISSN 00063444
+C.F.Gauss, Theoria combinationis observationum erroribus minimis obnoxiae, 1821, Werke, 4. Gottinge
+
+
+== Notes ==

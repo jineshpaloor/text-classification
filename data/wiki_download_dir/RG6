@@ -1,0 +1,30 @@
+RG-6
+RG-6/U is a common type of coaxial cable used in a wide variety of residential and commercial applications. The term "RG-6" itself is quite generic and refers to a wide variety of cable designs, which differ from one another in shielding characteristics, center conductor composition, dielectric type and jacket type. RG was originally a unit indicator (radio guide, or radio grade) for bulk radio frequency (RF) cable in the U.S. military's Joint Electronics Type Designation System. The suffix /U means for general utility use. The number was assigned sequentially. The RG unit indicator is no longer part of the JETDS system (MIL-STD-196E) and cable sold today under the RG-6 label is unlikely to meet military specifications. In practice, the term RG-6 is generally used to refer to coaxial cables with an 18 AWG center conductor and 75 ohm characteristic impedance.
+
+
+== Applications ==
+The most commonly recognized variety of RG-6 is cable television (CATV) distribution coax, used to route cable television signals to and within homes, and RG-6 type cables have become the standard for CATV, mostly replacing the smaller RG-59, in recent years. CATV distribution coax typically has a copper-clad steel (CCS) center conductor and a combination aluminum foil/aluminum braid shield, typically with low coverage (about 60%). RG-6 type cables are also used in professional video applications, carrying either base band analog video signals or serial digital interface (SDI) signals; in these applications, the center conductor is ordinarily solid copper, the shielding is much heavier (typically aluminum foil/95% copper braid), and tolerances are more tightly controlled, to improve impedance stability.
+
+
+== Connectors ==
+RG-6 cables typically are fitted with various types of connector at each end; in CATV distribution applications, these are typically F connector style; in professional base band video, BNC connectors; and in consumer a/v applications other than RF and CATV, RCA plugs.
+
+
+== Types ==
+RG-6 is available in three different types designed for various applications. "Plain" or "house" wire is designed for indoor or external house wiring. "Flooded" cable is infused with water blocking gel for use in underground conduit or direct burial. "Messenger" or "Aerial" may contain some waterproofing but is distinguished by the addition of a steel messenger wire along its length to carry the tension involved in an aerial drop from a utility pole. "Plenum" wire comes with a special Teflon outer jacket designed for use in ventilation ducts to meet fire codes.
+
+
+== Attenuation/signal loss ==
+Cables attenuate the signal proportional with the length. Attenuation increases with frequency due to the skin effect.
+
+
+== Specifications ==
+RG-6 has many specifications: F6TSSV, F6TSSVcu, F6TVS, F6TVScu, F660BV, F660BVcu, F660BVF,F660BVM, F690BV, F690BVcu, F690BVF, F690BVM maximum range.
+
+
+== References ==
+
+
+== External links ==
+COAX History
+What Does "RG-6" Mean?

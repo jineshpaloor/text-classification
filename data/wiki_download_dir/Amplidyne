@@ -1,0 +1,40 @@
+Amplidyne
+An amplidyne is an electromechanical amplifier invented during World War II by Ernst Alexanderson. It is usually an AC motor driving a DC generator with modifications to increase the power gain available. A small electrical signal can control the position of a large motor using this approach.
+
+
+== How an amplidyne works ==
+An amplidyne is a special type of motor-generator which uses regeneration to increase its gain. Energy comes from the motor, and the power output is controlled by changing the field current of the generator. In a typical generator the load brushes are positioned perpendicular to the magnetic field flux. To convert a generator to an amplidyne, what would normally be the load brushes are connected together and the output is taken from another set of brushes that are parallel with the field. The perpendicular brushes are now called the 'quadrature' brushes. This simple change can increase the gain by a factor of 10,000 or more.
+Historically, amplidynes were one of the first amplifiers to generate very high power (tens of kilowatts), allowing precise feedback control of heavy machinery. Vacuum tubes of reasonable size were unable to deliver enough power to control large motors, but vacuum tube circuits driving the input of an amplidyne could be used to boost small signals up to the power needed to drive large motors. Early (World War II era) gun tracking and radar systems used this approach.
+Amplidynes are now obsolete technology. Modern electronic devices for controlling power in the kilowatt range include MOSFET and IGBT devices.
+
+
+== How it is used in a gun mount ==
+
+In its simplest form, an amplidyne follow-up system consists of:
+a synchro control transformer;
+an amplifier;
+the amplidyne motor-generator, which is similar to a Ward Leonard control drive;
+and the follow-up DC motor which drives the load to be positioned.
+Chapter 10 of the U.S. Navy manual Naval Ordnance and Gunnery, Volume 1 (1957) explains the operation of the amplidyne:
+"The synchro control transformer receives the order signal which indicates electrically what the position of the load should be. The rotor of the synchro control transformer is turned by the response shaft, which is geared to the load and so indicates what the position of the load actually is. The synchro compares the actual load position with the ordered position; and, if the two do not agree, it generates an alternating-current signal which is transmitted to the amplifier. The angular difference between the two positions is called the error, and the signal to the amplifier is the error signal. The error signal indicates by its electrical characteristics the size and direction of the error. If no error exists, the system is said to be in correspondence and the error signal is zero."
+Specifically, the phase of the control transformer's output (in phase with the synchro power source, or opposite phase) provided the polarity of the error signal. A phase-sensitive demodulator, with the synchro AC power as its reference, created the DC error signal of the required polarity.
+
+
+== Applications ==
+Amplidynes were initially used for electric elevators and to point naval guns, and antiaircraft artillery radar such as SCR-584 in 1942. Later used to control processes in steelworks.
+Used to remotely operate the control rods in early nuclear submarine designs (S3G Triton).
+Diesel-electric locomotive control systems. Early ALCO road-switcher locomotives used this technology.
+
+
+== See also ==
+
+
+== References ==
+
+^ a b Naval Ordnance and Gunnery, Volume 1, 1957, U.S. Navy Manual, Chapter 10.
+^ G. J. Thaler and M. L. Wilcox, Electric Machines, Wiley, New York, 1966, pp. 135-149.
+
+
+== External links ==
+US Patent 2236984 Electric motor control system
+Adventures in Cybersound website

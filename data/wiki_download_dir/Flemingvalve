@@ -1,0 +1,59 @@
+Fleming valve
+The Fleming valve, also called the Fleming oscillation valve, was a vacuum tube (or "thermionic valve") invented in 1904 by John Ambrose Fleming as a detector for receivers used in electromagnetic wireless telegraphy. It was the first thermionic diode, a vacuum tube whose purpose is to conduct current in one direction and block current flowing in the opposite direction. The thermionic diode was later widely used as a rectifier — a device which converts alternating current (AC) into direct current (DC) — in the power supplies of a wide range of electronic devices, until largely replaced by the semiconductor diode in the 1960s. The Fleming valve was the forerunner of all vacuum tubes, which dominated electronics for 50 years. The IEEE has described it as "one of the most important developments in the history of electronics", and it is on the List of IEEE Milestones for electrical engineering.
+
+
+== How it works ==
+The valve consists of an evacuated glass bulb containing two electrodes: a cathode in the form of a "filament", a loop of carbon or fine tungsten wire, similar to that used in the light bulbs of the time, and an anode (plate) consisting of a sheet metal plate. Although in early versions the anode was a flat metal plate placed next to the cathode, in later versions it became a metal cylinder surrounding the cathode. In some versions, a grounded copper screen surrounded the bulb to shield against the influence of external electric fields.
+In operation, a separate current flows through the cathode "filament", heating it so that some of the electrons in the metal gain sufficient energy to escape their parent atoms into the vacuum of the tube, a process called thermionic emission. The AC current to be rectified is applied between the filament and the plate. When the plate has a positive voltage with respect to the filament, the electrons are attracted to it and an electric current flows from filament to plate. In contrast, when the plate has a negative voltage with respect to the filament, the electrons are not attracted to it and no current flows through the tube (unlike the filament, the plate does not emit electrons). As current can pass through the valve in one direction only, it therefore "rectifies" an AC current to a pulsing DC current.
+This simple operation was somewhat complicated by the presence of residual air in the valve, as the vacuum pumps of Fleming's time were unable to create as high a vacuum as exists in modern vacuum tubes. At high voltages, the valve could become unstable and oscillate, but this occurred at voltages far above those normally used.
+
+
+== History ==
+The Fleming valve was the first practical application of thermionic emission, discovered in 1873 by Frederick Guthrie. As a result of his work on the incandescent light bulb, Thomas Edison made his own discovery of the phenomenon in 1880, which led to it being called the Edison effect. Edison was granted a patent for this device as part of an electrical indicator in 1884, but did not find a practical use for it. Professor Fleming of University College London consulted for the Edison Electric Light Company from 1881-1891, and subsequently for the Marconi Wireless Telegraph Company.
+In 1901 Fleming designed the transmitter used by Guglielmo Marconi in the first trasmission of radio waves across the Atlantic from Poldhu, England, to Nova Scotia, Canada. The distance between the two points was about 3,500 kilometres (2,200 mi). Although the contact, reported November 12, 1901, was widely heralded as a great scientific advance at the time, there is also some skepticism about the claim, because the received signal, the three dots of the Morse code letter "S", was so weak the primitive receiver had difficulty distinguishing it from atmospheric radio noise caused by static discharges, leading later critics to suggest it may have been random noise. Regardless, it was clear to Fleming that reliable transatlantic communication with the existing transmitter required more sensitive receiving apparatus.
+
+The receiver for the transatlantic demonstration employed a coherer, which had poor sensitivity and degraded the tuning of the receiver. This led Fleming to look for a detector which was more sensitive and reliable while at the same time being better suited for use with tuned circuits. In 1904 Fleming tried an Edison effect bulb for this purpose, and found that it worked well to rectify high frequency oscillations and thus allow detection of the rectified signals by a galvanometer. On November 16, 1904, he applied for a US patent for what he termed an oscillation valve. This patent was subsequently issued as number 803,684 and found immediate utility in the detection of messages sent by Morse code.
+
+
+=== Oscillation valves ===
+The Fleming valve proved to be the start of a technological revolution. After reading Fleming's 1905 paper on his oscillation valve, American engineer Lee DeForest in 1906 created a three-element vacuum tube, the Audion, by adding a wire grid between cathode and anode. It was the first electronic amplifying device, allowing the creation of amplifiers and continuous wave oscillators. De Forest quickly refined his device into the triode, which became the basis of long-distance telephone and radio communications, radars, and early digital computers for 50 years, until the advent of the transistor in the 1960s. Fleming sued De Forest for infringing his valve patents, resulting in decades of expensive and disruptive litigation, which were not settled until 1943 when the United States Supreme Court ruled Fleming's patent invalid.
+
+
+=== Power applications ===
+Later, when vacuum tube equipment began to be powered from wall power by transformers instead of batteries, the Fleming valve was developed into a rectifier to produce the DC plate (anode) voltage required by other vacuum tubes. Around 1914 Irving Langmuir at General Electric developed a high voltage version called the Kenotron which was used to power x-ray tubes. As a rectifier, the tube was used for high voltage applications but its high internal resistance made it inefficient in low voltage, high current applications. Until vacuum tube equipment was replaced by transistors in the 1970s, radios and televisions usually had one or more diode tubes.
+
+
+== References and notes ==
+
+
+=== Citations ===
+^ "Milestones:Fleming Valve, 1904". IEEE Global History Network. IEEE. Retrieved 29 July 2011. 
+^ Radio Communications: A Brief Synopsis
+^ John Ambrose Fleming (1849-1945) By W A Atherton, Published in Wireless World August 1990
+^ The Supreme Court invalidated the patent because of an improper disclaimer and later maintained the technology in the patent was known art when filed. For more see, Misreading the Supreme Court: A Puzzling Chapter in the History of Radio. Mercurians.org.
+
+
+=== Patents ===
+Issued
+U.S. Patent 803,684 - Instrument for converting alternating electric currents into continuous currents (Fleming valve patent)
+Cited by
+U.S. Patent 1,290,438, Jan 7, 1910 : Fleming valve improvement by R. A. Weagant
+U.S. Patent 954,619, Apr 12, 1910 : John Ambrose Fleming patent
+U.S. Patent 1,379,706, Mar 10, 1917 : Fleming valve improvement by R. A. Weagant
+U.S. Patent 1,252,520, Jan 8, 1918 : Fleming valve improvement by R. A. Weagant
+U.S. Patent 1,278,535, Sep 10, 1918 : Fleming valve improvement by R. A. Weagant
+U.S. Patent 1,289,981, Dec 31, 1918 : Fleming valve improvement by R. A. Weagant
+U.S. Patent 1,306,208, Jun 10, 1919 : Fleming valve circuit improvement by R. A. Weagant
+U.S. Patent 1,338,889, May 4, 1920 : Fleming valve improvement by R. A. Weagant
+U.S. Patent 1,347,894, Jul 27, 1920 : Inverter converter by L. W. Chubb
+U.S. Patent 1,380,206, May 31, 1921 : Fleming valve improvement by R. A. Weagant
+U.S. Patent RE16,363, Jun 15, 1926 : Inverter converter by L. W. Chubb
+U.S. Patent 1,668,060, May 1, 1928 : Fleming valve circuit improvement by P. E. Edelman
+U.S. Patent 2,472,760, Jun 7, 1949 : Electrode improvement by H. L. Ratchford
+
+
+== External links ==
+IEEE History Center
+November 1904: Fleming discovers the thermionic (or oscillation) valve, or 'diode'
+Spark Museum
+Reverse Time Page

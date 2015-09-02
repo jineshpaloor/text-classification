@@ -1,0 +1,51 @@
+Lynch motor
+The Lynch motor is a unique design of axial gap permanent magnet brushed DC electric motor. The motor design has a flat "pancake"-like appearance and was invented by Cedric Lynch from 1979–onwards, with the relevant patent filed on 18 December 1986. The design, components and tooling was slowly improved , mainly by Cedric, but also with a lot of input from Richard Fletcher and his project team at London Innovation including William Read, from 1985 to late 1992. London Innovation Network (LIN) financed the patents, ( in Cedric's name), and the building of early prototypes, including a batch made by Ourousoff Engineering, which incorporated some ideas used in subsequent motors. Around 1989 onwards LIN had been searching for a company to manufacture the motor, having already successfully made small batches and individual units , like the motors used in the Countess of Arrans world electric boat speed record attempt in 1989, those motors being assembled by Cedric Lynch, with help from William Read, who assembled armatures in his hospital bed after a car accident.(Motorboats Monthly Jan 1990) Hotax where Trevor Lees worked was one of the companies approached, and after Cedric showed them how to make the motor they declined to manufacture it. Instead Trevor left them in January 1993 , and joined the Lynch Motor Company ( part of LIN), as factory manager on a salary, to assist Cedric Lynch and LIN in setting up larger scale production, using tooling previously developed, and new tooling designed by Lynch, some of which was made by a local toolmaker Roger Cox. The motor was developed into a full production item primarily by Cedric Lynch and this small team. And manufactured by the Lynch Motor Company Ltd as the Lynch motor. After a Rift developed between Lynch and LIN and the Lynch Motor Company in late 1996 ( November)the intellectual property was held in Lynch I P, with LIN ( Lynch Motor Co), having 50% rights, and the Lynch name, and a new company was formed LEMCO, who had the other 50% of the rights. This consisted of J P Hansen group main shareholder, with Cedric and Trevor Lees as small shareholders. Cedric Lynch joined the Indian company Agni Motors in 2002 where it is built and sold as Agni motor. A further licensed design was made by Briggs & Stratton as the Etek DC Motor. The latest model of Agni Motor is manufactured and distributed by Saietta Group, which has been formed following the merger of Agility Global and Agni Motors in May 2015.
+The motor design achieves an electrical efficiency of over 90%. It is built using iron ferrite blocks sandwiched between strips of metal—instead of traditional copper coil windings—and is held together purely by the strength of the magnets within it. The design given a nominal continuous output of around 15 horsepower (11 kW) in a package weighing 11 kilograms (24 lb).
+
+
+== Description ==
+
+The traditional Lynch motor design has a spinning armature held on a spindle between two banks of eight fixed permanent magnets. Also stationary are eight brushes (four negative, four positive) on the front side which allow electric current from the power source to reach the armature.
+The design of the Lynch motor armature is significantly different compared to other types of motor. The armature coils are formed from insulated copper strips each in a 'U' shape (like a tuning fork). One leg is then bent 45 degrees clockwise, while the other leg is bent 45 degrees anticlockwise. Each coil leg contains several bends before reaching the outside of the armature to be able to pass radially through the ferrite ring before the ends finish 90 degree apart. At the outer edge each copper strip has a crimp forming an electrical connection to its companion 90 degrees rotated. The inner edge of the copper strips have the insulation removed on the front face only, to form the commutator surface where the brushes make contact.
+Between each copper coil leg are placed the pieces of the sub-divided and insulated iron ferrite cores making up the ferrite ring. The ferrite ring carries the magnetic flux between the fixed permanent magnets, without needing to use the copper strips (which carry electric current). As the armature spins, current flows from the one brush, into the commutator, outwards along one copper coil leg, which is sandwiched between the iron ferrite core pieces. When the current reaches the connecting crimp positioned on the outer edge, it transfers to a new leg on rear side of the armature and runs back to the centre, again sandwiched between ferrites 45-degrees out of phase from the previous ferrites. The electric current then arrives back at the centre, 90-degrees later and swaps sides back to the front face before reaching the corresponding brush (of the opposite electrical polarity) 135-degrees from the initial brush.
+In the design of the Lynch motor armature, the iron laminations are made from individual thin rectangular pieces slotted together to form a full circular ring. Because magnetic flux passes sideways through the laminations along one axis only, it is possible to use grain-oriented material normally used in large transformers. This has much better magnetic properties along the grain orientation but worse properties in other directions. In a traditional electric motor it gives little or no benefit, but in the Lynch motor leads to higher efficiencies.
+
+
+== Production ==
+Small-scale production in 1988 with the electric vehicle conversion firm London Innovation and later with the Lynch Electric Motor Company (LEMCO). In 1989 four of them powered the boat An Stradag, driven by the Countess of Arran, to a world record speed for an electric boat of just over 80 kilometres per hour (50 mph). The motor was adopted by the Swiss company ASMO for use in its electric go-kart drive systems. Its efficiency extends the life of the batteries and so improves the economics of running an electric kart track.
+The patents and license rights for the manufacturing of the Lynch motor are held by the Lynch IP company, which has sold a license to Briggs and Stratton to manufacture the ETEK motor.
+LEMCO continued to manufacture motors and now trades under the name of LMC (Lynch Motor Company) which now owns the Lynch IP company and therefore all rights and patents pertaining to the motor.
+In 2009, Cedric Lynch parted company with LMC and is working for Agni Motors, which is producing similar motors.
+Lynch motors are mentioned as being a unique product in the documentary "The White Diamond" about a lighter than air ship: "This is actually an interesting motor. It is designed by somebody called Lynch in England. He never went to University and doesn't know any mathematics and stuff like that, but he taught himself electrical engineering. And it turns out the motor he made is one of the world's leading motors in terms of power and mass. Lynch developed his own kind of algebra to do that but no other academic can understand what he's doing, but he seems to know more than many academics in electrical engineering departments because this motor is of very good performance ... the best that I could find."
+Lynch motors powered world's first manned electric helicopter, designed and flown by Pascal Chretien. This unique helicopter set a Guinness World Record on August 12, 2011 and received the IDTechEx Electric Vehicles Land Sea & Air award in 2012.
+
+
+== Recent projects ==
+2005 - ENV fuel cell motorcycle
+Orange Juice electric dragster with a unique four wheel drive unit.
+30 July 2008 - Four of the LMC version of the Lynch motor were used in a modified G-Wiz by the show Top Gear to beat a Ford Mustang in a straight-line race to 100 mph.
+12 June 2009, Rob Barber won the inaugural Manx TTxGP on an Agni Motors bike powered by an Agni motor, an improved version of the original Lynch motor.
+12 August 2011, Pascal Chretien flew world's first manned electric helicopter powered by two Agni motors 95R series, the Solution F/Chretien Helicopter.
+
+
+== Patents ==
+US 4823039 
+USA number 4823039
+US 6040645 
+USA number 6040645
+US 6459179 
+USA number 6459179
+EP 0736232 
+EP 0884826 
+Germany number 69419528.6
+Great Britain number 0884826
+Japan number 3120083
+Europe number 98114008.0 (CH, DE, FR, GB, LI, IT)
+
+
+== References ==
+
+Saietta Group Website
+
+
+== See also ==

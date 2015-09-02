@@ -1,0 +1,27 @@
+Voltage spike
+In electrical engineering, spikes are fast, short duration electrical transients in voltage (voltage spikes), current (current spikes), or transferred energy (energy spikes) in an electrical circuit.
+Fast, short duration electrical transients (overvoltages) in the electric potential of a circuit are typically caused by
+Lightning strikes
+Power outages
+Tripped circuit breakers
+Short circuits
+Power transitions in other large equipment on the same power line
+Malfunctions caused by the power company
+Electromagnetic pulses (EMP) with electromagnetic energy distributed typically up to the 100 kHz and 1 MHz frequency range.
+Inductive spikes
+In the design of critical infrastructure and military hardware, one concern is of pulses produced by nuclear explosions, whose nuclear electromagnetic pulses distribute large energies in frequencies from 1 kHz into the gigahertz range through the atmosphere.
+The effect of a voltage spike is to produce a corresponding increase in current (current spike). However some voltage spikes may be created by current sources. Voltage would increase as necessary so that a constant current will flow. Current from a discharging inductor is one example.
+For sensitive electronics, excessive current can flow if this voltage spike exceeds a material's breakdown voltage, or if it causes avalanche breakdown. In semiconductor junctions, excessive electric current may destroy or severely weaken that device. An avalanche diode, transient voltage suppression diode, transil, varistor, overvoltage crowbar, or a range of other overvoltage protective devices can divert (shunt) this transient current thereby minimizing voltage.
+While generally referred to as a voltage spike, the phenomenon in question is actually an energy spike, in that it is measured not in volts but in joules; a transient response defined by a mathematical product of voltage, current, and time.
+Voltage spikes may be created by a rapid buildup or decay of a magnetic field, which may induce energy into the associated circuit. However voltage spikes can also have more mundane causes such as a fault in a transformer or higher-voltage (primary circuit) power wires falling onto lower-voltage (secondary circuit) power wires as a result of accident or storm damage.
+Voltage spikes may be longitudinal (common) mode or metallic (normal or differential) mode. Some equipment damage from surges and spikes can be prevented by use of surge protection equipment. Each type of spike requires selective use of protective equipment. For example a common mode voltage spike may not even be detected by a protector installed for normal mode transients.
+An uninterrupted voltage increase that lasts more than a few seconds is usually called a "voltage surge" rather than a spike. These are usually caused by malfunctions of the electric power distribution system.
+
+
+== See also ==
+Uninterruptible power supply
+Power quality
+Surge protector
+
+
+== References ==

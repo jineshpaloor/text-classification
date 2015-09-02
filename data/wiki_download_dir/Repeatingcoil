@@ -1,0 +1,8 @@
+Repeating coil
+In telecommunications, a repeating coil is a voice-frequency transformer characterized by a closed magnetic core, a pair of identical balanced primary (line) windings, a pair of identical but not necessarily balanced secondary (drop) windings, and low transmission loss at voice frequencies. It permits transfer of voice currents from one winding to another by magnetic induction, matches line and drop impedances, and prevents direct conduction between the line and the drop.
+It is a special application of an isolation transformer, and is often used to prevent ground loops or earth loops, which cause humming or buzzing in audio circuits. It also prevents low direct current voltages from passing.
+
+
+== References ==
+
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C" (in support of MIL-STD-188).

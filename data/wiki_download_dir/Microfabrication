@@ -1,0 +1,124 @@
+Microfabrication
+Microfabrication is the process of fabrication of miniature structures of micrometre scales and smaller. Historically, the earliest microfabrication processes were used for integrated circuit fabrication, also known as "semiconductor manufacturing" or "semiconductor device fabrication". In the last two decades microelectromechanical systems (MEMS), microsystems (European usage), micromachines (Japanese terminology) and their subfields, microfluidics/lab-on-a-chip, optical MEMS (also called MOEMS), RF MEMS, PowerMEMS, BioMEMS and their extension into nanoscale (for example NEMS, for nano electro mechanical systems) have re-used, adapted or extended microfabrication methods. Flat-panel displays and solar cells are also using similar techniques.
+Miniaturization of various devices presents challenges in many areas of science and engineering: physics, chemistry, materials science, computer science, ultra-precision engineering, fabrication processes, and equipment design. It is also giving rise to various kinds of interdisciplinary research. The major concepts and principles of microfabrication are microlithography, doping, thin films, etching, bonding, and polishing.
+
+
+== Fields of Use ==
+Microfabricated devices include:
+Fabrication of integrated circuits (“microchips”) (see semiconductor manufacturing)
+Microelectromechanical systems (MEMS), MOEMS,
+microfluidic devices (ink jet print heads)
+solar cells
+Flat Panel Displays (see AMLCD and Thin Film Transistor)
+Sensors (micro-sensors) (biosensors, nanosensors)
+PowerMEMSs, fuel cells, energy harvesters/scavengers
+
+
+== Origins ==
+Microfabrication technologies originate from the microelectronics industry, and the devices are usually made on silicon wafers even though glass, plastics and many other substrate are in use. Micromachining, semiconductor processing, microelectronic fabrication, semiconductor fabrication, MEMS fabrication and integrated circuit technology are terms used instead of microfabrication, but microfabrication is the broad general term.
+Traditional machining techniques such as electro-discharge machining, spark erosion machining, and laser drilling have been scaled from the millimeter size range to micrometer range, but they do not share the main idea of microelectronics-originated microfabrication: replication and parallel fabrication of hundreds or millions of identical structures. This parallelism is present in various imprint, casting and moulding techniques which have successfully been applied in the microregime. For example, injection moulding of DVDs involves fabrication of submicrometer-sized spots on the disc.
+
+
+== Microfabrication processes ==
+Microfabrication is actually a collection of technologies which are utilized in making microdevices. Some of them have very old origins, not connected to manufacturing, like lithography or etching. Polishing was borrowed from optics manufacturing, and many of the vacuum techniques come from 19th century physics research. Electroplating is also a 19th-century technique adapted to produce micrometre scale structures, as are various stamping and embossing techniques.
+To fabricate a microdevice, many processes must be performed, one after the other, many times repeatedly. These processes typically include depositing a film, patterning the film with the desired micro features, and removing (or etching) portions of the film. Thin film metrology is used typically during each of these individual process steps, to ensure the film structure has the desired characteristics in terms of thickness (t), refractive index (n) and extinction coefficient (k), for suitable device behavior. For example, in memory chip fabrication there are some 30 lithography steps, 10 oxidation steps, 20 etching steps, 10 doping steps, and many others are performed. The complexity of microfabrication processes can be described by their mask count. This is the number of different pattern layers that constitute the final device. Modern microprocessors are made with 30 masks while a few masks suffice for a microfluidic device or a laser diode. Microfabrication resembles multiple exposure photography, with many patterns aligned to each other to create the final structure.
+
+
+=== Substrates ===
+Microfabricated devices are not generally freestanding devices but are usually formed over or in a thicker support substrate. For electronic applications, semiconducting substrates such as silicon wafers can be used. For optical devices or flat panel displays, transparent substrates such as glass or quartz are common. The substrate enables easy handling of the micro device through the many fabrication steps. Often many individual devices are made together on one substrate and then singulated into separated devices toward the end of fabrication.
+
+
+=== Deposition or Growth ===
+Microfabricated devices are typically constructed using one or more thin films (see Thin film deposition). The purpose of these thin films depends on the type of device. Electronic devices may have thin films which are conductors (metals), insulators (dielectrics) or semiconductors. Optical devices may have films which are reflective, transparent, light guiding or scattering. Films may also have a chemical or mechanical purpose as well as for MEMS applications. Examples of deposition techniques include:
+Thermal oxidation
+chemical vapor deposition (CVD)
+APCVD
+LPCVD
+PECVD
+
+Physical vapor deposition(PVD)
+sputtering
+evaporative deposition
+Electron beam PVD
+
+epitaxy
+
+
+=== Patterning ===
+It is often desirable to pattern a film into distinct features or to form openings (or vias) in some of the layers. These features are on the micrometer or nanometer scale and the patterning technology is what defines microfabrication. The patterning technique typically uses a 'mask' to define portions of the film which will be removed. Examples of patterning techniques include:
+Photolithography
+Shadow Masking
+
+
+=== Etching ===
+
+Etching is the removal of some portion of the thin film or substrate. The substrate is exposed to an etching (such as an acid or plasma) which chemically or physically attacks the film until it is removed. Etching techniques include:
+Dry etching (Plasma etching) such as Reactive-ion etching (RIE) or Deep reactive-ion etching(DRIE)
+Wet etching or Chemical Etching
+
+
+=== Other ===
+A wide variety of other processes for cleaning, planarizing, or modifying the chemical properties of the microfabricated devices can also be performed. Some examples include:
+Doping by either thermal diffusion or ion implantation
+Chemical-mechanical planarization (CMP)
+Wafer cleaning, also known as "surface preparation" (see below)
+Wire bonding
+
+
+=== Micro cutting / microfabrication ===
+Micro cutting/milling is an alternative to lithographic techniques, by downscaling macro processes such as cutting and forming, to tool sizes under 100 µm in diameter.
+
+
+== Cleanliness in wafer fabrication ==
+Microfabrication is carried out in cleanrooms, where air has been filtered of particle contamination and temperature, humidity, vibrations and electrical disturbances are under stringent control. Smoke, dust, bacteria and cells are micrometers in size, and their presence will destroy the functionality of a microfabricated device.
+Cleanrooms provide passive cleanliness but the wafers are also actively cleaned before every critical step. RCA-1 clean in ammonia-peroxide solution removes organic contamination and particles; RCA-2 cleaning in hydrogen chloride-peroxide mixture removes metallic impurities. Sulfuric acid-peroxide mixture (a.k.a. Piranha) removes organics. Hydrogen fluoride removes native oxide from silicon surface. These are all wet cleaning steps in solutions. Dry cleaning methods include oxygen and argon plasma treatments to remove unwanted surface layers, or hydrogen bake at elevated temperature to remove native oxide before epitaxy. Pre-gate cleaning is the most critical cleaning step in CMOS fabrication: it ensures that the ca. 2 nm thick oxide of a MOS transistor can be grown in an orderly fashion. Oxidation, and all high temperature steps are very sensitive to contamination, and cleaning steps must precede high temperature steps.
+Surface preparation is just a different viewpoint, all the steps are the same as described above: it is about leaving the wafer surface in a controlled and well known state before you start processing. Wafers are contaminated by previous process steps (e.g. metals bombarded from chamber walls by energetic ions during ion implantation), or they may have gathered polymers from wafer boxes, and this might be different depending on wait time.
+Wafer cleaning and surface preparation work a little bit like the machines in a bowling alley: first they remove all unwanted bits and pieces, and then they reconstruct the desired pattern so that the game can go on.
+
+
+== See also ==
+Semiconductor fabrication
+Integrated circuit
+Microelectronics
+Sensors
+Actuators
+Transducers
+Microfluidics
+3D microfabrication
+
+
+== References ==
+^ Nitaigour Premchand Mahalik (2006) "Micromanufacturing and Nanotechnology", Springer, ISBN 3-540-25377-7
+
+
+== Further reading ==
+Journal of Microelectromechanical Systems (J.MEMS)
+Sensors and Actuators A: Physical
+Sensors and Actuators B: Chemical
+Journal of Micromechanics and Microengineering
+Lab on a Chip
+IEEE Transactions of Electron Devices,
+Journal of Vacuum Science and Technology A: Vacuum, Surfaces, Films
+Journal of Vacuum Science and Technology B: Microelectronics and Nanometer Structures: Processing, Measurement, and Phenomena
+
+
+=== Books about microfabrication ===
+Introduction to Microfabrication (2004) by S. Franssila. ISBN 0-470-85106-6
+Fundamentals of Microfabrication (2nd ed, 2002) by M. Madou. ISBN 0-8493-0826-7
+Micromachined Transducers Sourcebook by Gregory Kovacs (1998)
+Brodie & Murray: The Physics of Microfabrication (1982),
+Nitaigour Premchand Mahalik (2006) "Micromanufacturing and Nanotechnology", Springer, ISBN 3-540-25377-7
+D. Widmann, H. Mader, H. Friedrich: Technology of Integrated Circuits (2000),
+J. Plummer, M.Deal, P.Griffin: Silicon VLSI Technology (2000),
+G.S. May & S.S. Sze: Fundamentals of Semiconductor Processing (2003),
+P. van Zant: Microchip Fabrication (2000, 5th ed),
+R.C. Jaeger: Introduction to Microelectronic Fabrication (2001, 2nd ed),
+S. Wolf & R.N. Tauber: Silicon Processing for the VLSI Era, Vol 1: Process technology (1999, 2nd ed),
+S.A. Campbell: The Science and Engineering of Microelectronic Fabrication (2001, 2nd ed)
+T. Hattori: Ultraclean Surface Processing of Silicon Wafers : Secrets of VLSI Manufacturing
+(2004)Geschke, Klank & Telleman, eds.: Microsystem Engineering of Lab-on-a-chip Devices, 1st ed, John Wiley & Sons. ISBN 3-527-30733-8.
+
+
+== External links ==
+Videos and animations on microfabrication techniques and related applications.
+MicroManufacturing Conference.

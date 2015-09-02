@@ -1,0 +1,36 @@
+Process control
+Process control is an engineering discipline that deals with architectures, mechanisms and algorithms for maintaining the output of a specific process within a desired range. For instance, the temperature of a chemical reactor may be controlled to maintain a consistent product output.
+Process control is extensively used in industry and enables mass production of consistent products from continuously operated processes such as oil refining, paper manufacturing, chemicals, power plants and many others. Process control enables automation, by which a small staff of operating personnel can operate a complex process from a central control room.
+
+
+== Background ==
+
+Process control may either use feedback or it may be open loop. Control may also be continuous (automobile cruise control) or cause a sequence of discrete events, such as a timer on a lawn sprinkler (on/off) or controls on an elevator (logical sequence).
+A thermostat on a heater is an example of control that is on or off. A temperature sensor turns the heat source on if the temperature falls below the set point and turns the heat source off when the set point is reached. There is no measurement of the difference between the set point and the measured temperature (e.g. no error measurement) and no adjustment to the rate at which heat is added other than all or none.
+A familiar example of feedback control is cruise control on an automobile. Here speed is the measured variable. The operator (driver) adjusts the desired speed set point (e.g. 100 km/hr) and the controller monitors the speed sensor and compares the measured speed to the set point. Any deviations, such as changes in grade, drag, wind speed or even using a different grade of fuel (for example an ethanol blend) are corrected by the controller making a compensating adjustment to the fuel valve open position, which is the manipulated variable. The controller makes adjustments having information only about the error (magnitude, rate of change or cumulative error) although settings known as tuning are used to achieve stable control. The operation of such controllers is the subject of control theory.
+A commonly used control device called a programmable logic controller, or a PLC, is used to read a set of digital and analog inputs, apply a set of logic statements, and generate a set of analog and digital outputs.
+For example, if an adjustable valve were used to hold level in a tank the logical statements would compare the equivalent pressure at depth setpoint to the pressure reading of a sensor below the normal low liquid level and determine whether more or less valve opening was necessary to keep the level constant. A PLC output would then calculate an incremental amount of change in the valve position. Larger more complex systems can be controlled by a Distributed Control System (DCS) or SCADA system.
+
+
+== Types of processes using process control ==
+In practice, processes can be characterized as one or more of the following forms:
+Discrete – Found in many manufacturing, motion and packaging applications. Robotic assembly, such as that found in automotive production, can be characterized as discrete process control. Most discrete manufacturing involves the production of discrete pieces of product, such as metal stamping.
+Batch – Some applications require that specific quantities of raw materials be combined in specific ways for particular durations to produce an intermediate or end result. One example is the production of adhesives and glues, which normally require the mixing of raw materials in a heated vessel for a period of time to form a quantity of end product. Other important examples are the production of food, beverages and medicine. Batch processes are generally used to produce a relatively low to intermediate quantity of product per year (a few pounds to millions of pounds).
+Continuous – Often, a physical system is represented through variables that are smooth and uninterrupted in time. The control of the water temperature in a heating jacket, for example, is an example of continuous process control. Some important continuous processes are the production of fuels, chemicals and plastics. Continuous processes in manufacturing are used to produce very large quantities of product per year (millions to billions of pounds).
+Applications having elements of discrete, batch and continuous process control are often called hybrid applications.
+
+
+== Examples ==
+An anti-lock braking system (ABS) is a complex example, consisting of multiple inputs, conditions and outputs.
+Aircraft stability control is a highly complex example using multiple inputs and outputs.
+
+
+== See also ==
+
+
+== External links ==
+The Michigan Chemical Engineering Process Dynamics and Controls Open Textbook
+PID Control Theory and Best Practices
+Process Control Equipment Video Tutorials
+PID control virtual laboratory, free video tutorials, on-line simulators, advanced process control schemes
+Process & Control publication

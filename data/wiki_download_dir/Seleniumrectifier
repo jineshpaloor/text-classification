@@ -1,0 +1,27 @@
+Selenium rectifier
+A selenium rectifier is a type of metal rectifier, invented in 1933. They were used in power supplies for electronic equipment, and in high current battery charger applications until they were superseded by silicon diode rectifiers in the 1970s.
+The photoelectric and rectifying properties of selenium were observed by C. E. Fitts around 1886 but practical rectifier devices were not manufactured routinely until the 1930s. Compared with the earlier copper oxide rectifier, the selenium cell could withstand higher voltage but at a lower current capacity per unit area.
+
+
+== Construction ==
+
+Selenium rectifiers are made from stacks of aluminum or steel plates coated with about 1 μm of bismuth or nickel. A much thicker layer of selenium (50 to 60 μm) which has been doped with a halogen is deposited on top of the thin metal plating. The selenium is then converted into polycrystalline gray (hexagonal) form by annealing. Each plate is able to withstand about 20 volts in the reverse direction. The metal squares, or disks, also serve as heat sinks in addition to providing a mounting place for the selenium disks. Plates can be stacked indefinitely to withstand higher voltages. Stacks of thousands of miniature selenium disks have been used as high voltage rectifiers in television sets and photocopy machines.
+
+
+== Use ==
+Radio and television receivers used them from about 1947 to 1975 to provide up to a few hundred volts of plate voltage. Vacuum tube rectifiers had efficiencies of only 60% compared to the 85% of selenium rectifiers, partially because vacuum tube rectifiers required heating. Selenium rectifiers have no warm-up time unlike high vacuum rectifiers. Selenium rectifiers were also cheaper and simpler to specify and install than vacuum tubes. However they were later replaced by silicon diodes with high efficiencies (close to 100% at high voltages). Selenium rectifiers had the capability to act as current limiters which can temporarily protect the rectifier during a short circuit and provide stable current for charging batteries.
+
+
+== Properties ==
+A selenium rectifier is about the same size as copper oxide rectifiers, but much larger than a silicon or germanium diode. Selenium rectifiers have a long but not indefinite service life of 60,000 to 100,000 hours depending on rating and cooling. The rectifier can show some unforming of the rectifier characteristic after long storage. Each cell can withstand a reverse voltage around 25 volts, and has a forward voltage drop around 1 volt, which limits the efficiency at low voltages. Selenium rectifiers have an operating temperature limit of 130 C, and are not suitable for high-frequency circuits.
+
+
+== Replacement ==
+Selenium rectifiers had a shorter lifespan than desired. During catastrophic failure they produced significant quantities of malodorous and highly toxic fumes that let the repair technician know what the problem was. By far the most common failure mode was a progressive increase in forward resistance, increasing forward voltage drop and reducing the rectifier's efficiency. During the 1960s they began to be superseded by silicon rectifiers which exhibited lower forward voltage drop, lower cost, and higher reliability. They are still manufactured for exact replacement purposes but are not designed into new equipment.
+
+
+== Selenium diode computer logic ==
+In 1961 IBM started developing a low speed computer logic family that used selenium diodes with similar characteristics to silicon but cost less than one cent. The terminal development departments were begging for low cost and didn’t need speed. It was possible to punch eighth inch discs from a sheet of selenium diode. GE claimed they could make reliable selenium diodes. They could do better than the three to five year life of selenium rectifiers but TV manufacturers liked the shorter life. A design was achieved for a DDTL circuit with two levels of diode logic feeding one alloy transistor and no series input resistor or speed up capacitor. The family was called SMALL for Selenium Matrix ALloy Logic. The alloy transistor proved to be too fast for the selenium diode recovery. To solve this problem a selenium diode was connected around the base-emitter to slow it down. The two level logic was similar to the PLAs Programmable logic array that would come on the market many years later. Nearly any static logic function that yielded one output could be achieved with one transistor and a handful of cheap diodes. Several years later the selenium diodes indeed were not reliable and were replaced by silicon diodes. The logic family was packaged on SMS cards.
+
+
+== References ==

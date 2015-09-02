@@ -1,0 +1,63 @@
+Pontryagin's minimum principle
+Pontryagin's maximum (or minimum) principle is used in optimal control theory to find the best possible control for taking a dynamical system from one state to another, especially in the presence of constraints for the state or input controls. It was formulated in 1956 by the Russian mathematician Lev Pontryagin and his students. It has as a special case the Euler–Lagrange equation of the calculus of variations.
+The principle states, informally, that the control Hamiltonian must take an extreme value over controls in the set of all permissible controls. Whether the extreme value is maximum or minimum depends both on the problem and on the sign convention used for defining the Hamiltonian. The normal convention, which is the one used in Hamiltonian, leads to a maximum hence maximum principle but the sign convention used in this article, which apparently comes from, makes the extreme value a minimum, hence the unusual name minimum principle.
+If  is the set of values of permissible controls then the principle states that the optimal control u* must satisfy:
+
+where  is the optimal state trajectory and  is the optimal costate trajectory.
+The result was first successfully applied to minimum time problems where the input control is constrained, but it can also be useful in studying state-constrained problems.
+Special conditions for the Hamiltonian can also be derived. When the final time  is fixed and the Hamiltonian does not depend explicitly on time , then:
+
+and if the final time is free, then:
+
+More general conditions on the optimal control are given below.
+When satisfied along a trajectory, Pontryagin's minimum principle is a necessary condition for an optimum. The Hamilton–Jacobi–Bellman equation provides a necessary and sufficient condition for an optimum, but this condition must be satisfied over the whole of the state space.
+
+
+== Maximization and minimization ==
+The principle was first known as Pontryagin's maximum principle and its proof is historically based on maximizing the Hamiltonian. The initial application of this principle was to the maximization of the terminal speed of a rocket. However as it was subsequently mostly used for minimization of a performance index it has here been referred to as the minimum principle. Pontryagin's book solved the problem of minimizing a performance index.
+
+
+== Notation ==
+In what follows we will be making use of the following notation.
+
+
+== Formal statement of necessary conditions for minimization problem ==
+Here the necessary conditions are shown for minimization of a functional. Take  to be the state of the dynamical system with input , such that
+
+where  is the set of admissible controls and  is the terminal (i.e., final) time of the system. The control  must be chosen for all  to minimize the objective functional  which is defined by the application and can be abstracted as
+
+The constraints on the system dynamics can be adjoined to the Lagrangian  by introducing time-varying Lagrange multiplier vector , whose elements are called the costates of the system. This motivates the construction of the Hamiltonian  defined for all  by:
+
+where  is the transpose of .
+Pontryagin's minimum principle states that the optimal state trajectory , optimal control , and corresponding Lagrange multiplier vector  must minimize the Hamiltonian  so that
+
+for all time  and for all permissible control inputs . It must also be the case that
+
+Additionally, the costate equations
+
+must be satisfied. If the final state  is not fixed (i.e., its differential variation is not zero), it must also be that the terminal costates are such that
+
+These four conditions in (1)-(4) are the necessary conditions for an optimal control. Note that (4) only applies when  is free. If it is fixed, then this condition is not necessary for an optimum.
+
+
+== See also ==
+Lagrange multipliers on Banach spaces, Lagrangian method in calculus of variations
+
+
+== Notes ==
+
+
+== References ==
+Boltyanskii, V. G.; Gamkrelidze, R. V.; Pontryagin, L. S. (1956). К теории оптимальных процессов [Towards a Theory of Optimal Processes]. Dokl. Akad. Nauk SSSR (in Russian) 110 (1): 7–10. MR 0084444. 
+Pontryagin, L. S.; Boltyanskii, V. G.; Gamkrelidze, R. V.; Mishchenko, E. F. (1962). The Mathematical Theory of Optimal Processes. English translation. Interscience. ISBN 2-88124-077-1. 
+Fuller, A. T. (1963). "Bibliography of Pontryagin's maximum principle". J. Electronics & Control 15 (5): 513–517. 
+Kirk, D. E. (1970). Optimal Control Theory: An Introduction. Prentice Hall. ISBN 0-486-43484-2. 
+Sethi, S. P.; Thompson, G. L. (2000). Optimal Control Theory: Applications to Management Science and Economics (2nd ed.). Springer. ISBN 0-387-28092-8.  Slides are available at [1]
+Geering, H. P. (2007). Optimal Control with Engineering Applications. Springer. ISBN 978-3-540-69437-3. 
+Ross, I. M. (2009). A Primer on Pontryagin's Principle in Optimal Control. Collegiate. ISBN 978-0-9843571-0-9. 
+Cassel, Kevin W. (2013). Variational Methods with Applications in Science and Engineering. Cambridge University Press. 
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001), "Pontryagin maximum principle", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Pontryagin's Principle Illustrated with Examples

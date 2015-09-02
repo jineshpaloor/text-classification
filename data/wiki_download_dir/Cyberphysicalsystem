@@ -1,0 +1,51 @@
+Cyber-physical system
+A cyber-physical system (CPS) is a system of collaborating computational elements controlling physical entities. Today, a precursor generation of cyber-physical systems can be found in areas as diverse as aerospace, automotive, chemical processes, civil infrastructure, energy, healthcare, manufacturing, transportation, entertainment, and consumer appliances. This generation is often referred to as embedded systems. In embedded systems the emphasis tends to be more on the computational elements, and less on an intense link between the computational and physical elements.
+
+
+== Overview ==
+Unlike more traditional embedded systems, a full-fledged CPS is typically designed as a network of interacting elements with physical input and output instead of as standalone devices. The notion is closely tied to concepts of robotics and sensor networks with intelligence mechanisms proper of computational intelligence leading the pathway. Ongoing advances in science and engineering will improve the link between computational and physical elements by means of intelligent mechanisms, dramatically increasing the adaptability, autonomy, efficiency, functionality, reliability, safety, and usability of cyber-physical systems. This will broaden the potential of cyber-physical systems in several dimensions, including: intervention (e.g., collision avoidance); precision (e.g., robotic surgery and nano-level manufacturing); operation in dangerous or inaccessible environments (e.g., search and rescue, firefighting, and deep-sea exploration); coordination (e.g., air traffic control, war fighting); efficiency (e.g., zero-net energy buildings); and augmentation of human capabilities (e.g., healthcare monitoring and delivery).
+The US National Science Foundation (NSF) has identified cyber-physical systems as a key area of research. Starting in late 2006, the NSF and other United States federal agencies sponsored several workshops on cyber-physical systems. 
+
+
+== Mobile cyber-physical systems ==
+Mobile cyber physical systems, in which the physical system in question has inherent mobility, are a prominent subcategory of cyber-physical systems. Examples of mobile physical systems include mobile robotics and electronics transported by humans or animals. The rise in popularity of smartphones has increased interest in the area of mobile cyber-physical systems. Smartphone platforms make ideal mobile cyber-physical systems for a number of reasons, including:
+Significant computational resources, such as processing capability, local storage
+Multiple sensory input/output devices, such as touch screens, cameras, GPS chips, speakers, microphone, light sensors, proximity sensors
+Multiple communication mechanisms, such as WiFi, 3G, EDGE, Bluetooth for interconnecting devices to either the Internet, or to other devices
+High-level programming languages that enable rapid development of mobile CPS node software, such as Java, Objective C, or C#
+Readily-available application distribution mechanisms, such as the Android Market and Apple App Store
+End-user maintenance and upkeep, including frequent re-charging of the battery
+For tasks that require more resources than are locally available, one common mechanism for rapid implementation of smartphone-based mobile cyber-physical system nodes utilizes the network connectivity to link the mobile system with either a server or a cloud environment, enabling complex processing tasks that are impossible under local resource constraints. Examples of mobile cyber-physical systems include applications to track and analyze CO2 emissions, detect traffic accidents, insurance telematics  and provide situational awareness services to first responders, measure traffic, and monitor cardiac patients.
+
+
+== Examples ==
+Common applications of CPS typically fall under sensor-based communication-enabled autonomous systems. For example, many wireless sensor networks monitor some aspect of the environment and relay the processed information to a central node. Other types of CPS include smart grid, autonomous automotive systems, medical monitoring, process control systems, distributed robotics, and automatic pilot avionics.
+A real-world example of such a system is the Distributed Robot Garden at MIT in which a team of robots tend a garden of tomato plants. This system combines distributed sensing (each plant is equipped with a sensor node monitoring its status), navigation, manipulation and wireless networking.
+A focus on the control system aspects of CPS that pervade critical infrastructure can be found in the efforts of the Idaho National Laboratory and collaborators researching resilient control systems. This effort takes a holistic approach to next generation designs, and considers the resilience aspects that are not well quantified, such as cyber security, human interaction and complex interdependencies.
+Another example is MIT's ongoing CarTel project where a fleet of taxis collecting real-time traffic information in the Boston area. Together with historical data, this information is then used for calculating fastest routes for a given time of the day.
+In industry domain the Cyber-Physical Systems empowered by Cloud technologies lead to new approaches that pave the path to Industry 4.0 as the European Commission IMC-AESOP project with partners such as Schneider Electric, SAP, Honeywell, Microsoft etc. demonstrated.
+Cyber-Physical Models for Future Manufacturing—With the motivation a cyber-physical system, a "coupled-model" approach was developed. The coupled model is a digital twin of the real machine that operates in the cloud platform and simulates the health condition with an integrated knowledge from both data driven analytical algorithms as well as other available physical knowledge. The coupled model first constructs a digital image from the early design stage. System information and physical knowledge are logged during product design, based on which a simulation model is built as a reference for future analysis. Initial parameters may be statistically generalized and they can be tuned using data from testing or the manufacturing process using parameter estimation. The simulation model can be considered as a mirrored image of the real machine, which is able to continuously record and track machine condition during the later utilization stage. Finally, with ubiquitous connectivity offered by cloud computing technology, the coupled model also provides better accessibility of machine condition for factory managers in cases where physical access to actual equipment or machine data is limited.
+
+
+== Design ==
+
+A challenge in the development of embedded and cyber-physical systems is the gap between the various involved disciplines, like software and mechanical engineering. In a marketplace, where rapid innovation is essential, engineers from all disciplines need to be able to explore system designs collaboratively, allocating responsibilities to software and physical elements, and analyzing trade-offs between them. Recent advances show that coupling disciplines by using co-simulation, will allow disciplines to cooperate without enforcing new tools or design methods. Results from the MODELISAR project show that this approach is viable by proposing a new standard for co-simulation in the form of the Functional Mock-up Interface.
+Design and Deploy a Cyber Physical Production Systems can be based on a 5C architecture (connection, conversion, cyber, cognition, and configuration). Please see http://www.imscenter.net/cyber-physical-platform . In the "Connection" level, devices can be designed to self-connect and self-sensing for its behavior. In the "Conversion" level, data from self-connected devices and sensors are measuring the features of critical issues with self-aware capabilities, machines can use the self-aware information to self-predict its potential issues. In the "Cyber" level, each machine is creating its own "twin" by using these instrumented features and further characterize the machine health pattern based on a "Time-Machine" methodology. The established "twin" in the cyber space can perform self-compare for peer-to-peer performance for further synthesis. In the "Cognition" level, the outcomes of self-assessment and self-evaluation will be presented to users based on an "infographic" meaning to show the content and context of the potential issues. In the "Configuration" level, the machine or production system can be reconfigured based on the priority and risk criteria to achieve resilient performance.
+
+
+== See also ==
+Signal-flow graph
+
+
+== References ==
+
+
+== Further reading ==
+Edward A. Lee, Cyber-Physical Systems - Are Computing Foundations Adequate?
+Paulo Tabuada, Cyber-Physical Systems: Position Paper
+Rajesh Gupta, Programming Models and Methods for Spatio-Temporal Actions and Reasoning in Cyber-Physical Systems
+E. A. Lee and S. A. Seshia, Introduction to Embedded Systems - A Cyber-Physical Systems Approach, http://LeeSeshia.org, 2011.
+
+
+== External links ==
+The CPS Virtual Organization

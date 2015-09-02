@@ -1,0 +1,50 @@
+Isolation transformer
+An isolation transformer is a transformer used to transfer electrical power from a source of alternating current (AC) power to some equipment or device while isolating the powered device from the power source, usually for safety reasons. Isolation transformers provide galvanic isolation and are used to protect against electric shock, to suppress electrical noise in sensitive devices, or to transfer power between two circuits which must not be connected. A transformer sold for isolation is often built with special insulation between primary and secondary, and is specified to withstand a high voltage between windings.
+Isolation transformers block transmission of the DC component in signals from one circuit to the other, but allow AC components in signals to pass. Transformers that have a ratio of 1 to 1 between the primary and secondary windings are often used to protect secondary circuits and individuals from electrical shocks. Suitably designed isolation transformers block interference caused by ground loops. Isolation transformers with electrostatic shields are used for power supplies for sensitive equipment such as computers, medical devices, or laboratory instruments.
+
+
+== Terminology ==
+Sometimes the term is used to emphasize that a device is not an autotransformer whose primary and secondary circuits are connected.  Power transformers with specified insulation between primary and secondary are not usually described only as "isolation transformers" unless this is their primary function. Only transformers whose primary purpose is to isolate circuits are routinely described as isolation transformers.
+
+
+== Operation ==
+Isolation transformers are designed with attention to capacitive coupling between the two windings. The capacitance between primary and secondary windings would also couple AC current from the primary to the secondary. A grounded Faraday shield between the primary and the secondary greatly reduces the coupling of common-mode noise. This may be another winding or a metal strip surrounding a winding. Differential noise can magnetically couple from the primary to the secondary of an isolation transformer, and must be filtered out if a problem.
+
+
+== Applications ==
+
+
+=== Pulse transformers ===
+Some small transformers are used for isolation in pulse circuits. 
+
+
+=== Electronics Testing ===
+In electronics testing and servicing an isolation transformer is a 1:1 (under load) power transformer used for safety. Without it, exposed live metal in a device under test is at a hazardous voltage relative to grounded objects such as a heating radiator or oscilloscope ground lead (a particular hazard with some old vacuum-tube equipment with live chassis). With the transformer, as there is no conductive connection between transformer secondary and earth, there is no danger in touching a live part of the circuit while another part of the body is earthed.
+Electrical isolation is considered to be particularly important on medical equipment, and special standards apply. Often the system must additionally be designed so that fault conditions do not interrupt power, but generate a warning.
+
+
+=== Supply of equipment at elevated potentials ===
+Isolation transformers are also used for the power supply of devices not at ground potential. An example is the Austin transformer for the power supply of air-traffic obstacle warning lamps on radio antenna masts. Without the isolation transformer, the lighting circuits on the mast would conduct radio-frequency energy to ground through the power supply.
+
+
+=== Supplying power to ships ===
+Metal boats are subject to corrosion if they use earthed power from shore when moored, due to galvanic currents that flow through the water between shore earth and the hull. This can be avoided by using an isolation transformer with the primary and case connected to shore earth, and the secondary "floating". A metal safety screen between primary and secondary is connected to shore earth; in the event of a fault current in the primary (due, e.g., to insulation breakdown) it will cause the fault current to return and trip a shore-based circuit breaker rather than making the hull live.
+
+
+== References ==
+^ a b Website of typical electronics distributor
+^ Specification of a typical line of high-frequency electrically isolating pulse transformers in 16-pin DIL package The manufacturer describes them as "data-bus isolators", but some distributors describe them as isolation transformers.
+^ Hugh Nash et. al, (ed), IEEE Recommended Practice for Electric Systems in Health Care Facilities, IEEE Standard 602-1996, ISBN 1-55937-772-0
+^ Boat installation, connected to shore earth and secondary "floating"
+
+
+== External links ==
+Transformer Isolation
+
+
+== See also ==
+Austin transformer
+Balun
+Galvanic isolation
+Transformer types
+Power quality

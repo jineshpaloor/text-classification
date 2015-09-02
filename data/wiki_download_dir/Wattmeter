@@ -1,0 +1,52 @@
+Wattmeter
+The wattmeter is an instrument for measuring the electric power (or the supply rate of electrical energy) in watts of any given circuit. Electromagnetic wattmeters are used for measurement of utility frequency and audio frequency power; other types are required for radio frequency measurements.
+
+
+== Electrodynamic ==
+
+The traditional analog wattmeter is an electrodynamic instrument. The device consists of a pair of fixed coils, known as current coils, and a movable coil known as the potential coil.
+The current coils connected in series with the circuit, while the potential coil is connected in parallel. Also, on analog wattmeters, the potential coil carries a needle that moves over a scale to indicate the measurement. A current flowing through the current coil generates an electromagnetic field around the coil. The strength of this field is proportional to the line current and in phase with it. The potential coil has, as a general rule, a high-value resistor connected in series with it to reduce the current that flows through it.
+The result of this arrangement is that on a dc circuit, the deflection of the needle is proportional to both the current (I) and the voltage (V), thus conforming to the equation P=VI.
+For AC power, current and voltage may not be in phase, owing to the delaying effects of circuit inductance or capacitance. On an ac circuit the deflection is proportional to the average instantaneous product of voltage and current, thus measuring true power, P=VI cos φ. Here, cosφ represents the power factor which shows that the power transmitted may be less than the apparent power obtained by multiplying the readings of a voltmeter and ammeter in the same circuit.
+The two circuits of a wattmeter can be damaged by excessive current. The ammeter and voltmeter are both vulnerable to overheating — in case of an overload, their pointers will be driven off scale — but in the wattmeter, either or even both the current and potential circuits can overheat without the pointer approaching the end of the scale. This is because the position of the pointer depends on the power factor, voltage and current. Thus, a circuit with a low power factor will give a low reading on the wattmeter, even when both of its circuits are loaded to the maximum safety limit. Therefore, a wattmeter is rated not only in watts, but also in volts and amperes.
+A typical wattmeter in educational labs has two voltage coils (pressure coils) and a current coil. We can connect the two pressure coils in series or parallel to each other to change the ranges of the wattmeter. Another feature is that the pressure coil can also be tapped to change the meter's range. If the pressure coil has range of 300 volts, the half of it can be used so that the range becomes 150 volts.
+
+
+== Electrodynamometer ==
+
+An early current meter was the electrodynamometer, the basic principles of which were laid out in an 1848 paper by German physicist Wilhelm Eduard Weber, later used in inventor Werner von Siemens' electrodynamometer in 1880. The Siemens electrodynamometer is a form of an electrodynamic ammeter, that has a fixed coil which is surrounded by another having its axis at right angles to that of the fixed coil. This second coil is suspended by a number of silk fibres, and to the coil is also attached a spiral spring the other end of which is fastened to a torsion head. If then the torsion head is twisted, the suspended coil experiences a torque and is displaced through an angle equal to that of the torsion head. The current can be passed into and out of the movable coil by permitting the ends of the coil to dip into two mercury cups.
+If a current is passed through the fixed coil and movable coil in series with one another, the movable coil tends to displace itself so as to bring the axes of the coils, which are normally at right angles, more into the same direction. This tendency can be resisted by giving a twist to the torsion head and so applying to the movable coil through the spring a restoring torque, which opposes the torque due to the dynamic action of the currents. If then the torsion head is provided with an index needle, and also if the movable coil is provided with an indicating point, it is possible to measure the torsional angle through which the head must be twisted to bring the movable coil back to its zero position. In these circumstances, the torsional angle becomes a measure of the torque and therefore of the product of the strengths of the currents in the two coils, that is to say, of the square of the strength of the current passing through the two coils if they are joined up in series. The instrument can therefore be calibrated by passing through it known continuous currents, and it then becomes available for use with either continuous or alternating currents. The instrument can be provided with a calibration curve or table showing the current corresponding to each angular displacement of the torsion head.
+
+
+== Electronic wattmeter ==
+
+Electronic wattmeters are used for direct, small power measurements or for power measurements at frequencies beyond the range of electrodynamometer-type instruments.
+
+
+=== Digital ===
+A modern digital electronic wattmeter/energy meter samples the voltage and current thousands of times a second. For each sample, the voltage is multiplied by the current at the same instant; the average over at least one cycle is the real power. The real power divided by the apparent volt-amperes (VA) is the power factor. A computer circuit uses the sampled values to calculate RMS voltage, RMS current, VA, power (watts), power factor, and kilowatt-hours. The readings may be displayed on the device, retained to provide a log and calculate averages, or transmitted to other equipment for further use. Wattmeters vary considerably in correctly calculating energy consumption, especially when real power is much lower than VA (highly reactiveloads, e.g. electric motors). Simple meters may be calibrated to meet specified accuracy only for sinusoidal waveforms. Waveforms for switched-mode power supplies as used for much electronic equipment may be very far from sinusoidal, leading to unknown and possibly large errors at any power. This may not be specified in the meter's manual.
+
+
+== Precision and accuracy ==
+There are limitations to measuring power with inexpensive wattmeters, or indeed with any meters not designed for low-power measurements. This particularly affects low power (e.g. under 10 watts), as used in standby; readings may be so inaccurate as to be useless (although they do confirm that standby power is low, rather than high). The difficulty is largely due to difficulty in accurate measurement of the alternating current, rather than voltage, and the relatively little need for low-power measurements. The specification for the meter should specify the reading error for different situations. For a typical plug-in meter the error in wattage is stated as ±5% of measured value ±10 W (e.g., a measured value of 100W may be wrong by 5% of 100 W plus 10 W, i.e., ±15 W, or 85–115 W); and the error in kW·h is stated as ±5% of measured value ±0.1 kW·h. If a laptop computer in sleep mode consumes 5 W, the meter may read anything from 0 to 15.25 W, without taking into account errors due to non-sinusoidal waveform. In practice accuracy can be improved by connecting a fixed load such as an incandescent light bulb, adding the device in standby, and using the difference in power consumption. This moves the measurement out of the problematic low-power zone.
+
+
+== Radio frequency ==
+Instruments with moving coils can be calibrated for direct current or power frequency currents up to a few hundred Hz. At radio frequencies a common method is a rectifier circuit arranged to respond to current in a transmission line; the system is calibrated for the known circuit impedance. Diode detectors are either directly connected to the source, or used with a sampling system that diverts only a portion of the RF power through the detector. Thermistors and thermocouples are used to measure heat produced by RF power and can be calibrated either directly or by comparison with a known reference source of power. A bolometer power sensor converts incident radio frequency power to heat. The sensor element is maintained at a constant temperature by a small direct current. The reduction in current required to maintain temperature is related to the incident RF power. Instruments of this type are used throughout the RF spectrum and can even measure visible light power. For high-power measurements, a calorimeter directly measures heat produced by RF power.
+
+
+== Watthour meters ==
+
+An instrument which measures electrical energy in watt hours (electricity meter or energy analyser) is essentially a wattmeter which accumulates or averages readings. Digital electronic instruments measure many parameters and can be used where a wattmeter is needed: volts, current,in amperes, apparent instantaneous power, actual power, power factor, energy in [k]W·h over a period of time, and cost of electricity consumed.
+
+
+== See also ==
+
+Ammeter
+Voltmeter
+Power factor
+Microwave power meter
+
+
+== References ==
+ This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). "Wattmeter". Encyclopædia Britannica 28 (11th ed.). Cambridge University Press.

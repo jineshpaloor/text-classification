@@ -1,0 +1,46 @@
+Superconducting electric machine
+Superconducting electric machines are electromechanical systems that rely on the use of one or more superconducting elements. Since superconductors have no DC resistance, they typically have greater efficiency. The most important parameter that is of utmost interest in superconducting machine is the generation of a very high magnetic field that is not possible in a conventional machine. This leads to a substantial decrease in the motor volume; which means a great increase in the power density. However, since superconductors only have zero resistance under a certain superconducting transition temperature, Tc that is hundreds of degrees lower than room temperature, cryogenics are required.
+Now there is more interest in superconducting AC synchronous electric machines (alternators and synchronous motors). The direct current electromagnet field winding on the rotor (rotating member) use superconductors but the alternating current multiphase winding set on the stator (stationary members), which have no practical support by superconductors, uses conventional, normal conduction copper conductors. Often the stator conductors are cooled to reduce, but not eliminate, their resistive losses.
+
+
+== History ==
+DC homopolar machines are among the oldest electric machines. Michael Faraday made one in 1831. Superconducting DC homopolar machines use superconductors in their stationary field windings and normal conductors in their rotating pickup winding. In 2005 the General Atomics company received a contract for the creation of a large low speed superconducting homopolar motor for ship propulsion. Superconducting homopolar generators have been considered as pulsed power sources for laser weapon systems. However, homopolar machines have not been practical for most applications.
+In the past, experimental AC synchronous superconducting machines were made with rotors using low-temperature metal superconductors that exhibit superconductivity when cooled with liquid helium. These worked, however the high cost of liquid helium cooling made them too expensive for most applications.
+More recently AC synchronous superconducting machines have been made with ceramic rotor conductors that exhibit high-temperature superconductivity. These have liquid nitrogen cooled ceramic superconductors in their rotors. The ceramic superconductors are also called high-temperature or liquid-nitrogen-temperature superconductors. Because liquid nitrogen is relatively inexpensive and easy to handle, there is a greater interest in the ceramic superconductor machines than the liquid helium cooled metal superconductor machines.
+
+
+== Present interest ==
+Present interest in AC synchronous ceramic superconducting machines is in larger machines like the generators used in utility and ship power plants and the motors used in ship propulsion. American Superconductor and Northrup Grumman created and demonstrated a 36.5 MW ceramic superconductor ship propulsion motor.
+
+
+== Advantages and disadvantages of superconducting electric machines ==
+
+
+=== Compared with a conventional conductor machine ===
+Superconducting electric machines typically have the following advantages:
+Reduced resistive losses but only in the rotor electromagnet.
+Reduced size and weight per power capacity without considering the refrigeration equipment.
+There are also the following disadvantages:
+The cost, size, weight, and complications of the cooling system.
+A sudden decrease or elimination of motor or generator action if the superconductors leave their superconductive state.
+A greater tendency for rotor speed instability. A superconducting rotor does not have the inherent damping of a conventional rotor. Its speed may hunt or oscillate around its synchronous speed.
+Motor bearings need to be able to withstand cold or need to be insulated from the cold rotor.
+As a synchronous motor, electronic control is essential for practical operation. Electronic control introduces expensive harmonic loss in the supercooled rotor electromagnet.
+
+
+=== High-temperature superconductors versus Low-temperature superconductors ===
+High-temperature superconductors (HTS) become superconducting at more easily obtainable liquid nitrogen temperatures, which is much more economical than liquid helium that is typically used in low-temperature superconductors.
+HTS are ceramics, and are fragile relative to conventional metal alloy superconductors such as niobium-titanium.
+Ceramic superconductors cannot be bolted or welded together to form superconducting junctions. Ceramic superconductors must be cast in their final shape when created. This may increase production costs.
+Ceramic superconductors can be more easily driven out of superconductivity by oscillating magnetic fields. This could be a problem during transient conditions, as during a sudden load or supply change.
+
+
+== References ==
+Bumby, J. R., Superconducting Rotating Electrical Machines, Oxford: Clarendon Press, 192 pages, 1983.
+Kuhlmann, J. H., Design of Electrical Apparatus, 3rd edition; New York: John Wiley & Sons, Inc., 512 pages, 1950. <Note, this book does not consider superconducting machines. However, it provides excellent detailed design information that could be used when designing a superconducting machine.>
+Tubbs, S. P., Design and Analysis of a Superconducting High Speed Synchronous/Induction Motor, ProQuest Direct Complete Database, Publication No. AAT LD03278, 227 pages, 1995. <Literature evaluation, analysis, experimental results, and a large bibliography.>
+
+
+== External links ==
+American Superconductor, AC synchronous superconducting ceramic motors and generators http://www.amsc.com/
+General Atomics, DC homopolar superconducting motor http://atg.ga.com/EM/defense/dc-motor/index.php

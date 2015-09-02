@@ -1,0 +1,123 @@
+3Com
+3Com Corporation was a digital electronics manufacturer best known for its computer network infrastructure products. The company was co-founded in 1979 by Robert Metcalfe, Howard Charney, Bruce Borden, and Greg Shaw and recruited Bill Krause from HP to be its President in February 1981 when it raised its first round of venture capital. Metcalfe has explained that he came up with the name 3Com as a contraction of "Computer Communication Compatibility", with its focus on deploying the Ethernet technology that he had co-invented which enabled the networking of computers.
+3Com provided network interface controllers and switches, routers, wireless access points and controllers, IP voice systems, and intrusion prevention systems. The company was based in Massachusetts, USA. From its 2007 acquisition of 100 percent ownership of H3C Technologies Co., Limited (H3C) —initially a joint venture with China-based Huawei Technologies—3Com achieved a leading market presence in China, and a significant networking market share in Europe, Asia, and the Americas. 3Com products were sold under the brands 3Com, H3C, and TippingPoint.
+On April 12, 2010, Hewlett-Packard completed the acquisition of 3Com. Since the HP acquisition, 3Com has been fully absorbed by HP and no longer exists as a separate entity.
+
+
+== History ==
+
+
+=== Before 3Com, PARC ===
+After reading an article on ALOHAnet, Bob Metcalfe became interested in the topic of computer networking. ALOHAnet was an over-the-air wide area network system using UHF radios and made several assumptions that Metcalfe thought would not be correct in practice. He developed his own theories of how to manage traffic, and began to consider an "ALOHAnet in a wire" networking system. In 1972 he joined Xerox PARC to develop these ideas, and after pairing up with David Boggs, the two had early 3 Mbit/s versions of Ethernet working in 1973. They then went on to build up a networking protocol known as Pup, with the entire system ready for build-out by late 1974.
+At this point, Xerox management did nothing with it, even after being approached by prospective customers. Increasingly upset by management's lack of interest, Metcalfe left Xerox in 1975, but was lured back again the next year. Further development followed, resulting in the seminal Xerox Network Systems (XNS) protocol which was completed by 1978. Once again, Metcalfe found management was unwilling to actually do anything with the product, and threatened to leave. Nothing followed, and in 1979 he left the company.
+
+
+=== Founding and early days (1979-1996) ===
+Metcalfe subsequently co-founded 3Com in 1979. 3Com began making Ethernet adaptor cards for many early 1980s computer systems, including the LSI-11, IBM PC, and VAX-11. In the mid-1980s, 3Com branded their Ethernet technology as EtherSeries, while introducing a range of software and PC-based equipment to provide shared services over a local area network (LAN) using Xerox Network Systems (XNS) protocols. These protocols were branded EtherShare (for file sharing), EtherPrint (for printing), EtherMail (for email), and Ether-3270 (for IBM host emulation).
+The company's network software products included:
+3+Share file and printer sharing.
+3+Mail e-mail.
+3+Remote for routing XNS over a PC serial port.
+NetConnect for routing XNS between Ethernets.
+(MultiConnect?) was a chassis-based multi-port 10BASE2 Ethernet repeater.
+3Server, a server-grade PC for running 3+ services.
+3Station, a diskless workstation.
+3+Open file and printer sharing (based on Microsoft's LAN Manager).
+Etherterm terminal emulation.
+Etherprobe LAN analysis software.
+DynamicAccess software products for Ethernet load balancing, response time, and RMON II distributed monitoring.
+3Com's expansion beyond its original base of PC and thin Ethernet products began in 1987 when it merged with Bridge Communications. This provided a range of equipment based on Motorola 68000 processors and using XNS protocols compatibly with 3Com's Etherterm PC software.
+CS/1, CS/200 communication servers ("terminal servers")
+Ethernet bridges and XNS routers
+GS/1-X.25 X.25 gateway
+CS/1-SNA SNA gateway
+NCS/1 network control software running on a Sun Microsystems computer
+By 1995, 3Com's status was such that they were able to enter into an agreement with the city of San Francisco to pay $900,000 per year for the naming rights to Candlestick Park. That agreement ended in 2002.
+
+
+=== 1997-2000 ===
+
+In 1997, 3Com merged with U.S. Robotics, a maker of dial-up modems, and owner of Palm, Inc.. U.S. Robotics was known for its Sportster line of consumer oriented modems, as well as its Courier business-class modem line. In addition to consumer network electronics, U.S. Robotics (USR) was a well-known manufacturer of a highly regarded dialup access server, the "Total Control Hub", rebadged by 3Com as the "Total Control 1000", based largely on its Courier modem technology. This key business product competed against Cisco's AS5200 access server line in the mid-1990s as the explosion of the Internet led to service provider investment in dialup access server equipment. 3Com continued the development of the Total Control line until it was eventually spun off as a Part of Commworks, which was then acquired by UTStarcom.
+In August 1998, Bruce Claflin was named Chief Operations Officer. The modem business was rapidly shrinking. 3Com attempted to enter the DSL business, but was not successful.
+In the lucrative server network interface card business, 3Com remained second in market share, after Intel. 3Com never managed to beat Intel with its own products or even with joint ventures with Broadcom. It started developing Gigabit Ethernet cards in-house but later scrapped the plans. Later, it formed a joint venture with Broadcom, where Broadcom would develop the main ASIC component and the NIC would be 3Com branded.
+In 1999 3Com acquired NBX, a Boston company with an Ethernet-based phone system for small and medium-sized businesses. This product proved popular with 3Com's existing distribution channel and saw rapid growth and adoption. As one of the first companies to deliver a complete networked phone system, and increased its distribution channel with larger telephony partners such as Southwestern Bell and Metropark Communications, 3Com helped make VoIP into a safe and practical technology with wide adoption.
+3Com tried to move into the smart consumer appliances business and on June 2000, 3Com acquired internet radio startup Kerbango for US$80 million. It developed its Audrey appliance, which made an appearance on The Oprah Winfrey Show. It scrapped the Audrey and Kerbango products less than a year later.
+In March 2000, in a highly public and criticized move, 3Com exited the high-end core routers and switch market to focus on other areas of the business. The CoreBuilder Ethernet and ATM LAN switches, PathBuilder and NetBuilder WAN Routers were all discontinued June 2000. CoreBuilder products and the customer base was migrated over to Extreme Networks. The PathBuilder and NetBuilder were transitioned to Motorola. 3Com focused its efforts from 2000 to 2003 on building up the HomeConnect, OfficeConnect, SuperStack, NBX and Total Control product lines. Due to this perceived exit from the Enterprise market, 3Com would never gain momentum with large customers or carriers again.
+In July 2000, 3Com spun off Palm as an independent company. After the IPO, 3Com still owned 80% of Palm but 3Com's market capitalization was smaller than Palm's. U.S. Robotics was also spun out again as a separate company at this time.
+
+
+=== 2001 and beyond ===
+In January 2001, Claflin became Chief Executive Officer, replacing Eric Benhamou, CEO from 1990 to 2000. He was criticized for the costly diversification in the mobile handheld computer market. At this point, the company's main cash-cow, the network interface card business, was also shrinking rapidly, mainly because the functionality was integrated into the southbridge of many motherboards. The company started slashing or selling divisions and going through numerous rounds of layoffs. The company went from employing more than 12,000 employees to fewer than 2,000.
+In May 2003, the company moved its Silicon Valley Santa Clara headquarters to Marlborough, Massachusetts. It also formed a venture called H3C with Huawei whereby 3Com would sell and rebrand products under the joint venture.
+In 2003, 3Com sold its CommWorks Corporation subsidiary to UTStarcom, Inc. CommWorks was based in Rolling Meadows, Illinois, and developed wireline telecommunications and wireless infrastructure technologies.
+In January 2006, Claflin announced he would be leaving the company. In January 2006 R Scott Murray became CEO of 3Com and Chairman of H3C Technology in China, a joint venture with Huawei Technology. Murray voluntarily resigned from the company in August 2006 over his concerns about the questionable business ethics of Huawei and potential cyber security risks posed by Huawei. Edgar Masri returned to 3Com to head as President and CEO following Murray's departure..
+In September 2007, Bain Capital agreed to buy the company for $2.2 billion, with minority equity financing from Huawei Technologies. However, the deal met with US government regulatory opposition and the deal fell through early 2008, following concerns over Huawei's risk of conducting cyber security threats against the United States Government and its allies, Huawei's former dealings in Iran, and Huawei being operated by a former general in China's People's Liberation Army. Edgar Masri left the company in April 2008, partially as a result of the failed Bain transaction.
+In April 2008, Robert Mao was named Chief Executive Officer, and Ron Sege made President and Chief Operating Officer.
+In fiscal year 2008 ended May 30, 2008, 3Com had annual revenue of $1.3 billion and more than 6,000 employees in over 40 countries. In September 2008, 3Com reported financial results for its fiscal 2009 first quarter, which ended August 29, 2008. Revenue in the quarter was $342.7 million compared to revenue of $319.4 million in the corresponding period in fiscal 2008, a 7 percent increase. Net income in the quarter was $79.8 million, or $0.20 per diluted share, compared with a net loss of $18.7 million, or $0.05 per share, in the first quarter of fiscal year 2008.
+The company reported it had more than 2,700 engineers, with more than 1,400 U.S. and nearly 180 Chinese issued patents, more than 1050 pending Chinese applications as well as pending applications for 35 separate inventions outside of China that cover a wide range of networking technologies.
+
+
+=== Acquisition by HP ===
+On November 11, 2009, 3Com and Hewlett-Packard announced that Hewlett-Packard will be acquiring 3Com for $2.7 billion in cash.
+On April 12, 2010, Hewlett-Packard completed its acquisition of 3Com Corporation at a price of $7.90 per share in cash or an enterprise value of approximately $2.7 billion.
+
+
+== Products ==
+
+Fixed configuration Ethernet switches including stackable switches: 3Com brand Gigabit switches Switch 5500G, 4800G, 4500G, 4200G, Baseline, OfficeConnect; 3Com brand Fast Ethernet switches Switch 5500, 4500, 4210, Baseline, OfficeConnect; H3C brand switches S5600, S5500, S5100, S3600, S3610, S3100.
+Modular Chassis switches: 3Com brand 8800, 7900E, 7500. H3C brand S9500, S7500, S7500E.
+Wide area network routers
+Wireless access points, adapters, and connectivity products
+Internet access gateways and firewalls, both wired and wireless
+Network management applications
+Network security platforms including the TippingPoint Intrusion Prevention System.
+IP Telephony applications including PBX and CTI solutions. 3Com's Telecommunications solutions utilize VoIP and Session Initiation Protocol (SIP). Voice platforms include VCX and NBX.
+Local area network interface cards
+IP Video Surveillance and Network Storage (marketed in China, South Africa, South America and other key markets)
+Consumer USB webcams & associated software (3Com HomeConnect)
+The 3Com Laser Library
+
+
+=== Acquisitions ===
+3Com came close to being acquired by Unix workstation company, Convergent Technologies, abandoning the pact just two days before a vote was scheduled in March 1986. Later, 3Com went on to acquire the following:
+Bridge Communications in 1987
+BICC Data Networks in 1992
+Star-Tek in 1993
+Synernetics in 1993
+Centrum in 1994
+NiceCom in 1994
+AccessWorks, Sonix Communications, Primary Access, and Chipcom in 1995
+Axon and OnStream Networks in 1996
+USRobotics merger/acquisition in 1997 (included product lines: Sportster, Courier, Palm, Megahertz, Conferencelink, Audrey, and more)
+NBX in 1999
+Kerbango in 2000
+TippingPoint in 2005
+Huawei-3Com (H3C) in 2007 (Bought out Huawei's 49% stake for US$882 million from a 2003 joint venture)
+
+
+=== Former subsidiaries ===
+CommWorks Corporation was a subsidiary of 3Com Corporation, based in Rolling Meadows, Illinois. It was sold to UTStarcom, Inc. of Alameda, California in 2003.
+CommWorks was formerly the Carrier Network Business unit of 3Com, comprising several acquired companies: U.S. Robotics (Rolling Meadows, Illinois), Call Technologies (Reston, Virginia), and LANsource (Toronto, Canada). CommWorks was able to use technology from each company to create IP softswitch and IP communications software. U.S. Robotics provided media gateways (the Total Control 1000 product line, formerly used for dial-modem termination) and softswitch technology. Call Technologies provided Unified Messaging software. LANsource provided fax-over-IP software that was integrated with the Unified Messaging platform.
+The Carrier Network Business unit of 3Com developed an IWF solution which became the first and dominant 2G CDMA wireless data gateway product. In partnership with Unwired Planet (now Openwave) and Qualcomm Quicknet connect was launched allowing for a breakthrough of 6 second connect times versus the standard solution which required modems to connect the call (approximately 30+ seconds). This product solution was deployed successfully throughout the United States, Japan, and Korea covering the 2G CDMA market sample carriers included Sprint. It led to follow on products that became core to CommWorks now UTStarcom offerings including the 2.5 and 3G packet data gateway products known as PDSN and Home Agents.
+CommWorks/3Com co-developed an H.323-based softswitch with AT&T in 1998 for use in a "transparent trunking" application for AT&T's residential long-distance customers. In this solution, long distance telephone calls were redirected from the LEC's ingress CLASS 5 switch to the Total Control 1000 media gateway, where it was converted from TDM to IP and transported across AT&T's WorldNet IP backbone. When it reached the destination, it was passed to the egress LEC's CLASS 5 switch as an untariffed data call.
+CommWorks modified the gateway and softswitch software to support SIP for MCI/WorldCom's hosted business offering in 2000.
+Although 3Com sold CommWorks to UTStarcom, they retained intellectual property rights to the softswitch technology. After modifying the software to enable enterprise PBX features, 3Com released this technology as VCX, the industry's first pure SIP PBX, in 2003.
+
+
+== See also ==
+3Station
+Busy Override
+List of acquisitions by Hewlett-Packard
+
+
+== References ==
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.
+
+Bibliography
+
+
+== External links ==
+HP Networking
+"3Com: Routers, Switches, VoIP, Wireless, Network Management". Official web site. Archived from the original on April 8, 2010. 
+Official H3C Technologies Co. site
+Eric Benhamou and the Turnaround of 3Com - interview with Sramanamitra.com

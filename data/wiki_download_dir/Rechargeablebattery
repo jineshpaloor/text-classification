@@ -1,0 +1,127 @@
+Rechargeable battery
+A rechargeable battery, storage battery, secondary cell, or accumulator is a type of electrical battery which can be charged, discharged into a load, and recharged many times, while a non-rechargeable or primary battery is supplied fully charged, and discarded once discharged. It is composed of one or more electrochemical cells. The term "accumulator" is used as it accumulates and stores energy through a reversible electrochemical reaction. Rechargeable batteries are produced in many different shapes and sizes, ranging from button cells to megawatt systems connected to stabilize an electrical distribution network. Several different combinations of electrode materials and electrolytes are used, including lead–acid, nickel cadmium (NiCd), nickel metal hydride (NiMH), lithium ion (Li-ion), and lithium ion polymer (Li-ion polymer).
+Rechargeable batteries initially cost more than disposable batteries, but have a much lower total cost of ownership and environmental impact, as they can be recharged inexpensively many times before they need replacing. Some rechargeable battery types are available in the same sizes and voltages as disposable types, and can be used interchangeably with them.
+
+
+== Usage and applications ==
+Rechargeable batteries are used for automobile starters, portable consumer devices, light vehicles (such as motorized wheelchairs, golf carts, electric bicycles, and electric forklifts), tools, and uninterruptible power supplies. Emerging applications in hybrid internal combustion-battery and electric vehicles are driving the technology to reduce cost, weight, and size, and increase lifetime.
+Older rechargeable batteries self-discharge relatively rapidly, and have to be charged before first use; some newer low self-discharge NiMH batteries hold their charge for many months, and are typically sold factory-charged to about 70% of their rated capacity.
+Grid energy storage applications use rechargeable batteries for load-leveling, storing electric energy at times of low demand for use during peak periods, and for renewable energy uses, such as storing power generated from photovoltaic arrays during the day to be used at night. Load-leveling reduces the maximum power which a plant must be able to generate, reducing capital cost and the need for peaking power plants.
+The US National Electrical Manufacturers Association estimated in 2006 that US demand for rechargeable batteries was growing twice as fast as demand for disposables.
+Small rechargeable batteries are used to power portable electronic devices, power tools, appliances, and so on. Heavy-duty batteries are used to power electric vehicles, ranging from scooters to locomotives and ships. They are used in distributed electricity generation and stand-alone power systems.
+
+
+== Charging and discharging ==
+
+During charging, the positive active material is oxidized, producing electrons, and the negative material is reduced, consuming electrons. These electrons constitute the current flow in the external circuit. The electrolyte may serve as a simple buffer for internal ion flow between the electrodes, as in lithium-ion and nickel-cadmium cells, or it may be an active participant in the electrochemical reaction, as in lead–acid cells.
+The energy used to charge rechargeable batteries usually comes from a battery charger using AC mains electricity, although some are equipped to use a vehicle's 12-volt DC power outlet. Regardless, to store energy in a secondary cell, it has to be connected to a DC voltage source. The negative terminal of the cell has to be connected to the negative terminal of the voltage source and the positive terminal of the voltage source with the positive terminal of the battery. Further, the voltage output of the source must be higher than that of the battery, but not much higher: the greater the difference between the power source and the battery's voltage capacity, the faster the charging process, but also the greater the risk of overcharging and damaging the battery.
+Chargers take from a few minutes to several hours to charge a battery. Slow "dumb" chargers without voltage or temperature-sensing capabilities will charge at a low rate, typically taking 14 hours or more to reach a full charge. Rapid chargers can typically charge cells in two to five hours, depending on the model, with the fastest taking as little as fifteen minutes. Fast chargers must have multiple ways of detecting when a cell reaches full charge (change in terminal voltage, temperature, etc.) to stop charging before harmful overcharging or overheating occurs. The fastest chargers often incorporate cooling fans to keep the cells from overheating.
+
+Battery charging and discharging rates are often discussed by referencing a "C" rate of current. The C rate is that which would theoretically fully charge or discharge the battery in one hour. For example, trickle charging might be performed at C/20 (or a "20 hour" rate), while typical charging and discharging may occur at C/2 (two hours for full capacity). The available capacity of electrochemical cells varies depending on the discharge rate. Some energy is lost in the internal resistance of cell components (plates, electrolyte, interconnections), and the rate of discharge is limited by the speed at which chemicals in the cell can move about. For lead-acid cells, the relationship between time and discharge rate is described by Peukert's law; a lead-acid cell that can no longer sustain a usable terminal voltage at a high current may still have usable capacity, if discharged at a much lower rate. Data sheets for rechargeable cells often list the discharge capacity on 8-hour or 20-hour or other stated time; cells for uninterruptible power supply systems may be rated at 15 minute discharge.
+Battery manufacturers' technical notes often refer to voltage per cell (VPC) for the individual cells that make up the battery. For example, to charge a 12 V lead-acid battery (containing 6 cells of 2 V each) at 2.3 VPC requires a voltage of 13.8 V across the battery's terminals.
+Non-rechargeable alkaline and zinc–carbon cells output 1.5V when new, but this voltage drops with use. Most NiMH AA and AAA cells are rated at 1.2 V, but have a flatter discharge curve than alkalines and can usually be used in equipment designed to use alkaline batteries.
+
+
+=== Damage from cell reversal ===
+Subjecting a discharged cell to a current in the direction which tends to discharge it further to the point the positive and negative terminals switch polarity causes a condition called cell reversal. Generally, pushing current through a discharged cell in this way causes undesirable and irreversible chemical reactions to occur, resulting in permanent damage to the cell. Cell reversal can occur under a number of circumstances, the two most common being:
+When a battery or cell is connected to a charging circuit the wrong way around.
+When a battery made of several cells connected in series is deeply discharged.
+In the latter case, the problem occurs due to the different cells in a battery having slightly different capacities. When one cell reaches discharge level ahead of the rest, the remaining cells will force the current through the discharged cell.
+Many battery-operated devices have a low-voltage cutoff that prevents deep discharges from occurring that might cause cell reversal.
+Cell reversal can occur to a weakly charged cell even before it is fully discharged. If the battery drain current is high enough, the cell's internal resistance can create a resistive voltage drop that is greater than the cell's forward emf. This results in the reversal of the cell's polarity while the current is flowing. The higher the required discharge rate of a battery, the better matched the cells should be, both in the type of cell and state of charge, in order to reduce the chances of cell reversal.
+In some situations, such as when correcting Ni-Cad batteries that have been previously overcharged, it may be desirable to fully discharge a battery. To avoid damage from the cell reversal effect, it is necessary to access each cell separately: each cell is individually discharged by connecting a load clip across the terminals of each cell, thereby avoiding cell reversal.
+
+
+=== Damage during storage in fully discharged state ===
+If a multi-cell battery is fully discharged, it will often be damaged due to the cell reversal effect mentioned above. It is possible however to fully discharge a battery without causing cell reversal—either by discharging each cell separately, or by allowing each cell's internal leakage to dissipate its charge over time.
+Even if a cell is brought to a fully discharged state without reversal, however, damage may occur over time simply due to remaining in the discharged state. An example of this is the sulfation that occurs in lead-acid batteries that are left sitting on a shelf for long periods. For this reason it is often recommended to charge a battery that is intended to remain in storage, and to maintain its charge level by periodically recharging it. Since damage may also occur if the battery is overcharged, the optimal level of charge during storage is typically around 30% to 70%.
+
+
+=== Depth of discharge ===
+
+Depth of discharge (DOD) is normally stated as a percentage of the nominal ampere-hour capacity; 0% DOD means no discharge. Seeing as the usable capacity of a battery system depends on the rate of discharge and the allowable voltage at the end of discharge, the depth of discharge must be qualified to show the way it is to be measured. Due to variations during manufacture and aging, the DOD for complete discharge can change over time or number of charge cycles. Generally a rechargeable battery system will tolerate more charge/discharge cycles if the DOD is lower on each cycle.
+
+
+=== Lifespan ===
+If batteries are used repeatedly even without mistreatment, they lose capacity as the number of charge cycles increases, until they are eventually considered to have reached the end of their useful life. Many commonly-used types of rechargeable batteries are specified to last between 400 and 1,000 full charge-discharge cycles.
+
+
+== Active components ==
+The active components in a secondary cell are the chemicals that make up the positive and negative active materials, and the electrolyte. The positive and negative are made up of different materials, with the positive exhibiting a reduction potential and the negative having an oxidation potential. The sum of these potentials is the standard cell potential or voltage.
+In primary cells the positive and negative electrodes are known as the cathode and anode, respectively. Although this convention is sometimes carried through to rechargeable systems—especially with lithium-ion cells, because of their origins in primary lithium cells—this practice can lead to confusion. In rechargeable cells the positive electrode is the cathode on discharge and the anode on charge, and vice versa for the negative electrode.
+
+
+== Types ==
+
+‡ citations are needed for these parameters
+Notes
+a Nominal cell voltage in V.
+
+b Energy density = energy/weight or energy/size, given in three different units
+c Specific power = power/weight in W/kg
+e Energy/consumer price in W·h/US$ (approximately)
+f Self-discharge rate in %/month
+g Cycle durability in number of cycles
+h Time durability in years
+i VRLA or recombinant includes gel batteries and absorbed glass mats
+p Pilot production
+
+
+=== Common types ===
+The lead–acid battery, invented in 1859 by French physicist Gaston Planté, is the oldest type of rechargeable battery. Despite having a very low energy-to-weight ratio and a low energy-to-volume ratio, its ability to supply high surge currents means that the cells have a relatively large power-to-weight ratio. These features, along with the low cost, makes it attractive for use in motor vehicles to provide the high current required by automobile starter motors.
+The nickel–cadmium battery (NiCd) was invented by Waldemar Jungner of Sweden in 1899. It uses nickel oxide hydroxide and metallic cadmium as electrodes. Cadmium is a toxic element, and was banned for most uses by the European Union in 2004. Nickel–cadmium batteries have been almost completely superseded by nickel–metal hydride (NiMH) batteries.
+The nickel–metal hydride battery (NiMH) became available in 1989. These are now a common consumer and industrial type. The battery has a hydrogen-absorbing alloy for the negative electrode instead of cadmium.
+The lithium-ion battery was introduced in the market in 1991, and in is the choice in most consumer electronics and have the best energy density and a very slow loss of charge when not in use.
+Lithium-ion polymer batteries are light in weight, offer slightly higher energy density than Li-ion at slightly higher cost, and can be made in any shape. They are available but have not displaced Li-ion in the market.
+
+
+=== Experimental types ===
+The lithium sulfur battery was developed by Sion Power in 1994. The company claims superior energy density to other lithium technologies.
+The thin film battery (TFB) is a refinement of lithium ion technology by Excellatron. The developers claim a large increase in recharge cycles to around 40,000 and higher charge and discharge rates, at least 5 C charge rate. Sustained 60 C discharge and 1000C peak discharge rate and a significant increase in specific energy, and energy density. Infinite Power Solutions makes TFB for microelectronic applications.
+A smart battery has voltage monitoring circuit built inside. Carbon foam-based lead acid battery: Firefly Energy developed a carbon foam-based lead acid battery with a reported energy density of 30-40% more than their original 38 Wh/kg, with long life and very high power density.
+UltraBattery, a hybrid lead-acid battery and ultracapacitor invented by Australia’s national science organisation CSIRO, exhibits tens of thousands of partial state of charge cycles and has outperformed traditional lead-acid, lithium and NiMH-based cells when compared in testing in this mode against variability management power profiles. UltraBattery has kW and MW-scale installations in place in Australia, Japan and the U.S.A. It has also been subjected to extensive testing in hybrid electric vehicles and has been shown to last more than 100,000 vehicle miles in on-road commercial testing in a courier vehicle. The technology is claimed to have a lifetime of 7 to 10 times that of conventional lead-acid batteries in high rate partial state-of-charge use, with safety and environmental benefits claimed over competitors like lithium-ion. Its manufacturer suggests an almost 100% recycling rate is already in place for the product.
+The potassium-ion battery delivers around a million cycles, due to the extraordinary electrochemical stability of potassium insertion/extraction materials such as Prussian blue.
+The sodium-ion battery is meant for stationary storage and competes with lead–acid batteries. It aims at a low total cost of ownership per kWh of storage. This is achieved by a long and stable lifetime. The effective number of cycles is above 5000 and the battery is not damaged by deep discharge. The energy density is rather low, somewhat lower than lead–acid.
+The quantum battery (oxide semiconductor) was developed by MJC. It is a small, lightweight cell with a multi-layer film structure and high energy and high power density. It is incombustible, has no electrolyte and generates a low amount of heat during charge. Its unique feature is its ability to capture electrons physically rather than chemically.
+In 2007, Yi Cui and colleagues at Stanford University's Department of Materials Science and Engineering discovered that using silicon nanowires as the anode of a lithium-ion battery increases the anode's volumetric charge density by up to a factor of 10, leading to the development of the nanowire battery.
+Another development is the paper-thin flexible self-rechargeable battery combining a thin-film organic solar cell with an extremely thin and highly flexible lithium-polymer battery, which recharges itself when exposed to light.
+Ceramatec, a research and development unit of CoorsTek, as of 2009 was testing a battery comprising a chunk of solid sodium metal mated to a sulfur compound by a paper-thin ceramic membrane which conducts ions back and forth to generate a current. The company claimed that it could fit about 40 kilowatt hours of energy into a package about the size of a refrigerator, and operate below 90 °C; and that their battery would allow about 3,650 discharge/recharge cycles (or roughly 1 per day for one decade).
+Battery electrodes can be microscopically viewed while bathed in wet electrolytes, resembling conditions inside operating batteries.
+In 2014, an Israeli company, StoreDot, claimed to be able to charge batteries in 30 seconds.
+
+
+== Alternatives ==
+A rechargeable battery is only one of several types of rechargeable energy storage systems. Several alternatives to rechargeable batteries exist or are under development. For uses such as portable radios, rechargeable batteries may be replaced by clockwork mechanisms which are wound up by hand, driving dynamos, although this system may be used to charge a battery rather than to operate the radio directly. Flashlights may be driven by a dynamo directly. For transportation, uninterruptible power supply systems and laboratories, flywheel energy storage systems store energy in a spinning rotor for conversion to electric power when needed; such systems may be used to provide large pulses of power that would otherwise be objectionable on a common electrical grid.
+Ultracapacitors—capacitors of extremely high value— are also used; an electric screwdriver which charges in 90 seconds and will drive about half as many screws as a device using a rechargeable battery was introduced in 2007, and similar flashlights have been produced. In keeping with the concept of ultracapacitors, betavoltaic batteries may be utilized as a method of providing a trickle-charge to a secondary battery, greatly extending the life and energy capacity of the battery system being employed; this type of arrangement is often referred to as a "hybrid betavoltaic power source" by those in the industry.
+Ultracapacitors are being developed for transportation, using a large capacitor to store energy instead of the rechargeable battery banks used in hybrid vehicles. One drawback of capacitors compared to batteries is that the terminal voltage drops rapidly; a capacitor that has 25% of its initial energy left in it will have one-half of its initial voltage. By contrast, battery systems tend to have a terminal voltage that does not decline rapidly until nearly exhausted. The undesirable characteristic complicates the design of power electronics for use with ultracapacitors. However, there are potential benefits in cycle efficiency, lifetime, and weight compared with rechargeable systems. China started using ultracapacitors on two commercial bus routes in 2006; one of them is route 11 in Shanghai.
+Flow batteries, used for specialized applications, are recharged by replacing the electrolyte liquid. A flow battery can be considered to be a type of rechargeable fuel cell.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Belli, Brita. ‘Battery University’ Aims to Train a Work Force for Next-Generation Energy Storage, The New York Times, 8 April 2013. Discusses a professional development program at San Jose State University.
+Vlasic, Bill. Chinese Firm Wins Bid for Auto Battery Maker, The New York Times, published online 9 December 2012, p. B1.
+Cardwell, Diane. Battery Seen as Way to Cut Heat-Related Power Losses, 16 July 2013 online and 17 July 2013 in print on 17 July 2013, on page B1 in the New York City edition of The New York Times, p. B1. Discusses Eos Energy Systems' Zinc–air batteries.
+Cardwell, Diane. SolarCity to Use Batteries From Tesla for Energy Storage, 4 December 2013 on line, and 5 December 2013 in the New York City edition of The New York Times, p. B-2. Discusses SolarCity, DemandLogic and Tesla Motors.
+Galbraith, Kate. In Presidio, a Grasp at the Holy Grail of Energy Storage, The New York Times, 6 November 2010.
+Galbraith, Kate. Filling the Gaps in the Flow of Renewable Energy, The New York Times, 22 October 2013.
+Witkin, Jim. Building Better Batteries for Electric Cars, The New York Times, 31 March 2011, p. F4. Published online 30 March 2011. Discusses rechargeable batteries and the new-technology lithium ion battery.
+Wald, Matthew L. Hold That Megawatt!, The New York Times, 7 January 2011. Discusses AES Energy Storage.
+Wald, Matthew L. Green Blog: Is That Onions You Smell? Or Battery Juice?, The New York Times, 9 May 2012. Discusses vanadium redox battery technology.
+Wald, Matthew L. Green Blog: Cutting the Electric Bill with a Giant Battery, The New York Times, 27 June 2012. Discusses Saft Groupe S.A.
+Wald, Matthew L. Seeking to Start a Silicon Valley for Battery Science, The New York Times, 30 November 2012.
+Wald, Matthew L. From Harvard, a Cheaper Storage Battery, The New York Times, 8 January 2014. Discusses research into flow-batteries utilizing carbon-based molecules called quinones.
+Witkin, Jim. Building Better Batteries for Electric Cars, The New York Times, 31 March 2011, p. F4. Published online 30 March 2011. Discusses rechargeable batteries and lithium ion batteries.
+Witkin, Jim. Green Blog: A Second Life for the Electric Car Battery, The New York Times, 27 April 2011. Describes: ABB; Community Energy Storage for the use of electric vehicle batteries for grid energy storage.
+Woody, Todd. Green Blog: When It Comes to Car Batteries, Moore’s Law Does Not Compute, The New York Times, 6 September 2010. Discusses lithium-air batteries.
+
+
+== External links ==
+High-performance lithium battery anodes using silicon nanowires
+Scientific American - How Rechargeable Batteries Work
+Electropaedia

@@ -1,0 +1,84 @@
+Earth leakage circuit breaker
+An earth leakage circuit breaker (ELCB) is a safety device used in electrical installations with high earth impedance to prevent shock. It detects small stray voltages on the metal enclosures of electrical equipment, and interrupts the circuit if a dangerous voltage is detected. Once widely used, more recent installations instead use residual current circuit breakers which instead detect leakage current directly.
+
+
+== Purpose ==
+The main purpose of earth leakage protectors is to prevent injury to humans and animals due to electric shock.
+
+
+== History ==
+ELCBs protect instruments, circuits and operators. Early ELCBs were voltage sensing devices, which are now replaced by current sensing devices (RCD/RCCB). Voltage sensing devices are usually called ELCBs and current sensing devices are called RCCBs.
+Voltage-ELCBs were first introduced about sixty years ago and current-ELCBs were first introduced about forty years ago. For many years, the voltage operated ELCB and the differential current operated ELCB were both referred to as ELCBs because it was a simpler name to remember. But the use of a common name for two different devices gave rise to considerable confusion in the electrical industry. If the wrong type was used on an installation, the level of protection could be substantially less than intended. To resolve this confusion, IEC decided to apply the term residual current device (RCD) to differential current operated ELCBs. Residual current refers to any current over and above the load current.
+ELCB manufacturers include: Major Tech, Fuji Electric, Schneider Electric, Legrand,lnt, Havells, ABB, Siemens AG, Areva T&D, Camsco, Stiebel Eltron, Telemecanique, Orion Italia, Crabtree, MEM, Terasaki,Vguard.
+
+
+== Operation ==
+An ELCB is a specialised type of latching relay that has a building's incoming mains power connected through its switching contacts so that the ELCB disconnects the power in an earth leakage (unsafe) condition.
+The ELCB detects fault currents from live to the earth (ground) wire within the installation it protects. If sufficient voltage appears across the ELCB's sense coil, it will switch off the power, and remain off until manually reset. A voltage-sensing ELCB does not sense fault currents from live to any other earthed body.
+
+
+== Types ==
+There are two types of ELCB:
+voltage operated and,
+current operated.
+
+
+=== Voltage-operated (Voltage sensing devices) ===
+These devices sense a voltage to decide the earth leakage. A single phase voltage-ELCB will have six terminals. Line in, Line out, neutral in, neutral out, Earth and Fault. Metal body of the load is connected to the fault terminal of ELCB and Earth terminal is connected to the ground. For normal working, voltage across the trip coil is zero, because, the body of the load is isolated from the supply line. When an earth fault occur on the load, due to the contact of line wire to the metal body, a current will flow through the fault terminal F to the ground. This current will set up a voltage across the trip coil, which is connected between E and F. The energized trip coil will trip the circuit to protect the load device and the user.
+V-ELCBs have been in widespread use since then, and many are still in operation but are no longer installed in new construction. A voltage-operated ELCB detects a rise in potential between the protected interconnected metalwork (equipment frames, conduits, enclosures) and a distant isolated earth reference electrode. They operate at a detected potential of around 50 volts to open a main breaker and isolate the supply from the protected premises.
+A voltage-operated ELCB has a second terminal for connecting to the remote reference earth connection.
+The earth circuit is modified when an ELCB is used; the connection to the earth rod is passed through the ELCB by connecting to its two earth terminals. One terminal goes to the installation earth CPC (circuit protective conductor, aka earth wire), and the other to the earth rod (or sometimes other type of earth connection).
+
+
+== Disadvantages ==
+This voltage sensing system has a lot of disadvantages, which include.
+• Wire break in the F(Fault) to load section or E(earth) to ground section will results, a failure in operation of ELCB, and user may get severe electric shock, during earth fault.
+• Requirement of an additional third wire from the load to the ELCB.
+• Separate devices cannot be grounded individually.
+• The voltage-operated ELCB are the requirement for a second connection, and the possibility that any additional connection to earth on the protected system can disable the detector.
+
+
+=== Current sensing devices(RCD/RCCB) ===
+
+A residual-current circuit breaker (RCCB) is the commonly used ELCB. A RCCB consists of a 3 winding transformer, which has 2 primary windings and one secondary winding. Neutral and live wires act as the two primary windings. A wire wound coil is the secondary winding. The current through the secondary winding is zero at the balanced condition. In balance condition the flux due to the current through the phase wire will be neutralized by the current through the neutral wire, since the current, which flows from the phase will be returned to the neutral. When a fault occurs, a small current will flow to the ground also. This makes an unbalance between Neutral and Phase current and that creates an unbalanced magnetic field. This induces a current through the secondary winding, which is connected to the sensing circuit. This will sense the leakage and send signal to tripping system.
+
+
+== Advantages ==
+ELCBs have one advantage over RCDs: they are less sensitive to fault conditions, and therefore have fewer nuisance trips. (This does not mean they always do, as practical performance depends on installation details and the discrimination enhancing filtering in the ELCB.) Therefore, by electrically separating cable armour from the cable circuit protective conductor, an ELCB can be arranged to protect against cable damage only, and not trip on faults in downline installations.
+
+
+== Disadvantages ==
+ELCBs have some disadvantages:
+They do not detect faults that don't pass current through the CPC to the earth rod.
+They do not allow a single building system to be easily split into multiple sections with independent fault protection, because earthing systems are usually bonded to pipework.
+They may be tripped by external voltages from something connected to the earthing system such as metal pipes, a TN-S earth or a TN-C-S combined neutral and earth.
+As with RCDs, electrically leaky appliances such as some water heaters, washing machines and cookers may cause the ELCB to trip.
+ELCBs introduce additional resistance and an additional point of failure into the earthing system.
+
+
+=== Earth bypassing ===
+It is not unusual for ELCB protected installation to have a second unintentional connection to earth somewhere, one that does not pass through the ELCB sense coil. This can occur via metal pipework in contact with the ground, metal structural framework, outdoor home appliances in contact with soil, and so on.
+When this occurs, fault current may pass to earth without being sensed by the ELCB. Despite this, perhaps counterintuitively, the operation of the ELCB is not compromised. The purpose of the ELCB is to prevent earthed metalwork rising to a dangerous voltage during fault conditions, and the ELCB continues to do this just the same, the ELCB will still cut the power at the same CPC voltage level. (The difference is that higher fault current is then needed to reach this voltage.)
+
+
+=== Nuisance trips ===
+While voltage and current on the earth line is usually fault current from a live wire, this is not always the case, thus there are situations in which an ELCB can nuisance trip.
+When an installation has two connections to earth, a nearby high current lightning strike will cause a voltage gradient in the soil, presenting the ELCB sense coil with enough voltage to cause it to trip.
+If the installation's earth rod is placed close to the earth rod of a neighbouring building, a high earth leakage current in the other building can raise the local ground potential and cause a voltage difference across the two earths, again tripping the ELCB. Close earth rods are unsuitable for ELCB use for this reason, but in real life such installations are sometimes encountered.
+Both RCDs and ELCBs are prone to nuisance trips from normal harmless earth leakage to some degree. On one hand ELCBs are on average older, and hence tend to have less well developed filtering against nuisance trips, and on the other hand ELCBs are inherently immune to some of the causes of false trips RCDs suffer, and are generally less sensitive than RCDs. In practice RCD nuisance trips are much more common.
+Another cause of nuisance tripping is due to accumulated or burden currents caused by items with lowered insulation resistance. This may occur due to older equipment, or equipment with heating elements, or even wiring in buildings in the tropics where prolonged damp and rain conditions can cause the insulation resistance to lower due to moisture tracking. If there is a 30 mA protective device in use and there is a 10mA burden from various sources then the unit will trip at 20 mA. The individual items may each be electrically safe but a large number of small burden currents accumulates and reduces the tripping level. This was more a problem in past installations where multiple circuits were protected by a single ELCB.
+Heating elements of the tubular form are filled with a very fine powder that can absorb moisture if the element has not be used for some time. In the tropics, this may occur, for example if a clothes drier has not been used for a year or a large water boiler used for coffee etc. has been in storage. In such cases, if the unit is allowed to power up without RCD protection then it will normally dry out and successfully pass inspection. This type of problem can be seen even with brand new equipment.
+
+
+=== Failure to respond ===
+Some ELCBs do not respond to rectified fault current. This issue is the same in principle with ELCBs and RCDs, but ELCBs are on average much older and specs have improved considerably over the years, so an old ELCB is more likely to have some uncommon fault current waveform that it will not respond to.
+With any mechanical device, failures occur, and ELCBs should ideally be tested periodically to ensure they still work.
+If either of the earth wires become disconnected from the ELCB, it will no longer trip and the installation will often no longer be properly earthed.
+
+
+== See also ==
+Residual-current device
+Earthing system
+
+
+== References ==

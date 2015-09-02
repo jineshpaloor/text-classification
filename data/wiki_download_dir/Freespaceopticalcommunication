@@ -1,0 +1,145 @@
+Free-space optical communication
+Free-space optical communication (FSO) is an optical communication technology that uses light propagating in free space to wirelessly transmit data for telecommunications or computer networking. "Free space" means air, outer space, vacuum, or something similar. This contrasts with using solids such as optical fiber cable or an optical transmission line. The technology is useful where the physical connections are impractical due to high costs or other considerations.
+
+
+== History ==
+
+Optical communications, in various forms, have been used for thousands of years. The Ancient Greeks used a coded alphabetic system of signalling with torches developed by Cleoxenus, Democleitus and Polybius. In the modern era, semaphores and wireless solar telegraphs called heliographs were developed, using coded signals to communicate with their recipients.
+In 1880 Alexander Graham Bell and his assistant Charles Sumner Tainter created the Photophone, at Bell's newly established Volta Laboratory in Washington, DC. Bell considered it his most important invention. The device allowed for the transmission of sound on a beam of light. On June 3, 1880, Bell conducted the world's first wireless telephone transmission between two buildings, some 213 meters (700 feet) apart.
+Its first practical use came in military communication systems many decades later, first for optical telegraphy. German colonial troops used Heliograph telegraphy transmitters during the 1904/05 Herero Genocide in German South-West Africa (today's Namibia) as did British, French, US or Ottoman signals.
+
+During the trench warfare of World War I when wire communications were often cut, German signals used three types of optical Morse transmitters called Blinkgerät, the intermediate type for distances of up to 4 km (2.5 miles) at daylight and of up to 8 km (5 miles) at night, using red filters for undetected communications. Optical telephone communications were tested at the end of the war, but not introduced at troop level. In addition, special blinkgeräts were used for communication with airplanes, balloons, and tanks, with varying success.
+A major technological step was to replace the Morse code by modulating optical waves in speech transmission. Carl Zeiss Jena developed the Lichtsprechgerät 80/80 (literal translation: optical speaking device) that the German army used in their World War II anti-aircraft defense units, or in bunkers at the Atlantic Wall.
+The invention of lasers in the 1960s revolutionized free space optics. Military organizations were particularly interested and boosted their development. However the technology lost market momentum when the installation of optical fiber networks for civilian uses was at its peak.
+Many simple and inexpensive consumer remote controls use low-speed communication using infrared (IR) light. This is known as consumer IR technologies.
+A recently declassified 1987 Pentagon report reveals free-space lasers have been mounted on Israeli F-15 fighter jets for the purposes of surveillance, missile-tracking, and targeted weaponry.
+
+
+== Usage and technologies ==
+Free-space point-to-point optical links can be implemented using infrared laser light, although low-data-rate communication over short distances is possible using LEDs. Infrared Data Association (IrDA) technology is a very simple form of free-space optical communications. On the communications side the FSO technology is considered as a part of the Optical Wireless Communications applications. Free-space optics can be used for communications between spacecraft, but this has not been put into practice.
+
+
+=== Current Market Demands ===
+The demand for a high-speed (10 GBps+) and long range (3 – 5 km) FSO system is apparent in the market place.
+In 2008, MRV Communications introduced a free-space optics (FSO)-based system with a data rate of 10GB/s initially claiming a distance of 2 km at high availability. This equipment is no longer available; before end-of-life, the product's useful distance was changed down to 350m.
+In 2013, the company MOSTCOM started to serially produce a new wireless communication system that also had a data rate of 10GB/s as well as an improved range of up to 2.5 km, but to get to 99.99% up-time the designers used an RF hybrid solution, meaning the data rate drops to extremely low levels during atmospheric disturbances (typically down to 10MB/s).
+LightPointe offers many similar hybrid solutions to MOSTCOM's offering.
+
+
+=== Useful Distances ===
+The reliability of FSO units has always been a problem for commercial telecommunications. Consistently, studies find too many dropped packets and signal errors over small ranges (400 to 500 meters). This is from both independent studies, such as in the Czech republic, as well as formal internal nationwide studies, such as one conducted by MRV FSO staff. Military based studies consistently produce longer estimates for reliability, projecting the maximum range for terrestrial links is of the order of 2 to 3 km (1.2 to 1.9 mi). All studies agree the stability and quality of the link is highly dependent on atmospheric factors such as rain, fog, dust and heat.
+
+
+=== Extending the Useful Distance ===
+
+The main reason terrestrial communications have been limited to non-commercial telecommunications functions is fog. Fog consistently keeps FSO laser links over 500 meters from achieving a year-round bit error rate of 99.999%. Several entities are continually attempting to overcome these key disadvantages to FSO communications and field a system with a better quality of service. DARPA has sponsored over $130 million USD in research towards this effort, with the ORCA and ORCLE programs.
+Other non-government groups are fielding tests to evaluate different technologies that some claim have the ability to address key FSO adoption challenges. As of October 2014, none have fielded a working system that addresses the most common atmospheric events.
+FSO research from 1998-2006 in the private sector totaled $407.1 million, divided primarily among 4 start-up companies. All four failed to deliver products that would meet telecommunications quality and distance standards:
+Terabeam received approximately $226 million in funding. AT&T and Lucent backed this attempt. The work ultimately failed, and the company reorganized in 2004.
+AirFiber received $96.1 million in funding, and never solved the weather issue. They sold out to MRV communications in 2003, and MRV sold their FSO units until 2012 when the end-of-life was abruptly announced for the Terescope series.
+LightPointe Communications received $76 million in start-up funds, and eventually reorganized to sell hybrid FSO-RF units to overcome the weather-based challenges.
+The Maxima Corporation published its operating theory in Science (magazine), and received $9 million in funding before permanently shutting down. No known spin-off or purchase followed this effort.
+One private company published a paper on Nov 20,2014, claiming they had achieved commercial reliability (99.999% availability) in extreme fog. There is no indication this product is currently commercially available.
+
+
+=== Extraterrestrial ===
+The massive advantages of laser communication in space have multiple space agencies racing to develop a stable space communication platform, with many significant demonstrations and achievements. To date (18 December 2014), no laser communication system is in use in space. See Laser communication in space
+Demonstrations in Space:
+The first gigabit laser-based communication was achieved by the European Space Agency and called the European Data Relay System (EDRS) on November 28, 2014.[4] The initial images have just been demonstrated, and a working system is expected to be in place in the 2015-2016 time frame.
+NASA's OPALS announced a breakthrough in space-to-ground communication December 9, 2014, uploading 175 megabytes in 3.5 seconds. Their system is also able to re-acquire tracking after the signal was lost due to cloud cover.[5]
+In January 2013, NASA used lasers to beam an image of the Mona Lisa to the Lunar Reconnaissance Orbiter roughly 390,000 km (240,000 mi) away. To compensate for atmospheric interference, an error correction code algorithm similar to that used in CDs was implemented.[6]
+The distance records for optical communications involved detection and emission of laser light by space probes. A two-way distance record for communication was set by the Mercury laser altimeter instrument aboard the MESSENGER spacecraft. This diode-pumped infrared neodymium laser, designed as a laser altimeter for a Mercury orbit mission, was able to communicate across a distance of 24 million km (15 million miles), as the craft neared Earth on a fly-by in May, 2005. The previous record had been set with a one-way detection of laser light from Earth, by the Galileo probe, as two ground-based lasers were seen from 6 million km by the out-bound probe, in 1992.[7] Quote from Laser Communication in Space Demonstrations (EDRS)
+
+
+== LEDs ==
+
+In 2004, a Visible Light Communication Consortium was formed in Japan. This was based on work from researchers that used a white LED-based space lighting system for indoor local area network (LAN) communications. These systems present advantages over traditional UHF RF-based systems from improved isolation between systems, the size and cost of receivers/transmitters, RF licensing laws and by combining space lighting and communication into the same system. In January 2009 a task force for visible light communication was formed by the Institute of Electrical and Electronics Engineers working group for wireless personal area network standards known as IEEE 802.15.7. A trial was announced in 2010 in St. Cloud, Minnesota.
+Amateur radio operators have achieved significantly farther distances using incoherent sources of light from high-intensity LEDs. One reported 173 miles (278 km) in 2007. However, physical limitations of the equipment used limited bandwidths to about 4 kHz. The high sensitivities required of the detector to cover such distances made the internal capacitance of the photodiode used a dominant factor in the high-impedance amplifier which followed it, thus naturally forming a low-pass filter with a cut-off frequency in the 4 kHz range. From the other side use of lasers radiation source allows to reach very high data rates which are comparable to fiber communications.
+Projected data rates and future data rate claims vary. A low-cost white LED (GaN-phosphor) which could be used for space lighting can typically be modulated up to 20 MHz. Data rates of over 100 Mbit/s can be easily achieved using efficient modulation schemes and Siemens claimed to have achieved over 500 Mbit/s in 2010. Research published in 2009 used a similar system for traffic control of automated vehicles with LED traffic lights.
+In September 2013, pureLiFi, the Edinburgh start-up working on Li-Fi, also demonstrated high speed point-to-point connectivity using any off-the-shelf LED light bulb. In previous work, high bandwidth specialist LEDs have been used to achieve the high data rates. The new system, the Li-1st, maximizes the available optical bandwidth for any LED device, thereby reducing the cost and improving the performance of deploying indoor FSO systems.
+
+
+== Engineering Details ==
+Typically, best use scenarios for this technology are:
+LAN-to-LAN connections on campuses at Fast Ethernet or Gigabit Ethernet speeds
+LAN-to-LAN connections in a city, a metropolitan area network
+To cross a public road or other barriers which the sender and receiver do not own
+Speedy service delivery of high-bandwidth access to optical fiber networks
+Converged Voice-Data-Connection
+Temporary network installation (for events or other purposes)
+Reestablish high-speed connection quickly (disaster recovery)
+As an alternative or upgrade add-on to existing wireless technologies
+Especially powerful in combination with auto aiming systems, this way you could power moving cars or you can power your laptop while you move or use auto-aiming nodes to create a network with other nodes.
+
+As a safety add-on for important fiber connections (redundancy)
+For communications between spacecraft, including elements of a satellite constellation
+For inter- and intra -chip communication.
+The light beam can be very narrow, which makes FSO hard to intercept, improving security. In any case, it is comparatively easy to encrypt any data traveling across the FSO connection for additional security. FSO provides vastly improved electromagnetic interference (EMI) behavior compared to using microwaves.
+
+
+=== Technical Advantages ===
+Ease of deployment
+Can be used to power devices
+License-free long-range operation (in contrast with radio communication)
+High bit rates
+Low bit error rates
+Immunity to electromagnetic interference
+Full duplex operation
+Protocol transparency
+Increased security when working with narrow beam(s)
+No Fresnel zone necessary
+
+
+=== Range Limiting Factors ===
+For terrestrial applications, the principal limiting factors are:
+Fog (10..~100 dB/km attenuation)
+Beam dispersion
+Atmospheric absorption
+Rain
+Snow
+Terrestrial scintillation
+Interference from background light sources (including the Sun)
+Shadowing
+Pointing stability in wind
+Pollution / smog
+These factors cause an attenuated receiver signal and lead to higher bit error ratio (BER). To overcome these issues, vendors found some solutions, like multi-beam or multi-path architectures, which use more than one sender and more than one receiver. Some state-of-the-art devices also have larger fade margin (extra power, reserved for rain, smog, fog). To keep an eye-safe environment, good FSO systems have a limited laser power density and support laser classes 1 or 1M. Atmospheric and fog attenuation, which are exponential in nature, limit practical range of FSO devices to several kilometres.
+
+
+== See also ==
+Laser communication in space
+Optical Wireless Communications
+Applications of atomic line filters in laser tracking and communication
+Extremely high frequency
+IrDA
+RONJA (Reasonable Optical Near Joint Access)
+Laser safety
+List of laser articles
+Mie scattering
+Modulating retro-reflector
+N-slit interferometer
+Semaphore line
+Optical window
+Photophone
+Radio window
+Rayleigh scattering
+Smoke signal
+Terabeam
+Visible light communication
+Li-Fi
+
+
+== References ==
+
+
+== Further reading ==
+Christos Kontogeorgakis (May 1997). Millimeter Through Visible Frequency Waves Through Aerosols-Particle Modeling, Reflectivity and Attenuation. Virginia Polytechnic Institute and State University.  Master's Thesis
+Heinz Willebrand & Baksheesh Ghuman (December 2001). Free Space Optics: Enabling Optical Connectivity in Today's Networks. SAMS. 
+Moll, Florian (December 2013). "Free-space laser system for secure air-to-ground quantum communications". SPIE Newsroom. 
+David G. Aviv (2006). Laser Space Communications. ARTECH HOUSE. ISBN 1-59693-028-4. 
+
+
+== External links ==
+Free Space Optics on COST297 for HAPs
+Explanation of Fresnel zones in microwave and optical links
+video showing Lichtsprechgerät 80 in use on YouTube
+International Space Station to Beam Video Via Laser Back to Earth, March 2014 NASA's Optical Payload for Lasercomm Science demonstration mission to the ISS.

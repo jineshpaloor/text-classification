@@ -1,0 +1,48 @@
+Power conditioner
+A power conditioner (also known as a line conditioner or power line conditioner) is a device intended to improve the quality of the power that is delivered to electrical load equipment. While there is no official definition of a power conditioner, the term most often refers to a device that acts in one or more ways to deliver a voltage of the proper level and characteristics to enable load equipment to function properly. In some uses, power conditioner refers to a voltage regulator with at least one other function to improve power quality (e.g. power factor correction, noise suppression, transient impulse protection, etc.)
+The terms "power conditioning" and "power conditioner" can be misleading, as the word "power" here refers to the electricity generally rather than the more technical electric power.
+Conditioners specifically work to smooth the sinusoidal A.C. wave form and maintain a constant voltage over varying loads.
+
+
+== Types ==
+An AC power conditioner is the typical power conditioner that provides "clean" AC power to sensitive electrical equipment. Usually this is used for home or office applications and has up to 10 or more receptacles or outlets and commonly provides surge protection as well as noise filtering.
+'Power line conditioners take in power and modify it based on the requirements of the machinery to which they are connected. Attributes to be conditioned are measured with various devices, such as, Phasor measurement units. Voltage spikes are most common during electrical storms or malfunctions in the main power lines. The surge protector stops the flow of electricity from reaching a machine by shutting off the power source.
+The term "Power Conditioning" has been difficult to define historically. However, with the advances in power technology and recognition by IEEE, NEMA, and other standards organizations, a new actual engineering definition has now been developed and accepted to provide an accurate depiction of this definition.
+"Power Conditioning" is the ability to filter the AC line signal provided by the power company. "Power Regulation" is the ability to take a signal from the local power company, turn it into a DC signal that will run an oscillator, which generates a single frequency sine wave, determined by the local area needs, is fed to the input stage of power amplifier, and is then output as specified as the ideal voltage present at any standard wall outlet.
+
+
+== Design ==
+A good quality power conditioner is designed with internal filter banks to isolate the individual power outlets or receptacles on the power conditioner. This eliminates interference or "cross-talk" between components. If the application will be a home theater system, the noise suppression rating listed in the technical specifications of the power conditioner will be very important. This rating is expressed in decibels (db). The higher the db rating, the better the noise suppression.
+The power conditioner will also have a "joule" rating. A joule is a measurement of energy or heat required to sustain one watt for one second, known as a watt second. Since electrical surges are momentary spikes, the joule rating indicates how much electrical energy the suppressor can absorb at once before becoming damaged itself. The higher the joule rating, the greater the protection.
+
+
+== Uses ==
+Power conditioners vary in function and size, generally according to their use. Some power conditioners provide minimal voltage regulation while others protect against six or more power quality problems. Units may be small enough to mount on a printed circuit board or large enough to protect an entire factory.
+Small power conditioners are rated in volt-amperes (V·A) while larger units are rated in kilovolt-amperes (kV·A).
+Ideally electric power would be supplied as a sine wave with the amplitude and frequency given by national standards (in the case of mains) or system specifications (in the case of a power feed not directly attached to the mains) with an impedance of zero ohms at all frequencies.
+No real life power feed will ever meet this ideal. Deviations may include:
+Variations in the peak or RMS voltage are both important to different types of equipment.
+When the RMS voltage exceeds the nominal voltage by 10 to 80% for 0.5 cycle to 1 minute, the event is called a "swell".
+A "dip" (in British English) or a "sag" (in American English – the two terms are equivalent) is the opposite situation: the RMS voltage is below the nominal voltage by 10 to 90% for 0.5 cycle to 1 minute.
+Random or repetitive variations in the RMS voltage between 90 and 110% of nominal can produce a phenomenon known as "flicker" in lighting equipment. Flicker is the impression of unsteadiness of visual sensation induced by a light stimulus on the human eye. A precise definition of such a voltage fluctuations that produce flicker have been subject to ongoing debate in more than one scientific community for many years.
+Abrupt, very brief increases in voltage, called "spikes", "impulses", or "surges", generally caused by large inductive loads being turned off, or more severely by lightning.
+"Undervoltage" occurs when the nominal voltage drops below 90% for more than 1 minute. The term "brownout" in common usage has no formal definition but is commonly used to describe a reduction in system voltage by the utility or system operator to decrease demand or to increase system operating margins.
+"Overvoltage" occurs when the nominal voltage rises above 110% for more than 1 minute.
+Variations in the frequency
+Variations in the wave shape – usually described as harmonics
+Nonzero low-frequency impedance (when a load draws more power, the voltage drops)
+Nonzero high-frequency impedance (when a load demands a large amount of current, then stops demanding it suddenly, there will be a dip or spike in the voltage due to the inductances in the power supply line)
+
+
+== References ==
+
+Dugan, Roger C.; Mark F. McGranaghan; Surya Santoso; H. Wayne Beaty (2003). Electrical Power Systems Quality (2nd ed.). New York: McGraw-Hill. ISBN 0-07-138622-X. 
+Meier, Alexandra von (2006). Electric Power Systems: A Conceptual Introduction. Hoboken, NJ: John Wiley & Sons. ISBN 978-0-471-17859-0. 
+Sittig, Roland; Roggwiller, P. (1982). Semiconductor Devices for Power Conditioning. New York: Plenum Press. ISBN 978-0-306-41131-1. 
+
+
+== External links ==
+"Glossary of Terms". ConEdison Solutions. Retrieved 2011-07-14. 
+"Power Quality" (PDF). Power Problems, Power Quality, and Rotary Systems. Retrieved 2010-07-27.  NOTE: Broken Link
+Charles Perry and Doug Dorr (1 March 2003). "Custom Power Choices Abound". Transmission & Distribution World. Penton Media. Retrieved 2010-07-27. 
+"Power Quality and Energy Efficiency White Paper". 3DFS Power Solutions.

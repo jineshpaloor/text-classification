@@ -1,0 +1,100 @@
+Sulfur hexafluoride circuit breaker
+High-voltage circuit breakers have greatly changed since they were first introduced in the mid-1950s, and several interrupting principles have been developed that have contributed successively to a large reduction of the operating energy. These breakers are available for indoor or outdoor applications, the latter being in the form of breaker poles housed in ceramic insulators mounted on a structure.
+Current interruption in a high-voltage circuit breaker is obtained by separating two contacts in a medium, such as sulfur hexafluoride (SF6), having excellent dielectric and arc-quenching properties. After contact separation, current is carried through an arc and is interrupted when this arc is cooled by a gas blast of sufficient intensity.
+The sulfur hexaflouride gas (SF6) is an electronegative gas and has a strong tendency to absorb free electrons. The contacts of the breaker are opened in a high pressure flow of sulphur hexaflouride gas and an arc is struck between them. The gas capture the conducting free electrons in the arc to form relatively immobile negative ions. This loss of conducting electrons in the arc quickly builds up enough insulation strength to extinguish the arc.
+A gas blast applied to the arc must be able to cool it rapidly so that gas temperature between the contacts is reduced from 20,000 K to less than 2000 K in a few hundred microseconds, so that it is able to withstand the transient recovery voltage that is applied across the contacts after current interruption. Sulfur hexafluoride is generally used in present high-voltage circuit breakers at rated voltage higher than 52 kV.
+Into the 1980s, the pressure necessary to blast the arc was generated mostly by gas heating using arc energy. It is now possible to use low-energy spring-loaded mechanisms to drive high-voltage circuit breakers up to 800 kV.
+
+
+== Brief history ==
+The first patents on the use of SF6 as an interrupting medium were filed in Germany in 1938 by Vitaly Grosse (AEG) and independently later in the United States in July 1951 by H. J. Lingal, T. E. Browne and A. P. Storm (Westinghouse).
+The first industrial application of SF6 for current interruption dates to 1953. High-voltage 15 kV to 161 kV load switches were developed with a breaking capacity of 600 A. The first high-voltage SF6 circuit breaker built in 1956 by Westinghouse, could interrupt 5 kA under 115 kV, but it had six interrupting chambers in series per pole.
+In 1957, the puffer-type technique was introduced for SF6 circuit breakers, wherein the relative movement of a piston and a cylinder linked to the moving part is used to generate the pressure rise necessary to blast the arc via a nozzle made of insulating material (Figure 1). In this technique, the pressure rise is obtained mainly by gas compression.
+The first high-voltage SF6 circuit breaker with a high short-circuit current capability was produced by Westinghouse in 1959. This dead tank circuit breaker could interrupt 41.8 kA under 138 kV (10,000 MV·A) and 37.6 kA under 230 kV (15,000 MV·A). This performance was already significant, but the three chambers per pole and the high-pressure source needed for the blast (1.35 MPa) was a constraint that had to be avoided in subsequent developments.
+The excellent properties of SF6 led to the fast extension of this technique in the 1970s and to its use for the development of circuit breakers with high interrupting capability, up to 800 kV.
+
+The achievement around 1983 of the first single-break 245 kV and the corresponding 420 kV to 550 kV and 800 kV, with respectively 2, 3, and 4 chambers per pole, led to the dominance of SF6 circuit breakers in the complete range of high voltages.
+Several characteristics of SF6 circuit breakers can explain their success:
+Simplicity of the interrupting chamber which does not need an auxiliary breaking chamber
+Autonomy provided by the puffer technique
+The possibility to obtain the highest performance, up to 63 kA, with a reduced number of interrupting chambers
+Short break time of 2 to 2.5 cycles
+High electrical endurance, allowing at least 25 years of operation without reconditioning
+Possible compact solutions when used for gas insulated switchgear or hybrid switchgear
+Integrated closing resistors or synchronized operations to reduce switching over-voltages
+Reliability and availability
+Low noise levels
+The reduction in the number of interrupting chambers per pole has led to a considerable simplification of circuit breakers as well as the number of parts and seals required. As a direct consequence, the reliability of circuit breakers improved, as verified later on by International Council on Large Electric Systems (CIGRE) surveys.
+
+
+== Thermal blast chambers ==
+New types of SF6 breaking chambers, which implement innovative interrupting principles, have been developed over the past 30 years, with the objective of reducing the operating energy of the circuit breaker. One aim of this evolution was to further increase the reliability by reducing the dynamic forces in the pole. Developments since 1980 have seen the use of the self-blast technique of interruption for SF6 interrupting chambers.
+These developments have been facilitated by the progress made in digital simulations that were widely used to optimize the geometry of the interrupting chamber and the linkage between the poles and the mechanism.
+This technique has proved to be very efficient and has been widely applied for high-voltage circuit breakers up to 550 kV. It has allowed the development of new ranges of circuit breakers operated by low energy spring-operated mechanisms.
+
+The reduction of operating energy was mainly achieved by lowering energy used for gas compression and by making increased use of arc energy to produce the pressure necessary to quench the arc and obtain current interruption. Low current interruption, up to about 30% of rated short-circuit current, is obtained by a puffer blast. Also includes more of extensive energy available .
+
+
+== Self-blast chambers ==
+Further development in the thermal blast technique was made by the introduction of a valve between the expansion and compression volumes. When interrupting low currents the valve opens under the effect of the overpressure generated in the compression volume. The blow-out of the arc is made as in a puffer circuit breaker thanks to the compression of the gas obtained by the piston action. In the case of high currents interruption, the arc energy produces a high overpressure in the expansion volume, which leads to the closure of the valve and thus isolating the expansion volume from the compression volume. The overpressure necessary for breaking is obtained by the optimal use of the thermal effect and of the nozzle clogging effect produced whenever the cross-section of the arc significantly reduces the exhaust of gas in the nozzle. In order to avoid excessive energy consumption by gas compression, a valve is fitted on the piston in order to limit the overpressure in the compression to a value necessary for the interruption of low short circuit currents.
+
+This technique, known as "self-blast" has now been used extensively since 1980 for the development of many types of interrupting chambers. The increased understanding of arc interruption obtained by digital simulations and validation through breaking tests, contribute to a higher reliability of these self-blast circuit breakers. In addition the reduction in operating energy, allowed by the self-blast technique, leads to longer service life.
+
+
+== Double motion of contacts ==
+An important decrease in operating energy can also be obtained by reducing the kinetic energy consumed during the tripping operation. One way is to displace the two arcing contacts in opposite directions so that the arc speed is half that of a conventional layout with a single mobile contact.
+
+The thermal and self-blast principles have enabled the use of low-energy spring mechanisms for the operation of high-voltage circuit breakers. They progressively replaced the puffer technique in the 1980s; first in 72.5 kV breakers, and then from 145 kV to 800 kV.
+
+
+== Comparison of single motion and double motion techniques ==
+The double motion technique halves the tripping speed of the moving part. In principle, the kinetic energy could be quartered if the total moving mass were not increased. However, as the total moving mass is increased, the practical reduction in kinetic energy is closer to 60%. The total tripping energy also includes the compression energy, which is almost the same for both techniques. Thus, the reduction of the total tripping energy is lower, about 30%, although the exact value depends on the application and the operating mechanism. Depending on the specific case, either the double motion or the single motion technique can be cheaper. Other considerations, such as rationalization of the circuit breaker range, can also influence the cost.
+
+
+== Thermal blast chamber with arc-assisted opening ==
+In this interruption principle arc energy is used, on the one hand to generate the blast by thermal expansion and, on the other hand, to accelerate the moving part of the circuit breaker when interrupting high currents. The overpressure produced by the arc energy downstream of the interruption zone is applied on an auxiliary piston linked with the moving part. The resulting force accelerates the moving part, thus increasing the energy available for tripping. With this interrupting principle it is possible, during high-current interruptions, to increase by about 30% the tripping energy delivered by the operating mechanism and to maintain the opening speed independently of the current. It is obviously better suited to circuit breakers with high breaking currents, such as generator circuit breakers.
+
+
+== Generator circuit breakers ==
+Generator circuit breakers (GCB) are connected between a generator and the step-up voltage transformer. They are generally used at the outlet of high-power generators (100 MVA to 1800 MVA) in order to protect them in a reliable, fast and economic manner. Such circuit breakers must be able to allow the passage of high permanent currents under continuous service (6.3 kA to 40 kA), and have a high breaking capacity (63 kA to 275 kA).
+They belong to the medium voltage range, but the transient recovery voltage withstand capability required by ANSI/IEEE Standard C37.013 is such that the interrupting principles developed for the high-voltage range must be used. A particular embodiment of the thermal blast technique has been developed and applied to generator circuit breakers. The self-blast technique described above is also widely used in SF6 generator circuit breakers, in which the contact system is driven by a low-energy, spring-operated mechanism. An example of such a device is shown in the figure below; this circuit breaker is rated for 17.5 kV and 63 kA.
+
+
+== Evolution of tripping energy ==
+The operating energy has been reduced by 80% to 87% during this period of 30 years. This illustrates well the great progress made in this field of interrupting techniques for high-voltage circuit breakers.
+
+
+== Future perspectives ==
+In the near future, present interrupting technologies can be applied to circuit breakers with the higher rated breaking currents (63 kA to 80 kA) required in some networks with increasing power generation.
+Self-blast or thermal blast circuit breakers are now accepted world wide and they have been in service for high-voltage applications for about 25 years by ABB, and later by Areva, starting with the voltage level of 72.5 kV. Today this technique is also available for the voltage levels 420/550/800 kV.
+
+
+== High-power testing ==
+The short-circuit interrupting capability of high-voltage circuit breakers is such that it cannot be demonstrated with a single source able to generate the necessary power. A special scheme is used with a generator that provides the short-circuit current until current interruption and afterwards a voltage source applies the recovery voltage across the terminals of the circuit breaker. Tests are usually performed single-phase, but can also be performed three-phase Also have a small control of power.
+
+
+== Issues related to SF6 circuit breakers ==
+The following issues are associated with SF6 circuit breakers:
+Toxic lower order gases
+When an arc is formed in SF6 gas small quantities of lower order gases are formed. Some of these byproducts are toxic and can cause irritation to eyes and respiratory systems.
+Oxygen displacement
+SF6 is heavier than air, so care must be taken when entering low confined spaces due to the risk of oxygen displacement.
+Greenhouse gas
+
+SF6 is the most potent greenhouse gas that the Intergovernmental Panel on Climate Change has evaluated. It has a global warming potential that is 23,900 times worse than CO2.
+Some governments have implemented systems to monitor and control the emission of SF6 to the atmosphere.
+
+
+== Alternatives to SF6 circuit breakers ==
+Circuit breakers are usually classed on their insulating medium. The follow types of circuit breakers may be an alternative to SF6 types.
+Air blast
+Oil
+vacuum
+CO2
+
+
+== See also ==
+Circuit breaker
+
+
+== Notes ==

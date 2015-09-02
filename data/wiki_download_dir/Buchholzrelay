@@ -1,0 +1,23 @@
+Buchholz relay
+In the field of electric power distribution and transmission, a Buchholz relay is a safety device mounted on some oil-filled power transformers and reactors, equipped with an external overhead oil reservoir called a "conservator". The Buchholz relay is used as a protective device sensitive to the effects of dielectric failure inside the equipment.
+
+
+== Application ==
+Buchholz relays have been applied to large power transformers at least since the 1940s, and are connected between the conservator and oil tank of a transformer.
+
+
+== Operation ==
+Depending on the model, the relay has multiple methods to detect a failing transformer. On a slow accumulation of gas, due perhaps to slight overload, gas produced by decomposition of insulating oil accumulates in the top of the relay and forces the oil level down. A float switch in the relay is used to initiate an alarm signal. Depending on design, a second float may also serve to detect slow oil leaks.
+If an electrical arc forms, gas accumulation is rapid, and oil flows rapidly into the conservator. This flow of oil operates a switch attached to a vane located in the path of the moving oil. This switch normally will operate a circuit breaker to isolate the apparatus before the fault causes additional damage. Buchholz relays have a test port to allow the accumulated gas to be withdrawn for testing. Flammable gas found in the relay indicates some internal fault such as overheating or arcing, whereas air found in the relay may only indicate low oil level or a leak.
+
+
+== Misnomers ==
+The relay was first developed by Max Buchholz (1875–1956) in 1921. Names like "beechwood relay" or "beech relay" are an indication of incorrectly translated German language manuals.
+
+
+== See also ==
+Relay
+
+
+== References ==
+^ http://www.transformerworld.co.uk/buchholz.htm Tutorial T5

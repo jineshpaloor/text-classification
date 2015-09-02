@@ -1,0 +1,135 @@
+List of current systems for electric rail traction
+This is a list of the power supply systems that are, or have been, used for tramway and railway electrification systems.
+Note that the voltages are nominal and vary depending on load and distance from the substation.
+Many modern trams and trains use on-board solid-state electronics to convert these supplies to run three-phase AC induction motors.
+
+
+== Key to the tables below ==
+Volts: voltage or volt
+Current:
+DC = direct current
+xx Hz = frequency in hertz (alternating current (AC))
+AC supplies are single-phase, except where marked three-phase
+
+Conductors:
+overhead line or
+conductor rail, usually a third rail to one side of the running rails
+Conductor rail can be:
+top contact: oldest, least safe, affected by ice, snow and leaves
+side contact: newer, safer, less affected by ice, snow and leaves
+bottom contact: newer, safer, least affected by ice, snow and leaves
+
+
+== Systems using standard voltages ==
+
+Voltages are defined by two standards: BS EN 50163  and IEC 60850
+
+
+=== Overhead systems ===
+
+
+==== 600 V DC ====
+This voltage is mostly used by older tram systems worldwide but by a few new ones as well.
+
+
+==== 750 V DC ====
+This voltage is used for most modern tram systems.
+
+
+==== 1,200 V DC ====
+
+
+==== 1,500 V DC ====
+
+
+==== 3 kV DC ====
+
+
+==== 15 kV AC, 16 2⁄3 Hz (16.7 Hz) ====
+
+
+==== 25 kV AC, 50 Hz ====
+
+
+==== 25 kV AC, 60 Hz ====
+
+While 25 kV 60 Hz is not standardized by BS EN 50163 and IEC 60850, it is the logical equivalent of 25 kV 50 Hz in countries where 60 Hz is the normal grid power frequency.
+
+
+=== Conductor rail systems ===
+
+
+==== 600 V DC conductor ====
+All third rail unless stated otherwise.
+Used by most older US subways.
+
+
+==== 750 V DC conductor ====
+All third rail unless stated otherwise.
+
+
+== Systems using non-standard voltages ==
+
+
+=== Overhead systems (DC Voltage) ===
+
+
+=== Overhead systems (AC Voltage) ===
+
+
+=== Conductor rail systems (All DC Voltage) ===
+
+
+== Three-phase systems ==
+
+
+=== Two wires ===
+
+
+=== Three Wires ===
+
+
+== Special or unusual types ==
+
+
+=== DC, plough collection from conductors in conduit below track ===
+
+London County Council Tramways, later operated by London Transport
+streetcars in New York City (Manhattan), New York
+Washington, D.C. streetcars
+Panama Canal lock's ship handlers (called mules)
+
+
+=== DC, one ground-level conductor ===
+Wolverhampton Corporation Tramways, England. (stud contact) (1902–1921)
+
+
+=== DC, two ground-level conductors ===
+Bordeaux Tramway, France. (conductor rail)
+
+
+=== DC, two-wire ===
+Greenwich, England. Previously used by trams when in the vicinity of Greenwich Observatory; separate from trolleybus supply.
+Cincinnati, Ohio, USA. Tram (streetcar) system used this arrangement throughout, probably due to legal constraints on ground return currents.
+Havana and Guanabacoa, Cuba. Tram (streetcar) systems in both cities used this arrangement.
+
+
+=== DC, power from running rails ===
+Gross-Lichterfelde Tramway (1881–1893), 180 V
+Ungerer Tramway (1886–1895)
+transportable railways as ride for children
+
+
+=== DC, four-rail ===
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+http://www.bahnstrom.de/bahnstromsysteme/weltweit_kopf.htm
+Map of European voltage-systems
+Southern Electric, England - details of electrification

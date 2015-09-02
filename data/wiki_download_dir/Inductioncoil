@@ -1,0 +1,67 @@
+Induction coil
+An induction coil or "spark coil" (archaically known as an inductorium or Ruhmkorff coil after Heinrich Ruhmkorff) is a type of electrical transformer used to produce high-voltage pulses from a low-voltage direct current (DC) supply. To create the flux changes necessary to induce voltage in the secondary, the direct current in the primary is repeatedly interrupted by a vibrating mechanical contact called an interrupter. Developed beginning in 1836 by Nicholas Callan and others, the induction coil was the first type of transformer. They were widely used in x-ray machines, spark-gap radio transmitters, arc lighting and quack medical electrotherapy devices from the 1880s to the 1920s. Today their only common use is as the ignition coils in internal combustion engines, and in physics education to demonstrate induction.
+The term 'induction coil' is also used for a coil carrying high-frequency alternating current (AC), producing eddy currents to heat objects placed in the interior of the coil, in induction heating or zone melting equipment.
+
+
+== Construction and function ==
+
+See schematic diagram. An induction coil consists of two coils of insulated copper wire wound around a common iron core (M). One coil, called the primary winding (P), is made from relatively few (tens or hundreds) turns of coarse wire. The other coil, the secondary winding, (S) typically consists of many (thousands) turns of fine wire.
+An electric current is passed through the primary, creating a magnetic field. Because of the common core, most of the primary's magnetic field couples with the secondary winding. The primary behaves as an inductor, storing energy in the associated magnetic field. When the primary current is suddenly interrupted, the magnetic field rapidly collapses. This causes a high voltage pulse to be developed across the secondary terminals through electromagnetic induction. Because of the large number of turns in the secondary coil, the secondary voltage pulse is typically many thousands of volts. This voltage is often sufficient to cause an electric spark, to jump across an air gap (G) separating the secondary's output terminals. For this reason, induction coils were called spark coils.
+The size of induction coils is usually specified by the length of spark it can produce; a '4 inch' (10 cm) induction coil is one that could produce a 4 inch arc.
+
+
+=== The interrupter ===
+
+To operate the coil continuously, the DC supply current must be broken repeatedly to create the magnetic field changes needed for induction. Induction coils use a magnetically activated vibrating arm called an interrupter or break (A) to rapidly connect and break the current flowing into the primary coil. The interrupter is mounted on the end of the coil next to the iron core. When the power is turned on, the magnetic field of the core created by the current flowing in the primary attracts the interrupter's iron armature (A) attached to the springy arm, opening a pair of contacts (K) in the primary circuit. When the magnetic field then collapses, the arm springs away, closing the contacts again and turning on the current again. The magnetic field pulls on the armature again, opening the contacts again. This cycle is repeated many times per second. The secondary voltage v2 (red, left), is roughly proportional to the rate of change of primary current i1 (blue).
+Opposite potentials are induced in the secondary when the interrupter 'breaks' the circuit and 'closes' the circuit. However, the current change in the primary is much more abrupt when the interrupter 'breaks'. When the contacts close, the current builds up slowly in the primary because the supply voltage has a limited ability to force current through the coil's inductance. In contrast, when the interrupter contacts open, the current falls to zero suddenly. So the pulse of voltage induced in the secondary at 'break' is much larger than the pulse induced at 'close', it is the 'break' that generates the coil's high voltage output.
+
+
+=== Capacitor ===
+An arc forms at the interrupter contacts at 'break' which consumes energy stored in the coil, slowing the rate of change of primary current, reducing the output voltage. To prevent this a capacitor (C) of 0.5 to 15 μF is connected across the contacts to increase the speed of switching on 'break', producing much higher voltages. It also prevents damage to the contacts by the arc. The capacitor and primary winding together form a tuned circuit, so on break an oscillating decaying sinusoidal current flows in the primary. This induces a sinusoidal voltage in the secondary. So the high voltage output pulse at each break actually consists of a rapidly alternating series of positive and negative pulses (left) which decay rapidly to zero, each pulse causing a separate spark between the output electrodes.
+
+
+=== Construction details ===
+To prevent the high voltages generated in the coil from breaking down the thin insulation and arcing between the secondary wires, the secondary coil uses special construction so as to avoid having wires carrying large voltage differences lying next to each other. In one widely used technique, the secondary coil is wound in many thin flat pancake-shaped sections (called "pies"), connected in series. The primary coil is first wound on the iron core, and insulated from the secondary with a thick paper or rubber coating. Then each secondary subcoil is connected to the coil next to it, and slid onto the iron core, insulated from adjoining coils with waxed cardboard disks. The voltage developed in each subcoil isn't large enough to jump between the wires in the subcoil. Large voltages are only developed across many subcoils in series, which are too widely separated to arc over. To give the entire coil a final insulating coating, it is immersed in melted paraffin wax or rosin, and the air evacuated to ensure there are no air bubbles left inside, and the paraffin allowed to solidify, so the entire coil is encased in wax.
+To prevent eddy currents, which cause energy losses, the iron core is made of a bundle of parallel iron wires, individually coated with shellac to insulate them electrically. The eddy currents, which flow in loops in the core perpendicular to the magnetic axis, are blocked by the layers of insulation. The ends of the insulated primary coil often protruded several inches from either end of the secondary coil, to prevent arcs from the secondary to the primary or the core.
+
+
+== Mercury and electrolytic interrupters ==
+
+Although modern induction coils used for educational purposes all use the vibrating arm 'hammer' type interrupter described above, these were inadequate for powering the large induction coils used in spark-gap radio transmitters and x-ray machines around the turn of the 20th century. In powerful coils the high primary current created arcs at the interrupter contacts which quickly destroyed the contacts. Also, since each "break" produces a pulse of voltage from the coil, the more breaks per second the greater the power output. Hammer interrupters were not capable of interruption rates over 200 breaks per second, and the ones used on powerful coils were limited to 20 – 40 breaks per second.
+Therefore much research went into improving interrupters, and improved designs were used in high power coils, with the hammer interrupters only used on small coils under 8" sparks. Léon Foucault and others developed interrupters consisting of an oscillating needle dipping into and out of a container of mercury. The mercury was covered with a layer of spirits which extinguished the arc quickly, causing faster switching. These were often driven by a separate electromagnet or motor, which allowed the interruption rate and "dwell" time to be adjusted separately from the primary current.
+The largest coils used either electrolytic or mercury turbine interrupters. The electrolytic or Wehnelt interrupter, invented by Arthur Wehnelt in 1899, consisted of a short platinum needle anode immersed in an electrolyte of dilute sulfuric acid, with the other side of the circuit connected to a lead plate cathode. When the primary current passed through it, hydrogen gas bubbles formed on the needle which repeatedly broke the circuit. This resulted in a primary current broken randomly at rates up to 2000 breaks per second. They were preferred for powering X-ray tubes. They produced a lot of heat, and due to the hydrogen could explode. Mercury turbine interrupters had a centrifugal pump which sprayed a stream of liquid mercury onto rotating metal contacts. They could achieve interruption rates up to 10,000 breaks per second, and were the most widely used type of interrupter in commercial wireless stations.
+
+
+== History ==
+
+The induction coil was the first type of electrical transformer. During its development between 1836 and the 1860s, mostly by trial and error, researchers discovered many of the principles that governed all transformers, such as the proportionality between turns and output voltage, and the use of a "divided" iron core to reduce eddy current losses.
+Michael Faraday discovered the principle of induction, Faraday's induction law, in 1831 and did the first experiments with induction between coils of wire. The induction coil was invented by the Irish scientist and Catholic priest Nicholas Callan in 1836 at the St. Patrick's College, Maynooth and improved by William Sturgeon and Charles Grafton Page. George Henry Bachhoffner and Sturgeon (1837) independently discovered that a "divided" iron core of iron wires reduced power losses. The early coils had hand cranked interrupters, invented by Callan and Antoine Philibert Masson (1837). The automatic 'hammer' interrupter was invented by Rev. Prof. James William MacGauley (1838) of Dublin, Ireland, Johann Philipp Wagner (1839), and Christian Ernst Neeff (1847). Hippolyte Fizeau (1853) introduced the use of the quenching capacitor. Heinrich Ruhmkorff generated higher voltages by greatly increasing the length of the secondary, in some coils using 5 or 6 miles (10 km) of wire, and produced sparks up to 16 inches. In the early 1850s, American inventor Edward Samuel Ritchie introduced the divided secondary construction to improve insulation. Callan's induction coil was named an IEEE Milestone in 2006.
+Induction coils were used to provide high voltage for early gas discharge and Crookes tubes and other high voltage research. They were also used to provide entertainment (lighting Geissler tubes, for example) and to drive small "shocking coils", Tesla coils and violet ray devices used in quack medicine. They were used by Hertz to demonstrate the existence of electromagnetic waves, as predicted by James Maxwell and by Lodge and Marconi in the first research into radio waves. Their largest industrial use was probably in early wireless telegraphy spark-gap radio transmitters and to power early cold cathode x-ray tubes from the 1890s to the 1920s, after which they were supplanted in both these applications by AC transformers and vacuum tubes. However their largest use was as the ignition coil or spark coil in the ignition system of internal combustion engines, where they are still used, although the interrupter contacts are now replaced by solid state switches. A smaller version is used to trigger the flash tubes used in cameras and strobe lights.
+
+
+== See also ==
+Ignition coil
+Trembler coil
+Spark gap transmitter
+Transformer
+Tesla coil
+Faraday's law of induction
+Ignition system
+Inductor
+Magnetic field
+Nicholas Callan
+
+
+== Footnotes ==
+
+
+== Further reading ==
+Norrie, H. S., "Induction Coils: How to Make, Use, and Repair Them". Norman H. Schneider, 1907, New York. 4th edition.
+Collins, Archie F. (1908). The Design and Construction of Induction Coils. New York: Munn & Co. 
+Fleming, John Ambrose (1896). The Alternate Current Transformer in Theory and Practice, Vol.2. The Electrician Publishing Co.  Has detailed history of invention of induction coil
+
+
+== External links ==
+Battery powered Driver circuit for Induction Coils
+The Cathode Ray Tube site
+Newman, F. H. (1 July 1921), "A New Form of Wehnelt Interrupter" (PDF), Proceedings of the Royal Society A (Royal Society of London) 99 (699): 324–330, plates 3 and 4, Bibcode:1921RSPSA..99..324N, doi:10.1098/rspa.1921.0045

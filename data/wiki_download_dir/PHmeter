@@ -1,0 +1,52 @@
+PH meter
+A pH Meter is an electronic device used for measuring the pH which is either the concentration of Hydrogen ions in an aqueous solution or the activity of the Hydrogen ions in an aqueous solution. The pH will indicate if the solution is acidic or basic, but is not a measure of acidity or alkalinity. pH meters work in liquids though special probes are sometimes used to measure the pH of semi-solid substances. A typical pH meter consists of a special measuring probe (a glass electrode) connected to an electronic meter that measures and displays the pH reading.
+
+
+== The probe ==
+The probe is a key part of a pH meter. It is a rod like structure usually made up of glass. At the bottom of the probe there is a bulb which contains the sensor. The bulb should never be touched by hand and should be cleaned with the help of an absorbent tissue paper, being careful not to rub the tissue against the glass bulb in order to avoid creating static. To measure the pH of a solution, the probe is dipped into the solution. The probe is fitted in an arm known as the probe arm.
+
+
+== Calibration and use ==
+For very precise work the pH meter should be calibrated before each measurement. For normal use calibration should be performed at the beginning of each day. The reason for this is that the glass electrode does not give a reproducible e.m.f. over longer periods of time
+Calibration should be performed with at least two standard buffer solutions that span the range of pH values to be measured. For general purposes buffers at pH 4.01 and pH 10.00 are acceptable. The pH meter has one control (calibrate) to set the meter reading equal to the value of the first standard buffer and a second control which is used to adjust the meter reading to the value of the second buffer. A third control allows the temperature to be set. Standard buffer sachets, which can be obtained from a variety of suppliers, usually state how the buffer value changes with temperature. For more precise measurements, a three buffer solution calibration is preferred. As pH 7 is essentially, a "zero point" calibration (akin to zeroing or taring a scale or balance), calibrating at pH 7 first, calibrating at the pH closest to the point of interest (e.g. either 4 or 10) second and checking the third point will provide a more linear accuracy to what is essentially a non-linear problem. Some meters will allow a three-point calibration and that is the preferred scheme for the most accurate work. Higher quality meters will have a provision to account for temperature coefficient correction, and high-end pH probes have temperature probes built in. The calibration process correlates the voltage produced by the probe (approximately 0.06 volts per pH unit) with the pH scale. After each single measurement, the probe is rinsed with distilled water or deionized water to remove any traces of the solution being measured, blotted with a scientific wipe to absorb any remaining water which could dilute the sample and thus alter the reading, and then quickly immersed in another solution.
+
+
+== Cleaning and troubleshooting of the glass probes ==
+Occasionally (about once a month), the probe may be cleaned using pH-electrode cleaning solution; generally a 0.1 M solution of hydrochloric acid (HCl) is used, having a pH of one.
+Alternatively a dilute solution of ammonium fluoride (NH4F) can be used. To avoid unexpected problems, the best practice is however to always refer to the electrode manufacturer recommendations.
+
+
+== Types of pH meters ==
+
+pH meters range from simple and inexpensive pen-like devices to complex and expensive laboratory instruments with computer interfaces and several inputs for indicator and temperature measurements to be entered to adjust for the variation in pH caused by temperature. Specialty meters and probes are available for use in special applications, harsh environments, etc. There are also holographic pH sensors, which allow the measurement pH colorimetrically.
+
+
+== History ==
+The concept of pH was defined in 1909 by S. P. L. Sørensen, and electrodes were used for pH measurement in the 1920s.
+In October 1934 Arnold Orville Beckman registered the first patent for a complete chemical instrument for the measurement of pH, U.S. Patent No. 2,058,761, for his "acidimeter", later renamed the pH meter. Beckman developed the prototype as an assistant professor of chemistry at the California Institute of Technology, when asked to devise a quick and accurate method for measuring the acidity of lemon juice for the California Fruit Growers Exchange (Sunkist). On April 8, 1935, Beckman's renamed National Technical Laboratories focused on the making of scientific instruments, with the Arthur H. Thomas Company as a distributor for its pH meter. In its first full year of sales, 1936, the company sold 444 pH meters for $60,000 in sales. In years to come, it would bring in millions.
+Radiometer in Denmark was founded in 1935, and began marketing a pH meter for medical use around 1936, but "the development of automatic pH-meters for industrial purposes was neglected. Instead American instrument makers successfully developed industrial pH-meters with a wide variety of applications, such as in breweries, paper works, alum works, and water treatment systems." In 2004 the Beckman pH meter was designated an ACS National Historic Chemical Landmark in recognition of its significance as the first commercially successful electronic pH meter.
+In the 1970s Jenco Electronics of Taiwan designed and manufactured the first portable digital pH meter. This meter was sold under Cole-Parmer's label.
+
+
+== Building a pH meter ==
+Because the circuitry of a basic pH meter is quite simple, it is possible to build a serviceable pH meter or pH controller with parts available at a neighborhood electronics retailer. (pH probes, however, are not so easily acquired and must usually be ordered from a scientific instrument supplier.) Serviceable pH meters can be built from any operational amplifier with a high input impedance, such as the common and inexpensive National Semiconductor TL082 or its equivalent.
+
+
+== See also ==
+Ion-selective electrodes
+ISFET pH electrode
+Potentiometry
+Quinhydrone electrode
+Saturated calomel electrode
+Silver chloride electrode
+Standard hydrogen electrode
+pH indicator
+
+
+== References ==
+
+
+== External links ==
+Introduction to pH – Excellent overview of pH and pH measurement at the Omega Engineering website
+Development of the Beckman pH Meter – National Historic Chemical Landmark of the American Chemical Society
+DigitalAnalogPrinter – Freeware compatible with the device shown in the article to monitor the pH in real time

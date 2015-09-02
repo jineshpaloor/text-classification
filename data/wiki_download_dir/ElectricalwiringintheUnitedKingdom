@@ -1,0 +1,188 @@
+Electrical wiring in the United Kingdom
+Electric wiring in the United Kingdom is commonly distinguished by a number of criteria, such as voltage (low, very low, high, etc.), phase (single or 3 phase), nature of electrical signal (power, data), type and design of cable (conductors and insulators used, cable design, solid/fixed or stranded/flexible, intended use, protective materials), circuit design (ring, radial), and so on. Most electrical wiring is ultimately regulated for legal purposes, by the Building Regulations, currently legislated as the Building Regulations 2010, which lists "controlled services" such as electric wiring that must follow specific directions and standards. The detailed rules for end-use wiring followed for practical purposes are those of BS 7671 ("Requirements for Electrical Installations. IET Wiring Regulations", informally "The regs"), currently in its 17th edition Amendment 3, which provide the detailed descriptions referred to by legislation.
+UK electrical wiring is largely harmonised with the regulations in other European countries and the international IEC 60446 standard, however there are a number of specific national practices, habits and traditions that differ significantly from other countries, and which in some cases survived harmonisation. These include the use of ring circuits for domestic and light commercial fixed wiring, fused plugs, and for circuits installed prior to harmonisation, historically unique wiring colours.
+
+
+== Common terminology in UK electrical wiring ==
+
+
+== Wiring colours ==
+
+
+=== Conductor colours ===
+The standard wiring colours in the UK are (as of 2006) the same as elsewhere in Europe and follow international standard IEC 60446. This colour scheme had already been introduced for appliance flexes in the UK in the early 1970s, however the original colour scheme recommended by the IEE for fixed wiring was permitted until 2006. As a result, the international standard blue/brown scheme is as of 2006 found in most appliance flexes. In fixed wiring, the blue/brown scheme is only found in newer (post-2004) installations, and the old IEE black/red scheme is likely to be encountered in existing installations for many more decades.
+The standard colours in fixed wiring were harmonised in 2004 with the regulations in other European countries and the international IEC 60446 standard. For a transitional period (April 2004 – March 2006) either set of colours were allowed (but not both), provided that any changes in the colour scheme are clearly labelled. From April 2006, only the new colours should be used for any new wiring.
+
+
+==== Potential for confusion ====
+The UK changed colour codes three decades after most other European countries, as the change in standard was not considered safe. Blue, previously used as a phase colour, is now the colour for neutral. Black, which was previously used for neutral, now indicates a phase.
+Household wiring does not usually use three-phase supplies and the clash only occurs in three-phase systems. Wiring to the old standard can be detected by use of a red wire. The new standard colour code does not use red. Where new wiring is mixed with old, cables must be clearly marked to prevent interchange of phase and neutral.
+Variation in the earth/ground conductor's colour means its colour should NOT be used as the decision of the old vs new standard cable or colour assignment.
+
+
+==== Other colour schemes ====
+Cables of American origin have a white neutral lead and a black line lead. This can occur on IEC mains leads and dual 220/110 V imported equipment. Such cables are not legal for supply in the EU.
+On telecommunications nominal 48 V DC supplies, the live is usually −42 V (flat batteries) to almost −57 V (float charge).
+The IEC currently specifies a colour-coding for new local DC distribution. These are:
+There is a long history of colour changes, older systems (until the 1960s)in the UK often had white instead of yellow as second phase, and before WW2, a black earth and a green third phase in place of green earth and blue phase was permitted. The regulations actually permitted (and still do) the use of any wire colour that is not an earth colour, providing it is unambiguously identified at all connections by clear labelling or by correctly coloured over-sleeving. This clause allows old systems to be kept operational safely and compliant with minimum additional effort. Direct current mains supplies are now only of historical interest in the UK but the colour-coding was red for live and black for earthed (regardless of the actual polarity). Hardly any loads were polarity sensitive at this time (principally incandescent lighting; heating systems or series D.C. motors). It was considered more important to identify the live wire than the polarity. Where all three wires were available, the historical colour code was red (positive), black (middle) and white (negative). The negative line changed to yellow in 1964, and then to blue in 1966.
+
+
+=== Sheath colours ===
+The colour of the overall sheath is currently grey, or white for low halogen material. This requirement changed from white around the time of harmonization (2006), although grey sheath cable was available prior to that time.
+
+
+== Circuit design ==
+
+UK fixed wiring circuits, unlike almost all other countries, make widespread use of ring circuit designs, as well as radial circuit designs often seen in other countries. (This was one of the recommendations of the Electrical Installations Committee, convened in 1942 as part of the Post War Building Studies programme, which in 1944 determined that the ring final circuit offered a more efficient and lower cost method to support a greater number of sockets.) It continues to be the usual wiring method for domestic and light commercial socket and device wiring in the UK. Lighting circuits, which typically have lower power requirements, are usually radially wired, confusingly sometimes called "loop" wiring.
+In both ring and radial circuits, the circuit wiring starts at a consumer unit or distribution board, traverses in turn a number of sockets or devices (point-to-point style), before terminating. The difference is that a radial circuit simply ends upon reaching the last connected device, while in a ring circuit the termination is made by rejoining the end of the circuit from the last device back to its starting point. A ring circuit therefore forms a continuous ring. This means that there are two independent paths from the supply to every device. Ideally, the ring acts like two radial circuits proceeding in opposite directions around the ring, the dividing point between them dependent on the distribution of load in the ring. If the load is evenly split across the two directions, the current in each direction is half of the total, allowing the use of wire with half the current-carrying capacity. In practice, the load does not always split evenly, so thicker wire is used.
+Cables are most commonly a single outer sheath containing separately-insulated line and neutral wires, and a non-insulated protective earth to which sleeving is added when exposed. Standard sizes have a conductor cross sectional area of 1, 1.5, 2.5, 4, 6 and 10 mm2. Sizes of 1 or 1.5 mm2 are typically used for 6 or 10 ampere lighting circuits and 2.5 mm2 for socket circuits. The protective earth conductor in older cables was normally one standard size smaller than the main conductors but is now specified to be the same size.
+The earthing conductor is uninsulated since it is not intended to have any voltage difference to surrounding earthed articles. Additionally, if the insulation of a line or neutral wire becomes damaged, then the wire is more likely to earth itself on the bare earth conductor and in doing so either trip the RCD or burn the fuse out by drawing too much current.
+
+
+== Earthing ==
+
+Earthing is the connection of the exposed conductive part of electrical equipment or objects like water pipe to the earth to carry away safely any current due to ground faults. This is done to minimise the danger of electric shock due to human contact with live parts which could result from bad insulation and insulation failures. In domestic wiring earthing of equipment is done by bonding together the earth points and metallic parts of the appliances and earthed bodies using Green/Yellow wire coming from the consumer main earthing terminal. The earth terminal is in turn connected to either consumer’s earth electrode (TT system) or to the earth point given by the supplier (TN system). In pre-1966 buildings the earthing may be connected to the plumbing system, which is creating potential earthing problems in buildings where the metal pipes are being replaced by non-conductive plastic pipes.
+Note: at the supply source, the earth and one side of a single phase line supply is tied together. This since strait from the transformer the electrical supply is " loose " or " free " from earth. This poses dangers to persons coming into contact with the supply, because which way round the supply is undefined. I.E. which wire is " hot " and which is " cold ".
+As explained, this is how that the neutral connection is created, and it is then followed through the system with the wire coloured brown. The exception is within a transformer for use in a bathroom for shavers which have no defined neutral on the outlet. In this case, the supply is now completely concealead behind the transformer within the unit and the shaver wiring. The supply is considered " double insulated " and does not require an external earth.
+A three phase supply may be either delta connected or star connected due to the physics of three phase supply. Power stations always supply in three phase for physical reasons, not least costs and others not dealt with here. Delta and Star are as one would draw the figures on a piece of paper. The sketch would be joining three dots each equally set in space as a set. Star has a natural central neutral which may or may not be connected as appropriate by the authorities. With delta connection, arrangements at the transformer supplying the electricity are made to create the neutral connection if necessary.
+
+
+== Supply, metering and distribution ==
+
+
+=== Single phase (standard for domestic and light commercial) ===
+A domestic supply typically consists of a large cable connected to a service head, the sealed box containing the main supply fuse, treated as the supply to the premises. This will typically have a value from 40–100 A. Separate line and neutral cables ('tails') go from here to an electricity meter, and often an earth conductor too. More tails proceed from the meter into the consumer side of the installation and into a consumer unit (distribution board), or in some cases to a Henley block (a splitter box used in low voltage electrical engineering) and thence to more than one distribution board.
+The distribution board (aka fusebox) contains one or more main switches and an individual fuse or miniature circuit breaker (MCB) for each final circuit. Modern installations may use residual-current devices (RCDs) or residual current breakers with overcurrent protection (RCBOs). The RCDs are used for earth leakage protection, while RCBOs combine earth leakage protection with overcurrent protection. In a UK-style board, breaker positions are numbered top to bottom in the left-hand column, then top to bottom in the right column.
+
+
+==== Supply voltage ====
+Since 1960, the supply voltage in UK domestic premises has been 240 V AC (RMS) at 50 Hz. In 1988, a Europe-wide agreement was reached to unify the various national voltages, which ranged at the time from 220 V to 240 V, to a common European standard of 230 V (CENELEC Harmonization Document HD 472 S1:1988).
+The standard nominal supply voltage in domestic single-phase 50 Hz installations in the UK is still 240 V AC (RMS), but since 1 January 1995 (Electricity Supply Regulations, SI 1994, No. 3021) this has an asymmetric voltage tolerance of 230 V+10%−6% (253–216.2 V), which covers the same voltage range as continental 220 V supplies to the new unified 230 V standard. This was supposed to be widened to 230 V ±10% (253–207 V), but the time of this change has been put back repeatedly and as of December 2012 there is no definitive date. The old standard was 240 V ±6% (254.4–225.6 V), which is mostly contained within the new range, and so in practice suppliers have had no reason to actually change voltages.
+
+
+=== Three phase supply ===
+
+Three phase power is usually supplied as needed, for commercial and industrial premises. While three phase loads take balanced power from the three phases, any single phase loads are distributed to ensure equal loading of the three phases. Each row of breakers in the distribution board is fed from a different phase (A, B and C), to allow 3-pole common-trip breakers to have one pole on each phase.
+
+
+== Isolating devices ==
+
+Single-pole switches are most commonly used to control circuits. These switches isolate only the line conductor feeding the load and are used for lighting and other smaller loads. For larger loads like air conditioners, cookers, water heaters and other fixed appliances a double-pole switch is used, which isolates also the neutral, for more safety. A three-pole isolator or circuit breaker is used for three-phase loads, and also at the distribution board to isolate all the phases as well as the neutral.
+
+
+== Outlets and accessories ==
+
+Many accessories for electrical installations (e.g. wall sockets, switches) sold in the UK are designed to fit into the mounting boxes defined in BS 4662:2006 - Boxes for flush mounting of electrical accessories – Requirements, test methods and dimensions, with an 86 mm×86 mm square face plate that is fixed to the rest of the enclosure by two M3.5 screws (typ. 25 mm or 40 mm long) located on a horizontal centre line, 60.3 mm apart. Double face plates for BS 4662 boxes measure 147 mm×86 mm and have the two screws 120.6 mm apart.
+Accessories in the BS 4662 format are only available in a comparatively limited range of designs and lack the product diversity and design sophistication found in other European markets. The UK installation-accessory industry is therefore occasionally criticised for being overly conservative. As many modern types of electrical accessories (e.g. home automation control elements from non-UK manufacturers) are not available in BS 4662 format, other standard mounting boxes are increasingly used as well, such as those defined in DIN 49073-1 (60 mm diameter, 45 mm deep, fixing screws 60 mm apart) or, less commonly in the UK, ANSI/NEMA OS-1.
+The commonly used domestic wall-mount socket used in the UK for currents up to 13 A is defined in BS 1363-2 and normally includes a switch. For higher currents or three-phase supplies, IEC 60309 sockets are to be used instead.
+Note that many high load non-UK-sourced appliances need IEC 60309 connectors (or wiring via a British Standard "20 A connection unit") in the UK because of the lower plug rating.
+
+
+=== Plug and accessory fuses ("cartridge fuse") ===
+Flexible appliance cords require protection at a lower current than that provided by the ring circuit overcurrent protection device. The protection device may be contained within the appliance plug or connection unit, and is normally a ceramic cartridge fuse to BS 1362:1973, commonly rated at 3 A (red), 5 A (black), or 13 A (brown), but some accessories and adaptors use a ceramic cartridge fuse to BS 646:1958.
+In the case of permanently connected equipment a Fused Connection Unit to BS 1363-4 is used, this may include an isolator switch and a neon bulb to indicate if the equipment is powered.
+In the case of non-permanently connected domestic equipment, a BS 1363-2 socket rated at 13 A is attached to the ring circuit, into which a fused plug may be inserted. (Note, it is not intended that the fuse should protect the appliance itself, for which it is still necessary for the appliance designer to take the necessary precautions.) Multiple socket accessories may be protected with a fuse within the socket assembly.
+
+
+== Residential wiring ==
+
+
+=== Cable types ===
+In domestic wiring, the following cable types are typically used:
+
+
+==== Internal wiring ====
+Twin and Earth (T&E) PVC insulated and sheathed cables, or
+Single core PVC insulated cables in conduit (fixed internal wiring) (less common in domestic installations)
+Flexible cords
+
+
+==== Supply side wiring ====
+2/3/4 core PVC insulated, SWA, PVC sheathed cables
+PVC Insulated, PVC sheathed (Unarmoured cables)
+Three and four cores XLPE insulated, SWA, PVC sheathed cables
+
+
+=== Selection of conductors and circuit breakers ===
+The selection of conductors must be made taking into consideration both the maximum voltage drop allowed at the load end and also the current carrying capacity of the conductor. Conductor size and voltage drop tables are available to determine the selection, which will be based on the load current supplied.
+The choice of circuit breaker is also based on the normal rated current of the circuit. Modern circuit breakers have overload and short circuit current protection combined. The overload protection is for protection of the equipment against sustained small-to-medium increase in current above the rated current, while short circuit protection is for the protection of the conductors against high over-currents due to short circuits.
+For domestic circuits the following choices are typically adopted for selecting conductor and circuit breaker sizes.
+For distribution boards the incomer circuit breaker rating depends on the actual current demand at that board. For this the maximum demand and diversity is taken into consideration based on which the probable current is calculated. Diversity is the condition that all appliances are not likely to be working all at the same time or at their maximum ratings. From this the maximum demand is calculated and the currents are added to determine the load current and hence the rating of the circuit breaker.
+IEE recommends these current demands and diversity factors for various loads to determine the load current and rating of overcurrent protective device.
+
+
+=== Special locations ===
+
+
+==== Bathrooms ====
+The installation of electrical devices in bathrooms and shower rooms is regulated in Section 701 of BS 7671:2008, and Part P of the Building Regulations. For such rooms, four special zones are defined, in which additional protection is required for electrical facilities:
+Zone 0 is the smallest cuboid volume that contains the bath, shower basin, etc.
+Zone 1 is the area above Zone 0, up to a height of 2.25 m above the floor.
+Zone 2 is the area above Zone 1 up to a height of 3 m, as well as the area that is horizontally within 0.6 m from Zone 1.
+Older regulations defined Zone 3 as the area above Zone 2 up to a height of 3 m, as well as the area that is horizontally within 2.4 m from Zone 2; from BS 7671:2008, this is replaced by the term 'outside the zones'. This includes any space under the bath or shower that can only be accessed with a tool.
+Within Zone 0, no devices are allowed apart from suitable equipment and or insulated pull cords. In Zone 1, only separated extra low voltage (SELV) devices are permitted. Any AC transformer supplying such a device must be located outside Zones 0–2. The minimum required ingress protection rating in Zone 0 is IPX7 and IPX4 in Zone 1 and 2. If water jets are likely to occur, at least IPX5 is required in Zone 1–3. Otherwise, in Zone 3 and beyond, an ingress protection rating of IP20 is the minimum required. Equipment in Zones 1 and 2 must be protected by a 30 mA residual current device (RCD).
+Shaving sockets (with isolating transformer) are permitted in Zone 2 if direct spray from a shower is unlikely, even if they are only IP20. Before the 2008 regulations, such shaving sockets were the only sockets permitted in a bathroom or shower room. Since BS 7671:2008 normal domestic sockets are permitted, at distances greater than 3 m from the edge of the zones, providing the circuit is RCD protected. As the new regulations also require all general purpose sockets not for use by skilled or instructed persons to be RCD protected, this effectively permits normal wiring in the larger bathroom. (Earlier British wiring rules in bathrooms used to be far more restrictive, leading to British peculiarities in bathrooms such as the use of cord switches. The 2011 edition of the Wiring Regulations is more flexible now, placing restrictions on bathroom installations that are now more similar to those in other European countries.)
+
+
+==== Swimming pools ====
+For swimming pools, Section 603 of BS 7671 defines similar zones. In some of these zones, only industrial sockets according to IEC 60309 are permitted, in order to discourage the use of portable domestic appliances with inappropriate ingress protection rating.
+
+
+==== Portable outdoor equipment ====
+For use outdoors or in other wet locations (but not bathrooms) special sockets are made. These can be divided into three main groups, industrial sockets which are totally different from the standard sockets; sockets with the same pinout as normal sockets but that will only seal properly when the correct plug and socket are used together (e.g. the 5 A, 13 A, and 15 A variants of Lewden sockets) and sockets that completely enclose a normal plug with a seal around the flex (e.g. MK Masterseal).
+Sockets that are outside or can "feasibly supply equipment outside the equipotential zone" (a wording that is fairly ambiguous and the exact interpretation of which is subject to some controversy) should be protected by a 30 mA, or lower, RCD to provide additional safety. Since 2008, all sockets for general use should be RCD protected, removing the questions that used to arise, such as if a socket by the door might power a lawnmower does it need an RCD?
+
+
+== Legal and regulatory ==
+
+
+=== Legal basis ===
+
+In England and Wales, the Building Regulations (Approved Document: Part P) require domestic electrical installations to be designed and installed safely according to the "fundamental principles" given in British Standard BS 7671 Chapter 13, most recently updated in January 2015. These are very similar to the fundamental principles defined in international standard IEC 60364-1 and equivalent national standards in other countries. Accepted ways for fulfilling this legal requirement include:
+the rules of the IEE (IET) wiring regulations (BS 7671), colloquially referred to as "the regs". The current version of this standard is the 17th edition, formally known as BS 7671:2008+A3:2015 Requirements for Electrical Installations. IET Wiring Regulations;
+the rules of an equivalent standard approved by a member of the EEA (e.g. DIN/VDE 0100);
+guidance given in installation manuals that are consistent with BS 7671, such as the IET On-Site Guide and IET Guidance Notes Nos 1 to 8.
+In Scotland the Building (Scotland) Regulations 2004 apply.
+Installations in commercial and industrial premises must satisfy various safety legislation, such as the Electricity at Work Regulations 1989. Again, recognised standards and practices, such as BS 7671 "Wiring Regulations", are used to help meet the legislative requirements.
+
+
+=== Regulations ===
+All new electrical work in England and Wales within a domestic setting must comply with Part P  of the Building Regulations first introduced on 1 January 2005, which are legally enforceable. One way of achieving this is to apply British Standard BS 7671 (the "Wiring Regulations"), including carrying out adequate inspection and testing to this standard of the completed works. British Standard BS 7671 (the "Wiring Regulations") is not statutory, thus someone doing electrical work is allowed to deviate from the wiring regulations to some degree, but it is generally accepted that it is best to follow the wiring regulations to the highest standard possible. Electrical work does not have to be compliant with BS 7671, but if a casualty or fatality occurs as a direct result of that electrical work, and this results in a legal action, then it may be necessary to justify major deviations from the principles of BS 7671 and/or other appropriate standards.
+Some of the restrictions first introduced with the 2005 version Part P were highly controversial, especially the rules surrounding work carried out by unregistered electricians, builders and DIYers. Under the new regulations, commencement of any work other than simple changes became notifiable to the local building control authority; "other than simple" in this context meant any work in a kitchen or bathroom other than like-for-like replacement, work in other areas more than just adding extra lights or sockets to an existing circuit or meeting certain other criteria, such as outdoor wiring. To coincide with the new regulations, the Government approved several professional bodies to award "competent persons" status to enterprises which meet the minimum agreed criteria for Scheme entry. Scheme membership allows an enterprise to "self-certify" work that they carry out without the requirement to have undergone any formal installation training or to hold relevant qualifications in electrical installation practices - since practical competence can be assessment-based only. The minimum criteria for Scheme entry is set by the EAS Committee, on which all of the commercial enterprises running Competent Persons Schemes are actively represented.
+The local authority's building control must be informed of any notifiable work carried out by someone not registered under this scheme before it is started (unless it is an emergency) and must subsequently be approved by them. Originally, it was widely understood by some local authorities that inspection by a qualified person (leading to authority approval) must be organised and paid for by the home-owner or person responsible for the site and this caused some considerable criticism.
+On 6 April 2006, Part P was amended to clarify the actual requirements around certification of DIY work (or work completed by someone otherwise unable to self-certify) and to "make enforcement more proportionate to the risk".
+The 2006 amendment made it clear that it is the responsibility of the building control authority to issue the necessary certificate (a Building Regulations Completion Certificate) once work has been completed. Any inspection required to safely issue that certificate must be determined by, and paid for by, the building control authority. This can be done "in house" or they may contract the work out to specialist body. Note that although any inspections are at the expense of the building authority, notification of building work is a formal process and a building control fee is payable.
+In some cases the installation of 12 V downlighters is notifiable whereas the installation of 230 V mains downlighters is not. This is because 12 V downlighters draw high currents, in comparison with a mains voltage lamp with the same power rating, and that combined with the wrong choice of cable could lead to a fire.
+Additionally, whilst the Building Regulations apply equally to anyone carrying out electrical work in dwellings, without appropriate knowledge and test equipment it is not possible to ensure that the work carried out is safe. Registered Scheme members must issue appropriate certification for each job.
+Another element of confusion is that the term "Special Locations" has different meanings in Part P of the Building Regulations and BS 7671 (the "Wiring Regulations").
+Later revisions of part P (latest is 2013) retain the requirement to work to an appropriate standard, but have relaxed the requirements on both certification and notification for many more types of minor works, and crucially also permit a member of an approved body to inspect and 'sign off' notifiable aspects of any work of a third party such as DIYer whose work is of a suitable standard. This is intended to free up local authorities, who often do not have suitably qualified building control staff themselves. Due to uncertainty about who then becomes be responsible for any hidden wiring, very few electricians are happy to sign off an installation that they have not been party to from the outset, and been able to agree stages to inspect and test before any covering in.
+
+
+== See also ==
+AC power plugs and sockets - British and related types (contains more detailed history of electrical wiring styles in the UK)
+BS 1363
+BS 546
+Electrical wiring in North America
+Pattress
+Technical standards in Hong Kong
+
+
+== References ==
+
+
+== Further reading ==
+BS 4662:2006 Boxes for flush mounting of electrical accessories – Requirements, test methods and dimensions. British Standards Institution.
+
+
+== External links ==
+IEE Wiring Regulations
+Electrical Safety at Work, Health & Safety Executive
+Electrical standards and approved codes of practice, Health & Safety Executive
+General Cable - Imperial / Metric Conductor Size Comparison Chart
+Approved Document P for guidance on Part P of the Building Regulations
+Local Authority Building Control Part P Competent Persons Register
+Text of the The Electrical Equipment (Safety) Regulations 1994 as in force today (including any amendments) within the United Kingdom, from the UK Statute Law Database
+Text of the The Plugs and Sockets, etc. (Safety) Regulations 1994 as in force today (including any amendments) within the United Kingdom, from the UK Statute Law Database
+Text of the The Electricity Safety, Quality and Continuity Regulations 2002 as in force today (including any amendments) within the United Kingdom, from the UK Statute Law Database
+Text of the The Building Regulations 2000: Electrical safety as originally enacted or made within the United Kingdom, from the UK Statute Law Database
+Text of the The Electricity at Work Regulations 1989 as originally enacted or made within the United Kingdom, from the UK Statute Law Database

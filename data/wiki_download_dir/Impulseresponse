@@ -1,0 +1,47 @@
+Impulse response
+In signal processing, the impulse response, or impulse response function (IRF), of a dynamic system is its output when presented with a brief input signal, called an impulse. More generally, an impulse response refers to the reaction of any dynamic system in response to some external change. In both cases, the impulse response describes the reaction of the system as a function of time (or possibly as a function of some other independent variable that parameterizes the dynamic behavior of the system).
+In all these cases, the dynamic system and its impulse response may be actual physical objects, or may be mathematical systems of equations describing such objects.
+Since the impulse function contains all frequencies, the impulse response defines the response of a linear time-invariant system for all frequencies.
+
+
+== Mathematical considerations ==
+Mathematically, how the impulse is described depends on whether the system is modeled in discrete or continuous time. The impulse can be modeled as a Dirac delta function for continuous-time systems, or as the Kronecker delta for discrete-time systems. The Dirac delta represents the limiting case of a pulse made very short in time while maintaining its area or integral (thus giving an infinitely high peak). While this is impossible in any real system, it is a useful idealisation. In Fourier analysis theory, such an impulse comprises equal portions of all possible excitation frequencies, which makes it a convenient test probe.
+Any system in a large class known as linear, time-invariant (LTI) is completely characterized by its impulse response. That is, for any input, the output can be calculated in terms of the input and the impulse response. (See LTI system theory.) The impulse response of a linear transformation is the image of Dirac's delta function under the transformation, analogous to the fundamental solution of a partial differential operator.
+It is usually easier to analyze systems using transfer functions as opposed to impulse responses. The transfer function is the Laplace transform of the impulse response. The Laplace transform of a system's output may be determined by the multiplication of the transfer function with the input's Laplace transform in the complex plane, also known as the frequency domain. An inverse Laplace transform of this result will yield the output in the time domain.
+To determine an output directly in the time domain requires the convolution of the input with the impulse response. When the transfer function and the Laplace transform of the input are known, this convolution may be more complicated than the alternative of multiplying two functions in the frequency domain.
+The impulse response, considered as a Green's function, can be thought of as an "influence function:" how a point of input influences output.
+
+
+== Practical applications ==
+In practical systems, it is not possible to produce a perfect impulse to serve as input for testing; therefore, a brief pulse is sometimes used as an approximation of an impulse. Provided that the pulse is short enough compared to the impulse response, the result will be close to the true, theoretical, impulse response. In many systems, however, driving with a very short strong pulse may drive the system into a nonlinear regime, so instead the system is driven with a pseudo-random sequence, and the impulse response is computed from the input and output signals.
+
+
+=== Loudspeakers ===
+An application that demonstrates this idea was the development of impulse response loudspeaker testing in the 1970s. Loudspeakers suffer from phase inaccuracy, a defect unlike other measured properties such as frequency response. Phase inaccuracy is caused by (slightly) delayed frequencies/octaves that are mainly the result of passive cross overs (especially higher order filters) but are also caused by resonance, energy storage in the cone, the internal volume, or the enclosure panels vibrating. Measuring the impulse response, which is a direct plot of this "time-smearing," provided a tool for use in reducing resonances by the use of improved materials for cones and enclosures, as well as changes to the speaker crossover. The need to limit input amplitude to maintain the linearity of the system led to the use of inputs such as pseudo-random maximum length sequences, and to the use of computer processing to derive the impulse response.
+
+
+=== Electronic processing ===
+Impulse response analysis is a major facet of radar, ultrasound imaging, and many areas of digital signal processing. An interesting example would be broadband internet connections. DSL/Broadband services use adaptive equalisation techniques to help compensate for signal distortion and interference introduced by the copper phone lines used to deliver the service.
+
+
+=== Control systems ===
+In control theory the impulse response is the response of a system to a Dirac delta input. This proves useful in the analysis of dynamic systems: the Laplace transform of the delta function is 1, so the impulse response is equivalent to the inverse Laplace transform of the system's transfer function.
+
+
+=== Acoustic and audio applications ===
+In acoustic and audio applications, impulse responses enable the acoustic characteristics of a location, such as a concert hall, to be captured. Various packages are available containing impulse responses from specific locations, ranging from small rooms to large concert halls. These impulse responses can then be utilized in convolution reverb applications to enable the acoustic characteristics of a particular location to be applied to target audio.
+
+
+=== Economics ===
+In economics, and especially in contemporary macroeconomic modeling, impulse response functions are used to describe how the economy reacts over time to exogenous impulses, which economists usually call shocks, and are often modeled in the context of a vector autoregression. Impulses that are often treated as exogenous from a macroeconomic point of view include changes in government spending, tax rates, and other fiscal policy parameters; changes in the monetary base or other monetary policy parameters; changes in productivity or other technological parameters; and changes in preferences, such as the degree of impatience. Impulse response functions describe the reaction of endogenous macroeconomic variables such as output, consumption, investment, and employment at the time of the shock and over subsequent points in time.
+
+
+== See also ==
+
+
+== References ==
+^ F. Alton Everest (2000). Master Handbook of Acoustics (Fourth ed.). McGraw-Hill Professional. ISBN 0-07-136097-2. 
+^ Monitor: Proceedings of the Institution of Radio and Electronics Engineers Australia (1976)
+^ http://www.acoustics.hut.fi/projects/poririrs/ the Concert Hall Impulse Responses from Pori, Finland
+^ Lütkepohl, Helmut (2008). "Impulse response function". The New Palgrave Dictionary of Economics (2nd ed.). 
+^ Hamilton, James D. (1994). "Difference Equations". Time Series Analysis. Princeton University Press. p. 5. ISBN 0-691-04289-6.

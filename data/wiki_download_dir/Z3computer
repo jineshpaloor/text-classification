@@ -1,0 +1,72 @@
+Z3 (computer)
+The Z3 was an electromechanical computer designed by Konrad Zuse. It was the world's first working programmable, fully automatic digital computer. The Z3 was built with 2000 relays, implementing a 22-bit word length that operated at a clock frequency of about 5–10 Hz. Program code and constant data were stored on punched film.
+The Z3 was completed in Berlin in 1941. The German Aircraft Research Institute used it to perform statistical analyses of wing flutter. Zuse asked the German government for funding to replace the relays with fully electronic switches, but funding was denied during World War II since such development was deemed "not war-important". The original Z3 was destroyed in 1943 during an Allied bombardment of Berlin. The Z3 was originally called V3 (Versuchsmodell 3, i.e. Experimental Model 3) but was renamed to not be confused with Germany's V-weapons. A fully functioning replica was built in the 1960s by Zuse's company, Zuse KG, and is on permanent display in the Deutsches Museum. The Z3 was demonstrated in 1998 to be, in principle, Turing-complete.
+Thanks to this machine and its predecessors, Konrad Zuse is often regarded as the inventor of the computer.
+
+
+== Design and development ==
+Zuse designed the Z1 in 1935 to 1936 and built it from 1936 to 1938. The Z1 was wholly mechanical and only worked for a few minutes at a time at most. Helmut Schreyer advised Zuse to use a different technology. As a doctoral student at the Berlin Institute of Technology in 1937 he worked on the implementation of Boolean operations and (in today's terminology) flip-flops on the basis of vacuum tubes. In 1938 Schreyer demonstrated a circuit on this basis to a small audience, and explained his vision of an electronic computing machine – but since the largest operational electronic devices contained far fewer tubes this was considered practically infeasible.
+Zuse decided to implement the next design based on relays. The realization of the Z2 was helped financially by Dr. Kurt Pannke, who manufactured small calculating machines. The Z2 was completed in 1939 and presented to an audience of the Deutsche Versuchsanstalt für Luftfahrt ("German Laboratory for Aviation") in 1940 in Berlin-Adlershof. Zuse was lucky – this presentation was one of the few instances where the Z2 actually worked and could convince the DVL to partly finance the next design.
+Improving on the basic Z2 machine, he built the Z3 in 1941, which was a highly secret project of the German government. Dr. Jenissen, member of the Reich Air Ministry acted as a government supervisor for orders of the ministry to Zuse's company ZUSE Apparatebau. A further intermediary between Zuse and the Reich Air Ministry was the aerodynamicist Herbert A. Wagner .
+The Z3 was completed in 1941 and was faster and far more reliable than the Z1 and Z2. The Z3 floating-point arithmetic was improved over that of the Z1 in that it implemented exception handling. The exceptional values plus infinity, minus infinity and undefined could be generated and passed through operations. The Z3 stored its program on an external tape, thus no rewiring was necessary to change programs.
+On 12 May 1941 the Z3 was presented to an audience of scientists including the professors Alfred Teichmann and Curt Schmieden of the Deutsche Versuchsanstalt für Luftfahrt ("German Laboratory for Aviation") in Berlin, today known as the German Aerospace Center in Cologne.
+Zuse moved on to the Z4 design; this was built days before the war ended.
+
+
+== The Z3 as a universal Turing machine ==
+It was possible to construct loops on the Z3, but there was no conditional branch instruction. Nevertheless, the Z3 was Turing-complete – how to implement a universal Turing machine on the Z3 was shown in 1998 by Raúl Rojas. He proposes that the tape program would have to be long enough to execute every possible path through both sides of every branch. It would compute all possible answers, but the unneeded results would be canceled out (a kind of speculative execution). Rojas concludes, "We can therefore say that, from an abstract theoretical perspective, the computing model of the Z3 is equivalent to the computing model of today's computers. From a practical perspective, and in the way the Z3 was really programmed, it was not equivalent to modern computers."
+From a pragmatic point of view, however, the Z3 provided a quite practical instruction set for the typical engineering applications of the 1940s – Zuse was a civil engineer who only started to build his computers to facilitate his work in his main profession.
+
+
+== Relation to other work ==
+The success of Zuse's Z3 is often attributed to its use of the simple binary system. This was invented roughly three centuries earlier by Gottfried Leibniz; Boole later used it to develop his Boolean algebra. In 1937, Claude Shannon introduced the idea of mapping Boolean algebra onto electronic relays in a seminal work on digital circuit design. Zuse however did not know Shannon's work and developed the groundwork independently for his first computer Z1 which he designed and built from 1935 to 1938.
+Zuse's coworker Helmut Schreyer built an electronic digital experimental model of a computer using 100 vacuum tubes in 1942, but it was lost at the end of the war.
+The Tommy Flowers-built Colossus (1943) and the Atanasoff–Berry Computer (1942) used thermionic valves (vacuum tubes) and binary representation of numbers. Programming was by means of re-plugging patch panels and setting switches.
+The ENIAC computer, completed after the war, used vacuum tubes to implement switches and used decimal representation for numbers. Until 1948 programming was, as with Colossus, by patch leads and switches.
+The Manchester Baby of 1948 and the EDSAC of 1949 were the world's first computers that stored program instructions and data in the same space. In this they implemented the stored-program concept which is frequently (but erroneously) attributed to a 1945 paper by John von Neumann and colleagues. Von Neumann is said to have given due credit to Alan Turing, and the concept had actually been mentioned earlier by Konrad Zuse himself, in a 1936 patent application (that was rejected). Konrad Zuse himself remembered in his memoirs: "During the war it would have barely been possible to build efficient stored program devices anyway."  and Friedrich L. Bauer wrote: "His visionary ideas (live programs) which were only to be published years afterwards aimed at the right practical direction but were never implemented by him." 
+
+
+== Specifications ==
+Average calculation Speed: Addition 0.8 seconds Multiplication 3 seconds
+Arithmetic Unit: Binary floating point, 22 bit, add, subtract, multiply, divide, square root 
+Data memory: 64 words with a length of 22 bits
+Program memory: Punched celluloid tape
+Input: Decimal floating point numbers
+Output: Decimal floating point numbers
+Input and Output was facilitated by a terminal, that had a special keyboard and a row of lamps to show results
+Elements: Around 2,000 relays (1,400 for the memory)
+Frequency: 5.3 Hertz
+Power Consumption: Around 4000 watts
+Weight: Around 1 tonne (2,200 lb)
+
+
+== See also ==
+Z1
+Z2
+Z4
+History of computing hardware
+Atanasoff–Berry Computer
+Colossus
+ENIAC
+Harvard Mark I
+
+IBM SSEC
+Manchester Mark 1
+Manchester Small-Scale Experimental Machine
+
+
+== References ==
+
+
+== Further reading ==
+B. Jack Copeland, ed. (2006). Colossus: The Secrets of Bletchley Park's Codebreaking Computers. Oxford University Press. ISBN 978-0-19-284055-4. 
+R. Rojas, F. Darius, C. Göktekin, and G. Heyne (2005). "The reconstruction of Konrad Zuse’s Z3. IEEE Annals of the History of Computing, 27(3)". pp. 23–32. 
+
+
+== External links ==
+Z3 page at Horst Zuse's website
+The Life and Work of Konrad Zuse
+Konrad Zuse’s Legacy: The Architecture of the Z1 and Z3 (PDF)
+How to Make Zuse's Z3 a Universal Computer Raúl Rojas
+Raúl Rojas, The Zuse Computers In resurrection, the bulletin of the Computer Conservation Society ISSN 0958-7403 Number 37 Spring 2006
+Paul E. Ceruzzi Collection on Konrad Zuse (CBI 219). Charles Babbage Institute, University of Minnesota. Collection contains published reports, articles, product literature, and other materials.

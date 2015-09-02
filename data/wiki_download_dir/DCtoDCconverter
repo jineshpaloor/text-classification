@@ -1,0 +1,92 @@
+DC-to-DC converter
+A DC-to-DC converter is an electronic circuit which converts a source of direct current (DC) from one voltage level to another. It is a class of power converter.
+
+
+== Usage ==
+DC to DC converters are important in portable electronic devices such as cellular phones and laptop computers, which are supplied with power from batteries primarily. Such electronic devices often contain several sub-circuits, each with its own voltage level requirement different from that supplied by the battery or an external supply (sometimes higher or lower than the supply voltage). Additionally, the battery voltage declines as its stored energy is drained. Switched DC to DC converters offer a method to increase voltage from a partially lowered battery voltage thereby saving space instead of using multiple batteries to accomplish the same thing.
+Most DC to DC converters also regulate the output voltage. Some exceptions include high-efficiency LED power sources, which are a kind of DC to DC converter that regulates the current through the LEDs, and simple charge pumps which double or triple the output voltage.
+DC to DC converters developed to maximize the energy harvest for photovoltaic systems and for wind turbines are called power optimizers.
+
+
+== Conversion methods ==
+
+
+=== Electronic ===
+
+
+==== Linear ====
+
+Linear regulators can only output at lower voltages from the input. They are very inefficient when the voltage drop is large and the current is high as they dissipate heat equal to the product of the output current and the voltage drop; consequently they are not normally used for large-drop high-current applications.
+The inefficiency wastes energy and requires higher-rated and consequently more expensive and larger components. The heat dissipated by high-power supplies is a problem in itself and it must be removed from the circuitry to prevent unacceptable temperature rises.
+Linear regulators are practical if the current is low, the power dissipated being small, although it may still be a large fraction of the total power consumed. They are often used as part of a simple regulated power supply for higher currents: a transformer generates a voltage which, when rectified, is a little higher than that needed to bias the linear regulator. The linear regulator drops the excess voltage, reducing hum-generating ripple current and providing a constant output voltage independent of normal fluctuations of the unregulated input voltage from the transformer/bridge rectifier circuit and of the load current.
+Linear regulators are inexpensive, reliable if good heat sinks are used and much simpler than switching regulators. Linear regulators do not generate switching noise. As part of a power supply they may require a transformer, which is larger for a given power level than that required by a switch-mode power supply. Linear regulators can provide a very low-noise output voltage, and are very suitable for powering noise-sensitive low-power analog and radio frequency circuits. A popular design approach is to use an LDO, Low Drop-out Regulator, that provides a local "point of load" DC supply to a low power circuit.
+
+
+==== Switched-mode conversion ====
+Electronic switch-mode DC to DC converters convert one DC voltage level to another, by storing the input energy temporarily and then releasing that energy to the output at a different voltage. The storage may be in either magnetic field storage components (inductors, transformers) or electric field storage components (capacitors). This conversion method is more power efficient (often 75% to 98%) than linear voltage regulation (which dissipates unwanted power as heat). This efficiency is beneficial to increasing the running time of battery operated devices. The efficiency has increased since the late 1980s due to the use of power FETs, which are able to switch at high frequency more efficiently than power bipolar transistors, which incur more switching losses and require a more complicated drive circuit. Another important innovation in DC-DC converters is the use of synchronous rectification replacing the flywheel diode with a power FET with low "on resistance", thereby reducing switching losses. Before the wide availability of power semiconductors, low power DC to DC converters of this family consisted of an electro-mechanical vibrator followed by a voltage step-up transformer and a vacuum tube or semiconductor rectifier or synchronous rectifier contacts on the vibrator.
+Most DC-to-DC converters are designed to move power in only one direction, from the input to the output. However, all switching regulator topologies can be made bi-directional by replacing all diodes with independently controlled active rectification. A bi-directional converter can move power in either direction, which is useful in applications requiring regenerative braking.
+Drawbacks of switching converters include complexity, electronic noise (EMI / RFI) and to some extent cost, although this has come down with advances in chip design.
+DC-to-DC converters are now available as integrated circuits needing minimal additional components. They are also available as a complete hybrid circuit component, ready for use within an electronic assembly.
+
+
+===== Magnetic =====
+In these DC-to-DC converters, energy is periodically stored into and released from a magnetic field in an inductor or a transformer, typically in the range from 300 kHz to 10 MHz. By adjusting the duty cycle of the charging voltage (that is, the ratio of on/off time), the amount of power transferred can be controlled. Usually, this is applied to control the output voltage, though it could be applied to control the input current, the output current, or maintain a constant power. Transformer-based converters may provide isolation between the input and the output. In general, the term "DC-to-DC converter" refers to one of these switching converters. These circuits are the heart of a switched-mode power supply. Many topologies exist. This table shows the most common.
+In addition, each topology may be:
+Hard switched - transistors switch quickly while exposed to both full voltage and full current
+Resonant - an LC circuit shapes the voltage across the transistor and current through it so that the transistor switches when either the voltage or the current is zero
+Magnetic DC-to-DC converters may be operated in two modes, according to the current in its main magnetic component (inductor or transformer):
+Continuous - the current fluctuates but never goes down to zero
+Discontinuous - the current fluctuates during the cycle, going down to zero at or before the end of each cycle
+A converter may be designed to operate in continuous mode at high power, and in discontinuous mode at low power.
+The Half bridge and Flyback topologies are similar in that energy stored in the magnetic core needs to be dissipated so that the core does not saturate. Power transmission in a flyback circuit is limited by the amount of energy that can be stored in the core, while forward circuits are usually limited by the I/V characteristics of the switches.
+Although MOSFET switches can tolerate simultaneous full current and voltage (although thermal stress and electromigration can shorten the MTBF), bipolar switches generally can't so require the use of a snubber (or two).
+High-current systems often use multiphase converters, also called interleaved converters. Multiphase regulators can have better ripple and better response times than single-phase regulators.
+Many laptop and desktop motherboards include interleaved buck regulators, sometimes as a voltage regulator module.
+
+
+===== Capacitive =====
+
+Switched capacitor converters rely on alternately connecting capacitors to the input and output in differing topologies. For example, a switched-capacitor reducing converter might charge two capacitors in series and then discharge them in parallel. This would produce an output voltage of half the input voltage, but at twice the current (minus various inefficiencies). Because they operate on discrete quantities of charge, these are also sometimes referred to as charge pump converters. They are typically used in applications requiring relatively small amounts of current, as at higher current loads the increased efficiency and smaller size of switch-mode converters makes them a better choice. They are also used at extremely high voltages, as magnetics would break down at such voltages.
+
+
+=== Electromechanical ===
+
+A motor-generator or dynamotor set may consist either of distinct motor and generator machines coupled together or of a single unit motor-generator. A single unit motor-generator has both rotor coils of the motor and the generator wound around a single rotor, and both coils share the same outer field coils or magnets. Typically the motor coils are driven from a commutator on one end of the shaft, when the generator coils output to another commutator on the other end of the shaft. The entire rotor and shaft assembly is smaller in size than a pair of machines, and may not have any exposed drive shafts.
+Motor-generators can convert between any combination of DC and AC voltage and phase standards. Large motor-generator sets were widely used to convert industrial amounts of power while smaller motor-generators were used to convert battery power (6, 12 or 24 V DC) to a high DC voltage, which was required to operate vacuum tube (thermionic valve) equipment.
+
+
+=== Electrochemical ===
+A further means of DC to DC conversion in the kilowatts to megawatts range is presented by using redox flow batteries such as the vanadium redox battery, although this technique has not been applied commercially to date.
+
+
+== Terminology ==
+Step-down
+A converter where output voltage is lower than the input voltage (like a Buck converter).
+Step-up
+A converter that outputs a voltage higher than the input voltage (like a Boost converter).
+Continuous Current Mode
+Current and thus the magnetic field in the inductive energy storage never reach zero.
+Discontinuous Current Mode
+Current and thus the magnetic field in the inductive energy storage may reach or cross zero.
+Noise
+Since all properly designed DC-to-DC converters are completely inaudible, "noise" in discussing them always refers to unwanted electrical and electromagnetic signal noise.
+RF noise
+Switching converters inherently emit radio waves at the switching frequency and its harmonics. Switching converters that produce triangular switching current, such as the Split-Pi, forward converter, or Ćuk converter in continuous current mode, produce less harmonic noise than other switching converters. Linear converters produce practically no RF noise. Too much RF noise causes electromagnetic interference (EMI).
+Input noise
+If the converter loads the input with sharp load edges, electrical noise can be emitted from the supplying power lines as RF noise. This should be prevented with proper filtering in the input stage of the converter.
+Output noise
+The output of a DC-to-DC converter is designed to have a flat, constant output voltage. Unfortunately, all real DC-to-DC converters produce an output that constantly varies up and down from the nominal designed output voltage. This varying voltage on the output is the output noise. All DC-to-DC converters, including linear regulators, have some thermal output noise. Switching converters have, in addition, switching noise at the switching frequency and its harmonics. Some sensitive radio frequency and analog circuits require a power supply with so little noise that it can only be provided by a linear regulator. Many analog circuits require a power supply with relatively low noise, but can tolerate some of the less-noisy switching converters.
+
+
+== See also ==
+Switched-mode power supply
+
+
+== References ==
+
+
+== External links ==
+DC DC Power Converters circuits electronics projects
+DC-DC Converter Technologies for Electric/Hybrid Electric Vehicles
+Power Electronics Books
+Switching regulator application note for LCD Power supply

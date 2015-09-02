@@ -1,0 +1,128 @@
+Intel 8080
+The Intel 8080 ("eighty-eighty") was the second 8-bit microprocessor designed and manufactured by Intel and was released in April 1974. It was an extended and enhanced variant of the earlier 8008 design, although without binary compatibility. The initial specified clock frequency limit was 2 MHz and with common instructions using 4, 5, 7, 10, or 11 cycles this meant that it operated at a typical speed of a few hundred thousand instructions per second.
+The 8080 required two support chips to function in most applications, the i8224 clock generator/driver and the i8228 bus controller and it was implemented using non-saturated enhancement-load NMOS, demanding an extra +12 V and a −5 V supply in addition to the main TTL compatible +5 V Supply.
+Although earlier microprocessors were used for calculators, cash registers, computer terminals, industrial robots, and other applications, the 8080 became one of the first really widespread microprocessors. This was partly due to its simplifying NMOS implementation (making it TTL compatible), but also to its enhanced instruction set (over the 8008) and its subsequent role as the original target CPU for CP/M, the first de facto standard personal computer operating system.
+The 8080 was successful enough that compatibility at the assembly language level became a design requirement for the 8086 when design for it was started in 1976. This also means that the 8080 indirectly influenced the ubiquitous 32-bit and 64-bit x86 architectures of today.
+
+
+== Description ==
+
+
+=== Programming model ===
+
+The Intel 8080 was the successor to the 8008. It used the same basic instruction set and register model as the 8008 (developed by Computer Terminal Corporation), even though it was not source code compatible nor binary compatible with its predecessor. Every instruction in the 8008 has an equivalent instruction in the 8080 (even though the actual opcodes differ between the two CPUs). The 8080 also added a few 16-bit operations to its instruction set as well. Whereas the 8008 required the use of the HL register pair to indirectly access its 14-bit memory space, the 8080 added addressing modes to allow direct access to its full 16-bit memory space. In addition, the internal 7-level push-down call stack of the 8008 was replaced by a dedicated 16-bit stack pointer (SP) register. The 8080's large 40-pin DIP packaging permitted it to provide a 16-bit address bus and an 8-bit data bus, allowing easy access to 64 KB of memory.
+
+
+==== Registers ====
+The processor has seven 8-bit registers (A, B, C, D, E, H, and L), where A is the primary 8-bit accumulator and the other six registers can be used as either individual 8-bit registers or as three 16-bit register pairs (BC, DE, and HL) depending on the particular instruction. Some instructions also enable the HL register pair to be used as a (limited) 16-bit accumulator, and a pseudo-register, M, can be used almost anywhere that any other register can be used, referring to the memory address pointed to by the HL pair. It also has a 16-bit stack pointer to memory (replacing the 8008's internal stack), and a 16-bit program counter.
+
+
+==== Flags ====
+The processor maintains internal flag bits (a status register) which indicates the results of arithmetic and logical instructions. The flags are:
+Sign (S), set if the result is negative
+Zero (Z), set if the result is zero
+Parity (P), set if the number of 1 bits in the result is even
+Carry (C), set if the last addition operation resulted in a carry, or if the last subtraction operation required a borrow
+Auxiliary carry (AC or H), used for binary-coded decimal arithmetic
+The carry bit can be set, or complemented, by specific instructions. Conditional branch instructions test the various flag status bits. The flags can be copied as a group to the accumulator. The A accumulator and the flags together are called the AF register.
+
+
+==== Commands/instructions ====
+As with many other 8-bit processors, all instructions are encoded in a single byte (including register-numbers, but excluding immediate data), for simplicity. Some of them are followed by one or two bytes of data, which can be an immediate operand, a memory address, or a port number. Like larger processors, it has automatic CALL and RET instructions for multi-level procedure calls and returns (which can even be conditionally executed, like jumps), and instructions to save and restore any 16-bit register-pair on the machine stack. There are also eight one-byte call instructions (RST) for subroutines located at the fixed addresses 00h, 08h, 10h, ..., and 38h. These were intended to be supplied by external hardware in order to invoke a corresponding interrupt-service routine, but were also often employed as fast system calls. The most sophisticated command is XTHL, which is used for exchanging the register pair HL with the value stored at the address indicated by the stack pointer.
+
+
+===== 8-bit instructions =====
+Most 8-bit operations can only be performed on the 8-bit accumulator (the A register). For 8-bit operations with two operands, the other operand can be either an immediate value, another 8-bit register, or a memory byte addressed by the 16-bit register pair HL. Direct copying is supported between any two 8-bit registers and between any 8-bit register and an HL-addressed memory byte. Due to the regular encoding of the MOV instruction (using a quarter of available opcode space), there are redundant codes to copy a register into itself (MOV B,B, for instance), which were of little use, except for delays. However, what would have been a copy from the HL-addressed cell into itself (i.e., MOV M,M) is instead used to encode the halt (HLT) instruction, halting execution until an external reset or interrupt occurs.
+
+
+===== 16-bit operations =====
+Although the 8080 is generally an 8-bit processor, it also has limited abilities to perform 16-bit operations: Any of the three 16-bit register pairs (BC, DE, or HL) or SP can be loaded with an immediate 16-bit value (using LXI), incremented or decremented (using INX and DCX), or added to HL (using DAD). The XCHG instruction exchanges the values of the HL and DE register pairs. By adding HL to itself, it is possible to achieve the same result as a 16-bit arithmetical left shift with one instruction. The only 16-bit instructions that affect any flag are DAD H/D/B, which set the CY (carry) flag in order to allow for programmed 24-bit or 32-bit arithmetic (or larger), needed to implement floating point arithmetics, for instance.
+
+
+=== Input/output scheme ===
+
+
+==== Input output port space ====
+The 8080 supported up to 256 input/output (I/O) ports, accessed via dedicated I/O instructions—taking port addresses as operands. This I/O mapping scheme was regarded as an advantage, as it freed up the processor's limited address space. Many CPU architectures instead use so-called memory mapped I/O, in which a common address space is used for both RAM and peripheral chips. This removes the need for dedicated I/O instructions, although a drawback in such designs may be that special hardware must be used to insert wait states as peripherals are often slower than memory. However, in some simple 8080 computers, I/O was indeed addressed as if they were memory cells, "memory mapped", leaving the I/O commands unused. I/O addressing could also sometimes employ the fact that the processor would output the same 8-bit port address to both the lower and the higher address byte (i.e. IN 05h would put the address 0505h on the 16-bit address bus). Similar I/O-port schemes were used in the backward compatible Zilog Z80 and Intel 8085 as well as the closely related x86 families of microprocessors.
+
+
+==== Separate stack space ====
+One of the bits in the processor state word (see below) indicates that the processor is accessing data from the stack. Using this signal, it is possible to implement a separate stack memory space. However, this feature was seldom used.
+
+
+=== The internal state word ===
+For more advanced systems, during one phase of its working loop, the processor set its "internal state byte" on the data bus. This byte contains flags which determine if the memory or I/O port is accessed, and whether it was necessary to handle an interrupt.
+The interrupt system state (enabled or disabled) was also output on a separate pin. For simple systems, where the interrupts were not used, it is possible to find cases where this pin is used as an additional single-bit output port (the popular Radio86RK computer made in the Soviet Union, for instance).
+
+
+=== Example code ===
+The following 8080/8085 assembler source code is for a subroutine named memcpy that copies a block of data bytes of a given size from one location to another. The data block is copied one byte at a time, and the data movement and looping logic utilizes 16-bit operations.
+
+
+=== Pin usage ===
+The address bus had its own 16 pins, and the data bus had eight pins that were possible to use without any multiplexing. Using the two additional pins (read and write signals), it was possible to assemble simple microprocessor devices very easily. Only the separate IO space, interrupts and DMA required additional chips to decode the processor pin signals. However, the processor load capacity was limited, and even simple computers frequently contained bus amplifiers.
+The processor required three power sources (−5, +5 and +12 V) and two non-interlacing high-amplitude synchronization signals. However, at least the late Soviet version КР580ВМ80А was able to work with a single +5 V power source, the +12 V pin being connected to +5 V and the −5 V pin to ground. The processor consumed about 1.3 W of power.
+The pin-out table, from the chip's accompanying documentation, described the pins as follows:
+
+
+== Support chips ==
+A key factor in the success of the 8080 was the broad range of support chips available, providing serial communications, counter/timing, input/output, direct memory access, and programmable interrupt control amongst other functions.
+8251-Communication Controller
+8253-Programmable Interval Timer
+8255-Programmable Peripheral Interface
+8257-DMA Controller
+8259-Programmable Interrupt Controller
+
+
+== Physical implementation ==
+The 8080 integrated circuit used non-saturated enhancement load nMOS gates, demanding extra voltages (for the load-gate bias). It was manufactured in a silicon gate process using a minimum feature size of 6 µm. A single layer of metal was used to interconnect the approximately 6,000 transistors in the design, but the higher resistance polysilicon layer, which required higher voltage for some interconnects, was implemented with transistor gates. The die size was approximately 20 mm2.
+
+
+== The industrial impact ==
+
+
+=== Applications and successors ===
+The 8080 was used in many early microcomputers, such as the MITS Altair 8800 Computer, Processor Technology SOL-20 Terminal Computer and IMSAI 8080 Microcomputer, forming the basis for machines running the CP/M operating system (the later, almost fully compatible and more capable, Zilog Z80 processor would capitalize on this, with Z80 & CP/M becoming the dominant CPU & OS combination of the period circa 1976 to 1983 much as did the x86 & MS-DOS for the PC a decade later). Even in 1979 after introduction of the Z80 and 8085 processors, five manufacturers of the 8080 were selling an estimated 500,000 units per month at a price around $3 to $4 per unit. The first single-board microcomputers, such as MYCRO-1 and the dyna-micro were based on the Intel 8080. One of the early uses of the 8080 was made in the late 1970s by Cubic-Western Data of San Diego, CA in its Automated Fare Collection Systems custom designed for mass transit systems around the world. An early industrial use of the 8080 was as the "brain" of the DatagraphiX Auto-COM (Computer Output Microfiche) line of products which took large amounts of user data from reel-to-reel tape and imaged it onto microfiche. The Auto-COM instruments also included an entire automated film cutting, processing, washing, and drying sub-system – quite a feat, both then and in the 21st century, to all be accomplished successfully with only an 8-bit microprocessor running at a clock speed of less than 1 MHz with a 64 KB memory limit. In addition, several early arcade video games were built around the 8080 microprocessor. Space Invaders was perhaps the most popular such title.
+Shortly after the launch of the 8080, the Motorola 6800 competing design was introduced, and after that, the MOS Technology 6502 variation of the 6800. Zilog introduced the Z80, which had a compatible machine-language instruction set and initially used the same assembly language as the 8080, but for legal reasons, Zilog developed a syntactically-different (but code compatible) alternative assembly language for the Z80. At Intel, the 8080 was followed by the compatible and electrically more elegant 8085, and later by the assembly language compatible 16-bit 8086 and then the 8/16-bit 8088, which was selected by IBM for its new PC to be launched in 1981. Later NEC made a NEC V20 (an 8088 clone with Intel 80186 instruction set compatibility) which also supported an 8080 emulation mode. This was also supported by NEC's V30 (a similarly enhanced 8086 clone). Thus, the 8080, via its ISA, made a lasting impact on computer history.
+In the Soviet Union, manufacturers cloned the 8080 microprocessor's layout geometry, even using an identical pin arrangement, and started to produce the clone under the name KP580ИK80 (later marked as KP580BM80). This processor was the base of the Radio86RK (Радио 86РК in Russian), probably the most popular amateur single-board computer in the Soviet Union. Radio86RK's predecessor was the Micro-80 (Микро-80 in Russian), and its successor the Orion-128 (Орион-128 in Russian) which had a graphical display. Both were built on the KP580 processor.
+Another model compatible with Intel 8080A, named MMN8080, was produced at Microelectronica Bucharest in Romania. There was also a compatible Polish CPU named MCY7880 and the Slovak-made Tesla MHB 8080A.
+
+
+=== Industry change ===
+The 8080 also changed how computers were created. When the 8080 was introduced, computer systems were usually created by computer manufacturers such as Digital Equipment Corporation, Hewlett Packard, or IBM. A manufacturer would produce the entire computer, including processor, terminals, and system software such as compilers and operating system. The 8080 was actually designed for just about any application except a complete computer system. Hewlett Packard developed the HP 2640 series of smart terminals around the 8080. The HP 2647 was a terminal which ran BASIC on the 8080. Microsoft would market as its founding product the first popular programming language for the 8080, and would later acquire DOS for the IBM-PC.
+The 8080 and 8085 gave rise to the 8086, which was designed as a source compatible (although not binary compatible) extension of the 8085. This design, in turn, later spawned the x86 family of chips, the basis for most CPUs in use today. Many of the 8080's core machine instructions and concepts, for example, registers named A, B, C and D, as well as many of the flags used to control conditional jumps, are still in use in the widespread x86 platform. 8080 Assembler code can still be directly translated into x86 instructions; all of its core elements are still present.
+PCs based upon the 8086 design and its successors evolved into workstations and servers of 16, 32 and 64 bits, with advanced memory protection, segmentation, and multiprocessing features, blurring the difference between small and large computers (the 80286 and 80386's protected mode were important in doing so). The size of chips has grown so that the size and power of large x86 chips is not much different from high end architecture chips, and a common strategy to produce a very large computer is to network many x86 processors.
+The basic architecture of the 8080 and its successors has replaced many proprietary mid-range and mainframe computers, and withstood challenges of technologies such as RISC. Most computer manufacturers have abandoned producing their own processors below the highest performance points. Though x86 may not be the most elegant, or theoretically most efficient design, the sheer market force of so many dollars going into refining a design has made the x86 family today, and will remain for some time, the dominant processor architecture, even bypassing Intel's attempts to replace it with incompatible architectures such as the iAPX 432 and Itanium.
+
+
+== History ==
+Federico Faggin, the originator of the 8080 architecture in early 1972, proposed it to Intel's management and pushed for its implementation. He finally got the permission to develop it six months later. Faggin hired Masatoshi Shima from Japan who did the detailed design under his direction, using the design methodology for random logic with silicon gate that Faggin had created for the 4000 family. Stanley Mazor contributed a couple of instructions to the instruction set.
+
+
+=== Patent ===
+US patent 4,010,449, Federico Faggin, Masatoshi Shima, Stanley Mazor, "MOS computer employing a plurality of separate chips", issued 1977-03-01 [1]
+
+
+== Cultural impact ==
+Asteroid 8080 Intel is named as a pun and praise on the name of Intel 8080.
+Microsoft's published phone number, 425-882-8080, was chosen because so much early work was on this chip.
+Many of Intel's main phone numbers also take a similar form: xxx-xxx-8080
+
+
+== See also ==
+CP/M – operating system
+S-100 bus
+MPT8080
+
+
+== References ==
+
+
+== External links ==
+Intel and other manufacturers' 8080 CPU images and descriptions at cpu-collection.de
+Scan of the Intel 8080 data book at DataSheetArchive.com
+Microcomputer Design, Second Edition, 1976
+8080 Emulator written in JavaScript
+Intel 8080/KR580VM80A emulator in JavaScript
+Intel 8080 Microcomputer Systems User's Manual (September 1975, 234 pages)
+This article is based on material taken from the Free On-line Dictionary of Computing prior to 1 November 2008 and incorporated under the "relicensing" terms of the GFDL, version 1.3 or later.

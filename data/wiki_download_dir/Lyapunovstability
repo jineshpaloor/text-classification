@@ -1,0 +1,122 @@
+Lyapunov stability
+Various types of stability may be discussed for the solutions of differential equations describing dynamical systems. The most important type is that concerning the stability of solutions near to a point of equilibrium. This may be discussed by the theory of Lyapunov. In simple terms, if the solutions that start out near an equilibrium point  stay near  forever, then  is Lyapunov stable. More strongly, if  is Lyapunov stable and all solutions that start out near  converge to , then  is asymptotically stable. The notion of exponential stability guarantees a minimal rate of decay, i.e., an estimate of how quickly the solutions converge. The idea of Lyapunov stability can be extended to infinite-dimensional manifolds, where it is known as structural stability, which concerns the behavior of different but "nearby" solutions to differential equations. Input-to-state stability (ISS) applies Lyapunov notions to systems with inputs.
+
+
+== History ==
+Lyapunov stability is named after Aleksandr Lyapunov, a Russian mathematician who published his book The General Problem of Stability of Motion in 1892. Lyapunov was the first to consider the modifications necessary in nonlinear systems to the linear theory of stability based on linearizing near a point of equilibrium. His work, initially published in Russian and then translated to French, received little attention for many years. Interest in it started suddenly during the Cold War period when the so-called "Second Method of Lyapunov" (see below) was found to be applicable to the stability of aerospace guidance systems which typically contain strong nonlinearities not treatable by other methods. A large number of publications appeared then and since in the control and systems literature. More recently the concept of the Lyapunov exponent (related to Lyapunov's First Method of discussing stability) has received wide interest in connection with chaos theory. Lyapunov stability methods have also been applied to finding equilibrium solutions in traffic assignment problems.
+
+
+== Definition for continuous-time systems ==
+Consider an autonomous nonlinear dynamical system
+,
+where  denotes the system state vector,  an open set containing the origin, and  continuous on . Suppose  has an equilibrium at  so that  then
+This equilibrium is said to be Lyapunov stable, if, for every , there exists a  such that, if , then for every  we have .
+The equilibrium of the above system is said to be asymptotically stable if it is Lyapunov stable and there exists  such that if , then .
+The equilibrium of the above system is said to be exponentially stable if it is asymptotically stable and there exist  such that if , then , for all .
+Conceptually, the meanings of the above terms are the following:
+Lyapunov stability of an equilibrium means that solutions starting "close enough" to the equilibrium (within a distance  from it) remain "close enough" forever (within a distance  from it). Note that this must be true for any  that one may want to choose.
+Asymptotic stability means that solutions that start close enough not only remain close enough but also eventually converge to the equilibrium.
+Exponential stability means that solutions not only converge, but in fact converge faster than or at least as fast as a particular known rate .
+The trajectory x is (locally) attractive if
+
+(where y(t) denotes the system output) for  for all trajectories that start close enough, and globally attractive if this property holds for all trajectories.
+That is, if x belongs to the interior of its stable manifold, it is asymptotically stable if it is both attractive and stable. (There are counterexamples showing that attractivity does not imply asymptotic stability. Such examples are easy to create using homoclinic connections.)
+
+
+=== Lyapunov's second method for stability ===
+Lyapunov, in his original 1892 work, proposed two methods for demonstrating stability. The first method developed the solution in a series which was then proved convergent within limits. The second method, which is almost universally used nowadays, makes use of a Lyapunov function V(x) which has an analogy to the potential function of classical dynamics. It is introduced as follows for a system having a point of equilibrium at x=0. Consider a function  such that
+ with equality if and only if  (positive definite)
+ with equality not constrained to only  (negative semidefinite). Note: for asymptotic stability,  is required to be negative definite.
+Then V(x) is called a Lyapunov function candidate and the system is stable in the sense of Lyapunov. (Note that  is required; otherwise for example  would "prove" that  is locally stable. An additional condition called "properness" or "radial unboundedness" is required in order to conclude global stability.) Furthermore, the system is asymptotically stable, in the sense of Lyapunov, if  with equality if and only if . Global asymptotic stability (GAS) follows similarly.
+It is easier to visualize this method of analysis by thinking of a physical system (e.g. vibrating spring and mass) and considering the energy of such a system. If the system loses energy over time and the energy is never restored then eventually the system must grind to a stop and reach some final resting state. This final state is called the attractor. However, finding a function that gives the precise energy of a physical system can be difficult, and for abstract mathematical systems, economic systems or biological systems, the concept of energy may not be applicable.
+Lyapunov's realization was that stability can be proven without requiring knowledge of the true physical energy, provided a Lyapunov function can be found to satisfy the above constraints.
+
+
+== Definition for discrete-time systems ==
+The definition for discrete-time systems is almost identical to that for continuous-time systems. The definition below provides this, using an alternate language commonly used in more mathematical texts.
+Let (X, d) be a metric space and f : X → X a continuous function. A point x in X is said to be Lyapunov stable, if,
+
+We say that x is asymptotically stable if it belongs to the interior of its stable set, i.e. if,
+
+
+== Stability for linear state space models ==
+A linear state space model
+,
+where  is a finite matrix, is asymptotically stable (in fact, exponentially stable) if all real parts of the eigenvalues of  are negative. This condition is equivalent to the following one:
+
+is negative definite for some positive definite matrix . (The relevant Lyapunov function is .)
+Correspondingly, a time-discrete linear state space model
+
+is asymptotically stable (in fact, exponentially stable) if all the eigenvalues of  have a modulus smaller than one.
+This latter condition has been generalized to switched systems: a linear switched discrete time system (ruled by a set of matrices )
+
+is asymptotically stable (in fact, exponentially stable) if the joint spectral radius of the set  is smaller than one.
+
+
+== Stability for systems with inputs ==
+A system with inputs (or controls) has the form
+
+where the (generally time-dependent) input u(t) may be viewed as a control, external input, stimulus, disturbance, or forcing function. The study of such systems is the subject of control theory and applied in control engineering. For systems with inputs, one must quantify the effect of inputs on the stability of the system. The main two approaches to this analysis are BIBO stability (for linear systems) and input-to-state (ISS) stability (for nonlinear systems)
+
+
+== Example ==
+Consider an equation, where compared to the Van der Pol oscillator equation the friction term is changed:
+
+The equilibrium is at :
+Here is a good example of an unsuccessful try to find a Lyapunov function that proves stability:
+Let
+
+so that the corresponding system is
+
+Let us choose as a Lyapunov function
+
+which is clearly positive definite. Its derivative is
+
+It seems that if the parameter  is positive, stability is asymptotic for  But this is wrong, since  does not depend on , and will be 0 everywhere on the  axis. The system is Lyapunov stable.
+
+
+== Barbalat's lemma and stability of time-varying systems ==
+Assume that f is function of time only.
+Having  does not imply that  has a limit at . For example, .
+Having  approaching a limit as  does not imply that . For example, .
+Having  lower bounded and decreasing () implies it converges to a limit. But it does not say whether or not  as .
+Barbalat's Lemma says:
+If  has a finite limit as  and if  is uniformly continuous (or  is bounded), then  as .
+Usually, it is difficult to analyze the asymptotic stability of time-varying systems because it is very difficult to find Lyapunov functions with a negative definite derivative.
+We know that in case of autonomous (time-invariant) systems, if  is negative semi-definite (NSD), then also, it is possible to know the asymptotic behaviour by invoking invariant-set theorems. However, this flexibility is not available for time-varying systems. This is where "Barbalat's lemma" comes into picture. It says:
+IF  satisfies following conditions:
+ is lower bounded
+ is negative semi-definite (NSD)
+ is uniformly continuous in time (satisfied if  is finite)
+
+then  as .
+The following example is taken from page 125 of Slotine and Li's book Applied Nonlinear Control.
+Consider a non-autonomous system
+
+This is non-autonomous because the input  is a function of time. Assume that the input  is bounded.
+Taking  gives 
+This says that  by first two conditions and hence  and  are bounded. But it does not say anything about the convergence of  to zero. Moreover, the invariant set theorem cannot be applied, because the dynamics is non-autonomous.
+Using Barbalat's lemma:
+.
+This is bounded because ,  and  are bounded. This implies  as  and hence . This proves that the error converges.
+
+
+== See also ==
+Perturbation theory
+Krasovskii–LaSalle principle
+
+
+== References ==
+
+
+== Further reading ==
+Gandolfo, Giancarlo (1996). Economic Dynamics (Third ed.). Berlin: Springer. pp. 407–428. ISBN 3-540-60988-1. 
+Parks, P. C. (1992). "A. M. Lyapunov's stability theory—100 years on". IMA Journal of Mathematical Control & Information 9 (4): 275–303. doi:10.1093/imamci/9.4.275. 
+Slotine, Jean-Jacques E.; Weiping Li (1991). Applied Nonlinear Control. NJ: Prentice Hall. 
+Teschl, G. (2012). Ordinary Differential Equations and Dynamical Systems. Providence: American Mathematical Society. ISBN 978-0-8218-8328-0. 
+Wiggins, S. (2003). Introduction to Applied Nonlinear Dynamical Systems and Chaos (2 ed.). New York: Springer Verlag. ISBN 0-387-00177-8. 
+
+
+== External links ==
+http://www.mne.ksu.edu/research/laboratories/non-linear-controls-lab (login required)
+This article incorporates material from asymptotically stable on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.

@@ -1,0 +1,28 @@
+Siemens (unit)
+The siemens (SI unit symbol: S) is the unit of electric conductance, electric susceptance and electric admittance in the International System of Units (SI). Conductance, susceptance, and admittance are the reciprocals of resistance, reactance, and impedance respectively; hence one siemens is equal to the reciprocal of one ohm, and is also referred to as the mho. The 14th General Conference on Weights and Measures approved the addition of the siemens as a derived unit in 1971.
+The unit is named after Ernst Werner von Siemens. As with every SI unit whose name is derived from the proper name of a person, the first letter of its symbol is upper case (S); the lower-case "s" is the symbol for the second. When an SI unit is spelled out in English, it should always begin with a lower-case letter (siemens), except where any word would be capitalized. In English, the same form siemens is used both for the singular and plural.
+
+
+== Definition ==
+For a conducting or semiconducting element, electrical resistance R and electrical conductance G are defined as
+
+where I is the electric current through the object and V is the voltage (electrical potential difference) across the object.
+The unit siemens for the conductance G is defined by
+
+where Ω is the ohm, A is the ampere, and V is the volt.
+For a device with a conductance of one siemens, the electric current through the device will increase by one ampere for every increase of one volt of electric potential difference across the device.
+The conductance of a resistor with a resistance of five ohms, for example, is (5 Ω)−1, which is equal to 200 mS.
+
+
+== Mho ==
+
+Mho is an alternative name of the same unit, the reciprocal of one ohm. Mho is derived from spelling ohm backwards and is written with an upside-down capital Greek letter Omega: , Unicode symbol U+2127 (℧). According to Maver the term mho was suggested by Sir William Thomson (Lord Kelvin). The mho was officially renamed to the siemens, replacing the old meaning of the "siemens unit", at a conference in 1881.
+The term siemens, as it is an SI term, is used universally in science and often in electrical applications, while mho is still used primarily in electronic applications. The inverted Omega, while not an official SI abbreviation, has the advantage of being less likely to be confused with a variable than the letter S when doing algebraic calculations by hand, where the usual typographical distinctions (such as italic for variables and Roman for unit names) are difficult to maintain. Likewise, it is difficult to distinguish the symbol S from the lower-case s where second is meant, potentially causing confusion.
+
+
+== Notes and references ==
+
+
+== External links ==
+Brochure "The International System of Units" issued by the BIPM
+Different units named after Siemens

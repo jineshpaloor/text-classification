@@ -1,0 +1,140 @@
+DVD
+DVD ( "digital versatile disc" or "digital video disc") is a digital optical disc storage format, invented and developed by Philips, Sony, Toshiba, and Panasonic in 1995. The medium can store any kind of digital data, and is widely used for software and other computer files, and for video programs watched using DVD players. DVDs offer higher storage capacity than compact discs while having the same dimensions.
+Pre-recorded DVDs are mass-produced using molding machines that physically stamp data onto the DVD. Such discs are known as DVD-ROM, because data can only be read and not written or erased. Blank recordable DVD discs (DVD-R and DVD+R) can be recorded once using a DVD recorder and then function as a DVD-ROM. Rewritable DVDs (DVD-RW, DVD+RW, and DVD-RAM) can be recorded and erased many times.
+DVDs are used in DVD-Video consumer digital video format and in DVD-Audio consumer digital audio format, as well as for authoring DVD discs written in a special AVCHD format to hold high definition material (often in conjunction with AVCHD format camcorders). DVDs containing other types of information may be referred to as DVD data discs.
+
+
+== EtymologyEdit ==
+The Oxford English Dictionary comments that, "In 1995 rival manufacturers of the product initially named digital video disc agreed that, in order to emphasize the flexibility of the format for multimedia applications, the preferred abbreviation DVD would be understood to denote digital versatile disc" The OED also states that in 1995, "The companies said the official name of the format will simply be DVD. Toshiba had been using the name ‘digital video disk’, but that was switched to ‘digital versatile disk’ after computer companies complained that it left out their applications."
+"Digital versatile disc" is the explanation provided in a DVD Forum Primer from 2000 and in the DVD Forum's mission statement.
+
+
+== HistoryEdit ==
+
+
+=== DevelopmentEdit ===
+
+There were several formats developed for recording video on optical disks before the DVD. Optical recording technology was invented by David Paul Gregg and James Russell in 1958 and first patented in 1961. A consumer optical disc data format known as LaserDisc was developed in the United States, and first came to market in Atlanta, Georgia in 1978. It used much larger discs than the later formats. Due to the high cost of players and discs, consumer adoption of LaserDisc was very low in both North America and Europe, and was not widely used anywhere outside Japan and the more affluent areas of Southeast Asia, such as Hong-Kong, Singapore, Malaysia and Taiwan.
+CD Video used analog video encoding on optical discs matching the established standard 120 mm (4.7 in) size of audio CDs. Video CD (VCD) became one of the first formats for distributing digitally encoded films in this format, in 1993. In the same year, two new optical disc storage formats were being developed. One was the Multimedia Compact Disc (MMCD), backed by Philips and Sony, and the other was the Super Density (SD) disc, supported by Toshiba, Time Warner, Matsushita Electric, Hitachi, Mitsubishi Electric, Pioneer, Thomson, and JVC.
+Representatives from the SD camp asked IBM for advice on the file system to use for their disc, and sought support for their format for storing computer data. Alan E. Bell, a researcher from IBM's Almaden Research Center, got that request, and also learned of the MMCD development project. Wary of being caught in a repeat of the costly videotape format war between VHS and Betamax in the 1980s, he convened a group of computer industry experts, including representatives from Apple, Microsoft, Sun Microsystems, Dell, and many others. This group was referred to as the Technical Working Group, or TWG.
+The TWG voted to boycott both formats unless the two camps agreed on a single, converged standard. They recruited Lou Gerstner, president of IBM, to pressure the executives of the warring factions. In one significant compromise, the MMCD and SD groups agreed to adopt proposal SD 9, which specified that both layers of the dual-layered disc be read from the same side—instead of proposal SD 10, which would have created a two-sided disc that users would have to turn over. As a result, the DVD specification provided a storage capacity of 4.7 GB for a single-layered, single-sided disc and 8.5 GB for a dual-layered, single-sided disc. The DVD specification ended up similar to Toshiba and Matsushita's Super Density Disc, except for the dual-layer option (MMCD was single-sided and optionally dual-layer—whereas SD was single-layer, but optionally double-sided) and EFMPlus modulation designed by Kees Schouhamer Immink.
+Philips and Sony decided that it was in their best interests to avoid another format war over their Multimedia Compact Disc, and agreed to unify with companies backing the Super Density Disc to release a single format, with technologies from both. After other compromises between MMCD and SD, the computer companies through TWG won the day, and a single format, now called DVD, was agreed upon. The TWG also collaborated with the Optical Storage Technology Association (OSTA) on the use of their implementation of the ISO-13346 file system (known as Universal Disk Format) for use on the new DVDs.
+
+
+=== AdoptionEdit ===
+Movie and home entertainment distributors adopted the DVD format to replace the ubiquitous VHS tape as the primary consumer digital video distribution format. They embraced DVD because it produces superior moving pictures and sound, provides superior data lifespan, and can be interactive. Interactivity on LaserDiscs had proven desirable to consumers, especially collectors. When LaserDisc prices dropped from approximately $100 per disc to $20 per disc at retail, this luxury feature became available for mass consumption. Simultaneously, the movie studios decided to change their home entertainment release model from a rental model to a for purchase model, and large numbers of DVDs were sold.
+At the same time, a demand for interactive design talent and services was created. Movies in the past had uniquely designed title sequences. Suddenly every movie being released required information architecture and interactive design components that matched the film's tone and were at the quality level that Hollywood demanded for its product.
+DVD as a format had two qualities at the time that were not available in any other interactive medium: enough capacity and speed to provide high quality, full motion video and sound, and low cost delivery mechanism provided by consumer products retailers. Retailers would quickly move to sell their players for under $200, and eventually for under $50 at retail. In addition, the medium itself was small enough and light enough to mail using general first class postage. Almost overnight, this created a new business opportunity and model for business innovators to re-invent the home entertainment distribution model. It also gave companies an inexpensive way to provide business and product information on full motion video through direct mail.
+
+
+== SpecificationsEdit ==
+The DVD specifications created and updated by the DVD Forum are published as so-called DVD Books (e.g. DVD-ROM Book, DVD-Audio Book, DVD-Video Book, DVD-R Book, DVD-RW Book, DVD-RAM Book, DVD-AR Book, DVD-VR Book, etc.).
+Some specifications for mechanical, physical and optical characteristics of DVD optical discs can be downloaded as freely available standards from the ISO website. There are also equivalent European Computer Manufacturers Association (ECMA) standards for some of these specifications, such as Ecma-267 for DVD-ROMs. Also, the DVD+RW Alliance publishes competing recordable DVD specifications such as DVD+R, DVD+R DL, DVD+RW or DVD+RW DL. These DVD formats are also ISO standards.
+Some of DVD specifications (e.g. for DVD-Video) are not publicly available and can be obtained only from the DVD Format/Logo Licensing Corporation for a fee of US $5000. Every subscriber must sign a non-disclosure agreement as certain information in the DVD Book is proprietary and confidential.
+
+
+== DVD recordable and rewritableEdit ==
+
+HP initially developed recordable DVD media from the need to store data for backup and transport. DVD recordables are now also used for consumer audio and video recording. Three formats were developed: DVD-R/RW, DVD+R/RW (plus), and DVD-RAM. DVD-R is available in two formats, General (650 nm) and Authoring (635 nm), where Authoring discs may be recorded with CSS encrypted video content but General discs may not.
+Although most DVD writers can nowadays write the DVD+R/RW and DVD-R/RW formats (usually denoted by "DVD±RW" and/or the existence of both the DVD Forum logo and the DVD+RW Alliance logo), the "plus" and the "dash" formats use different writing specifications. Most DVD readers and players play both kinds of discs, though older models can have trouble with the "plus" variants.
+Some first generation DVD players would cause damage to DVD±R/RW/DL when attempting to read them.
+The form of the spiral groove that makes up the structure of a recordable DVD encodes unalterable identification data known as Media Identification Code (MID). The MID contains data such as the manufacturer and model, byte capacity, allowed data rates (also known as speed), etc..
+
+
+=== Dual-layer recordingEdit ===
+
+Dual-layer recording (sometimes also known as double-layer recording) allows DVD-R and DVD+R discs to store significantly more data—up to 8.5 gigabytes per disc, compared with 4.7 gigabytes for single-layer discs. Along with this, DVD-DLs have slower write speeds as compared to ordinary DVDs. When played, a slight transition can sometimes be seen in the playback when the player changes layers. DVD-R DL was developed for the DVD Forum by Pioneer Corporation; DVD+R DL was developed for the DVD+RW Alliance by Philips and Mitsubishi Kagaku Media (MKM).
+A dual-layer disc differs from its usual DVD counterpart by employing a second physical layer within the disc itself. The drive with dual-layer capability accesses the second layer by shining the laser through the first semitransparent layer. In some DVD players, the layer change can exhibit a noticeable pause, up to several seconds. This caused some viewers to worry that their dual-layer discs were damaged or defective, with the end result that studios began listing a standard message explaining the dual-layer pausing effect on all dual-layer disc packaging.
+DVD recordable discs supporting this technology are backward-compatible with some existing DVD players and DVD-ROM drives. Many current DVD recorders support dual-layer technology, and the price is now comparable to that of single-layer drives, although the blank media remain more expensive. The recording speeds reached by dual-layer media are still well below those of single-layer media.
+Dual layer DVDs are recorded using Opposite Track Path (OTP). DVD-ROM discs mastered for computer use are produced with track 0 starting at the inside diameter (as is the case with a single layer). Track 1 then starts at the outside diameter. DVD video discs are mastered slightly differently. The video is divided between the layers such that layer 1 can be made to start at the same diameter that layer 0 finishes. This speeds up the transition as the layer changes because although the laser does have to refocus on layer 1, it does not have to skip across the disc to find it.
+
+
+== CapacityEdit ==
+The basic types of DVD (12 cm diameter, single-sided or homogeneous double-sided) are referred to by a rough approximation of their capacity in gigabytes. In draft versions of the specification, DVD-5 indeed held five gigabytes, but some parameters were changed later on as explained above, so the capacity decreased. Other formats, those with 8 cm diameter and hybrid variants, acquired similar numeric names with even larger deviation.
+The 12 cm type is a standard DVD, and the 8 cm variety is known as a MiniDVD. These are the same sizes as a standard CD and a mini-CD, respectively. The capacity by surface (MiB/cm2) varies from 6.92 MiB/cm2 in the DVD-1 to 18.0 MiB/cm2 in the DVD-18.
+As with hard disk drives, in the DVD realm, gigabyte and the symbol GB are usually used in the SI sense (i.e., 109, or 1,000,000,000 bytes).
+Each DVD sector contains 2,418 bytes of data, 2,048 bytes of which are user data. There is a small difference in storage space between + and - (hyphen) formats:
+
+Note: All sizes are expressed in their binary sense (i.e. 1 Gigabyte = 1,073,741,824 bytes).
+
+Note: All sizes are expressed in their binary sense (i.e. 1 Gigabyte = 1,073,741,824 bytes).
+All sizes are expressed in their binary sense (i.e. 1 Gigabyte = 1,073,741,824 bytes etc.).
+
+
+== DVD drives and playersEdit ==
+
+DVD drives are devices that can read DVD discs on a computer. DVD players are a particular type of devices that do not require a computer to work, and can read DVD-Video and DVD-Audio discs.
+
+
+=== Laser and opticsEdit ===
+
+All three common optical disc media (Compact disc, DVD, and Blu-ray) use light from laser diodes, for its spectral purity and ability to be focused precisely. DVD uses light of 650 nm wavelength (red), as opposed to 780 nm (far-red, commonly called infrared) for CD. This shorter wavelength allows a smaller pit on the media surface compared to CDs (0.74 µm for DVD versus 1.6 µm for CD), accounting in part for DVD's increased storage capacity.
+In comparison, Blu-ray Disc, the successor to the DVD format, uses a wavelength of 405 nm (violet), and one dual-layer disc has a 50 GB storage capacity.
+
+
+=== Transfer ratesEdit ===
+
+Read and write speeds for the first DVD drives and players were of 1,385 kB/s (1,353 KiB/s); this speed is usually called "1×". More recent models, at 18× or 20×, have 18 or 20 times that speed. Note that for CD drives, 1× means 153.6 kB/s (150 KiB/s), about one-ninth as swift.
+
+
+== DVD-VideoEdit ==
+
+DVD-Video is a standard for storing and distributing video/audio content on DVD media. The format went on sale in Japan in 1995, in the United States in 1997, in Europe in 1998 and in Australia in 1999. DVD-Video became the dominant form of home video distribution in Japan when it first went on sale in 1995, but it shared the market for home video distribution in the United States until June 15, 2003, when weekly DVD-Video in the United States rentals began outnumbering weekly VHS cassette rentals. marketplace. As of August 2015, DVD-Video is still the dominant form of home video distribution worldwide except for in Japan where it was surpassed by Blu-ray Disc when Blu-ray first went on sale in Japan on March 31, 2006.
+
+
+=== SecurityEdit ===
+
+The Content Scramble System (CSS) is a Digital Rights Management (DRM) and encryption system employed on almost all commercially produced DVD-video discs. CSS utilizes a proprietary 40-bit stream cipher algorithm. The system was introduced around 1996 and was first compromised in 1999.
+The purpose of CSS is twofold:
+CSS prevents byte-for-byte copies of an MPEG (digital video) stream from being playable since such copies do not include the keys that are hidden on the lead-in area of the restricted DVD.
+CSS provides a reason for manufacturers to make their devices compliant with an industry-controlled standard, since CSS scrambled discs cannot in principle be played on noncompliant devices; anyone wishing to build compliant devices must obtain a license, which contains the requirement that the rest of the DRM system (region codes, Macrovision, and user operation prohibition) be implemented.
+While most CSS-decrypting software is used to play DVD videos, other pieces of software (such as DVD Decrypter, AnyDVD, DVD43, Smartripper, and DVD Shrink) can copy a DVD to a hard drive and remove Macrovision, CSS encryption, region codes and user operation prohibition.
+
+
+=== Consumer restrictionsEdit ===
+The rise of filesharing has prompted many copyright holders to display notices on DVD packaging or displayed on screen when the content is played that warn consumers of the illegality of certain uses of the DVD. It is commonplace to include a 90-second advertisement warning that most forms of copying the contents are illegal. Many DVDs prevent skipping past or fast-forwarding through this warning.
+Arrangements for renting and lending differ by geography. In the U.S., the right to re-sell, rent, or lend out bought DVDs is protected by the first-sale doctrine under the Copyright Act of 1976. In Europe, rental and lending rights are more limited, under a 1992 European Directive that gives copyright holders broader powers to restrict the commercial renting and public lending of DVD copies of their work.
+
+
+== DVD-AudioEdit ==
+
+DVD-Audio is a format for delivering high fidelity audio content on a DVD. It offers many channel configuration options (from mono to 5.1 surround sound) at various sampling frequencies (up to 24-bits/192 kHz versus CDDA's 16-bits/44.1 kHz). Compared with the CD format, the much higher-capacity DVD format enables the inclusion of considerably more music (with respect to total running time and quantity of songs) and/or far higher audio quality (reflected by higher sampling rates and greater sample resolution, and/or additional channels for spatial sound reproduction).
+Despite DVD-Audio's superior technical specifications, there is debate as to whether the resulting audio enhancements are distinguishable in typical listening environments. DVD-Audio currently forms a niche market, probably due to the very sort of format war with rival standard SACD that DVD-Video avoided.
+
+
+=== SecurityEdit ===
+
+DVD-Audio discs employ a DRM mechanism, called Content Protection for Prerecorded Media (CPPM), developed by the 4C group (IBM, Intel, Matsushita, and Toshiba).
+Although CPPM was supposed to be much harder to crack than a DVD-Video CSS, it too was eventually cracked, in 2007, with the release of the dvdcpxm tool. The subsequent release of the libdvdcpxm library (based on dvdcpxm) allowed for the development of open source DVD-Audio players and ripping software, such as DVD-Audio Explorer. As a result, making 1:1 copies of DVD-Audio discs is now possible with relative ease, much like DVD-Video discs.
+
+
+== SuccessorsEdit ==
+In 2006, two new formats called HD DVD and Blu-ray Disc were released as the successor to DVD. HD DVD competed unsuccessfully with Blu-ray Disc in the format war of 2006–2008. A dual layer HD DVD can store up to 30 GB and a dual layer Blu-ray disc can hold up to 50 GB.
+However, unlike previous format changes, e.g., vinyl to Compact Disc or VHS videotape to DVD, there is no immediate indication that production of the standard DVD will gradually wind down, as they still dominate, with around 75% of video sales and approximately one billion DVD player sales worldwide as of 3 April 2011. In fact, experts claim that the DVD will remain the dominant medium for at least another five years as Blu-ray technology is still in its introductory phase, write and read speeds being poor and necessary hardware being expensive and not readily available.
+Consumers initially were also slow to adopt Blu-ray due to the cost. By 2009, 85% of stores were selling Blu-ray Discs. A high-definition television and appropriate connection cables are also required to take advantage of Blu-ray disc. Some analysts suggest that the biggest obstacle to replacing DVD is due to its installed base; a large majority of consumers are satisfied with DVDs. The DVD succeeded because it offered a compelling alternative to VHS. In addition, the uniform media size let manufacturers make Blu-ray players and now defunct format HD DVD players backward-compatible, so they can play older DVDs. This stands in contrast to the change from vinyl to CD, and from tape to DVD, which involved a complete change in physical medium. As of 2012 it is still commonplace for studios to issue major releases in "combo pack" format, including both a DVD and a Blu-ray disc (as well as, in many cases, a third disc with an authorized digital copy). Also, some multi-disc sets use Blu-ray for the main feature, but DVDs for supplementary features (examples of this include the Harry Potter "Ultimate Edition" collections, the 2009 re-release of the 1967 The Prisoner TV series, and a 2007 collection related to Blade Runner). Another reason cited (July 2011) for the slower transition to Blu-ray from DVD is the necessity of and confusion over "firmware updates" and needing an internet connection to perform updates.
+This situation is similar to the changeover from 78 rpm shellac recordings to 45 rpm and 33⅓ rpm vinyl recordings. Because the new and old mediums were virtually the same (a disc on a turntable, played by a needle), phonograph player manufacturers continued to include the ability to play 78s for decades after the format was discontinued.
+Manufacturers continue to release standard DVD titles as of 2015, and the format remains the preferred one for the release of older television programs and films. Some programs, such as Star Trek: The Original Series and Star Trek: The Next Generation must be re-scanned to produce a high definition version from the original film recordings. (Certain special effects were also updated to appear better in high-definition.) In the case of Doctor Who, a series primarily produced on standard definition videotape between 1963 and 1989, BBC Video reportedly intends to continue issuing DVD-format releases of that series until at least November 2013.
+DVDs are also facing competition from video on demand services. With increasing numbers of homes having high speed Internet connections, many people now have the option to either rent or buy video from an online service, and view it by streaming it directly from that service's servers, meaning that the customer need not have any form of permanent storage media for video at all. PWC predicts that online streaming revenue will overtake physical media sales revenue by 2018.
+
+
+== LongevityEdit ==
+DVD longevity is measured by how long the data remains readable from the disc, assuming compatible devices exist that can read it: that is, how long the disc can be stored until data is lost. Numerous factors affect longevity: composition and quality of the media (recording and substrate layers), humidity and light storage conditions, the quality of the initial recording (which is sometimes a matter of mutual compatibility of media and recorder), etc. According to NIST, "[a] temperature of 64.4°F (18°C) and 40% RH [Relative Humidity] would be considered suitable for long-term storage. A lower temperature and RH is recommended for extended-term storage."
+According to the Optical Storage Technology Association (OSTA), "Manufacturers claim lifespans ranging from 30 to 100 years for DVD, DVD-R and DVD+R discs and up to 30 years for DVD-RW, DVD+RW and DVD-RAM."
+According to a NIST/LoC research project conducted in 2005-2007 using accelerated life testing, "There were fifteen DVD products tested, including five DVD-R, five DVD+R, two DVD-RW and three DVD+RW types. There were ninety samples tested for each product. [...] Overall, seven of the products tested had estimated life expectancies in ambient conditions of more than 45 years. Four products had estimated life expectancies of 30-45 years in ambient storage conditions. Two products had a estimated life expectancy of 15-30 years and two products had estimated life expectancies of less than 15 years when stored in ambient conditions." The life expectancies for 95% survival estimated in this project by type of product are tabulated below:
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+
+
+== External linksEdit ==
+ All About Converting From Several Video Formats To DVD at Wikibooks
+DVD at DMOZ
+Dual Layer Explained – Informational Guide to the Dual Layer Recording Process
+DVD Frequently Asked Questions (and Answers)
+YouTube: Segment from 1997 Toshiba DVD demo disc: Technical information about the then-new DVD format, from "DVD Gallery," an in-store demonstration disc from Toshiba

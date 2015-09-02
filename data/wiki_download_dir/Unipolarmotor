@@ -1,0 +1,9 @@
+Unipolar motor
+A unipolar motor (also called homopolar) is a direct current (DC) motor typically with slip-rings on each end of a cylindrical rotor and field magnets or a DC field winding generating a magnetic field on the stator. The rotor has typically not a winding but just straight connections in axial direction between the slip-rings (e.g. a copper tube encasing the rotor or rods embedded in the rotor).
+The field is uniformly perpendicular to the cylindrical rotor surface and does not change polarity over the 360-degree perimeter of the cylindrical part of the rotor. That means if the field is considered entering the rotor between the slip-rings it must leave the rotor though the rotor's end surfaces. It is not important that the magnetic field is generated from the stator; a similar field may be generated from the rotor with the same effect (the magnetic fields would not rotate with the rotor).
+Unipolar motors and generators are rarely built any more because of advancing technology.
+The voltage between the rotor connections (slip-rings) is normally low and the current then must be high to generate significant power. Current in the kiloampere range was applied for larger motors. The device also works in reverse as a generator if driven. It is useful for generating very large currents at low voltage. It does not appear to comply with a simple interpretation of Maxwell's equations in the sense that the magnetic field does not at any point pass though any closed winding to generate an electromagnetic effect.
+A unipolar motor is also a type of small DC electric motor commonly found in small, portable cassette players. In this case, the 'unipolar' property refers to its winding that does not need to change current direction and therefore can be driven by a simple transistor (e.g. IGBT). It is also used in stepper motors.
+
+
+== References ==

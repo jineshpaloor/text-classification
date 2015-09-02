@@ -1,0 +1,41 @@
+Current clamp
+In electrical and electronic engineering, a current clamp or current probe is an electrical device having two jaws which open to allow clamping around an electrical conductor. This allows properties of the electric current in the conductor to be measured, without having to make physical contact with it, or to disconnect it for insertion through the probe. Current clamps are usually used to read the magnitude of a sinusoidal current (as invariably used in alternating current (AC) power distribution systems), but in conjunction with more advanced instrumentation the phase and waveform are available. Very high alternating currents (1000 A and more) are easily read with an appropriate meter; direct currents, and very low AC currents (milliamperes) are more difficult to measure.
+
+
+== Types of current clamp ==
+
+
+=== Current transformer ===
+A common form of current clamp comprises a split ring made of ferrite or soft iron. A wire coil is wound round one or both halves, forming one winding of a current transformer. The conductor around which it is clamped forms the other winding. Like any transformer this type works only with AC or pulse waveforms, with some examples extending into the megahertz range.
+When measuring current, the subject conductor forms the primary winding and the coil forms the secondary.
+This type may also be used in reverse, to inject current into the conductor, for example in EMC susceptibility testing to induce an interference current. Usually, the injection probe is specifically designed for this purpose. In this mode, the coil forms the primary and the test conductor the secondary.
+
+
+=== Iron vane ===
+In the iron vane type, the magnetic flux in the core directly affects a moving iron vane, allowing both AC and DC to be measured, and gives a true RMS value for non-sinusoidal AC waveforms. Due to its physical size it is generally limited to power transmission frequencies up to around 100 Hz.
+The vane is usually fixed directly to the display mechanism of an analogue (moving pointer) clamp meter.
+
+
+=== Hall effect ===
+The Hall effect type is more sensitive and is able to measure both DC and AC, in some examples up to the kilohertz (thousands of hertz) range. This type was often used with oscilloscopes, and with high-end computerized digital multimeters, however, they are becoming common place for more general use.
+
+
+== Clamp meter ==
+
+An electrical meter with integral AC current clamp is known as a clamp meter, clamp-on ammeter or tong tester.
+A clamp meter measures the vector sum of the currents flowing in all the conductors passing through the probe, which depends on the phase relationship of the currents. Only one conductor is normally passed through the probe. In particular if the clamp is closed around a two-conductor cable carrying power to equipment, the same current flows down one conductor and up the other; the meter correctly reads a net current of zero. As electrical cables for equipment have both insulated conductors (and possibly an earth wire) bonded together, clamp meters are often used with what is essentially a short extension cord with the two conductors separated, so that the clamp can be placed around only one conductor of this extension.
+A relatively recent development was a multi-conductor clamp meter with several sensor coils around the jaws of the clamp. This could be clamped around standard 2- or 3-conductor single-phase cables to provide a readout of the current flowing through the load, with no need to separate the conductors. It was claimed to be accurate with cables of certain specified types for which it could be set, and usable but less accurate with others.
+The reading produced by a conductor carrying a very low current can be increased by winding the conductor around the clamp several times; the meter reading divided by the number of turns is the current, with some loss of accuracy due to inductive effects.
+Clamp meters are used by electricians, sometimes with the clamp incorporated into a general purpose multimeter.
+It is simple to measure very high currents (hundreds of amperes) with the appropriate current transformer. Accurate measurement of low currents (a few milliamperes) with a current transformer clamp is more difficult.
+
+Less-expensive clamp meters use a rectifier circuit which actually reads mean current, but is calibrated to display the RMS current corresponding to the measured mean, giving a correct RMS reading only if the current is a sine wave. For other waveforms readings will be incorrect; when these simpler meters are used with non-sinusoidal loads such as the ballasts used with fluorescent lamps or high-intensity discharge lamps or most modern computer and electronic equipment, readings can be quite inaccurate. Meters which respond to true RMS rather than mean current are described as "true RMS".
+Typical hand-held Hall effect units can read currents as low as 200 mA, and units that can read down to 1 mA are available.
+The Columbia tong test ammeter (illustrated) is an example of the iron vane type, used for measuring large AC currents up to 1000 amperes. The iron jaws of the meter direct the magnetic field surrounding the conductor to an iron vane that is attached to the needle of the meter. The iron vane moves in proportion to the strength of the magnetic field, and thus produces a meter indication proportional to the current. This type of ammeter can measure both AC and DC currents and provides a true RMS current measurement of non-sinusoidal or distorted AC waveforms. Interchangeable meter movements can be installed in the clamping assembly to provide various full-scale current values up to 1000 amperes. The iron vane is in a small cylinder that is inserted in a space at the hinged end of the clamp-on jaws. Several jaw sizes are available for clamping around large conductors and bus bars up to 4 1⁄2 inches (110 mm) wide. As the illustration shows, the scale is very non-linear and unsuitable for measuring low currents, with currents of less than half the full-scale deflection crammed into a short section of the dial.
+
+
+=== Power meter, energy analyzer ===
+Clamp probes are used with some meters to measure electrical power and energy. The clamp measures the current and other circuitry the voltage; the true power is the product of the instantaneous voltage and current integrated over a cycle. Comprehensive meters designed to measure many parameters of electrical energy (power factor, distortion, instantaneous power as a function of time, phase relationships, etc.), energy analyzers, use this principle. A single clamp is used for single-phase measurements; with an appropriate instrument with three clamps, measurements may be made on three-phase power systems.
+
+
+== References ==

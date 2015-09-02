@@ -9,7 +9,7 @@ logging.basicConfig(filename='wiki_normal.log', level=logging.INFO)
 DICT_PATH = "data/wiki.dict"
 MODEL_PATH = "data/wiki.lda"
 OUTPUT_PATH = "data/output_normal.txt"
-WIKI_PATH = "/home/ubuntu/Wiki/wiki_download_dir"
+WIKI_PATH = "data/wiki_download_dir"
 
 f = open('data/stop-words/stop-words-english4.txt', 'r')
 STOPLIST = [w.strip() for w in f.readlines() if w]

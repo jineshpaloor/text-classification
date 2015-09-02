@@ -1,0 +1,127 @@
+Power-line communication
+Power-line communication (PLC) carries data on a conductor that is also used simultaneously for AC electric power transmission or electric power distribution to consumers. It is also known as power-line carrier, power-line digital subscriber line (PDSL), mains communication, power-line telecommunications, or power-line networking (PLN).
+A wide range of power-line communication technologies are needed for different applications, ranging from home automation to Internet access which is often called broadband over power lines (BPL). Most PLC technologies limit themselves to one type of wires (such as premises wiring within a single building), but some can cross between two levels (for example, both the distribution network and premises wiring). Typically transformers prevent propagating the signal, which requires multiple technologies to form very large networks. Various data rates and frequencies are used in different situations.
+A number of difficult technical problems are common between wireless and power-line communication, notably those of spread spectrum radio signals operating in a crowded environment. Radio interference, for example, has long been a concern of amateur radio groups.
+
+
+== Basics ==
+Power-line communications systems operate by adding a modulated carrier signal to the wiring system. Different types of power-line communications use different frequency bands. Since the power distribution system was originally intended for transmission of AC power at typical frequencies of 50 or 60 Hz, power wire circuits have only a limited ability to carry higher frequencies. The propagation problem is a limiting factor for each type of power-line communications.
+The main issue determining the frequencies of power-line communication is laws to limit interference with radio services. Many nations regulate unshielded wired emissions as they have the potential to cause radio transmissions. These jurisdictions usually require unlicensed uses to be below 500 kHz or in unlicensed radio bands. Some jurisdictions (such as the EU, where longwave broadcast is historically common) regulate wire-line transmissions further. The U.S. is a notable exception, permitting limited-power wide-band signals to be injected into unshielded wiring, as long as the wiring is not designed to propagate radio waves in free space.
+Data rates and distance limits vary widely over many power-line communication standards. Low-frequency (about 100–200 kHz) carriers impressed on high-voltage transmission lines may carry one or two analog voice circuits, or telemetry and control circuits with an equivalent data rate of a few hundred bits per second; however, these circuits may be many miles long. Higher data rates generally imply shorter ranges; a local area network operating at millions of bits per second may only cover one floor of an office building, but eliminates the need for installation of dedicated network cabling.
+
+
+== Long haul, low frequency ==
+Utility companies use special coupling capacitors to connect radio transmitters to the power-frequency AC conductors. Frequencies used are in the range of 24 to 500 kHz, with transmitter power levels up to hundreds of watts. These signals may be impressed on one conductor, on two conductors or on all three conductors of a high-voltage AC transmission line. Several PLC channels may be coupled onto one HV line. Filtering devices are applied at substations to prevent the carrier frequency current from being bypassed through the station apparatus and to ensure that distant faults do not affect the isolated segments of the PLC system. These circuits are used for control of switchgear, and for protection of transmission lines. For example, a protective relay can use a PLC channel to trip a line if a fault is detected between its two terminals, but to leave the line in operation if the fault is elsewhere on the system.
+On some powerlines in the former Soviet Union, PLC-signals are not fed into the high voltage line, but in the ground conductors, which are mounted on insulators at the pylons.
+While utility companies use microwave and now, increasingly, fiber optic cables for their primary system communication needs, the power-line carrier apparatus may still be useful as a backup channel or for very simple low-cost installations that do not warrant installing fiber optic lines.
+Power-line carrier communication (PLCC) is mainly used for telecommunication, tele-protection and tele-monitoring between electrical substations through power lines at high voltages, such as 110 kV, 220 kV, 400 kV. The major benefit is the union of two applications in a single system, which is particularly useful for monitoring electric equipment and advanced energy management techniques (such as OpenADR and OpenHAN).
+The modulation generally used in these system is amplitude modulation. The carrier frequency range is used for audio signals, protection and a pilot frequency. The pilot frequency is a signal in the audio range that is transmitted continuously for failure detection.
+The voice signal is compressed and filtered into the 300 Hz to 4000 Hz range, and this audio frequency is mixed with the carrier frequency. The carrier frequency is again filtered, amplified and transmitted. The transmission power of these HF carrier frequencies will be in the range of 0 to +32 dbW. This range is set according to the distance between substations. PLCC can be used for interconnecting private branch exchanges (PBXs).
+To sectionalize the transmission network and protect against failures, a "wave trap" is connected in series with the power (transmission) line. They consist of one or more sections of resonant circuits, which block the high frequency carrier waves (24 kHz to 500 kHz) and let power frequency current (50 Hz – 60 Hz) pass through. Wave traps are used in switchyard of most power stations to prevent carrier from entering the station equipment. Each wave trap has a lightning arrester to protect it from surge voltages.
+A coupling capacitor is used to connect the transmitters and receivers to the high voltage line. This provides low impedance path for carrier energy to HV line but blocks the power frequency circuit by being a high impedance path. The coupling capacitor may be part of a capacitor voltage transformer used for voltage measurement.
+Power-line carriers may change its transmission system from analog to digital to enable Internet Protocol devices. Digital power-line carrier (DPLC) was developed for digital transmission via power lines. DPLC has the required quality of bit error rate characteristics and transmission ability such as transmitting information from monitored electric-supply stations and images.
+Power-line carrier systems have long been a favorite at many utilities because it allows them to reliably move data over an infrastructure that they control. Many technologies have multiple applications. For example, a communication system bought initially for automatic meter reading can sometimes also be used for load control or for demand response applications.
+A PLC carrier repeating station is a facility, at which a power-line communication (PLC) signal on a powerline is refreshed. Therefore the signal is filtered out from the powerline, demodulated and modulated on a new carrier frequency, and then reinjected onto the powerline again. As PLC signals can carry long distances (several 100 kilometres), such facilities only exist on very long power lines using PLC equipment.
+PLC is one of the technologies used for automatic meter reading. Both one-way and two-way systems have been successfully used for decades. Interest in this application has grown substantially in recent history—not so much because there is an interest in automating a manual process, but because there is an interest in obtaining fresh data from all metered points in order to better control and operate the system. PLC is one of the technologies being used in Advanced Metering Infrastructure (AMI) systems.
+In a one-way (inbound only) system, readings "bubble up" from end devices (such as meters), through the communication infrastructure, to a "master station" which publishes the readings. A one-way system might be lower-cost than a two-way system, but also is difficult to reconfigure should the operating environment change.
+In a two-way system (supporting both outbound and inbound), commands can be broadcast out from the master station to end devices (meters) – allowing for reconfiguration of the network, or to obtain readings, or to convey messages, etc. The device at the end of the network may then respond (inbound) with a message that carries the desired value. Outbound messages injected at a utility substation will propagate to all points downstream. This type of broadcast allows the communication system to simultaneously reach many thousands of devices—all of which are known to have power, and have been previously identified as candidates for load shed. PLC also may be a component of a Smart Grid.
+
+
+== Medium frequency (100 kHz) ==
+
+
+=== Home control (narrowband) ===
+Power-line communications technology can use the electrical power wiring within a home for home automation: for example, remote control of lighting and appliances without installation of additional control wiring.
+Typically home-control power-line communication devices operate by modulating in a carrier wave of between 20 and 200 kHz into the household wiring at the transmitter. The carrier is modulated by digital signals. Each receiver in the system has an address and can be individually commanded by the signals transmitted over the household wiring and decoded at the receiver. These devices may be either plugged into regular power outlets, or permanently wired in place. Since the carrier signal may propagate to nearby homes (or apartments) on the same distribution system, these control schemes have a "house address" that designates the owner. A popular technology known as X10 has been used since the 1970s.
+The "universal powerline bus", introduced in 1999, uses pulse-position modulation (PPM). The physical layer method is a very different scheme from the X10. LonTalk, part of the LonWorks home automation product line, was accepted as part of some automation standards.
+
+
+=== Low-speed narrow-band ===
+Narrowband power-line communications began soon after electrical power supply became widespread. Around the year 1922 the first carrier frequency systems began to operate over high-tension lines with frequencies of 15 to 500 kHz for telemetry purposes, and this continues. Consumer products such as baby alarms have been available at least since 1940.
+In the 1930s, ripple carrier signalling was introduced on the medium (10–20 kV) and low voltage (240/415 V) distribution systems.
+For many years the search continued for a cheap bi-directional technology suitable for applications such as remote meter reading. EDF (French power) prototyped and standardized a system called "spread frequency shift keying" or S-FSK. (See IEC 61334) It is now a simple low cost system with a long history, however it has a very slow transmission rate, between 200 and 800 bits per second. In the 1970s, the Tokyo Electric Power Co ran experiments which reported successful bi-directional operation with several hundred units.
+Since the mid-1980s, there has been a surge of interest in using the potential of digital communications techniques and digital signal processing. The drive is to produce a reliable system which is cheap enough to be widely installed and able to compete cost effectively with wireless solutions. But the narrowband powerline communications channel presents many technical challenges, a mathematical channel model and a survey of work is available.
+Applications of mains communications vary enormously, as would be expected of such a widely available medium. One natural application of narrow band power-line communication is the control and telemetry of electrical equipment such as meters, switches, heaters and domestic appliances. A number of active developments are considering such applications from a systems point of view, such as demand side management. In this, domestic appliances would intelligently co-ordinate their use of resources, for example limiting peak loads.
+Control and telemetry applications include both 'utility side' applications, which involves equipment belonging to the utility company up to the domestic meter, and 'consumer-side' applications which involves equipment in the consumer's premises. Possible utility-side applications include automatic meter reading (AMR), dynamic tariff control, load management, load profile recording, credit control, pre-payment, remote connection, fraud detection and network management, and could be extended to include gas and water.
+A project of EDF, France includes demand management, street lighting control, remote metering and billing, customer specific tariff optimisation, contract management, expense estimation and gas applications safety.
+There are also many specialised niche applications which use the mains supply within the home as a convenient data link for telemetry. For example, in the UK and Europe a TV audience monitoring system uses powerline communications as a convenient data path between devices that monitor TV viewing activity in different rooms in a home and a data concentrator which is connected to a telephone modem.
+
+
+=== Medium-speed narrow-band ===
+The Distribution Line Carrier (DLC) System technology used a frequency range of 9 to 500 kHz with data rate up to 576 kbit/s.
+A project called Real-time Energy Management via Powerlines and Internet (REMPLI) was funded from 2003 to 2006 by the European Commission.
+In 2009, a group of vendors led by principal sponsor Iberdrola formed the PoweRline Intelligent Metering Evolution (PRIME) alliance. As delivered, the physical layer is OFDM, sampled at 250 kHz, with 512 differential phase shift keying channels from 42–89 kHz. Its fastest transmission rate is 128.6 kilobits/second, while its most robust is 5.4 kbit/s. It uses a convolutional code for error detection and correction. PRIME supports IPv6.
+In 2011, several companies including distribution network operators (ERDF, Enexis), meter vendors (Sagemcom, Landis&Gyr) and chip vendors (Maxim Integrated, Texas Instruments, STMicroelectronics) founded the G3-PLC Alliance to promote G3-PLC technology. G3-PLC is the low layer protocol to enable large scale infrastructure on the electrical grid. G3-PLC may operate on CENELEC A band (35 kHz to 91 kHz) or CENELEC B band (98 kHz to 122 kHz) in Europe, on ARIB band (155 kHz to 403 kHz) in Japan and on FCC (155 kHz to 487 kHz) for the US and the rest of the world. The technology used is OFDM sampled at 400 kHz with adaptative modulation and tone mapping. Error detection and correction is made by both a convolutional code and Reed-Solomon error correction. The required media access control is taken from IEEE 802.15.4, a radio standard. In the protocol, 6loWPAN has been chosen to adapt IPv6 an internet network layer to constrained environments which is Power line communications. 6loWPAN integrates routing, based on the mesh network LOADng, header compression, fragmentation and security. G3-PLC has been designed for extremely robust communication based on reliable and highly secured connections between devices, including crossing Medium Voltage to Low Voltage transformers. In December 2011, G3 PLC technology was recognised as an international standard at ITU in Geneva where it is referenced as G.9903. Narrowband orthogonal frequency division multiplexing power line communicationtransceivers for G3-PLC networks.
+With the use of IPv6, both PRIME and G3 enable communication between meters, grid actuators as well as smart objects.
+
+
+=== Transmitting radio programs ===
+
+Sometimes PLC was used for transmitting radio programs over powerlines. When operated in the AM radio band, it is known as a carrier current system.
+
+
+== High-frequency (≥ 1 MHz) ==
+High frequency communication may (re)use large portions of the radio spectrum for communication, or may use select (narrow) band(s), depending on the technology.
+
+
+== Home networking (LAN) ==
+Power line communications can also be used in a home to interconnect home computers and peripherals, and home entertainment devices that have an Ethernet port. Adapters allowing for such connectivity are often marketed as "Ethernet over power" (EOP). Powerline adapter sets plug into power outlets and establish an Ethernet connection using the existing electrical wiring in the home. (Power strips with filtering may absorb the power line signal.) This allows devices to share data without the inconvenience of running dedicated network cables.
+The most widely deployed powerline networking standard is from the HomePlug Powerline Alliance. HomePlug AV is the most current of the HomePlug specifications and was adopted by the IEEE 1901 group as a baseline technology for their standard, published 30 December 2010. HomePlug estimates that over 45 million HomePlug devices have been deployed worldwide. Other companies and organizations back different specifications for power line home networking and these include the Universal Powerline Association, SiConnect, the HD-PLC Alliance, Xsilon and the ITU-T’s G.hn specification.
+
+
+== Broadband over power line ==
+
+Broadband over power line (BPL) is a system to transmit two-way data over existing AC MV (medium voltage) electrical distribution wiring, between transformers, and AC LV (low voltage) wiring between transformer and customer outlets (typically 110 to 240V). This avoids the expense of a dedicated network of wires for data communication, and the expense of maintaining a dedicated network of antennas, radios and routers in wireless network.
+BPL uses some of the same radio frequencies used for over-the-air radio systems. Modern BPL employs frequency-hopping spread spectrum to avoid using those frequencies actually in use, though early pre-2010 BPL standards did not. The criticisms of BPL from this perspective are of pre-OPERA, pre-2005 standards.
+The BPL OPERA standard is used primarily in Europe by ISPs. In North America it is used in some places (Washington Island, WI, for instance) but is more generally used by electric distribution utilities for smart meters and load management.
+
+
+== Automotive uses ==
+Power-line technology enables in-vehicle network communication of data, voice, music and video signals by digital means over direct current (DC) battery power-line. Advanced digital communication techniques, tailored to overcome hostile and noisy environments, are implemented in a small-size silicon device. One power line can be used for multiple independent networks. The benefits would be lower cost and weight (compared to separate power and control wiring), flexible modification, and ease of installation. Potential problems in vehicle applications would include the higher cost of end devices, which must be equipped with active controls and communication, and the possibility of interference with other radio frequency devices in the vehicle or other places.
+Prototypes are successfully operational in vehicles, using automotive compatible protocols such as CAN-bus, LIN-bus over power line (DC-LIN) and [DC-bus].
+LonWorks power line based control has been used for an HVAC system in a production model bus.
+The SAE J1772 committee developing standard connectors for plug-in electric vehicles proposes to use power line communication between the vehicle, off-board charging station, and the smart grid, without requiring an additional pin; SAE and the IEEE Standards Association are sharing their draft standards related to the smart grid and vehicle electrification.
+
+
+== Standards ==
+Two distinctly different sets of standards apply to powerline networking as of early 2010. Within homes, the HomePlug AV and IEEE 1901 standards specify how, globally, existing AC wires should be employed for data purposes. The IEEE 1901 includes HomePlug AV as a baseline technology, so any IEEE 1901 products are fully interoperable with HomePlug AV, HomePlug GreenPHY or the HomePlug AV2 specification.
+
+
+=== Standards organizations ===
+Several competing organizations have developed specifications, including the HomePlug Powerline Alliance, Universal Powerline Association (defunct) and HD-PLC Alliance. On December 2008, the ITU-T adopted Recommendation G.hn/G.9960 as a standard for high-speed powerline, coax and phoneline communications. The National Energy Marketers Association was also involved in advocating for standards.
+In July 2009, the IEEE P1901 working group approved its draft standard for broadband over power lines. The IEEE 1901 final standard was published on 1 February 2011. Power line communication via IEEE P1901 and IEEE 1905 compliant devices is indicated by the nVoy certification all major vendors of such devices committed to in 2013. NIST has included IEEE 1901, HomePlug AV and ITU-T G.hn as "Additional Standards Identified by NIST Subject to Further Review" for the Smart grid in the United States.
+
+
+== Possible problems with PLC ==
+A PLC connection has many advantages to a wireless connection, however the quality of the connection will still depend on the quality of the domestic electrical system. Improper wiring and circuit breakers in between the connected cables can negatively affect the performance, and can cause connection interruptions.
+
+
+== See also ==
+DC-BUS
+HomePlug Powerline Alliance
+HomePNA
+IEEE 1675-2008
+KNX (standard)
+List of broadband over power line deployments
+LonWorks
+Multimedia over Coax Alliance
+National Emergency Alarm Repeater
+Residential gateway
+Universal Powerline Association
+IEC 61334
+List of PLC manufacturers
+
+
+== References ==
+
+
+== Further reading ==
+Powerline Communication: Potential and Critical System, Existing Technologies and Prospects for Future Development http://www.tesionline.it/default/tesi.asp?idt=34078
+Blackburn, J. L., ed. (1976). Applied Protective Relaying. Newark, N.J.: Westinghouse Electric Corp., Relay-Instrument Division. LCCN 76008060. OCLC 2423329. 
+Carcelle, Xavier (2006). Réseaux CPL par la pratique (in French). Paris: Eyrolles. ISBN 978-2-212-11930-5. OCLC 421746698. 
+Berger, Lars T.; Schwager, Andreas.; Pagani, Pascal.; Van Rensburg.; Piet Janse. (February 2014). "chapter 1". In Berger, Lars T.; Schwager, Andreas; Pagani, Pascal; Schneider, Daniel M. MIMO Power Line Communications: Narrow and Broadband Standards, EMC, and Advanced Processing. Devices, Circuits, and Systems. CRC Press. pp. 3–38. ISBN 9781466557529. 
+
+
+== External links ==
+"HD-PLC (High Definition Power Line Communication)". Official web site. HD-PLC Alliance. 
+"Orderstar - UK Powerline Specialist". Official web site. 500Mbps Powerline.

@@ -1,0 +1,79 @@
+Cable
+An electrical cable comprises two or more wires running side by side and bonded, twisted, or braided together to form a single assembly, the ends of which can be connected to two devices, enabling the transfer of electrical signals from one device to the other. Cables are used for a wide range of purposes, and each must be tailored for that purpose. Cables are used extensively in electronic devices for power and signal circuits. Long-distance communication takes place over undersea cables. Power cables are used for bulk transmission of alternating and direct current power, especially using high-voltage cable. Electrical cables are extensively used in building wiring for lighting, power and control circuits permanently installed in buildings. Since all the circuit conductors required can be installed in a cable at one time, installation labor is saved compared to certain other wiring methods.
+The term originally referred to a nautical line of specific length where multiple ropes, each laid clockwise, are then laid together anti-clockwise and shackled to produce a strong thick line, resistant to water absorption, that was used to anchor large ships. In mechanics, cables, otherwise known as wire ropes, are used for lifting, hauling, and towing or conveying force through tension. In electrical engineering cables are used to carry electric currents. An optical cable contains one or more optical fibers in a protective jacket that supports the fibers.
+
+
+== Etymology ==
+Ropes made of multiple strands of natural fibers such as, hemp, sisal, manila, and cotton have been used for millennia for hoisting and hauling. By the 19th century, deeper mines as well as construction of larger and larger sailing ships increased demand for stronger ropes. In 1830 the Royal Navy defined a cable as three hawser laid (clockwise) ropes, each approximately 120 fathoms in length, laid anti-clockwise, tightly twisted and shackled to a resulting length of approximately 100 fathoms. The tight twists, shortened the overall length of the ropes but both strengthened the ropes and reduced the ability of the rope to absorb water making them ideal for mooring.
+Improvements to steelmaking techniques made high-quality steel available at lower cost, and so wire ropes became common in mining and other industrial applications while continuing the practice of anti-cyclical twists to strengthen them even further. By the middle of the 19th century, manufacture of large submarine telegraph cables was done using machines similar to those used for manufacture of mechanical cables. As the move from rope to wire happened, the specific length associated with a cable fell into disuse.
+As electricity became more and more ubiquitous the practice of using more than bare copper led to groupings of wires and various sheathing and shackling methods that resembled the mechanical cabling so the term was adopted for electrical wiring. In the 19th century and early 20th century, electrical cable was often insulated using cloth, rubber or paper. Plastic materials are generally used today, except for high-reliability power cables. The term has also come to be associated with communications because of its use in electrical communications.
+
+
+== Electrical cables ==
+Electrical cable is an assembly consisting of one or more conductors with their own insulations and optional screens, individual covering(s), assembly protection and protective covering(s). Electrical cables may be made more flexible by stranding the wires. In this process, smaller individual wires are twisted or braided together to produce larger wires that are more flexible than solid wires of similar size. Bunching small wires before concentric stranding adds the most flexibility. Copper wires in a cable may be bare, or they may be plated with a thin layer of another metal, most often tin but sometimes gold, silver or some other material. Tin, gold, and silver are much less prone to oxidation than copper, which may lengthen wire life, and makes soldering easier. Tinning is also used to provide lubrication between strands. Tinning was used to help removal of rubber insulation. Tight lays during stranding makes the cable extensible (CBA – as in telephone handset cords).
+Cables can be securely fastened and organized, such as by using trunking, cable trays, cable ties or cable lacing. Continuous-flex or flexible cables used in moving applications within cable carriers can be secured using strain relief devices or cable ties.
+At high frequencies, current tends to run along the surface of the conductor. This is known as the skin effect.
+
+
+=== Cables and electromagnetic fields ===
+
+Any current-carrying conductor, including a cable, radiates an electromagnetic field. Likewise, any conductor or cable will pick up energy from any existing electromagnetic field around it. These effects are often undesirable, in the first case amounting to unwanted transmission of energy which may adversely affect nearby equipment or other parts of the same piece of equipment; and in the second case, unwanted pickup of noise which may mask the desired signal being carried by the cable, or, if the cable is carrying power supply or control voltages, pollute them to such an extent as to cause equipment malfunction.
+The first solution to these problems is to keep cable lengths in buildings short, since pick up and transmission are essentially proportional to the length of the cable. The second solution is to route cables away from trouble. Beyond this, there are particular cable designs that minimize electromagnetic pickup and transmission. Three of the principal design techniques are shielding, coaxial geometry, and twisted-pair geometry.
+Shielding makes use of the electrical principle of the Faraday cage. The cable is encased for its entire length in foil or wire mesh. All wires running inside this shielding layer will be to a large extent decoupled from external electrical fields, particularly if the shield is connected to a point of constant voltage, such as earth or ground. Simple shielding of this type is not greatly effective against low-frequency magnetic fields, however - such as magnetic "hum" from a nearby power transformer. A grounded shield on cables operating at 2.5 kV or more gathers leakage current and capacitive current, protecting people from electric shock and equalizing stress on the cable insulation.
+Coaxial design helps to further reduce low-frequency magnetic transmission and pickup. In this design the foil or mesh shield has a circular cross section and the inner conductor is exactly at its center. This causes the voltages induced by a magnetic field between the shield and the core conductor to consist of two nearly equal magnitudes which cancel each other.
+A twisted pair has two wires of a cable twisted around each other. This can be demonstrated by putting one end of a pair of wires in a hand drill and turning while maintaining moderate tension on the line. Where the interfering signal has a wavelength that is long compared to the pitch of the twisted pair, alternate lengths of wires develop opposing voltages, tending to cancel the effect of the interference.
+
+
+=== Fire protection ===
+In building construction, electrical cable jacket material is a potential source of fuel for fires. To limit the spread of fire along cable jacketing, one may use cable coating materials or one may use cables with jacketing that is inherently fire retardant. The plastic covering on some metal clad cables may be stripped off at installation to reduce the fuel source for fires. Inorganic coatings and boxes around cables safeguard the adjacent areas from the fire threat associated with unprotected cable jacketing. However, this fire protection also traps heat generated from conductor losses, so the protection must be thin.
+To provide fire protection to a cable, the insulation is treated with fire retardant materials, or non-combustible mineral insulation is used (MICC cables).
+
+
+=== Electrical cable types ===
+
+Coaxial cable: used for radio frequency signals, for example in cable television distribution systems.
+Communications cable
+Direct-buried cable
+Flexible cables
+Heliax cable
+Non-metallic sheathed cable (or nonmetallic building wire, NM, NM-B)
+Metallic sheathed cable (or armored cable, AC, or BX)
+Multicore cable (consist of more than one wire and is covered by cable jacket)
+Paired Cable: Composed of two individually insulated conductors that are usually used in DC or low-frequency AC applications
+Ribbon cable: Useful when many wires are required. This type of cable can easily flex, and It is designed to handle low-level voltages.
+Shielded cable: used for sensitive electronic circuits or to provide protection in high-voltage applications.
+Single cable (from time to time this name is used for wire)
+Submersible cable
+Twinax cable
+Twin-lead: This type of cable is a flat two-wire line. It is commonly called a 300 Ω line because the line has an impedance of 300 Ω. It is often used as a transmission line between an antenna and a receiver (e.g., TV and radio). These cables are stranded to lower skin effects.
+Twisted pair: Consists of two interwound insulated wires. It resembles a paired cable, except that the paired wires are twisted
+
+
+== Hybrid cables ==
+Hybrid optical and electrical cables can be used in wireless outdoor fiber-to-the-antenna (FTTA) applications. In these cables, the optical fibers carry information, and the electrical conductors are used to transmit power. These cables can be placed in several environments to serve antenna mounted on poles, towers or other structures.
+According to Telcordia GR-3173, Generic Requirements for Hybrid Optical and Electrical Cables for Use in Wireless Outdoor Fiber To The Antenna (FTTA) Applications, these hybrid cables are intended to carry optical fibers, twisted pair/quad elements, coaxial cables or current-carrying electrical conductors under a common outer jacket. The power conductors used in these hybrid cables are for directly powering an antenna or for powering tower-mounted electronics exclusively serving an antenna. They have a nominal voltage normally less than 60 VDC or 108/120 VAC. However, other voltages may be present depending on the application and the relevant National Electrical Code (NEC).
+Since the voltage levels and power levels used within these hybrid cables vary, for the purposes of applicable codes, the hybrid cable shall be considered a power cable. As noted in GR-3173, from an NESC perspective (i.e., IEEE C2, National Electrical Safety Code® [NESC®]), since these cables are not communications cables and are not power limited, they are considered power cables and need to comply with clearance, separation, and other safety rules.
+
+
+== Mechanical cables ==
+Arresting cable
+Bowden cable
+Heavy-lift cable
+Wire rope (wire cable)
+
+
+== See also ==
+For transmission see: Power cable, High-voltage cable and HVDC
+
+
+== References ==
+
+
+== Further reading ==
+R. M. Black, The History of Electric Wires and Cables, Peter Pergrinus, London 1983 ISBN 0-86341-001-4
+BICC Cables Ltd, "Electric Cables Handbook", WileyBlackwell; London 3rd Edition 1997, ISBN 0-632-04075-0
+GR-421-CORE, Generic Requirements for Metallic Telecommunications Cables, Telcordia.
+
+
+== External links ==
+Cable Jacket Types Explained w/ Reference Chart

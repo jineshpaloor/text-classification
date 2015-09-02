@@ -1,0 +1,35 @@
+Dynamic braking
+Dynamic braking is the use of the electric traction motors of a vehicle as generators when slowing. It is termed rheostatic if the generated electrical power is dissipated as heat in brake grid resistors, and regenerative if the power is returned to the supply line. Dynamic braking lowers the wear of friction-based braking components, and additionally regeneration reduces energy consumption.
+
+
+== Principle of operation ==
+During braking, the motor fields are connected across either the main traction generator (diesel-electric locomotive, hybrid electric vehicle) or the supply (electric locomotive, electric vehicle) and the motor armatures are connected across braking grids (rheostatic) or the supply (regenerative). The rolling wheels turn the motor armatures and when the motor fields are excited, the motors act as generators.
+During dynamic braking, the traction motors, which are now acting as generators, are connected to braking grids of large resistors which limit the current flow and dissipate the converted energy as heat in the resistors instead of the motor. Brake intensity can be controlled by varying the excitation of the traction motor field and the resistance of the resistor grid. A direct current system can slow the train to about 5 mph (8 km/h); an alternating current system can slow the train to nearly a full stop.
+Locomotives with a direct current "transmission" system always use series-wound traction motors as these motors produce their maximum tractive effort at "stall", or zero mph, thereby easily starting almost any train.
+Dynamic braking can also be achieved by shorting the motor terminals, thus bringing the motor to a fast abrupt stop. This method causes an enormous current surge through the motor itself, dissipating all the energy as heat, and can only be used in low-power intermittent applications due to cooling limitations. It is not suitable for traction applications.
+Permanent magnet motors do not require an excitation field, this field is provided by the permanent magnets.
+
+
+== Rheostatic braking ==
+The electrical energy produced by the motors is dissipated as heat by a bank of onboard resistors or "braking grid". Large cooling fans are necessary to protect the resistors from damage. Modern systems have thermal monitoring and when the temperature of the bank becomes excessive, it is switched off and the system employs only friction braking.
+
+
+== Regenerative braking ==
+
+Regenerative braking feeds the recovered energy back to the power supply instead of wasting it as heat.
+Electric trains normally incorporate both regenerative and rheostatic braking. If the power supply system is not "receptive" to the regenerated power, the system will default to rheostatic or mechanical friction braking.
+In an electric or hybrid-electric vehicle, the recovered energy partly recharges the battery allowing it to be reused later.
+
+
+== Hydrodynamic braking ==
+The hydrodynamic brake pertains to the hydraulic transmission of a diesel-hydraulic locomotive
+
+
+== See also ==
+Retarder (mechanical engineering)
+
+
+== References ==
+
+
+== External links ==

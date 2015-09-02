@@ -1,0 +1,74 @@
+Variable capacitor
+A variable capacitor is a capacitor whose capacitance may be intentionally and repeatedly changed mechanically or electronically. Variable capacitors are often used in L/C circuits to set the resonance frequency, e.g. to tune a radio (therefore it is sometimes called a tuning capacitor or tuning condenser), or as a variable reactance, e.g. for impedance matching in antenna tuners.
+
+
+== Mechanically controlled ==
+
+In mechanically controlled variable capacitors, the distance between the plates, or the amount of plate surface area which overlaps, can be changed.
+The most common form arranges a group of semicircular metal plates on a rotary axis (“rotor”) that are positioned in the gaps between a set of stationary plates (“stator”) so that the area of overlap can be changed by rotating the axis. Air or plastic foils can be used as dielectric material. By choosing the shape of the rotary plates, various functions of capacitance vs. angle can be created, e.g. to obtain a linear frequency scale. Various forms of reduction gear mechanisms are often used to achieve finer tuning control, i.e. to spread the variation of capacity over a larger angle, often several turns.
+
+Measurement of the capacitance of a rotary capacitor
+
+A vacuum variable capacitor uses a set of plates made from concentric cylinders that can be slid in or out of an opposing set of cylinders[1] (sleeve and plunger). These plates are then sealed inside of a non-conductive envelope such as glass or ceramic and placed under a high vacuum. The movable part (plunger) is mounted on a flexible metal membrane that seals and maintains the vacuum. A screw shaft is attached to the plunger, when the shaft is turned the plunger moves in or out of the sleeve and the value of the capacitor changes. The vacuum not only increases the working voltage and current handling capacity of the capacitor it also greatly reduces the chance of arcing across the plates. The most common usage for vacuum variables are in high powered transmitters such as those used for broadcasting, military and amateur radio as well as high powered RF tuning networks. Vacuum variables can also be more convenient since the elements are under a vacuum the working voltage can be higher than an air variable the same size, allowing the size of the vacuum capacitor to be reduced.
+Very cheap variable capacitors are constructed from layered aluminium and plastic foils that are variably pressed together using a screw. These so-called squeezers can’t provide a stable and reproducible capacitance, however. A variant of this structure that allows for linear movement of one set of plates to change the plate overlap area is also used and might be called a slider. This has practical advantages for makeshift or home construction and may be found in resonant loop antennas or crystal radios.
+Small variable capacitors operated by screwdriver (for instance, to precisely set a resonant frequency at the factory and then never be adjusted again) are called trimmer capacitors. In addition to air and plastic, trimmers can also be made using a ceramic dielectric.
+
+
+== Electronically controlled ==
+The thickness of the depletion layer of a reverse-biased semiconductor diode varies with the DC voltage applied across the diode. Any diode exhibits this effect (including p/n junctions in transistors), but devices specifically sold as variable capacitance diodes (also called varactors or varicaps) are designed with a large junction area and a doping profile specifically designed to maximize capacitance.
+Their use is limited to low signal amplitudes to avoid obvious distortions as the capacitance would be affected by the change of signal voltage, precluding their use in the input stages of high-quality RF communications receivers, where they would add unacceptable levels of intermodulation. At VHF/UHF frequencies, e.g. in FM Radio or TV tuners, dynamic range is limited by noise rather than large signal handling requirements, and varicaps are commonly used in the signal path.
+Varicaps are used for frequency modulation of oscillators, and to make high-frequency voltage controlled oscillators (VCOs), the core component in phase-locked loop (PLL) frequency synthesizers that are ubiquitous in modern communications equipment.
+
+
+=== Digitally tuned capacitor ===
+A digitally tuned capacitor is an IC variable capacitor based on several technologies. MEMS, BST and SOI/SOS devices are available from a number of suppliers and vary in capacitance range, quality factor and resolution for different RF tuning applications.
+MEMS devices have the highest quality factor and are highly linear, and therefore are suitable for antenna aperture tuning, dynamic impedance matching, power amplifier load matching and adjustable filters. RF tuning MEMS are still a relatively new technology and has not yet been accepted broadly.
+BST device are based on Barium Strontium Titanate and vary the capacitance by applying high voltage to the device. The tuning accuracy is limited only by the accuracy of the D-A converter circuitry that generates the high voltage. The limitations for BST are stability over temperature and linearity in demanding applications.
+SOI/SOS tuning devices are constructed as solid state FET switches built on insulated CMOS wafers and use MIM caps arranged in binary-weighted values to achieve different capacitance values. SOI/SOS switches have high lineary and are well suited to low power applications where high voltages are not present. High voltage endurance requires multiple FET devices in series which adds series resistance and lowers the quality factor.
+The capacitance values are designed for antenna impedance matching in multi-band LTE GSM/WCDMA cellular handsets and mobile TV receivers that operate over wide frequency ranges, such as the European DVB-H and Japanese ISDB-T mobile TV systems.
+
+
+== Transducers ==
+Variable capacitance is sometimes used to convert physical phenomena into electrical signals.
+In a capacitor microphone (commonly known as a condenser microphone), the diaphragm acts as one plate of a capacitor, and vibrations produce changes in the distance between the diaphragm and a fixed plate, changing the voltage maintained across the capacitor plates.
+Some types of industrial sensors use a capacitor element to convert physical quantities such as pressure, displacement or relative humidity to an electrical signal for measurement purposes.
+Capacitive sensors can also be used in the place of switches, e.g. in computer keyboards or “touch buttons” for elevators that have no user-movable parts.
+
+
+== Special forms of mechanically variable capacitors ==
+
+
+=== Multiple sections ===
+Very often, multiple stator/rotor sections are arranged behind one another on the same axis, allowing for several tuned circuits to be adjusted using the same control, e.g. a preselector, an input filter and the corresponding oscillator in a receiver circuit. The sections can have identical or different nominal capacitances, e.g. 2 × 330 pF for AM filter and oscillator, plus 3 × 45 pF for two filters and an oscillator in the FM section of the same receiver. Capacitors with multiple sections often include trimmer capacitors in parallel to the variable sections, used to adjust all tuned circuits to the same frequency.
+
+
+=== Butterfly ===
+A butterfly capacitor is a form of rotary variable capacitor with two independent sets of stator plates opposing each other, and a butterfly-shaped rotor arranged so that turning the rotor will vary the capacitances between the rotor and either stator equally.
+Butterfly capacitors are used in symmetrical tuned circuits, e.g. RF power amplifier stages in push-pull configuration or symmetrical antenna tuners where the rotor needs to be “cold”, i.e. connected to RF (but not necessarily DC) ground potential. Since the peak RF current normally flows from one stator to the other without going through wiper contacts, butterfly capacitors can handle large resonance RF currents, e.g. in magnetic loop antennas.
+In a butterfly capacitor, the stators and each half of the rotor can only cover a maximum angle of 90° since there must be a position without rotor/stator overlap corresponding to minimum capacity, therefore a turn of only 90° covers the entire capacitance range.
+
+
+=== Split stator ===
+The closely related split stator variable capacitor does not have the limitation of 90° angle since it uses two separate packs of rotor electrodes arranged axially behind one another. Unlike in a capacitor with several sections, the rotor plates in a split stator capacitor are mounted on opposite sides of the rotor axis. While the split stator capacitor benefits from larger electrodes compared to the butterfly capacitor, as well as a rotation angle of up to 180°, the separation of rotor plates incurs some losses since RF current has to pass the rotor axis instead of flowing straight through each rotor vane.
+
+
+=== Differential ===
+Differential variable capacitors also have two independent stators, but unlike in the butterfly capacitor where capacities on both sides increase equally as the rotor is turned, in a differential variable capacitor one section's capacity will increase while the other section's decreases, keeping the stator-to-stator capacitance constant. Differential variable capacitors can therefore be used in capacitive potentiometric circuits.
+
+
+== History ==
+Variable capacitor with air dielectric invented by Hungarian engineer, Dezső Korda. He received in Germany a patent for invention on 13 December 1893. 
+
+
+== Notes ==
+^ A makeshift version of this design, using two tin cans with slightly different diameter isolated by cardboard, has been used to make variable capacitors in emergencies, e.g. by concentration camp inmates.
+While mechanical variable capacitors have been used and are still used extensively in electronics, their use in radios is diminishing. Radios now often use digital frequency synthesizers for tuning rather than analog (tank) oscillators.
+
+
+== References ==
+
+
+== External links ==
+Build your own air variable capacitor
+High-res images of historical variable capacitors
+Introduction to capacitors

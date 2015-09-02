@@ -1,0 +1,49 @@
+System identification
+The field of system identification  uses statistical methods to build mathematical models of dynamical systems from measured data. System identification also includes the optimal design of experiments for efficiently generating informative data for fitting such models as well as model reduction.
+
+
+== Overview ==
+A dynamical mathematical model in this context is a mathematical description of the dynamic behavior of a system or process in either the time or frequency domain. Examples include:
+physical processes such as the movement of a falling body under the influence of gravity;
+economic processes such as stock markets that react to external influences.
+
+
+== White- and black-box ==
+One could build a so-called white-box model based on first principles, e.g. a model for a physical process from the Newton equations, but in many cases such models will be overly complex and possibly even impossible to obtain in reasonable time due to the complex nature of many systems and processes.
+A much more common approach is therefore to start from measurements of the behavior of the system and the external influences (inputs to the system) and try to determine a mathematical relation between them without going into the details of what is actually happening inside the system. This approach is called system identification. Two types of models are common in the field of system identification:
+grey box model: although the peculiarities of what is going on inside the system are not entirely known, a certain model based on both insight into the system and experimental data is constructed. This model does however still have a number of unknown free parameters which can be estimated using system identification. One example uses the Monod saturation model for microbial growth. The model contains a simple hyperbolic relationship between substrate concentration and growth rate, but this can be justified by molecules binding to a substrate without going into detail on the types of molecules or types of binding. Grey box modeling is also known as semi-physical modeling.
+black box model: No prior model is available. Most system identification algorithms are of this type.
+In the context of nonlinear system identification Jin et al. describe greybox modeling by assuming a model structure a priori and then estimating the model parameters. Parameter estimation is relatively easy if the model form is known but this is rarely the case. Alternatively the structure or model terms for both linear and highly complex nonlinear models can be identified using NARMAX methods. This approach is completely flexible and can be used with grey box models where the algorithms are primed with the known terms, or with completely black box models where the model terms are selected as part of the identification procedure. Another advantage of this approach is that the algorithms will just select linear terms if the system under study is linear, and nonlinear terms if the system is nonlinear, which allows a great deal of flexibility in the identification.
+
+
+== Input-output vs output-only ==
+System identification techniques can utilize both input and output data (e.g. eigensystem realization algorithm) or can include only the output data (e.g. frequency domain decomposition). Typically an input-output technique would be more accurate, but the input data is not always available.
+
+
+== Optimal design of experiments ==
+
+The quality of system identification depends on the quality of the inputs, which are under the control of the systems engineer. Therefore, systems engineers have long used the principles of the design of experiments. In recent decades, engineers have increasingly used the theory of optimal experimental design to specify inputs that yield maximally precise estimators.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Goodwin, Graham C. and Payne, Robert L. (1977). Dynamic System Identification: Experiment Design and Data Analysis. Academic Press. 
+Daniel Graupe: Identification of Systems, Van Nostrand Reinhold, New York, 1972 (2nd ed., Krieger Publ. Co., Malabar, FL, 1976)
+Eykhoff, Pieter: System Identification – Parameter and System Estimation, John Wiley & Sons, New York, 1974. ISBN 0-471-24980-7
+Lennart Ljung: System Identification — Theory For the User, 2nd ed, PTR Prentice Hall, Upper Saddle River, N.J., 1999.
+Jer-Nan Juang: Applied System Identification, Prentice Hall, Upper Saddle River, N.J., 1994.
+Kushner, Harold J. and Yin, G. George (2003). Stochastic Approximation and Recursive Algorithms and Applications (Second ed.). Springer. 
+Oliver Nelles: Nonlinear System Identification, Springer, 2001. ISBN 3-540-67369-5
+T. Söderström, P. Stoica, System Identification, Prentice Hall, Upper Saddle River, N.J., 1989. ISBN 0-13-881236-5
+R. Pintelon, J. Schoukens, System Identification: A Frequency Domain Approach, IEEE Press, New York, 2001. ISBN 978-0-7803-6000-6
+Walter, Éric and Pronzato, Luc (1997). Identification of Parametric Models from Experimental Data. Springer. 
+
+
+== External links ==
+L. Ljung: Perspectives on System Identification, July 2008
+System Identification and Model Reduction via Empirical Gramians

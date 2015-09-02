@@ -1,0 +1,108 @@
+Rotor (electric)
+The rotor is a moving component of an electromagnetic system in the electric motor, electric generator, or alternator. Its rotation is due to the interaction between the windings and magnetic fields which produces a torque around the rotor's axis.
+
+
+== Early Development ==
+An early example of electromagnetic rotation was the first rotary machine built by Istvan Jedlik with electromagnets and a commutator, in 1826-27. Other pioneers in the field of electricity include Hippolyte Pixii who built an alternating current generator in 1832, and William Ritchie's construction of an electromagnetic generator with four rotor coils, a commutator and brushes, also in 1832. Development quickly included more useful applications such as Moritz Hermann Jacobi's motor that could lift 10 to 12 pounds with a speed of one foot per second, about 15 watts of mechanical power in 1834. In 1835, Francis Watkins describes an electrical "toy" he created; he is generally regarded as one of the first to understand the interchangeability of motor and generator.
+
+
+== Type and Construction of Rotors ==
+Induction (asynchronous) motors, generators and alternators (synchronous) have an electromagnetic system consisting of a stator and rotor. There are two designs for the rotor in an induction motor: squirrel cage and wound. In generators and alternators, the rotor designs are salient pole or cylindrical.
+
+
+=== Squirrel Cage Rotor ===
+The squirrel cage rotor consists of laminated steel in the core with evenly space bars of copper or aluminum placed axially around the periphery, permanently shorted at the ends by the end rings. This simple and rugged construction makes it the favorite for most applications. The assembly has a twist: the bars are slanted, or skewed, to reduce magnetic hum and slot harmonics and to reduce the tendency of locking. Housed in the stator, the rotor and stator teeth can lock when they are in equal number and the magnets position themselves equally apart, opposing rotation in both directions. Bearings at each end mount the rotor in its housing, with one end of the shaft protruding to allow the attachment of the load. In some motors, there is an extension at the non-driving end for speed sensors or other electronic controls. The generated torque forces motion through the rotor to the load.
+
+
+=== Wound Rotor ===
+The rotor is a cylindrical core made of steel lamination with slots to hold the wires for its 3-phase windings which are evenly spaced at 120 electrical degrees apart and connected in a 'Y' configuration. The rotor winding terminals are brought out and attached to the three slips rings with brushes, on the shaft of the rotor. Brushes on the slip rings allow for external three-phase resistors to be connected in series to the rotor windings for providing speed control. The external resistances become a part of the rotor circuit to produce a large torque when starting the motor. As the motor speeds up, the resistances can be reduced to zero.
+
+
+=== Salient Pole Rotors ===
+The rotor is a large magnet with poles constructed of steel lamination projecting out of the rotor’s core. The poles are supplied by direct current or magnetized by permanent magnets. The armature with a three-phase winding is attached to three slip rings with brushes riding on them and mounted on the shaft. The field winding is wound on the rotor which produces the magnetic field and the armature winding is on the stator where voltage is induced. Direct current (DC), from an external exciter or from a diode bridge mounted on the rotor shaft, produces a magnetic field and energizes the rotating field windings and alternating current energizes the armature windings simultaneously.
+
+
+=== Cylindrical Rotors ===
+The cylindrical shaped rotor is made of a solid steel shaft with slots running along the outside length of the cylinder for holding the field windings of the rotor which are laminated copper bars inserted into the slots and is secured by wedges. The slots are insulated from the windings and are held at the end of the rotor by slip rings. An external direct current (DC) source is connected to the concentrically mounted slip rings with brushes running along the rings. The brushes make electrical contact with the rotating slip rings. DC current is also supplied through brushless excitation from a rectifier mounted on the machine shaft that converts alternating current to direct current.
+
+
+== Operating Principle ==
+In a three-phase induction machine, alternating current supplied to the stator windings energizes it to create a rotating magnetic flux. The flux generates a magnetic field in the air gap between the stator and the rotor and induces a voltage which produces current through the rotor bars. The rotor circuit is shorted and current flows in the rotor conductors. The action of the rotating flux and the current produces a force that generates a torque to start the motor.
+An alternator rotor is made up of a wire coil enveloped around an iron core. The magnetic component of the rotor is made from steel laminations to aid stamping conductor slots to specific shapes and sizes. As currents travel through the wire coil a magnetic field is created around the core, which is referred to as field current. The field current strength controls the power level of the magnetic field. Direct current (DC) drives the field current in one direction, and is delivered to the wire coil by a set of brushes and slip rings. Like any magnet, the magnetic field produced has a north and a south pole. The normal clockwise direction of the motor that the rotor is powering can be manipulated by using the magnets and magnetic fields installed in the design of the rotor, allowing the motor to run in reverse or counterclockwise. 
+
+
+== Characteristics of Rotors ==
+Squirrel Cage Rotor
+This rotor rotates at a speed less than the stator rotating magnetic field or synchronous speed.
+Rotor slip provides necessary induction of rotor currents for motor torque, which is in proportion to slip.
+When rotor speed increases, the slip decreases.
+Increasing the slip increases induced motor current, which in turn increases rotor current, resulting in a higher torque for increase load demands.
+Wound Rotor
+This rotor operates at constant speed and has lower starting current
+External resistance added to rotor circuit, increases starting torque
+Motor running efficiency improves as external resistance is reduced when motor speed up.
+Higher torque and speed control
+Salient Pole Rotor
+This rotor operates at a speed below 1500 rpm (revolutions per minute) and 40% of its rated torque without excitation
+It has a large diameter and short axial length
+Air gap is non uniform
+Rotor has low mechanical strength
+Cylindrical Rotor
+The rotor operates at speed between 1500-3000 rpm
+It has strong mechanical strength
+Air gap is uniform
+Its diameter is small and has a large axial length and requires a higher torque than salient pole rotor
+
+
+== Rotor Equations ==
+
+
+=== Rotor Bar Voltage ===
+The rotating magnetic field induces a voltage in the rotor bars as it passes over them. This equation applies to induced voltage in the rotor bars.
+
+where:
+= induced voltage
+= magnetic field
+=conductor length
+=synchronous speed
+= conductor speed
+
+
+=== Torque in Rotor ===
+A torque is produced by the force produced through the interactions of the magnetic field and current as expressed by the given: Ibid
+
+where:
+=force
+=torque
+=radius of rotor rings
+=rotor bar
+
+
+=== Induction Motor Slip ===
+A stator magnetic field rotates at synchronous speed,  Ibid
+
+where:
+= frequency
+= number of poles
+If = rotor speed, the slip, S for an induction motor is expressed as:
+
+mechanical speed of rotor, in terms of slip ans synchronous speed:
+
+Relative speed of slip:
+
+
+=== Frequency of Induced Voltages and Currents ===
+
+
+== See also ==
+Armature (electrical engineering)
+Copper die-cast rotors
+Balancing machine
+Commutator (electric)
+Electric motor
+Field coil
+Rotordynamics
+Stator
+
+
+== References ==

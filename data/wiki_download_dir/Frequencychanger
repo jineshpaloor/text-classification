@@ -1,0 +1,27 @@
+Frequency changer
+A frequency changer or frequency converter is an electronic or electromechanical device that converts alternating current (AC) of one frequency to alternating current of another frequency. The device may also change the voltage, but if it does, that is incidental to its principal purpose.
+Traditionally, these devices were electromechanical machines called a motor-generator set. Also devices with mercury arc rectifiers or vacuum tubes were in use. With the advent of solid state electronics, it has become possible to build completely electronic frequency changers. These devices usually consist of a rectifier stage (producing direct current) which is then inverted to produce AC of the desired frequency. The inverter may use thyristors, IGCTs or IGBTs. If voltage conversion is desired, a transformer will usually be included in either the ac input or output circuitry and this transformer may also provide galvanic isolation between the input and output ac circuits. A battery may also be added to the dc circuitry to improve the converter's ride-through of brief outages in the input power.
+Frequency changers vary in power-handling capability from a few watts to megawatts.
+
+
+== Applications ==
+Aside from the obvious application of converting bulk amounts of power from one distribution standard to another, frequency changers are also used to control the speed and the torque of AC motors. In this application, the most typical frequency converter topology is the three-phase two-level voltage source inverter. The phase voltages are controlled using power semiconductor switches and pulse width modulation (PWM). Semiconductor switching devices and anti-parallel connected freewheeling diodes form a bridge, which can connect each motor phase to the positive or negative dc-link potential. The PWM changes the connections of the phases between the positive and the negative dc-link potentials so that the fundamental wave voltage has the desired frequency and amplitude. The motor reacts primarily to the fundamental frequency and filters out the effects of harmonic frequencies.
+Another application is in the aerospace and airline industries. Often airplanes use 400 Hz power so a 50 Hz or 60 Hz to 400 Hz frequency converter is needed for use in the ground power unit used to power the airplane while it is on the ground. Airlines might also utilize the converters to provide in-air wall current to passengers for use with laptops and the like.
+In renewable energy systems, frequency converters are an essential component of doubly fed induction generators (DFIGs) as used in modern multi-megawatt class wind turbines.
+Frequency changers are typically used to control the speed of motors, primarily pumps and fans. In many applications significant energy savings are achieved. The most demanding application areas are found on industrial processing lines, where the control accuracy requirements can be very high. This is particularly true in the nuclear power and weapons industry, where these devices regulate the operation of refinement centrifuges. The recently disclosed STUXNET worm targets specific Siemens brand frequency converters, causing erratic operation of Iran's centrifuge plant.
+An HVDC-system can serve as frequency converter for large loads.
+
+
+== Alternate uses ==
+Frequency converter may also refer to a much-lower-powered circuit that converts radio frequency signals at one frequency to another frequency, especially in a Superheterodyne receiver. See Frequency mixer. The circuit usually consists of a local oscillator and frequency mixer (analog multiplier) that generates sum and difference frequencies from the input and local oscillator, of which one (the Intermediate frequency) will be required for further amplification, while the others are filtered out. The same result was achieved historically by the pentagrid converter or a Triode and Hexode in a single tube, but can be implemented in transistor radios economically by a single transistor functioning as a self-oscillating mixer.
+
+
+== See also ==
+Cascade converter
+Motor-generator
+Static inverter plant
+Variable-frequency drive
+HVDC
+
+
+== References ==

@@ -1,0 +1,443 @@
+AC power plugs and sockets
+AC power plugs and sockets are devices that allow electrically operated equipment to be connected to the primary alternating current (AC) power supply in a building. Electrical plugs and sockets differ in voltage and current rating, shape, size and type of connectors. The types used in each country are set by national standards, some of which are listed in the IEC technical report TR 60083, Plugs and socket-outlets for domestic and similar general use standardized in member countries of IEC.
+Plugs and sockets for portable appliances started becoming available in the 1880s, to replace connections to light sockets with easier to use wall-mounted outlets. A proliferation of types developed to address the issues of convenience and protection from electric shock. Today there are approximately 20 types in common use around the world, and many obsolete socket types are still found in older buildings. Co-ordination of technical standards has allowed some types of plugs to be used over wide regions to facilitate trade in electrical appliances, and for the convenience of travellers and consumers of imported electrical goods. Some multi-standard sockets allow use of several different types of plugs; improvised or unapproved adapters between incompatible sockets and plugs may not provide the full safety and performance of an approved socket and plug combination.
+
+
+== Concepts and terminology ==
+Generally the plug is the movable connector attached to an electrically operated device's mains cable, and the socket is fixed on equipment or a building structure and connected to an energised electrical circuit. The plug has protruding prongs, blades, or pins (referred to as male) that fit into matching slots or holes (called female) in the sockets. Sockets are designed to prevent exposure of bare energised contacts. Sockets may also have protruding exposed contacts, but these are used exclusively for earthing (grounding).
+To reduce the risk of users accidentally touching energized conductors and thereby experiencing electric shock, plug and socket systems often incorporate safety features in addition to the recessed slots or holes of the energized socket. These may include plugs with insulated sleeves, recessed sockets, sockets with blocking shutters, and sockets designed to accept only compatible plugs inserted in the correct orientation.
+The term plug is in general and technical use in all forms of English, common alternatives being power plug, electric plug, and (in the UK) plug top. The normal technical term (in both British and International English) for an AC power socket is socket-outlet, but in non-technical common use a number of other terms are used. In British English the general term is socket, but there are numerous common alternatives, including power point, plug socket, wall socket, and wall plug. In American English receptacle and outlet are common, sometimes with qualifiers such as wall outlet, electrical outlet and electrical receptacle, all of these sometimes to be found in the same document. A socket may be surrounded by a decorative or protective cover called a wall plate, face plate, outlet cover, socket cover, or wall cover. In some designs this is an integral piece with the socket itself, bought and installed as a single unit.
+Electrical sockets for single phase domestic, commercial and light industrial purposes generally provide either two or three electrical connections to the supply conductors. Two pin sockets normally provide neutral and line connections, both of which carry current and are defined as live parts. Neutral is usually very near to earth potential, usually being earthed either at the distribution board or at the substation. Line (also known as phase or hot, and commonly, but technically incorrectly, as live) carries the full supply voltage relative to the neutral (and to earth). Three pin sockets provide, in addition, a protective earth connection for exposed metal parts of an appliance. If internal insulation should fail, a short-circuit to the earthed exposed metal parts will hold them at a low potential, and should operate fuses or circuit breakers to isolate the faulty appliance from the supply. Depending on the supply system, some sockets may have two line connections, each at significant voltage to earth and without a neutral pin; for example, a split phase system may have 240 V between line connections each at 120 V with respect to earth ground; but a single-phase receptacle connected to a three-phase system may have, for example, 208 V between contacts and only 120 V between each contact and earth ground.
+
+
+== History ==
+
+
+=== Early history ===
+
+When electricity was first introduced into houses, it was primarily used for lighting. At that time, many electricity companies operated a split-tariff system where the cost of electricity for lighting was lower than that for other purposes. This led to portable appliances (such as vacuum cleaners, electric fans, and hair driers) being connected to light bulb sockets using lampholder plugs.
+As electricity became a common method of operating labour-saving appliances, a safe means of connection to the electric system other than using a light socket was needed. According to British Author John Mellanby the first plug and socket in England was introduced by T.T. Smith in 1883, and there were two-pin designs by 1885, one of which appears in the (British) General Electric Company Ltd. catalogue of 1889. Gustav Binswanger, a German immigrant who founded the (British) General Electric Company Ltd, obtained a patent (GB189516898) in 1895 for a plug and socket using a concentric (co-axial) contact system.
+Several early American electrical plug and socket arrangements were invented by Harvey Hubbell. On Feb 26th 1903 he filed two patent applications featuring 2-pin plugs and adaptors for using his plugs with existing designs of lamp sockets and wall receptacles. Hubbell's first plug design had two round pins which differed from those already in use in Europe in that the tips of the pins had annular detents similar to those of present-day jack plugs to positively retain a plug in its socket. In one patent , US774,250  a plug was used with a socket which screwed into a lampholder (like the early lampholder plugs). In the other patent US776,326  the same type of plug was used with various three-way adaptors that could be connected to lampholders or " a receptacle of any ordinary type". Figures 2 and 4 of this patent show an adaptor plugged into what appears to be a "Chapman" receptacle. Hubbell evidently soon found the round pin design unsatisfactory as a subsequent patent US 774,251 filed on May 27, 1904  shows lampholder adaptors similar to those of his first patent for use with plugs having coplanar flat pins. Hubbell's catalogue of 1906  includes various three-way adaptors similar to those shown in the US776,326 patent, but modified for use with the coplanar flat pin plugs. The Chapman receptacle must have been in general use at the time, as it was the only type of non-lampholder receptacle for which adaptors were supplied. The 1906 catalogue says of the Chapman adaptor: "The device avoids fastening the cords together as is necessary with the ordinary Chapman plug when used for more than one purpose." This suggests that Hubbell's original invention was prompted by his observation of the problem that arose with the use of this sort of receptacle and plug. Hubbell subsequently rotated the pins by 90 degrees to arrive at the configuration still widely used today (NEMA 1-15). Other manufacturers adopted the Hubbell pattern and by 1915 they were widespread. Gradually wall sockets were developed to supplement those that screwed into lampholders.
+The earthed consumer plug has several claimants to its invention. A 1911 book dealing with the electrical products of A. P. Lundberg & Sons of London describes the "Tripin" earthed plug available in 2.5 amp and 5 amp models. The pin configuration of the "Tripin" appears virtually identical to modern BS 546 plugs. In her 1914 book Electric cooking, heating, cleaning, etc. Maud Lucas Lancaster mentions an earthed iron-clad plug and socket by the English firm of Reyrolle and Co. The earliest American patent application for an earthed plug appears to be 11 January 1915 by George P. Knapp, on behalf of the Harvey Hubbell company. This patent covers the use of an earthing pin which extends further than the other two contacts to ensure that it is engaged first. The configuration of the socket was not operable with existing two-contact unearthed plugs. Other earthed sockets that are widely used in the US today are operable with unearthed plugs.
+The German Schuko-system plug is believed to date from 1925 and is attributed to Albert Büttner. The current American version of the earthed plug, with two parallel blades and a round earthing pin, was invented by Philip F. Labre, while he was attending the Milwaukee School of Engineering. It is said that his landlady had a cat which would knock over her fan when it came in the window. When she plugged the fan back in, she would get an electric shock. Labre deduced that if the fan was earthed, the electricity would go to earth through the plug rather than through the person holding it. He was issued a US patent for an earthed socket and plug in 1928. As the need for safer installations became apparent, earthed three-contact systems were made mandatory in most industrial countries.
+
+
+=== Proliferation ===
+During the first fifty years of commercial use of electric power, standards developed rapidly based on growing experience. Technical, safety, and economic factors influenced the development of all wiring devices and numerous varieties were invented. Gradually the desire for trade eliminated some standards that had been used in only a few countries.
+Former colonies may retain the standards of the colonising country. Sometimes offshore industrial plants or overseas military bases use the wiring practices of their controlling country instead of the surrounding region.
+Some countries have multiple voltages, frequencies and plug designs in use, which can create inconvenience and safety hazards. Hotels and airports may maintain sockets of foreign standards for the convenience of travellers.
+
+
+=== Consolidation ===
+De facto standards became formalised as official national and international standards. Old installations with obsolete sockets exist. The International Electrotechnical Commission in 1934 established technical committee TC 23 for electrical fittings. Only two meetings were held before the outbreak of the Second World War. In Europe, since 1951 the International Commission on the Rules for the Approval of Electrical Equipment (CEE) has published a standard (CEE 7 Specification for Plugs and Socket-Outlets for Domestic and Similar Purposes) describing the plugs and sockets used. In 1953 the CEE published Technical Report 83 (later 60083), which was a listing of plugs and sockets then in use. In North America the National Electrical Manufacturers' Association publishes standards for plugs and sockets.
+The international standard IEC 60884-1 defines the general requirements for plugs and sockets intended for household and similar purposes, IEC 60884-1 does not define specific plug and socket types which are the subject of national standards in each country. IEC 60884-1 para 9.2 does stipulate that "it shall not be possible, within a given system, to engage a plug with a socket-outlet having a higher voltage rating or a lower current rating". IEC 60884-1 para 6.1 defines the preferred voltage ratings for single phase plugs and sockets as 130 V or 250 V. The foreword of IEC 60884-1 states: "in order to promote international uniformity, IEC National Committees undertake to apply IEC Publications transparently to the maximum extent possible in their national and regional publications. Any divergence between any IEC Publication and the corresponding national or regional publication shall be clearly indicated in the latter."
+Consolidation of standards eases international trade and travel. For example, the CEE 7/7 plug has been adopted in several European countries and is compatible with both CEE 7/3 and CEE 7/5 sockets, while the unearthed and unpolarised Europlug is compatible with even more European and other socket types. IEC 60906-1 has been proposed as a common standard for all 230 V plugs and sockets worldwide but has been adopted only in South Africa so far, with a modified version used in Brazil. IEC 60906-2 recognizes the wide use of the NEMA 5-15 parallel blade plug and socket and recommends it for all 120 V applications.
+
+
+== Application issues ==
+Design features of plugs and sockets have gradually developed to reduce the risk of electric shock and fire. Safety measures may include pin and slot dimensions and layout that permit only proper insertion of plug into socket, and earth pins longer than power pins so the device becomes earthed before power is connected. Electrical insulation of the pin shanks was added to some designs, to reduce live contact exposure when a plug is partially inserted in a socket. Shutters that open only for the correct plug prevent foreign objects from contacting live slots. Some types include fuses and switches.
+
+
+=== Earthing (grounding) ===
+A third contact for a connection to earth is intended to protect against insulation failure of the connected device. When earthed distribution systems became common, earlier unearthed socket types were either replaced with new standards, or revised to include an earthing pin.
+Different types of plugs are used for different IEC appliance classes. The assigned class depends on whether or not the device is earthed, and the degree of insulation it incorporates. Class I, for example, refers to earthed equipment which requires a third contact in the plug and socket, while Class II refers to unearthed equipment protected by double insulation.
+
+
+=== Polarization ===
+Where the building wiring system defines a "neutral" conductor that is close to earth potential, it is an advantage for appliance designers to preserve that distinction. For example, appliances may ensure single-pole switches interrupt the line side of the circuit, or ensure that screw-base lampholder shells are connected to the neutral side of the supply, minimizing the chance of contact with live parts. This requires a plug that can only be connected in one way to the socket, so that the energised and neutral conductors are not interchanged. In most designs, such "polarized" plugs cannot be mated with non-polarized sockets. Wiring systems where both circuit conductors have a significant potential with respect to earth do not benefit from polarized plugs.
+Polarization is maintained by the shape, size, or position of plug pins and socket holes and socket recesses to ensure that a plug fits only one way into a socket. The single-pole switch of the appliance is then connected in series with the energized wire. For an appliance such as a toaster, wiring the exposed heating wires on the neutral side of the switch provides a small measure of extra protection against electrical shock. However, due to the uncertainty in practice of which conductor is the neutral, modern toasters sometimes use dual-pole switches which interrupt both conductors. Similarly, lamps with screw bases will connect the shell of the lamp socket to the neutral conductor.
+
+
+=== Interchange hazards ===
+Plugs and sockets are designed as a system to meet standards for safety and reliability. Some types of socket may accept more than one type of plug; where this is an official, approved intention of the socket design, all the approved combinations will be tested to the applicable safety standards. Occasionally, plug and socket combinations may allow power to flow but may not meet product standards for mating force, earthing, current capacity, life expectancy, or safety. Improvised or user-modified connectors will not meet the product safety standards. Adapters between different standards can overcome mechanical incompatibility. Physical compatibility does not ensure that the appliance and socket match in frequency or voltage.
+
+
+=== Appliance connections and extensions ===
+So that manufacturers need not build, distribute and maintain many similar appliances differing only in the type of plug fitted, a common strategy is to provide an IEC 60320 inlet on the appliance and a detachable power cord (mains flex lead) to allow connection of the appliance to the socket. The appliance need only to be tested to the power inlet. Some types of appliance require the consumer to also change a switch to adapt to different voltages or frequency. In addition to sockets permanently attached to building wiring, extension cords (extension leads) are used for temporary connections when a socket is not within convenient reach of an appliance's power lead. Portable equipment such as gardening power tools may have a male power inlet compatible with the connector at the end of an extension cord; this allows one long cord to be shared among several tools, and so saves storage space and cost for the consumer. Multiple small appliances may be connected to sockets on a power strip which can also include switching, surge voltage and over-current protection; a power strip equipped with different series of plug and sockets can act as an adapter for imported equipment.
+
+
+=== Special purpose plugs and sockets ===
+Special purpose sockets may be found in residential, industrial, commercial or institutional buildings. Examples of systems using special purpose sockets include:
+"Clean" (low electrical noise) earth for use with computer systems,
+Electric car charging, IEC 62196, SAE J1772, Type 2 connector,
+Emergency power supply,
+Uninterruptible power supply for critical or life-support equipment,
+Isolated power for medical instruments, tools used in wet conditions, or electric razors,
+"Balanced" or "technical" power used in audio and video production studios,
+Theatrical lighting,
+Sockets for electric clothes dryers, electric ovens, and air conditioners with higher current rating.
+Special-purpose sockets may be only labelled or coloured to identify a reserved use of a system, or may have keys or specially shaped pins to prevent use of unintended equipment.
+
+
+== Types in present use ==
+
+There are two basic standards for voltage and frequency in the world. One is the North American standard of 120 volts at a frequency of 60 Hz, and the other is the European standard of 220–240 volts at 50 Hz. The differences arose for historical reasons as discussed in the article Mains electricity.
+The plugs and sockets used in each country are set by national standards, some of which are listed in the IEC technical report TR 60083, Plugs and socket-outlets for domestic and similar general use standardized in member countries of IEC. The IEC also maintains a Web page giving arbitrary letter designations for generally compatible types of plugs. The IEC Web page does not identify the national standards corresponding to each plug letter. The letter codes are often used as a de facto naming standard when comparing different AC power plugs, especially when describing travel adapters. Physically identical sockets may be connected to voltages incompatible with an appliance. The letter codes do not identify all the variants of a plug and socket family for different current ratings or for special purposes, and not all plug types have been assigned letters. Where an IEC letter code exists it is shown in this article.
+An earlier, and now obsolescent, US government list of letter designations was last revised in 1998 , intended as a guide for Americans travelling or working in other countries.
+In Europe, the European Committee for Electrotechnical Standardization (CENELEC) publishes a list of approved plug and socket standards used in the member countries.
+
+
+=== Argentina IRAM 2073 & 2071 and compatible types (Type I) ===
+The plug and socket used in Class 1 applications in Argentina is defined by IRAM. The applicable standards are: IRAM 2073 "Two poles plugs with earthing contact for domestic and similar purposes, rated 10 A and 20 A, 250 V a.c." and IRAM 2071 "Two pole socket - outlets with earthing contact for 10 A and 20 A, 250 V a.c, for fixed installations. " It is similar in appearance to the Australasian and Chinese plugs. The pin length is same as the Chinese version. The most important difference from the Australian plug is that the Argentinian plug is wired with the line and neutral contacts reversed.
+In Brazil, a very similar plug and socket are still commonly used for high-power appliances like air conditioners, dishwashers, and household ovens. Since Brazil adopted the NBR 14136 standard which includes a 20 A version, the original motivation to use the so-called Argentinian plug has ceased to exist.
+
+
+=== Australasian standard AS/NZS 3112 (Type I) ===
+
+The plug used in Australia, New Zealand, Fiji, Tonga, Solomon Islands, and Papua New Guinea has an earthing pin and two flat current-carrying pins forming an upside down V-shape. The flat blades measure 6.5 by 1.6 mm (0.256 by 0.063 in) and are set at 30° to the vertical at a nominal pitch of 13.7 mm (0.539 in). Australian and New Zealand wall sockets almost always have switches on them for extra safety, as in the UK. An unearthed version of this plug with two angled power pins but no earthing pin is used with small double-insulated appliances, but the sockets always include an earth pin.
+There are several AS/NZS 3112 plug variants, including ones with larger or differently shaped pins used for devices drawing 15, 20, 25 and 32 A. These sockets accept plugs of equal or of a lower current capacity, but not of higher capacity. For example, a 10 A plug will fit all sockets but a 20 A plug will fit only 20, 25 and 32 A sockets.
+Australia's standard plug/socket system was originally codified as standard C112 (floated provisionally in 1937, and adopted as a formal standard in 1938), which was superseded by AS 3112 in 1990. The requirement for insulated pins was introduced in the 2004 revision. The current version is AS/NZS 3112:2011, Approval and test specification—Plugs and socket-outlets.
+
+
+=== Brazilian standard NBR 14136 (Type N) ===
+Brazil, which had been using mostly Class II Europlugs, and NEMA 1–15 and NEMA 5–15 standards, adopted a modified (non-compliant) version of IEC 60906-1 as the national standard in 1998 (revised in 2002) under specification NBR 14136. These are used for both 220 volt and 127 volt regions of the country. There are two types of sockets and plugs in NBR 14136: one for 10 A, with a 4 mm pin diameter, and another for 20 A, with a 4.8 mm pin diameter, the latter used for heavier appliances such as microwave ovens. NBR 14136 was not enforced or encouraged in that country until 2007, when its adoption was made optional for manufacturers, becoming compulsory on January 1, 2010. It helped domestic consumers that most of Class II plugs fitted in the new NBR 14136 sockets. However, very few private houses have an earthed supply, and even if a 3 pin socket is present it is not safe to assume that all three terminals are actually connected without testing. Most large domestic appliances are sold with the option to fit a flying earth tail to be locally earthed, although many consumers are unsure how to use this and so it is not fitted, effectively using the equipment as class 0.
+
+
+=== British and compatible standards ===
+
+
+==== BS 546 and related types (Type D & M) ====
+
+BS 546, "Two-pole and earthing-pin plugs, socket-outlets and socket-outlet adaptors for AC (50-60 Hz) circuits up to 250V" describes four sizes of plug rated at 2 A, 5 A (Type D), 15 A (Type M) and 30 A. The plugs have three round pins arranged in a triangle, with the larger top pin being the earthing pin. The plugs are polarized and unfused. Plugs are non-interchangeable between current ratings. Introduced in 1934, the BS 546 type has mostly been displaced in the UK by plugs and sockets to the BS 1363 standard. According to the IEC some 40 countries use Type D and 15 countries use Type M. Some, such as India and South Africa, use standards based on BS 546.
+
+
+==== BS 1363 (Type G) ====
+
+BS 1363 "13 A plugs, socket-outlets, adaptors and connection units" is the main plug and socket type used in the United Kingdom. According to the IEC it is also used in over 50 countries worldwide, many of which have national standards based on BS 1363, including: Ireland, Malaysia, Malta, Singapore, and Saudi Arabia.
+This plug, commonly called a 13 A plug or 13 amp plug, has three rectangular pins forming an isosceles triangle. As the BS 1363 socket is conventionally used with ring circuits the plug has a fuse to protect the appliance flexible cable from overload.
+
+
+==== BS 4573 (UK shaver) ====
+
+In the United Kingdom, Ireland and Malta, there is a two-pin plug and socket for use with electric shavers and toothbrushes. The plug has insulated sleeves on the pins. The BS 4573 socket is suitable for use in dry areas only, so is rarely used in a stand-alone form. It is more usual to find shaver supply units meeting BS EN 61558-2-5 which include an isolation transformer and sockets accepting various two-pin plug types including BS 4573, Europlug and Australian and sometimes a 115 V output for two-pin US plugs. (BS EN 61558-2-5 does not define any particular socket.)
+
+
+=== CEE 7 standards ===
+The International Commission on the Rules for the Approval of Electrical Equipment (IECEE) was a standards body which published Specification for plugs and socket-outlets for domestic and similar purposes as CEE Publication 7, known simply as CEE 7. It was originally published in 1951, the 2nd edition was published in May 1963 and was last updated by Modification 4 in March 1983. CEE 7 consists of general specifications, plus a number of standard sheets for specific connectors.
+A number of standards based on two round pins with centres spaced at 19 mm are in use in continental Europe and elsewhere, most of these are listed in IEC/TR 60083 Plugs and socket-outlets for domestic and similar general use standardized in member countries of IEC. There is no European Union regulation of domestic mains plugs and sockets, the Low Voltage Directive specifically excludes domestic plugs and sockets. EU countries each have their own regulations and national standards, for example some require child-resistant shutters, others do not. CE marking is neither applicable nor permitted on plugs and sockets.
+
+
+==== CEE 7/1 unearthed sockets and CEE 7/2 unearthed plugs ====
+CEE 7/1 unearthed sockets are designed to accept CEE 7/2 round plugs without notches in the body and having 4.8 by 19 mm (0.189 by 0.748 in) pins. Because they have no earth provisions they have been phased out in most countries (for example, Sweden prohibited them from new installations in 1994), but are still found in older installations. The regulations of countries using the CEE 7/3 and CEE 7/5 socket standards vary in whether CEE 7/1 sockets are still permitted in environments where the need for earthing is less critical.
+Some countries prohibit use of unearthed and earthed sockets in the same room, in the "insulated room" concept, so that people cannot touch an earthed object and one that has become live, at the same time. For example, in Germany, unearthed sockets are rare, found only in very old installations, whereas in the Netherlands and Sweden they are still common in "dry areas" such as in bedrooms or living rooms.
+The depth of the sockets varies between countries and age. Older sockets are so shallow that it is possible to touch the pins of a plug when the plug is inserted only deep enough to get electrical power on the pins, while newer sockets are deep enough to protect from this kind of accident. CEE 7/1 sockets accept CEE 7/4, CEE 7/6 and CEE 7/7 plugs, though without earth connection. The earthed CEE 7/3 and CEE 7/5 sockets were specifically designed to not allow insertion of a CEE 7/2 unearthed round plug from older appliances that were earthed via other means.
+
+
+==== CEE 7/3 and CEE 7/4 (German "Schuko"; Type F) ====
+
+The CEE 7/3 socket and CEE 7/4 plug are commonly called "Schuko". The socket (which is often, in error, also referred to as CEE 7/4) has a predominantly circular recess which is 17.5 mm (0.689 in) deep with two symmetrical round apertures and two earthing clips on the sides of the socket positioned to ensure that the earth is always engaged before live pin contact is made. The plug pins are 4.8 by 19 mm (0.189 by 0.748 in). The Schuko connection system is symmetrical and unpolarised in its design, allowing line and neutral to be reversed. The socket also accepts Europlugs and CEE 7/17 plugs. It is rated at 16 A. The current German standards are DIN 49441:1972-06 "Two-pole plugs with earthing-contact 10 A 250 V≅ and 10 A 250 V–, 16 A 250 V∼" (which also includes CEE 7/7 plug) and DIN 49440-1:2006-01 "Two-pole socket-outlets with earthing contact, 16 A 250 V a.c." It is also used in Albania, Austria, Bosnia and Herzegovina, Bulgaria, Chile, Croatia, Denmark, Estonia, Finland, Greece, Hungary, Iceland, Indonesia, Iran, Italy (standard CEI 23-50), Latvia, Lithuania, Luxembourg, Republic of Macedonia, Republic of Moldova, the Netherlands, Norway, Pakistan, Portugal, Romania, Russia, Serbia, Slovenia, South Korea, Spain, Sweden, Turkey, Ukraine, and Uruguay.
+"Schuko" is an abbreviation for the German word Schutzkontakt, which means "Protective contact" - in this case "protective" refers to the earth.
+Some countries, including South Korea, Portugal, Finland, Denmark, Norway and Sweden, require child-proof socket shutters; the German DIN 49440-1:2006-01 standard does not have this requirement.
+
+
+==== CEE 7/5 and CEE 7/6 (French; Type E) ====
+
+The CEE 7/5 socket and CEE 7/6 plug are defined in French standard NF C 61-314 "Plugs and socket-outlets for household and similar purposes" (which also includes CEE 7/7, 7/16 and 7/17 plugs) The socket has a predominantly circular recess which is 15 mm (0.591 in) deep with two symmetrical round apertures and a round 4.8 mm (0.189 in) earth pin projecting from the socket such that the tip is 23 mm (0.906 in) beyond the live contacts, to ensure that the earth is always engaged before live pin contact is made. The earth pin is centred between the apertures, offset by 10 mm (0.394 in). The plug (which is often, in error, also referred to as CEE 7/5) has two round pins measuring 4.8 by 19 mm (0.189 by 0.748 in), spaced 19 mm (0.748 in) apart and with an aperture for the socket's projecting earth pin. This standard is also used in Belgium, Poland, the Czech Republic, Slovakia and some other countries.
+Although the plug is polarised, CEE 7 does not define the placement of the line and neutral and there is no universally-observed standard. However, the Czech standard recommends that the line wire to be on the left side when facing the socket. The French convention changed circa 2002 from nothing particular, to, if the earth pin was at the top then the line hole in the socket would be on the right looking at the socket. However, the socket may not necessarily be installed with the earth pin at the top. Packaging in France of sockets is normally marked with correct connection of the cables. Polarised pre-fitted plugs on appliances are therefore connected with the brown to the right pin and the blue to the left, the earth being connected to the contact at the "top" of the plug.
+CEE 7/2 and 7/4 plugs are not compatible with the CEE 7/5 socket because of the round earthing pin permanently mounted in the socket.
+
+
+==== CEE 7/7 ====
+
+To bridge the differences between German and French standards, the CEE 7/7 plug was developed. It is polarised to prevent the line and neutral connections from being reversed when used with a French CEE 7/5 socket, but allows polarity reversal when inserted into a German CEE 7/3 socket. The plug is rated at 16 A.
+It has earthing clips on both sides to connect with the CEE 7/3 socket and a female contact to accept the earthing pin of the CEE 7/5 socket. It is used in almost all European countries. Currently, appliances in many countries are sold with non-rewireable CEE 7/7 plugs attached, enabling use in all countries whose socket standards are based on either CEE 7/3 or CEE 7/5.
+
+
+==== CEE 7/16 "Europlug" (Type C) ====
+
+The CEE 7/16 standard sheet appears in Supplement 2 (June 1962) to the 1951 edition of CEE 7. This two-pin plug, rated at 2.5 A is unearthed and has two round 4 by 19 mm (0.157 by 0.748 in) pins, which converge slightly towards their free ends. CEE 7/16 has two variants, alternative I is a round plug which conforms to a shape compatible with CEE 7/1, CEE 7/3, and CEE 7/5 sockets. Alternative II is a flat version, popularly known as the Europlug, and which is also defined by Cenelec standard EN 50075 "Flat non-rewirable two-pole plugs, 2,5 A 250 V, with cord, for the connection of class II-equipment for household and similar purposes" which has national equivalents in most European countries, as described in IEC 60083. It is not rewirable and must be supplied with a flexible cord. Because it is unpolarised, it can be inserted in either direction into a socket, so line and neutral are connected arbitrarily. The separation and length of the pins allow its safe insertion in CEE 7/1, CEE 7/3 "Schuko", CEE 7/5, and most Israeli, Swiss, Danish and Italian sockets. Most modern UK dedicated shaver sockets designed to accept BS 4573 shaver plugs also accept Europlugs for applications requiring less than 200 mA.
+There is no socket defined by EN 50075, neither is there a socket in CEE 7 to accept only 4 mm (0.157 in) pins or the profile of a Europlug, however there are examples of sockets on the market which accept only such plugs, sometimes in multiples.
+The Europlug is used in class II applications throughout continental Europe. It is also used in the Middle East (Iran), most African nations, South America (Argentina, Bolivia, Brazil, Chile, Peru and Uruguay), Asia (India, Bangladesh, Sri Lanka, Indonesia, Pakistan, South Korea, Malaysia and Singapore) as well as Russia and the former Soviet republics, such as Ukraine, Armenia, Georgia, and many developing nations. It is also used alongside the BS 1363, by means of adaptors, in many nations, particularly former British colonies.
+
+
+==== CEE 7/17 unearthed plug ====
+
+This is a round plug which conforms to a shape compatible with CEE 7/1, CEE 7/3, and CEE 7/5 sockets. It has two round pins measuring 4.8 by 19 mm (0.189 by 0.748 in). It may be rated at either 10 A or 16 A, and may be used for larger unearthed appliances (and in South Korea for all domestic non-earthed appliances). It is also defined as the Class II plug in Italian standard CEI 23-50. It can be inserted in to Israeli SI 32 with some difficulty. The Soviet GOST 7396 standard includes both the CEE 7/17 and the CEE 7/16 variant II plug.
+
+
+=== Danish Section 107-2-D1 earthed (Type K) ===
+
+This Danish standard plug is described in the Danish Plug Equipment Section 107-2-D1 Standard sheet (SRAF1962/DB 16/87 DN10A-R). Unlike the French CEE 7/6 plug, the earthing pin is on the plug, not in the socket. The Danish socket need not be recessed to protect the earthing pin. The Danish standard provides for sockets to have child-resistant shutters.
+The Danish socket will also accept the CEE 7/16 Europlug or CEE 7/17 Schuko-French hybrid plug. CEE 7/4 (Schuko), CEE 7/7 (Schuko-French hybrid), and earthed CEE 7/6 French plugs will also fit into the socket but should not be used for appliances that need earth contact. The current rating on both plugs is 13 A.
+A variation (standard DK 2-5a) of the Danish plug is for use only on surge protected computer sockets. It fits into the corresponding computer socket and the normal socket, but normal plugs deliberately don't fit into the special computer socket. The plug is often used in companies, but rarely in private homes.
+There is a variation for hospital equipment with a rectangular left pin, which is used for life support equipment.
+Traditionally all Danish sockets were equipped with a switch to prevent touching live pins when connecting/disconnecting the plug. Today, sockets without switch are allowed, but then it is a requirement that the sockets have a cavity to prevent touching the live pins. The shape of the plugs generally makes it difficult to touch the pins when connecting/disconnecting.
+Since the early 1990s earthed sockets have been required in all new electric installations in Denmark. Older sockets need not be earthed, but all sockets, including old installations, must be protected by earth-fault interrupters (HFI or HPFI in Danish) by 1 July 2008.
+As of 1 July 2008, wall sockets for French 2-pin, female earth CEE 7/5 are permitted for installations in Denmark. This was done because no electrical equipment sold to private users is equipped with a Danish plug.
+Sockets for the Schuko were not permitted until 15 November 2011. It could also result in a bad connection of the pins, with resultant risk of overheating and fire. Many international travel adapter sets sold outside Denmark match CEE 7/16 (Europlug) and CEE 7/7 (Schuko-French hybrid) plugs which can readily be used in Denmark.
+Denmark has allowed CEE 7/3 "Schuko" sockets from 15 November 2011.
+
+
+=== Italy (Type L) ===
+
+Italian earthed plugs and sockets are defined by the standard CEI 23-50 which superseded CEI 23-16. This includes two models rated at 10 A and 16 A that differ in contact diameter and spacing (see below for details). Both are symmetrical, allowing the line and neutral contacts to be inserted in either direction. This plug is also commonly used in Chile and Uruguay.
+The 10 A plug has pins which are 4 mm in diameter, the centres spaced 19 mm apart.
+The 10 A socket can accept Europlugs.
+The 16 A plug has pins which are 5 mm in diameter, the centres spaced 26 mm apart.
+The 16 A socket used to be referred to as per la forza motrice (for electromotive force, see above) or sometimes (inappropriately) industriale (industrial).
+Large appliances are usually sold with Schuko plugs, so 16 A non-rewirable plugs are usually used only in adapters and power cords. Those appliances are always earthed, so unearthed 16 A plugs are now very uncommon, and only a few brands still sell them in rewirable version.
+
+The dual standards were initially adopted because in Italy, up to the second half of the 20th century, electricity used for lamps and that used for all other purposes was at two different voltages (220 V single or split phase and 127 V single phase), sold at different tariffs, charged with different taxes, accounted with separated electricity meters, and sent on different wire lines that ended with different sockets. Even though the two electric lines (and respective tariffs) were gradually unified beginning in the 1960s (the official, but purely theoretical date was the summer of 1974) many houses kept twin wires and twin electricity meters for years thereafter (in some zones of Lazio the 127 V network was provided for lighting until 1999). The two gauges for plugs and sockets thus became a de facto standard which is now standardized under CEI 23-50. Older installations often have sockets that are limited to either the 10 A or the 16 A style plug, requiring the use of an adapter if the other gauge needs to be connected. Numerous cross adapters were used.
+Unearthed Europlugs are also in common use; they are standardized in Italy under CEI 23-34 and fit most of the appliances with low current requirement and double insulation.
+Appliances with CEE 7/7 Schuko-French plugs are often sold in Italy too; however most sockets will not accept them since the pins of the CEE 7/7 Schuko-French plugs are thicker than the Italian ones. Adapters are standardized in Italy under CEI 23-57, they are commonly used to connect CEE 7/7 plugs to linear CEI 23-50 sockets, but they cannot exceed 1500 watts and could make an unsafe connection in some cases.
+The current Italian standards provide for sockets to have child-resistant shutters ("Sicury" patent).
+
+
+==== Italian multiple standard sockets ====
+
+In modern installations in Italy (and in other countries where Type L plugs are used) it is usual to find sockets that can accept more than one standard.
+The simpler type has a central round hole and two figure-8 shaped holes above and below. This design allows the connection of both 10 A and 16 A plugs and the Europlug. The advantage of this socket style is its small, compact face. Vimar brand claims to have patented this socket first in 1975 with their Bpresa model; however soon other brands started selling similar products, mostly naming them with the generic term presa bipasso (twin-gauge socket) that is now of common use.
+A second, quite common type looks like a Schuko socket, but adds a central earthing hole. This design can accept CEE 7/4 (German), CEE 7/7 (German/French), and Italian 10 A plugs. Some of these sockets may also have figure-8 shaped holes to accept Italian 16 A plugs as well. Its drawback is that it is twice as large as a normal Italian socket and the price is higher; for those reasons Schuko and bipasso-Schuko socket have been rarely installed in Italy until recent times.
+Other types may push compatibility even further. The Vimar-brand universale (all purpose) socket, for example, accepts CEE 7/4 (German), CEE 7/7 (German/French), Italian 10 and 16 A plugs, and also NEMA 1-15 (US/Japan) plugs (older versions also had extra holes to accept UK shaver plugs).
+
+
+=== Soviet standard GOST 7396 C 1 unearthed ===
+
+This Soviet plug, still widely used in modern Russia, has pin dimensions and spacing equal to the Europlug, but lacks the insulation sleeves. Unlike the Europlug, it is rated 6 A. It has a round body like the French CEE 7/6 or flat body with a round base like CEE 7/17. The round base has no notches. The pins are parallel and do not converge. The body is made of fire resistant thermoset plastic. The corresponding 6 A socket accepts the Europlug, but not others as the 4.5 mm holes are too small to accept the 4.8 mm pins of CEE 7/4, CEE 7/6 or CEE 7/7 plugs.
+There were also moulded rubber plugs available for devices up to 16 A similar to CEE 7/17, but with a round base without any notches. They could be altered to fit a CEE 7/5 or CEE 7/3 socket by cutting notches with a sharp knife.
+
+
+=== Swiss SEV 1011 (Type J) ===
+
+The Swiss standard is SN SEV 1011:2009 Plugs and socket-outlets for household and similar purposes. The standard defines a hierarchical system of plugs and sockets with two, three and five pins, and various ratings. Sockets will accept plugs with the same or fewer number of pins and the same or lower ratings. The IEC type J designation refers to SEV 1011's Typ 12 plugs and SEV 1011's Typ 13 sockets.
+
+
+==== 10 A rated devices ====
+The Typ 11 plug is unearthed, the pin centres are spaced 19 mm apart. Typ 12 plug adds a central earth pin offset by 5 mm. All pins are 4 mm diameter, 19 mm long and the line and neutral pins are partially sleeved (not on earlier plugs). Both Typ 11 and Typ 12 have a voltage rating of 250 V.
+The Typ 15 plug has five pins for three phase applications with a voltage rating of 250 V / 400 V.
+The Typ 12 socket has no recess, the Typ 13 socket is recessed, both have a voltage rating of 250 V. Both will accept Typ 11 and Typ 12 plugs, also Europlug. After 2016, only recessed sockets will be allowed to be installed, minimizing the risk of electric shocks.
+The Typ 15 five pin recessed socket with a voltage rating of 250 V / 400 V will accept Typ 11, Typ 12 and Typ 15 plugs, also the Europlug.
+Non-sleeved plugs partially inserted into non-recessed sockets present a shock hazard, so since 1 January 2013, only sleeved plugs are allowed to be imported and distributed to reduce the risk.
+
+
+==== 16 A rated devices ====
+SEV 1011 also includes Typ 21 two pin and Typ 23 two pin and earth plugs, these have 5 mm square pins of the same disposition and length as the 10 A rated plugs, also rated at 250 V.
+The Typ 25 plug has five square pins for three phase applications with a voltage rating of 250 V / 400 V.
+The Typ 23 recessed socket with a voltage rating of 250 V will accept Typ 11, Typ 12, Typ 21 and Typ 23 plugs, also the Europlug.
+The Typ 25 five pin recessed socket with a voltage rating of 250 V / 400 V will accept Typ 11, Typ 12, Typ 15, Typ 21, Typ 23 and Typ 25 plugs, also the Europlug.
+
+
+==== Adaptors etc. ====
+A separate standard SN SEV 1011:2009/A1:2012 (published as an appendix to SEV 1011:2009), Plugs and socket-outlets for household and similar purposes - A1: Multiway and intermediate adaptors, cord sets, cord extension sets, travel adaptors and fixed adaptors defines the requirements applicable to multiway and intermediate adaptors, cord sets, cord extension sets, and travel and fixed adaptors, it covers the electrical safety and user requirements, including the prohibition of stacking (the connection of one adaptor to another). Non-conforming products must be withdrawn from the Swiss market before the end of 2018.
+
+
+=== IEC 60906-1 (Type N) ===
+
+In 1986, the International Electrotechnical Commission published IEC 60906-1, a specification for a plug and socket that look similar, but are not identical, to the Swiss plug and socket. This standard was intended to one day become common for all of Europe and other regions with 230 V mains, but the effort to adopt it as a European Union standard was put on hold in the mid-1990s.
+The plug and socket are rated 16 A 250 V a.c. and are intended for use only on systems having nominal voltages between 200 V and 250 V a.c. The plug pins are 4.0 mm in diameter, line and neutral are on centres 19 mm apart. The earth pin is offset 3.0 mm. The line pin is on the left when looking at a receptacle with the earth pin offset down. Shutters over the line and neutral pins are mandatory.
+The only country to have officially adopted the standard is South Africa as SANS 164-2.
+Brazil developed a plug resembling IEC 60906-1 as the national standard under specification NBR 14136. The NBR 14136 standard has two versions, neither of which has pin dimensions or ratings complying to IEC 60906-1. Use at 125 V is permitted by NBR 14136, which is against the intention of IEC 60906-1.
+
+
+=== China CPCS-CCC (Type I) ===
+
+The standard for Chinese plugs and sockets is set out in GB 2099.1‐2008 and GB 1002‐2008. As part of China's commitment for entry into the WTO, the new CPCS (Compulsory Product Certification System) has been introduced, and compliant Chinese plugs have been awarded the CCC Mark by this system. The plug is three wire, earthed, rated at 10 A, 250 V and used for Class 1 applications; a slightly larger 16 A version also exists. The Australian plug fits, though the pins on the Chinese plug are thinner and 1 mm (0.039 in) longer. Many 3 pin sockets in China include a physical lockout preventing access to the active and neutral terminals unless an earth pin (which is slightly longer than the other 2 pins) is entered first. China also uses American/Japanese NEMA 1‐15 sockets and plugs for Class-II appliances. The voltage at a Chinese socket of any type is 220 V.
+
+
+=== Israel SI32 (Type H) ===
+
+The plug defined in SI 32 (IS16A-R) is used only in Israel and in the territories of the West Bank and the Gaza Strip. There are two versions: an older one with flat pins, and a newer one with round pins.
+The pre-1989 system has three flat pins in a Y-shape, with line and neutral 19 mm (0.75 in) apart. The plug is rated at 16 A. In 1989 the standard was revised, with three round 4.5 mm (0.177 in) pins in the same locations designed to allow the socket to accept both older and newer Israeli plugs, and non-earthed Europlugs (often used in Israel for equipment which does not need to be earthed and does not use more current than the Europlug is rated for). Pre-1989 sockets which accept only old-style plugs have become very rare in Israel.
+SI 32 plugs have no sleeve insulation, so when a plug is partially removed its prongs may still be powered although they can be touched by small fingers, metal objects, etc., with a risk of electric shock.
+Sockets have a defined polarity; looking at the front, neutral is to the left, earth at the bottom, and line to the right.
+
+
+=== North American and IEC 60906-2 ===
+
+Most of North America, and some of South America, use connectors standardized by the National Electrical Manufacturers Association. The devices are named using the format NEMA n-mmX, where n is an identifier for the configuration of pins and blades, mm is the maximum amperage, and X is either P (plug) or R (receptacle). For example, NEMA 5-15R is a configuration type 5 receptacle supporting 15 amps. "P" and "R" versions are designed to be mated. The prefix "L" is added for the locking types; a 15 amp 120 volt two pole grounding plug is designated NEMA L5-15P. Twist-locking types are used for additional protection from accidental disconnection, or to prevent interchange with parallel blade types
+For some configurations, the arrangement of pins will differ slightly for the different current ratings, to prevent accidental mating of devices with a higher current draw than the receptacle can support.
+IEC 60906-2 uses NEMA 5-15.
+A brief description of some common NEMA standards appears below. A more comprehensive list, with more detail, appears in the NEMA connector article.
+
+
+==== NEMA 1-15 ungrounded (Type A) ====
+
+NEMA-1 plugs are compatible with both NEMA-1 receptacles and NEMA-5 receptacles; NEMA-1 is ungrounded (no earth), while NEMA 5 is grounded. The plug has two parallel blades. Early versions were not polarized, but most plugs are polarized today via a taller neutral blade on the plug that fits a wider neutral slot on the receptacle. (Unpolarized AC adapters are a common exception.)
+Ungrounded NEMA-1 outlets are not permitted in new building construction in the United States and Canada, but can still be commonly found in older construction. Allowed replacement of NEMA-1 receptacles varies by local code.
+
+
+==== NEMA 5-15 grounded (Type B) ====
+
+The NEMA 5-15 plug has two flat parallel blades like NEMA 1-15, but also adds a ground (earth) pin. It is rated 15 A at 125 volts. The ground (earth) pin is longer than the line and neutral blades, so the device is grounded before the power is connected. Both current-carrying blades on grounding plugs are normally narrow, since the ground (earth) pin enforces polarity. NEMA 1-15 plugs are also compatible with NEMA 5-15 sockets.
+The 5-15 socket is standard in Canada, the United States, Mexico and Panama. It is also used in Central America, the Caribbean, northern South America (Colombia, Ecuador, Venezuela and, as a legacy, parts of Brazil), Japan, Taiwan, the Philippines and Saudi Arabia. This socket is recommended in IEC standard 60906-2 for 120 volt 60 Hz installations. Looking directly at a NEMA 5-15 socket in the commonly found orientation of ground (earth) at the bottom, the neutral slot is on the left, and the line slot is on the right. However, in the US the National Electrical Installation Standards (NECA 130-2010) specifies that the ground hole should be on top. Sideways installation is also permitted; in this case, NECA 130-2010 specifies the neutral (long) slot is on top.
+In 46 of the 50 United States and all of Canada, tamper-resistant sockets are now required in new residential construction. These prevent contact by objects like keys or paper clips inserted into the socket.
+In stage lighting, this connector is sometimes known as PBG for Parallel Blade with Ground (earth), Edison or Hubbell, the name of a common manufacturer.
+
+
+==== NEMA 5-20 ====
+
+As NEMA 5 currents increase, changes are made to the plug's neutral blade so that it will not fit into receptacles rated for a lower current. Some receptacles rated for higher currents are designed to accept multiple shapes for the neutral blade, so that both higher and lower draw devices are compatible with it.
+The NEMA 5-20 AP variant has a "horizontal" neutral blade (in a plane that would intersect the hot blade). The receptacle has a T-slot for the neutral blade which accepts either 15 A parallel-blade plugs or 20 A plugs.
+NEMA 5-30 and 5-50 are rare; L5-30 and L5-50 twistlock is more common. The non-locking versions are physically incompatible with 5-15 and 5-20, as the hot/neutral blades are farther apart.
+
+
+==== NEMA 14-30 ====
+A 30 A, 3 wire single-phase earthing socket is often used for electric clothes dryers. 240 volts from the split phase system is used for the heating elements, and the motor and controls run on 120 volts. These plugs have blades that are rather larger than NEMA 5-20, are more widely spaced, and are angled so as to prevent using the wrong plug in the wrong circuit.
+
+
+==== NEMA 14-50 ====
+A 50 A 3 wire single-phase earthing socket is usually installed in kitchens and used for electric cooking ranges and ovens. Also for dryers, lighting and motors run on 120 V and the main heating element is connected for 240 V. Many plug-in electric cars use this type of socket for recharging in the owner's garage. Also commonly found in RV parks.
+
+
+==== JIS C 8303, Class II unearthed ====
+
+The Japanese plug and socket appear physically identical to NEMA 1-15. The Japanese system incorporates stricter dimensional requirements for the plug housing, different marking requirements, and mandatory testing and approval by METI or JIS.
+Older Japanese sockets and multi-plug adapters are unpolarized—the slots in the sockets are the same size—and will accept only unpolarized plugs. Japanese plugs generally fit into most North American sockets without modification, but polarized North American plugs may require adapters or replacement non-polarized plugs to connect to older Japanese sockets. In Japan the voltage is 100 V, and the frequency is 50 Hz (East Japan) or 60 Hz (West Japan). Therefore, some North American devices which can be physically plugged into Japanese sockets may not function properly.
+
+
+==== JIS C 8303, Class I earthed ====
+Japan also uses an unearthed plug similar to the North American NEMA 5-15. However, it is less common than its NEMA 1-15 equivalent. Since 2005, new Japanese homes are required to have class I earthed sockets for connecting domestic appliances. This rule does not apply for sockets not intended to be used for domestic appliances, but it is strongly advised to have class I sockets throughout the home.
+
+
+=== Thai 3 pin plug TIS 166-2549 (2006) ===
+
+Thai Industrial Standard (TIS) 166-2547 and its subsequent update TIS 166-2549 stipulated a modification of the IEC 60906-1 plug, replacing prior standards which were based on NEMA 1-15 and 5-15, as Thailand uses 220 V electricity. The plug has two round power pins 4.8 mm in diameter and 19 mm in length, insulated for 10 mm and spaced 19 mm apart, with an earthing pin of the same diameter and 21.4 mm in length, located 11.89 mm from the line connecting the two power pins. It was designed to provide compatibility with prior hybrid three-pin sockets, which accept NEMA 1-15, NEMA 5-15 and Europlugs, all of which have been variably used in Thailand. The hybrid socket is also defined in TIS 166-2547, in addition to a plain three-round-pin socket, with plans to replace the former and phase out support for NEMA-compatible plugs. Sockets are polarised (as in NEMA 5-15). The plug is similar to, but not interchangeable with, the Israeli SI32 plug. The Thai plug has not been designated with a letter code at IEC World Plugs.
+
+
+== Comparison of standard types ==
+* Compatible with unearthed plugs.
+† Deep-wall socket prevents human contact with pins.
+‡ CEE 7/7 specifies an earthed hybrid plug that will fit into both the CEE 7/3 and CEE 7/5 sockets. CEE 7/17 specifies an unearthed hybrid plug that will fit into both the CEE 7/3 and CEE 7/5 sockets.
+1 Type letters are from the International Electrotechnical Commission (IEC) Web site  that provides classification letters similar to a United States Department of Commerce publication  that sees widespread but not universal use to differentiate plug and socket types based on rough mechanical compatibility. Most common household plugs have an associated letter.
+2 There are some CEE 7/17 plugs with special shape which are polarised when used with CEE 7/5 sockets (mechanically only).
+3 Plug can only be inserted one way with French CEE 7/5, but lack of wiring convention means that the system is not polarized.
+4 (unused)
+5 Polarized on earthed versions only.
+6 Import of plugs with non-partially-insulated pins no longer allowed after 2012
+7 BS 4573 and BS EN 61558-2-5 do not explicitly specify a current rating for a compliant plug, see BS 4573 section of British and compatible standards.
+
+
+== Multi-standard sockets ==
+
+Sockets that take a variety of plug types can be found in places where market size or local market conditions make a specific plug standard impractical to implement. Sockets may accept plugs to various European, Asian, North American, British or Australian standards, but not Indian or South African. Multi-standard sockets do not safeguard against devices being damaged by the wrong voltage. Users must know the voltage requirements of their appliances as well as the prevailing local voltage.
+In some multi-standard sockets the aperture size for NEMA plugs is the same for both Line (Hot) and Neutral (see second picture), which may defeat the polarization of NEMA 1 plugs. In a socket designed to accept both NEMA and BS 1363 plugs, the lower right contact (in the orientation shown in the picture) should be connected to the Line wire for BS 1363 plugs, but the Neutral wire for NEMA plugs, so safe wiring of these devices for universal use is not possible.
+Some of these sockets have one or more earth holes to allow 3-pin plugs. On properly wired circuits, the earth contact will be connected to earth. However, they cannot provide earthing to all types of plugs, as is the case of Schuko (which requires recessed sockets containing side earthing contacts) and French plugs (which require an earthing pin projecting from the socket).
+Those designed to accept British plugs have pin apertures which are larger than allowed by BS 1363, and are therefore not legal for UK or Irish use.
+Although the Low Voltage Directive of the European Union specifically excludes domestic plugs and sockets and CE marking is neither applicable nor permitted on plugs and sockets, it is still sometimes fraudulently used on universal sockets.
+
+
+== Adaptors ==
+
+Adaptors allow travellers to use portable devices with foreign sockets. Adaptors allow physical connection between plug and socket but do not change voltage or frequency. A voltage converter is required for electrical compatibility in countries with a different voltage than the device is designed for, if it is not designed for variable voltage input.
+
+
+== Obsolete types ==
+
+
+=== Old Spanish sockets ===
+
+Some older industrial buildings in Spain used sockets that took a plug rated for higher current and had two flat contacts and a round earth pin, somewhat similar in design to the ones found on American plugs but larger in size. The two flat contacts are spaced further apart than on an American plug. No domestic appliances were ever sold with these plugs.
+The line and neutral measure 9 by 2 mm (0.354 by 0.079 in), and are 30 mm (1.181 in) apart. All three pins are 19 mm (0.748 in) long, and the earth pin is a cylinder of 4.8 mm (0.189 in) diameter.
+
+
+=== Original American Hubbell plug and receptacle ===
+
+An early American electrical plug and socket was invented by Harvey Hubbell and patented in 1904. Hubbell's first design was a socket which screwed into a lampholder (like the early lampholder plugs), but with a separable plug with pins (U.S. Patent 774,250)or blade (US patent 774251). The 1906 Hubbell catalog  shows the blade plug with a flush mounting socket for use in wall or floor. Other manufacturers adopted the Hubbell pattern, and by 1915 they were widespread.
+
+
+=== American 125 V, 15 A / 250 V, 10 A "Australian" style ===
+
+A patent for this obsolete American plug and socket was filed in 1915 under US patent 1,179,728. It predated the NEMA sockets and plugs. The plugs and sockets used in countries such as Argentina, Australia and China are based on this type.
+
+
+=== Split current/voltage ratings ===
+Many older North American sockets have two different current and voltage ratings, most commonly 10 A 250 V/15 A 125 V. This has to do with a peculiarity of the National Electrical Code from 1923 to the 1950s. Originally, sockets were rated at 10 A 250 V, because the NEC limited lighting circuits to 10 A. In 1923, the code changed to allow lighting circuits to be fused at 15 A, but the previous 10 A rule still applied to circuits over 125 V. The higher voltages were rarely used for lighting and appliances. Most sockets with this rating are of the "T-slot" type.
+
+
+=== US perpendicular socket ===
+
+Another obsolete socket, made by Bryant, 125 V 15 A and 250 V 10 A rating. A NEMA 5‐20 125 V 20 A or 6‐15 250 V 15 A plug with a missing earth pin would fit this socket, but a NEMA 2‐20 plug is slightly too big to fit.
+The upper slots as seen in the illustration connect to silver-colored wiring screws on the upper side, and the lower slots connect to brass-coloured wiring screws on the lower side.
+In Australia, the same or similar T-configuration sockets are used for DC power sockets, such as in stand-alone power systems (SAPS), on boats and in police vehicles. Polarity is inconsistent.
+In the former Soviet Union this socket was and still is commonly used for wiring in places where the voltage is lowered for safety purposes, like in schools, filling stations or in wet areas, and is rated 42 V 10 A AC. Such an unusual connection is intended specifically to make the connection of standard higher-voltage equipment impossible.
+
+
+=== US combination duplex socket ===
+
+The parallel and tandem socket accepts normal parallel NEMA 1‐15 plugs and also tandem NEMA 2‐15 plugs. Both pair of socket are fed internally by the same supply.
+A more recent and fairly common version of this type is the T-slot socket, in which the locations of the tandem and the parallel slots were combined to create T-shaped slots. This version also accepts normal parallel NEMA 1‐15 plugs and also tandem NEMA 2‐15 plugs. Incidentally, a NEMA 5‐20 (125 V, 20 A), a NEMA 6-15 (250 V, 15 A) or 6‐20 (250 V, 20 A) plug with a missing earth pin would fit this socket. This type has been unavailable in retail shops since the 1960s but still available from the manufacturer Leviton (model 5000-I) not for new installation for replacement only.
+
+
+=== US adapters ===
+
+
+=== UK obsolete types ===
+
+Several types of plugs and sockets were commonly used in the U.K. before the adoption of national standard types.
+
+
+=== Old Greek sockets ===
+
+Called "Tripoliki" (τριπολική, meaning "three-pole"), the standard had 3 round pins, similar to the post-1989 Israeli SI 32 and Thai TIS 166-2549 types. The Tripoliki was virtually abandoned by the decade of 1980, but can still be found in houses constructed before 1980, and not renovated. Previous to the large-scale adoption of Schuko plugs, this was the only way to use an earthed appliance in Greece. It can accept Europlugs, and also (but with no earth connection possible) French and German types.
+
+
+== Unusual types ==
+
+
+=== Lampholder plug ===
+
+A lampholder plug fits into the bayonet cap or Edison screw socket of a lampholder in place of a light bulb and enables an electrical appliance to be powered from a wall or ceiling light fitting. As mentioned in Early History above, they were first introduced in the late 1800s and in use to the 1960s in situations where wall sockets were scarce and sometimes non-existent in some rooms (bathrooms, cellars, attics, etc.). Also, as in some countries (such as Italy) electricity was supplied on a "split tariff" basis with electricity for lighting being charged at a lower rate than that for other purposes, lampholder plugs enabled the consumers to reduce their electricity costs and were thus in broad use.
+Lampholder plugs were and are rarely fused.
+In the UK, lighting circuits are protected with a 5 A or 6 A fuse or circuit breaker. Wiring regulations in the UK and some other countries no longer approve lampholder plugs because of the risks of overheating and fire.
+Edison screw lampholder adaptors (for NEMA 1-15 plugs) are still easily found and commonly used in the Americas.
+
+
+=== NEMA 2‐15 and 2‐20 ===
+
+These unearthed plugs with two flat parallel blades are intended for use on 240 volt circuits. The 2‐15 has coplanar current blades, and is used for 240 V service at 15 A, while the 2‐20 has the blades at 90° relative to each other (one vertical, one horizontal) and is used for 240 V service at 20 A. NEMA 2 plugs and sockets are rare because they are unearthed and so, no longer permitted for new installations. They have no neutral. In some cases these plugs can be inserted into incorrect-voltage sockets. Prior to the adoption of the NEMA standard, a plug nearly identical to the 2‐20 was used for 120 V at 20 A. That obsolete plug would fit into 5‐20 and 6‐20 sockets, which supply different voltages, but will not fit a NEMA 2‐20 socket.
+
+
+=== Soviet adaptor plugs ===
+
+Some appliances sold in the Soviet Union had a flat unearthed plug with an additional pass-through socket on the top, allowing stacked arrangement of plugs. This design was very helpful (for the usual Soviet apartment of the 1960s had very few sockets), but somewhat unsafe, as the brass cylinders of the secondary socket were uncovered at the ends (to unscrew them easily), recessed by only 3 mm and provided bad contact because they relied on the secondary plug's bisected expanding pins. The pins of the secondary plug (without insulation sleeves) could not be inserted into the cylinders completely, and were accessible through a 5 mm gap between the primary and secondary plugs.
+
+
+=== UK Walsall Gauge plug ===
+
+Unlike the standard BS 1363 plugs found in the UK, the earth pin is on a horizontal axis and the line and neutral pins on a vertical axis. This style of plug/socket was used by university laboratories (from batteries) and the BBC, and is still in use on parts of the London Underground for 110 V AC voltage supply. In the 1960s they were used for 240 V DC in the Power laboratory of the Electrical Engineering department of what was then University College, Cardiff. Power was supplied by the public 240 V DC mains which remained available in addition to the 240 V AC mains until circa 1969, and thereafter from in-house rectifiers. They were also used in the Ministry of Defence Main Building on circuits powered from the standby generators to stop staff from plugging in unauthorised devices, e.g. kettles. They were also known to be used in some British Rail offices for the same reason.
+
+
+=== Italian BTicino brand Magic security connector ===
+
+This style of connector, produced by Italian manufacturer BTicino, appeared in the 1960s and was intended as an alternative to the Europlug or CEI 23-16 connectors then in use. The socket is an almost rectangular socket, with one or more lateral key pins and indentations to prevent inverting the polarised plug, or connecting plugs and sockets with different current ratings. At least four models were produced: three single-phase general purpose connectors rated respectively 10 A, 16 A and 20 A; plus a three-phase industrial connector rated 10 A; all of them have different key-pin positioning so plugs and sockets cannot be mismatched. The socket is closed by a safety lid (bearing the word ‘’Magic’’ on it) which can be opened only with an even pressure on its surface, thus preventing the insertion of objects (except the plug itself) inside the socket. The contacts are blades positioned on both sides of the plug; the plug is energized only when it is inserted fully into the socket.
+The obvious drawback of the system is that it is not compatible with Europlugs. As household appliances were never sold fitted with these security plugs and the use of adapters would defeat all of the newly introduced safety features, once this system is adopted all standard plugs must be cut off and replaced with the appropriate security connector. However, the Magic security system had some success at first because its enhanced safety features appealed to customers; standard connectors of the day were considered not safe enough. The decline of the system occurred when safety lids similar to the Magic type were developed (VIMAR Sicury) and then applied to standard sockets by third brands and by BTicino itself.
+In Italy, the system was never definitively abandoned and, though rarely seen today, is still marked as available in BTicino’s products catalogue, (except for the three-phase version, that is no longer in production from July 2011)
+In Chile, 10 A Magic connectors are commonly used for computer/laboratory power networks, as well as for communications or data equipment. This allows delicate electronics equipment to be connected to an independent circuit breaker, usually including a surge protector or an uninterruptible power supply backup. The different style of plug makes it more difficult for office workers to connect computer equipment to a standard unprotected power line, or to overload the UPS by connecting other office appliances.
+In Iceland, Magic plugs were widely used in homes and businesses alongside Europlug and Schuko installations. Their installation in new homes was still quite common even in the late 1980s.
+
+
+== Single phase electric stove plugs and sockets ==
+
+The plugs and sockets used to power electric stoves from a single-phase line have to be rated for greater current values than ones for three-phase system because all the power has to be transferred through a single line. Electric stoves are often hardwired to the electrical supply system, connected to the mains with an appropriate high power industrial connector or with non-standard high power proprietary domestic connector (as some countries do not have wiring regulations for single-phase electric stoves). In Russia an electric stove can often be seen connected with a 25 to 32 A connector.
+In Norway and parts of Sweden a 25 A grounded connector, rectangular shaped with rounded corners, is used for single phase stoves. The connector has three rectangular pins in a row, with the grounding pin longer than other two. The corresponding socket is recessed to prevent shocks. The Norwegian standard is NEK 502:2005 - standard sheet X (socket) and sheet XI (plug). They are also known as the two pole and earth variants of CEE 7/10 (socket) and CEE 7/11 (plug).
+
+
+== Industrial and multiphase ==
+
+Plug and socket systems intended for high current, high voltage or polyphase industrial equipment, as well as additional contacts and larger contacts, may also include features to improve the security and safety of use. For example, a high-power plug may include a locking ring or twist-lock feature to prevent accidental disconnection in use. A socket may include a mechanical interlock that prevents insertion or removal of a plug unless the local safety disconnecting switch is open. Plugs may include special measures to contain an arc generated during disconnection. Plugs used for equipment in wet locations (such as mines) may include small supervisory contacts that check the integrity of the earthing conductor.
+
+
+== See also ==
+
+AC adapter
+DC connector
+IEC 60320 appliance couplers, the connections at the other end of power cords.
+IEC 60309 high-power industrial and polyphase connectors
+Mains electricity by country lists voltage, frequency, and connector types for over 200 countries
+Plug load
+Polyphase system
+Stage pin connector
+
+
+== References ==
+
+
+== External links ==
+Glossary of standards terms
+Change to UK electrical wire colors 2004
+Household electrical safety handbook, Electrical and Mechanical Services Department, Hong Kong
+Guidance Notes for the Electrical Products (Safety) Regulation (Electrical and Mechanical Services Department, Hong Kong)
+IEEE history of Australian power connectors (in pdf format)
+South Africa Eskom: Wiring a Plug
+Overviews and diagrams
+Overview of types of plugs and sockets: pictures including many variations on the plugs and sockets described here, including disassembled units

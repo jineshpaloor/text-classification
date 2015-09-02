@@ -1,0 +1,43 @@
+Networking cables
+Networking cables are used to connect one network device to other network devices or to connect two or more computers to share printer, scanner etc. Different types of network cables like Coaxial cable, Optical fiber cable, Twisted Pair cables are used depending on the network's topology, protocol and size. The devices can be separated by a few meters (e.g. via Ethernet) or nearly unlimited distances (e.g. via the interconnections of the Internet).
+While wireless networks are much easier deployed when total throughput is not an issue, most permanent larger computer networks utilize cables to transfer signals from one point to another.
+
+
+== Twisted pair ==
+
+Twisted pair cabling is a form of wiring in which pairs of wires (the forward and return conductors of a single circuit) are twisted together for the purposes of canceling out electromagnetic interference (EMI) from other wire pairs and from external sources. This type of cable is used for home and corporate Ethernet networks.
+There are two major types of twisted pair cables: shielded, unshielded.
+
+
+== Fiber optic cable ==
+
+An optical fiber cable consists of a center glass core surrounded by several layers of protective material. The outer insulating jacket is made of Teflon or PVC to prevent interference. It is expensive but has higher bandwidth and can transmit data over longer distances.
+There are two major types of optical fiber cables: short-range multi-mode fiber and long-range single-mode fiber.
+
+
+== Coaxial cable ==
+
+Coaxial lines confine the electromagnetic wave to area inside the cable, between the center conductor and the shield. The transmission of energy in the line occurs totally through the dielectric inside the cable between the conductors. Coaxial lines can therefore be bent and twisted (subject to limits) without negative effects, and they can be strapped to conductive supports without inducing unwanted currents in them.
+The most common use for coaxial cables is for television and other signals with bandwidth of multiple megahertz. Although in most homes coaxial cables have been installed for transmission of TV signals, new technologies (such as the ITU-T G.hn standard) open the possibility of using home coaxial cable for high-speed home networking applications (Ethernet over coax).
+In the 20th century they carried long distance telephone connections.
+
+
+== Patch cable ==
+
+A patch cable is an electrical or optical cable used to connect one electronic or optical device to another for signal routing. Devices of different types (e.g. a switch connected to a computer, or a switch connected to a router) are connected with patch cords. Patch cords are usually produced in many different colors so as to be easily distinguishable, and are relatively short, perhaps no longer than two meters .
+
+
+== Ethernet crossover cable ==
+
+An Ethernet crossover cable is a type of twisted pair Ethernet cable used to connect computing devices together directly that would normally be connected via a network switch, hub or router, such as directly connecting two personal computers via their network adapters. Most current Ethernet devices support Auto MDI-X, so it doesn't matter whether you use crossover or straight cables.
+
+
+== Power lines ==
+Although power wires are not designed for networking applications, new technologies like Power line communication allows these wires to also be used to interconnect home computers, peripherals or other networked consumer products. On December 2008, the ITU-T adopted Recommendation G.hn/G.9960 as the first worldwide standard for high-speed powerline communications. G.hn also specifies communications over phonelines and coaxial
+
+
+== References ==
+
+
+== External links ==
+The wonderful world of wire

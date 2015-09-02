@@ -1,0 +1,107 @@
+Extended Kalman filter
+In estimation theory, the extended Kalman filter (EKF) is the nonlinear version of the Kalman filter which linearizes about an estimate of the current mean and covariance. In the case of well defined transition models, the EKF has been considered the de facto standard in the theory of nonlinear state estimation, navigation systems and GPS.
+
+
+== History ==
+The papers establishing the mathematical foundations of Kalman type filters were published between 1959 and 1961. The Kalman Filter is the optimal estimate for linear system models with additive independent white noise in both the transition and the measurement systems. Unfortunately, in engineering, most systems are nonlinear, so some attempt was immediately made to apply this filtering method to nonlinear systems. Most of this work was done at NASA Ames. The EKF adapted techniques from calculus, namely multivariate Taylor Series expansions, to linearize a model about a working point. If the system model (as described below) is not well known or is inaccurate, then Monte Carlo methods, especially particle filters, are employed for estimation. Monte Carlo techniques predate the existence of the EKF but are more computationally expensive for any moderately dimensioned state-space.
+
+
+== Formulation ==
+In the extended Kalman filter, the state transition and observation models need not be linear functions of the state but may instead be differentiable functions.
+
+Where wk-1 and vk are the process and observation noises which are both assumed to be zero mean multivariate Gaussian noises with covariance Qk and Rk respectively. uk is the control vector.
+The function f can be used to compute the predicted state from the previous estimate and similarly the function h can be used to compute the predicted measurement from the predicted state. However, f and h cannot be applied to the covariance directly. Instead a matrix of partial derivatives (the Jacobian) is computed.
+At each time step, the Jacobian is evaluated with current predicted states. These matrices can be used in the Kalman filter equations. This process essentially linearizes the non-linear function around the current estimate.
+
+
+== Discrete-time predict and update equations ==
+
+
+=== Predict ===
+
+
+=== Update ===
+where the state transition and observation matrices are defined to be the following Jacobians
+
+
+== Higher-order extended Kalman filters ==
+The above recursion is a first-order extended Kalman filter (EKF). Higher order EKFs may be obtained by retaining more terms of the Taylor series expansions. For example, second and third order EKFs are described in . However, higher order EKFs tend to only provide performance benefits when the measurement noise is small.
+
+
+== Non-additive noise formulation and equations ==
+The typical formulation of the EKF involves the assumption of additive process and measurement noise. This assumption, however, is not necessary for EKF implementation. Instead, consider a more general system of the form:
+
+Where wk and vk are the process and observation noises which are both assumed to be zero mean multivariate Gaussian noises with covariance Qk and Rk respectively. Then the covariance prediction and innovation equations become
+
+where the matrices  and  are Jacobian matrices:
+
+The predicted state estimate and measurement residual are evaluated at the mean of the process and measurement noise terms, which is assumed to be zero. Otherwise, the non-additive noise formulation is implemented in the same manner as the additive noise EKF.
+
+
+== Continuous-time extended Kalman filter ==
+Model
+
+Initialize
+
+Predict-Update
+
+Unlike discrete-time extended Kalman filter, the prediction and update steps are coupled in continuous-time extended Kalman filter.
+
+
+== Discrete-time extended Kalman filter ==
+Most physical systems are represented as continuous-time models while discrete-time measurements are frequently taken for state estimation via a digital processor. Therefore, the system model and measurement model are given by
+
+where .
+Initialize
+
+Predict
+
+where
+
+Update
+
+where
+
+The update equations are identical to those of discrete-time extended Kalman filter.
+
+
+== Disadvantages of the extended Kalman filter ==
+Unlike its linear counterpart, the extended Kalman filter in general is not an optimal estimator (of course it is optimal if the measurement and the state transition model are both linear, as in that case the extended Kalman filter is identical to the regular one). In addition, if the initial estimate of the state is wrong, or if the process is modeled incorrectly, the filter may quickly diverge, owing to its linearization. Another problem with the extended Kalman filter is that the estimated covariance matrix tends to underestimate the true covariance matrix and therefore risks becoming inconsistent in the statistical sense without the addition of "stabilising noise".
+Having stated this, the extended Kalman filter can give reasonable performance, and is arguably the de facto standard in navigation systems and GPS.
+
+
+== Robust extended Kalman filters ==
+The extended Kalman filter arises by linearizing the signal model about the current state estimate and using the linear Kalman filter to predict the next estimate. This attempts to produce a locally optimal filter, however, it is not necessarily stable because the solutions of the underlying Riccati equation are not guaranteed to be positive definite. One way of improving performance is the faux algebraic Riccati technique  which trades off optimality for stability. The familiar structure of the extended Kalman filter is retained but stability is achieved by selecting a positive definite solution to a faux algebraic Riccati equation for the gain design.
+Another way of improving extended Kalman filter performance is to employ the H-infinity results from robust control. Robust filters are obtained by adding a positive definite term to the design Riccati equation. The additional term is parametrized by a scalar which the designer may tweak to achieve a trade-off between mean-square-error and peak error performance criteria.
+
+
+== Unscented Kalman filters ==
+A nonlinear Kalman filter which shows promise as an improvement over the EKF is the unscented Kalman filter (UKF). In the UKF, the probability density is approximated by a deterministic sampling of points which represent the underlying distribution as a Gaussian. The nonlinear transformation of these points are intended to be an estimation of the posterior distribution, the moments of which can then be derived from the transformed samples. The transformation is known as the unscented transform. The UKF tends to be more robust and more accurate than the EKF in its estimation of error in all the directions.
+
+"The extended Kalman filter (EKF) is probably the most widely used estimation algorithm for nonlinear systems. However, more than 35 years of experience in the estimation community has shown that is difficult to implement, difficult to tune, and only reliable for systems that are almost linear on the time scale of the updates. Many of these difficulties arise from its use of linearization."
+
+A recent paper includes simulation results which suggest that some published variants of the UKF fail to be as accurate as the Second Order Extended Kalman Filter (SOEKF), called also the augmented Kalman filter. The SOEKF predates the UKF by approximately 35 years with the moment dynamics first described by Bass et al. The difficulty in implementing any Kalman-type filters for nonlinear state transitions stems from the numerical stability issues required for precision, however the UKF does not escape this difficulty in that it uses linearization as well, namely linear regression. The stability issues for the UKF generally stem from the numerical approximation to the square root of the covariance matrix, whereas the stability issues for both the EKF and the SOEKF stem from possible issues in the Taylor Series approximation along the trajectory.
+
+
+== Invariant extended Kalman filter ==
+The invariant extended Kalman filter (IEKF) is a modified version of the EKF for nonlinear systems possessing symmetries (or invariances). It combines the advantages of both the EKF and the recently introduced symmetry-preserving filters. Indeed, instead of using a linear correction term based on a linear output error, it uses a geometrically adapted correction term based on an invariant output error; in the same way the gain matrix is not updated from a linear state error, but from an invariant state error. The main benefit is that the gain and covariance equations converge to constant values on a much bigger set of trajectories than equilibrium points as it is the case for the EKF, which results in a better convergence of the estimation.
+
+
+== See also ==
+Kalman filter
+Ensemble Kalman filter
+Fast Kalman filter
+Invariant extended Kalman filter
+Moving horizon estimation
+Particle filter
+Unscented Kalman filter
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== External links ==
+Position estimation of a differential-wheel robot based on odometry and landmarks

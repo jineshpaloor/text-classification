@@ -1,0 +1,33 @@
+Single-phase electric power
+In electrical engineering, single-phase electric power is the distribution of alternating current electric power using a system in which all the voltages of the supply vary in unison. Single-phase distribution is used when loads are mostly lighting and heating, with few large electric motors. A single-phase supply connected to an alternating current electric motor does not produce a revolving magnetic field; single-phase motors need additional circuits for starting, and such motors are uncommon above 10 kW in rating.
+In contrast, in a three-phase system, the currents in each conductor reach their peak instantaneous values sequentially, not simultaneously; in each cycle of the power frequency, first one, then the second, then the third current reaches its maximum value. The waveforms of the three supply conductors are offset from one another in time (delayed in phase) by one-third of their period. When the three phases are connected to windings around the interior of a motor stator, they produce a revolving magnetic field; such motors are self-starting.
+Standard frequencies of single-phase power systems are either 50 or 60 Hz. Special single-phase traction power networks may operate at 16.67 Hz or other frequencies to power electric railways.
+In some countries such as the United States, single phase is commonly divided in half to create split-phase electric power for household appliances and lighting.
+
+
+== Splitting out ==
+No arrangement of transformers can convert a single-phase load into a balanced load on a polyphase system. A single-phase load may be powered from a three-phase distribution system either by connection between a phase and neutral or by connecting the load between two phases. The load device must be designed for the voltage in each case. The neutral point in a three phase system exists at the mathematical center of an equilateral triangle formed by the three phase points, and the phase-to-phase voltage is accordingly √3 times the phase-to-neutral voltage. For example, in places using a 415 volt 3 phase system, the phase-to-neutral voltage is 240 volts, allowing single-phase lighting to be connected phase-to-neutral and three-phase motors to be connected to all three phases.
+In North America, a typical three-phase system will have 208 volts between the phases and 120 volts between phase and neutral. If heating equipment designed for the 240-volt three-wire single phase system is connected to two phases of a 208 volt supply, it will only produce 75% of its rated heating effect. Single-phase motors may have taps to allow their use on either 208 V or 240 V supplies.
+On higher voltage systems (on the order of kilovolts) where a single phase transformer is in use to supply a low voltage system, the method of splitting varies. In North American utility distribution practice, the primary of the step-down transformer is wired across a single high voltage feed wire and neutral, at least for smaller supplies (see photo of transformer on right). Rural distribution may be a single phase at a medium voltage; in some areas single wire earth return distribution is used when customers are very far apart. In Britain the step-down primary is wired phase-phase.
+
+
+== Applications ==
+Single-phase power distribution is widely used especially in rural areas, where the cost of a three-phase distribution network is high and motor loads are small and uncommon.
+High power systems, say hundreds of kVA or larger, are nearly always three phase. The largest supply normally available as single phase varies according to the standards of the electrical utility. In the UK a single-phase household supply may be rated 100 A or even 125 A, meaning that there is little need for 3 phase in a domestic or small commercial environment. Much of the rest of Europe has traditionally had much smaller limits on the size of single phase supplies resulting in even houses being supplied with 3 phase (in urban areas with three-phase supply networks).
+In North America, individual residences and small commercial buildings with services up to about 100 kVA (417 amperes at 240 volts) will usually have three-wire single-phase distribution, often with only one customer per distribution transformer. In exceptional cases larger single-phase three-wire services can be provided, usually only in remote areas where poly-phase distribution is not available. In rural areas farmers who wish to use three-phase motors may install a phase converter if only a single-phase supply is available. Larger consumers such as large buildings, shopping centers, factories, office blocks, and multiple-unit apartment blocks will have three-phase service. In densely populated areas of cities, network power distribution is used with many customers and many supply transformers connected to provide hundreds or thousands of kVA, a load concentrated over a few hundred square meters.
+Three-wire single-phase systems are rarely used in the UK where large loads are needed off only two high voltage phases.
+Single-phase power may be used for electric railways; the largest single-phase generator in the world, at Neckarwestheim Nuclear Power Plant, supplied a railway system on a dedicated traction power network.
+
+
+== Grounding ==
+Typically a third conductor, called ground (or "safety ground") (U.S.) or protective earth (UK, Europe, IEC), is used as a protection against electric shock, and ordinarily only carries significant current when there is a circuit fault. Several different earthing systems are in use.
+
+
+== References ==
+^ See three phase. This arises from the phase difference between the conductors. If two conductors are energized with ac voltages that are the same magnitude and in-phase, there will be no voltage difference between them. If the voltages are the same magnitude and one voltage is delayed one-half cycle with respect to the other, the voltage between the two will be double. In a three phase system the phase difference between conductors is one-third of a cycle; a little bit of algebra would show that the voltage difference between two conductors is the square root of three times the magnitude of the phase to neutral voltage.
+
+
+== See also ==
+Single wire earth return
+Two-phase electric power
+Three-phase electric power

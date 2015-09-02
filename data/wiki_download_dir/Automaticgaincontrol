@@ -1,0 +1,55 @@
+Automatic gain control
+Automatic gain control (AGC; also called automatic voltage gain) is a closed-loop regulating circuit, the purpose of which is to provide a controlled signal amplitude at its output, despite variation of the amplitude in the input signal. The average or peak output signal level is used to dynamically adjust the input-to-output gain to a suitable value, enabling the circuit to work satisfactorily with a greater range of input signal levels. For example, without AGC the sound emitted from an AM radio receiver would vary to an extreme extent from a weak to a strong signal; the AGC effectively reduces the volume if the signal is strong and raises it when it is weaker.
+
+
+== How it works ==
+The signal to be gain controlled (the detector output in a radio) goes to a diode & capacitor, which produce a peak-following DC voltage. This is fed to the RF gain blocks to alter their bias, thus altering their gain. Traditionally all the gain-controlled stages came before the signal detection, but it is also possible to improve gain control by adding a gain-controlled stage after signal detection.
+
+
+== Example use cases ==
+
+
+=== AM radio receivers ===
+In 1925, Harold Alden Wheeler invented automatic volume control (AVC) and obtained a patent. Karl Küpfmüller published an analysis of AGC systems in 1928. By the early 1930s most new commercial broadcast receivers included automatic volume control.
+AGC is a departure from linearity in AM radio receivers. Without AGC, an AM radio would have a linear relationship between the signal amplitude and the sound waveform – the sound amplitude, which correlates with loudness, is proportional to the radio signal amplitude, because the information content of the signal is carried by the changes of amplitude of the carrier wave. If the circuit were not fairly linear, the modulated signal could not be recovered with reasonable fidelity. However, the strength of the signal received will vary widely, depending on the power and distance of the transmitter, and signal path attenuation. The AGC circuit keeps the receiver's output level from fluctuating too much by detecting the overall strength of the signal and automatically adjusting the gain of the receiver to maintain the output level within an acceptable range. For a very weak signal, the AGC operates the receiver at maximum gain; as the signal increases, the AGC reduces the gain.
+It is usually disadvantageous to reduce the gain of the RF front end of the receiver on weaker signals as low gain can worsen signal-to-noise ratio and blocking; therefore, many designs reduce gain only for stronger signals.
+Since the AM detector diode produces a DC voltage proportional to signal strength, this voltage can be fed back to earlier stages of the receiver to reduce gain. A filter network is required so that the audio components of the signal don't appreciably influence gain; this prevents "modulation rise" which increases the effective modulation depth of the signal, distorting the sound. Communications receivers may have more complex AVC systems, including extra amplification stages, separate AGC detector diodes, different time constants for broadcast and shortwave bands, and application of different levels of AGC voltage to different stages of the receiver to prevent distortion and cross-modulation. Design of the AVC system has a great effect on the usability of the receiver, tuning characteristics, audio fidelity, and behavior on overload and strong signals.
+FM receivers, even though they incorporate limiter stages and detectors that are relatively insensitive to amplitude variations, still benefit from AGC to prevent overload on strong signals.
+
+
+=== Radar ===
+A related application of AGC is in radar systems, as a method of overcoming unwanted clutter echoes. This method relies on the fact that clutter returns far outnumber echoes from targets of interest. The receiver's gain is automatically adjusted to maintain a constant level of overall visible clutter. While this does not help detect targets masked by stronger surrounding clutter, it does help to distinguish strong target sources. In the past, radar AGC was electronically controlled and affected the gain of the entire radar receiver. As radars evolved, AGC became computer-software controlled, and affected the gain with greater granularity, in specific detection cells. Many radar countermeasures use a radar's AGC to fool it, by effectively "drowning out" the real signal with the spoof, as the AGC will regard the weaker, true signal as clutter relative to the strong spoof.
+
+
+=== Audio/video ===
+An audio tape generates a certain amount of noise. If the level of the signal on the tape is low, the noise is more prominent, i.e., the signal-to-noise ratio is lower than it could be. To produce the least noisy recording, the recording level should be set as high as possible without being so high as to clip or distort the signal. In professional high-fidelity recording the level is set manually using a peak-reading meter. When high fidelity is not a requirement, a suitable recording level can be set by an AGC circuit which reduces the gain as the average signal level increases. This allows a usable recording to be made even for speech some distance from the microphone of an audio recorder. Similar considerations apply with VCRs.
+A potential disadvantage of AGC is that when recording something like music with quiet and loud passages such as classical music, the AGC will tend to make the quiet passages louder and the loud passages quieter, compressing the dynamic range; the result can be a reduced musical quality if the signal is not re-expanded when playing, as in a companding system.
+Some reel-to-reel tape recorders and cassette decks have AGC circuits. Those used for high-fidelity generally don't.
+Most VCR circuits use the amplitude of the vertical blanking pulse to operate the AGC. Video copy control schemes such as Macrovision exploit this, inserting spikes in the pulse which will be ignored by most television sets, but cause a VCR's AGC to overcorrect and corrupt the recording.
+
+
+=== Vogad ===
+A voice-operated gain-adjusting device or volume-operated gain-adjusting device (vogad) is a type of AGC or compressor for microphone amplification. It is usually used in radio transmitters to prevent overmodulation and to reduce the dynamic range of the signal which allows increasing average transmitted power. In telephony, this device takes a wide variety of input amplitudes and produces a generally consistent output amplitude.
+In its simplest form, a limiter can consist of a pair of back-to-back clamp diodes, which simply shunt excess signal amplitude to ground when the diode conduction threshold is exceeded. This approach will simply clip off the top of large signals, leading to high levels of distortion.
+While clipping limiters are often used as a form of last-ditch protection against overmodulation, a properly designed vogad circuit actively controls the amount of gain to optimise the modulation depth in real time. As well as preventing overmodulation, it boosts the level of quiet signals so that undermodulation is also avoided. Undermodulation can lead to poor signal penetration in noisy conditions, consequently vogad is particularly important for voice applications such as radiotelephones.
+A good vogad circuit must have a very fast attack time, so that an initial loud voice signal does not cause a sudden burst of excessive modulation. In practice the attack time will be a few milliseconds, so a clipping limiter is still sometimes needed to catch the signal on these short peaks. A much longer decay time is usually employed, so that the gain does not get boosted too quickly during the normal pauses in natural speech. Too short a decay time leads to the phenomenon of "breathing" where the background noise level gets boosted at each gap in the speech. Vogad circuits are normally adjusted so that at low levels of input the signal is not fully boosted, but instead follow a linear boost curve. This works well with noise cancelling microphones.
+
+
+=== Telephone recording ===
+Devices to record both sides of a telephone conversation must record both the relatively large signal from the local user and the much smaller signal from the remote user at comparable loudnesses. Some telephone recording devices incorporate automatic gain control to produce acceptable-quality recordings.
+
+
+=== Biological ===
+As is the case with many concepts found in engineering, automatic gain control is also found in biological systems, especially sensory systems. For example, in the vertebrate visual system, calcium dynamics in the retinal photoreceptors adjust gain to suit light levels. Further on in the visual system, cells in V1 are thought to mutually inhibit, causing normalization of responses to contrast, a form of automatic gain control. Similarly, in the auditory system, the olivocochlear efferent neurons are part of a bio-mechanical gain control loop.
+
+
+== See also ==
+Companding
+Dynamic range compression
+Gain compression
+Phase-locked loop
+Squelch
+Glossary of video terms
+
+
+== References ==

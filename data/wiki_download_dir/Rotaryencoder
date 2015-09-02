@@ -1,0 +1,145 @@
+Rotary encoder
+A rotary encoder, also called a shaft encoder, is an electro-mechanical device that converts the angular position or motion of a shaft or axle to an analog or digital code.
+There are two main types: absolute and incremental (relative). The output of absolute encoders indicates the current position of the shaft, making them angle transducers. The output of incremental encoders provides information about the motion of the shaft, which is typically further processed elsewhere into information such as speed, distance, and position.
+Rotary encoders are used in many applications that require precise shaft unlimited rotation—including industrial controls, robotics, special purpose photographic lenses, computer input devices (such as optomechanical mice and trackballs), controlled stress rheometers, and rotating radar platforms.
+
+
+== Encoder technologies ==
+Conductive. A series of circumferential copper tracks etched onto a PCB is used to encode the information. Contact brushes sense the conductive areas. This form of encoder is now rarely seen except as a user input in digital multimeters.
+Optical. This uses a light shining onto a photodiode through slits in a metal or glass disc. Reflective versions also exist. This is one of the most common technologies. Optical encoders are very sensitive to dust.
+On Axis Magnetic. This technology typically uses a specially magnetized 2 pole neodymium magnet the same size as the motor shaft that typically requires a custom motor shaft be used. The accuracy is very bad and does not allow many resolution options. This technology does not typically offer UVW or Z pulse outputs. Due to the 2 pole magnet there is lots of jitter on the output due to the internal interpolation.
+Off Axis Magnetic. This technology typically employs the use of rubber bonded ferrite magnets attached to a metal hub. This offers flexibility in design and low cost for custom applications. Due to the flexibility in many off axis encoder chips they can be programmed to accept any number of pole widths so the chip can be placed in any position required for the application. Magnetic encoders operate in harsh environments where optical encoders would fail to work.
+
+
+== Absolute and incremental encoders ==
+An "absolute" encoder maintains position information when power is removed from the system. The position of the encoder is available immediately on applying power. The relationship between the encoder value and the physical position of the controlled machinery is set at assembly; the system does not need to return to a calibration point to maintain position accuracy. An "incremental" encoder accurately records changes in position, but does not power up with a fixed relation between encoder state and physical position. Devices controlled by incremental encoders may have to "go home" to a fixed reference point to initialize the position measurement. A multi-turn absolute rotary encoder includes additional code wheels and gears. A high-resolution wheel measures the fractional rotation, and lower-resolution geared code wheels record the number of whole revolutions of the shaft.
+An absolute encoder has multiple code rings with various binary weightings which provide a data word representing the absolute position of the encoder within one revolution. This type of encoder is often referred to as a parallel absolute encoder.
+An incremental encoder works differently by providing an A and a B pulse output that provide no usable count information in their own right. Rather, the counting is done in the external electronics. The point where the counting begins depends on the counter in the external electronics and not on the position of the encoder. To provide useful position information, the encoder position must be referenced to the device to which it is attached, generally using an index pulse. The distinguishing feature of the incremental encoder is that it reports an incremental change in position of the encoder to the counting electronics.
+
+
+== Absolute rotary encoder ==
+
+
+=== Construction ===
+Digital absolute encoders produce a unique digital code for each distinct angle of the shaft. They come in two basic types: optical and mechanical.
+
+
+=== Mechanical absolute encoders ===
+A metal disc containing a set of concentric rings of openings is fixed to an insulating disc, which is rigidly fixed to the shaft. A row of sliding contacts is fixed to a stationary object so that each contact wipes against the metal disc at a different distance from the shaft. As the disc rotates with the shaft, some of the contacts touch metal, while others fall in the gaps where the metal has been cut out. The metal sheet is connected to a source of electric current, and each contact is connected to a separate electrical sensor. The metal pattern is designed so that each possible position of the axle creates a unique binary code in which some of the contacts are connected to the current source (i.e. switched on) and others are not (i.e. switched off).
+Because brush-type contacts are susceptible to wear, encoders using contacts are not common; they can be found in low-speed applications such as manual volume or tuning controls in a radio receiver.
+
+
+=== Optical absolute encoders ===
+The optical encoder's disc is made of glass or plastic with transparent and opaque areas. A light source and photo detector array reads the optical pattern that results from the disc's position at any one time.
+This code can be read by a controlling device, such as a microprocessor or microcontroller to determine the angle of the shaft.
+The absolute analog type produces a unique dual analog code that can be translated into an absolute angle of the shaft.
+
+
+=== Magnetic absolute encoders ===
+The magnetic encoder uses a series of magnetic poles (2 or more) to represent the encoder position to a magnetic sensor (typically magneto-resistive or Hall Effect). The magnetic sensor reads the magnetic pole positions.
+This code can be read by a controlling device, such as a microprocessor or microcontroller to determine the angle of the shaft, similar to an optical encoder.
+The absolute analog type produces a unique dual analog code that can be translated into an absolute angle of the shaft (by using a special algorithm).
+
+
+=== Capacitive absolute encoders ===
+An asymmetrical shaped disc is rotated within the encoder. This disc will change the Capacitance between two electrodes which can be measured and calculated back to an angular value 
+
+
+== Absolute multi-turn encoder ==
+A multi-turn encoder can detect and store more than one revolution. The term absolute multi-turn encoder is generally used if the encoder will detect movements of its shaft even if the encoder is not provided with external power.
+
+
+=== Battery-powered multi-turn encoder ===
+This type of encoder uses a battery for retaining the counts across power cycles. It uses energy conserving electrical design to detect movements.
+
+
+=== Geared multi-turn encoder ===
+These encoders uses a train of gears to mechanically store the number of revolutions. The position of the single gears is detected with one of the above-mentioned technologies.
+
+
+=== Self-powered multi-turn encoder ===
+Theses encoders use the principle of energy harvesting to generate energy from the moving shaft. This principle, introduced in 2007, uses a Wiegand Sensor to produce electricity sufficient to power the encoder and write the turns count to non-volatile memory.
+
+
+== Ways of encoding shaft position ==
+
+
+=== Standard binary encoding ===
+
+An example of a binary code, in an extremely simplified encoder with only three contacts, is shown below.
+In general, where there are n contacts, the number of distinct positions of the shaft is 2n. In this example, n is 3, so there are 2³ or 8 positions.
+In the above example, the contacts produce a standard binary count as the disc rotates. However, this has the drawback that if the disc stops between two adjacent sectors, or the contacts are not perfectly aligned, it can be impossible to determine the angle of the shaft. To illustrate this problem, consider what happens when the shaft angle changes from 179.9° to 180.1° (from sector 3 to sector 4). At some instant, according to the above table, the contact pattern changes from off-on-on to on-off-off. However, this is not what happens in reality. In a practical device, the contacts are never perfectly aligned, so each switches at a different moment. If contact 1 switches first, followed by contact 3 and then contact 2, for example, the actual sequence of codes is:
+off-on-on (starting position)
+on-on-on (first, contact 1 switches on)
+on-on-off (next, contact 3 switches off)
+on-off-off (finally, contact 2 switches off)
+Now look at the sectors corresponding to these codes in the table. In order, they are 3, 7, 6 and then 4. So, from the sequence of codes produced, the shaft appears to have jumped from sector 3 to sector 7, then gone backwards to sector 6, then backwards again to sector 4, which is where we expected to find it. In many situations, this behaviour is undesirable and could cause the system to fail. For example, if the encoder were used in a robot arm, the controller would think that the arm was in the wrong position, and try to correct the error by turning it through 180°, perhaps causing damage to the arm.
+
+
+=== Gray encoding ===
+
+To avoid the above problem, Gray coding is used. This is a system of binary counting in which any two adjacent codes differ by only one bit position. For the three-contact example given above, the Gray-coded version would be as follows.
+In this example, the transition from sector 3 to sector 4, like all other transitions, involves only one of the contacts changing its state from on to off or vice versa. This means that the sequence of incorrect codes shown in the previous illustration cannot happen.
+
+
+=== Single-track Gray encoding ===
+If the designer moves a contact to a different angular position (but at the same distance from the center shaft), then the corresponding "ring pattern" needs to be rotated the same angle to give the same output. If the most significant bit (the inner ring in Figure 1) is rotated enough, it exactly matches the next ring out. Since both rings are then identical, the inner ring can be omitted, and the sensor for that ring moved to the remaining, identical ring (but offset at that angle from the other sensor on that ring). Those two sensors on a single ring make a quadrature encoder with a single ring.
+It is possible to arrange several sensors around a single track (ring) so that consecutive positions differ at only a single sensor; the result is the single-track Gray code encoder.
+
+
+=== Absolute encoder output techniques ===
+In commercial absolute encoders there are several techniques for transmission of absolute encoder data, including parallel binary, analog current, analog voltage, PWM, SSI, BiSS interface, ISI, Profibus, Profinet, Ethernet Powerlink, EtherNet TCP/IP, Modbus, DeviceNet, CANopen, EtherCAT, Endat and Hiperface, depending on the manufacturer of the device.
+
+
+== Incremental rotary encoder ==
+
+An incremental rotary encoder provides cyclical outputs (only) when the encoder is rotated. They can be either mechanical or optical. The mechanical type requires debouncing and is typically used as digital potentiometers on equipment including consumer devices. Most modern home and car stereos use mechanical rotary encoders for volume control. Due to the fact the mechanical switches require debouncing, the mechanical type are limited in the rotational speeds they can handle. The incremental rotary encoder is the most widely used of all rotary encoders due to its low cost and ability to provide signals that can be easily interpreted to provide motion related information such as velocity.
+The fact that incremental encoders use only two sensors does not compromise their resolution. One can find in the market incremental encoders with up to 10,000 counts per revolution, or more.
+There can be an optional third output: reference or "index", which happens once every turn. This is used when there is the need of an absolute reference, such as positioning systems. The index output is usually labeled Z.
+The optical type is used when higher speeds are encountered or a higher degree of precision is required.
+Incremental encoders are used to track motion and can be used to determine position and velocity. This can be either linear or rotary motion. Because the direction can be determined, very accurate measurements can be made.
+They employ two outputs called A & B, which are called quadrature outputs, as they are 90 degrees out of phase.
+The state diagram:
+
+The two output wave forms are 90 degrees out of phase, which is what quadrature means. These signals are decoded to produce a count up pulse or a count down pulse. For decoding in software, the A & B outputs are read by software, either via an interrupt on any edge or polling, and the above table is used to decode the direction. For example, if the last value was 00 and the current value is 01, the device has moved one half step in the clockwise direction. The mechanical types would be debounced first by requiring that the same (valid) value be read a certain number of times before recognizing a state change.
+On encoders with detents there are different ways to switch states. In some, both A and B are always open circuit at the detents, and an entire 00 → 00 switching cycle occurs while transitioning from one detent to the next. Others have detents of alternating 00 and 11 value, with staggered switching times during the transition between detents.
+
+Additionally some incremental encoders output a “Z” signal. Once every rotation, this Z signal is rising for typically 90°, on the exact same position. This can be used as an accurate reference point. Some incremental encoders also have additional differential signals, called “/A”, “/B” and “/Z”. These signals are inverted “A”, “B” and “Z” signals. Controllers can compare each pair (“A” must be equal to inverted “/A”) to ensure that there is no error during the transmission.
+An observer, such as a microprocessor, will read (sample) the output of the encoder. The observer needs to sample the encoder output often enough so it does not miss any code changes. If the encoder turns too fast, then the observer may miss an encoder output change, so the observer will see an invalid transition, such as 00 → 11, and be confused. For that transition, the observer does not know which way the encoder turned: it may have gone forward (00 → 01 → 11) or backward (00 → 10 → 11). If the encoder is turning even faster, then multiple output changes could be missed, and the observer may get the direction wrong. Consider the moving forward sequence 00 → 01 → 11 → 10 (3 steps forward). If the encoder is turning too fast, the observer may see only the first (00) and fourth (10) outputs and conclude the encode made a legal 00 → 10 transition (1 step backward).
+This same principle is used in ball mice to track whether the mouse is moving to the right/left or forward/backward.
+Rotary encoders with a single output (i.e. pulsers) cannot be used to sense direction of motion. They are well-suited for systems that measure rate-of-movement variables. In certain applications they may be used to measure distance of motion (e.g. feet of movement).
+
+
+== Sine wave encoder ==
+A variation on the Incremental encoder is the sine wave encoder. Instead of producing two quadrature square waves, the outputs are quadrature sine waves (a sine and a cosine). By performing the arctangent function, arbitrary levels of resolution can be achieved.
+
+
+== Use in industry ==
+
+
+=== Encoders used on servomotors ===
+Rotary encoders are often used to track the position of the motor shaft on permanent magnet brushless motors, which are commonly used on CNC machines, robots, and other industrial equipment. Incremental (Quadrature) encoders are used on Induction Motor type servomotors, but absolute encoders are used in Permanent Magnet Brushless Motors, where applicable. In these applications, the feedback device (encoder) plays a vital role in ensuring that the equipment operates properly. The encoder synchronizes the relative rotor magnet and stator winding positions to the current provided by the drive. Maximum torque results if the current is applied to the windings when the rotor magnets are in a particular position range relative to the stator windings. The motor will perform poorly or not at all if this timing is not adjusted correctly. Improper encoder alignment on the motor can actually cause it to run backwards sometimes resulting in a hazardous run away condition. Correct alignment is essential to proper operation of these motors.
+
+
+== Encoder technologies ==
+
+Encoders may be implemented using a variety of technologies:
+Conductive. A series of circumferential copper tracks etched onto a PCB is used to encode the information. Contact brushes sense the conductive areas. This form of encoder is now rarely seen except as a user input in digital multimeters.
+Optical. This uses a light shining onto a photodiode through slits in a metal or glass disc. Reflective versions also exist. This is one of the most common technologies.
+Magnetic. Strips of magnetised material are placed on the rotating disc and are sensed by a Hall-effect sensor or magnetoresistive sensor. Hall effect sensors are also used to sense gear teeth directly, without the need for a separate encoder disc.
+
+
+== See also ==
+Analogue devices that perform a similar function include the synchro, the resolver, the rotary variable differential transformer (RVDT), and the rotary potentiometer.
+A linear encoder is similar to a rotary encoder, but measures position in a straight line, rather than rotation. Linear encoders often use incremental encoding and are used in many machine tools.
+
+
+== References ==
+
+
+== External links ==
+"Choosing a code wheel: A detailed look at how encoders work" article by Steve Trahey 2008-03-25 describes "rotary encoders".
+"Encoders provide a sense of place" article by Jack Ganssle 2005-07-19 describes "nonlinear encoders".
+"Robot Encoders".
+Introductory Tutorial on PWM and Quadrature Encoding.
+ProtoTalk.net - Understanding Quadrature Encoding - Covers details of rotary and quadrature encoding with a focus on robotic applications.

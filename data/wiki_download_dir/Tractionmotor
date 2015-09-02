@@ -1,0 +1,77 @@
+Traction motor
+A traction motor is an electric motor used for propulsion of a vehicle, such as an electric locomotive or electric roadway vehicle.
+Traction motors are used in electrically powered rail vehicles such as electric multiple units and other electric vehicles such as electric milk floats, elevators, conveyors, and trolleybuses, as well as vehicles with electrical transmission systems such as diesel-electric, electric hybrid vehicles and battery electric vehicles.
+
+
+== Motor types and control ==
+Direct-current motors with series field windings were the oldest type of traction motors. These provided a speed-torque characteristic useful for propulsion, providing high torque at lower speeds for acceleration of the vehicle, and declining torque as speed increased. By arranging the field winding with multiple taps, the speed characteristic could be varied, allowing relatively smooth operator control of acceleration. A further measure of control was provided by using pairs of motors on a vehicle; for slow operation or heavy loads, two motors could be run in series off the direct current supply. Where higher speed was desired, the motors could be operated in parallel, making a higher voltage available at each and so allowing higher speeds. Parts of a rail system might use different voltages, with higher voltages in long runs between stations and lower voltage near stations where slower operation would be useful.
+A variant of the DC system was the AC operated series motor, which is essentially the same device but operated on alternating current. Since both the armature and field current reverse at the same time, the behavior of the motor is similar to that when energized with direct current. To achieve better operating conditions, AC railways were often supplied with current at a lower frequency than the commercial supply used for general lighting and power; special traction current power stations were used, or rotary converters used to convert 50 or 60 Hz commercial power to the 16 2/3 Hz frequency used for AC traction motors. The AC system allowed efficient distribution of power down the length of a rail line, and also permitted speed control with switchgear on the vehicle.
+AC induction motors and synchronous motors are simple and low maintenance, but are awkward to apply for traction motors because of their fixed speed characteristic. An AC induction motor only generates useful amounts of power over a narrow speed range determined by its construction and the frequency of the AC power supply. The advent of power semiconductors has made it possible to fit a variable frequency drive on a locomotive; this allows a wide range of speeds, AC power transmission, and rugged induction motors without wearing parts like brushes and commutators. 
+
+
+== Transportation applications ==
+
+
+=== Road vehicles ===
+
+Traditionally road vehicles (cars, buses and trucks) have used diesel and petrol engines with a mechanical or hydraulic transmission system. In the latter part of the 20th century, vehicles with electrical transmission systems (powered from internal combustion engines, batteries or fuel cells) began to be developed—one advantage of using electric motors is that specific types can regenerate energy (i.e. act as a regenerative brake)—providing braking as well as increasing overall efficiency.
+
+
+=== Railways ===
+
+Traditionally, these were series-wound brushed DC motors, usually running on approximately 600 volts. The availability of high-powered semiconductors (such as thyristors and the IGBT) has now made practical the use of much simpler, higher-reliability AC induction motors known as asynchronous traction motors. Synchronous AC motors are also occasionally used, as in the French TGV.
+
+
+==== Mounting of motors ====
+Before the mid-20th century, a single large motor was often used to drive multiple driving wheels through connecting rods that were very similar to those used on steam locomotives. Examples are the Pennsylvania Railroad DD1, FF1 and L5 and the various Swiss Crocodiles. It is now standard practice to provide one traction motor driving each axle through a gear drive.
+
+Usually, the traction motor is three-point suspended between the bogie frame and the driven axle; this is referred to as a "nose-suspended traction motor". The problem with such an arrangement is that a portion of the motor's weight is unsprung, increasing unwanted forces on the track. In the case of the famous Pennsylvania Railroad GG1, two bogie-mounted motors drove each axle through a quill drive. The "Bi-Polar" electric locomotives built by General Electric for the Milwaukee Road had direct drive motors. The rotating shaft of the motor was also the axle for the wheels. In the case of French TGV power cars, a motor mounted to the power car’s frame drives each axle; a "tripod" drive allows a small amount of flexibility in the drive train allowing the trucks bogies to pivot. By mounting the relatively heavy traction motor directly to the power car's frame rather than to the bogie, better dynamics are obtained allowing better high-speed operation.
+
+
+==== Windings ====
+The DC motor was the mainstay of electric traction drives on both electric and diesel-electric locomotives, street-cars/trams and diesel electric drilling rigs for many years. It consists of two parts, a rotating armature and fixed field windings surrounding the rotating armature mounted around a shaft. The fixed field windings consist of tightly wound coils of wire fitted inside the motor case. The armature is another set of coils wound round a central shaft and is connected to the field windings through "brushes" which are spring-loaded contacts pressing against an extension of the armature called the commutator. The commutator collects all the terminations of the armature coils and distributes them in a circular pattern to allow the correct sequence of current flow. When the armature and the field windings are connected in series, the whole motor is referred to as "series-wound". A series-wound DC motor has a low resistance field and armature circuit. Because of this, when voltage is applied to it, the current is high due to Ohm's law. The advantage of high current is that the magnetic fields inside the motor are strong, producing high torque (turning force), so it is ideal for starting a train. The disadvantage is that the current flowing into the motor has to be limited, otherwise the supply could be overloaded or the motor and its cabling could be damaged. At best, the torque would exceed the adhesion and the driving wheels would slip. Traditionally, resistors were used to limit the initial current.
+
+
+==== Power control ====
+As the DC motor starts to turn,interaction of the magnetic fields inside causes it to generate a voltage internally. This back EMF (electromotive force) opposes the applied voltage and the current that flows is governed by the difference between the two. As the motor speeds up, the internally generated voltage rises, the resultant EMF falls, less current passes through the motor and the torque drops. The motor naturally stops accelerating when the drag of the train matches the torque produced by the motors. To continue accelerating the train, series resistors are switched out step by step, each step increasing the effective voltage and thus the current and torque for a little bit longer until the motor catches up. This can be heard and felt in older DC trains as a series of clunks under the floor, each accompanied by a jerk of acceleration as the torque suddenly increases in response to the new surge of current. When no resistors are left in the circuit, full line voltage is applied directly to the motor. The train's speed remains constant at the point where the torque of the motor, governed by the effective voltage, equals the drag - sometimes referred to as balancing speed. If the train starts to climb an incline, the speed reduces because drag is greater than torque and the reduction in speed causes the back-EMF to fall and thus the effective voltage to rise - until the current through the motor produces enough torque to match the new drag. The use of series resistance was wasteful because a lot of energy was lost as heat. To reduce these losses, electric locomotives and trains (before the advent of power electronics) were normally equipped for series-parallel control as well.
+
+
+==== Dynamic braking ====
+If the train starts to descend a grade, the speed increases because the (reduced) drag is less than the torque. With increased speed, the internally generated back-EMF voltage rises, reducing the torque until the torque again balances the drag. Because the field current is reduced by the back-EMF in a series wound motor, there is no speed at which the back-EMF will exceed the supply voltage, and therefore a single series wound DC traction motor alone cannot provide dynamic or regenerative braking.
+There are, however various schemes applied to provide a retarding force using the traction motors. The energy generated may be returned to the supply (regenerative braking), or dissipated by on board resistors (dynamic braking). Such a system can bring the load to a low speed, requiring relatively little friction braking to bring the load to a full stop.
+
+
+==== Automatic acceleration ====
+On an electric train, the train driver originally had to control the cutting out of resistance manually, but by 1914, automatic acceleration was being used. This was achieved by an accelerating relay (often called a "notching relay") in the motor circuit which monitored the fall of current as each step of resistance was cut out. All the driver had to do was select low, medium or full speed (called "series", "parallel" and "shunt" from the way the motors were connected in the resistance circuit) and the automatic equipment would do the rest.
+
+
+== Rating ==
+Electric locomotives usually have a continuous and a one-hour rating. The one-hour rating is the maximum power that the motors can continuously develop over a one hour period without overheating the motors. Such a test starts with the motors at +25 deg. C (and the outside air used for ventilation also at +25 deg. C). In the USSR per GOST 2582-72 with class N insulation, the maximum temperatures allowed for DC motors were 160 deg.C for the armature, 180 deg.C for the stator, and 105 deg.C for the collector. The one-hour rating is typically about ten percent higher than the continuous rating, and limited by the temperature rise in the motor.
+In diesel-electric and gas turbine-electric locomotives, the horsepower rating of the traction motors is usually around 81% that of the prime mover. This assumes that the electrical generator converts 90% of the engine's output into electrical energy and the traction motors convert 90% of this electrical energy back into mechanical energy. Calculation: 90% × 90% = 81%.
+Individual traction motor ratings usually range up 1,600 kW (2,144 hp)
+
+
+== Cooling ==
+Because of the high power levels involved, traction motors are almost always cooled using forced air.
+
+
+== Manufacturers ==
+
+
+== See also ==
+
+
+== References ==
+
+
+== Bibliography ==
+British Railways (1962). "Section 13: Traction Control". Diesel Traction Manual for Enginemen (1st ed.). British Transport Commission. pp. 172–189. 
+Bolton, William F. (1963). The Railwayman's Diesel Manual (4th ed.). pp. 107–111,184–190. 
+
+
+== External links ==
+"Deconstructing a traction motor - Associated Rewinds (Ireland) Limited"
+Image of a nose mounted traction motor on an R46 New York City Subway car. The motor can be clearly seen behind the axle with the gear box with the writing on it in the center.
+Another nose mounted traction motor on a wrecked R38 Subway car.
+Coney Island Truck Repair shop; many pictures regarding traction motors
+Detached truck with Traction Motors.

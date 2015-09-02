@@ -1,0 +1,47 @@
+Active noise control
+Active noise control (ANC), also known as noise cancellation, or active noise reduction (ANR), is a method for reducing unwanted sound by the addition of a second sound specifically designed to cancel the first.
+
+
+== Explanation ==
+Sound is a pressure wave, which consists of alternating periods of compression and rarefaction. A noise-cancellation speaker emits a sound wave with the same amplitude but with inverted phase (also known as antiphase) to the original sound. The waves combine to form a new wave, in a process called interference, and effectively cancel each other out - an effect which is called destructive interference.
+Modern active noise control is generally achieved through the use of analog circuits or digital signal processing. Adaptive algorithms are designed to analyze the waveform of the background aural or nonaural noise, then based on the specific algorithm generate a signal that will either phase shift or invert the polarity of the original signal. This inverted signal (in antiphase) is then amplified and a transducer creates a sound wave directly proportional to the amplitude of the original waveform, creating destructive interference. This effectively reduces the volume of the perceivable noise.
+A noise-cancellation speaker may be co-located with the sound source to be attenuated. In this case it must have the same audio power level as the source of the unwanted sound. Alternatively, the transducer emitting the cancellation signal may be located at the location where sound attenuation is wanted (e.g. the user's ear). This requires a much lower power level for cancellation but is effective only for a single user. Noise cancellation at other locations is more difficult as the three-dimensional wavefronts of the unwanted sound and the cancellation signal could match and create alternating zones of constructive and destructive interference, reducing noise in some spots while doubling noise in others. In small enclosed spaces (e.g. the passenger compartment of a car) global noise reduction can be achieved via multiple speakers and feedback microphones, and measurement of the modal responses of the enclosure.
+
+
+== Applications ==
+Applications can be "1-dimensional" or 3-dimensional, depending on the type of zone to protect. Periodic sounds, even complex ones, are easier to cancel than random sounds due to the repetition in the wave form.
+Protection of a "1-dimension zone" is easier and requires only one or two microphones and speakers to be effective. Several commercial applications have been successful: noise-cancelling headphones, active mufflers, and the control of noise in air conditioning ducts. The term "1-dimension" refers to a simple pistonic relationship between the noise and the active speaker (mechanical noise reduction) or between the active speaker and the listener (headphones).
+Protection of a 3-dimension zone requires many microphones and speakers, making it more expensive. Each of the speakers tends to interfere with nearby speakers, reducing the system's overall performance. Noise reduction is more easily achieved with a single listener remaining stationary but if there are multiple listeners or if the single listener turns his head or moves throughout the space then the noise reduction challenge is made much more difficult. High frequency waves are difficult to reduce in three dimensions due to their relatively short audio wavelength in air. The wavelength in air of sinusoidal noise at approximately 800 Hz is double the distance of the average person's left ear to the right ear; such a noise coming directly from the front will be easily reduced by an active system but coming from the side will tend to cancel at one ear while being reinforced at the other, making the noise louder, not softer. High frequency sounds above 1000 Hz tend to cancel and reinforce unpredictably from many directions. In sum, the most effective noise reduction in three-dimensional space involves low frequency sounds. Commercial applications of 3-D noise reduction include the protection of aircraft cabins and car interiors, but in these situations, protection is mainly limited to the cancellation of repetitive (or periodic) noise such as engine-, propeller- or rotor-induced noise. This is because an engine's cyclic nature makes fast Fourier transform analysis and the noise cancellation easier to apply.
+
+
+== Active vs. passive noise control ==
+Noise control is an active or passive means of reducing sound emissions, often for personal comfort, environmental considerations or legal compliance. Active noise control is sound reduction using a power source. Passive noise control is sound reduction by noise-isolating materials such as insulation, sound-absorbing tiles, or a muffler rather than a power source.
+Active noise canceling is best suited for low frequencies. For higher frequencies, the spacing requirements for free space and zone of silence techniques become prohibitive. In acoustic cavity and duct based systems, the number of modes grows rapidly with increasing frequency, which quickly makes active noise control techniques unmanageable. Passive treatments become more effective at higher frequencies and often provide an adequate solution without the need for active control.
+
+
+== History ==
+1934 - The first patent for a noise control system was granted to inventor Paul Lueg U.S. Patent 2,043,416. The patent described how to cancel sinusoidal tones in ducts by phase-advancing the wave and cancelling arbitrary sounds in the region around a loudspeaker by inverting the polarity.
+1950s - With U.S. Patent 2,866,848, U.S. Patent 2,920,138, U.S. Patent 2,966,549 by Lawrence J. Fogel, systems were created to cancel the noise in helicopter and airplane cockpits.
+1957 - Willard Meeker developed a paper design and working model of active noise control applied to a circumaural earmuff. This headset had an active attenuation bandwidth of approximately 50–500 Hz, with a maximum attenuation of approximately 20 dB.
+1986 - Dick Rutan and Jeana Yeager used prototype headsets built by Bose in their around-the-world flight.
+2015 - During the Eurovision Song Contest 2015, boos were reported from the live audience inside Wiener Stadthalle whenever a country awarded points to Russia's entry, "A Million Voices", which was performed by Polina Gagarina. However, anti-booing technology using active noise controlwas installed inside the arena to prevent boos from being heard on television. It is scheduled to be used in future Eurovision events.
+
+
+== See also ==
+Noise-canceling microphone
+Active vibration control
+Noise control
+Noise-cancelling headphones
+Coherence (physics)
+
+
+== References ==
+
+
+== External links ==
+BYU physicists quiet fans in computers, office equipment
+Anti-Noise, Quieting the Environment with Active Noise Cancellation Technology, IEEE Potentials, April 1992
+Christopher E. Ruckman's ANC FAQ
+Noise-Canceling Headphones construction
+Principles and Experiments of an ANC for a computer box
+Waves of Silence: Digisonix, active noise control, and the digital revolution

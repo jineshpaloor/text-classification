@@ -1,0 +1,41 @@
+Equivalent circuit
+In electrical engineering and science, an equivalent circuit refers to a theoretical circuit that retains all of the electrical characteristics of a given circuit. Often, an equivalent circuit is sought that simplifies calculation, and more broadly, that is a simplest form of a more complex circuit in order to aid analysis. In its most common form, an equivalent circuit is made up of linear, passive elements. However, more complex equivalent circuits are used that approximate the nonlinear behavior of the original circuit as well. These more complex circuits often are called macromodels of the original circuit. An example of a macromodel is the Boyle circuit for the 741 operational amplifier.
+Equivalent circuits can also be used to electrically describe and model either a) continuous materials or biological systems in which current does not actually flow in defined circuits, or, b) distributed reactances, such as found in electrical lines or windings, that do not represent actual discrete components. For example, a cell membrane can be modelled as a capacitance (i.e. the lipid bilayer) in parallel with resistance-DC voltage source combinations (i.e. ion channels powered by an ion gradient across the membrane).
+
+
+== Examples ==
+
+
+=== Thévenin and Norton equivalents ===
+One of linear circuit theory's most surprising properties relates to the ability to treat any two-terminal circuit no matter how complex as behaving as only a source and an impedance, which have either of two simple equivalent circuit forms:
+Thévenin equivalent - Any linear two-terminal circuit can be replaced by a single voltage source and a series impedance.
+Norton equivalent - Any linear two-terminal circuit can be replaced by a current source and a parallel impedance.
+However, the single impedance can be of arbitrary complexity (as a function of frequency) and may be irreducible to a simpler form.
+
+
+=== DC and AC equivalent circuits ===
+In linear circuits, due to the superposition principle, the output of a circuit is equal to the sum of the output due to its DC sources alone, and the output from its AC sources alone. Therefore, the DC and AC response of a circuit is often analyzed independently, using separate DC and AC equivalent circuits which have the same response as the original circuit to DC and AC currents respectively. The composite response is calculated by adding the DC and AC responses:
+A DC equivalent of a circuit can be constructed by replacing all capacitances with open circuits, inductances with short circuits, and reducing AC sources to zero (replacing AC voltage sources by short circuits and AC current sources by open circuits.)
+An AC equivalent circuit can be constructed by reducing all DC sources to zero (replacing DC voltage sources with short circuits and DC current sources with open circuits)
+This technique is often extended to small-signal nonlinear circuits like tube and transistor circuits, by linearizing the circuit about the DC bias point Q-point, using an AC equivalent circuit made by calculating the equivalent small signal AC resistance of the nonlinear components at the bias point.
+
+
+=== Two-port networks ===
+
+Linear four-terminal circuits in which a signal is applied to one pair of terminals and an output is taken from another, are often modeled as two-port networks. These can be represented by simple equivalent circuits of impedances and dependent sources. To be analyzed as a two port network the currents applied to the circuit must satisfy the port condition: the current entering one terminal of a port must be equal to the current leaving the other terminal of the port. By linearizing a nonlinear circuit about its operating point, such a two-port representation can be made for transistors: see hybrid pi and h-parameter circuits.
+
+
+=== Delta and Wye circuits ===
+In three phase power circuits, three phase sources and loads can be connected in two different ways, called a "delta" connection and a "wye" connection. In analyzing circuits, sometimes it simplifies the analysis to convert between equivalent wye and delta circuits. This can be done with the wye-delta transform.
+
+
+== See also ==
+Equivalent impedance transforms
+Miller theorem
+
+
+== References ==
+^ a b Johnson, D.H. (2003a). "Origins of the equivalent circuit concept: the voltage-source equivalent" (PDF). Proceedings of the IEEE 91 (4): 636–640. doi:10.1109/JPROC.2003.811716. 
+^ Richard C. Dorf (1997). The Electrical Engineering Handbook. New York: CRC Press. Fig. 27.4, p. 711. ISBN 0-8493-8574-1. 
+^ Johnson, D.H. (2003b). "Origins of the equivalent circuit concept: the current-source equivalent" (PDF). Proceedings of the IEEE 91 (5): 817–821. doi:10.1109/JPROC.2003.811795. 
+^ P.R. Gray, P.J. Hurst, S.H. Lewis, and R.G. Meyer (2001). Analysis and Design of Analog Integrated Circuits (Fourth ed.). New York: Wiley. pp. §3.2, p. 172. ISBN 0-471-32168-0.

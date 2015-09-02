@@ -1,0 +1,50 @@
+Static VAR compensator
+A static VAR compensator is a set of electrical devices for providing fast-acting reactive power on high-voltage electricity transmission networks. SVCs are part of the Flexible AC transmission system  device family, regulating voltage, power factor, harmonics and stabilizing the system. Unlike a synchronous condenser which is a rotating electrical machine, a static VAR compensator has no significant moving parts (other than internal switchgear). Prior to the invention of the SVC, power factor compensation was the preserve of large rotating machines such as synchronous condensers or switched capacitor banks.
+The SVC is an automated impedance matching device, designed to bring the system closer to unity power factor. SVCs are used in two main situations:
+Connected to the power system, to regulate the transmission voltage ("Transmission SVC")
+Connected near large industrial loads, to improve power quality ("Industrial SVC")
+In transmission applications, the SVC is used to regulate the grid voltage. If the power system's reactive load is capacitive (leading), the SVC will use thyristor controlled reactors to consume VARs from the system, lowering the system voltage. Under inductive (lagging) conditions, the capacitor banks are automatically switched in, thus providing a higher system voltage. By connecting the thyristor-controlled reactor, which is continuously variable, along with a capacitor bank step, the net result is continuously variable leading or lagging power.
+In industrial applications, SVCs are typically placed near high and rapidly varying loads, such as arc furnaces, where they can smooth flicker voltage.
+
+
+== Description ==
+
+
+=== Principle ===
+Typically, an SVC comprises one or more banks of fixed or switched shunt capacitors or reactors, of which at least one bank is switched by thyristors. Elements which may be used to make an SVC typically include:
+Thyristor controlled reactor (TCR), where the reactor may be air- or iron-cored
+Thyristor switched capacitor (TSC)
+Harmonic filter(s)
+Mechanically switched capacitors or reactors (switched by a circuit breaker)
+
+By means of phase angle modulation switched by the thyristors, the reactor may be variably switched into the circuit and so provide a continuously variable MVAR injection (or absorption) to the electrical network. In this configuration, coarse voltage control is provided by the capacitors; the thyristor-controlled reactor is to provide smooth control. Smoother control and more flexibility can be provided with thyristor-controlled capacitor switching.
+
+The thyristors are electronically controlled. Thyristors, like all semiconductors, generate heat and deionized water is commonly used to cool them. Chopping reactive load into the circuit in this manner injects undesirable odd-order harmonics and so banks of high-power filters are usually provided to smooth the waveform. Since the filters themselves are capacitive, they also export MVARs to the power system.
+More complex arrangements are practical where precise voltage regulation is required. Voltage regulation is provided by means of a closed-loop controller. Remote supervisory control and manual adjustment of the voltage set-point are also common.
+
+
+=== Connection ===
+Generally, static VAR compensation is not done at line voltage; a bank of transformers steps the transmission voltage (for example, 230 kV) down to a much lower level (for example, 9.0 kV). This reduces the size and number of components needed in the SVC, although the conductors must be very large to handle the high currents associated with the lower voltage. In some static VAR compensators for industrial applications such as electric arc furnaces, where there may be an existing medium-voltage busbar present (for example at 33kV or 34.5kV), the static VAR compensator may be directly connected in order to save the cost of the transformer.
+Another common connection point for SVC is on the delta tertiary winding of Y-connected auto-transformers used to connect one transmission voltage to another voltage.
+The dynamic nature of the SVC lies in the use of thyristors connected in series and inverse-parallel, forming "thyristor valves"). The disc-shaped semiconductors, usually several inches in diameter, are usually located indoors in a "valve house".
+
+
+== Advantages ==
+The main advantage of SVCs over simple mechanically switched compensation schemes is their near-instantaneous response to changes in the system voltage. For this reason they are often operated at close to their zero-point in order to maximise the reactive power correction they can rapidly provide when required.
+They are, in general, cheaper, higher-capacity, faster and more reliable than dynamic compensation schemes such as synchronous condensers. However, static VAR compensators are more expensive than mechanically switched capacitors, so many system operators use a combination of the two technologies (sometimes in the same installation), using the static VAR compensator to provide support for fast changes and the mechanically switched capacitors to provide steady-state VARs.
+
+
+== See also ==
+Similar devices include the static synchronous compensator (STATCOM) and Unified Power Flow Controller (UPFC).
+
+
+== External links ==
+ALSTOM FACTS
+ABB FACTS
+http://www.amsc.com/products/transmissiongrid/static-VAR-compensators-SVC.html
+http://www.amsc.com/products/transmissiongrid/reactive-power-AC-transmission.html
+Siemens Flexible AC Transmission Systems (FACTS), Siemens, Energy Sector homepage
+Jema Energy FACTS
+
+
+== References ==

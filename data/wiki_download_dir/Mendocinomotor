@@ -1,0 +1,23 @@
+Mendocino motor
+The Mendocino motor is a solar-powered magnetically levitated electric motor.
+
+
+== Description ==
+The motor consists of a four-, five-, six- or eight-sided rotor block in the middle of a shaft. The rotor block has two sets of windings and a solar cell attached to each side. The shaft is positioned horizontally and has a magnet at each end. The magnets on the shaft provide levitation by repelling magnets in a base under the motor. This air friction bearing is required because a mendocino motor uses Lorentz Force without iron core. There is an additional magnet that sits under the rotor block and provides a magnetic field for the rotor. Other motors hide the base magnet in a tube.
+When light strikes one of the solar cells, it generates an electric current thus energizing one of the rotor windings. This produces a magnetic field which interacts with the field of the magnet under the rotor. This interaction causes the rotor to turn. As the rotor rotates, the next solar cell moves into the light and energizes the second winding, creating a current in an opposite direction to the first thus maintaining the rotation. This process repeats as the motor spins.
+At present, this is a novelty; it has a very low power output. Some motors even rotate in the shine of a tealight. Mostly the motor is used as technical decoration or as functional model.
+
+
+== History ==
+The idea of a light-commutated motor where solar cells power the individual coils of a motor has been first described by Daryl Chapin in an experiment kit from 1962 about solar energy. The kit was distributed by Bell Labs where Chapin together with his colleagues Calvin Fuller and Gerald Pearson had invented the modern solar cell eight years earlier in 1954. Instead of using magnetic levitation Chapin's version of the motor uses a glass cylinder on a needle point as a low-friction bearing.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Detailed description of construction
+a 3D printed version of a tiny Mendocino motor

@@ -1,0 +1,108 @@
+Zilog
+Zilog, Inc., previously known as ZiLOG, is an American manufacturer of 8-bit and 16-bit microcontrollers. Its most famous product is the Z80 series, 8-bit microprocessors that were compatible with the Intel 8080 but far less expensive. The Z80 was widely used during the 1980s in many popular home computers, notably the ZX81. 16 and 32-bit processors were also produced by the company, but these did not see widespread use. From the 1990s the company focused primarily on the microcontroller market.
+The name is an acronym for "Z (the last word in) integrated logic".
+
+
+== HistoryEdit ==
+Zilog was started in California in 1974 by Federico Faggin and Ralph Ungermann, who both left Intel after working on the 4004 and 8080 microprocessors and custom chips. Masatoshi Shima, who also worked with Faggin on the 4004 and 8080, joined Zilog in 1975. Ungermann had a falling out with Faggin and left Zilog in 1978. The company became a subsidiary of Exxon in 1980, but the management and employees bought it back in 1989, led by Dr. Edgar Sack.
+Zilog went public in 1991, but was acquired in 1998 by Texas Pacific Group. Curtis Crawford replaced Dr. Sack and changed the company's direction towards 32-bit Data Communications Processors. Bonds were sold against the company to fund the new developments, but after the Internet bubble burst in 2000 and the resultant reduction in customer demand for such products, Curtis Crawford was replaced by James (Jim) Thorburn, who reorganized the company under Chapter 11 bankruptcy in late 2001 and refocused it back to the 8- and 16-bit microcontroller market.
+Jim Thorburn led Zilog back into profitability, and by FY 2007, Zilog had $82 million in sales. During this time, the company developed the Z8 Encore! 8-bit Flash MCU and ZNEO 16-bit Flash MCU product families. In February 2007, Zilog hired Darin Billerbeck to replace Jim Thorburn as President and CEO.
+2007 was the last year Zilog introduced any new 8-bit microcontroller products. With no new product roadmap, FY2008 sales fell 20% to $67.2 million. Sales fell 46% in FY2009 to $36.2 million.
+In January 2008, Zilog declined an unsolicited proposal made by Universal Electronics Inc. to acquire the company.
+
+On February 19, 2009, Zilog announced that it had sold off its 8-bit Crimzon Universal Remote Control infrared microcontroller product line, as well as its ARM9 32-bit microcontrollers, including the Zatara security microcontrollers and 15 patents, to Maxim Integrated Products. Remote control manufacturer Universal Electronics Inc. purchased all of Zilog's software & IP assets related to Zilog's universal remote control business, including all ROM code, software, and database of infrared codes. Zilog sold these assets for $31 million cash, less than half the assets' real worth.
+In December 2009, IXYS Corporation bought the company for $62.4m in cash, which was significantly below the market valuation of Zilog's stock at the time. Details of the acquisition have been under investigation.
+Since early 2010, Zilog has refocused its efforts toward satisfying the industrial and consumer markets for motion detection, motor control, RF wireless and embedded security applications, and is currently producing a number of reference designs that integrate its 8- and 16-bit microcontrollers with IXYS power management products.
+In February 2012, Zilog announced the release of its Z8051 family of microcontrollers and toolsets to fill a vacancy in the developer market for 8051 cores that was created when chip-maker NXP exited the 8051 market. Later that year, Zilog announced its ZGATE Embedded Security solution, which incorporates its eZ80F91 MCU and TCP/IP stack with an embedded firewall to offer protection against cyber threats and attacks at the chip level.
+
+
+== ProductsEdit ==
+The Z80(i) was an improved implementation of the Intel 8080 architecture, which was faster, more capable, and much cheaper; alongside the 6502 it was one of the most popular 8-bit processors for general purpose microcomputers and other applications. It was used in the Nintendo Game Boy, the Sinclair ZX80, ZX81, ZX Spectrum and the Amstrad CPC home computers as well as the MSX architecture and the Microbee and Tandy TRS-80 series—among many others. More so than simply sparking improvements in the budding field of home computing and gaming, the Z-80 also sparked a revolution in electronic music, as the first truly programmable polyphonic synthesizers (as well as their peripherals) relied heavily on implementations of this CPU.
+Many Texas Instruments graphing calculators used the Z80 as the main processor, and the chip found continued use in some game consoles such as the Sega Mega Drive (Genesis in the United States) as a dedicated sound controller. The CP/M operating system (and its huge software library featuring hits like Wordstar and dBase) was known to be "the Z80 disk operating system", and its success is partly due to the popularity of the Z80.
+After the Z80 Zilog introduced the 16-bit Z8000 and 32-bit Z80000 processors, but these were not particularly successful, and the company refocused on the microcontroller market, producing both basic CPUs and application-specific integrated circuits/standard products (ASICs/ASSPs) built around a CPU core. As well as producing processors, Zilog has produced several other components. One of the most famous was the Zilog SCC serial communications controller as found on early Apple Macintosh, Sun SPARCstations and SPARCservers up to the SPARCstation 20.
+Zilog also formed a Systems Division, which designed the Zilog System 8000, a Z8000- or Z80000-based multiuser computer system running a Unix derivative called ZEUS (Zilog Enhanced UNIX System).
+Zilog attempted to enter the 32-bit microcontroller market in February 2006 with the demonstration of ARM9-based Point-Of-Sale (POS) microcontroller product line. The final product was released in 2007 called Zatara. Sales were disappointing and the entire ARM9 series was sold to Maxim Integrated Products in 2009.
+Zilog also produced Zdots single board computers. It includes Zilog eZ80AcclaimPlus controller, 1MiB flash memory, 512KiB SRAM, 10BaseT Ethernet Controller, IrDA transceiver, 2 x 60-pin system expansion interface with full MPU bus/control signals, RJ-45 Ethernet connector. Motion detection version includes Z8 Encore! XP MCU.
+
+
+=== Microprocessor familiesEdit ===
+Zilog Z80 (1976)
+Zilog Z8000 (ca 1978)
+Zilog Z800 (1985)
+Zilog Z80000 (late 1985)
+Zilog Z280 (early 1986)
+Zilog Z180 (late 1986)
+
+
+=== Microcontroller familiesEdit ===
+Zilog Z380 (1994)
+Zilog Z8 Encore!
+Zilog Z8 Encore! XP
+Zilog eZ80 (2001)
+Zilog eZ8 (2005)
+Zilog Z16F, ZNEO, 16-bit microcontroller (2006)
+Zilog Z8051 (2011)
+
+
+=== Communication controllersEdit ===
+Z8030/Z8530 SCC and Z80230/Z85230 ESCC USART chips
+Z16017/Z16M17/Z86017 PCMCIA adapter
+Z80382/Z8L382 microprocessor
+Z5380 SCSI protocol controller (based on NCR 5380)
+Z022 series single-chip modem
+
+
+==== Motion DetectionEdit ====
+ZEPIR0AAS02MODG - ZMOTION™ Motion Detection Module
+Z8FS040 ZMOTION™ MCU - Microcontroller with built-in motion detection algorithms
+Z8FS021A - ZMOTION™ Intrusion MCU - Microcontroller with built-in intrusion motion detection algorithms
+
+
+=== Digital Signal ProcessorEdit ===
+Z86295
+Z89 series
+
+
+=== TV controllersEdit ===
+Z90231
+Z90233
+Z90251
+Z90255
+
+
+==== Line 21 DecodersEdit ====
+Z86129/Z86130/Z86131
+Z86228/Z86229/Z86230
+
+
+==== Single board computersEdit ====
+Zdots eZ80F91
+
+
+== Executive ManagementEdit ==
+Dr. Nathan Zommer - Chairman & CEO of IXYS (parent company) and General Manager of Zilog
+Dan Eaton - Vice President & General Counsel
+Steve Darrough - Vice President, Worldwide Marketing
+Alan Shaw - Vice President, Operations
+David Staab - Vice President, R&D and MCU Architecture
+Kamlapati Khalsa - Vice President, MCU Engineering
+
+
+== See alsoEdit ==
+Applied Digital Data Systems
+LaFarr Stuart, Zilog's 4th employee
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Zilog website
+New Zilog Z8051 Microcontrollers
+The Future of 8-Bit Microcontrollers in In-Home Elderly Care
+Smart Energy in the Home: How MCUs provide an Intelligent Solution
+Autonomous Peripheral Interoperation in Sensorless BLDC Applications
+8-Bit MCU Relevancy in 2011
+Computers Still No Match for Human Intelligence: an interview with Zilog founder Federico Faggin
+Electronic Products Magazine features Zilog's Z16FMC Motor Control MCU
+New Zilog ZNEO 16-bit Single-Cycle CPU

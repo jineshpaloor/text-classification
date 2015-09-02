@@ -1,0 +1,33 @@
+Paul Boucherot
+Paul Boucherot (1869–1943) was an engineer with the Chemins de Fer du Nord (Northern Railway of France). He studied at the elite École supérieure de physique et de chimie industrielles de la ville de Paris (ESPCI) where he later also taught electrical engineering. He was a pioneer of DC electric power distribution, designed induction motors, and with Georges Claude, built early plants for obtaining thermal energy from the sea. He also contributed to electrical analysis, including the relationship between real and apparent power.
+
+
+== Asynchronous motors ==
+Boucherot was interested in using polyphase supplies to power asynchronous motors as early as 1894. The squirrel-cage rotor asynchronous motor was invented by Mikhail Dolivo-Dobrovolsky in 1889 and they were being built industrially from 1891. A problem with asynchronous machines is that they are difficult to start. The coupling to the rotor is weak until it gets moving and the current drawn by the motor is high. Boucherot solved this problem with his discovery of the double cage asynchronous motor in 1912. In fact, Dolivo-Dobrovolsky had already invented the double cage all the way back in 1893 but it was long since forgotten.
+
+
+== Real and apparent power ==
+The apparent power delivered by a generator as calculated by a simplistic multiplication of the voltage and the current is, in general, greater than the actual (real) power delivered as measured by the work done or heat produced. What is more the total apparent power consumed by two different circuits is not, in general, equal to their arithmetic sum. Boucherot developed a theorem relating real and apparent power with the introduction of a new concept, reactive power. Reactive power represents the energy stored in electric and magnetic fields and is not consumed, hence does not figure in the total of real power. Boucherot's theorem states that the total reactive power can be found by an arithmetic sum of its components and the total real power can likewise be found by an arithmetic sum of its components. The square of the total apparent power, on the other hand, is equal to the sum of the square of the total real power and the square of the total reactive power.
+Reactive power is undesirable in electricity generating and transmission equipment as it leads to larger than necessary currents and hence larger than necessary losses for the distribution companies. As reactive power can be either positive or negative, this leads to the concept of cancelling it out. In most cases, the reactive power is inductive and can therefore be cancelled out with banks of capacitors. A circuit for doing this is called a Boucherot cell.
+The term Boucherot cell is sometimes also applied to circuits used to cancel the reactive part of a loudspeaker load as seen by the amplifier. However a more common term for these circuits is Zobel network, the Boucherot cell as originally devised works properly at only one spot frequency, the frequency of supply, whereas speaker impedance compensation is required to work over a wide band of frequencies. In point of fact though, neither man did any work in the field of audio reproduction; Otto Zobel's work was directed at telecommunications.
+
+
+== Tropical sea-water plant ==
+
+The idea of obtaining power from the heat stored in tropical sea-water is an idea that has been resurrected in recent times and is nowadays referred to by the term Ocean Thermal Energy Conversion (OTEC). It was originally proposed by Jacques-Arsène d'Arsonval in 1881.
+Boucherot, together with his partner Georges Claude built an experimental onshore plant in Cuba in 1926. The plant utilises the heat difference between the surface tropical water and cold water at depth. The pressure of the warm water is rapidly reduced in a vacuum chamber producing low pressure steam. This steam is then drawn through a turbine by the condensing action of cold water from the bottom of the plant. This system is called the Claude-Boucherot process. The plant managed to generate 22 kW but this was less than the power required to run the plant and it never succeeded in producing a net output.
+Claude and Boucherot filed a number of patents concerning these plants and set about trying to raise funds to build a full scale offshore plant in the USA, presenting it as a low cost alternative to coal and oil. It was proposed that refrigeration could also be provided by the plant to semi-tropical areas of the US such as Florida and the desalinated water produced as a byproduct could be used for irrigation and fertilisation of farmland. However, the project never actually got off the ground and subsequent projects were destroyed in storms.
+
+
+== Other work ==
+During the second world war, Boucherot developed a communication system for the military which injected an oscillating electric field into the ground. It was used to transmit messages in Morse code over distances of several kilometers.
+He provided a model for the representation of magnetically coupled circuits, such as the mutual inductance between the windings of a transformer. In a real transformer, parasitic elements are present on both windings. In Boucherot's model an equivalent circuit is developed with an ideal transformer and all the parasitic elements in just one circuit.
+
+
+== Honors and awards ==
+Paul Boucherot was elevated to the rank of Commandeur de la Légion d’Honneur. The French Academy of Sciences awarded him the Prix Gaston Planté for 1901.
+
+
+== References ==
+
+Some information in this article came from Paul Boucherot and Machine asynchrone on French Wikipedia

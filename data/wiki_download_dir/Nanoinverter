@@ -1,0 +1,17 @@
+Nanoinverter
+A nanoinverter, also referred as nano inverter or solar nano inverter, converts direct current (DC) from a single solar cell or small solar panel to alternating current (AC). Nanoinverters contrast with Microinverter devices, which are connected to larger than 100 Watt solar panels.
+Nanoinverters have several advantages over Microinverter. The main advantage is that, even small amounts of shading, debris or snow lines in any one solar cell, or a smaller panel failure, does not disproportionately reduce the output of an entire larger panel. Each nanoinverter obtains optimum power by performing maximum power point tracking for its connected panel.
+
+
+== Description ==
+
+
+=== Building Integrated Photo Voltaics ===
+BIPV modules produce direct current power from range 10 watts to 100 watts. Integrated circuit-based AC nanoinverter on each module increases harvest rate by 30% and substantially decreases the installation constraints.
+
+
+=== Solar Cell ===
+DC nanoconverter-on-chip is capable to harvest from microwatts power and as low as 80mV (0.08V) voltage. Harvest rate improves 30%-70% with integrated MPPT and DC-DC booster
+
+
+== References ==

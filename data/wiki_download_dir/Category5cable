@@ -1,0 +1,73 @@
+Category 5 cable
+Category 5 cable, commonly referred to as cat 5, is a twisted pair cable for carrying signals. This type of cable is used in structured cabling for computer networks such as Ethernet. The cable standard provides performance of up to 100 MHz and is suitable for 10BASE-T, 100BASE-TX (Fast Ethernet), and 1000BASE-T (Gigabit Ethernet). Cat 5 is also used to carry other signals such as telephony and video.
+This cable is commonly connected using punch-down blocks and modular connectors. Most category 5 cables are unshielded, relying on the balanced line twisted pair design and differential signaling for noise rejection.
+Category 5 was superseded by the category 5e (enhanced) specification, and later category 6 cable.
+
+
+== Cable standard ==
+The specification for category 5 cable was defined in ANSI/TIA/EIA-568-A, with clarification in TSB-95. These documents specify performance characteristics and test requirements for frequencies up to 100 MHz. Cable types, connector types and cabling topologies are defined by TIA/EIA-568-B. Nearly always, 8P8C modular connectors, often referred to as RJ45, are used for connecting category 5 cable. The cable is terminated in either the T568A scheme or the T568B scheme. The two schemes work equally well and may be mixed in an installation so long as the same scheme is used on both ends of each cable.
+Each of the four pairs in a cat 5 cable has differing precise number of twists per meter to minimize crosstalk between the pairs. Although cable assemblies containing 4 pairs are common, category 5 is not limited to 4 pairs. Backbone applications involve using up to 100 pairs. This use of balanced lines helps preserve a high signal-to-noise ratio despite interference from both external sources and crosstalk from other pairs.
+The cable is available in both stranded and solid conductor forms. The stranded form is more flexible and withstands more bending without breaking. Permanent wiring (for example, the wiring inside the wall that connects a wall socket to a central patch panel) is solid-core, while patch cables (for example, the movable cable that plugs into the wall socket on one end and a computer on the other) are stranded.
+The specific category of cable in use can be identified by the printing on the side of the cable.
+
+
+=== Bending radius ===
+Most Category 5 cables can be bent at any radius exceeding approximately four times the outside diameter of the cable.
+
+
+=== Maximum cable segment length ===
+The maximum length for a cable segment is 100 m per TIA/EIA 568-5-A. If longer runs are required, the use of active hardware such as a repeater or switch is necessary. The specifications for 10BASE-T networking specify a 100-meter length between active devices. This allows for 90 meters of solid-core permanent wiring, two connectors and two stranded patch cables of 5 meters, one at each end.
+
+
+=== Category 5 vs. 5e ===
+The category 5e specification improves upon the category 5 specification by tightening some crosstalk specifications and introducing new crosstalk specifications that were not present in the original category 5 specification. The bandwidth of category 5 and 5e is the same (100 MHz) and the physical cable construction is the same, and the reality is that most Cat5 cable meets Cat5e specifications, though it is not tested or certified as such.
+
+
+== Applications ==
+This type of cable is used in structured cabling for computer networks such as Ethernet over twisted pair. The cable standard provides performance of up to 100 MHz and is suitable for 10BASE-T, 100BASE-TX (Fast Ethernet), and 1000BASE-T (Gigabit Ethernet). 10BASE-T and 100BASE-TX Ethernet connections require two wire pairs. 1000BASE-T Ethernet connections require four wire pairs. Through the use of power over Ethernet (PoE), up to 25 watts of power can be carried over the cable in addition to Ethernet data.
+Cat 5 is also used to carry other signals such as telephony and video.
+
+
+=== Shared cable ===
+In some cases, multiple signals can be carried on a single cable; cat 5 can carry two conventional telephone lines as well as 100BASE-TX in a single cable. The USOC/RJ-61 wiring standard may be used in multi-line telephone connections.
+Various schemes exist for transporting both analog and digital video over the cable. HDBaseT (10.2 Gbit/s) is one such scheme.
+
+
+== Characteristics ==
+
+
+=== Insulation ===
+Outer insulation is typically PVC or LSOH.
+
+
+=== Conductors ===
+Since 1995, solid-conductor UTP cables for backbone cabling is required to be no thicker than 22 American Wire Gauge (AWG) and no thinner than 24 AWG, or 26 AWG for shorter-distance cabling. This standard has been retained with the 2009 revision of ANSI TIA/EIA 568.
+
+
+=== Individual twist lengths ===
+By altering the length of each twist, crosstalk is reduced, without affecting the characteristic impedance. The distance per twist is commonly referred to as pitch. The pitch of the twisted pairs is not specified in the standard. Measurements on one sample of cat 5 cable yielded the following results.
+
+
+=== Environmental ratings ===
+CMR (Communications Riser), insulated with high-density polyolefin and jacketed with low-smoke polyvinyl chloride (PVC).
+CMP (Communications Plenum), insulated with fluorinated ethylene propylene (FEP) and polyethylene (PE) and jacketed with low-smoke polyvinyl chloride (PVC), due to better flame test ratings.
+CM (Communications) is insulated with high-density polyolefin, but not jacketed with PVC and therefore is the lowest of the three in flame resistance.
+Some cables are "UV-rated" or "UV-stable" meaning they can be exposed to outdoor UV radiation without significant destruction. The materials used for the mantle are usually PVC.
+Any cable that contains air spaces can breathe in moisture, especially if the cable runs between indoor and outdoor spaces. Warm moist air can cause condensation inside the colder parts of the cable outdoors. It may be necessary to take precautions such as sealing the ends of the cables. Some cables are suitable for "direct burial", but this usually requires that the cable be gel filled in order to hinder moisture migration into the cable.
+When using a cable for a tower, attention must be given to vertical cable runs that may channel water into sensitive indoor equipment. This can often be solved by adding a drip-loop at the bottom of the run of cable. If water enters the cable over a long time, for example a break in the outer shield due to wind movement fatigue, this can set up substantial head pressure within the cable. Water ingress at 28m can induce a pressure of 40 psi forcing water many meters along a horizontal run including back upwards. Therefore, it is imperative to maintain the integrity of the outer sheath on tall towers.
+Plenum-rated cables are slower to burn and produce less smoke than cables using a mantle of materials like PVC. This also affects legal requirements for a fire sprinkler system. That is if a plenum-rated cable is used, sprinkler requirement may be eliminated.
+Shielded cables (FTP/STP) are useful for environments where proximity to RF equipment may introduce electromagnetic interference, and can also be used where eavesdropping likelihood should be minimized.
+
+
+== See also ==
+American wire gauge (AWG)
+Audio over Ethernet (AoE)
+Category 6 cable
+Ethernet over twisted pair (10/100/1000BASE-T)
+Power over Ethernet (PoE)
+
+
+== Notes ==
+
+
+== References ==

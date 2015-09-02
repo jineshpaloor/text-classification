@@ -1,0 +1,105 @@
+Jacobi method
+In numerical linear algebra, the Jacobi method (or Jacobi iterative method) is an algorithm for determining the solutions of a diagonally dominant system of linear equations. Each diagonal element is solved for, and an approximate value is plugged in. The process is then iterated until it converges. This algorithm is a stripped-down version of the Jacobi transformation method of matrix diagonalization. The method is named after Carl Gustav Jacob Jacobi.
+
+
+== Description ==
+Given a square system of n linear equations:
+
+where:
+
+Then A can be decomposed into a diagonal component D, and the remainder R:
+
+The solution is then obtained iteratively via
+
+where  is the kth approximation or iteration of  and  is the next or k + 1 iteration of . The element-based formula is thus:
+
+The computation of xi(k+1) requires each element in x(k) except itself. Unlike the Gauss–Seidel method, we can't overwrite xi(k) with xi(k+1), as that value will be needed by the rest of the computation. The minimum amount of storage is two vectors of size n.
+
+
+== Algorithm ==
+Choose an initial guess  to the solution
+
+while convergence not reached do
+for i := 1 step until n do
+
+for j := 1 step until n do
+if j ≠ i then
+
+end if
+
+end (j-loop)
+
+end (i-loop)
+check if convergence is reached
+
+loop (while convergence condition not reached)
+
+
+== Convergence ==
+The standard convergence condition (for any iterative method) is when the spectral radius of the iteration matrix is less than 1:
+
+The method is guaranteed to converge if the matrix A is strictly or irreducibly diagonally dominant. Strict row diagonal dominance means that for each row, the absolute value of the diagonal term is greater than the sum of absolute values of other terms:
+
+The Jacobi method sometimes converges even if these conditions are not satisfied.
+
+
+== Example ==
+A linear system of the form  with initial estimate  is given by
+
+We use the equation , described above, to estimate . First, we rewrite the equation in a more convenient form , where  and . Note that  where  and  are the strictly lower and upper parts of . From the known values
+
+we determine  as
+
+Further, C is found as
+
+With T and C calculated, we estimate  as :
+
+The next iteration yields
+
+This process is repeated until convergence (i.e., until  is small). The solution after 25 iterations is
+
+
+=== Another example ===
+Suppose we are given the following linear system:
+
+Suppose we choose (0, 0, 0, 0) as the initial approximation, then the first approximate solution is given by
+
+Using the approximations obtained, the iterative procedure is repeated until the desired accuracy has been reached. The following are the approximated solutions after five iterations.
+The exact solution of the system is (1, 2, −1, 1).
+
+
+=== An example using Python 3 and Numpy ===
+The following numerical procedure simply iterates to produce the solution vector.
+
+Produces the output:
+
+
+== Weighted Jacobi method ==
+The weighted Jacobi iteration uses a parameter  to compute the iteration as
+
+with  being the usual choice.
+
+
+== Recent developments ==
+In 2014, a refinement of the algorithm, called scheduled relaxation Jacobi method, was published. The new method employs a schedule of over- and under-relaxations and provides a two-hundred fold performance improvement for solving elliptic equations discretized on large two- and three-dimensional Cartesian grids.
+The statement above is misleading though. The described algorithm applies the well-known technique of polynomial (Chebyshev) acceleration to a problem with a known spectrum distribution that can be classified either as a multi-step method or a one-step method with a non-diagonal preconditioner. None of them are Jacobi-like methods. It is also worth to mention that the 200x speed-up is controversial considering that there are optimal approximate (multigrid) and near-optimal direct methods (Fourier transformation) for elliptic problems on Cartesian grids.
+
+
+== See also ==
+Gauss–Seidel method
+Successive over-relaxation
+Iterative method. Linear systems
+Gaussian Belief Propagation
+Matrix splitting
+
+
+== References ==
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001), "Jacobi method", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+This article incorporates text from the article Jacobi_method on CFD-Wiki that is under the GFDL license.
+Black, Noel; Moore, Shirley; and Weisstein, Eric W., "Jacobi method", MathWorld.
+Jacobi Method from www.math-linux.com
+Module for Jacobi and Gauss–Seidel Iteration
+Numerical matrix inversion

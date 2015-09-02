@@ -1,0 +1,129 @@
+Receiver (radio)
+In radio communications, a radio receiver is an electronic device that receives radio waves and converts the information carried by them to a usable form. It is used with an antenna. The antenna intercepts radio waves (electromagnetic waves) and converts them to tiny alternating currents which are applied to the receiver, and the receiver extracts the desired information. The receiver uses electronic filters to separate the desired radio frequency signal from all the other signals picked up by the antenna, an electronic amplifier to increase the power of the signal for further processing, and finally recovers the desired information through demodulation.
+The information produced by the receiver may be in the form of sound (an audio signal), images (a video signal) or data (a digital signal). A radio receiver may be a separate piece of electronic equipment, or an electronic circuit within another device. Devices that contain radio receivers include television sets, radar equipment, two-way radios, cell phones, wireless computer networks, GPS navigation devices, satellite dishes, radio telescopes, bluetooth enabled devices, garage door openers, and baby monitors.
+In consumer electronics, the terms radio and radio receiver are often used specifically for receivers designed to reproduce the audio (sound) signals transmitted by radio broadcasting stations, historically the first mass-market commercial radio application.
+
+
+== Types of radio receivers ==
+
+Various types of radio receivers may include:
+Consumer audio and high fidelity audio receivers and AV receivers used by home stereo listeners and audio and home theatre system enthusiasts as well as audiophiles.
+Communications receivers, used as a component of a radio communication link, characterized by high stability and reliability of performance.
+Simple crystal radio receivers, also known as a crystal set, which operate using the power received from radio waves.
+Satellite television receivers, used to receive television programming from communication satellites in geosynchronous orbit.
+Specialized-use receivers such as telemetry receivers that allow the remote measurement and reporting of information.
+Measuring receivers or measurement receivers are calibrated laboratory-grade devices that are used to measure the signal strength of broadcasting stations, the electromagnetic interference radiation emitted by electrical products, as well as to calibrate RF attenuators and signal generators.
+Scanners are specialized receivers that can automatically scan two or more discrete frequencies, stopping when they find a signal on one of them and then continuing to scan other frequencies when the initial transmission ceases. They are mainly used for monitoring VHF and UHF radio systems.
+Internet radio devices
+
+
+== Consumer audio receivers ==
+In the context of home audio systems, the term "receiver" often refers to a combination of a tuner, a preamplifier, and a power amplifier all on the same chassis. Audiophiles will refer to such a device as an integrated receiver, while a single chassis that implements only one of the three component functions is called a discrete component. Some audio purists still prefer three discrete units - tuner, preamplifier and power amplifier - but the integrated receiver has, for some years, been the mainstream choice for music listening. The first integrated stereo receiver was made by the Harman Kardon company, and came onto the market in 1958. It had undistinguished performance, but it represented a breakthrough to the "all in one" concept of a receiver, and rapidly improving designs gradually made the receiver the mainstay of the marketplace. Many radio receivers also include a loudspeaker.
+
+
+=== Hi-Fi / Home theater ===
+
+Today AV receivers are a common component in a high-fidelity or home-theatre system. The receiver is generally the nerve centre of a sophisticated home-theatre system providing selectable inputs for a number of different audio components like record players, CD players, tape decks and video components like VCRs, DVD players, video game consoles and television sets.
+With the decline of gramophone record vinyl discs, modern receivers tend to omit inputs for phonograph turntables, which have separate requirements of their own. All other common audio/visual components can use any of the identical line-level inputs on the receiver for playback, regardless of how they are marked (the "name" on each input is mostly for the convenience of the user). For instance, a second CD player can be plugged into an "AUX" input, and will work the same as it will in the "CD" input jacks.
+Some receivers can also provide digital signal processors (DSP) to give a more realistic auditory illusion of listening in a concert hall. Digital audio S/PDIF and USB connections are also common today. The home theater receiver, in the vocabulary of consumer electronics, comprises both the 'radio receiver' and other functions, such as control, sound processing, and power amplification. The standalone radio receiver is usually known in consumer electronics as a tuner.
+Some modern integrated receivers can send audio out to seven loudspeakers and an additional channel for a subwoofer and often include connections for headphones. Receivers vary greatly in price, and support stereophonic or surround sound. A high-quality receiver for dedicated audio-only listening (two channel stereo) can be relatively inexpensive. Excellent ones can be purchased for $300 or less. Because modern receivers are purely electronic devices with no moving parts unlike electromechanical devices like turntables and cassette decks, they tend to offer many years of trouble-free service. In recent years, the home theater in a box has become common, which often integrates a surround-capable receiver with a DVD player. The user simply connects it to a television, perhaps other components, and a set of loudspeakers.
+
+
+=== Portable radios ===
+
+Portable radios include simple transistor radios that are typically monoaural and receive the AM, FM, or short wave broadcast bands. FM, and often AM, radios are sometimes included as a feature of portable DVD/CD, MP3 CD, and USB key players, as well as cassette player/recorders.
+AM/FM stereo car radios can be a separate dashboard mounted component or a feature of in car entertainment systems.
+A boombox or boom-box, sometimes known as a ghetto blaster or a jambox, in parts of Europe as a "radio-cassette", is a name given to larger portable stereo systems capable of playing radio stations and recorded music, often at a high level of volume.
+Self-powered portable radios, such as clockwork radios are used in developing nations or as part of an emergency preparedness kit.
+
+
+== History of radio receivers ==
+
+
+=== Early detectors ===
+In 1888 the German physicist Heinrich Hertz demonstrated air-borne electromagnetic waves predicted by James Clerk Maxwell by using a spark gap transmitter and a metal ring with gap in it that would spark when it received these new "Hertzian waves" (later called radio waves). The experiments were not followed up by Hertz and he saw no practical use for the new phenomenon.
+
+A primitive form of radio detector was the coherer, a glass tube containing metal filings between two electrodes. When the small electrical charge from radio waves picked up by an antenna were applied to the electrodes, the metal particles would cling together or "cohere" causing the device to became conductive. It was first used by Edouard Branly and subsequently improved on by Oliver Lodge who used it in radio wave demonstrations in 1894. Many experimenters of the time made significant improvements to both radio receiving and transmitting apparatus. The Russian engineer Alexander Stepanovich Popov developed a lightning strike detector based on a coherer receiver, which he demonstrated in May of 1895. In the summer of 1895 Guglielmo Marconi also used a coherer based design in the first demonstrations of a practical radio wave based wireless telegraphy system.
+John Ambrose Fleming's development of an early thermionic valve to help detect radio waves was based upon a discovery by Thomas Edison (called "The Edison effect"), which essentially modified an early light bulb. Fleming dubbed it an "oscillation valve" because it functioned similarly to a one-way water valve.
+The cat's whisker detector was another kind of detectors developed, typically employing galena crystal with wire spring contact. By moving the wire to different points on the crystal, an optimal point of rectifying the signal was achieved.
+
+
+=== Valves (Tubes) ===
+Lee de Forest's audion tube, a type of triode, emerged as a result of work done between 1905 and 1907, and was later applied to long distance telephone receiving circuits. The triode, functioning as an amplifier of signals, vastly improved radio receiver performance. The regenerative detector further improved performance. The introduction of air-evacuated valves was enabled by Irving Langmuir and H. J. Round.
+
+
+=== Autodyne and superheterodyne ===
+The tuned radio frequency receiver (TRF) was introduced in the 1920s, along with the autodyne developed by H. J. Round and combining the functions of both mixer and oscillator in a single valve.
+In France, Lucien Levy devised a system to convert signals to a lower frequency where the filter bandwidths could be narrowed, leading to a new type of receiver known as the superheterodyne, or supersonic heterodyne receiver.
+Edwin Armstrong is credited with developing a receiver with a fixed intermediate frequency amplifier and filter. Although previously patented by Alexander Meissner, Armstrong was first to build a working model and so received the credit.
+Further improvements came in 1926 with the introduction of the tetrode valve.
+
+
+=== War and postwar developments ===
+
+In 1939 the outbreak of war spurred receiver development. During this time a number of classic communications receivers were designed. Some like the National HRO are still sought by enthusiasts today and although they are relatively large by today's standards, they can still give a good account of themselves under current crowded band conditions.
+
+
+=== Semiconductors ===
+Transistor devices were introduced in the late 1940s and quickly replaced valves leading to the emergence of space and power saving transistor radios in the 1960s.
+The integrated circuit was introduced in the late 1950s, further saving cost, space and power. In the 1980s, the frequency synthesizer improved on the ability to generate an accurate and stable local oscillator signal.
+
+
+=== Digital technologies ===
+Many of the functions performed by analogue electronics can be performed by software instead. The benefit is that software is not affected by temperature, physical variables, electronic noise and manufacturing defects. For really high-performance receivers, such as satellite communications receivers and military/naval receivers, two-stage ("double conversion") and even three-stage ("triple conversion") superheterodyne processing is frequently used. Single-conversion receivers are rather simple-minded in their nature.
+
+
+=== DSP technology ===
+DSP technology, short for digital signal processing, is the use of digital means to process signals and is coming into wide use in modern shortwave receivers. It is the basis of many areas of modern technology including cell phones, CD players, video recorders and computers. A digital signal is essentially a stream or sequence of numbers that relay a message through some sort of medium such as a wire. The primary benefit of DSP hardware in shortwave receivers is the ability to tailor the bandwidth of the receiver to current reception conditions and to the type of signal being listened to. A typical analog only receiver may have a limited number of fixed bandwidths, or only one, but a DSP receiver may have 40 or more individually selectable filters.
+
+
+=== PC controlled radio receivers ===
+"PC radios", or radios that are designed to be controlled by a standard PC are controlled by specialized PC software using a serial port connected to the radio. A "PC radio" may not have a front-panel at all, and may be designed exclusively for computer control, which reduces cost.
+Some PC radios have the great advantage of being field upgradable by the owner. New versions of the DSP firmware can be downloaded from the manufacturer's web site and uploaded into the flash memory of the radio. The manufacturer can then in effect add new features to the radio over time, such as adding new filters, DSP noise reduction, or simply to correct bugs.
+A full-featured radio control program allows for scanning and a host of other functions and, in particular, integration of databases in real-time, like a "TV-Guide" type capability. This is particularly helpful in locating all transmissions on all frequencies of a particular broadcaster, at any given time. Some control software designers have even integrated Google Earth to the shortwave databases, so it is possible to "fly" to a given transmitter site location with a click of a mouse. In many cases the user is able to see the transmitting antennas where the signal is originating from.
+
+
+=== Radio control software ===
+The field of software control of PC radios has grown rapidly in the last several years, with developers making a number of advances. Since the Graphical User Interface or GUI interface PC to the radio has unlimited flexibility, any number of new features can be added by the software designer. Features that can be found in advanced control software programs today include a band table, GUI controls corresponding to traditional radio controls, local time clock and a UTC clock, signal strength meter, an ILG database for shortwave listening with lookup capability, scanning capability, text-to-speech interface, and integrated Conference Server.
+
+
+=== Software-defined radios ===
+
+The next level in radio / software integration are so-called pure "software defined radios". The distinction here is that all filtering, modulation and signal manipulation is done in software, usually by a PC soundcard or by a dedicated piece of DSP hardware. There may be a minimal RF front-end or traditional radio that supplies an IF to the SDR. SDR's can go far beyond the usual demodulation capability of typical, and even high-end DSP shortwave radios. They can for example, record large swaths of the radio spectrum to a hard drive for "playback" at a later date. The same SDR that one minute is demodulating a simple AM broadcast may also be able to decode an HDTV broadcast in the next. A well known open-source project called GNU Radio is dedicated to evolving a high-performance SDR. All the source code for this SDR is freely downloadable and modifiable by anyone.
+
+
+== See also ==
+
+Car audio
+Crystal radio receiver
+Demodulation
+Dielectric wireless receiver
+Digital Audio Broadcast (DAB)
+Direct conversion receiver
+Minimum detectable signal
+Neutrodyne
+Radar
+Radar warning receiver
+Radiogram (furniture)
+Receiver (information theory)
+Regenerative radio receiver
+Selectivity (electronic)
+Sensitivity (electronics)
+Noise (electronics)
+Distortion
+Satnav
+Superheterodyne receiver
+Table radio
+Telecommunication
+Television receive-only
+Transistor radio
+Tuned radio frequency receiver
+Tuner (radio)
+
+
+== Notes ==
+
+
+== Further reading ==
+Communications Receivers, Third Edition, Ulrich L. Rohde, Jerry Whitaker, McGraw Hill, New York, 2001, ISBN 0-07-136121-9
+Buga, N.; Falko A.; Chistyakov N.I. (1990). Chistyakov N.I., ed. Radio Receiver Theory. Translated from the Russian by Boris V. Kuznetsov. Moscow: Mir Publishers. ISBN 5-03-001321-0  First published in Russian as «Радиоприёмные устройства»

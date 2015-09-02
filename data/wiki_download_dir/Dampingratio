@@ -1,0 +1,58 @@
+Damping ratio
+In engineering, the damping ratio is a dimensionless measure describing how oscillations in a system decay after a disturbance. Many systems exhibit oscillatory behavior when they are disturbed from their position of static equilibrium. A mass suspended from a spring, for example, might, if pulled and released, bounce up and down. On each bounce, the system is "trying" to return to its equilibrium position, but overshoots it. Sometimes losses (e.g. frictional) damp the system and can cause the oscillations to gradually decay in amplitude towards zero or attenuate. The damping ratio is a measure of describing how rapidly the oscillations decay from one bounce to the next.
+The behaviour of oscillating systems is often of interest in a diverse range of disciplines that include control engineering, mechanical engineering, structural engineering, and electrical engineering. The physical quantity that is oscillating varies greatly, and could be the swaying of a tall building in the wind, or the speed of an electric motor, but a normalised, or non-dimensionalised approach can be convenient in describing common aspects of behavior.
+
+
+== Oscillation cases ==
+Where the spring–mass system is completely lossless, the mass would oscillate indefinitely, with each bounce of equal height to the last. This hypothetical case is called undamped.
+If the system contained high losses, for example if the spring–mass experiment were conducted in a viscous fluid, the mass could slowly return to its rest position without ever overshooting. This case is called overdamped.
+Commonly, the mass tends to overshoot its starting position, and then return, overshooting again. With each overshoot, some energy in the system is dissipated, and the oscillations die towards zero. This case is called underdamped.
+Between the overdamped and underdamped cases, there exists a certain level of damping at which the system will just fail to overshoot and will not make a single oscillation. This case is called critical damping. The key difference between critical damping and overdamping is that, in critical damping, the system returns to equilibrium in the minimum amount of time.
+
+
+== Definition ==
+
+The damping ratio is a parameter, usually denoted by ζ (zeta), that characterizes the frequency response of a second order ordinary differential equation. It is particularly important in the study of control theory. It is also important in the harmonic oscillator.
+The damping ratio provides a mathematical means of expressing the level of damping in a system relative to critical damping. For a damped harmonic oscillator with mass m, damping coefficient c, and spring constant k, it can be defined as the ratio of the damping coefficient in the system's differential equation to the critical damping coefficient:
+
+where the system's equation of motion is
+
+and the corresponding critical damping coefficient is
+
+or
+
+The damping ratio is dimensionless, being the ratio of two coefficients of identical units.
+
+
+== Derivation ==
+Using the natural frequency of the simple harmonic oscillator  and the definition of the damping ratio above, we can rewrite this as:
+
+This equation can be solved with the approach.
+
+where C and s are both complex constants. That approach assumes a solution that is oscillatory and/or decaying exponentially. Using it in the ODE gives a condition on the frequency of the damped oscillations,
+
+Undamped: Is the case where  corresponds to the undamped simple harmonic oscillator, and in that case the solution looks like , as expected.
+Underdamped: If s is a complex number, then the solution is a decaying exponential combined with an oscillatory portion that looks like . This case occurs for , and is referred to as underdamped.
+Overdamped: If s is a real number, then the solution is simply a decaying exponential with no oscillation. This case occurs for , and is referred to as overdamped.
+Critically damped:The case where  is the border between the overdamped and underdamped cases, and is referred to as critically damped. This turns out to be a desirable outcome in many cases where engineering design of a damped oscillator is required (e.g., a door closing mechanism).
+
+
+== Q factor and decay rate ==
+
+The factors Q, damping ratio ζ, and exponential decay rate α are related such that
+
+When a second-order system has  (that is, when the system is underdamped), it has two complex conjugate poles that each have a real part of ; that is, the decay rate parameter  represents the rate of exponential decay of the oscillations. A lower damping ratio implies a lower decay rate, and so very underdamped systems oscillate for long times. For example, a high quality tuning fork, which has a very low damping ratio, has an oscillation that lasts a long time, decaying very slowly after being struck by a hammer.
+
+
+== Logarithmic decrement ==
+The damping ratio is also related to the logarithmic decrement  for underdamped vibrations via the relation
+
+This relation is only meaningful for underdamped systems because the logarithmic decrement is defined as the natural log of the ratio of any two successive amplitudes, and only underdamped systems exhibit oscillation.
+
+
+== See also ==
+Q factor
+Attenuation
+
+
+== References ==

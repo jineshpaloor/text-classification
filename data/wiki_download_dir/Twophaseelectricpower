@@ -1,0 +1,26 @@
+Two-phase electric power
+Two-phase electrical power was an early 20th-century polyphase alternating current electric power distribution system. Two circuits were used, with voltage phases differing by one-quarter of a cycle, 90°. Usually circuits used four wires, two for each phase. Less frequently, three wires were used, with a common wire with a larger-diameter conductor. Some early two-phase generators had two complete rotor and field assemblies, with windings physically offset to provide two-phase power. The generators at Niagara Falls installed in 1895 were the largest generators in the world at that time and were two-phase machines. As of 21st century, two-phase power was superseded with three phases and is not used in the industry. There remains, however, a two-phase commercial distribution system in Philadelphia, Pennsylvania; many buildings in city center are permanently wired for two-phase and PECO (the local electric utility company) has continued the service.
+
+
+== Comparison with single-phase power ==
+The advantage of two-phase electrical power over single-phase was that it allowed for simple, self-starting electric motors. In the early days of electrical engineering, it was easier to analyze and design two-phase systems where the phases were completely separated. It was not until the invention of the method of symmetrical components in 1918 that polyphase power systems had a convenient mathematical tool for describing unbalanced load cases. The revolving magnetic field produced with a two-phase system allowed electric motors to provide torque from zero motor speed, which was not possible with a single-phase induction motor (without an additional starting means.) Induction motors designed for two-phase operation use a similar winding configuration as capacitor start single-phase motors (however, in a two-phase induction motor, the impedances of the two windings are identical, whereas in a single-phase induction motor, the impedances can be, and usually are, quite different, to reduce cost without sacrificing starting performance; indeed, some single-phase capacitor start/capacitor run induction motors have superior starting characteristics when compared and contrasted to two- or three-phase induction motors.)
+
+
+== Comparison with three-phase power ==
+Three-phase electric power requires less conductor mass for the same voltage and overall amount of power, compared with a two-phase four-wire circuit of the same carrying capacity. It has replaced two-phase power for commercial distribution of electrical energy, but two-phase circuits are still found in certain control systems. These power pulsations tend to cause increased mechanical noise in transformer and motor laminations due to magnestriction and torsional vibration in generator and motor drive shafts.
+Two-phase circuits typically use two separate pairs of current-carrying conductors. Alternatively, three wires may be used, but the common conductor carries the vector sum of the phase currents, which requires a larger conductor. Three-phase can share conductors so that the three phases can be carried on three conductors of the same size. In electrical power distribution, a requirement of only three conductors, rather than four, represented a considerable distribution-wire cost savings due to the expense of conductors and installation.
+Two-phase power can be derived from a three-phase source using two transformers in a Scott connection: One transformer primary is connected across two phases of the supply. The second transformer is connected to a center-tap of the first transformer, and is wound for 86.6% of the phase-to-phase voltage on the three-phase system. The secondaries of the transformers will have two phases 90 degrees apart in time, and a balanced two-phase load will be evenly balanced over the three supply phases.
+
+
+== See also ==
+Polyphase system
+Rotary converter
+Bipolar motor
+
+
+== References ==
+Notes
+
+Specific references
+
+General references

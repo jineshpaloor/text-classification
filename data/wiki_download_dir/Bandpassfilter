@@ -1,0 +1,34 @@
+Band-pass filter
+A band-pass filter is a device that passes frequencies within a certain range and rejects (attenuates) frequencies outside that range.
+
+
+== Description ==
+An example of an analogue electronic band-pass filter is an RLC circuit (a resistor–inductor–capacitor circuit). These filters can also be created by combining a low-pass filter with a high-pass filter.
+Bandpass is an adjective that describes a type of filter or filtering process; it is to be distinguished from passband, which refers to the actual portion of affected spectrum. Hence, one might say "A dual bandpass filter has two passbands." A bandpass signal is a signal containing a band of frequencies not adjacent to zero frequency, such as a signal that comes out of a bandpass filter.
+An ideal bandpass filter would have a completely flat passband (e.g. with no gain/attenuation throughout) and would completely attenuate all frequencies outside the passband. Additionally, the transition out of the passband would have brickwall characteristics.
+In practice, no bandpass filter is ideal. The filter does not attenuate all frequencies outside the desired frequency range completely; in particular, there is a region just outside the intended passband where frequencies are attenuated, but not rejected. This is known as the filter roll-off, and it is usually expressed in dB of attenuation per octave or decade of frequency. Generally, the design of a filter seeks to make the roll-off as narrow as possible, thus allowing the filter to perform as close as possible to its intended design. Often, this is achieved at the expense of pass-band or stop-band ripple.
+The bandwidth of the filter is simply the difference between the upper and lower cutoff frequencies. The shape factor is the ratio of bandwidths measured using two different attenuation values to determine the cutoff frequency, e.g., a shape factor of 2:1 at 30/3 dB means the bandwidth measured between frequencies at 30 dB attenuation is twice that measured between frequencies at 3 dB attenuation.
+Optical band-pass filters are common in photography and theatre lighting work. These filters take the form of a transparent coloured film or sheet.
+
+
+== Q factor ==
+A band-pass filter can be characterised by its Q factor. The Q-factor is the inverse of the fractional bandwidth. A high-Q filter will have a narrow passband and a low-Q filter will have a wide passband. These are respectively referred to as narrow-band and wide-band filters.
+
+
+== Applications ==
+Bandpass filters are widely used in wireless transmitters and receivers. The main function of such a filter in a transmitter is to limit the bandwidth of the output signal to the band allocated for the transmission. This prevents the transmitter from interfering with other stations. In a receiver, a bandpass filter allows signals within a selected range of frequencies to be heard or decoded, while preventing signals at unwanted frequencies from getting through. A bandpass filter also optimizes the signal-to-noise ratio and sensitivity of a receiver.
+In both transmitting and receiving applications, well-designed bandpass filters, having the optimum bandwidth for the mode and speed of communication being used, maximize the number of signal transmitters that can exist in a system, while minimizing the interference or competition among signals.
+Outside of electronics and signal processing, one example of the use of band-pass filters is in the atmospheric sciences. It is common to band-pass filter recent meteorological data with a period range of, for example, 3 to 10 days, so that only cyclones remain as fluctuations in the data fields.
+In neuroscience, visual cortical simple cells were first shown by David Hubel and Torsten Wiesel to have response properties that resemble Gabor filters, which are band-pass.
+
+
+== See also ==
+Atomic line filter
+Audio crossover
+Band-stop filter
+
+
+== References ==
+
+
+== External links ==

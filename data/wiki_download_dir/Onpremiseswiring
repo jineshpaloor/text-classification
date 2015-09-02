@@ -1,0 +1,22 @@
+On-premises wiring
+On-premises wiring (customer premises wiring) is customer-owned telecommunication transmission or distribution lines. The transmission lines may be metallic (copper) or optical fiber, and may be installed within or between buildings.
+Premises wiring may consist of horizontal wiring, vertical wiring, and backbone cabling. It may extend from the point-of-entry to user work areas. Any type of communications or data wiring is considered premises wiring, including telephone, computer/data, intercom, closed-circuit television.
+Premises networks are wired worldwide, across every industry, in both small and large scale applications. Any type or number of topologies may be used -- star, bus, ring, etc.
+
+
+== Ownership ==
+The ownership of on-premises wiring varies between jurisdictions: It depends on the location of the demarcation point. The location determines ownership and responsibility for maintenance and repair.
+In the US and Canada, most premises wiring is owned by the customer. There generally is a demarcation point "as close to the poles" as possible. For many installations, this is a network interface device mounted on the outside of the building. In some cases, it is a minimum-point-of-entry (MPOE) location inside the building.
+In the UK, the demarcation point is the wall jack, and hence most of the on-premises wiring is the property of the telephone company.
+
+
+== See also ==
+Customer-premises equipment
+Demarc extension
+Riser cable
+Structured cabling
+
+
+== References ==
+
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C".

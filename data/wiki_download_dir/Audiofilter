@@ -1,0 +1,28 @@
+Audio filter
+An audio filter is a frequency dependent amplifier circuit, working in the audio frequency range, 0 Hz to beyond 20 kHz. Many types of filters exist for applications including graphic equalizers, synthesizers, sound effects, CD players and virtual reality systems.
+Being a frequency dependent amplifier, in its most basic form, an audio filter is designed to amplify, pass or attenuate (negative amplification) some frequency ranges. Common types include low-pass filters, which pass through frequencies below their cutoff frequencies, and progressively attenuates frequencies above the cutoff frequency. A high-pass filter does the opposite, passing high frequencies above the cutoff frequency, and progressively attenuating frequencies below the cutoff frequency. A bandpass filter passes frequencies between its two cutoff frequencies, while attenuating those outside the range. A band-reject filter, attenuates frequencies between its two cutoff frequencies, while passing those outside the 'reject' range.
+An all-pass filter, passes all frequencies, but affects the phase of any given sinusoidal component according to its frequency.
+In some applications, such as in the design of graphic equalizers or CD players, the filters are designed according to a set of objective criteria such as pass band, pass band attenuation, stop band, and stop band attenuation, where the pass bands are the frequency ranges for which audio is attenuated less than a specified maximum, and the stop bands are the frequency ranges for which the audio must be attenuated by a specified minimum.
+In more complex cases, an audio filter can provide a feedback loop, which introduces resonance (ringing) alongside attenuation. Audio filters can also be designed to provide gain (boost) as well as attenuation.
+In other applications, such as with synthesizers or sound effects, the aesthetic of the filter must be evaluated subjectively.
+Audio filters can be implemented in analog circuitry as analog filters or in DSP code or computer software as digital filters.
+Generically, the term 'audio filter' can be applied to mean anything which changes the timbre, or harmonic content of an audio signal.
+
+
+== Self-oscillation ==
+Self-oscillation occurs when the resonance or Q factor of the cutoff frequency of the filter is set high enough that the internal feedback causes the filter circuitry to become a sine tone sine wave oscillator.
+
+
+== See also ==
+Audio crossover
+Band pass filter
+Electrical resonance
+Electronic filter
+Equalization (audio)
+Feedback
+High pass filter
+Linear filter
+Low pass filter
+Oscillation
+Resonance
+Self-resonant frequency

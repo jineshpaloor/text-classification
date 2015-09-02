@@ -1,0 +1,21 @@
+Rotary transformer
+A rotary (rotatory) transformer is a specialized transformer used to couple electrical signals between two parts that rotate in relation to each other. They may be either cylindrical or 'pancake' shaped.
+Slip rings can be used for the same purpose, but are subject to friction, wear, intermittent contact, and limitations on the rotational speed that can be accommodated without damage. Wear can be eliminated by using a pool of liquid mercury instead of a solid ring contact, but the toxicity and slow corrosion of mercury are problematic, and very high rotational speeds are again difficult to achieve. A rotary transformer has none of these limitations.
+Rotary transformers are constructed by winding the primary and secondary windings into separate halves of a cup core; these concentric halves face each other, with each half mounted to one of the rotating parts. Magnetic flux provides the coupling from one half of the cup core to the other across an air gap, providing the mutual inductance that couples energy from the transformer's primary to its secondary.
+In brushless synchros, typical rotary transformers (in pairs) provide longer life than slip rings. These rotary transformers have a cylindrical, rather than a disc-shaped, air gap between windings. The rotor winding is a spool-shaped ferromagnetic core, with the winding placed like thread on a spool. The flanges are the pole pieces. The stator winding is a ferromagnetic cylinder with the winding inside, and end poles that are discs with holes, like washers.
+
+
+== Uses ==
+Rotary transformers are most commonly used in videocassette recorders. Signals must be coupled from the electronics of the VCR to the fast-moving tape heads carried on the rotating head drum; a rotary transformer is ideal for this purpose. Most VCR designs require more than one signal to be coupled to the head drum. In this case, the cup core has more than one concentric winding, isolated by individual raised portions of the core. The transformer for the head drum shown to the right couples six individual channels.
+Another use is to transmit the signals from rotary torque sensors installed on electric motors, to allow electronic control of motor speed and torque using feedback.
+Rotary transformers cannot be used in most DC motors instead of commutators, as transformers can only transfer AC current.
+The so-called "Brushless DC electric motors" as used in an increasing array of electronic devices, are actually AC motors. A constant voltage supply is made available to the motor/controller, which is then converted by the motor control module into a variable-frequency, variable-voltage AC signal which drives the windings of the motor.
+
+
+== References ==
+
+
+== See also ==
+Metadyne
+Rotary converter
+Variable-frequency transformer

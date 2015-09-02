@@ -1,0 +1,131 @@
+Remote sensing
+Remote sensing is the acquisition of information about an object or phenomenon without making physical contact with the object and thus in contrast to on site observation. Remote sensing is a sub-field of geography. In modern usage, the term generally refers to the use of aerial sensor technologies to detect and classify objects on Earth (both on the surface, and in the atmosphere and oceans) by means of propagated signals (e.g. electromagnetic radiation). It may be split into active remote sensing (when a signal is first emitted from aircraft or satellites) or passive (e.g. sunlight) when information is merely recorded.
+
+
+== Overview ==
+
+Passive sensors gather radiation that is emitted or reflected by the object or surrounding areas. Reflected sunlight is the most common source of radiation measured by passive sensors. Examples of passive remote sensors include film photography, infrared, charge-coupled devices, and radiometers. Active collection, on the other hand, emits energy in order to scan objects and areas whereupon a sensor then detects and measures the radiation that is reflected or backscattered from the target. RADAR and LiDAR are examples of active remote sensing where the time delay between emission and return is measured, establishing the location, speed and direction of an object.
+
+Remote sensing makes it possible to collect data of dangerous or inaccessible areas. Remote sensing applications include monitoring deforestation in areas such as the Amazon Basin, glacial features in Arctic and Antarctic regions, and depth sounding of coastal and ocean depths. Military collection during the Cold War made use of stand-off collection of data about dangerous border areas. Remote sensing also replaces costly and slow data collection on the ground, ensuring in the process that areas or objects are not disturbed.
+Orbital platforms collect and transmit data from different parts of the electromagnetic spectrum, which in conjunction with larger scale aerial or ground-based sensing and analysis, provides researchers with enough information to monitor trends such as El Niño and other natural long and short term phenomena. Other uses include different areas of the earth sciences such as natural resource management, agricultural fields such as land usage and conservation, and national security and overhead, ground-based and stand-off collection on border areas.
+
+
+== Data acquisition techniques ==
+The basis for multispectral collection and analysis is that of examined areas or objects that reflect or emit radiation that stand out from surrounding areas. For a summary of major remote sensing satellite systems see the overview table.
+
+
+=== Applications of remote sensing data ===
+Conventional radar is mostly associated with aerial traffic control, early warning, and certain large scale meteorological data. Doppler radar is used by local law enforcements’ monitoring of speed limits and in enhanced meteorological collection such as wind speed and direction within weather systems in addition to precipitation location and intensity. Other types of active collection includes plasmas in the ionosphere. Interferometric synthetic aperture radar is used to produce precise digital elevation models of large scale terrain (See RADARSAT, TerraSAR-X, Magellan).
+Laser and radar altimeters on satellites have provided a wide range of data. By measuring the bulges of water caused by gravity, they map features on the seafloor to a resolution of a mile or so. By measuring the height and wavelength of ocean waves, the altimeters measure wind speeds and direction, and surface ocean currents and directions.
+Ultrasound (acoustic) and radar tide gauges measure sea level, tides and wave direction in coastal and offshore tide gauges.
+Light detection and ranging (LIDAR) is well known in examples of weapon ranging, laser illuminated homing of projectiles. LIDAR is used to detect and measure the concentration of various chemicals in the atmosphere, while airborne LIDAR can be used to measure heights of objects and features on the ground more accurately than with radar technology. Vegetation remote sensing is a principal application of LIDAR.
+Radiometers and photometers are the most common instrument in use, collecting reflected and emitted radiation in a wide range of frequencies. The most common are visible and infrared sensors, followed by microwave, gamma ray and rarely, ultraviolet. They may also be used to detect the emission spectra of various chemicals, providing data on chemical concentrations in the atmosphere.
+Stereographic pairs of aerial photographs have often been used to make topographic maps by imagery and terrain analysts in trafficability and highway departments for potential routes, in addition to modelling terrestrial habitat features.
+Simultaneous multi-spectral platforms such as Landsat have been in use since the 70’s. These thematic mappers take images in multiple wavelengths of electro-magnetic radiation (multi-spectral) and are usually found on Earth observation satellites, including (for example) the Landsat program or the IKONOS satellite. Maps of land cover and land use from thematic mapping can be used to prospect for minerals, detect or monitor land usage, deforestation, and examine the health of indigenous plants and crops, including entire farming regions or forests. Landsat images are used by regulatory agencies such as KYDOW to indicate water quality parameters including Secchi depth, chlorophyll a density and total phosphorus content. Weather satellites are used in meteorology and climatology.
+Hyperspectral imaging produces an image where each pixel has full spectral information with imaging narrow spectral bands over a contiguous spectral range. Hyperspectral imagers are used in various applications including mineralogy, biology, defence, and environmental measurements.
+Within the scope of the combat against desertification, remote sensing allows to follow-up and monitor risk areas in the long term, to determine desertification factors, to support decision-makers in defining relevant measures of environmental management, and to assess their impacts.
+
+
+=== Geodetic ===
+Overhead geodetic collection was first used in aerial submarine detection and gravitational data used in military maps. This data revealed minute perturbations in the Earth’s gravitational field (geodesy) that may be used to determine changes in the mass distribution of the Earth, which in turn may be used for geological studies.
+
+
+=== Acoustic and near-acoustic ===
+Sonar: passive sonar, listening for the sound made by another object (a vessel, a whale etc.); active sonar, emitting pulses of sounds and listening for echoes, used for detecting, ranging and measurements of underwater objects and terrain.
+Seismograms taken at different locations can locate and measure earthquakes (after they occur) by comparing the relative intensity and precise timings.
+Ultrasound: Ultrasound sensors, that emit high frequency pulses and listening for echoes, used for detecting water waves and water level, as in tide gauges or for towing tanks.
+To coordinate a series of large-scale observations, most sensing systems depend on the following: platform location and the orientation of the sensor. High-end instruments now often use positional information from satellite navigation systems. The rotation and orientation is often provided within a degree or two with electronic compasses. Compasses can measure not just azimuth (i. e. degrees to magnetic north), but also altitude (degrees above the horizon), since the magnetic field curves into the Earth at different angles at different latitudes. More exact orientations require gyroscopic-aided orientation, periodically realigned by different methods including navigation from stars or known benchmarks.
+
+
+== Data processing ==
+
+Generally speaking, remote sensing works on the principle of the inverse problem. While the object or phenomenon of interest (the state) may not be directly measured, there exists some other variable that can be detected and measured (the observation) which may be related to the object of interest through a calculation. The common analogy given to describe this is trying to determine the type of animal from its footprints. For example, while it is impossible to directly measure temperatures in the upper atmosphere, it is possible to measure the spectral emissions from a known chemical species (such as carbon dioxide) in that region. The frequency of the emissions may then be related via thermodynamics to the temperature in that region.
+The quality of remote sensing data consists of its spatial, spectral, radiometric and temporal resolutions.
+Spatial resolution
+The size of a pixel that is recorded in a raster image – typically pixels may correspond to square areas ranging in side length from 1 to 1,000 metres (3.3 to 3,280.8 ft).
+Spectral resolution
+The wavelength width of the different frequency bands recorded – usually, this is related to the number of frequency bands recorded by the platform. Current Landsat collection is that of seven bands, including several in the infra-red spectrum, ranging from a spectral resolution of 0.07 to 2.1 μm. The Hyperion sensor on Earth Observing-1 resolves 220 bands from 0.4 to 2.5 μm, with a spectral resolution of 0.10 to 0.11 μm per band.
+Radiometric resolution
+The number of different intensities of radiation the sensor is able to distinguish. Typically, this ranges from 8 to 14 bits, corresponding to 256 levels of the gray scale and up to 16,384 intensities or "shades" of colour, in each band. It also depends on the instrument noise.
+Temporal resolution
+The frequency of flyovers by the satellite or plane, and is only relevant in time-series studies or those requiring an averaged or mosaic image as in deforesting monitoring. This was first used by the intelligence community where repeated coverage revealed changes in infrastructure, the deployment of units or the modification/introduction of equipment. Cloud cover over a given area or object makes it necessary to repeat the collection of said location.
+In order to create sensor-based maps, most remote sensing systems expect to extrapolate sensor data in relation to a reference point including distances between known points on the ground. This depends on the type of sensor used. For example, in conventional photographs, distances are accurate in the center of the image, with the distortion of measurements increasing the farther you get from the center. Another factor is that of the platen against which the film is pressed can cause severe errors when photographs are used to measure ground distances. The step in which this problem is resolved is called georeferencing, and involves computer-aided matching of points in the image (typically 30 or more points per image) which is extrapolated with the use of an established benchmark, "warping" the image to produce accurate spatial data. As of the early 1990s, most satellite images are sold fully georeferenced.
+In addition, images may need to be radiometrically and atmospherically corrected.
+Radiometric correction
+Allows to avoid radiometric errors and distortions. The illumination of objects on the Earth surface is uneven because of different properties of the relief. This factor is taken into account in the method of radiometric distortion correction.  Radiometric correction gives a scale to the pixel values, e. g. the monochromatic scale of 0 to 255 will be converted to actual radiance values.
+Topographic correction (also called terrain correction)
+In rugged mountains, as a result of terrain, the effective illumination of pixels varies considerably. In a remote sensing image, the pixel on the shady slope receives weak illumination and has a low radiance value, in contrast, the pixel on the sunny slope receives strong illumination and has a high radiance value. For the same object, the pixel radiance value on the shady slope will be different from that on the sunny slope. Additionally, different objects may have similar radiance values. These ambiguities seriously affected remote sensing image information extraction accuracy in mountainous areas. It became the main obstacle to further application of remote sensing images. The purpose of topographic correction is to eliminate this effect, recovering the true reflectivity or radiance of objects in horizontal conditions. It is the premise of quantitative remote sensing application.
+Atmospheric correction
+Elimination of atmospheric haze by rescaling each frequency band so that its minimum value (usually realised in water bodies) corresponds to a pixel value of 0. The digitizing of data also makes it possible to manipulate the data by changing gray-scale values.
+Interpretation is the critical process of making sense of the data. The first application was that of aerial photographic collection which used the following process; spatial measurement through the use of a light table in both conventional single or stereographic coverage, added skills such as the use of photogrammetry, the use of photomosaics, repeat coverage, Making use of objects’ known dimensions in order to detect modifications. Image Analysis is the recently developed automated computer-aided application which is in increasing use.
+Object-Based Image Analysis (OBIA) is a sub-discipline of GIScience devoted to partitioning remote sensing (RS) imagery into meaningful image-objects, and assessing their characteristics through spatial, spectral and temporal scale.
+Old data from remote sensing is often valuable because it may provide the only long-term data for a large extent of geography. At the same time, the data is often complex to interpret, and bulky to store. Modern systems tend to store the data digitally, often with lossless compression. The difficulty with this approach is that the data is fragile, the format may be archaic, and the data may be easy to falsify. One of the best systems for archiving data series is as computer-generated machine-readable ultrafiche, usually in typefonts such as OCR-B, or as digitized half-tone images. Ultrafiches survive well in standard libraries, with lifetimes of several centuries. They can be created, copied, filed and retrieved by automated systems. They are about as compact as archival magnetic media, and yet can be read by human beings with minimal, standardized equipment.
+
+
+=== Data processing levels ===
+To facilitate the discussion of data processing in practice, several processing “levels” were first defined in 1986 by NASA as part of its Earth Observing System and steadily adopted since then, both internally at NASA (e. g.,) and elsewhere (e. g.,); these definitions are:
+A Level 1 data record is the most fundamental (i. e., highest reversible level) data record that has significant scientific utility, and is the foundation upon which all subsequent data sets are produced. Level 2 is the first level that is directly usable for most scientific applications; its value is much greater than the lower levels. Level 2 data sets tend to be less voluminous than Level 1 data because they have been reduced temporally, spatially, or spectrally. Level 3 data sets are generally smaller than lower level data sets and thus can be dealt with without incurring a great deal of data handling overhead. These data tend to be generally more useful for many applications. The regular spatial and temporal organization of Level 3 datasets makes it feasible to readily combine data from different sources.
+While these processing levels are particularly suitable for typical satellite data processing pipelines, other data level vocabularies have been defined and may be appropriate for more heterogeneous workflows.
+
+
+== History ==
+
+The modern discipline of remote sensing arose with the development of flight. The balloonist G. Tournachon (alias Nadar) made photographs of Paris from his balloon in 1858. Messenger pigeons, kites, rockets and unmanned balloons were also used for early images. With the exception of balloons, these first, individual images were not particularly useful for map making or for scientific purposes.
+Systematic aerial photography was developed for military surveillance and reconnaissance purposes beginning in World War I and reaching a climax during the Cold War with the use of modified combat aircraft such as the P-51, P-38, RB-66 and the F-4C, or specifically designed collection platforms such as the U2/TR-1, SR-71, A-5 and the OV-1 series both in overhead and stand-off collection. A more recent development is that of increasingly smaller sensor pods such as those used by law enforcement and the military, in both manned and unmanned platforms. The advantage of this approach is that this requires minimal modification to a given airframe. Later imaging technologies would include Infra-red, conventional, Doppler and synthetic aperture radar.
+The development of artificial satellites in the latter half of the 20th century allowed remote sensing to progress to a global scale as of the end of the Cold War. Instrumentation aboard various Earth observing and weather satellites such as Landsat, the Nimbus and more recent missions such as RADARSAT and UARS provided global measurements of various data for civil, research, and military purposes. Space probes to other planets have also provided the opportunity to conduct remote sensing studies in extraterrestrial environments, synthetic aperture radar aboard the Magellan spacecraft provided detailed topographic maps of Venus, while instruments aboard SOHO allowed studies to be performed on the Sun and the solar wind, just to name a few examples.
+Recent developments include, beginning in the 1960s and 1970s with the development of image processing of satellite imagery. Several research groups in Silicon Valley including NASA Ames Research Center, GTE, and ESL Inc. developed Fourier transform techniques leading to the first notable enhancement of imagery data. In 1999 the first commercial satellite (IKONOS) collecting very high resolution imagery was launched.
+
+
+== Training and education ==
+At most universities remote sensing is associated with Geography departments. Remote Sensing has a growing relevance in the modern information society. It represents a key technology as part of the aerospace industry and bears increasing economic relevance – new sensors e.g. TerraSAR-X and RapidEye are developed constantly and the demand for skilled labour is increasing steadily. Furthermore, remote sensing exceedingly influences everyday life, ranging from weather forecasts to reports on climate change or natural disasters. As an example, 80% of the German students use the services of Google Earth; in 2006 alone the software was downloaded 100 million times. But studies has shown that only a fraction of them know more about the data they are working with. There exists a huge knowledge gap between the application and the understanding of satellite images. Remote sensing only plays a tangential role in schools, regardless of the political claims to strengthen the support for teaching on the subject. A lot of the computer software explicitly developed for school lessons has not yet been implemented due to its complexity. Thereby, the subject is either not at all integrated into the curriculum or does not pass the step of an interpretation of analogue images. In fact, the subject of remote sensing requires a consolidation of physics and mathematics as well as competences in the fields of media and methods apart from the mere visual interpretation of satellite images.
+Many teachers have great interest in the subject “remote sensing”, being motivated to integrate this topic into teaching, provided that the curriculum is considered. In many cases, this encouragement fails because of confusing information. In order to integrate remote sensing in a sustainable manner organizations like the EGU or digital earth encourages the development of learning modules and learning portals (e.g. FIS – Remote Sensing in School Lessons or Landmap – Spatial Discovery) promoting media and method qualifications as well as independent working.
+
+
+== Remote sensing software ==
+
+Remote sensing data are processed and analyzed with computer software, known as a remote sensing application. A large number of proprietary and open source applications exist to process remote sensing data. Remote sensing software packages include:
+PCI Geomatica made by PCI Geomatics,
+TacitView from 2d3
+Socet GXP from BAE Systems,
+TNTmips from MicroImages,
+IDRISI from Clark Labs,
+eCognition from Trimble,
+and RemoteView made by Overwatch Textron Systems.
+Dragon/ips is one of the oldest remote sensing packages still available, and is in some cases free.
+ERDAS IMAGINE from Hexagon Geospatial (Separated from Intergraph SG&I),
+ENVI/IDL from Exelis Visual Information Solutions,
+Open source remote sensing software includes:
+Opticks (software),
+Orfeo toolbox
+Others mixing remote sensing and GIS capabilities are: GRASS GIS, ILWIS, QGIS, and TerraLook.
+According to an NOAA Sponsored Research by Global Marketing Insights, Inc. the most used applications among Asian academic groups involved in remote sensing are as follows: ERDAS 36% (ERDAS IMAGINE 25% & ERMapper 11%); ESRI 30%; ITT Visual Information Solutions ENVI 17%; MapInfo 17%.
+Among Western Academic respondents as follows: ESRI 39%, ERDAS IMAGINE 27%, MapInfo 9%, and AutoDesk 7%.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Campbell, J. B. (2002). Introduction to remote sensing (3rd ed.). The Guilford Press. ISBN 1-57230-640-8. 
+Jensen, J. R. (2007). Remote sensing of the environment: an Earth resource perspective (2nd ed.). Prentice Hall. ISBN 0-13-188950-8. 
+Jensen, J. R. (2005). Digital Image Processing: a Remote Sensing Perspective (3rd ed.). Prentice Hall. 
+Lentile, Leigh B.; Holden, Zachary A.; Smith, Alistair M. S.; Falkowski, Michael J.; Hudak, Andrew T.; Morgan, Penelope; Lewis, Sarah A.; Gessler, Paul E.; Benson, Nate C. (2006). "Remote sensing techniques to assess active fire characteristics and post-fire effects". International Journal of Wildland Fire 3 (15): 319–345. doi:10.1071/WF05097. 
+Lillesand, T. M.; R. W. Kiefer; J. W. Chipman (2003). Remote sensing and image interpretation (5th ed.). Wiley. ISBN 0-471-15227-7. 
+Richards, J. A.; X. Jia (2006). Remote sensing digital image analysis: an introduction (4th ed.). Springer. ISBN 3-540-25128-6. 
+US Army FM series.
+US Army military intelligence museum, FT Huachuca, AZ
+Datla, R.U.; Rice, J.P.; Lykke, K.R.; Johnson, B.C.; Butler, J.J.; Xiong, X. (2011 (March–April)). "Best practice guidelines for pre-launch characterization and calibration of instruments for passive optical remote sensing" (PDF). Journal of Research of the National Institute of Standards and Technology 116 (2): 612–646. doi:10.6028/jres.116.009.  
+Begni G., Escadafal R., Fontannaz D. and Hong-Nga Nguyen A.-T. (2005). Remote sensing: a tool to monitor and assess desertification. Les dossiers thématiques du CSFD. Issue 2. 44 pp.
+KUENZER, C. ZHANG, J., TETZLAFF, A., and S. DECH, 2013: Thermal Infrared Remote Sensing of Surface and underground Coal Fires. In (eds.) Kuenzer, C. and S. Dech 2013: Thermal Infrared Remote Sensing – Sensors, Methods, Applications. Remote Sensing and Digital Image Processing Series, Volume 17, 572 pp., ISBN 978-94-007-6638-9, pp. 429–451
+Kuenzer, C. and S. Dech 2013: Thermal Infrared Remote Sensing – Sensors, Methods, Applications. Remote Sensing and Digital Image Processing Series, Volume 17, 572 pp., ISBN 978-94-007-6638-9
+Lasaponara, R. and Masini N. 2012: Satellite Remote Sensing - A new tool for Archaeology. Remote Sensing and Digital Image Processing Series, Volume 16, 364 pp., ISBN 978-90-481-8801-7.
+
+
+== External links ==
+Remote Sensing at DMOZ
+Free space images (mosaics)
+International Journal of Advanced Remote Sensing and GIS
+100 Earth-Shattering Remote Sensing Applications and Uses

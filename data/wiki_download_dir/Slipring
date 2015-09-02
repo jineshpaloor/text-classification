@@ -1,0 +1,25 @@
+Slip ring
+A slip ring is an electromechanical device that allows the transmission of power and electrical signals from a stationary to a rotating structure. A slip ring can be used in any electromechanical system that requires rotation while transmitting power or signals. It can improve mechanical performance, simplify system operation and eliminate damage-prone wires dangling from movable joints.
+Also called rotary electrical interfaces, rotating electrical connectors, collectors, swivels, or electrical rotary joints, these rings are commonly found in slip ring motors, electrical generators for alternating current (AC) systems and alternators and in packaging machinery, cable reels, and wind turbines. They can be used on any rotating object to transfer power, control circuits, or analog or digital signals including data such as those found on aerodrome beacons, rotating tanks, power shovels, radio telescopes or heliostats.
+A slip ring (in electrical engineering terms) is a method of making an electrical connection through a rotating assembly. Formally, it is an electric transmission device that allows energy flow between two electrical rotating parts, such as in a motor.
+
+
+== Composition ==
+A slip ring is an electrical connector designed to carry current or signals from a stationary wire into a rotating device. Typically, it consists of a stationary graphite or metal contact (brush) which rubs on the outside diameter of a rotating metal ring. As the metal ring turns, the electric current or signal is conducted through the stationary brush to the metal ring making the connection. Additional ring/brush assemblies are stacked along the rotating axis if more than one electrical circuit is needed. Either the brushes or the rings are stationary and the other component rotates. This simple design has been used for decades as a rudimentary method of passing current into a rotating device.
+
+
+== Alternative names and uses ==
+Some other names used for slip ring are collector ring, rotary electrical contact and electrical slip ring. Some people also use the term commutator, however commutators are somewhat different and are specialized for use on DC motors and generators. While commutators are segmented, slip rings are continuous, and the terms are not interchangeable. Rotary transformers are often used instead of slip rings in high speed or low friction environments.
+A slip ring can be used within a rotary union to function concurrently with the device, commonly referred to as a rotary joint. Slip rings do the same for electrical power and signal that rotary unions do for fluid media. They are often integrated into rotary unions to send power and data to and from rotating machinery in conjunction with the media that the rotary union provides. 
+Mercury-wetted slip rings, noted for their low resistance and stable connection use a different principle which replaces the sliding brush contact with a pool of liquid metal molecularly bonded to the contacts. During rotation the liquid metal maintains the electrical connection between the stationary and rotating contacts. However, the use of mercury poses safety concerns, as it is a toxic substance. If a slip ring application involves food manufacturing or processing, pharmaceutical equipment, or any other use where contamination could be a serious threat, the choice should be precious metal contacts. Leakage of the mercury and the resultant contamination could be extremely serious. The slip ring device is also limited by temperature, as mercury solidifies at approximately -40 °C.
+A pancake slip ring  has the conductors arranged on a flat disc as concentric rings centered on the rotating shaft. This configuration has greater weight and volume for the same circuits, greater capacitance and crosstalk, greater brush wear and more readily collects wear debris on its vertical axis. However, a pancake offers reduced axial length for the number of circuits, and so may be appropriate in some applications.
+Slip rings are made in various sizes; one device made for theatrical stage lighting had 100 conductors. The slip ring allows for unlimited rotations of the connected object, whereas a slack cable can only be twisted a few times before it will fail.
+
+
+== References ==
+
+Slip ring and rotary unions
+
+
+== External links ==
+Video depicting the interior of a slip ring in motion

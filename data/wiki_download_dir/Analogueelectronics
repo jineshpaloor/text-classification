@@ -1,0 +1,45 @@
+Analogue electronics
+Analogue electronics (or analog in American English) are electronic systems with a continuously variable signal, in contrast to digital electronics where signals usually take only two levels. The term "analogue" describes the proportional relationship between a signal and a voltage or current that represents the signal. The word analogue is derived from the Greek word ανάλογος (analogos) meaning "proportional".
+
+
+== Analogue signalsEdit ==
+
+An analogue signal uses some attribute of the medium to convey the signal's information. For example, an aneroid barometer uses the angular position of a needle as the signal to convey the information of changes in atmospheric pressure. Electrical signals may represent information by changing their voltage, current, frequency, or total charge. Information is converted from some other physical form (such as sound, light, temperature, pressure, position) to an electrical signal by a transducer which converts one type of energy into another (e.g. a microphone).
+The signals take any value from a given range, and each unique signal value represents different information. Any change in the signal is meaningful, and each level of the signal represents a different level of the phenomenon that it represents. For example, suppose the signal is being used to represent temperature, with one volt representing one degree Celsius. In such a system 10 volts would represent 10 degrees, and 10.1 volts would represent 10.1 degrees.
+Another method of conveying an analogue signal is to use modulation. In this, some base carrier signal has one of its properties altered: amplitude modulation (AM) involves altering the amplitude of a sinusoidal voltage waveform by the source information, frequency modulation (FM) changes the frequency. Other techniques, such as phase modulation or changing the phase of the carrier signal, are also used.
+In an analogue sound recording, the variation in pressure of a sound striking a microphone creates a corresponding variation in the current passing through it or voltage across it. An increase in the volume of the sound causes the fluctuation of the current or voltage to increase proportionally while keeping the same waveform or shape.
+Mechanical, pneumatic, hydraulic and other systems may also use analogue signals.
+
+
+== Inherent noiseEdit ==
+Analogue systems invariably include noise that is random disturbances or variations, some caused by the random thermal vibrations of atomic particles. Since all variations of an analogue signal are significant, any disturbance is equivalent to a change in the original signal and so appears as noise. As the signal is copied and re-copied, or transmitted over long distances, these random variations become more significant and lead to signal degradation. Other sources of noise may include crosstalk from other signals or poorly designed components. These disturbances are reduced by shielding and by using low-noise amplifiers (LNA).
+
+
+== Analogue vs digital electronicsEdit ==
+Since the information is encoded differently in analogue and digital electronics, the way they process a signal is consequently different. All operations that can be performed on an analogue signal such as amplification, filtering, limiting, and others, can also be duplicated in the digital domain. Every digital circuit is also an analogue circuit, in that the behaviour of any digital circuit can be explained using the rules of analogue circuits.
+The first electronic devices invented and mass-produced were analogue. The use of microelectronics has made digital devices cheap and widely available.
+
+
+=== NoiseEdit ===
+Because of the way information is encoded in analogue circuits, they are much more susceptible to noise than digital circuits, since a small change in the signal can represent a significant change in the information present in the signal and can cause the information present to be lost. Since digital signals take on one of only two different values, a disturbance would have to be about one-half the magnitude of the digital signal to cause an error. This property of digital circuits can be exploited to make signal processing noise-resistant. In digital electronics, because the information is quantized, as long as the signal stays inside a range of values, it represents the same information. Digital circuits use this principle to regenerate the signal at each logic gate, lessening or removing noise.
+
+
+=== PrecisionEdit ===
+A number of factors affect how precise a signal is, mainly the noise present in the original signal and the noise added by processing (see signal-to-noise ratio). Fundamental physical limits such as the shot noise in components limits the resolution of analogue signals. In digital electronics additional precision is obtained by using additional digits to represent the signal. The practical limit in the number of digits is determined by the performance of the analogue-to-digital converter (ADC), since digital operations can usually be performed without loss of precision. The ADC takes an analogue signal and changes it into a series of binary numbers. The ADC may be used in simple digital display devices, e. g., thermometers or light meters but it may also be used in digital sound recording and in data acquisition. However, a digital-to-analogue converter (DAC) is used to change a digital signal to an analogue signal. A DAC takes a series of binary numbers and converts it to an analogue signal. It is common to find a DAC in the gain-control system of an op-amp which in turn may be used to control digital amplifiers and filters.
+
+
+=== Design difficultyEdit ===
+Analogue circuits are typically harder to design, requiring more skill, than comparable digital systems. This is one of the main reasons why digital systems have become more common than analogue devices. An analogue circuit must be designed by hand, and the process is much less automated than for digital systems. However, if a digital electronic device is to interact with the real world, it will always need an analogue interface. For example, every digital radio receiver has an analogue preamplifier as the first stage in the receive chain.
+
+
+== See alsoEdit ==
+Analogue computer
+Analogue signal
+Digital – for a comparison with analogue
+Analogue recording vs. digital recording
+Analogue chip
+Analogue verification
+Electronic circuit
+
+
+== ReferencesEdit ==

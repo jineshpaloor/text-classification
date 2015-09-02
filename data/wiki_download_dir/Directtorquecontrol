@@ -1,0 +1,47 @@
+Direct torque control
+Direct torque control (DTC) is one method used in variable frequency drives to control the torque (and thus finally the speed) of three-phase AC electric motors. This involves calculating an estimate of the motor's magnetic flux and torque based on the measured voltage and current of the motor.
+
+
+== DTC control platform ==
+Stator flux linkage is estimated by integrating the stator voltages. Torque is estimated as a cross product of estimated stator flux linkage vector and measured motor current vector. The estimated flux magnitude and torque are then compared with their reference values. If either the estimated flux or torque deviates from the reference more than allowed tolerance, the transistors of the variable frequency drive are turned off and on in such a way that the flux and torque errors will return in their tolerant bands as fast as possible. Thus direct torque control is one form of the hysteresis or bang-bang control.
+
+Overview of key competing VFD control platforms:
+The properties of DTC can be characterized as follows:
+Torque and flux can be changed very fast by changing the references
+High efficiency & low losses - switching losses are minimized because the transistors are switched only when it is needed to keep torque and flux within their hysteresis bands
+The step response has no overshoot
+No coordinate transforms are needed, all calculations are done in stationary coordinate system
+No separate modulator is needed, the hysteresis control defines the switch control signals directly
+There are no PI current controllers. Thus no tuning of the control is required
+The switching frequency of the transistors is not constant. However, by controlling the width of the tolerance bands the average switching frequency can be kept roughly at its reference value. This also keeps the current and torque ripple small. Thus the torque and current ripple are of the same magnitude than with vector controlled drives with the same switching frequency.
+Due to the hysteresis control the switching process is random by nature. Thus there are no peaks in the current spectrum. This further means that the audible noise of the machine is low
+The intermediate DC circuit's voltage variation is automatically taken into account in the algorithm (in voltage integration). Thus no problems exist due to dc voltage ripple (aliasing) or dc voltage transients
+Synchronization to rotating machine is straightforward due to the fast control; Just make the torque reference zero and start the inverter. The flux will be identified by the first current pulse
+Digital control equipment has to be very fast in order to be able to prevent the flux and torque from deviating far from the tolerance bands. Typically the control algorithm has to be performed with 10 - 30 microseconds or shorter intervals. However, the amount of calculations required is small due to the simplicity of the algorithm
+The current measuring devices have to be high quality ones without noise because spikes in the measured signals easily cause erroneous control actions. Further complication is that no low-pass filtering can be used to remove noise because filtering causes delays in the resulting actual values that ruins the hysteresis control
+The stator voltage measurements should have as low offset error as possible in order to keep the flux estimation error down. For this reason the stator voltages are usually estimated from the measured DC intermediate circuit voltage and the transistor control signals
+In higher speeds the method is not sensitive to any motor parameters. However, at low speeds the error in stator resistance used in stator flux estimation becomes critical
+Summarizing properties of DTC in comparison to field-oriented control, we have:
+The direct torque method performs very well even without speed sensors. However, the flux estimation is usually based on the integration of the motor phase voltages. Due to the inevitable errors in the voltage measurement and stator resistance estimate the integrals tend to become erroneous at low speed. Thus it is not possible to control the motor if the output frequency of the variable frequency drive is zero. However, by careful design of the control system it is possible to have the minimum frequency in the range 0.5 Hz to 1 Hz that is enough to make possible to start an induction motor with full torque from a standstill situation. A reversal of the rotation direction is possible too if the speed is passing through the zero range rapidly enough to prevent excessive flux estimate deviation.
+If continuous operation at low speeds including zero frequency operation is required, a speed or position sensor can be added to the DTC system. With the sensor, high accuracy of the torque and speed control can be maintained in the whole speed range.
+
+
+== History ==
+DTC was patented by Manfred Depenbrock in the US and in Germany, the latter patent having been filed on October 20, 1984, both patents having been termed direct self-control (DSC). However, Isao Takahashi and Toshihiko Noguchi described a similar control technique termed DTC in an IEEJ paper presented in September 1984 and in an IEEE paper published in late 1986. The DTC innovation is thus usually credited to all three individuals.
+The only difference between DTC and DSC is the shape of the path along which the flux vector is controlled, the former path being quasi-circular whereas the latter is hexagonal such that the switching frequency of DTC is higher than DSC. DTC is accordingly aimed at low-to-mid power drives whereas DSC is usually used for higher power drives. (For simplicity, the rest of the article only uses the term DTC.)
+Since its mid-1980s introduction applications, DTC have been used to advantage because of its simplicity and very fast torque and flux control response for high performance induction motor (IM) drive applications.
+DTC was also studied in Baader's 1989 thesis, which provides a very good treatment of the subject.
+The first major successful commercial DTC products, developed by ABB, involved traction applications late in the 1980s for German DE502 [1][2] and DE10023 [3] diesel-electric locomotives and the 1995 launch of the ACS600 drives family. ACS600 drives has since been replaced by ACS800 and ACS880 drives. Vas, Tiitinen et al. and Nash provide a good treatment of ACS600 and DTC.
+DTC has also been applied to three-phase grid side converter control. Grid side converter is identical in structure to the transistor inverter controlling the machine. Thus it can in addition to rectifying AC to DC also feed back energy from the DC to the AC grid. Further, the waveform of the phase currents is very sinusoidal and power factor can be adjusted as desired. In the grid side converter DTC version the grid is considered to be a big electric machine.
+DTC techniques for the interior permanent magnet synchronous machine (IPMSM) were introduced in the late 1990s and synchronous reluctance motors (SynRM) in the 2010s.
+DTC was applied to doubly fed machine control in the early 2000s. Doubly-fed generators are commonly used in 1-3 MW wind turbine applications.
+Given DTC's outstanding torque control performance, it was surprising that ABB's first servo drive family, the ACSM1, was only introduced in 2007.
+From the end of 90's several papers have been published about DTC and its modifications such as space vector modulation, which offers constant switching frequency.
+In light of the mid-2000s expiration of Depenbrock's key DTC patents, it may be that other companies than ABB have included features similar to DTC in their drives.
+
+
+== References ==
+
+
+== See also ==
+Vector control (motor)

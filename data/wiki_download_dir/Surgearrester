@@ -1,0 +1,32 @@
+Surge arrester
+A surge arrester is a device to protect electrical equipment from over-voltage transients caused by external (lightning) or internal (switching) events. Also called a surge protection device (SPD) or transient voltage surge suppressor (TVSS), this class of device is used to protect equipment in power transmission and distribution systems. (For consumer equipment protection, different products called surge protectors are used.)
+To protect a unit of equipment from transients occurring on an attached conductor, a surge arrester is connected to the conductor just before it enters the equipment. The surge arrester is also connected to ground and functions by routing energy from an over-voltage transient to ground if one occurs, while isolating the conductor from ground at normal operating voltages. This is usually achieved through use of a varistor, which has substantially different resistances at different voltages.
+Surge arresters are not generally designed to protect against a direct lightning strike to a conductor, but rather against electrical transients resulting from lightning strikes occurring in the vicinity of the conductor. Lightning which strikes the earth results in ground currents which can pass over buried conductors and induce a transient that propagates outward towards the ends of the conductor. The same kind of induction happens in overhead and above ground conductors which experience the passing energy of an atmospheric EMP caused by the lightning flash. Surge arresters only protect against induced transients characteristic of a lightning discharge's rapid rise-time and will not protect against electrification caused by a direct strike to the conductor. Transients similar to lightning-induced, such as from a high voltage system's fault switching, may also be safely diverted to ground; however, continuous overcurrents are not protected against by these devices. The energy in a handled transient is substantially less than that of a lightning discharge; however it is still of sufficient quantity to cause equipment damage and often requires protection.
+Without very thick insulation, which is generally cost prohibitive, most conductors running more than a minimal distance, say greater than about 50 feet, will experience lightning-induced transients at some time during use. Because the transient is usually initiated at some point between the two ends of the conductor, most applications install a surge arrester just before the conductor lands in each piece of equipment to be protected. Each conductor must be protected, as each will have its own transient induced, and each SPD must provide a pathway to earth to safely divert the transient away from the protected component. The one notable exception where they are not installed at both ends is in high voltage distribution systems. In general, the induced voltage is not sufficient to do damage at the electric generation end of the lines; however, installation at the service entrance to a building is key to protecting downstream products that are not as robust.
+
+
+== Types ==
+Low-voltage surge arrester: Apply in Low-voltage distribution system, exchange of electrical appliances protector, low-voltage distribution transformer windings
+Distribution arrester: Apply in 3KV, 6KV, 10KV AC power distribution system to protect distribution transformers, cables and power station equipment
+The station type of common valve arrester: Used to protect the 3 ~ 220KV transformer station equipment and communication system
+Magnetic blow valve station arrester: Use to 35 ~ 500KV protect communication systems, transformers and other equipment
+Protection of rotating machine using magnetic blow valve arrester: Used to protect the AC generator and motor insulation
+Line Magnetic blow valve arrester: Used to protect 330KV and above communication system circuit equipment insulation
+DC or blowing valve-type arrester: Use to protect the DC system’s insulation of electrical equipment
+Neutral protection arrester: Apply in motor or the transformer’s neutral protection
+Fiber-tube arrester: Apply in the power station’s wires and the weaknesses protection in the insulated
+Plug-in Signal Arrester: Used to twisted-pair transmission line in order to protect communications and computer systems
+High-frequency feeder arrester: Used to protect the microwave, mobile base stations satellite receiver, etc.
+Receptacle-type surge arrester: Use to Protect the terminal Electronic equipment
+Signal Arrester: Apply in MODEM, DDN line, fax, phone, process control signal circuit etc.
+Network arrester: Apply in servers, workstations, interfaces etc.
+Coaxial cable lightning arrester: Used on the coaxial cable to protect the wireless transmission and receiving system
+
+
+== See also ==
+Lightning arrester
+Surge protector
+Lightning rod
+
+
+== External links ==

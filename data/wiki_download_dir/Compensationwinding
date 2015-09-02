@@ -1,0 +1,9 @@
+Compensation winding
+A compensation winding is an isolated coil wound into a transformer's primary to effectively create fractional numbers of turns.
+
+
+== Electric motors ==
+The demagnetizing effect of the armature mmf under pole faces can be compensated for, or neutralized, by providing a compensating (pole-face) winding, arranged in slots in the pole face in series with the armature, having a polarity opposite to that of the adjoining armature winding and having the same axis as that of the armature. Because they are costly, pole-face windings are usually employed only in machines designed for heavy overload or rapidly changing loads, such as steel-mill motors subjected to reverse duty cycles or in motors intended to operate over wide speed ranges by shunt-field control. The schematic diagram of Figure shows the relative positions of various windings, indicating that the commutating and compensating fields act along the armature axis (i.e., the quadrature axis), and the shunt as well as series fields act along the axis of the main poles (i.e., the direct axis). It is thus possible to achieve rather complete control of the air-gap flux around the entire armature periphery, along with smooth sparkless commutation.
+
+
+== References ==

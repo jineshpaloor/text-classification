@@ -1,0 +1,45 @@
+Jack Dennis
+Jack Bonnell Dennis is a computer scientist and Emeritus Professor of Computer Science and Engineering at MIT.
+
+
+== Early life and education ==
+Dennis graduated from the Massachusetts Institute of Technology (MIT) as Bachelor of Science (1953), Master of Science (1954), and Doctor of Science (1958). His doctoral thesis analyzed the relation between mathematical programming problems and electrical networks. After completing his doctorate, Dennis became part of the MIT's Department of Electrical Engineering and Computer Science's faculty, being promoted to full professor in 1969.
+
+
+== Career ==
+Dennis was one of the founders of the pioneering Multics project. His most important contribution to this project was the concept of the single-level memory. Multics was not fully successful as a commercial project, but it was important because it influenced the design of many other computer operating systems, including inspiration for Ken Thompson to design Unix. In recognition of his work on the Multics project, Dennis was elected as IEEE Fellow.
+Dennis' research at the MIT focused in Computer Theory and Computer Systems, specifically:
+Theoretical Models for Computation
+Computation Structures
+Structure of Computer Systems
+Semantic Theory for Computer Systems
+Semantics of Parallel Computation
+Computer System Architecture
+Dennis has also worked as an independent consultant and research scientist on projects related with parallel computer hardware and software since his retirement from MIT in 1987. He has worked with the NASA Research Institute for Advanced Computer Science as Visiting Scientist, with the Architecture Group of Carlstedt Elektronik (Gothenburg, Sweden), and with Acorn Networks, Inc., as Chief Scientist.
+A great part of Dennis' career has been devoted to non-von Neumann models of computation, architecture, and languages, where programs are not attached to a program counter. Along with his students, Dennis adopted the concepts of "single-assignment" and dataflow, in which instructions are executed as soon as data are available (this specific model is called "static" in contrast to Arvind's "dynamic").
+
+
+== Legacy ==
+The work of Dennis in computer systems and languages is recognized to have played a key role in hacker culture, and as a faculty member he sponsored easier access to computer facilities at MIT during the early development of the subculture. Dennis was a member of the historic Tech Model Railroad Club, which incubated much of the early slang and traditions of hacking.
+
+
+== Awards and recognitions ==
+IEEE John von Neumann Medal, 2013
+Association for Computing Machinery (ACM) Special Interest Group on Operating Systems (SIGOPS) Hall of Fame, 2012
+Member of the National Academy of Engineering (NAE), 2009
+Eckert-Mauchly Award, 1984
+IEEE Fellow
+ACM Fellow
+
+
+== References ==
+
+
+== External links ==
+Jack B. Dennis home page
+Biography
+
+Photograph of Jack B. Dennis
+Oral history interview with Jack B. Dennis at the Charles Babbage Institute, University of Minnesota. Dennis describes his educational background and work in time-sharing computer systems at the Massachusetts Institute of Technology (MIT), including the TX-0 computer, the work of John McCarthy on time-sharing, and the influence of the Information Processing Techniques Office of the Advanced Research Projects Agency. Dennis also recalls the competition between Digital Equipment Corporation, General Electric, Burroughs, and International Business Machines, to manufacture time-sharing systems. He describes the development of MULTICS at General Electric.
+Toward the Computer Utility: A Career in Computer System Architecture — Jack B. Dennis
+Parallel Computing Pioneers — Jack B. Dennis

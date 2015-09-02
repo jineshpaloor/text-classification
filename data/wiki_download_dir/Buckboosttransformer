@@ -1,0 +1,28 @@
+Buck–boost transformer
+A buck–boost transformer is a type of transformer used to make adjustments to the voltage applied to alternating current equipment. Buck–boost connections are used in several places such as uninterruptible power supply (UPS) units for computers, and in the tanning bed industry.
+Buck–boost transformers can be used to power low voltage circuits including control, lighting circuits, or applications that require 12, 16, 24, 32 or 48 volts, consistent with the design's secondaries. The transformer is connected as an isolating transformer and the nameplate kVA rating is the transformer’s capacity.
+
+
+== Application ==
+Buck-boost transformers may be used for electrical equipment where the amount of buck or boost is fixed. For example, a fixed boost would be used when connecting equipment rated for 230 V AC to a 208 V power source.
+Units are rated in volt-amperes (most commonly, kilo-volt amperes KVA) (or more rarely, amperes) and are rated for a percent of voltage drop or rise. For example, a buck–boost transformer rated at 10% boost will raise a supplied voltage of 208 V AC to 229 V AC. A rating of 10% buck will yield the result of 209 V AC if the actual incoming supplied voltage is 230 V AC.
+
+
+== Frequency ==
+All transformers operate only with alternating current. Transformers change only voltage, not frequency. Equipment that uses synchronous motors will operate at a different speed if operated at other than the design frequency. Some equipment is marked on its nameplate to run at either 50 Hz or 60 Hz, and would need only the voltage adjusted with a buck–boost transformer to produce the rated output voltage.
+
+
+== Consumer and business applications ==
+
+Transformers may come semi-wired, where the installer completes the last internal connections to have the unit perform the amount of buck or boost needed. Units may have multiple taps on both the primary and secondary coils to achieve this flexibility. They may be designed for hard-wired installations (no plugs) or with plug and receptacle to allow the same transformer to be used in several different applications. The same transformer can be rewired to raise or lower voltage by 5%, 10% or 15%. The primary may have wiring combinations for dual voltage usage: example for either 120 V AC or 240 V AC applications, depending on the final wiring done by the electrician.
+Not all equipment requires voltage correction. These transformers are used when electrical equipment has a voltage requirement that is slightly out of tolerance with the incoming power supply. This is most common when using 240 V equipment in a business with 208 V service or vice versa.
+Equipment is typically labeled with its voltage rating, and may advertise the amount of tolerance it will accept before degraded performance or damage can be expected. A unit that requires 230 V AC with a tolerance of 5% will not require a buck–boost transformer if the branch circuit (under load) is between 219 V AC and 241 V AC. Measurement should be made while the circuit is loaded, as the voltage can drop several volts compared to the open measurement. The transformer must be rated to carry the full load current or it may be damaged.
+
+
+== See also ==
+Tap changer
+Buck–boost converter
+Transformer types
+
+
+== References ==

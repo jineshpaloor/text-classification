@@ -1,0 +1,86 @@
+Super grid
+A super grid is a wide area transmission network that makes it possible to trade high volumes of electricity across great distances. It is sometimes also referred to as a "mega grid".
+
+
+== History ==
+The idea of creating long distance transmission lines in order to take advantage of renewable sources distantly located is not new. In the US in the 1950s, a proposal was made to ship hydroelectric power from dams being constructed in the Pacific Northwest to consumers in Southern California, but it was opposed and scrapped. In 1961, U.S. president John F. Kennedy authorized a large public works project using new HVDC technology from Sweden. The project was undertaken as a close collaboration between General Electric of the U.S. and ASEA of Sweden, and the system was commissioned in 1970. With several upgrades of the converter stations in the intervening decades, the system now has a capacity of 3100 MW and is known as the Pacific DC Intertie.
+The concept of a "Super grid" dates back to the 1960s and was used to describe the emerging unification of the Great Britain grid. In the code that governs the British Grid, the Grid Code, the Supergrid is currently defined - and has been since this code was first written, in 1990 - as referring to those parts of the British electricity transmission system that are connected at voltages in excess of 200 kV (200,000 volts). British power system planners and operational staff therefore invariably speak of the Supergrid in this context; in practice the definition used captures all of the equipment owned by the National Grid company in England and Wales, and no other equipment.
+What has changed during the past 40 years is the scale of energy and distances that are imagined possible in a super grid. Europe began unifying its grids since the 1950s and its largest unified grid is the synchronous grid of Continental Europe serving 24 countries. Serious work is being conducted on unification of the European UCTE grid with the neighboring IPS/UPS grid. If completed, this massive grid would span 13 time zones stretching from the Atlantic to the Pacific.
+While such grids cover great distances, the capacity to transmit large volumes of electricity remains limited due to congestion and control issues. The SuperSmart Grid (Europe) and the Unified Smart Grid (US) specify major technological upgrades that proponents claim are necessary to assure the practical operation and promised benefits of such transcontinental mega grids.
+
+
+== Concept ==
+In current usage, "super grid" has two senses – one of being a superstructure layer overlaid or super-imposed upon existing regional transmission grid or grids, and the second of having some set of superior abilities exceeding those of even the most advanced grids.
+
+
+=== Mega grid ===
+In the "overlay", or "superstructure" meaning, a super grid is a very long distance equivalent of a wide area synchronous network capable of large-scale transmission of renewable electricity. In some conceptions, a transmission grid of HVDC transmission lines forms a layer that is distinctly separate in the way that a superhighway system is separate from the system of city streets and regional highways. In more conventional conceptions such as the proposed unification of the European UCTE and IPS/UPS system of the CIS, such a mega grid is no different from typical wide area synchronous transmission systems where electricity takes an ad-hoc transit route directly through local utility transmission lines or HVDC lines as required. Studies for such continental sized systems report there are scaling problems as a result of network complexity, transmission congestion, and the need for rapid diagnostic, coordination and control systems. Such studies observe that transmission capacity would need to be significantly higher than current transmission systems in order to promote unimpeded energy trading across distances unbounded by state, regional or national, or even continental borders. As a practical matter, it has become necessary to incorporate smart grid features such as wide area sensor networks (WAMS) into even modest sized regional grids in order to avert major power outages such as the Northeast Blackout of 2003. Dynamic interactions between power generation groups are increasingly complex, and transient disturbances that cascade across neighboring utilities can be sudden, large and violent, accompanied by abrupt changes in the network topology as operators attempt to manually stabilize the network.
+
+
+=== Superior grid ===
+In the second sense of an advanced grid, the super grid is superior not only because it is a wide area mega grid, but also because it is highly coordinated from a macro level spanning nations and continents, all the way down to the micro level scheduling low priority loads like water heaters and refrigeration. In the European SuperSmart Grid proposal and the US Unified Smart Grid concept, such super grids have intelligence features in the wide area transmission layer which integrate the local smart grids into a single wide area super grid. This is similar to how the internet bound together small networks into a single ubiquitous network.
+Wide area transmission can be viewed as a horizontal extension of the smart grid. In a paradigm shift, the distinction between transmission and distribution blurs with the integration as energy flow becomes bidirectional. For example, distribution grids in rural areas might generate more energy than they use, turning the local smart grid into a virtual power plant, or a city's fleet of one million electric vehicles could be used to trim peaks in transmission supply by integrating them to the smart grid using vehicle to grid technology.
+
+One advantage of such a geographically dispersed and dynamically balanced system is that the need for baseload generation is significantly reduced since intermittency of some sources such as ocean, solar, and wind can be smoothed. A series of detailed modeling studies by Dr. Gregor Czisch, which looked at the European-wide adoption of renewable energy and interlinking power grids using HVDC cables, indicates that Europe's entire power usage could come from renewables, with 70% total energy from wind at the same level of cost or lower as at present.
+To some critics, such a wide area transmission layer is not novel; they point out that the technology has little difference from that used for regional and national power transmission networks. Proponents respond that beyond the qualitative smart grid features that allow instantaneous coordination and balancing of intermittent power sources across international boundaries, the quantitative comprehensiveness has a quality all its own. The claim is made that super grids open up markets. In the same way that freeways revolutionized interstate transport and the internet revolutionized online commerce when comprehensive high capacity networks were built, it is argued that a high capacity super grid must be built in order to provide a distribution network so comprehensive and with such available capacity that energy trading is only limited by how much electricity entrepreneurs can bring to market.
+
+
+== Technology ==
+Wide area super grids plans typically call for bulk transmission using high voltage direct current lines. Europe's SuperSmart Grid proposal relies on HVDC, and in the US, key decision makers such as Steven Chu favor a national long distance DC grid system. There are industry advocates of HVAC. Although FACTS alternating current have drawbacks for long distances, American Electric Power has championed a 765 kV super grid they call I-765 that would provide 400 GW of extra transmission capacity required for producing 20% of US energy from wind farms based in the midwest. (See figure above). Advocates of HVAC point out that HVDC systems are oriented for point to point bulk transmission and multiple connections to them would require expensive complex communication and control equipment as opposed to the simple step up transformers needed if AC lines were used. Currently, there is only one multipoint long distance HVDC transmission system. In the more distant future the voltage loss of current methods could be avoided using experimental superconducting "SuperGrid" technology where the transmission cable is cooled by a liquid hydrogen pipeline which is also used to move energy nationwide. The energy losses for creating, containing, and re-cooling liquid hydrogen need to be accounted for.
+Coordination and control of the network would use smart grid technologies such as phasor measurement units to rapidly detect imbalances in the network caused by fluctuating renewable energy sources and potentially respond instantaneously with programmed automatic protection schemes to reroute, reduce load, or reduce generation in response to network disturbances.
+
+
+== Government policy ==
+
+
+=== Significant scale ===
+One study for a European super grid estimates that as much as 750 GW of extra transmission capacity would be required – capacity that would be accommodated in increments of 5 GW with HVDC lines. A recent proposal by Transcanada priced a 1,600-km, 3-GW HVDC line at $3 billion USD; it would require a corridor 60 meters wide. In India, a recent 6 GW, 1,850-km proposal was priced at $790 million and would require a 69 meter wide right of way. With 750 GW of new HVDC transmission capacity required for a European super grid, the land and money needed for new transmission lines would be considerable.
+
+
+=== Energy independence ===
+In Europe, the energy security implication of a super grid has been discussed as a way in part to prevent Russian energy hegemony. In the US, advocates such as T. Boone Pickens have promoted the idea of a national transmission grid in order to promote United States energy independence. Al Gore advocates the Unified Smart Grid which has comprehensive super grid capabilities. Gore and other advocates such as James E. Hansen believe super grids are essential for the eventual complete replacement of the greenhouse gas producing fossil fuel use that feeds global warming.
+
+
+=== Permits for corridors ===
+Large amounts of land would be required for the electricity transmission corridors used by the new transmission lines of a super grid. There can be significant opposition to the siting of power lines out of concerns about visual impact, anxiety over perceived health issues, and environmental concerns. The US has a process of designating National Interest Electric Transmission Corridors, and it is likely that this process would be used to specify the pathways for a super grid in that country. In the EU, permits for new overhead lines can easily reach 10 years. In some cases, this has made underground cable more expedient. Since land required can be one fifth than that for overhead and the permit process can be significantly faster, underground cable can be more attractive despite its weaknesses of being more expensive, lower capacity, shorter lived, and suffers significantly longer downtimes.
+
+
+== Business interests ==
+
+
+=== Siting ===
+Just as superhighways change valuations of land due to the proximity to the ability to transport valuable commodities, businesses are strongly motivated to influence the siting of a super grid to their benefit. The cost of alternative power is the delivered price of electricity, and if production of electricity from North Dakota wind or Arizona solar is to be competitive, the distance of the connection from the wind farm to the interstate transmission grid must not be great. This is because the feeder line from the generator to the transmission lines is usually paid for by the owner of the generation. Some localities will help pay for the cost of these lines, at the cost of local regulation such as that of a public utilities commission. T. Boone Pickens' project has chosen to pay for the feeder lines privately. Some localities, such as Texas give such projects the power of eminent domain which allows companies to seize land in the path of the planned construction.
+
+
+=== Technology preferences ===
+Energy producers are interested in whether the super grid employs HVDC technology, or uses AC, because the cost of connection to an HVDC line is generally greater than that if the AC is used. The Pickens plan favors 765 kV AC transmission, which is considered to be less efficient for long distance transmission.
+
+
+=== Competition ===
+In the 1960s, private California power companies opposed the Pacific Intertie project with a set of technical objections that were overruled. When the project was completed, consumers in Los Angeles saved approximately U.S. $600,000 per day by use of electric power from projects on the Columbia River rather than local power companies burning more expensive fossil fuel.
+
+
+== See also ==
+
+DESERTEC
+Europe:
+European super grid
+SuperSmart Grid
+Synchronous grid of Continental Europe
+
+High voltage direct current (HVDC)
+List of energy storage projects
+North Sea Offshore Grid
+Pickens plan
+Smart grid
+SuperGrid
+Unified Smart Grid
+V2G
+Wide area synchronous grid
+
+
+== References ==
+
+
+== External links ==
+Friends of the Supergrid

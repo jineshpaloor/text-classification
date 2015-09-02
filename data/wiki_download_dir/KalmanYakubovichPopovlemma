@@ -1,0 +1,20 @@
+Kalman–Yakubovich–Popov lemma
+The Kalman–Yakubovich–Popov lemma is a result in system analysis and control theory which states: Given a number , two n-vectors B, C and an n x n Hurwitz matrix A, if the pair  is completely controllable, then a symmetric matrix P and a vector Q satisfying
+
+exist if and only if
+
+Moreover, the set  is the unobservable subspace for the pair .
+The lemma can be seen as a generalization of the Lyapunov equation in stability theory. It establishes a relation between a linear matrix inequality involving the state space constructs A, B, C and a condition in the frequency domain.
+It was derived in 1962 by Rudolf E. Kalman, who brought together results by Vladimir Andreevich Yakubovich and Vasile Mihai Popov.
+
+
+== Multivariable Kalman–Yakubovich–Popov lemma ==
+Given  with  for all  and  controllable, the following are equivalent:
+for all 
+
+there exists a matrix  such that  and
+
+The corresponding equivalence for strict inequalities holds even if  is not controllable. 
+
+
+== References ==

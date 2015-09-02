@@ -1,0 +1,108 @@
+Pentagrid converter
+The pentagrid converter is a type of radio receiving valve (vacuum tube) with five grids used as the frequency mixer stage of a superheterodyne radio receiver.
+The pentagrid was part of a line of development of valves that were able to take an incoming RF signal and change its frequency to a fixed intermediate frequency which was then amplified, and detected in the remainder of the receiver circuitry. The device was generically referred to as a frequency changer or just mixer.
+
+
+== Origins ==
+The first devices designed to change frequency in the manner described above seem to have been developed by the French, who simply put two grids into what would otherwise have been an ordinary triode valve (the bi-grille). Although technically a four-component electrode device, neither the term tetrode nor the tetrode valve as it is known today had yet appeared. Each grid was able to accept one of the incoming signals and the non-linearity of the device produced the sum and difference frequencies. The valve would have been very inefficient but, most importantly, the capacitive coupling between the two grids would have been very large. It would therefore have been quite impossible to prevent the signal from one grid coupling out of the other. At least one reference claims that the bi-grille was self-oscillating, but this has not been confirmed.
+In 1918, Edwin Armstrong used only triodes when he invented the superheterodyne receiver. One triode operated in a conventional oscillator circuit. Another triode acted as a mixer by coupling the oscillator signal into the mixer's cathode, and the received signal to the grid. The sum and difference frequencies were then available in the mixer's anode circuit. Once again, the problem of coupling between the circuits would be ever present.
+Shortly after Armstrong invented the superhet, a triode mixer stage design was developed that not only mixed the incoming signal with the local oscillator, but the same valve doubled as the oscillator. This was known as the autodyne mixer. Early examples had difficulty oscillating across the frequency range because the oscillator feedback was via the first intermediate frequency transformer primary tuning capacitor which was too small to give good feedback. Also keeping the oscillator signal out of the antenna circuit was difficult.
+The invention of the tetrode demonstrated the idea of screening electrodes from each other by using additional earthed (grounded) grids (at least as far as the signal was concerned). In 1926, Philips invented a technique of adding yet another grid to combat the secondary emission that the tetrode suffered from. All the ingredients for the pentagrid were now in place.
+
+
+== Pentagrid ==
+
+The development of the pentagrid or heptode (seven-electrode) valve was a novel development in the mixer story. The idea was to produce a single valve that not only mixed the oscillator signal and the received signal and produced its own oscillator signal at the same time but, importantly, did the mixing and the oscillating in different parts of the same valve.
+The invention of the device at first sight doesn't seem to be obscure, but it would appear that it was developed in both America and the United Kingdom, more or less at the same time. However, the UK device is different from its American counterpart.
+It is known that Donald G. Haines of RCA applied for a patent for the pentagrid on 28 March 1933 (subsequently granted on 29 March 1939) under US patent number 2,148,266. The pentagrid also featured in a UK patent (GB426802) granted on 10 April 1935. However, the Ferranti company of Great Britain entered the valve business with the first known UK-produced pentagrid, the VHT4, late in 1933 (though it must have been in development, and would certainly have existed as a prototype well before that time).
+The pentagrid proved to be a much better mixer. Since the oscillator circuit was more or less self-contained, good feedback for reliable oscillation across the frequency range was easy to obtain. Some manufacturers that had adopted the autodyne mixer converted some, if not all, of their designs to pentagrid mixers.
+What was the goal to develop a reliable self-oscillating mixer? The reasons were to differ from the UK to America. The UK radio manufacturers had to pay a royalty of £1 per valve holder to the British Valve Association to cover use of their members' patent rights. Further, they dictated that not more than one electrode structure could be contained in a single envelope (which would have evaded the royalty - at least in part). The Americans appeared to be driven by the desire to produce a low-cost 'every expense spared' design which was to lead to the All American Five. By making the mixer self-oscillate, the necessity of providing a separate oscillator valve is avoided. The All American Five was to use a pentagrid converter from when it first appeared in 1934, right up until valves became obsolete when transistors took over.
+In the UK, the five grids operated thus. Grid 1 acted as the oscillator grid in conjunction with grid 2 which acted as its anode. Grid 4 accepted the incoming signal with the remaining two grids, 3 and 5 connected together (usually internally) which acted as screen grids to screen the anode, grid 4 and grid 2 from each other. Because grid 2 was a 'leaky' anode in that it allowed part of the modulated electron stream through, the oscillator was coupled into the mixing section of the valve. In fact, in some designs, grid 2 consisted of just the support rods, the actual grid wire itself being omitted.
+In America, the configuration was different. Grid 1 acted as the oscillator grid as before, but in this case, grids 2 and 4 were connected together (again usually internally). Grid 2 functioned as both a screen and the oscillator anode; in this case the grid wire had to be present to provide the screening. Grid 3 accepted the incoming signal. Grid 4 screened this from the anode, and grid 5 was a suppressor grid to suppress secondary emission. This configuration limited the oscillator design to one where the oscillator 'anode' was operated from the HT+ (B+) rail. This was often accomplished by using a Hartley Oscillator circuit and taking the cathode to the tap on the coil.
+It will be noted that the UK version would have had significant secondary emission and would also have had a tetrode kink. This was exploited in providing the non linearity necessary to produce good sum and difference signals. The American devices although having no secondary emission due to the suppressor grid, nevertheless were able to get the required non linearity by biasing the oscillator such that the valve was overdriven. The American version was also a little more sensitive because the grid that accepted the signal was closer to the cathode increasing the amplification factor.
+The pentagrid converter in either guise operated extremely well, but it suffered from the limitation that a strong signal was able to 'pull' the oscillator frequency away from a weaker signal. This was not considered a major problem in broadcast receivers where the signals were likely to be strong, but it became a problem when trying to receive weak signals that were close to strong signals. Some short wave radios managed quite satisfactorily with these devices. Special high frequency versions appeared after World War II for the 100 MHz FM bands. Examples are the 6SB7Y (1946) and the 6BA7 (1948). The pulling effect had a beneficial side effect in that it gave a degree of automatic tuning.
+Another disadvantage was that in spite of the presence of the screen grids, the electron beam, modulated by the oscillator electrodes, still had to pass through the signal grid, and coupling of the oscillator into the signal circuit was inevitable. The American Federal Communication Commission (FCC) started requiring radio manufacturers to certify that their products avoided this interference under Part 15 of their rules. In the UK, the Postmaster General (who was responsible for radio licensing), laid down a set of stringent rules concerning radio interference.
+
+
+== Hexode ==
+
+The hexode (six-electrode) was actually developed after the heptode or pentagrid. It was developed in Germany as a mixer but was designed from the start to be used with a separate triode oscillator. Thus the grid configuration was grid 1, signal input; grids 2 and 4 screen grids (connected together - again, usually internally) and grid 3 was the oscillator input. The device had no suppressor grid. A major advantage was that by using grid 1 as the signal input grid, the device was more sensitive to weak signals.
+It was not long before the triode and hexode structures were placed in the same glass envelope - by no means a new idea. The triode grid was usually internally connected to the hexode grid 3, but this practice was dropped in later designs when the mixer section operated as a straight IF amplifier in AM/FM sets when operating on FM, the mixing being carried out in a dedicated FM frequency changing section.
+The UK manufacturers were initially unable to use this type of mixer because of the BVA prohibition on multiple structures (and indeed unwilling to use separate valves because of the levy). One UK company, MOV, successfully enforced the cartel rules against the German Lissen company in 1934 when they attempted to market a radio in the UK which had the triode-hexode mixer.
+Following pressure from the UK manufacturers, the BVA were compelled to relax the rules and the UK started to adopt triode-hexode mixers. The Mullard ECH35 was a popular choice.
+One company, Osram, made an ingenious move. One of their popular pentagrid converter designs was the MX40, initially marketed in 1934. They put on sale in 1936, the X41 triode-hexode frequency changer. The clever bit was that the X41 was a direct plug-in pin-compatible replacement for the MX40. Thus a pentagrid radio could easily be converted to a triode-hexode without any other circuit modifications.
+America never really adopted the triode-hexode and it was seldom used, even though the 6K8 triode-hexode was available to manufacturers in 1938.
+In some designs, a suppressor grid was added to produce yet another heptode design. Mullard's ECH81 became popular with the move to miniature nine-pin valves.
+
+
+== Octode ==
+
+Although not strictly a pentagrid (in that it has more than five grids), the octode (eight-electrode) nevertheless operates on the pentagrid principle. It resulted simply from the addition of an extra screen grid to the UK version of the pentagrid heptode. This was done mainly to improve the antenna/oscillator separation and to reduce the power consumption for use in radio sets operated by dry batteries that were becoming increasingly popular.
+In North America, the only octode manufactured was the 7A8. Introduced by Sylvania in 1939 (and used mostly by Philco), this valve was the product of adding a suppressor grid to type 7B8, which was the loctal version of type 6A7. Adding the suppressor allowed Sylvania to lower the current of the 6.3-volt heater from 320 milliamperes to 150 milliamperes while maintaining the same conversion transconductance (550 microsiemens). This allowed Philco to use this valve in every line of radio throughout the 1940s.
+The Philips EK3 octode was designated as a 'beam octode'. The novel part about the design was that grids 2 and 3 were constructed as beam forming plates. This was done in such a way that Philips claimed that the oscillator electron beam and the mixer electron beams were separated as much as possible and thus the pulling effect was minimised. No information is available as to the degree of success. The manufacturer's information also notes that the valve's high performance comes at a cost of a high heater current of 600 mA – double that of more conventional types.
+
+
+== Pentode ==
+
+The use of a pentode would seem an unlikely choice for a frequency converter because it only has one control grid. However, during the Great Depression, many American radio manufacturers used pentode types 6C6, 6D6, 77 and 78 in their lowest priced AC/DC receivers because they were cheaper than pentagrid type 6A7. In these circuits, the suppressor (grid 3) acted as the oscillator grid, and the valve operated in a similar manner to a true pentagrid.
+One UK company, Mazda, produced a triode-pentode frequency changer, the AC/TP. Designed for low-cost AC radios, the device was deliberately designed to allow strong signals to pull the oscillator without the risk of radiating the oscillator signal from the aerial. The cathode was common to both sections of the valve. The cathode was connected to a secondary coil on the oscillator coil and thus coupled the oscillator into the pentode mixer section, the signal being applied to grid 1 in the conventional manner. The AC/TP was one of the AC/ range of valves designed for low-cost radios. They were considered durable for their time (even the AC/TP frequency changer, which was normally problematic). Any AC/ valves encountered today are likely to be brand new as service shops stocked up on spares which were seldom required.
+
+
+== Nomenclature ==
+In order to distinguish between the two versions of the heptode, manufacturers data often describes them as 'heptode of the hexode type' for a heptode without a suppressor grid, and a 'heptode of the octode type', where a suppressor grid is present.
+
+
+== Examples ==
+
+
+=== True pentagrids ===
+2A7 and 6A7 – The first of the RCA pentagrids, 1933
+VHT1 – Ferranti pentagrid, 1933
+MX40 – Osram pentagrid, 1934
+6SA7 and 6BE6/EK90 – Pentagrids produced by RCA, Mullard, etc.
+6SB7Y and 6BA7 – VHF Pentagrids, 1946
+1LA6 and later 1L6 – Battery pentagrid for Zenith Trans-Oceanic short wave radio
+DK91/1R5, DK92/1AC6, DK96/1AB6, DK192, DK96 – Battery pentagrids
+
+
+=== Octodes (operating on the pentagrid principle) ===
+EK3 – Beam octode produced by Philips
+7A8 – The only octode produced in America by Sylvania, 1939
+
+
+=== Triode/Hexode types (not operating on the pentagrid principle) ===
+X41 – Osram triode-hexode, 1936; plug-in replacement for MX40 above
+ECH35 – Mullard triode-hexode
+ECH81 (Soviet 6И1П) – Mullard triode-heptode of the octode type
+6K8 – American triode-hexode, 1938
+This list is by no means exhaustive.
+
+
+== See also ==
+
+Beam deflection tube
+
+
+== Notes ==
+
+
+== References ==
+Valve Manuals
+General Electric Essential Characteristics, 1970
+Sylvania Technical Manual, 1958
+
+Other Books
+Sibley, Ludwell, "Tube Lore", 1996
+Stokes, john W, "70 Years of Radio Tubes and Valves" 1997
+Thrower, Keith, "History of the British Radio Valve to 1940."
+
+
+== External links ==
+Mullard FC4
+Octode
+AC/TP data sheet
+2A7 data sheet
+6SA7/12SA7 datasheet
+12BE6 datsheet
+12BA7 Datasheet
+Reflex Converter patent Oct 12 1933

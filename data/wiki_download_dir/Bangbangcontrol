@@ -1,0 +1,27 @@
+Bang–bang control
+In control theory, a bang–bang controller (on–off controller), also known as a hysteresis controller, is a feedback controller that switches abruptly between two states. These controllers may be realized in terms of any element that provides hysteresis. They are often used to control a plant that accepts a binary input, for example a furnace that is either completely on or completely off. Most common residential thermostats are bang–bang controllers. The Heaviside step function in its discrete form is an example of a bang–bang control signal. Due to the discontinuous control signal, systems that include bang–bang controllers are variable structure systems, and bang–bang controllers are thus variable structure controllers.
+
+
+== Bang–bang solutions in optimal control ==
+In optimal control problems, it is sometimes the case that a control is restricted to be between a lower and an upper bound. If the optimal control switches from one extreme to the other (i.e., is strictly never in between the bounds), then that control is referred to as a bang-bang solution.
+Bang–bang controls frequently arise in minimum-time problems. For example, if it is desired to stop a car in the shortest possible time at a certain position sufficiently far ahead of the car, the solution is to apply maximum acceleration until the unique switching point, and then apply maximum braking to come to rest exactly at the desired position. This solution, which can be "uncomfortable" for the passengers, is a bang–bang solution: maximum engine throttle followed by maximum braking.
+A familiar everyday example is bringing water to a boil in the shortest time, which is achieved by applying full heat, then turning it off when the water reaches a boil. A closed-loop household example is most thermostats, wherein the heating element or air conditioning compressor is either running or not, depending upon whether the measured temperature is above or below the setpoint.
+Bang–bang solutions also arise when the Hamiltonian is linear in the control variable; application of Pontryagin's minimum or maximum principle will then lead to pushing the control to its upper or lower bound depending on the sign of the coefficient of u in the Hamiltonian.
+In summary, bang–bang controls are actually optimal controls in some cases, although they are also often implemented because of simplicity or convenience.
+
+
+== See also ==
+Lyapunov's theorem
+Optimal control
+Robust control
+Sliding mode control
+Vector measure
+Euler equation
+
+
+== References ==
+Artstein, Zvi (1980). "Discrete and continuous bang-bang and facial spaces, or: Look for the extreme points". SIAM Review 22 (2). pp. 172–185. doi:10.1137/1022026. JSTOR 2029960. MR 564562. 
+Hermes, Henry; LaSalle, Joseph P. (1969). Functional analysis and time optimal control. Mathematics in Science and Engineering 56. New York—London: Academic Press. pp. viii+136. MR 420366. 
+Kluvánek, Igor; Knowles, Greg (1976). Vector measures and control systems. North-Holland Mathematics Studies 20 (Notas de Matemática, No. 58. [Notes on Mathematics, No. 58]). New York: North-Holland Publishing Co. pp. ix+180. MR 499068. 
+Rolewicz, Stefan (1987). Functional analysis and control theory: Linear systems. Mathematics and its Applications (East European Series) 29 (Translated from the Polish by Ewa Bednarczuk ed.). Dordrecht; Warsaw: D. Reidel Publishing Co.; PWN—Polish Scientific Publishers. pp. xvi+524. ISBN 90-277-2186-6. MR 920371. OCLC 13064804 
+Sonneborn, L.; Van Vleck, F. (1965). "The Bang-Bang Principle for Linear Control Systems". SIAM J. Control 2: 151–159

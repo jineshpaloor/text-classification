@@ -1,0 +1,50 @@
+Reluctance motor
+A reluctance motor is a type of electric motor that induces non-permanent magnetic poles on the ferromagnetic rotor. Torque is generated through the phenomenon of magnetic reluctance.
+There are various types of reluctance motor:
+Synchronous reluctance motor
+Variable reluctance motor
+Switched reluctance motor
+Variable reluctance stepping motor.
+Reluctance motors can deliver very high power density at low cost, making them ideal for many applications. Disadvantages are high torque ripple (the difference between maximum and minimum torque during one revolution) when operated at low speed, and noise caused by torque ripple. Until the early twenty-first century their use was limited by the complexity of designing and controlling them. These challenges are being overcome by advances in the theory, by the use of sophisticated computer design tools, and by the use of low-cost embedded systems for control, typically based on microcontrollers using control algorithms and real-time computing to tailor drive waveforms according to rotor position and current or voltage feedback. Before the development of large-scale integrated circuits the control electronics would have been prohibitively costly.
+
+
+== Design and operating fundamentals of reluctance motors ==
+The stator consists of multiple projecting (salient) electromagnet poles, similar to a wound field brushed DC motor. The rotor consists of soft magnetic material, such as laminated silicon steel, which has multiple projections acting as salient magnetic poles through magnetic reluctance. For switched reluctance motors, the number of rotor poles is typically less than the number of stator poles, which minimizes torque ripple and prevents the poles from all aligning simultaneously—a position which cannot generate torque.
+When a rotor pole is equidistant from the two adjacent stator poles, the rotor pole is said to be in the "fully unaligned position". This is the position of maximum magnetic reluctance for the rotor pole. In the "aligned position", two (or more) rotor poles are fully aligned with two (or more) stator poles, (which means the rotor poles completely face the stator poles) and is a position of minimum reluctance.
+When a stator pole is energized, the rotor torque is in the direction that will reduce reluctance. Thus the nearest rotor pole is pulled from the unaligned position into alignment with the stator field (a position of less reluctance). (This is the same effect used by a solenoid, or when picking up ferromagnetic metal with a magnet.) In order to sustain rotation, the stator field must rotate in advance of the rotor poles, thus constantly "pulling" the rotor along. Some motor variants will run on 3-phase AC power (see the synchronous reluctance variant below). Most modern designs are of the switched reluctance type, because electronic commutation gives significant control advantages for motor starting, speed control, and smooth operation (low torque ripple).
+Dual-rotor layouts provide more torque at lower price per volume or per mass.
+The inductance of each phase winding in the motor will vary with position, because the reluctance also varies with position. This presents a control systems challenge.
+
+
+== Types of reluctance motor ==
+
+
+=== Synchronous reluctance ===
+Synchronous reluctance motors have an equal number of stator and rotor poles. The projections on the rotor are arranged to introduce internal flux “barriers“, holes which direct the magnetic flux along the so-called direct axis. Typical pole numbers are 4 and 6.
+As the rotor is operating at synchronous speed and there are no current-conducting parts in the rotor, rotor losses are minimal compared to those of an induction motor.
+Once started at synchronous speed, the motor can operate with sinusoidal voltage. Speed control requires a variable-frequency drive.
+
+
+=== Switched reluctance or variable reluctance motor ===
+
+The switched reluctance motor (SRM) is a form of stepper motor that uses fewer poles. The SRM has the lowest construction cost of any industrial electric motor because of its simple structure. Common uses for an SRM include applications where the rotor must be held stationary for long periods, and in potentially explosive environments such as mining because it does not have a mechanical commutator.
+The phase windings in a SRM are electrically isolated from each other, resulting in higher fault tolerance than inverter-driven AC induction motors. The optimal drive waveform is not a pure sinusoid, due to the non-linear torque relative to rotor displacement, and the highly position-dependent inductance of the stator phase windings.
+
+
+==== Applications ====
+Analog electric meters.
+Some washing machine designs.
+Control rod drive mechanisms of nuclear reactors.
+Hard disk drive motor.
+The Dyson Digital Motor used in some products produced by the Dyson company.
+
+
+== See also ==
+
+
+== References ==
+^ Steve Bush. "Dyson vacuums 104,000rpm brushless DC technology - 6/29/2009". Electronics Weekly. Retrieved 2013-03-20. 
+
+
+== External links ==
+Real-Time Simulation of Switched Reluctance Motor Drives Technical Paper

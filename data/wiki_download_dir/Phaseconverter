@@ -1,0 +1,38 @@
+Phase converter
+A phase converter is a device that converts electric power provided as single phase to multiple phase or vice versa. The majority of phase converters are used to produce three-phase electric power from a single-phase source, thus allowing the operation of three-phase equipment at a site that only has single-phase electrical service. Phase converters are used where three-phase service is not available from the utility, or is too costly to install due to a remote location. A utility will generally charge a higher fee for a three-phase service because of the extra equipment for transformers and metering and the extra transmission wire.
+
+
+== Conversion systems ==
+Three-phase induction motors may operate adequately on an unbalanced supply if not heavily loaded. This allows various imperfect techniques to be used. A single-phase motor can drive a three-phase generator, which will produce a high-quality three-phase source but with high cost for apparatus. Several methods exist to run three-phase motors from a single-phase supply, these can in general be classified as:
+Electronic means of creating three phases where the incoming power is rectified, and the three-phase power is synthesized with electronics. Power electronic devices directly produce a three-phase waveform from single-phase power, using a rectifier and inverter combination. This also offers the advantage of variable frequency.
+A digital phase converter uses a rectifier and inverter to create a single voltage with power electronics, which is added to the two legs of the single-phase source to create three-phase power. Unlike a phase-converting VFD, it cannot vary the frequency and motor speed, since it generates only one leg, which must match the voltage and frequency of the single-phase supply. It does have the advantage of a sine-wave output voltage and excellent voltage balance between the phases.
+Rotary phase converters constructed from a three-phase electric motor or generator "idler". These normally require some kind of starting aid and capacitors to improve phase balance and power factor. This is a two-motor solution. One motor is not connected to a load and produces the three-phase power, the second motor driving the load runs on the power produced.
+Static conversion techniques in which the motor is run at less than full efficiency mainly on two of the legs of the three-phase motor. Current is sometimes injected into the third leg with a capacitor or transformer arrangements that provide imperfect phase shift. In these systems the motor must be derated.
+Methods in which the connection of the windings of the motor, normally a wye and or delta configurations, are replaced with novel connections. These techniques are covered in patents of Dr. Otto J. M. Smith, such as US Patent 5,545,965.
+
+
+== Digital phase converter ==
+A digital phase converter creates a three-phase power supply from a single-phase supply. A digital signal processor (DSP) is used to control power electronic devices to generate a third voltage, which along with the single voltage from the supply creates a balanced three-phase power supply.
+AC power from the utility is converted to DC, then back to AC. The power-switching devices used in this process are insulated-gate bipolar transistors (IGBT).
+In one type of digital phase converter the input rectifier consists of IGBTs in series with inductors. The IGBTs are controlled by software in the DSP to draw current from the single-phase line in a sinusoidal fashion, charging capacitors on a constant-voltage DC bus. Because the incoming current is sinusoidal, there are no significant harmonics generated back onto the line as there are with the rectifiers found in most VFDs. The controlled rectifier input allows power factor correction.
+The output inverter consists of IGBTs that draw on the power of the DC bus to create an AC voltage. A voltage created by power-switching devices like IGBTs is not sinusoidal. It is a pulse-width modulated (PWM) waveform very high in harmonic distortion. This PWM voltage is then passed through an inductor/capacitor filter system that produces a sine-wave voltage with less than 3% total harmonic distortion (standards for computer grade power allow up to 5% THD). By contrast, VFDs generate a PWM voltage that limits their versatility and makes them unsuitable for many applications. Software in the DSP continually monitors and adjusts this generated voltage to produce a balanced three-phase output at all times. It also provides protective functions by shutting down in case of utility over-voltage and under-voltage or a fault. With the ability to adjust to changing conditions and maintain voltage balance, a digital phase converter can safely and efficiently operate virtually any type of three-phase equipment or any number of multiple loads.
+The solid-state design results in a relatively small package with no moving parts except for small cooling fans. The converters operate at 95%–98% efficiency. When the converter is energized with no load, it consumes very little power.
+
+
+== Electric railways ==
+In Europe, electricity is normally generated as three-phase AC at 50 hertz. Five European countries, Germany, Austria, Switzerland, Norway and Sweden have standardised on single-phase AC at 15 kV 16⅔ Hz for railway electrification. Phase converters are, therefore, used to change both the phase and the frequency.
+
+
+== See also ==
+Rotary phase converter
+Variable frequency drive
+Scott-T transformer
+
+
+== References ==
+^ U.S. Patent 5,545,965 13 August 1996. Three phase motor operated from a single phase power supply and phase converter. Otto J. M. Smith
+RadioWorld Magazine featured article: Harris Impressed by Phase Technologies PT355 by Terry Cockerill, 12.31.2009 http://www.rwonline.com/article/92406
+Wine Business Monthly featured article: What's Cool: Digital Phase Converters November 15, 2008 http://www.winebusiness.com/wbm/?go=getArticle&dataId=59858
+January/February 2008 Vineyard & Winery Management Magazine Featured article "The Digital Converter; A New Way to Generate Three-Phase Electricity for a Winery"] by Ben Guthrie. http://www.phaseperfect.com/files/vawmm_article0108.pdf
+United States Patent #6297971
+http://www.patentstorm.us/patents/7050467.html

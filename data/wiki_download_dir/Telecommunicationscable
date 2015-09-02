@@ -1,0 +1,37 @@
+Telecommunications cable
+Telecommunications cables are a type of guided transmission mediums. Cables are usually known to transmit electric energy (AC/DC); however, cables in telecommunications fields are used to transmit electromagnetic waves; they are called electromagnetic wave guides.
+Telecommunications are based on transmitting modulated waves/signals through a medium and receiving them. When the distance between the transmitter and receiver is far, or an unguided medium transmission is used, antennas are used; otherwise, telecommunications cables are used in guided medium transmission.
+
+
+== Types ==
+There are several types of telecommunications cable:
+transmission lines when electric signals are transmitted;
+waveguides when electromagnetic waves are transmitted;
+optical fibers when light signals are transmitted.
+
+
+== Power Cables ==
+Telecommunications power cable products, as described in Telcordia GR-347, consist of a stranded copper conductor used in AC/DC circuits up to 600 V that are insulated with non-halogen, limited smoke, polyolefin materials that are heat-resistant, moisture-resistant, and flame-retardant. These cables are provided as either Class B (standard) or Class I (flexible) products.
+Class B Cables — Class B type or standard power cables have a central copper conductor meeting the Class B definitions of standards document ASTM B8. The Class B conductor is constructed from a series of individual copper strands wound together in one or more helically wound layers. The individual strands are made of annealed copper per ASTM B3 or annealed tinned-copper per ASTM B33.
+Class I Cables — Class I type or flexible power cables have a central copper conductor meeting the Class I definitions of ASTM B172. The Class I conductor is made of rope-lay-stranded members, with each member made of bunch stranded construction of small diameter individual strands. The small diameter individual strands are usually made of 24 AWG wires, soft or annealed per ASTM B3 or ASTM B33. In telecommunications power cables identified as Class I, the multiple strands of small-diameter wire strands may consist of 24 to 34 AWG strands wound together per ASTM B172.
+
+
+=== Power Cable Locations and Types ===
+Telecommunications power cable is intended for use in AC/DC distribution circuits, wireways, racks, and conduits installed in telecommunications Central Offices (COs), transmission stations, cell-tower sites, and other remote sites. These environments are normally dry, but cables may be placed in partially covered or protected porches, crawl spaces, or in underground vaults where water and high moisture levels can occur.
+Telecommunications power cables use RHH or RHW type insulation materials as defined in NFPA 70®, National Electrical Code®, for use in dry, damp, and wet locations. Products with dual RHH/RHW ratings can be used in all locations. The following cable location definitions are derived from the 2008 NEC.
+
+Dry: Locations not normally subject to dampness or wetness. A location classified as dry may be temporarily subject to dampness or wetness, as in a building under construction. Telecommunications facilities meeting this “dry” definition include Central Office (CO) facilities and most remote huts in the Outside Plant (OSP).
+Damp: Locations protected from weather and not subject to saturation with water or other liquids, but subject to moderate degrees of moisture. NEC includes examples that include roofed open porches, basements, some barns and some warehouses. Telecommunications facilities meeting this definition include some cable vaults in CO facilities and most remote cabinets in the OSP.
+Wet: Installation is underground or in concrete slabs, or in masonry in direct contact with the earth; locations are subject to saturation with water or other liquids such as washing areas and in unprotected locations exposed to weather. Underground manholes and handholes are telecommunications facilities that would meet this “wet” definition. Power cable is traditionally not located in such facilities. However, RHW type cables should be considered for certain above-ground cabinets and enclosures located in flood plains or in flood-prone areas.
+
+
+=== Quality Systems ===
+To maintain a continuing level of quality on the production of cable, suppliers typically administer a Quality Management System (QMS) consistent with the latest issue of standards documents ISO 9000 and TL 9000 or an equivalent alternate quality system satisfactory to the purchaser. Quality and reliability requirements are of two types: Product and Qualification.
+
+Product requirements are those that shall be met on every deliverable product by use of quality control methods.
+Qualification requirements are intended to be proof of adequate design and processing and shall be repeated as needed to assure performance.
+
+Testing and analysis criteria and QMS programs are given in GR-347 for telecommunications power cables for telecommunications equipment in COs and within OSP facilities.
+
+
+== References ==

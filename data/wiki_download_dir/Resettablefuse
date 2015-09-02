@@ -1,0 +1,41 @@
+Resettable fuse
+A polymeric positive temperature coefficient device (PPTC, commonly known as a resettable fuse, polyfuse or polyswitch) is a passive electronic component used to protect against overcurrent faults in electronic circuits. They are similar in function to PTC thermistors in certain situations but operate on mechanical changes instead of charge carrier effects in semiconductors. These devices were first discovered and described by Gerald Pearson at Bell Labs in 1939, and later patented as US patent #2,258,958.
+
+
+== Operation ==
+PTC fuses reach a high resistance with a low holding current under fault conditions and cycle back to a conductive state after the current is removed, acting more like circuit breakers, allowing the circuit to function again without opening the chassis or replacing anything. A PPTC device has a current rating. When the current flowing through the device (which has a small resistance in the on state) exceeds the current limit, the PPTC device warms up above a threshold temperature and the electrical resistance of the PPTC device suddenly increases several orders of magnitude to a "tripped" state where the resistance will typically be hundreds or thousands of ohms. The current subsequently reduces due to the finite voltage of the power source. The rated trip current can be anywhere from 20 mA to 100 A.
+A polymeric PTC device comprises a non-conductive crystalline organic polymer matrix that is loaded with carbon black particles to make it conductive. While cool, the polymer is in a crystalline state, with the carbon forced into the regions between crystals, forming many conductive chains. Since it is conductive (the "initial resistance"), it will pass a given current, called the "hold current". If too much current is passed through the device, the "trip current", the device will begin to heat. As the device heats, the polymer will expand, changing from a crystalline into an amorphous state. The expansion separates the carbon particles and breaks the conductive pathways, causing the resistance of the device to increase. This will cause the device to heat faster and expand more, further raising the resistance. This increase in resistance substantially reduces the current in the circuit. A small current still flows through the device and is sufficient to maintain the temperature at a level which will keep it in the high resistance state. The device can be said to have latching functionality.
+When power is removed, the heating due to the holding current will stop and the PPTC device will cool. As the device cools, it regains its original crystalline structure and returns to a low resistance state where it can hold the current as specified for the device. This cooling usually takes a few seconds, though a tripped device will retain a slightly higher resistance for hours, slowly approaching the initial resistance value. The resetting will often not take place even if the fault alone has been removed with the power still flowing as the operating current may be above the holding current of the PPTC. The device may not return to its original resistance value; it will most likely stabilize at a significantly higher resistance (up to 4 times initial value). It could take hours, days, weeks or even years for the device to return to a resistance value similar to its original value, if at all. Since a PPTC device has an inherently higher resistance than a metallic fuse or circuit breaker at ambient temperature, it may be difficult or impossible to use in circuits that cannot tolerate significant reductions in operating voltage, forcing the engineer to choose the latter in a design.
+
+
+== Applications ==
+These devices are often used in computer power supplies, largely due to the PC 97 standard (which recommends a sealed PC that the user never has to open), and in aerospace/nuclear applications where replacement is difficult. Another application for such devices is protecting audio loudspeakers, particularly tweeters, from damage when over driven: by putting a resistor or light bulb in series with the PPTC device it is possible to design a circuit that limits total current through the tweeter to a safe value instead of cutting it off, allowing the speaker to continue operating without damage when the amplifier is delivering more power than the tweeter could tolerate. While a fuse could also offer similar protection, if the fuse is blown, the tweeter cannot operate until the fuse is replaced.  In case of potted (hard resin or even soft silicone-based) assemblies, manufacturers recommend leaving an open space around the device, to allow expansion. This can be achieved by placing a small box over the PPTC before pouring.
+
+
+== Device trade names ==
+These devices are sold by different companies under various trademarks, including PolySwitch (TE Connectivity), Semifuse (ATC Semitec), "Fuzetec" (Fuzetec Technology), Polyfuse (Littelfuse) and Multifuse (Bourns, Inc.). PolySwitch is the earliest product of this type, having been invented at Raychem Corporation (now TE Connectivity) and introduced in the early 1980s. Due to common availability, electronics engineers and technicians often refer to this device as a "polyswitch", in the generic sense, regardless of actual brand.
+The Bourns Transient Blocking Unit (TBU) is faster than a polyswitch, but requires a higher current to trip.
+
+
+== Operating parameters ==
+Initial resistance: The resistance of the device as received from factory of manufacturing.
+Operating voltage: The maximum voltage a device can withstand without damage at the rated current.
+Holding current: Safe current through the device.
+Trip current: Where the device interrupts the current.
+Time to trip: The time it takes for the device to trip at a given temperature.
+Tripped state: Transition from the low resistance state to the high resistance state due to an overload.
+Leakage current: A small value of stray current flowing through the device after it has switched to high resistance mode.
+Trip cycle: The number of trip cycles (at rated voltage and current) the device sustains without failure.
+Trip endurance: The duration of time the device sustains its maximum rated voltage in the tripped state without failure.
+Power dissipation: Power dissipated by the device in its tripped state.
+Thermal duration: Influence of ambient temperature.
+Hysteresis: The range between where the device trips and where the device returns to a conductive state.
+
+
+== References ==
+
+
+== External links ==
+PolySwitch Resettable Devices Fundamentals PDF (1.85 MB)
+Bourns Multifuse Resettable Fuses - Polymer PTC & Ceramic PTC Short Form Brochure (1.2MB) PDF (1.26 MB)
+Littelfuse Polyfuse Resettable PTC Devices

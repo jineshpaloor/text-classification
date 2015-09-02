@@ -1,0 +1,70 @@
+Signal strength
+In telecommunications, particularly in radio, signal strength refers to the magnitude of the electric field at a reference point that is at a significant distance from the transmitting antenna. It may also be referred to as received signal level or field strength. Typically, it is expressed in voltage per length or signal power received by a reference antenna. High-powered transmissions, such as those used in broadcasting, are expressed in dB-millivolts per metre (dBmV/m). For very low-power systems, such as mobile phones, signal strength is usually expressed in dB-microvolts per metre (dBµV/m) or in decibels above a reference level of one milliwatt (dBm). In broadcasting terminology, 1 mV/m is 1000 µV/m or 60 dBµ (often written dBu).
+Examples
+100 dBµ or 100 mV/m: blanketing interference may occur on some receivers
+60 dBµ or 1.0 mV/m: frequently considered the edge of a radio station's protected area in North America
+40 dBµ or 0.1 mV/m: the minimum strength at which a station can be received with acceptable quality on most receivers
+
+
+== Relationship to average radiated power ==
+The electric field strength at a specific point can be determined from the power delivered to the transmitting antenna, its geometry and radiation resistance. Consider the case of a center-fed half-wave dipole antenna in free space, where the total length L is equal to one half wavelength (λ/2). If constructed from thin conductors, the current distribution is essentially sinusoidal and the radiating electric field is given by
+
+where  is the angle between the antenna axis and the vector to the observation point,  is the peak current at the feed-point,  is the permittivity of free-space,  is the speed of light in a vacuum, and  is the distance to the antenna in meters. When the antenna is viewed broadside () the electric field is maximum and given by
+
+Solving this formula for the peak current yields
+
+The average power to the antenna is
+
+where  is the center-fed half-wave antenna’s radiation resistance. Substituting the formula for  into the one for  and solving for the maximum electric field yields
+
+Therefore, if the average power to a half-wave dipole antenna is 1 mW, then the maximum electric field at 313 m (1027 ft) is 1 mV/m (60 dBµ).
+For a short dipole () the current distribution is nearly triangular. In this case, the electric field and radiation resistance are
+
+Using a procedure similar to that above, the maximum electric field for a center-fed short dipole is
+
+
+== Cellphone signals ==
+
+Although there are cell phone base station tower networks across many nations globally, there are still many areas within those nations that do not have good reception. Some rural areas are unlikely ever to be effectively covered since the cost of erecting a cell tower is too high for only a few customers. Even in high reception areas it is often found that basements and the interiors of large buildings have poor reception.
+Weak signal strength can also be caused by destructive interference of the signals from local towers in urban areas, or by the construction materials used in some buildings causing rapid attenuation of signal strength. Large buildings such as warehouses, hospitals and factories often have no usable signal further than a few metres from the outside walls.
+This is particularly true for the networks which operate at higher frequency since these are attenuated more rapidly by intervening obstacles, although they are able to use reflection and diffraction to circumvent obstacles.
+
+
+=== Estimated received signal strength ===
+The estimated received signal strength in a mobile device can be estimated as follows:
+
+More general you can take the path loss exponent into account:
+
+If the mobile device is at cell radius distance from the cell tower the received power is estimated as -113 dBm. The effective path loss is depending on the frequency, the topography, and the environmental conditions.
+Actually one could use any known signal power dBm0 at any distance r0 as a reference:
+
+
+=== Number of decades ===
+ would give an estimate of the number of decades, which coincides with an average path loss of 40 dB/decade.
+
+
+=== Estimate the cell radius ===
+When we measure cell distance r and received power dBmm pairs, then we can estimate the mean cell radius as follows:
+
+Specialized calculation models exist to plan the location of a new cell tower, taking into account local conditions and radio equipment parameters. Take also into consideration that mobile radio signals have line-of-sight propagation, unless reflexion would occur.
+
+
+== See also ==
+Cel-Fi
+Cell network
+Cell phone
+Cellular repeater
+Dropped call
+Dead zone (cell phone)
+Field strength in free space
+Received signal strength indication
+S meter
+Signal (electrical engineering)
+Mobile phone signal
+Mobile coverage
+
+
+== References ==
+
+
+== External links ==

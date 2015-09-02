@@ -1,0 +1,70 @@
+Feed forward (control)
+Feed-forward, sometimes written feedforward, is a term describing an element or pathway within a control system which passes a controlling signal from a source in its external environment, often a command signal from an external operator, to a load elsewhere in its external environment. A control system which has only feed-forward behavior responds to its control signal in a pre-defined way without responding to how the load reacts; it is in contrast with a system that also has feedback, which adjusts the output to take account of how it affects the load, and how the load itself may vary unpredictably; the load is considered to belong to the external environment of the system.
+In a feed-forward system, the control variable adjustment is not error-based. Instead it is based on knowledge about the process in the form of a mathematical model of the process and knowledge about or measurements of the process disturbances.
+Some prerequisites are needed for control scheme to be reliable by pure feed-forward without feedback: the external command or controlling signal must be available, and the effect of the output of the system on the load should be known (that usually means that the load must be predictably unchanging with time). Sometimes pure feed-forward control without feedback is called 'ballistic', because once a control signal has been sent, it cannot be further adjusted; any corrective adjustment must be by way of a new control signal. In contrast 'cruise control' adjusts the output in response to the load that it encounters, by a feedback mechanism.
+These systems could relate to control theory, physiology or computing.
+
+
+== Overview ==
+With feed-forward control, the disturbances are measured and accounted for before they have time to affect the system. In the house example, a feed-forward system may measure the fact that the door is opened and automatically turn on the heater before the house can get too cold. The difficulty with feed-forward control is that the effect of the disturbances on the system must be accurately predicted, and there must not be any unmeasured disturbances. For instance, if a window was opened that was not being measured, the feed-forward-controlled thermostat might still let the house cool down.
+The term has specific meaning within the field of CPU-based automatic control. The discipline of “feedforward control” as it relates to modern, CPU based automatic controls is widely discussed, but is seldom practiced due to the difficulty and expense of developing or providing for the mathematical model required to facilitate this type of control. Open-loop control and feedback control, often based on canned PID control algorithms, are much more widely used.
+
+There are three types of control systems: open loop, feed-forward, and feedback. An example of a pure open loop control system is manual non-power-assisted steering of a motor car; the steering system does not have access to an auxiliary power source and does not respond to varying resistance to turning of the direction wheels; the driver must make that response without help from the steering system. In comparison, power steering has access to a controlled auxiliary power source, which depends on the engine speed. When the steering wheel is turned, a valve is opened which allows fluid under pressure to turn the driving wheels. A sensor monitors that pressure so that the valve only opens enough to cause the correct pressure to reach the wheel turning mechanism. This is feed-forward control where the output of the system, the change in direction of travel of the vehicle, plays no part in the system. See Model predictive control.
+If you include the driver in the system, then he does provide a feedback path by observing the direction of travel and compensating for errors by turning the steering wheel. In that case you have a feedback system, and the block labeled "System" in Figure(c) is a feed-forward system.
+In other words, systems of different types can be nested, and the overall system regarded as a black-box.
+Feedforward control is distinctly different from open loop control and teleoperator systems. Feedforward control requires a mathematical model of the plant (process and/or machine being controlled) and the plant's relationship to any inputs or feedback the system might receive. Neither open loop control nor teleoperator systems require the sophistication of a mathematical model of the physical system or plant being controlled. Control based on operator input without integral processing and interpretation through a mathematical model of the system is a teleoperator system and is not considered feedforward control.
+
+
+== History ==
+Historically, the use of the term “feedforward” is found in works by D. M. MacKay as early as 1956. While MacKay’s work is in the field of biological control theory, he speaks only of feedforward systems. MacKay does not mention “Feedforward Control” or allude to the discipline of “Feedforward Controls.” MacKay and other early writers who use the term “feedforward” are generally writing about theories of how human or animal brains work.
+The discipline of “feedforward controls” was largely developed by professors and graduate students at Georgia Tech, MIT, Stanford and Carnegie Mellon. Feedforward is not typically hyphenated in scholarly publications. Meckl and Seering of MIT and Book and Dickerson of Georgia Tech began the development of the concepts of Feedforward Control in the mid 1970s. The discipline of Feedforward Controls was well defined in many scholarly papers, articles and books by the late 1980s.
+
+
+== Benefits ==
+The benefits of feedforward control are significant and can often justify the extra cost, time and effort required to implement the technology. Control accuracy can often be improved by as much as an order of magnitude if the mathematical model is of sufficient quality and implementation of the feedforward control law is well thought out. Energy consumption by the feedforward control system and its driver is typically substantially lower than with other controls. Stability is enhanced such that the controlled device can be built of lower cost, lighter weight, springier materials while still being highly accurate and able to operate at high speeds. Other benefits of feedforward control include reduced wear and tear on equipment, lower maintenance costs, higher reliability and a substantial reduction in hysteresis. Feedforward control is often combined with feedback control to optimize performance.
+
+
+== Model ==
+The mathematical model of the plant (machine, process or organism) used by the feedforward control system may be created and input by a control engineer or it may be learned by the control system. Control systems capable of learning and/or adapting their mathematical model have become more practical as microprocessor speeds have increased. The discipline of modern feedforward control was itself made possible by the invention of microprocessors.
+Feedforward control requires integration of the mathematical model into the control algorithm such that it is used to determine the control actions based on what is known about the state of the system being controlled. In the case of control for a lightweight, flexible robotic arm, this could be as simple as compensating between when the robot arm is carrying a payload and when it is not. The target joint angles are adjusted to place the payload in the desired position based on knowing the deflections in the arm from the mathematical model’s interpretation of the disturbance caused by the payload. Systems that plan actions and then pass the plan to a different system for execution do not satisfy the above definition of feedforward control. Unless the system includes a means to detect a disturbance or receive an input and process that input through the mathematical model to determine the required modification to the control action, it is not true feedforward control.
+
+
+=== Open system ===
+In systems theory, an open system is a feed forward system that does not have any feedback loop to control its output. In contrast, a closed system uses on a feedback loop to control the operation of the system. In an open system, the output of the system is not fed back into the input to the system for control or operation.
+
+
+== Applications ==
+
+
+=== Physiological feed-forward system ===
+In physiology, feed-forward control is exemplified by the normal anticipatory regulation of heartbeat in advance of actual physical exertion. Feed-forward control can be likened to learned anticipatory responses to known cues. Feedback regulation of the heartbeat provides further adaptiveness to the running eventualities of physical exertion.
+Feedforward systems are also found in biological control by human and animal brains.
+Even in the case of biological feedforward systems, such as in the human brain, knowledge or a mental model of the plant (body) can be considered to be mathematical as the model is characterized by limits, rhythms, mechanics and patterns.
+A pure feed-forward system is distinct from a homeostatic control system, which has the function of keeping the internal environment of the body steady or constant or in a prolonged steady state of readiness, and relies mainly on feedback, indeed on negative feedback, in addition to the feedforward elements of the system.
+
+
+=== Gene regulation and feed-forward ===
+The cross regulation of genes can be represented by a graph, where genes are the nodes and one node is linked to another if the former is a transcription factor for the latter. A motif which predominantly appears in all known networks (E. coli, Yeast,...) is A activates B, A and B activate C. This motif has been shown to be a feed forward system, detecting non-temporary change of environment. This feed forward control theme is commonly observed in hematopoietic cell lineage development, where irreversible commitments are made.
+
+
+=== Feed-forward systems in computing ===
+
+In computing, feed-forward normally refers to a perceptron network in which the outputs from all neurons go to following but not preceding layers, so there are no feedback loops. The connections are set up during a training phase, which in effect is when the system is a feedback system.
+
+
+=== Long distance telephony ===
+In the early 1970s, intercity coaxial transmission systems, including L-carrier, used feed-forward amplifiers to diminish linear distortion. This more complex method allowed wider bandwidth than earlier feedback systems. Optical fiber, however, made such systems obsolete before many were built.
+
+
+=== Automation and Machine Control ===
+Feedforward control is a discipline within the field of automatic controls used in automation.
+
+
+== See also ==
+Open-loop controller
+
+
+== References ==
+
+
+== Further reading ==

@@ -1,0 +1,23 @@
+DC injection braking
+DC injection braking is a method of slowing AC electric motors. A DC voltage is injected into the winding of the AC motor after the AC voltage is disconnected, providing braking force to the rotor.
+
+
+== Applications of DC injection braking ==
+When power is disconnected from the motor, the rotor spins freely until friction slows it to a stop. Large rotors and loads with a high moment of inertia may take a significant amount of time to stop through inherent friction alone. To reduce downtime, or possibly as an emergency safety feature, DC injection braking can be used to quickly stop the rotor.
+A DC injection brake system can be used as an alternative to a friction brake system. DC injection brakes only require a small module located with the other motor switchgear and/or drivers, mounted in a remote and convenient location, whereas a friction brake must be mounted somewhere on the rotating system. Friction brakes eventually wear out with use and require replacement of braking components. DC brake modules do not have consumable parts and should not require maintenance. Friction brakes also require a method of actuation, requiring either a human operator or system controlled actuator, adding to the complexity of the system. A DC brake is easily integrated into the motor control circuitry.
+
+
+== Operation ==
+
+A DC voltage is applied to the motor windings, creating a stationary magnetic field which applies a static torque to the rotor. This slows and eventually halts the rotor completely. As long as the DC voltage is applied to the windings, the rotor will be held in position and resistant to any attempt to spin it. The higher the voltage that is applied, the stronger the braking force and holding power.
+
+
+== See also ==
+Braking chopper
+Space vector modulation
+Variable-frequency drive
+Variable-speed air compressor
+Vector control (motor)
+
+
+== References ==

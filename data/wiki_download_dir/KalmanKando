@@ -1,0 +1,68 @@
+Kálmán Kandó
+Kálmán Kandó de Egerfarmos et Sztregova (egerfarmosi és sztregovai Kandó Kálmán; July 10, 1869 – January 13, 1931) was a Hungarian engineer, and a pioneer in the development of electric railway traction.
+
+
+== Education ==
+He was educated at the Budapest Technical University where he gained a diploma in mechanical engineering. He worked in France as a junior engineer designing and developing Nikola Tesla's induction motor.
+
+
+== Work on railway electrification ==
+In 1894, Kálmán Kandó developed high-voltage three phase alternating current motors and generators for electric locomotives ; he is known as the father of the electric train. His work on railway electrification was done at the Ganz electric works in Budapest. He was the first who recognised that an electric train system can only be successful if it can use the electricity from public networks.
+After his achievement in designing the three-phase motor and generator he moved to Italy. He would later return to Budapest to work at the Ganz factory where he became the managing director.
+
+
+=== Italy ===
+
+Under his leadership the Ganz factory began work on three-phase haulage for railways. Based on their design, the Italian Valtellina railway line was electrified in 1902 and became Europe's first electrified main railway line.
+For the Valtellina line, three-phase power was supplied at about 3,000 volts through two overhead lines, while the running rails supplied the third phase. At junctions, the two overhead lines had to cross and this prevented the use of very high voltages.
+The three-phase, two wire, system was used on several railways in Northern Italy and became known as "the Italian system". There are now few railways which use this system.
+
+
+=== Hungary ===
+
+To avoid the problems associated with the use of two overhead wires, Kandó developed a modified system for use in Hungary. Power semiconductors not having been invented yet in the 1930s, the Kandó V40 locomotives' systems relied on electromechanics and electrochemistry.
+Phase converter
+Single-phase power was supplied at 16,000 volts and 50 Hz through a single overhead line and converted to three-phase on the locomotive by a rotary phase converter. The drive motors, made by Metropolitan-Vickers, had a very large diameter of 3 meters and incorporated four sets of 24 magnetic poles each, which could be added to the traction effort at will, producing highly efficient constant speeds of 25, 50, 75 and 100 km/h over rail (or 17/34/51/68 km/h for the V60 heavy freight train engine variant, which had six pairs of smaller driving wheels).
+Power factor
+A major benefit of this arrangement was a power factor rate of nearly 1.00 in the catenary-attached equipment, which fulfilled the electric powerplants' strict load-distributing regulations. The unacceptably poor cosine phi rate of pre-World War II design electric motors (occasionally as low as 0,65) was not felt outside the Kando locomotives, as the phase changer machinery isolated it from the catenary.
+Speed control
+Intermediate speeds were maintained by connecting a water and saltpeter based adjustable resistor to the line, which reduced the efficiency of the locomotive. Timetables for electrified lines were supposed to allow use of full efficiency constant speeds most of the time but, in practice, the need to share the track with trains hauled by MÁV Class 424 steam locomotives meant the water-hungry and wasteful "gearbox resistor" had to be used often.
+Kandó triangle drive
+The propulsive force was transferred to the locomotive's wheels using a traditional pushrod system, designed to provide manufacturing and maintenance commodity to the predominantly steam-based Hungarian Railways (MÁV) of the time. The so-called "Kandó triangle" arrangement  transferred power from the electric motor to the pushrods in such a way that no oblique forces were exerted on the chassis, making the V40 less hurtful to the rail track compared to steam engines. In practice the V40 pushrod system was too precise for steam-era habits based maintenance and required more frequent care.
+Shaft drive
+More than a decade after Kandó's death two new, shaft-driven prototypes of his design were built by the Ganz company, to allow for 125 km/h traction speeds. The V44 electric locomotives  proved too heavy for general use, owing to their 22 metric ton per axle rail load. Both vehicles were eventually destroyed in USAAF bombing raids in 1944, running only 16,000 kilometers overall.
+Bogie-mounted motors
+After the second World War, a last series of electric phase-changer locomotives were built by the new communist government in Hungary. Owing to Cold War restrictions, the innovative V55 type, which used bogie-mounted motors, had to be constructed of domestic components entirely and suffered from reliability problems in their double-conversion phase-changer / frequency-changer propulsion system. (The traction motors of pre-WWII V40 and V60 locomotives were made in Britain by the Metropolitan-Vickers company, as part of an economic aid programme organized by Lord Rothermere.)
+Preservation
+Currently one example of the V40, the V55  and the V60 locomotive  each survives. They are preserved at the Budapest Railway History Park, but require restoration after decades of open air static display. If funding permits, the repaired V40 may return to the open track for "nostalgic service", with a semiconductor front-end added to its system for 25 to 16 kV AC down-step conversion.
+
+
+=== France ===
+Kandó designed in 1926 the 1.5kV DC 2BB2 400 (fr:2BB2 400) for the Paris-Orleans line which were the strongest DC locomotives in Europe at that time.
+
+
+=== United Kingdom ===
+There were plans to use the two-wire, three-phase, system on the Portmadoc, Beddgelert and South Snowdon Railway in Wales and the Metropolitan Railway in London but neither of these plans came to fruition.
+
+
+== Kandó's legacy ==
+Kálmán Kandó died at Budapest in 1931 but his work lives on. Many modern electric trains work on the same three-phase high tension AC principle introduced by the Kandó V40 locomotives, but the rotary converter is replaced by semiconductor devices. Three-phase powered electric motors allow for high traction effort even at great speeds and the difficulty of maintaining arbitrary speeds at full efficiency is eliminated by using IGBT semiconductors and the use of digital controls.
+
+
+== See also ==
+Railway electrification system
+List of current systems for electric rail traction
+
+
+== References ==
+^ http://erojr.home.cern.ch/erojr/Content/Pictures/Old/Kando/SPLIT33.JPG
+^ http://erojr.home.cern.ch/erojr/Content/Pictures/Prototype/Kando/ka_drv.jpg
+^ http://erojr.home.cern.ch/erojr/Content/Pictures/Old/Kando/V44_1.JPG
+^ http://erojr.home.cern.ch/erojr/Content/Pictures/Prototype/Kando/V55_1.JPG
+^ http://erojr.home.cern.ch/erojr/Content/Pictures/Prototype/Kando/ka1.jpg
+^ http://upload.wikimedia.org/wikipedia/commons/c/c8/V55.jpg
+^ http://erojr.home.cern.ch/erojr/Content/Pictures/Prototype/Kando/V60.jpg
+
+
+== External links ==
+Kálmán Kandó biography

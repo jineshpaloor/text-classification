@@ -1,0 +1,21 @@
+Delta-wye transformer
+A delta-wye transformer is a type of three-phase electric power transformer design that employs delta-connected windings on its primary and wye/star connected windings on its secondary. A neutral wire can be provided on wye output side. It can be a single three-phase transformer, or built from three independent single-phase units. An equivalent term is delta-star transformer.
+
+Delta-wye transformers are common in commercial, industrial, and high-density residential locations, to supply three-phase distribution systems.
+An example would be a distribution transformer with a delta primary, running on three 11 kV phases with no neutral or earth required, and a star (or wye) secondary providing a 3-phase supply at 415 V, with the domestic voltage of 240 available between each phase and the earthed (grounded) neutral point.
+The delta winding allows third-harmonic currents to circulate within the transformer, and prevents third-harmonic currents from flowing in the supply line.  Delta connected windings are not common for higher transmission voltages (138 kV and above) owing to the higher cost of insulation compared with a wye connection. 
+Delta-wye transformers introduce a 30, 150, 270 or 330 degree phase shift. Thus they cannot be paralleled with wye-wye (or delta-delta) transformers. However, they can be paralleled with identical configurations and some different configurations of other delta-wye (or wye-delta with some attention) transformers.
+
+
+== See also ==
+Electric power distribution
+High-leg delta
+Mains power systems
+Motor soft starter
+
+
+== External links ==
+Three-phase transformer circuits
+
+
+== References ==

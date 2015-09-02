@@ -1,0 +1,120 @@
+Kelvin–Stokes theorem
+The Kelvin–Stokes theorem, also known as the curl theorem, is a theorem in vector calculus on R3. Given a vector field, the theorem relates the integral of the curl of the vector field over some surface, to the line integral of the vector field around the boundary of the surface. The Kelvin–Stokes theorem is a special case of the “generalized Stokes' theorem.” In particular, a vector field on R3 can be considered as a 1-form in which case curl is the exterior derivative.
+
+
+== Theorem ==
+Let γ: [a, b] → R2 be a Piecewise smooth Jordan plane curve. The Jordan curve theorem implies that γ divides R2 into two components, a compact one and another that is non-compact. Let D denote the compact part that is bounded by γ and suppose ψ: D → R3 is smooth, with S := ψ(D). If Γ is the space curve defined by Γ(t) = ψ(γ(t)) and F is a smooth vector field on R3, then:
+
+
+== Proof ==
+The proof of the theorem consists of 4 steps. We assume Green's theorem, so what is of concern is how to boil down the three-dimensional complicated problem (Kelvin–Stokes theorem) to a two-dimensional rudimentary problem (Green's theorem). When proving this theorem, mathematicians normally use the differential form. The "pull-back of a differential form" is a very powerful tool for this situation, but learning differential forms requires substantial background knowledge. So, the proof below does not require knowledge of differential forms, and may be helpful for understanding the notion of differential forms.
+
+
+=== First step of the proof (defining the pullback) ===
+Define
+
+so that P is the pull-back of F, and that P(u, v) is R2-valued function, dependent on two parameters u, v. In order to do so we define P1 and P2 as follows.
+
+Where  is the normal inner product (for Euclidean vectors, the dot product; see Bra-ket notation) of R3 and hereinafter,  stands for the bilinear form according to matrix A.
+
+
+=== Second step of the proof (first equation) ===
+According to the definition of a line integral,
+
+where, Jψ stands for the Jacobian matrix of ψ, and the clear circle denotes function composition. Hence,
+
+So, we obtain the following equation
+
+
+=== Third step of the proof (second equation) ===
+First, calculate the partial derivatives, using the Leibniz rule (product rule):
+
+So,
+
+On the other hand, according to the definition of a surface integral,
+
+So, we obtain
+
+
+=== Fourth step of the proof (reduction to Green's theorem) ===
+Combining the second and third steps, and then applying Green's theorem completes the proof.
+
+
+== Application for conservative vector fields and scalar potential ==
+In this section, we will discuss the lamellar vector field based on Kelvin–Stokes theorem.
+First, we define the notarization map as follows.
+
+ is a strictly increasing function. For all piece-wise smooth paths c: [a, b] → R3 and all smooth vector fields F, the domain of which includes c([a, b]), one has:
+
+So, we can assume the domain of the curve to be [0, 1].
+
+
+=== The Lamellar vector field ===
+
+In fluid dynamics, it is often referred to as a vortex-free or irrotational vector field. Furthermore, if the domain of F is simply connected, then in mechanics, it can be identified as a conservative force.
+
+
+=== Helmholtz's theorems ===
+In this section, we will introduce a theorem that is derived from the Kelvin–Stokes theorem and characterizes vortex-free vector fields. In fluid dynamics it is called Helmholtz's theorems.
+That theorem is also important in the area of Homotopy theorem.
+
+Some textbooks such as Lawrence call the relationship between c0 and c1 stated in Theorem 2-1 as “homotope” and the function H: [0, 1] × [0, 1] → U as “homotopy between c0 and c1”. However, “homotope” or “homotopy” in above-mentioned sense are different (stronger than) typical definitions of “homotope” or “homotopy”. So from now on we refer to homotopy (homotope) in the sense of Theorem 2-1 as tube-like-homotopy (homotope).
+
+
+=== Proof of the theorem ===
+
+Hereinafter, the ⊕ stands for joining paths the  stands for backwards of curve
+Let D = [0, 1] × [0, 1]. By our assumption, c1 and c2 are piecewise smooth homotopic, there are the piecewise smooth homogony H: D → M
+
+And, let S be the image of D under H. Then,
+
+will be obvious according to the Theorem 1 and, F is Lamellar vector field that, right side of that equation is zero, so,
+
+Here,
+ 
+and, H is Tubeler-Homotopy that,
+
+that, line integral along Γ2(s) and line integral along Γ4(s) are compensated each other so,
+
+On the other hand,
+
+that, subjected equation is proved.
+
+
+=== Application for conservative force ===
+Helmholtz's theorem, gives an explanation as to why the work done by a conservative force in changing an object's position is path independent. First, we introduce the Lemma 2-2, which is a corollary of and a special case of Helmholtz's theorem.
+
+Lemma 2-2, obviously follows from Theorem 2-1. In Lemma 2-2, the existence of H satisfying [SC0] to [SC3] is crucial. It is a well-known fact that, if U is simply connected, such H exists. The definition of Simply connected space follows:
+
+You will find that, the [SC1] to [SC3] of both Lemma 2-2 and Definition 2-2 is same.
+So, someone may think that, "for a conservative force, the work done in changing an object's position is path independent" is elucidated. However there are very large gaps between following two:
+There are continuous H such that it satisfies [SC1] to [SC3]
+There are piecewise smooth H such that it satisfies [SC1] to [SC3]
+To fill that gap, the deep knowledge of Homotopy Theorem is required. For example the following resources may be helpful for you.
+Lee teaches Whitney approximation theorem ( page 136) and "How to use that theorem to this isuue" ( page 421).
+More general statements appear in (see Theorems 7 and 8).
+Considering above-mentioned fact and Lemma 2-2, we will obtain following theorem.
+
+
+== Kelvin–Stokes theorem on singular 2-cube and cube subdivisionable sphere ==
+
+
+=== Singular 2-cube and boundary ===
+
+We omit the proof of the lemma. Using the lemma from now we consider all singular 2-cubes to be notarized. In other words we assume that the domain of all singular 2-cubes is I × I.
+In order to facilitate the discussion of boundary, we define
+
+γ1, ..., γ4 are the one-dimensional edges of the image of I × I.Hereinafter, the ⊕ stands for joining paths and, the  stands for backwards of curve.
+
+
+=== Cube subdivision ===
+
+The definition of the boundary of the Definitions 3-3 is apparently depends on the cube subdivision. However, considering the following fact, the boundary is not depends on the cube subdivision.
+
+Therefore the following Definition is well-defined:
+
+
+== Notes ==
+
+
+== References ==

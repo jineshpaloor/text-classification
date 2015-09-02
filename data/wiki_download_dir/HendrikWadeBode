@@ -1,0 +1,161 @@
+Hendrik Wade Bode
+Hendrik Wade Bode (/ˈboʊdi/ boh-dee; Dutch: [ˈbodə]) (December 24, 1905 – June 21, 1982) was an American engineer, researcher, inventor, author and scientist, of Dutch ancestry. As a pioneer of modern control theory and electronic telecommunications he revolutionized both the content and methodology of his chosen fields of research.
+He made important contributions to the design, guidance and control of anti-aircraft systems during World War II and continuing post-World War II during the Cold War with the design and control of missiles and anti-ballistic missiles.
+He also made important contributions to control system theory and mathematical tools for the analysis of stability of linear systems, inventing Bode plots, gain margin and phase margin.
+Bode was one of the great engineering philosophers of his era. Long respected in academic circles worldwide, he is also widely known to modern engineering students mainly for developing the asymptotic magnitude and phase plot that bears his name, the Bode plot.
+His research contributions in particular were not only multidimensional but far reaching as well, extending as far as the U.S. space program.
+
+
+== Education ==
+Bode was born in Madison, Wisconsin. His father was a professor of education, and a faculty member at the University of Illinois at Urbana-Champaign by the time young Hendrik was ready for elementary school. He entered Leal Elementary School and rapidly advanced through the Urbana school system to graduate from high school at the age of 14.
+Immediately after graduation from high school he applied for admission to the University of Illinois but was denied because of his age. Decades later, in 1977, the same University would grant him an Honorary Sc.D. Degree.
+He eventually applied and was accepted at Ohio State University, where his father also taught, and he received his BA degree in 1924, at age 19, and his M.A. Degree in 1926, both in Mathematics. After receiving his M.A. he remained at his alma mater, working as a teaching assistant, for an additional year.
+
+
+== Early contributions at Bell Labs and Ph.D. ==
+Fresh from graduate school he was promptly hired by Bell Labs in New York City, where he began his career as designer of electronic filters and equalizers. Subsequently, in 1929, he was assigned to the Mathematical Research Group, where he excelled in research related to electronic networks theory and its application to telecommunications. Sponsored by Bell Laboratories he reentered graduate school, this time at Columbia University, and he successfully completed his PhD in physics in 1935.
+In 1938, he developed asymptotic phase and magnitude plots, now known as Bode plots, which displayed the frequency response of systems clearly. His work on Automatic (Feedback) Control Systems introduced innovative methods to the study of system stability that enabled engineers to investigate time domain stability using the frequency domain concepts of gain and phase margin, the study of which was aided by his now famous plots. In essence, his method made stability transparent to both the time and frequency domains and, furthermore, his frequency domain-based analysis was much faster and simpler than the traditional time-domain-based method. This provided engineers with a fast and intuitive stability analysis and system design tool that remains widely used today. He, along with Harry Nyquist, also developed the theoretical conditions applicable to the stability of amplifier circuits.
+
+
+== World War II and new inventions ==
+
+
+=== Change of direction ===
+With the inexorable onset of World War II, Bode turned his sights on the military applications of his Control Systems research, a change of direction that would last in varying degree to the end of his career. He came to the service of his country by working on the Director Project at Bell Labs  (funded by National Defense Research Committee (NDRC) Section D-2), developing automatic anti-aircraft control systems, whereby radar information was used to provide data about the location of the enemy aircraft, which was then fed back to the anti-aircraft artillery servomechanisms enabling automatic, radar-augmented enemy aircraft ballistic tracking, in other words, automatic shooting down of enemy aircraft with the help of radar. The servomotors used were both electrically and hydraulically powered, the latter being used mainly for positioning the heavy anti-aircraft guns.
+
+
+=== First wireless feedback loop and robot weapons ===
+The radar signal was locked on target and its data was wirelessly transmitted to a ground receiver that was connected to the artillery servomechanism feedback control system, causing the servo to accurately modify its angular position and maintain it for an optimum amount of time, long enough to fire at the calculated (predicted) coordinates of the target and thus successfully track, i.e. blow up, the target.
+The prediction of the coordinates was the function of Director T-10, a form of electrical computer so named because it was used to direct the positioning of the gun with respect to the airborne target. It also calculated the target average velocity based on the location information provided by the radar and predicted the future target location based on its assumed flightpath equation, usually a linear function of time. This system functioned as an early version of the modern Anti-ballistic missile defence model. Statistical analysis was also employed to aid in the computation of the exact position of the enemy aircraft and to smooth the data acquired from the target due to signal fluctuations and noise effects.
+
+
+==== "Shotgun marriage" ====
+Bode therefore realized the first wireless data feedback loop in the history of automatic control systems by combining wireless data communications, electrical computers, statistics principles and feedback control systems theory. He showed his dry sense of humour by calling this multidisciplinary linkage a shotgun marriage, referring to the antiaircraft artillery origins of his historic invention saying: "This, I said, was a sort of shotgun marriage forced upon us by the pressures of military problems in World War II." He also described it further as "a sort of 'shotgun marriage' between two incompatible personalities." and characterised the product of that linkage as a “son of shotgun marriage".
+The product of this "marriage", i.e. the automated artillery gun, can also be considered as a robot weapon. Its function required to process data that was wirelessly transmitted to its sensors and make a decision based on the data received using its onboard computer about its output defined as its angular position and the timing of its firing mechanism. In this model we can see all the elements of later concepts such as data processing, automation, artificial intelligence, cybernetics, robotics etc.
+
+
+=== Working on Director Studies ===
+Bode, in addition, applied his extensive skills with feedback amplifiers to design the target data smoothing and position predictor networks of an improved model of Director T-10, called the Director T-15. The work on Director T-15 was undertaken under a new project at Bell Labs called Fundamental Director Studies in cooperation with the NDRC under the directorship of Walter McNair.
+NDRC, the funding agency of this project, was operating under the aegis of the Office of Scientific Research and Development (OSRD).
+His NDRC-funded research at Bell Labs under the section D-2 (Control Systems section) contract eventually led to other important developments in related fields and laid the cornerstone for many present-day inventions. In the field of control theory, for example, it aided in the further development of servomechanism design and control, a crucial component of modern robotics. The development of Wireless Data Communications theory by Bode led to later inventions such as mobile phones and wireless networking.
+The reason for the new project was that Director T-10 encountered difficulties in calculating the target velocity by differentiating the target position. Due to discontinuities, variations and noise in the radar signal, the position derivatives sometimes fluctuated wildly and this caused erratic motion in the servomechanisms of the gun because their control signal was based on the value of the derivatives. This could be mitigated by smoothing or averaging out the data but this caused delays in the feedback loop that enabled the target to escape. As well, the algorithms of Director T-10 required a number of transformations from cartesian (rectangular) to polar coordinates and back to Cartesian, a process that introduced additional tracking errors.
+Bode designed the velocity computing networks of Director T-15 by applying a finite difference method instead of differentiation. Under this scheme the target positional coordinates were stored in a mechanical memory, usually a potentiometer or a cam. The velocity was then calculated by taking the difference between the coordinates of the current position and the coordinates of the previous reading that were stored in memory and dividing by the difference of their respective times. This method was more robust than the differentiation method and it also smoothed out signal disturbances since the finite time-step size was less sensitive to random signal impulses (spikes). It also introduced for the first time an algorithm better suited to modern digital signal processing theory rather than to the classical Calculus-based analog signal processing approach that was followed then. Not coincidentally it is an integral part of modern digital control theory and digital signal processing and it is known as the backward difference algorithm. In addition the Director T-15 operated only in rectangular coordinates thus eliminating coordinate transformation-based errors. These design innovations paid performance dividends and the Director T-15 was twice as accurate as its predecessor and it converged on a target twice as fast.
+The fire control algorithm implementation of his artillery design research and his extensive work with feedback amplifiers advanced the state of the art in computational methods and led to the eventual development of the electronic analog computer, the operational amplifier based alternative of today's digital computers.
+Inventions such as these, despite their military research origins, have had a profound and lasting impact in the civilian domain.
+
+
+=== Military uses ===
+
+
+==== Anzio and Normandy ====
+The automated anti-aircraft guns that Bode helped develop were successfully used in numerous instances during the war. In February 1944 the automated fire control system, based on the earlier version of the Director T-15, called the Director T-10 by Bell Labs or Director M-9 by the military, saw action for the first time in Anzio, Italy where it helped down over one hundred enemy aircraft. On D-day thirty nine units were deployed in Normandy to protect the allied invading force against Hitler's Luftwaffe.
+
+
+==== Use against the V-1 flying bomb ====
+Perhaps the menace best suited for the design specifications of such an automated artillery system appeared in June 1944. Not surprisingly it was another robot. The German Aeronautical Engineers aided by Wernher von Braun produced a robot of their own; the V-1 flying bomb, an automatically guided bomb and widely considered a precursor of the cruise missile. Its flight specifications almost perfectly suited the target design criteria of Director T-10, that of an aircraft flying straight and level at constant velocity, in other words a target nicely fitting the computing capabilities of a linear predictor model such as the Director T-10. Although the Germans did have a trick up their engineering sleeve by making the bomb fly fast and low to evade radar, a technique widely adopted even today. During the London Blitz one hundred Director T-10 assisted 90 mm automated gun units were set up in a perimeter south of London, at the special request of Winston Churchill. The AA units included the SCR-584 radar unit produced by the Radiation Lab at MIT and the proximity fuse mechanism, developed by Merle Tuve and his special Division T at NDRC, that detonated near the target using a microwave controlled fuse called the VT or variable time fuse, enabling a larger detonation reach envelope and increasing the chances of a successful outcome. Between June 18 and July 17, 1944, 343 V-1 bombs were shot down or 10% of the total V-1 number sent by the Germans and about 20% of the total V-1 bombs shot down. From July 17 to August 31 the automated gun kills rose to 1286 V-1 rockets or 34% of the total V-1 number dispatched from Germany and 50% of the V-1 actually shot down over London. From these statistics it can be seen that the automated systems that Bode helped design had a considerable impact on crucial battles of World War II. It can also be seen that London at the time of the Blitz became, among other things, the original robot battlefield.
+
+
+=== Synergy with Shannon ===
+In 1945, as the war was winding down, the NDRC was issuing a summary of technical reports as the prelude to its eventual closing down. Inside the volume on Fire Control a special essay titled Data Smoothing and Prediction in Fire-Control Systems, coauthored by Ralph Beebe Blackman, Hendrik Bode, and Claude Shannon, formally introduced the problem of fire control as a special case of transmission, manipulation and utilization of intelligence, in other words it modeled the problem in terms of data and signal processing and thus heralded the coming of the information age. Shannon, considered to be the father of information theory, was greatly influenced by this work. It is clear that the technological convergence of the information age was preceded by the synergy between these scientific minds and their collaborators.
+
+
+=== Further wartime achievements ===
+In 1944, Bode was placed in charge of the Mathematical Research Group at Bell Laboratories.
+His work on electronic communications, especially on filter and equalizer design, continued during this time. In 1945 it culminated in the publication of his book under the title of Network Analysis and Feedback Amplifier Design, which is considered a classic in the field of electronic telecommunications and was extensively used as a textbook for many graduate programs at various universities as well as for internal training courses at Bell Labs. He was also the prolific author of many research papers that were published in prestigious scientific and technical journals.
+In 1948, President Harry S. Truman awarded him the President's Certificate of Merit, in recognition of his remarkable scientific contributions to the war effort and to the United States of America.
+
+
+== Peacetime contributions ==
+
+
+=== Change of focus ===
+As the war came to an end, his research focus shifted to include not only military but civilian research projects as well. On the military side he continued pursuing ballistic missile research, including research on antiballistic missile defence and associated computing algorithms, and in the civilian domain he concentrated on modern communication theory. On the post-war military research front he worked on the Nike Zeus missile project as part of a team with Douglas Aircraft, and later on the design of anti-ballistic missiles.
+
+
+=== Retirement from Bell Labs ===
+In 1952, he was promoted to the level of Director of Mathematical Research at Bell Labs. In 1955, he became Director of Research in the Physical Sciences, and remained there until 1958, when he was promoted again to become one of the two Vice Presidents in charge of Military Development and Systems Engineering, a position he held up to his retirement. He also became a director of Bellcomm, a company associated with the Apollo program.
+His applied research at Bell Labs over the years led to numerous patented inventions, some of which were registered in his name. By the time of his retirement he held a total of 25 patents in various areas of electrical and communications engineering, including signal amplifiers and artillery control systems.
+He retired from Bell Labs in October 1967, at the age of 61, ending an association that spanned more than four decades and changed the face of many of the core elements of modern engineering.
+
+
+=== Harvard ===
+
+
+==== Gordon McKay professorship ====
+Soon after retirement, Bode was elected to the academically prestigious Gordon McKay Professor of Systems Engineering position at Harvard University.
+During his tenure there, he pursued research on military decision making algorithms and optimization techniques based on stochastic processes that are considered a precursor of modern fuzzy logic. He also studied the effects of technology on modern society and taught courses on the same subject at Harvard's Science and Public Policy Seminar, while supervising and teaching graduate students at the same time in the division of Engineering and Applied Physics.
+
+
+==== Research legacy ====
+Although his professorial duties were demanding of his time, he kept a keen eye on leaving his research legacy. He was simultaneously working on a new book that expounded on his extensive experience as a researcher at Bell Labs, which he published in 1971 under the title Synergy: Technical Integration and Technological Innovation in the Bell System. Using terms easily accessible even to laymen, he analyzed and expanded on technical and philosophical aspects of systems engineering as practised at Bell Labs. He explained how seemingly different fields of Engineering were merging, guided by the necessity of the flow of information between system components that transcended previously well defined boundaries and thus he introduced us to a technological paradigm shift. As it is clear from the title of the book as well as its contents, he became one of the early exponents of technological convergence, infometrics and information processing before the terms even existed.
+In 1974, he retired for the second time and Harvard awarded him the honorary position of Professor Emeritus. He, nevertheless, kept his office at Harvard and continued working from there, mainly as an advisor to government on policy matters.
+
+
+== Academic and professional distinctions ==
+Bode received awards, honours and professional distinctions.
+
+
+=== Academic medals and awards ===
+In 1960 he received the Ernest Orlando Lawrence Award. In 1969, IEEE awarded him the renowned Edison Medal for "fundamental contributions to the arts of communication, computation and control; for leadership in bringing mathematical science to bear on engineering problems; and for guidance and creative counsel in systems engineering", a tribute that eloquently summarized the wide spectrum of his innovative contributions to engineering science and applied mathematics as a researcher, and to society as an advisor and professor.
+In 1975, the American Society of Mechanical Engineers awarded him the Rufus Oldenburger Medal.
+In 1979, he became the first recipient of the Richard E. Bellman Control Heritage Award from the American Automatic Control Council. The award is given to researchers with "distinguished career contributions to the theory or applications of automatic control", and "it is the highest recognition of professional achievement for US control systems engineers and scientists".
+Posthumously, in 1989, the IEEE Control Systems Society established the Hendrik W. Bode Lecture Prize in order to: recognize distinguished contributions to control systems science or engineering.
+
+
+=== Memberships to academic organizations and government committees ===
+He was also a member or fellow in a number of scientific and engineering societies such as the IEEE, American Physical Society, Society of Industrial and Applied Mathematics etc. and the American Academy of Arts and Sciences, an independent American Academy, that is not part of the U.S. National Academies.
+In 1957, he was elected member to the National Academy of Sciences, the oldest and most prestigious U.S. National Academy established at the height of the Civil War, in 1863, by then President Abraham Lincoln.
+
+
+==== COSPUP ====
+From 1967 to 1971, he served as a member of the Council of the National Academy of Sciences. At the same time he served as the representative of the Academy's Engineering section on the Committee on Science and Public Policy (COSPUP).
+Being a deep thinker as well as a lucid writer he significantly contributed to three important COSPUP studies: Basic Research and National Goals (1965), Applied Science and Technological Progress (1967) and Technology: Processes of Assessment and Choice (1969). These studies had the additional distinction of being the first ever to be prepared by the Academy for the Legislative Branch, or more specifically for the Committee on Science and Astronautics of the U.S. House of Representatives, thus fulfilling the Academy's mandate, under its Charter, as an advisory body to the U.S. Government.
+
+
+==== Special Committee on Space Technology ====
+
+The predecessor of NASA was NACA. NACA's Special Committee on Space Technology also called the Stever Committee, after its chairman Guyford Stever, was a special steering committee that was formed with the mandate to coordinate various branches of the Federal government, private companies as well as universities within the United States with NACA's objectives and also harness their expertise in order to develop a space program. Committee members included: Bode and Wernher von Braun the father of the US space program.
+It is a historical irony that Hendrik Wade Bode, the man who helped develop the robot weapons that brought down the Nazi V-1 flying bombs over London during World War II, was actually serving in the same committee and sitting at the same table as Wernher von Braun who worked on the development of the V-1 and was the head of the team which developed the V-2, the weapon that terrorised London.
+
+
+== Hobbies and family life ==
+Bode was an avid reader in his spare time. He also co-wrote Counting House, a fictional story, with his wife Barbara which was published by Harper's magazine in August 1936. Bode also enjoyed boating. Early on in his career, while working for Bell Labs in New York, he used to sail-boat on Long Island Sound. After World War II, he bought a surplus landing craft (LCT) with which he explored the upper reaches of the Chesapeake Bay near the eastern shore of Maryland. He also enjoyed gardening and do-it-yourself projects. He was married to Barbara Bode (nee Poore). Together they had two children; Dr. Katharine Bode Darlington and Mrs. Anne Hathaway Bode Aarnes.
+
+
+== Engineering legacy ==
+Bode, despite all the high distinctions he received, both from Academia and Government, did not rest on his laurels. He believed that engineering, as an institution, deserved a place in the Pantheon of academia as much as science did. With typical engineering resourcefulness he solved the problem by helping create another academy.
+He is among the founding members and served as a regular member of the National Academy of Engineering, that was created on December 1964, only the second U.S. National Academy in one hundred and one years since the inception of the first, and which now forms part of the United States National Academies.
+He thus helped sublimate the age-old debate of engineers versus scientists and elevated it into a debate between academics. This subtle, yet powerfully symbolic accomplishment, constitutes a compelling part of his legacy.
+Hendrik Wade Bode died at the age of 76, at his home in Cambridge, Massachusetts.
+
+
+== Publications ==
+Network Analysis and Feedback Amplifier Design (1945)
+Synergy: Technical Integration and Technological Innovation in the Bell System (1971)
+Counting house (Fiction) Hendrik W. (Hendrik Wade) Bode and Barbara Bode Harper's magazine The Lion's mouth dept. pp. 326–329, August 1936
+
+
+== Research papers at Bell Labs ==
+H. W. Bode A Method of Impedance Correction Bell System Technical Journal, v9: 1930
+H. W. Bode A General Theory of Electric Wave Filters Bell System Technical Journal, v14: 1935
+H. W. Bode and R. L. Dietzold Ideal Wave Filters Bell System Technical Journal, v14: 1935
+H. W. Bode Variable Equalizers Bell System Technical Journal, v17: 1938
+H. W. Bode Relations Between Attenuation and Phase in Feedback Amplifier Design Bell System Technical Journal, v19: 1940
+
+
+== US Patents granted ==
+
+Twenty five patents were issued by the U.S. Patent Office to Bode for his inventions. The patents covered areas such as data transmission networks, electronic filters, amplifiers, averaging mechanisms, data smoothing networks and artillery computers.
+
+
+== See also ==
+Bode's sensitivity integral
+
+
+== References ==
+
+
+=== Cited references ===
+
+
+=== General references ===

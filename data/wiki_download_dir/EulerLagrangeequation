@@ -1,0 +1,146 @@
+Euler–Lagrange equation
+In calculus of variations, the Euler–Lagrange equation, Euler's equation, or Lagrange's equation (although the latter name is ambiguous—see disambiguation page), is a second-order partial differential equation whose solutions are the functions for which a given functional is stationary. It was developed by Swiss-Russian mathematician Leonhard Euler and French-Italian mathematician Joseph-Louis Lagrange in the 1750s.
+Because a differentiable functional is stationary at its local maxima and minima, the Euler–Lagrange equation is useful for solving optimization problems in which, given some functional, one seeks the function minimizing (or maximizing) it. This is analogous to Fermat's theorem in calculus, stating that at any point where a differentiable function attains a local extremum, its derivative is zero.
+In Lagrangian mechanics, because of Hamilton's principle of stationary action, the evolution of a physical system is described by the solutions to the Euler–Lagrange equation for the action of the system. In classical mechanics, it is equivalent to Newton's laws of motion, but it has the advantage that it takes the same form in any system of generalized coordinates, and it is better suited to generalizations. In classical field theory there is an analogous equation to calculate the dynamics of a field.
+
+
+== History ==
+The Euler–Lagrange equation was developed in the 1750s by Euler and Lagrange in connection with their studies of the tautochrone problem. This is the problem of determining a curve on which a weighted particle will fall to a fixed point in a fixed amount of time, independent of the starting point.
+Lagrange solved this problem in 1755 and sent the solution to Euler. Both further developed Lagrange's method and applied it to mechanics, which led to the formulation of Lagrangian mechanics. Their correspondence ultimately led to the calculus of variations, a term coined by Euler himself in 1766.
+
+
+== Statement ==
+The Euler–Lagrange equation is an equation satisfied by a function, q, of a real argument, t, which is a stationary point of the functional
+
+where:
+ is the function to be found:
+
+such that  is differentiable, , and ;
+; is the derivative of :
+
+TX being the tangent bundle of X defined by
+ ;
+L is a real-valued function with continuous first partial derivatives:
+
+The Euler–Lagrange equation, then, is given by
+
+where Lx and Lv denote the partial derivatives of L with respect to the second and third arguments, respectively.
+If the dimension of the space X is greater than 1, this is a system of differential equations, one for each component:
+
+
+== Examples ==
+A standard example is finding the real-valued function on the interval [a, b], such that f(a) = c and f(b) = d, the length of whose graph is as short as possible. The length of the graph of f is:
+
+the integrand function being L(x, y, y′) = √1 + y′ ² evaluated at (x, y, y′) = (x, f(x), f′(x)).
+The partial derivatives of L are:
+
+By substituting these into the Euler–Lagrange equation, we obtain
+
+that is, the function must have constant first derivative, and thus its graph is a straight line.
+
+
+=== Classical mechanics ===
+
+
+==== Basic method ====
+To find the equations of motions for a given system (whose potential energy is time-independent), one only has to follow these steps:
+From the kinetic energy , and the potential energy , compute the Lagrangian .
+Compute .
+Compute  and from it, . It is important that  be treated as a complete variable in its own right, and not as a derivative.
+Equate . This is the Euler–Lagrange equation.
+Solve the differential equation obtained in the preceding step. At this point,  is treated "normally". Note that the above might be a system of equations and not simply one equation.
+
+
+==== Particle in a conservative force field ====
+The motion of a single particle in a conservative force field (for example, the gravitational force) can be determined by requiring the action to be stationary, by Hamilton's principle. The action for this system is
+
+where x(t) is the position of the particle at time t. The dot above is Newton's notation for the time derivative: thus ẋ(t) is the particle velocity, v(t). In the equation above, L is the Lagrangian (the kinetic energy minus the potential energy):
+
+where:
+m is the mass of the particle (assumed to be constant in classical physics);
+vi is the i-th component of the vector v in a Cartesian coordinate system (the same notation will be used for other vectors);
+U is the potential of the conservative force.
+In this case, the Lagrangian does not vary with its first argument t. (By Noether's theorem, such symmetries of the system correspond to conservation laws. In particular, the invariance of the Lagrangian with respect to time implies the conservation of energy.)
+By partial differentiation of the above Lagrangian, we find:
+
+where the force is F = −∇U (the negative gradient of the potential, by definition of conservative force), and p is the momentum. By substituting these into the Euler–Lagrange equation, we obtain a system of second-order differential equations for the coordinates on the particle's trajectory,
+
+which can be solved on the interval [t0, t1], given the boundary values xi(t0) and xi(t1). In vector notation, this system reads
+
+or, using the momentum,
+
+which is Newton's second law.
+
+
+== Variations for several functions, several variables, and higher derivatives ==
+
+
+=== Single function of single variable with higher derivatives ===
+The stationary values of the functional
+
+can be obtained from the Euler–Lagrange equation
+
+under fixed boundary conditions for the function itself as well as for the first  derivatives (i.e. for all ). The endpoint values of the highest derivative  remain flexible.
+
+
+=== Several functions of one variable ===
+If the problem involves finding several functions () of a single independent variable () that define an extremum of the functional
+
+then the corresponding Euler–Lagrange equations are
+
+
+=== Single function of several variables ===
+A multi-dimensional generalization comes from considering a function on n variables. If Ω is some surface, then
+
+is extremized only if f satisfies the partial differential equation
+
+When n = 2 and  is the energy functional, this leads to the soap-film minimal surface problem.
+
+
+=== Several functions of several variables ===
+If there are several unknown functions to be determined and several variables such that
+
+the system of Euler–Lagrange equations is
+
+
+=== Single function of two variables with higher derivatives ===
+If there is a single unknown function f to be determined that is dependent on two variables x1 and x2 and if the functional depends on higher derivatives of f up to n-th order such that
+
+then the Euler–Lagrange equation is
+
+which can be represented shortly as:
+
+where  are indices that span the number of variables, that is they go from 1 to 2. Here summation over the  indices is implied according to Einstein notation.
+
+
+=== Several functions of several variables with higher derivatives ===
+If there is are p unknown functions fi to be determined that are dependent on m variables x1 ... xm and if the functional depends on higher derivatives of the fi up to n-th order such that
+
+where  are indices that span the number of variables, that is they go from 1 to m. Then the Euler–Lagrange equation is
+
+where summation over the  is implied according to Einstein notation. This can be expressed more compactly as
+
+
+== Generalization to Manifolds ==
+Let  be a smooth manifold, and let  denote the space of smooth functions . Then, for functionals  of the form
+
+where  is the Lagrangian, the statement  is equivalent to the statement that, for all , each coordinate frame trivialization  of a neighborhood of  yields the following  equations:
+
+
+== See also ==
+Lagrangian mechanics
+Hamiltonian mechanics
+Analytical mechanics
+Beltrami identity
+Functional derivative
+
+
+== Notes ==
+
+
+== References ==
+Hazewinkel, Michiel, ed. (2001), "Lagrange equations (in mechanics)", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Weisstein, Eric W., "Euler-Lagrange Differential Equation", MathWorld.
+Calculus of Variations at PlanetMath.org.
+Gelfand, Izrail Moiseevich (1963). Calculus of Variations. Dover. ISBN 0-486-41448-5. 
+Roubicek, T.: Calculus of variations. Chap.17 in: Mathematical Tools for Physicists. (Ed. M. Grinfeld) J. Wiley, Weinheim, 2014, ISBN 978-3-527-41188-7, pp.551-588.

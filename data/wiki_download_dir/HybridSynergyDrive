@@ -1,0 +1,227 @@
+Hybrid Synergy Drive
+Hybrid Synergy Drive (HSD) is the brand name of Toyota for hybrid car drive train technology. It is used in its Yaris, Auris, Prius, Highlander Hybrid, Camry Hybrid, Estima, Alphard, Lexus RX 400h/RX 450h, Lexus ES 300h, Lexus GS 450h, Lexus LS 600h/LS 600hL, Lexus CT 200h, Lexus IS 300h, Lexus HS 250h and Lexus NX 300h automobiles. Toyota also licenses its HSD technology to Nissan for use in its Nissan Altima Hybrid. Its parts supplier Aisin Seiki Co. offers similar hybrid transmissions to other car companies.
+HSD technology produces a full hybrid vehicle which allows the car to run on the electric motor only, as opposed to most other brand hybrids which cannot and are considered mild hybrids. The HSD also combines an electric drive and a planetary gearset which performs similarly to a continuously variable transmission. The Synergy Drive is a drive-by-wire system with no direct mechanical connection between the engine and the engine controls: both the gas pedal/accelerator and the gearshift lever in an HSD car merely send electrical signals to a control computer.
+
+HSD is a refinement of the original Toyota Hybrid System (THS) used in the 1997 to 2003 Toyota Prius. The second generation system THS II first appeared on the redesigned Prius in 2004. The name was changed in anticipation of its use in vehicles outside the Toyota brand (Lexus; the HSD-derived systems used in Lexus vehicles have been termed Lexus Hybrid Drive, although the Lexus implementation is really a variation of the THS III), the THS III was implemented in the 2006 Camry, and would eventually be implemented in the 2010 "third generation" Prius, and the 2012 Prius c. The THS III is designed for increased power and efficiency, and also improved "scalability" (adaptability to larger as well as smaller vehicles), wherein the ICE/MG1 and the MG2 have separate reduction paths, and are combined in a "compound" gear which is connected to the final reduction gear train and differential; it was introduced on all-wheel drive and rear-wheel drive Lexus models. By May 2007 Toyota had sold one million hybrids worldwide; two million by the end of August 2009; and passed the 5 million mark in March 2013. As of September 2014, more than 7 million Lexus and Toyota hybrids had been sold worldwide. The United States accounted for 38% of TMC global hybrid sales as of March 2013.
+
+
+== Principle ==
+
+Toyota's HSD system replaces a normal geared transmission with an electromechanical system. An internal combustion engine (ICE) delivers power most efficiently over a small speed range, but the wheels need to be driven over the vehicle's full speed range. In a conventional automobile the geared transmission delivers different discrete engine speed-torque power requirements to the wheels. Geared transmissions may be manual, with a clutch, or automatic, with a torque converter, but both allow the engine and the wheels to rotate at different speeds. The driver can adjust the speed and torque delivered by the engine with the accelerator and the transmission mechanically transmits nearly all of the available power to the wheels which rotate at a different rate than the engine, by a factor equal to the gear ratio for the currently selected gear. However, there are a limited number of "gears" or gear ratios that the driver can chose from, typically four to six. This limited gear-ratio set forces the engine crankshaft to rotate at speeds where the ICE is less efficient, i.e., where a liter of fuel produces fewer joules. Optimal engine speed-torque requirements for different vehicle driving and acceleration conditions can be gauged by limiting either tachometer RPM rate or engine noise in comparison with actual speed. When an engine is required to operate efficiently across a broad RPM range, due to its coupling to a geared transmission, manufacturers are limited in their options for improving engine efficiency, reliability, or lifespan, as well as reducing the size or weight of the engine. This is why the engine for an engine-generator is often much smaller, more efficient, more reliable, and longer life than one designed for an automobile or other variable speed application.
+However, a continuously variable transmission allows the driver (or the automobile computer) to effectively select the optimal gear ratio required for any desired speed or power. The transmission is not limited to a fixed set of gears. This lack of constraint frees the engine to operate at its optimal (most efficient) speed (RPM). The most efficient speed (RPM) for an ICE is often around 1500–2000 RPM for the typical power required to propel an automobile. An HSD vehicle will typically run the engine at its optimal efficiency speed whenever power is needed to charge batteries or accelerate the car, shutting down the engine entirely when less power is required.
+Like a CVT, an HSD transmission continuously adjusts the effective gear ratio between the engine and the wheels to maintain the engine speed while the wheels increase their rotational speed during acceleration. This is why Toyota describes HSD-equipped vehicles as having an e-CVT (electronic continuously variable transmission) when required to classify the transmission type for standards specification lists or regulatory purposes.
+
+
+=== Power flows ===
+In a conventional car design the separately-excited alternator with integral rectifier (DC generator) and starter (DC motor) are considered accessories that are attached to the internal combustion engine (ICE) which normally drives a transmission to power the wheels propelling the vehicle. A battery is used only to start the car's internal combustion engine and run accessories when the engine is not running. The alternator is used to recharge the battery and run the accessories when the engine is running.
+The HSD system replaces the geared transmission, alternator, and starter motor with:
+MG1, an AC motor-generator having a permanent magnet rotor, used as a motor when starting the ICE and as a generator (alternator) when charging the high voltage battery
+MG2, an AC motor-generator, also having a permanent magnet rotor, used as the primary drive motor and as a generator (alternator), which regeneration power is directed to the high voltage battery
+Power electronics, including three DC-AC inverters and two DC-DC converters
+Computerized control system and sensors
+HVB a high voltage battery sources electrical energy during acceleration and sinks electrical energy during regeneration braking
+Through the power splitter, a series-parallel full hybrid's HSD system thus allows for the following intelligent power flows:
+Auxiliary power
+HVB -> DC-DC converter -> 12VDC battery
+12VDC battery -> Various standard and automatic energy saving auxiliary functions
+
+Engine charge (Recharging and/or heating catalytic converter and/or interior comfort HVAC)
+ICE -> MG1 -> HVB
+
+Battery or EV drive
+HVB -> MG2 -> wheels
+
+Engine & motor drive (Moderate acceleration)
+ICE -> wheels
+ICE -> MG1 -> MG2 -> wheels
+
+Engine drive with charge (Highway driving)
+ICE -> wheels
+ICE -> MG1 -> HVB
+
+Engine and motor drive with charge (Heavy power situation such as in steep hills)
+ICE -> wheels
+ICE -> MG1 -> HVB
+ICE -> MG1 -> MG2 -> wheels
+
+Full power or gradual slowing (Maximum power situations)
+ICE -> wheels
+ICE -> MG1 -> MG2 -> wheels
+HVB -> MG2 -> wheels
+
+B-mode braking
+Wheels -> MG2 ->HVB
+Wheels -> MG1 -> ICE (ECU uses MG1 to spin ICE which drains battery – allowing more charge from MG2, and also links ICE to wheels causing "engine braking" ICE RPM increases when charge level of HVB is too much to accept regen electricity from MG2, or increasing effort from driver pushing the brake pedal)
+
+Regenerative braking
+wheels -> MG2 -> HVB
+
+Hard braking
+Front disk/rear drum (rear disk in UK) -> wheels
+All disk -> wheels (2010 and newer, except 2012-current Prius c, which uses front disk, rear drum).
+
+
+==== MG1 and MG2 ====
+MG1 (Secondary motor-generator): A motor to start the ICE and a generator to generate electrical power for MG2 and to recharge the high voltage traction battery, and, through a DC-to-DC converter, to recharge the 12 volt auxiliary battery. By regulating the amount of electrical power generated (by varying MG1's mechanical torque and speed), MG1 effectively controls the transaxle's continuously variable transmission.
+MG2 (Primary motor-generator): Drives the wheels and regenerates power for the HV battery energy storage while braking the vehicle. MG2 drives the wheels with electrical power generated by the engine-driven MG1 and/or the HVB. During regenerative braking, MG2 acts as a generator, converting kinetic energy into electrical energy, storing this electrical energy in the battery.
+
+
+=== Transmission ===
+
+The mechanical gearing design of the system allows the mechanical power from the ICE to be split three ways: extra torque at the wheels (under constant rotation speed), extra rotation speed at the wheels (under constant torque), and power for an electric generator. A computer running appropriate programs controls the systems and directs the power flow from the different engine + motor sources. This power split achieves the benefits of a continuously variable transmission (CVT), except that the torque/speed conversion uses an electric motor rather than a direct mechanical gear train connection. An HSD car cannot operate without the computer, power electronics, battery pack, and motor-generators, though in principle it could operate while missing the internal combustion engine. (See: Plug-in hybrid) In practice, HSD equipped cars can be driven a mile or two without gasoline, as an emergency measure to reach a gas station.
+An HSD transaxle contains a planetary gear set that adjusts and blends the amount of torque from the engine and motor(s) as it’s needed by the front wheels. It is a sophisticated and complicated combination of gearing, electrical motor-generators, and computer-controlled electronic controls. One of the motor-generators, MG2, is connected to the output shaft, and thus couples torque into or out of the drive shafts; feeding electricity into MG2 adds torque at the wheels. The engine end of the drive shaft has a second differential; one leg of this differential is attached to the internal combustion engine and the other leg is attached to a second motor-generator, MG1. The differential relates the rotation speed of the wheels to the rotation speeds of the engine and MG1, with MG1 used to absorb the difference between wheel and engine speed. The differential is an epicyclic gear set (also called a "power split device"); that and the two motor-generators are all contained in a single transaxle housing that is bolted to the engine. Special couplings and sensors monitor rotation speed of each shaft and the total torque on the drive shafts, for feedback to the control computer. 
+In Generation 1 and Generation 2 HSDs, MG2 is directly connected to the ring gear, that is, a 1:1 ratio, and which offers no torque multiplication, whereas in Generation 3 HSDs, MG2 is connected to the ring gear through a 2.5:1 planetary gear set, and which, consequently, offers a 2.5:1 torque multiplication, this being a primary benefit of the Generation 3 HSD as it provides for a smaller, yet more powerful MG2. However, a secondary benefit is the MG1 will not be driven into overspeed as frequently, and which would otherwise mandate employing the ICE to mitigate this overspeed; this strategy improves HSD performance as well as saving fuel and wear-and-tear on the ICE.
+
+
+=== High voltage battery ===
+
+The HSD system has two principal battery packs, the High Voltage (HV) battery, also known as the traction battery, and a 12 volt lead-acid battery known as the Low Voltage (LV) battery, which functions as an auxiliary battery. The LV battery supplies power to the electronics and accessories when the hybrid system is turned off and the high-voltage battery main relay is off.
+The traction battery is a sealed nickel-metal hydride (NiMH) battery pack. The battery pack of the first generation Toyota Prius consisted of 228 cells packaged in 38 modules, while the second generation Prius consisted of 28 Panasonic prismatic nickel metal hydride modules, each containing six 1.2 volt cells, connected in series to produce a nominal voltage of 201.6 volts. The discharge power capability of the second gen Prius pack is about 20 kW at 50% state of charge (SoC). The power capability increases with higher temperatures and decreases at lower temperatures. The Prius has a computer that’s solely dedicated to keeping the battery at the optimum temperature and optimum charge level.
+Like the second generation Prius, the third generation Prius battery pack is made up of the same type of 1.2 volt cells. It has 28 modules of 6 cells for a total nominal voltage of only 201.6 volts. A boost converter is used to produce 500 Volt DC supply voltage for the inverters for MG1 and MG2. The car's electronics only allow 40% of total rated capacity of the battery pack (6,5 A per hour) to be used in order to prolong the battery life. As a result, the SoC is allowed to vary only between 40% and 80% of the rated full charge. The battery used in the Highlander Hybrid and the Lexus RX 400h was packaged in a different metal battery casing with 240 cells that deliver high voltage of 288 volts.
+
+A button labelled "EV" maintains electric vehicle mode after being powered on and under most low-load conditions at less than 25 mph (40 km/h) if the traction battery has enough charge. This permits all-electric driving with no fuel consumption for up to 1 mi (1.6 km). However, the HSD software switches to EV mode automatically whenever it can. Only the Toyota Prius Plug-in Hybrid has a longer driving all-electric range in blended operation electric-gasoline of 11 mi (18 km) (EPA rating) until the battery is depleted. The Prius PHEV is outfitted with 4.4 kWh lithium-ion batteries co-developed with Panasonic that weighs 80 kg (180 lb) compared with the nickel-metal hydride battery of the third generation Prius, which has a capacity of only 1.3kWh, and weighs 42 kg (93 lb). The larger battery pack enables all-electric operation at higher speeds and longer distances than the conventional Prius hybrid.
+The following table details the HV battery capacity for several 2013-2014 model year Lexus and Toyota vehicles.
+
+
+== Operation ==
+The HSD drive works by shunting electrical power between the two motor generators, running off the battery pack, to even out the load on the internal combustion engine. Since a power boost from the electrical motors is available for periods of rapid acceleration, the ICE can be downsized to match only the average load on the car, rather than sized by peak power demands for rapid acceleration. The smaller internal combustion engine can be designed to run more efficiently. Furthermore, during normal operation the engine can be operated at or near its ideal speed and torque level for power, economy, or emissions, with the battery pack absorbing or supplying power as appropriate to balance the demand placed by the driver. During traffic stops the internal combustion engine can even be turned off for even more economy.
+The combination of efficient car design, regenerative braking, turning the engine off for traffic stops, significant electrical energy storage and efficient internal combustion engine design give the HSD powered car significant efficiency advantages—particularly in city driving.
+
+
+=== Phases of operation ===
+
+The HSD operates in distinct phases depending on speed and demanded torque. Here are a few of them:
+Battery charging: The HSD can charge its battery without moving the car, by running the engine and extracting electrical power from MG1. The power gets shunted into the battery, and no torque is supplied to the wheels. The shifter must be in the "Park" position.
+Engine start: To start the engine, power is applied to MG1 to act as a starter. Because of the size of the motor generators, starting the engine requires relatively little power from MG1 and the conventional starter motor sound is not heard. Engine start can occur while stopped or moving.
+Reverse gear (equivalent): There is no reverse gear as in a conventional gearbox: the computer reverses the phase sequence to AC motor-generator MG2, applying negative torque to the wheels. Early models did not supply enough torque for some situations: there have been reports of early Prius owners not being able to back the car up steep hills in San Francisco. The problem has been fixed in recent models. If the battery is low, the system can simultaneously run the engine and draw power from MG1, although this will reduce available reverse torque at the wheels.
+Neutral gear (equivalent): Most jurisdictions require automotive transmissions to have a neutral gear that decouples the engine and transmission. The HSD "neutral gear" is achieved by turning the electric motors off. Under this condition, the planetary gear is stationary (if the vehicle wheels are not turning); if the vehicle wheels are turning, the ring gear will rotate, causing the sun gear to rotate as well (the engine inertia will keep the carrier gear stationary unless the speed is high), while MG1 is free to rotate while the batteries do not charge. The owners manual warns that Neutral gear will eventually drain the battery, resulting in "unnecessary" engine power to recharge batteries; a discharged battery will render the vehicle inoperable.
+
+EV operation: At slow speeds and moderate torques the HSD can operate without running the internal combustion engine at all: electricity is supplied only to MG2, allowing MG1 to rotate freely (and thus decoupling the engine from the wheels). This is popularly known as "Stealth Mode". Provided that there is enough battery power, the car can be driven in this silent mode for some miles even without gasoline.
+Low gear (equivalent): When accelerating at low speeds in normal operation, the engine turns more rapidly than the wheels but does not develop sufficient torque. The extra engine speed is fed to MG1 acting as a generator. The output of MG1 is fed to MG2, acting as a motor and adding torque at the driveshaft.
+High gear (equivalent): When cruising at high speed, the engine turns more slowly than the wheels but develops more torque than needed. MG2 then runs as a generator to remove the excess engine torque, producing power that is fed to MG1 acting as a motor to increase the wheel speed. In steady state, the engine provides all of the power to propel the car unless the engine is unable to supply it (as during heavy acceleration, or driving up a steep incline at high speed). In this case, the battery supplies the difference. Whenever the required propulsion power changes, the battery quickly balances the power budget, allowing the engine to change power relatively slowly.
+Regenerative braking: By drawing power from MG2 and depositing it into the battery pack, the HSD can simulate the deceleration of normal engine braking while saving the power for future boost. The regenerative brakes in an HSD system absorb a significant amount of the normal braking load, so the conventional brakes on HSD vehicles are undersized compared to brakes on a conventional car of similar mass.
+Engine braking: The HSD system has a special transmission setting labelled 'B' (for Brake), that takes the place of a conventional automatic transmission's 'L' setting, providing engine braking on hills. This can be manually selected in place of regenerative braking. During braking when the battery is approaching potentially damaging high charge levels, the electronic control system automatically switches to conventional engine braking, drawing power from MG2 and shunting it to MG1, speeding the engine with throttle closed to absorb energy and decelerate the vehicle.
+Electric boost: The battery pack provides a reservoir of energy that allows the computer to match the demand on the engine to a predetermined optimal load curve, rather than operating at the torque and speed demanded by the driver and road. The computer manages the energy level stored in the battery, so as to have capacity to absorb extra energy where needed or supply extra energy to boost engine power.
+
+
+=== Performance ===
+The Toyota Prius has modest acceleration but has extremely high efficiency for a midsized four-door sedan: usually significantly better than 40 mpg (US) (5.9 l/100 km) is typical of brief city jaunts; 55 mpg (4.3 l/100 km) is not uncommon, especially for extended drives at modest speeds (a longer drive allows the engine to warm up fully). This is approximately twice the fuel efficiency of a similarly equipped four-door sedan with a conventional power train. Not all of the extra efficiency of the Prius is due to the HSD system: the Atkinson cycle engine itself was also designed specifically to minimize engine drag via an offset crankshaft to minimize piston drag during the power stroke, and a unique intake system to prevent drag caused by manifold vacuum versus the normal Otto cycle in most engines. Furthermore, the Atkinson cycle recovers more energy per cycle than the Otto because of its longer power stroke. The downside of the Atkinson cycle is much reduced torque, particularly at low speed; but the HSD has enormous low-speed torque available from MG2.
+The Highlander Hybrid (also sold as the Kluger in some countries) offers better acceleration performance compared to its non-hybrid version. The hybrid version goes from 0–60 mph in 7.2 seconds, trimming almost a second off the conventional version's time. Net hp is 268 hp (200 kW) compared to the conventional 215 hp (160 kW). Top speed for all Highlanders is limited to 112 mph (180 km/h). Typical fuel economy for the Highlander Hybrid rates between 27 and 31 mpg (8.7–7.6 l/100 km). A conventional Highlander is rated by the EPA with 19 city, 25 highway mpg (12.4 and 9.4 l/100 km respectively).
+
+The HSD mileage boost depends on using the gasoline engine as efficiently as possible, which requires:
+extended drives, especially in winter: Heating the internal cabin for the passengers runs counter to the design of the HSD. The HSD is designed to generate as little waste heat as possible. In a conventional car, this waste heat in winter is usually used to heat the internal cabin. In the Prius, running the heater requires the engine to continue running to generate cabin-usable heat. This effect is most noticeable when turning the climate control (heater) off when the car is stopped with the engine running. Normally the HSD control system will shut the engine off as it is not needed, and will not start it again until the generator reaches a maximum speed.
+moderate acceleration: Because hybrid cars can throttle back or completely shut off the engine during moderate, but not rapid, acceleration, they are more sensitive than conventional cars to driving style. Hard acceleration forces the engine into a high-power state while moderate acceleration keeps the engine in a lower power, high efficiency state (augmented by battery boost).
+gradual braking: Regenerative brakes re-use the energy of braking, but cannot absorb energy as fast as conventional brakes. Gradual braking recovers energy for re-use, boosting mileage; hard braking wastes the energy as heat, just as for a conventional car. Use of the "B" (braking) selector on the transmission control is useful on long downhill runs to reduce heat and wear on the conventional brakes, but it does not recover additional energy. Use of "B" constantly is discouraged by Toyota as it may promote excessive wear on certain gears.
+Most HSD systems have batteries that are sized for maximal boost during a single acceleration from zero to the top speed of the vehicle; if there is more demand, the battery can be completely exhausted, so that this extra torque boost is not available. Then the system reverts to just the power available from the engine. This results in a large decline in performance under certain conditions: an early-model Prius can achieve over 90 mph (140 km/h) on a 6 degree upward slope, but after about 2,000 feet (610 m) of altitude climb the battery is exhausted and the car can only achieve 55–60 mph on the same slope (until the battery is recharged by driving under less demanding circumstances).
+
+
+== Subsequent developments ==
+
+The basic design of the Toyota Hybrid System / Hybrid Synergy Drive has not changed since its introduction in the 1997 Japanese-market Toyota Prius, but there have been a number of significant refinements.
+The schematic diagrams illustrate the paths of power flow between electric motor-generator 1 (MG1), gasoline internal combustion engine (ICE), planetary gearset "power split device" elements (S:central "sun", C:planetary carrier, R:outer ring) and motor-generator 2 (MG2).
+There has been a continuous, gradual improvement in the specific capacity of the traction battery. The original Prius used shrink-wrapped 1.2 volt D cells, and all subsequent THS/HSD vehicles have used custom 7.2 V battery modules mounted in a carrier.
+Called Toyota Hybrid System for initial Prius generations, THS was followed by THS II in the 2004 Prius, with subsequent versions termed Hybrid Synergy Drive. The THS relied on the voltage of the battery pack: between 276 and 288 V. The Hybrid Synergy Drive adds a DC to DC converter boosting the potential of the battery to 500 V or more. This allows smaller battery packs to be used, and more powerful motors.
+
+
+=== Hybrid Synergy Drive (HSD) ===
+Although not part of the HSD as such, all HSD vehicles from the 2004 Prius onwards have been fitted with an electric air-conditioning compressor, instead of the conventional engine-driven type. This removes the need to continuously run the engine when cabin cooling is required. Two positive temperature coefficient heaters are fitted in the heater core to supplement the heat provided by the engine.
+
+In 2005, vehicles such as the Lexus RX 400h and Toyota Highlander Hybrid added four-wheel drive operation by the addition of a third electric motor ("MGR") on the rear axle. In this system, the rear axle is purely electrically powered, and there is no mechanical link between the engine and the rear wheels. This also permits regenerative braking on the rear wheels. In addition, the motor (MG2) is linked to the front wheel transaxle by means of a second planetary gearset, thereby making it possible to increase the power density of the motor. Ford has also developed a similar hybrid system, introduced in the Ford Escape Hybrid.
+In 2006 and 2007, a further development of the HSD drivetrain, under the Lexus Hybrid Drive name, was applied on the Lexus GS 450h / LS 600h sedans. This system uses two clutches (or brakes) to switch the second motor's gear ratio to the wheels between a ratio of 3.9 and 1.9, for low and high speed driving regimes respectively. This decreases the power flowing from MG1 to MG2 (or vice versa) during higher speeds. The electrical path is only about 70% efficient, thus decreasing its power flow while increasing the overall performance of the transmission. The second planetary gearset is extended with a second carrier and sun gear to a ravigneaux-type gear with four shafts, two of which can be held still alternatively by a brake/clutch. The GS 450h and LS 600h systems utilized rear-wheel drive and all-wheel drive drivetrains, respectively, and were designed to be more powerful than non-hybrid versions of the same model lines, while providing comparable engine class efficiency.
+
+
+=== Next generation ===
+
+Toyota CEO Katsuaki Watanabe said in a February 16, 2007 interview that Toyota was "aiming at reducing, by half, both the size and cost of the third-generation HSD system". The new system will feature lithium-ion batteries in later years. Lithium-ion batteries have a higher energy capacity-to-weight ratio compared to NiMH, but operate at higher temperatures, and are subject to thermal instability if not properly manufactured and controlled, raising safety concerns.
+
+
+== List of vehicles with HSD technology ==
+The following is a list of vehicles with Hybrid Synergy Drive and related technologies (Toyota Hybrid System I/II/III; Lexus Hybrid Drive)
+Toyota Prius
+with THS: December 1997–October 2003
+with THSII: October 2003–late 2010
+with THSIII: late 2010–present
+
+Toyota Estima Hybrid
+with THSI: June 2001-December 2005
+with THSII: June 2006–present
+
+Toyota Alphard Hybrid
+with THSI: July 2003 – March 2008
+with THSII: September 2011–present
+
+Lexus RX 400h / Toyota Harrier Hybrid (March 2005–present)
+Toyota Highlander/Kluger Hybrid
+with THSI: July 2005–September 2008
+with THSII: October 2008–present
+
+Lexus GS 450h (March 2006–present)
+Toyota Camry Hybrid (May 2006–present)
+Lexus LS 600h/LS 600hL (April 2007–present)
+Toyota Crown Majesta (April 2012–present)
+Toyota Crown (April 2008–present)
+Toyota A-BAT (concept truck)
+Nissan Altima Hybrid (2007–present)
+Lexus RX 450h (2009–present)
+Toyota Sai (2009–present)
+Lexus HS 250h (2009–present)
+Lexus CT 200h (late 2010–present)
+Toyota Auris (July 2010–present)
+Toyota Prius c (March 2012–present) THSIII
+Toyota Yaris (March 2012–present) THSIII
+Lexus ES 300h (2012–present)
+Toyota Avalon Hybrid (late 2012–present)
+Lexus IS 300h (2013–present)
+Lexus GS 300h (2013–present)
+
+
+== Patent issues ==
+
+
+=== Antonov ===
+As of autumn 2005, the Antonov Automotive Technology BV Plc company has sued Toyota, the Lexus brand mother company, over alleged patent infringement relating to key components in the RX 400h's drivetrain and the Toyota Prius hybrid compact car. The case has been pending in secret since April 2005, but settlement negotiations did not bring a mutually acceptable result. Antonov eventually took legal recourse in the German court system, where decisions are usually made relatively swiftly. The patent holder seeks to impose a levy on each vehicle sold, which could make the hybrid SUV less competitive. Toyota fought back by seeking to officially invalidate Antonov's relevant patents. The court motion in Microsoft Word document format can be read here.
+On 1 September 2006 Antonov announced: The Board of Antonov plc announces that the Federal Patent Court in Munich has not upheld the validity of the German part of Antonov's patent (EP0414782) against Toyota. A few days later, a court in Düsseldorf had ruled that the Toyota Prius driveline and the Lexus RX 400h driveline do not breach the Antonov hybrid CVT patent. Equivalent patents are still in force in various countries worldwide. The position is therefore at an impasse, with the Toyota Prius probably breaching the Antonov hybrid CVT patents outside Europe, Antonov PLC lacking the financial muscle to enforce their patents, and Toyota prepared to try to get the Antonov patents cancelled elsewhere if Antonov tries to enforce them.
+
+
+=== Ford ===
+Ford Motor Company independently developed a system with key technologies similar to Toyota's HSD technology in 2004. As a result, Ford licensed 21 patents from Toyota in exchange for patents relating to emissions technology.
+
+
+=== Paice ===
+Paice LLC received a patent for an improved hybrid vehicle with a controllable torque transfer unit (US patent 5343970, Severinsky; Alex J., "Hybrid electric vehicle", issued 1994-09-06 ) and has additional patents related to hybrid vehicles. In 2010 Toyota agreed to license Paice's patents; terms of the settlement were not disclosed. In the settlement "The parties agree that, although certain Toyota vehicles have been found to be equivalent to a Paice patent, Toyota invented, designed and developed the Prius and Toyota’s hybrid technology independent of any inventions of Dr. Severinsky and Paice as part of Toyota’s long history of innovation". Paice earlier entered into an agreement with Ford for the license of Paice's patent.
+
+
+== Comparison with other hybrids ==
+Aisin Seiki Co., minority-owned by Toyota, supplies its versions of the HSD transmission system to Ford for use as the "Powersplit" e-CVT in the Ford Escape hybrid and Ford Fusion Hybrid.
+Nissan licensed Toyota's HSD for use in the Nissan Altima hybrid, using the same Aisin Seiki T110 transaxle as in the Toyota Camry Hybrid. The 2011 Infiniti M35h uses a different system of one electric motor and two clutches.
+In 2010 Toyota and Mazda announced a supply agreement for the hybrid technology used in Toyota's Prius model.
+General Motors, DaimlerChrysler's and BMW's Global Hybrid Cooperation is similar in that it combines the power from a single engine and two motors. In 2009, the Presidential Task Force on the Auto Industry said that "GM is at least one generation behind Toyota on advanced, 'green' powertrain development".
+In contrast, Honda's Integrated Motor Assist uses a more traditional ICE and transmission where the flywheel is replaced with an electric motor, thereby reducing complexity and increasing serviceability due to the familiar layout.
+
+
+== Aftermarket ==
+Some early non-production plug-in hybrid electric vehicle conversions have been based on the version of HSD found in the 2004 and 2005 model year Prius. Early lead-acid battery conversions by CalCars have demonstrated 10 miles (16 km) of ev-only and 20 miles (32 km) of double mileage mixed-mode range. A company planning to offer conversions to consumers named EDrive systems will be using Valence Li-ion batteries and have 35 miles (56 km) of electric range. Both of these systems leave the existing HSD system mostly unchanged and could be similarly applied to other hybrid powertrain flavors by simply replacing the stock NiMH batteries with a higher capacity battery pack and a charger to refill them for about $0.03 per mile from standard household outlets.
+
+
+== See also ==
+Comparison of Toyota hybrids
+Mild hybrid
+Hybrid car
+Inverter (electrical)
+Insulated Gate Bipolar Transistor
+Variable-frequency drive
+Global Hybrid Cooperation
+Integrated Motor Assist
+List of hybrid vehicles
+
+
+== References ==
+
+
+== External links ==
+HSD explanation at HowStuffWorks
+Planetary Gear explanation at HowStuffWorks
+Hybrid Synergy Drive movie from Toyota
+Animation showing how HSD works
+Power Split Device Animation showing
+MG1 and the MG2

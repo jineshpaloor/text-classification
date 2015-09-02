@@ -1,0 +1,32 @@
+Cycloconverter
+For the rotating electrical machine, see Rotary converter
+
+A cycloconverter (CCV) or a cycloinverter converts a constant voltage, constant frequency AC waveform to another AC waveform of a lower frequency by synthesizing the output waveform from segments of the AC supply without an intermediate DC link (Dorf 1993, pp. 2241–2243 and Lander 1993, p. 181). There are two main types of CCVs, circulating current type or blocking mode type, most commercial high power products being of the blocking mode type.
+
+
+== Characteristics ==
+Whereas phase-controlled SCR switching devices can be used throughout the range of CCVs, low cost, low-power TRIAC-based CCVs are inherently reserved for resistive load applications. The amplitude and frequency of converters' output voltage are both variable. The output to input frequency ratio of a three-phase CCV must be less than about one-third for circulating current mode CCVs or one-half for blocking mode CCVs.(Lander 1993, p. 188) Output waveform quality improves as the pulse number of switching-device bridges in phase-shifted configuration increases in CCV's input. In general, CCVs can be with 1-phase/1-phase, 3-phase/1-phase and 3-phase/3-phase input/output configurations, most applications however being 3-phase/3-phase.
+
+
+== Applications ==
+The competitive power rating span of standarized CCVs ranges from few megawatts up to many tens of megawatts. CCVs are used for driving mine hoists, rolling mill main motors, ball mills for ore processing, cement kilns, ship propulsion systems, slip power recovery wound-rotor induction motors (i.e., Scherbius drives) and aircraft 400 Hz power generation. The variable-frequency output of a cycloconverter can be reduced essentially to zero. This means that very large motors can be started on full load at very slow revolutions, and brought gradually up to full speed. This is invaluable with, for example, ball mills, allowing starting with a full load rather than the alternative of having to start the mill with an empty barrel then progressively load it to full capacity. A fully loaded "hard start" for such equipment would essentially be applying full power to a stalled motor. Variable speed and reversing are essential to processes such as hot-rolling steel mills. Previously, SCR-controlled DC motors were used, needing regular brush/commutator servicing and delivering lower efficiency. Cycloconverter-driven synchronous motors need less maintenance and give greater reliability and efficiency. Single-phase bridge CCVs have also been used extensively in electric traction applications to for example produce 25 Hz power in the U.S. and 16 2/3 Hz power in Europe.
+Whereas phase-controlled converters including CCVs are gradually being replaced by faster PWM self-controlled converters based on IGBT, GTO, IGCT and other switching devices, these older classical converters are still used at the higher end of the power rating range of these applications.
+
+
+== Harmonics ==
+CCV operation creates current and voltage harmonics on the CCV's input and output. AC line harmonics are created on CCV's input accordance to the equation,
+fh = f1 (kq±1) ± 6nfo,
+where
+
+fh = harmonic frequency imposed on the AC line
+k and n = integers
+q = pulse number (6, 12 . . .)
+fo = output frequency of the CCV
+Equation's 1st term represents the pulse number converter harmonic components starting with six-pulse configuration
+Equation's 2nd term denotes the converter's sideband characteristic frequencies including associated interharmonics and subharmonics.
+
+
+== References ==
+In-line references
+
+General references

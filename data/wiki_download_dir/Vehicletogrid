@@ -1,0 +1,166 @@
+Vehicle-to-grid
+Vehicle-to-grid (V2G) describes a system in which plug-in electric vehicles, such as electric cars (BEVs) and plug-in hybrids (PHEVs), communicate with the power grid to sell demand response services by either delivering electricity into the grid or by throttling their charging rate. 
+Vehicle-to-grid can be used with such gridable vehicles, that is, plug-in electric vehicles (BEVs and PHEVs), with grid capacity. Since most vehicles are parked an average of 95 percent of the time, their batteries could be used to let electricity flow from the car to the power lines and back, with a value to the utilities of up to $4,000 per year per car.
+One notable V2G project in the United States is at the University of Delaware, where a V2G team headed by Dr. Willett Kempton has been conducting on-going research. An early operational implementation in Europe was conducted via the German government-funded MeRegioMobil project at the "KIT Smart Energy Home" of Karlsruhe Institute of Technology in cooperation with Opel as vehicle partner and utility EnBW providing grid expertise. Their goals are to educate about the environmental and economic benefits of V2G and enhance the product market. Other investigators are the Pacific Gas and Electric Company, Xcel Energy, the National Renewable Energy Laboratory, and, in the United Kingdom, the University of Warwick.
+
+
+== History ==
+The company AC Propulsion Inc. coined the term V2G for vehicle-to-grid.
+
+
+== Three versions ==
+V2G is a version of battery-to-grid power applied to vehicles. There are three main different versions of the vehicle-to-grid concept, all of which have an onboard battery:
+A hybrid or Fuel cell vehicle, which generates power from storable fuel, uses its generator to produce power for a utility at peak electricity usage times. Here the vehicles serve as a distributed generation system, producing power from conventional fossil fuels, biofuels or hydrogen.
+A battery-powered or plug-in hybrid vehicle which uses its excess rechargeable battery capacity to provide power to the electric grid in response to peak load demands. These vehicles can then be recharged during off-peak hours at cheaper rates while helping to absorb excess night time generation. Here the vehicles serve as a distributed battery storage system to buffer power.
+A solar vehicle which uses its excess charging capacity to provide power to the electric grid when the battery is fully charged. Here the vehicle effectively becomes a small renewable energy power station. Such systems have been in use since the 1990s and are routinely used in the case of large vehicles, especially solar-powered boats.
+
+It should also be noted that besides vehicles which have an onboard battery, vehicles without a large battery, but which connect to/recharge a battery placed at the house (for example being part of an off-the-grid electrical system or net metering system) could in effect form a vehicle-to-grid system. Even a renewable energy source (like wood gas) could be used.
+
+
+== Types ==
+V2G is classified based on the power flow direction: Unidirectional V2G and Bidirectional V2G. 
+
+
+== Peak load leveling ==
+The concept allows V2G vehicles to provide power to help balance loads by "valley filling" (charging at night when demand is low) and "peak shaving" (sending power back to the grid when demand is high). It can enable utilities new ways to provide regulation services (keeping voltage and frequency stable) and provide spinning reserves (meet sudden demands for power). In future development, it has been proposed that such use of electric vehicles could buffer renewable power sources such as wind power, for example, by storing excess energy produced during windy periods and providing it back to the grid during high load periods, thus effectively stabilizing the intermittency of wind power. Some see this application of vehicle-to-grid technology as a renewable energy approach that can penetrate the baseline electric market.
+It has been proposed that public utilities would not have to build as many natural gas or coal-fired power plants to meet peak demand or as an insurance policy against blackouts Since demand can be measured locally by a simple frequency measurement, dynamic load leveling can be provided as needed.
+
+
+== Related Terms ==
+carbitrage: This is a portmanteau of 'car' and 'arbitrage'. When the electric utility would like to buy power from the V2G network, it holds an auction. The car owners are able to define the parameters under which they will sell energy from their battery pack. Many factors would be considered when setting minimum sale price including the cost of the secondary fuel in a PHEV and battery cycle wear. When this minimum price is satisfied, it is deemed as meeting carbitrage.
+
+
+== Backup power solutions ==
+Future battery developments may change the economic equation, making it advantageous to use newer high capacity and longer-lived batteries in BEV/PHEVs and in grid load balancing and as a large energy cache for renewable grid resources. Even if cycled daily, such batteries would only require replacement/recycling every 55 years or so. Since BEVs can have up to 50 kWh worth of battery storage they represent somewhat more than the average home's daily energy demand. Even without a PHEV's gas generation capabilities such a vehicle could be used for emergency power for several days (for example, lighting, refrigerators etc. with combined load of 1 kW could be powered for 50 hours). This would be an example of V2H or Vehicle-to-home transmission. As such they may be seen as a complementary technology for intermittent renewable power resources such as wind or solar electric.
+
+
+== Utilities ==
+These utilities currently have V2G technology trials:
+PG&E, USA, converting a number of company-owned Toyota Prius to be V2G PHEVs at Google's campus
+Xcel Energy, USA, converting six Ford Escape Hybrids to PHEVs with V2G 
+
+
+== Future Plans for Vehicle-to-Grid (V2G) in various Countries ==
+A study conducted in 2012 by the Idaho National Laboratory  revealed the following estimations and future plans for V2G in various countries. It is important to note that this is difficult to quantify because the technology is still in its nascent stage, and is therefore difficult to reliably predict adoption of the technology around the world. The following list is not intended to be exhaustive, but rather to give an idea of the scope of development and progress in this area around the world.
+
+
+=== United States ===
+Current environmental issues in the US are playing a vital role in the demand for V2G technology. The decrease in costs for implementation of V2G will be directly related to the speed of adoption by consumers. As smart grid rollout continues and the population realizes the lower cost of electric vehicle ownership, demand will increase. Continued V2G testing and the further development of two-way communications standards will offer interoperability across systems. Fleets such as the US Postal Service will be crucial to V2G development. Private grid testing will continue as utilities, automakers, and colleges form partnerships. The University of Delaware has recently signed its first license for V2G testing with Autoport, Inc. They expect that by the second or third quarter of 2011, 100 electric vehicles on the road will be capable of V2G testing (Bryant 2010).
+PJM interconnection has envisioned using US Postal Service trucks, school buses and garbage trucks that remain unused overnight for grid connection. This could generate millions of dollars because these companies aid in storing and stabilizing some of the national grid's energy. The US is projected to have one million electric vehicles on the road between 2015 and 2019. Studies indicate that 160 new power plants will need to be built by 2020 to compensate for electric vehicles if integration with the grid does not move forward (ZigBee 2010).
+
+
+=== Japan ===
+Japan currently is a leader in the electric vehicle industry. This may allow the country to pioneer new V2G technology for the mainstream. In order to meet the 2030 target of 10% of Japan's energy being generated by renewable resources, a cost of $71.1 billion will be required for the upgrades of existing grid infrastructure. The Japanese charging infrastructure market is projected to grow from $118.6 million to $1.2 billion between 2015 and 2020 (ZigBee 2010). Starting in 2012, Nissan plans to bring to market a kit compatible with the LEAF EV that will be able to provide power back into a Japanese home. Currently, there is a prototype being tested in Japan. Average Japanese homes draw 10 to 12 KWh, and with the LEAF's 24 KWh battery capacity, this kit could potentially provide 2 days of power (Howard 2011). Production in additional markets will follow upon Nissan's ability to properly complete adaptations.
+
+
+=== Denmark ===
+Denmark currently is a world leader in wind power generation, with 20% of the country's energy coming from wind (there are enough installed turbines to meet up to 40% of the country's energy needs). Initially, Denmark's goal is to replace 10% of all vehicles with PEVs, with an ultimate goal of a complete replacement to follow. The EDISON Project implements a new set of goals that will allow enough turbines to be built to accommodate 50% of total power while using V2G to prevent negative impacts to the grid. Because of the unpredictability of wind, the EDISON Project plans to use PEVs while they are plugged into the grid to store additional wind energy that the grid cannot handle. Then, during peak energy use hours, or when the wind is calm, the power stored in these PEVs will be fed back into the grid. To aid in the acceptance of EVs, policies have been enforced that create a tax differential between zero emission cars and traditional automobiles. The Danish PEV market value is expected to grow from $50 to $380 million between 2015 and 2020. PEV developmental progress and advancements pertaining to the use of renewable energy resources will make Denmark a market leader with respect to V2G innovation (ZigBee 2010).
+
+
+=== United Kingdom ===
+The V2G market in the UK will be stimulated by aggressive smart grid and PEV rollouts. Starting in January 2011, programs and strategies to assist in PEV have been implemented. The UK has begun devising strategies to increase the speed of adoption of EVs. This includes providing universal high-speed internet for use with smart grid meters, because most V2G-capable PEVs will not coordinate with the larger grid without it. The "Electric Delivery Plan for London" states that by 2015, there will be 500 on-road charging stations; 2,000 stations off-road in car parks; and 22,000 privately owned stations installed. Local grid substations will need to be upgraded for drivers who cannot park on their own property. By 2020 in the UK, there will be a smart meter in every residential home, and about 1.7 million PEVs on the road. The UK's electric vehicle market value is projected to grow from $0.1 to $1.3 billion between 2015 and 2020 (ZigBee 2010).
+
+
+=== South Korea ===
+South Korea has set a goal that by 2030, 100% of electric customers will be using smart grid technology. Beginning in March 2010, the government will invest $23.3 billion in development and rollout of smart grid technology. Grid revenues are projected to increase from $4.8 to $53.2 million between 2015 and 2020 (ZigBee 2010).
+
+
+== Current projects ==
+
+
+=== University of Delaware ===
+Dr. Willett Kempton, Dr. Suresh Advani, and Dr. Ajay Prasad are the researchers at the US University of Delaware who are currently conducting research on the V2G technology, with Dr. Kempton being the lead on the project. Dr. Kempton has published a number of articles on the technology and the concept, many of which can be found on the V2G project page. The group is involved in researching the technology itself as well as its performance when used on the grid. In addition to the technical research, the team has worked with Dr. Meryl Gardner, a Marketing professor in the Alfred Lerner College of Business and Economic at the University of Delaware, to develop marketing strategies for both consumer and corporate fleet adoption 
+
+
+=== Edison ===
+Denmark's Edison project, an abbreviation for 'Electric vehicles in a Distributed and Integrated market using Sustainable energy and Open Networks' is an ongoing partially state funded research project on the island of Bornholm in Eastern Denmark. The consortium of IBM, Siemens the hardware and software developer EURISCO, Denmark's largest energy company DONG Energy, the regional energy company Østkraft, the Technical University of Denmark and the Danish Energy Association, is currently exploring how to balance the unpredictable electricity loads generated by Denmark's many wind farms, currently generating ~20% of the country's total electricity production, by using electric vehicles (EV) and their accumulators. The aim of the project is to develop infrastructure that enables EVs to intelligently communicate with the grid to determine when charging, and ultimately discharging, can take place. At least one rebuild V2G capable Toyota Scion will be used in the project. The project is key in Denmark's ambitions to expand its wind-power generation to 50% by 2020. According to a source of British newspaper The Guardian 'It's never been tried at this scale' previously.
+
+
+== Completed projects ==
+
+
+=== Southwest Research Institute ===
+In 2014, Southwest Research Institute (SwRI) developed the first vehicle-to-grid aggregation system qualified by the Electric Reliability Council of Texas (ERCOT). The system allows for owners of electric delivery truck fleets to make money by assisting in managing the grid frequency. When the electric grid frequency drops below 60 Hertz, the system suspends vehicle charging which removes the load on the grid thus allowing the frequency to rise to a normal level. The system is the first of its kind because it operates autonomously.
+The system was originally developed as part of the Smart Power Infrastructure Demonstration for Energy Reliability and Security (SPIDERS) Phase II program, led by Burns and McDonnell Engineering Company, Inc. The goals of the SPIDERS program are to increase energy security in the event of power loss from a physical or cyber disruption, provide emergency power, and manage the grid more efficiently. In November 2012, SwRI was awarded a $7 million contract from the U.S. Army Corps of Engineers to demonstrate the integration of vehicle-to-grid technologies as a source for emergency power at Fort Carson, Colorado. In 2013, SwRI researchers tested five DC fast-charge stations at the army post. The system passed integration and acceptance testing in August 2013.
+
+
+== Skepticism ==
+There is some skepticism among experts about the feasibility of V2G. As the New York Times states:
+An Environmental Defense representative stated: "It’s hard to take seriously the promises made for plug-in hybrids with 30 miles (48 km) all-electric range or any serious V2G application any time soon. It’s still in the science project stage (in 2007)."
+The Vehicle-to-grid potential of Honda’s full hybrid vehicles is unexplored, but Honda is doubtful of using them to power homes. "We would not like to see stresses on the battery pack caused by putting it through cycles it wasn’t designed for," said a Honda spokesman. "Instead, they should buy a Honda generator that was made for that purpose." However, in December 2013, Honda announced a partnership with the University of Delaware where they delivered an Accord Hybrid with on-board bidirectional charger to enter into the PJM Interconnection's frequency regulation market.
+
+
+=== Poor net efficiency ===
+Charging a fairly efficient battery system from the grid is at best 70 to 80% efficient. Returning that energy from the battery to the grid, which includes "inverting" the DC power back to AC with efficiencies of about 90% yields 63–72% energy return to the system. This needs to be factored against potential cost savings as well as the additional wear and tear on the batteries (current batteries last a few thousand cycles at maximum) and especially increased emissions if the original source of power is fossil based. This cycle of energy efficiency needs to compared with pumped-storage hydroelectricity which is more efficient (around 70-80%). However, pumped storage is limited by geography so it could be practical to take a small amount of energy from a large number of batteries if there are enough PHEV/BEV vehicles on the grid. 1 kW from 1000 vehicles is 1 megawatt of power and the energy is already distributed so it will not tax the existing powerlines if properly managed.
+Not all skepticism is warranted. Jon Wellinghoff, from the US Federal Energy Regulatory Commission, points out that partial grid regulation (absorbing excess surges, but not supplying peak power) can be done without decreasing the life of the battery. This can be done "without affecting the charge whatsoever." 
+
+
+== Vehicles ==
+
+The REV 300 ACX vehicle includes a V2G system.
+Boulder Electric Vehicle 500 series and 1000 series trucks (in production: 2012-2014).
+The ACPropulsion T-Zero, E-box and MINI-E all have V2G).
+The NISSAN LEAF has V2H Vehicle To Home in Japan with an external inverter.
+Also read www.V2G-101.webs.com
+
+
+== See also ==
+
+
+== References ==
+^ Cleveland, Cutler J.; Morris, Christopher (2006). Dictionary of Energy. Amsterdam: Elsevier. p. 473. ISBN 0-08-044578-0. 
+^ "Pacific Gas and Electric Company Energizes Silicon Valley With Vehicle-to-Grid Technology". Pacific Gas & Electric. 2007-04-07. Retrieved 2009-10-02. 
+^ "Car Prototype Generates Electricity, And Cash". Science Daily. 2007-12-09. Retrieved 2007-12-05. 
+^ a b c "V2G : Vehicle to Grid Power". June 2001. Retrieved 2008-02-05. 
+^ a b Brinkman, Norm; Eberle, Ulrich; Formanski, Volker; Grebe, Uwe-Dieter; Matthe, Roland (2012). "Vehicle Electrification - Quo Vadis?". Research Gate. Retrieved 2014-12-20. 
+^ a b c d Motavalli, Jim (2007-09-02). "Power to the People: Run Your House on a Prius". New York Times. Retrieved 2014-12-20. 
+^ Emadi, Ali (2005). Handbook of Automotive Power Electronics and Motor Drives. p. 34. 
+^ Dave Nichols using a wood gas generator to power his car and produce electricity when he parks it at his house
+^ Yong, Jia Ying, et al. "A review on the state-of-the-art technologies of electric vehicle, its impacts and prospects." Renewable and Sustainable Energy Reviews 49 (2015): 365-385.
+^ Sortomme, Eric, and Mohamed El-Sharkawi. "Optimal charging strategies for unidirectional vehicle-to-grid." Smart Grid, IEEE Transactions on 2.1 (2011): 131-138.
+^ Woody, Todd (2007-06-12). "PG&E's Battery Power Plans Could Jump Start Electric Car Market". Green Wombat. Retrieved 2007-08-19. 
+^ US 4317049, SCHWEPPE, FRED C., "Frequency adaptive, power-energy re-scheduler", published 1982-02-23 
+^ "RMI Smart Garage Charrette Report" (PDF). Rocky Mountain Institute. 
+^ "Toshiba's New Rechargeable Lithium-Ion Battery Recharges in Only One Minute" (Press release). Japan: Toshiba Corporation. 2005-03-29. Retrieved 2007-12-05. 
+^ Fang, X.; Misra, S.; Xue, G.; Yang, D. (2011). "Smart Grid - The New and Improved Power Grid: A Survey". IEEE Communications Surveys and Tutorials. doi:10.1109/SURV.2011.101911.00087. 
+^ Briones, Adrene; Francfort, James; Heitmann, Paul; Schey, Michael; Schey, Steven; Smart, John (2012-09-01). "Vehicle-to-Grid (V2G) Power Flow" (PDF). Idaho National Laboratory. Retrieved 2015-04-29. 
+^ Boyle, Elizabeth (2007-11-28). "V2G Generates Electricity--And Cash". UDaily. 
+^ "Intelligent power grid". Zurich: IBM Research. 
+^ "WP3 - DISTRIBUTED INTEGRATION TECHNOLOGY DEVELOPMENT". Edison. Retrieved 2011-08-30. 
+^ "Danish Climate and Energy Policy". Danish Energy Agency. 
+^ Graham-Rowe, Duncan (2009-06-19). "Denmark to power electric cars by wind in vehicle-to-grid experiment". London: The Guardian. Retrieved 2011-08-30. 
+^ "SwRI develops first ERCOT-qualified vehicle-to-grid aggregation system". Southwest Research Institute. Retrieved 2015-02-26. 
+^ "SPIDERS: The Smart Power Infrastructure Demonstration for Energy Reliability and Secruity" (PDF). Sandia National Laboratories. 
+^ "SwRI will participate in a U.S. Army program to demonstrate alternative sources for an emergency electrical power grid". Southwest Research Institute. Retrieved 2015-02-26. 
+^ "SwRI deploys novel vehicle-to-grid aggregation system". Southwest Research Institute. Retrieved 2015-02-26. 
+^ "Honda Joins Vehicle-to-Grid Technology Demonstration Project in Partnership with University of Delaware and NRG Energy" (Press release). US: Honda. 2013-12-05. Retrieved 2013-12-06. 
+^ Levine, John. "Pumped Hydroelectric Energy Storage and Spatial Diversity of Wind Resources as Methods of Improving Utilization of Renewable Energy Sources" (PDF). http://www.colorado.edu. Retrieved 2014-08-28. 
+^ "Plug-in Electric Vehicles 2008: What Role for Washington" (PDF). Brookings Institution and Google.org. 2008-06-12. p. 347. 
+
+
+== External links ==
+"Vehicle-to-grid V2G - EAA-PHEV Wiki".  Electric vehicles plugged in for recharging their batteries can help stabilize a smart grid by occasionally feeding power back into the grid to help prevent brownouts and blackouts.
+"Vehicle-to-house V2H - EAA-PHEV Wiki".  Electric vehicles can power critical functions in a home during emergencies when the electrical grid is blacked out.
+Diehl, Stephen. "Study suggests electric cars could pay their owners back". Green Mountain College. Archived from the original on 2008-02-25. 
+Kempton, Willett (2005-06-06). "Automobiles: Designing the 21st century fleet" (PDF). Seattle V2G Technical Symposium, University of Delaware. 
+Penney, Terry; Elling, Jennifer (August 2005). "The Race to Connect Cars, Communities and Renewables". Geotimes.org. 
+Snider, Laura (October 2008). "Boulder County's cars to feed the grid". Daily Camera. 
+Woody, Todd (2007-06-12). "PG&E's Battery Power Plans Could Jump Start Electric Car Market". Blogs.business2.com. Archived from the original (– Scholar search) on 2007-08-14. 
+Woolsey, Jim; Sexton, Chelsea; Brilliant, Larry. "RechargeIT: Plug-in Hybrids and V2G". Youtube.com. 
+"European Conference SmartGrids & E-Mobility". OTTI. 2010-07-19. Retrieved 2010-07-19. 
+"20kW DC/AC Power Inverter Preliminary Specifications, For Distributed Power Applications". UQM Technologies, Inc. March 2003. Archived from the original on 2008-03-03. 
+"Electric Drive Transportation Association". EDTA. Retrieved 2007-10-05. 
+"Electrifying Times Magazine, Latest Electric Car News". Electrifying Times Magazine. 
+"EV World". EV World. Retrieved 2007-10-05. 
+"Hybrid Center". Union of Concerned Scientists. Retrieved 2007-10-05. 
+"Real Hybrid Mileage Database". Green Hybrid. Retrieved 2007-10-05. 
+Heather Silyn-Roberts. (2000). "Reports, Papers, and Presentations". AC Propulsion Inc. (Oxford: Butterworth-Heinemann). ISBN 0-7506-4636-5. Archived from the original on 2008-10-25. 
+Ingvar & Persson (2010). "Vehicle to Grid State of The Art System Design" (PDF). Royal Institute of Technology (Stockholm: Royal Institute of Technology). 
+"V2G: Vehicle to Grid Power". University of Delaware research program. 
+"V2Green". Retrieved 2007-10-05.  Company promoting v2G technology.
+"World's First V2G Demo". The California Cars Initiative. 2007-10-22. Retrieved 2007-10-05. 
+"In Two-Way Charging, Electric Cars Begin to Earn Money From the Grid". New York Times. 2013-04-25. 
+Related forums
+"gridable-hybrids". autos.groups.yahoo.com. Retrieved 2007-10-05. 
+"priusplus". autos.groups.yahoo.com. Retrieved 2007-10-05. 
+"Calcars". groups.yahoo.com. Retrieved 2007-10-05.

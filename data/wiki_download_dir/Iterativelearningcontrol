@@ -1,0 +1,20 @@
+Iterative learning control
+Iterative Learning Control (ILC) is a method of tracking control for systems that work in a repetitive mode. Examples of systems that operate in a repetitive manner include robot arm manipulators, chemical batch processes and reliability testing rigs. In each of these tasks the system is required to perform the same action over and over again with high precision. This action is represented by the objective of accurately tracking a chosen reference signal  on a finite time interval.
+Repetition allows the system to improve tracking accuracy from repetition to repetition, in effect learning the required input needed to track the reference exactly. The learning process uses information from previous repetitions to improve the control signal ultimately enabling a suitable control action can be found iteratively. The internal model principle yields conditions under which perfect tracking can be achieved but the design of the control algorithm still leaves many decisions to be made to suit the application. A typical, simple control law is of the form:
+
+where  is the input to the system during the pth repetition,  is the tracking error during the pth repetition and K is a design parameter representing operations on . Achieving perfect tracking through iteration is represented by the mathematical requirement of convergence of the input signals as  becomes large whilst the rate of this convergence represents the desirable practical need for the learning process to be rapid. There is also the need to ensure good algorithm performance even in the presence of uncertainty about the details of process dynamics. The operation  is crucial to achieving design objectives and ranges from simple scalar gains to sophisticated optimization computations.
+
+
+== References ==
+S.Arimoto, S. Kawamura and F. Miyazaki (1984). "Bettering operation of robots by learning". Journal of Robotic Systems 1 (2): 123–140. doi:10.1002/rob.4620010203. 
+Moore, K.L. (1993). Iterative Learning Control for Deterministic Systems. London: Springer-Verlag. ISBN 0-387-19707-9. 
+Jian-Xin Xu; Ying Tan. (2003). Linear and Nonlinear Iterative Learning Control. Springer-Verlag. p. 177. ISBN 3-540-40173-3. 
+Bristow, D. A. Tharayil, M. Alleyne, A. G. (2006). "A Survey of Iterative Learning Control A learning-based method for high-performance tracking control". IEEE control systems magazine 26: pages 96–114. 
+Owens D.H.; Feng K. (20 July 2003). "Parameter optimization in iterative learning control". International Journal of Control 76 (11): 1059–1069. doi:10.1080/0020717031000121410. 
+Owens D.H. ; Hätönen J. (2005). "Iterative learning control — An optimization paradigm". Annual Reviews in Control 29 (1): 57–70. doi:10.1016/j.arcontrol.2005.01.003. 
+Daley S. ; Owens D.H. (2008). "Iterative Learning Control – Monotonicity and Optimization". International Journal of applied mathematics and computer science 18 (3): 179–293. doi:10.2478/v10006-008-0026-7. 
+Wang Y. ; Gao F. ; Doyle III, F.J. (2009). "Survey on iterative learning control, repetitive control, and run-to-run control". Journal of process control 19 (10): 1589–1600. doi:10.1016/j.jprocont.2009.09.006. 
+
+
+== External links ==
+Southampton Sheffield Iterative Learning Control (SSILC)

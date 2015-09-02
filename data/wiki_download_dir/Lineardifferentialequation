@@ -1,0 +1,196 @@
+Linear differential equation
+In mathematics, linear differential equations are differential equations having differential equation solutions which can be added together to form other solutions. They can be ordinary (ODEs) or partial (PDEs). The solutions to linear equations form a vector space (unlike non-linear differential equations).
+
+
+== Introduction ==
+Linear differential equations are of the form
+
+where the differential operator L is a linear operator, y is the unknown function (such as a function of time y(t)), and the right hand side f is a given function of the same nature as y (called the source term). For a function dependent on time we may write the equation more expressly as
+
+and, even more precisely by bracketing
+
+The linear operator L may be considered to be of the form
+
+The linearity condition on L rules out operations such as taking the square of the derivative of y; but permits, for example, taking the second derivative of y. It is convenient to rewrite this equation in an operator form
+
+where D is the differential operator d/dt (i.e. Dy = y' , D2y = y",... ), and the An are given functions.
+Such an equation is said to have order n, the index of the highest derivative of y that is involved.
+A typical simple example is the linear differential equation used to model radioactive decay. Let N(t) denote the number of radioactive atoms in some sample of material  at time t. Then for some constant k > 0, the number of radioactive atoms which decay can be modelled by
+
+If y is assumed to be a function of only one variable, one speaks about an ordinary differential equation, else the derivatives and their coefficients must be understood as (contracted) vectors, matrices or tensors of higher rank, and we have a (linear) partial differential equation.
+The case where f = 0 is called a homogeneous equation and its solutions are called complementary functions. It is particularly important to the solution of the general case, since any complementary function can be added to a solution of the inhomogeneous equation to give another solution (by a method traditionally called particular integral and complementary function). When the Ai are numbers, the equation is said to have constant coefficients.
+
+
+== Homogeneous equations with constant coefficients ==
+
+The first method of solving linear homogeneous ordinary differential equations with constant coefficients is due to Euler, who realized that solutions have the form ezx, for possibly-complex values of z. The exponential function is one of the few functions to keep its shape after differentiation, allowing the sum of its multiple derivatives to cancel out to zero, as required by the equation. Thus, for constant values A1,..., An, to solve:
+
+we set y = ezx, leading to
+
+Division by ezx gives the nth-order polynomial:
+
+This algebraic equation F(z) = 0 is the characteristic equation considered later by Gaspard Monge and Augustin-Louis Cauchy.
+Formally, the terms
+
+of the original differential equation are replaced by zk. Solving the polynomial gives n values of z, z1, ..., zn. Substitution of any of those values for z into ezx gives a solution ezix. Since homogeneous linear differential equations obey the superposition principle, any linear combination of these functions also satisfies the differential equation.
+When these roots are all distinct, we have n distinct solutions to the differential equation. It can be shown that these are linearly independent, by applying the Vandermonde determinant, and together they form a basis of the space of all solutions of the differential equation.
+The preceding gave a solution for the case when all zeros are distinct, that is, each has multiplicity 1. For the general case, if z is a (possibly complex) zero (or root) of F(z) having multiplicity m, then, for ,  is a solution of the ODE. Applying this to all roots gives a collection of n distinct and linearly independent functions, where n is the degree of F(z). As before, these functions make up a basis of the solution space.
+If the coefficients Ai of the differential equation are real, then real-valued solutions are generally preferable. Since non-real roots z then come in conjugate pairs, so do their corresponding basis functions xkezx, and the desired result is obtained by replacing each pair with their real-valued linear combinations Re(y) and Im(y), where y is one of the pair.
+A case that involves complex roots can be solved with the aid of Euler's formula.
+
+
+=== Examples ===
+Given . The characteristic equation is  which has roots "2±i". Thus the solution basis  is . Now y is a solution if and only if  for .
+Because the coefficients are real,
+we are likely not interested in the complex solutions
+our basis elements are mutual conjugates
+The linear combinations
+
+will give us a real basis in .
+
+
+==== Simple harmonic oscillator ====
+The second order differential equation
+
+which represents a simple harmonic oscillator, can be restated as
+
+The expression in parenthesis can be factored out, yielding
+
+which has a pair of linearly independent solutions:
+
+The solutions are, respectively,
+
+and
+
+These solutions provide a basis for the two-dimensional solution space of the second order differential equation: meaning that linear combinations of these solutions will also be solutions. In particular, the following solutions can be constructed
+
+and
+
+These last two trigonometric solutions are linearly independent, so they can serve as another basis for the solution space, yielding the following general solution:
+
+
+==== Damped harmonic oscillator ====
+Given the equation for the damped harmonic oscillator:
+
+the expression in parentheses can be factored out: first obtain the characteristic equation by replacing D with λ. This equation must be satisfied for all y, thus:
+
+Solve using the quadratic formula:
+
+Use these data to factor out the original differential equation:
+
+This implies a pair of solutions, one corresponding to
+
+The solutions are, respectively,
+
+where ω = b/2m. From this linearly independent pair of solutions can be constructed another linearly independent pair which thus serve as a basis for the two-dimensional solution space:
+
+However, if |ω| < |ω0| then it is preferable to get rid of the consequential imaginaries, expressing the general solution as
+
+This latter solution corresponds to the underdamped case, whereas the former one corresponds to the overdamped case: the solutions for the underdamped case oscillate whereas the solutions for the overdamped case do not.
+
+
+== Nonhomogeneous equation with constant coefficients ==
+To obtain the solution to the nonhomogeneous equation (sometimes called inhomogeneous equation), find a particular integral yP(x) by either the method of undetermined coefficients or the method of variation of parameters; the general solution to the linear differential equation is the sum of the general solution of the related homogeneous equation and the particular integral. Or, when the initial conditions are set, use Laplace transform to obtain the particular solution directly.
+Suppose we face
+
+For later convenience, define the characteristic polynomial
+
+We find a solution basis  for the homogeneous (f(x) = 0) case. We now seek a particular integral yp(x) by the variation of parameters method. Let the coefficients of the linear combination be functions of x:
+
+For ease of notation we will drop the dependency on x (i.e. the various (x)). Using the operator notation D = d/dx, the ODE in question is P(D)y = f; so
+
+With the constraints
+
+the parameters commute out,
+
+But P(D)yj = 0, therefore
+
+This, with the constraints, gives a linear system in the u′j. This much can always be solved; in fact, combining Cramer's rule with the Wronskian,
+
+In the very non-standard notation used above, one should take the i,n-minor of W and multiply it by f. That's why we get a minus-sign. Alternatively, forget about the minus sign and just compute the determinant of the matrix obtained by substituting the j-th W column with (0, 0, ..., f).
+The rest is a matter of integrating u′j.
+The particular integral is not unique;  also satisfies the ODE for any set of constants cj.
+
+
+=== Example ===
+Suppose . We take the solution basis found above .
+
+Using the list of integrals of exponential functions
+
+And so
+
+(Notice that u1 and u2 had factors that canceled y1 and y2; that is typical.)
+For interest's sake, this ODE has a physical interpretation as a driven damped harmonic oscillator; yp represents the steady state, and  is the transient.
+
+
+== Equation with variable coefficients ==
+A linear ODE of order n with variable coefficients has the general form
+
+
+=== Examples ===
+A simple example is the Cauchy–Euler equation often used in engineering
+
+
+== First-order equation with variable coefficients ==
+A linear ODE of order 1 with variable coefficients has the general form
+
+Where D is the differential operator. Equations of this form can be solved by multiplying the integrating factor
+
+throughout to obtain
+
+which simplifies due to the product rule (applied backwards) to
+
+which, on integrating both sides and solving for y(x) gives:
+
+In other words: The solution of a first-order linear ODE
+
+with coefficients that may or may not vary with x, is:
+
+where κ is the constant of integration, and
+
+A compact form of the general solution based on a Green's function is (see J. Math. Chem. 48 (2010) 175):
+
+where δ(x) is the generalized Dirac delta function.
+
+
+=== Examples ===
+Consider a first order differential equation with constant coefficients:
+
+This equation is particularly relevant to first order systems such as RC circuits and mass-damper systems.
+In this case, f(x) = b, g(x) = 1.
+Hence its solution is
+
+
+== Systems of Linear Differential Equations ==
+An arbitrary linear ordinary differential equation or even a system of such equations can be converted into a first order system of linear differential equations by adding variables for all but the highest order derivatives. A linear system can be viewed as a single equation with a vector-valued variable. The general treatment is analogous to the treatment above of ordinary first order linear differential equations, but with complications stemming from noncommutativity of matrix multiplication.
+To solve
+
+(here  is a vector or matrix, and  is a matrix), let  be the solution of  with  (the identity matrix).  is a fundamental matrix for the equation — the columns of  form a complete linearly independent set of solutions for the homogeneous equation. After substituting , the equation  simplifies to  Thus,
+
+If  commutes with  for all  and , then
+
+and thus
+
+but in the general case there is no closed form solution, and an approximation method such as Magnus expansion may have to be used. Note that the exponentials are matrix exponentials.
+
+
+== See also ==
+Matrix differential equation
+Partial differential equation
+Continuous-repayment mortgage
+Fourier transform
+Laplace transform
+List of differentiation identities, Nth Derivatives Section
+
+
+== External links ==
+http://eqworld.ipmnet.ru/en/solutions/ode.htm
+
+
+== Notes ==
+
+
+== References ==
+Birkhoff, Garrett and Rota, Gian-Carlo (1978), Ordinary Differential Equations, New York: John Wiley and Sons, Inc., ISBN 0-471-07411-X 
+Gershenfeld, Neil (1999), The Nature of Mathematical Modeling, Cambridge, UK.: Cambridge University Press, ISBN 978-0-521-57095-4 
+Robinson, James C. (2004), An Introduction to Ordinary Differential Equations, Cambridge, UK.: Cambridge University Press, ISBN 0-521-82650-0

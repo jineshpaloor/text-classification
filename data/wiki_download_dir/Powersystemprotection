@@ -1,0 +1,81 @@
+Power-system protection
+Power-system protection is a branch of electrical power engineering that deals with the protection of electrical power systems from faults through the isolation of faulted parts from the rest of the electrical network. The objective of a protection scheme is to keep the power system stable by isolating only the components that are under fault, whilst leaving as much of the network as possible still in operation. Thus, protection schemes must apply a very pragmatic and pessimistic approach to clearing system faults.
+
+
+== Components ==
+Protection systems usually comprise five components:
+Current and voltage transformers to step down the high voltages and currents of the electrical power system to convenient levels for the relays to deal with
+Protective relays to sense the fault and initiate a trip, or disconnection, order;
+Circuit breakers to open/close the system based on relay and autorecloser commands;
+Batteries to provide power in case of power disconnection in the system.
+Communication channels to allow analysis of current and voltage at remote terminals of a line and to allow remote tripping of equipment.
+For parts of a distribution system, fuses are capable of both sensing and disconnecting faults.
+Failures may occur in each part, such as insulation failure, fallen or broken transmission lines, incorrect operation of circuit breakers, short circuits and open circuits. Protection devices are installed with the aims of protection of assets, and ensure continued supply of energy.
+Switchgear is a combination of electrical disconnect switches, fuses or circuit breakers used to control, protect and isolate electrical equipment. Switches are safe to open under normal load current, while protective devices are safe to open under fault current. 
+
+
+== Protective device ==
+
+Protective relays control the tripping of the circuit breakers surrounding the faulted part of the network
+Automatic operation, such as auto-re-closing or system restart
+Monitoring equipment which collects data on the system for post event analysis
+While the operating quality of these devices, and especially of protective relays, is always critical, different strategies are considered for protecting the different parts of the system. Very important equipment may have completely redundant and independent protective systems, while a minor branch distribution line may have very simple low-cost protection.
+There are three parts of protective devices:
+
+Instrument transformer: current or potential (CT or VT)
+Relay
+Circuit breaker
+
+Advantages of protected devices with these three basic components include safety, economy, and accuracy.
+
+Safety: Instrument transformers create electrical isolation from the power system, and thus establishing a safer environment for personnel working with the relays.
+Economy: Relays are able to be simpler, smaller, and cheaper given lower-level relay inputs.
+Accuracy: Power system voltages and currents are accurately reproduced by instrument transformers over large operating ranges.
+
+
+== Types of protection ==
+Generator sets – In a power plant, the protective relays are intended to prevent damage to alternators or to the transformers in case of abnormal conditions of operation, due to internal failures, as well as insulating failures or regulation malfunctions. Such failures are unusual, so the protective relays have to operate very rarely. If a protective relay fails to detect a fault, the resulting damage to the alternator or to the transformer might require costly equipment repairs or replacement, as well as income loss from the inability to produce and sell energy.
+High-voltage transmission network – Protection on the transmission and distribution serves two functions: Protection of plant and protection of the public (including employees). At a basic level, protection looks to disconnect equipment which experience an overload or a short to earth. Some items in substations such as transformers might require additional protection based on temperature or gas pressure, among others.
+Overload and back-up for distance (overcurrent) – Overload protection requires a current transformer which simply measures the current in a circuit. There are two types of overload protection: instantaneous overcurrent and time overcurrent (TOC). Instantaneous overcurrent requires that the current exceeds a predetermined level for the circuit breaker to operate. TOC protection operates based on a current vs time curve. Based on this curve if the measured current exceeds a given level for the preset amount of time, the circuit breaker or fuse will operate.
+Earth fault ("ground fault" in the United States) – Earth fault protection again requires current transformers and senses an imbalance in a three-phase circuit. Normally the three phase currents are in balance, i.e. roughly equal in magnitude. If one or two phases become connected to earth via a low impedance path, their magnitudes will increase dramatically, as will current imbalance. If this imbalance exceeds a pre-determined value, a circuit breaker should operate. Restricted earth fault protection is a type of earth fault protection which looks for earth fault between two sets current transformers (hence restricted to that zone).
+Distance (impedance relay)– Distance protection detects both voltage and current. A fault on a circuit will generally create a sag in the voltage level. If the ratio of voltage to current measured at the relay terminals, which equates to an impedance, lands within a predetermined level the circuit breaker will operate. This is useful for reasonable length lines, lines longer than 10 miles, because its operating characteristics are based on the line characteristics. This means that when a fault appears on the line the impedance setting in the relay is compared to the apparent impedance of the line from the relay terminals to the fault. If the relay setting is determined to be below the apparent impedance it is determined that the fault is within the zone of protection. When the transmission line length is too short, less than 10 miles, distance protection becomes more difficult to coordinate. In these instances the best choice of protection is current differential protection.
+Back-up – The objective of protection is to remove only the affected portion of plant and nothing else. A circuit breaker or protection relay may fail to operate. In important systems, a failure of primary protection will usually result in the operation of back-up protection. Remote back-up protection will generally remove both the affected and unaffected items of plant to clear the fault. Local back-up protection will remove the affected items of the plant to clear the fault.
+Low-voltage networks – The low-voltage network generally relies upon fuses or low-voltage circuit breakers to remove both overload and earth faults.
+
+
+== Coordination ==
+Protective device coordination is the process of determining the "best fit" timing of current interruption when abnormal electrical conditions occur. The goal is to minimize an outage to the greatest extent possible. Historically, protective device coordination was done on translucent log–log paper. Modern methods normally include detailed computer based analysis and reporting.
+Protection coordination is also handled through dividing the power system into protective zones. If a fault were to occur in a given zone, necessary actions will be executed to isolate that zone from the entire system. Zone definitions account for generators, buses, transformers, transmission and distribution lines, and motors. Additionally, zones possess the following features: zones overlap, overlap regions denote circuit breakers, and all circuit breakers in a given zone with a fault will open in order to isolate the fault. Overlapped regions are created by two sets of instrument transformers and relays for each circuit breaker. They are designed for redundancy to eliminate unprotected areas; however, overlapped regions are devised to remain as small as possible such that when a fault occurs in an overlap region and the two zones which encompass the fault are isolated, the sector of the power system which is lost from service is still small despite two zones being isolated.
+
+
+== Disturbance-monitoring equipment ==
+Disturbance-monitoring equipment (DME) monitors and records system data pertaining to a fault. DME accomplish three main purposes:
+model validation,
+disturbance investigation, and
+assessment of system protection performance.
+DME devices include:
+Sequence of event recorders, which record equipment response to the event
+Fault recorders, which record actual waveform data of the system primary voltages and currents.
+Dynamic disturbance recorders (DDRs), which record incidents that portray power system behavior during dynamic events such as low frequency (0.1 Hz – 3 Hz) oscillations and abnormal frequency or voltage excursions
+
+
+== Performance measures ==
+Protection engineers define dependability as the tendency of the protection system to operate correctly for in-zone faults. They define security as the tendency not to operate for out-of-zone faults. Both dependability and security are reliability issues. Fault tree analysis is one tool with which a protection engineer can compare the relative reliability of proposed protection schemes. Quantifying protection reliability is important for making the best decisions on improving a protection system, managing dependability versus security tradeoffs, and getting the best results for the least money. A quantitative understanding is essential in the competitive utility industry. 
+Performance and design criteria for system-protection devices include reliability, selectivity, speed, cost, and simplicity.
+Reliability: Devices must function consistently when fault conditions occur, regardless of possibly being idle for months or years. Without this reliability, systems may result in high costly damages.
+Selectivity: Devices must avoid unwarranted, false trips.
+Speed: Devices must function quickly to reduce equipment damage and fault duration, with only very precise intentional time delays.
+Economy: Devices must provide maximum protection at minimum cost.
+Simplicity: Devices must minimize protection circuitry and equipment.
+
+
+== See also ==
+Fault current limiter
+Network analyzer (AC power)
+Prospective short circuit current
+
+
+== Notes ==
+
+
+== References ==

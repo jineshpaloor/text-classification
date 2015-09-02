@@ -1,0 +1,142 @@
+Optical fiber cable
+An optical fiber cable is a cable containing one or more optical fibers that are used to carry light. The optical fiber elements are typically individually coated with plastic layers and contained in a protective tube suitable for the environment where the cable will be deployed. Different types of cable are used for different applications, for example long distance telecommunication, or providing a high-speed data connection between different parts of a building.
+
+
+== Design ==
+
+Optical fiber consists of a core and a cladding layer, selected for total internal reflection due to the difference in the refractive index between the two. In practical fibers, the cladding is usually coated with a layer of acrylate polymer or polyimide. This coating protects the fiber from damage but does not contribute to its optical waveguide properties. Individual coated fibers (or fibers formed into ribbons or bundles) then have a tough resin buffer layer and/or core tube(s) extruded around them to form the cable core. Several layers of protective sheathing, depending on the application, are added to form the cable. Rigid fiber assemblies sometimes put light-absorbing ("dark") glass between the fibers, to prevent light that leaks out of one fiber from entering another. This reduces cross-talk between the fibers, or reduces flare in fiber bundle imaging applications.
+
+For indoor applications, the jacketed fiber is generally enclosed, with a bundle of flexible fibrous polymer strength members like aramid (e.g. Twaron or Kevlar), in a lightweight plastic cover to form a simple cable. Each end of the cable may be terminated with a specialized optical fiber connector to allow it to be easily connected and disconnected from transmitting and receiving equipment.
+
+For use in more strenuous environments, a much more robust cable construction is required. In loose-tube construction the fiber is laid helically into semi-rigid tubes, allowing the cable to stretch without stretching the fiber itself. This protects the fiber from tension during laying and due to temperature changes. Loose-tube fiber may be "dry block" or gel-filled. Dry block offers less protection to the fibers than gel-filled, but costs considerably less. Instead of a loose tube, the fiber may be embedded in a heavy polymer jacket, commonly called "tight buffer" construction. Tight buffer cables are offered for a variety of applications, but the two most common are "Breakout" and "Distribution". Breakout cables normally contain a ripcord, two non-conductive dielectric strengthening members (normally a glass rod epoxy), an aramid yarn, and 3 mm buffer tubing with an additional layer of Kevlar surrounding each fiber. The ripcord is a parallel cord of strong yarn that is situated under the jacket(s) of the cable for jacket removal. Distribution cables have an overall Kevlar wrapping, a ripcord, and a 900 micrometer buffer coating surrounding each fiber. These fiber units are commonly bundled with additional steel strength members, again with a helical twist to allow for stretching.
+A critical concern in outdoor cabling is to protect the fiber from contamination by water. This is accomplished by use of solid barriers such as copper tubes, and water-repellent jelly or water-absorbing powder surrounding the fiber.
+Finally, the cable may be armored to protect it from environmental hazards, such as construction work or gnawing animals. Undersea cables are more heavily armored in their near-shore portions to protect them from boat anchors, fishing gear, and even sharks, which may be attracted to the electrical power that is carried to power amplifiers or repeaters in the cable.
+Modern cables come in a wide variety of sheathings and armor, designed for applications such as direct burial in trenches, dual use as power lines, installation in conduit, lashing to aerial telephone poles, submarine installation, and insertion in paved streets.
+
+
+== Capacity and market ==
+In September 2012, NTT Japan demonstrated a single fiber cable that was able to transfer 1 petabit per second (1015bits/s) over a distance of 50 kilometers.
+Modern fiber cables can contain up to a thousand fibers in a single cable, with potential bandwidth in the terabytes per second. In some cases, only a small fraction of the fibers in a cable may be actually "lit". Companies can lease or sell the unused fiber to other providers who are looking for service in or through an area. Companies may "overbuild" their networks for the specific purpose of having a large network of dark fiber for sale, reducing the overall need for trenching and municipal permitting. They may also deliberately under-invest to prevent their rivals from profiting from their investment.
+
+
+== Reliability and quality ==
+Optical fibers are very strong, but the strength is drastically reduced by unavoidable microscopic surface flaws inherent in the manufacturing process. The initial fiber strength, as well as its change with time, must be considered relative to the stress imposed on the fiber during handling, cabling, and installation for a given set of environmental conditions. There are three basic scenarios that can lead to strength degradation and failure by inducing flaw growth: dynamic fatigue, static fatigues, and zero-stress aging.
+Telcordia GR-20, Generic Requirements for Optical Fiber and Optical Fiber Cable, contains reliability and quality criteria to protect optical fiber in all operating conditions. The criteria concentrate on conditions in an outside plant (OSP) environment. For the indoor plant, similar criteria are in Telcordia GR-409, Generic Requirements for Indoor Fiber Optic Cable.
+
+
+== Cable types ==
+OFC: Optical fiber, conductive
+OFN: Optical fiber, nonconductive
+OFCG: Optical fiber, conductive, general use
+OFNG: Optical fiber, nonconductive, general use
+OFCP: Optical fiber, conductive, plenum
+OFNP: Optical fiber, nonconductive, plenum
+OFCR: Optical fiber, conductive, riser
+OFNR: Optical fiber, nonconductive, riser
+OPGW: Optical fiber composite overhead ground wire
+ADSS: All-Dielectric Self-Supporting
+
+
+== Jacket material ==
+The jacket material is application specific. The material determines the mechanical robustness, aging due to UV radiation, oil resistance, etc. Nowadays PVC is being replaced by halogen free alternatives, mainly driven by more stringent regulations.
+
+
+== Fiber material ==
+There are two main types of material used for optical fibers. These are glass and plastic. They offer widely different characteristics and therefore fibers made from the two different substances find uses in very different applications.
+
+
+== Color coding ==
+
+
+=== Patch cords ===
+The buffer or jacket on patchcords is often color-coded to indicate the type of fiber used. The strain relief "boot" that protects the fiber from bending at a connector is color-coded to indicate the type of connection. Connectors with a plastic shell (such as SC connectors) typically use a color-coded shell. Standard color codings for jackets and boots (or connector shells) are shown below:
+Remark: It is also possible that a small part of a connector is additionally colour-coded, e.g. the leaver of an E-2000 connector or a frame of an adapter. This additional colour coding indicates the correct port for a patchcord, if many patchcords are installed at one point.
+
+
+=== Multi-fiber cables ===
+Individual fibers in a multi-fiber cable are often distinguished from one another by color-coded jackets or buffers on each fiber. The identification scheme used by Corning Cable Systems is based on EIA/TIA-598, "Optical Fiber Cable Color Coding." EIA/TIA-598 defines identification schemes for fibers, buffered fibers, fiber units, and groups of fiber units within outside plant and premises optical fiber cables. This standard allows for fiber units to be identified by means of a printed legend. This method can be used for identification of fiber ribbons and fiber subunits. The legend will contain a corresponding printed numerical position number and/or color for use in identification.
+
+
+== Propagation speed and delay ==
+Optical cables transfer data at the speed of light in glass (slower than vacuum). This is typically around 180,000 to 200,000 km/s, resulting in 5.0 to 5.5 microseconds of latency per km. Thus the round-trip delay time for 1000 km is around 11 milliseconds.
+
+
+== Losses ==
+Typical modern multimode graded-index fibers have 3 dB/km of attenuation loss (50% loss per km) at 850 nm and 1 dB/km at 1300 nm. 9/125 singlemode loses 0.4/0.25 dB/km at 1310/1550 nm. POF (plastic optical fiber) loses much more: 1 dB/m at 650 nm. Plastic optical fiber is large core (about 1mm) fiber suitable only for short, low speed networks such as within cars.
+Each connection made adds about 0.6 dB of average loss, and each joint (splice) adds about 0.1 dB. Depending on the transmitter power and the sensitivity of the receiver, if the total loss is too large the link will not function reliably.
+Invisible IR light is used in commercial glass fiber communications because it has lower attenuation in such materials than visible light. However, the glass fibers will transmit visible light somewhat, which is convenient for simple testing of the fibers without requiring expensive equipment. Splices can be inspected visually, and adjusted for minimal light leakage at the joint, which maximizes light transmission between the ends of the fibers being joined.
+The charts at "Understanding wavelengths In fiber optics" and "Optical power loss (attenuation) in fiber" illustrate the relationship of visible light to the IR frequencies used, and show the absorption water bands between 850, 1300 and 1550 nm.
+
+
+== Safety ==
+The infrared light used in telecommunications cannot be seen, so there is a potential laser safety hazard to technicians. The eye's natural defense against sudden exposure to bright light is the blink reflex, which is not triggered by infrared sources. In some cases the power levels are high enough to damage eyes, particularly when lenses or microscopes are used to inspect fibers that are emitting invisible infrared light. Inspection microscopes with optical safety filters are available to guard against this. More recently indirect viewing aids are used, which can comprise a camera mounted within a handheld device, which has an opening for the connectorized fiber and a USB output for connection to a display device such as a laptop. This makes the activity of looking for damage or dirt on the connector face much safer.
+Small glass fragments can also be a problem if they get under someone's skin, so care is needed to ensure that fragments produced when cleaving fiber are properly collected and disposed of appropriately.
+
+
+== Hybrid cables ==
+There are hybrid optical and electrical cables that are used in wireless outdoor Fiber To The Antenna (FTTA) applications. In these cables, the optical fibers carry information, and the electrical conductors are used to transmit power. These cables can be placed in several environments to serve antennas mounted on poles, towers, and other structures.
+According to Telcordia GR-3173, Generic Requirements for Hybrid Optical and Electrical Cables for Use in Wireless Outdoor Fiber To The Antenna (FTTA) Applications, these hybrid cables have optical fibers, twisted pair/quad elements, coaxial cables and/or current-carrying electrical conductors under a common outer jacket. The power conductors used in these hybrid cables are for directly powering an antenna or for powering tower-mounted electronics exclusively serving an antenna. They have a nominal voltage normally less than 60 VDC or 108/120 VAC. Other voltages may be present depending on the application and the relevant National Electrical Code (NEC).
+These types of hybrid cables may also be useful in other environments such as Distributed Antenna System (DAS) plants where they will serve antennas in indoor, outdoor, and roof-top locations. Considerations such as fire resistance, Nationally Recognized Testing Laboratory (NRTL) Listings, placement in vertical shafts, and other performance-related issues need to be fully addressed for these environments.
+Since the voltage levels and power levels used within these hybrid cables vary, electrical safety codes consider the hybrid cable to be a power cable, which needs to comply with rules on clearance, separation, etc.
+
+
+== Innerducts ==
+Innerducts are installed in existing underground conduit systems to provide clean, continuous, low-friction paths for placing optical cables that have relatively low pulling tension limits. They provide a means for subdividing conventional conduit that was originally designed for single, large-diameter metallic conductor cables into multiple channels for smaller optical cables.
+
+
+=== Types ===
+Innerducts are typically small-diameter, semi-flexible subducts. According to Telcordia GR-356, there are three basic types of innerduct: smoothwall, corrugated, and ribbed. These various designs are based on the profile of the inside and outside diameters of the innerduct. The need for a specific characteristic or combination of characteristics, such as pulling strength, flexibility, or the lowest coefficient of friction, dictates the type of innerduct required.
+Beyond the basic profiles or contours (smoothwall, corrugated, or ribbed), innerduct is also available in an increasing variety of multiduct designs. Multiduct may be either a composite unit consisting of up to four or six individual innerducts that are held together by some mechanical means, or a single extruded product having multiple channels through which to pull several cables. In either case, the multiduct is coilable, and can be pulled into existing conduit in a manner similar to that of conventional innerduct.
+
+
+=== Placement ===
+Innerducts are primarily installed in underground conduit systems that provide connecting paths between manhole locations. In addition to placement in conduit, innerduct can be directly buried, or aerially installed by lashing the innerduct to a steel suspension strand.
+As stated in GR-356, cable is typically placed into innerduct in one of three ways. It may be
+Pre-installed by the innerduct manufacturer during the extrusion process,
+Pulled into the innerduct using a mechanically assisted pull line, or
+Blown into the innerduct using a high air volume cable blowing apparatus.
+
+
+== See also ==
+Fiber optic coupler
+Fusion splicing
+ISO/IEC 11801
+Optical communication
+Optical interconnect
+Optical power meter
+Optical time-domain reflectometer
+Parallel optical interface
+Power-over-fiber
+Submarine communications cable
+TIA/EIA-568-B Color coding for electrical cable
+
+
+== Notes and references ==
+^ "Light collection and propagation". National Instruments' Developer Zone. Retrieved 2007-03-19. Hecht, Jeff (2002). Understanding Fiber Optics (4th ed.). Prentice Hall. ISBN 0-13-027828-9. 
+^ "Definition: rip cord". Its.bldrdoc.gov. Retrieved 2011-12-10. 
+^ Chirgwin, Richard (Sep 23, 2012). "NTT demos petabit transmission on single fibre". The Register. Retrieved 2014-02-16. 
+^ "GR-20, Generic Requirements for Optical Fiber and Optical Fiber Cable". Telcordia. 
+^ "GR-409, Generic Requirements for Indoor Fiber Optic Cable". Telcordia. 
+^ "Polymethylmethacrylate - online catalogue source, sources, small quantity and quantities from". Goodfellow. Retrieved 2011-12-10. 
+^ "Polyvinylchloride - Unplasticised - online catalogue source, sources, small quantity and quantities from". Goodfellow. Retrieved 2011-12-10. 
+^ "Polyethylene - High density (HDPE)". GoodFellow. Retrieved 2014-01-13. 
+^ "Polyethylene - Low Density (LDPE)". GoodFellow. Retrieved 2014-01-13. 
+^ "Polyethylene - U.H.M.W. - online catalogue source, sources, small quantity and quantities from". Goodfellow. Retrieved 2011-12-10. 
+^ "Polyethylene terephthalate (Polyester, PET, PETP)". GoodFellow. Retrieved 2014-01-13. 
+^ "Polyamide-nylon 12–30% glass fibre reinforced". GoodFellow. Retrieved 2014-01-13. 
+^ "Polyamide-nylon 6". GoodFellow. Retrieved 2014-01-13. 
+^ "Single-Mode VS. Multimode Fiber Cable". Retrieved 2013-09-24. 
+^ Crawford, Dwayne (Sep 11, 2013). "Who is Erika Violet and what is she doing in my data center?". Tech Topics. Belden. Retrieved Feb 12, 2014. 
+^ a b c Leroy Davis (2007-02-21). "Fiber wire color coding". Retrieved 2007-12-01. 
+^ Latency and Jitter Retrieved 2011-05-29.
+^ Optical Fiber (tutorial at lanshack.com) Retrieved 2010-08-20.
+^ Calculating the Maximum Attenuation for Optical Fiber Links. Cisco document 27042. Retrieved 2010-08-20.
+^ Hayes, Jim. "Understanding Wavelengths In Fiber Optics". The Fiber Optic Association. Retrieved 2014-01-13. 
+^ "Optical power loss (attenuation) in fiber". Ad-net.com.tw. Retrieved 2014-01-13. 
+^ GR-3173, Generic Requirements for Hybrid Optical and Electrical Cables for Use in Wireless Outdoor Fiber To The Antenna (FTTA) Applications. Telcordia.
+^ GR-356, Generic Requirements for Optical Cable Innerduct, Associated Conduit, and Accessories. Telcordia.
+
+
+== External links ==
+Fiber Optic Association The FOA Reference Guide To Fiber Optics
+Accurately Testing Fiber Optic Cables

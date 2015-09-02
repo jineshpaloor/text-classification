@@ -1,0 +1,22 @@
+Vacuum variable capacitor
+A vacuum variable capacitor is a variable capacitor which uses a high vacuum as the dielectric instead of air or other insulating material. This allows for a higher voltage rating using a smaller total volume. There are several different designs in vacuum variables. The most common form is inter-meshed concentric cylinders, which are contained within a glass or ceramic vacuum envelope, similar to an electron tube. A metal bellows is used to maintain a vacuum seal while allowing positional control for the moving parts of the capacitor.
+
+
+== Invention ==
+Nikola Tesla filed a patent in 1896 for a vacuum capacitor. The original use was to enhance the quality of the electrical components for handling "currents of high frequency and potential". These components were necessary for the DC impulse research which Tesla was studying. Commercial products have been available since 1942.
+
+
+== Applications ==
+Vacuum variable capacitors are commonly used in high-voltage applications: 5000 volts (5 kV) and above. They are used in equipment such as high-powered broadcast transmitters, amateur radio RF amplifiers and large antenna tuners. Industrially they are used in plasma generating equipment, for dielectric heating, and in semiconductor manufacturing. The main applications today are RF plasmas of 2 to 160 MHz where the vacuum capacitor is used as the impedance variation part in an automatic matching network.
+
+Other variations of vacuum capacitors include fixed-value capacitors, which are designed very much like the variable versions with the exception of an adjustment mechanism.
+
+
+== Comparison ==
+When compared to other variable capacitors, vacuum variables tend to be more precise and more stable. This is due to the vacuum itself. Because of the sealed chamber, the dielectric constant remains the same over a wider range of operating conditions. With air variable capacitors, the air moving around the plates may change the value slightly; often it is not much but in some applications it is enough to cause undesirable effects.Another common problem with air variables is dust and insects. Dust collected on the plates or a curious insect could have disastrous effects. An insect in contact with the plates is likely to cause a short circuit with the open frame design used on most air variable capacitors.
+Vacuum variable capacitors are generally more expensive than air variable capacitors. This is primarily due to their design and the materials used. Although most use copper and glass, some may use other materials such as ceramics and metals such as gold and silver. Vacuum variables also vary in adjustment mechanisms.
+
+
+== References ==
+^ a b c http://www.amstechnologies.com/fileadmin/amsmedia/downloads/4317_jenningscapacitorshighvoltagevacuumandgasfilled.pdf Jennings high voltage vacuum capacitors
+^ http://www.hatdaw.com/papers/sb_12.pdf Service Bulletin Vacuum variable Capacitors, retrieved 2012 March 12

@@ -1,0 +1,90 @@
+Cylinder (geometry)
+A cylinder (from Greek κύλινδρος – kulindros, "roller, tumbler") is one of the most basic curvilinear geometric shapes, the surface formed by the points at a fixed distance from a given straight line, the axis of the cylinder. The solid enclosed by this surface and by two planes perpendicular to the axis is also called a cylinder. The surface area and the volume of a cylinder have been known since deep antiquity.
+
+
+== Common use ==
+In common use a cylinder is taken to mean a finite section of a right circular cylinder, i.e., the cylinder with the generating lines perpendicular to the bases, with its ends closed to form two circular surfaces, as in the figure (right). If the ends are not closed, one obtains an open cylinder, whose surface is topologically equivalent to an open annulus.
+If the cylinder has a radius r and length (height) h, then its volume is given by
+V = πr2h
+and its surface area is:
+the area of the top (πr2) +
+the area of the bottom (πr2) +
+the area of the side (2πrh).
+Therefore an open cylinder without the top or bottom has surface area (lateral area)
+A = 2πrh.
+The surface including the top and bottom as well as the lateral area is called a closed cylinder. Its surface area is
+A = 2πr2 + 2πrh = 2πr(r + h) = πd(r + h),
+where d is the diameter.
+For a given volume, the closed cylinder with the smallest surface area has h = 2r. Equivalently, for a given surface area, the closed cylinder with the largest volume has h = 2r, i.e. the cylinder fits snugly in a cube (height = diameter).
+
+
+=== Volume ===
+Having a right circular cylinder with a height h units and a base of radius r units with the coordinate axes chosen so that the origin is at the center of one base and the height is measured along the positive x-axis. A plane section at a distance of x units from the origin has an area of A(x) square units where
+
+or
+
+An element of volume, is a right cylinder of base area Awi square units and a thickness of Δix units. Thus if V cubic units is the volume of the right circular cylinder, by Riemann sums,
+
+Using cylindrical coordinates, the volume can be calculated by integration over
+
+
+=== Surface area ===
+The formula for finding the surface area of a cylinder is, with h as height, r as radius, and S as surface area is  Or, with B as base area and L as lateral area, 
+
+
+=== Cylindric sections ===
+
+Cylindric sections are the intersections of cylinders with planes. For a right circular cylinder, there are four possibilities. A plane tangent to the cylinder meets the cylinder in a single straight line segment. Moved while parallel to itself, the plane either does not intersect the cylinder or intersects it in two parallel line segments. All other planes intersect the cylinder in an ellipse or, when they are perpendicular to the axis of the cylinder, in a circle.
+Eccentricity e of the cylindric section and semi-major axis a of the cylindric section depend on the radius of the cylinder r and the angle between the secant plane and cylinder axis α in the following way:
+
+
+== Other types of cylinders ==
+In differential geometry, a cylinder is defined more broadly as any ruled surface spanned by a one-parameter family of parallel lines. A cylinder whose cross section is an ellipse, parabola, or hyperbola is called an elliptic cylinder, parabolic cylinder, or hyperbolic cylinder respectively.
+
+An elliptic cylinder is a quadric surface, with the following equation in Cartesian coordinates:
+
+This equation is for an elliptic cylinder, a generalization of the ordinary, circular cylinder (a = b). Elliptic cylinders are also known as cylindroids, but that name is ambiguous, as it can also refer to the Plücker conoid. The volume of an elliptic cylinder with height h is . Even more general than the elliptic cylinder is the generalized cylinder: the cross-section can be any curve.
+The cylinder is a degenerate quadric because at least one of the coordinates (in this case z) does not appear in the equation.
+An oblique cylinder has the top and bottom surfaces displaced from one another.
+There are other more unusual types of cylinders. These are the imaginary elliptic cylinders:
+
+the hyperbolic cylinder:
+
+and the parabolic cylinder:
+
+
+== About an arbitrary axis ==
+Consider an infinite cylinder whose axis lies along the vector
+
+We make use of spherical coordinates:
+
+These variables can be used to define A and B, the orthogonal vectors that form the basis for the cylinder:
+
+With these defined, we may use the familiar formula for a cylinder:
+
+where R is the radius of the cylinder. These results are usually derived using rotation matrices.
+
+
+== Projective geometry ==
+
+In projective geometry, a cylinder is simply a cone whose apex is at infinity.
+This is useful in the definition of degenerate conics, which require considering the cylindrical conics.
+
+
+== Related polyhedra ==
+A cylinder can be seen as a polyhedral limiting case of an n-gonal prism where n approaches infinity. It can also be seen as a dual of a bicone as an infinite-sided bipyramid.
+
+
+== See also ==
+Cylindrical coordinate system
+Rotation of axes
+Steinmetz solid, the intersection of two or three perpendicular cylinders
+Translation of axes
+
+
+== References ==
+
+
+== External links ==
+Surface area of a cylinder at MATHguide
+Volume of a cylinder at MATHguide

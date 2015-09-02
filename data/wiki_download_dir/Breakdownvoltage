@@ -1,0 +1,35 @@
+Breakdown voltage
+The breakdown voltage of an insulator is the minimum voltage that causes a portion of an insulator to become electrically conductive.
+The breakdown voltage of a diode is the minimum reverse voltage to make the diode conduct in reverse. Some devices (such as TRIACs) also have a forward breakdown voltage.
+
+
+== Solids ==
+Breakdown voltage is a characteristic of an insulator that defines the maximum voltage difference that can be applied across the material before the insulator collapses and conducts. In solid insulating materials, this usually creates a weakened path within the material by creating permanent molecular or physical changes by the sudden current. Within rarefied gases found in certain types of lamps, breakdown voltage is also sometimes called the "striking voltage".
+The breakdown voltage of a material is not a definite value because it is a form of failure and there is a statistical probability whether the material will fail at a given voltage. When a value is given it is usually the mean breakdown voltage of a large sample. Another term is also withstand voltage where the probability of failure at a given voltage is so low it is considered, when designing insulation, that the material will not fail at this voltage.
+Two different breakdown voltage measurements of a material are the AC and impulse breakdown voltages. The AC voltage is the line frequency of the mains. The impulse breakdown voltage is simulating lightning strikes, and usually uses a 1.2 microsecond rise for the wave to reach 90% amplitude then drops back down to 50% amplitude after 50 microseconds.
+Two technical standards governing performing these tests are ASTM D1816 and ASTM D3300 published by ASTM.
+
+
+== Gases and vacuum ==
+
+In standard conditions at atmospheric pressure, air serves as an excellent insulator, requiring the application of a significant voltage before breaking down (e.g. lightning). In partial vacuum, this breakdown potential may decrease to an extent that two uninsulated surfaces with different potentials might induce the electrical breakdown of the surrounding gas. This may damage an apparatus, as breakdown is analogous to a short circuit.
+In a gas, the breakdown voltage can be determined by Paschen's Law.
+The breakdown voltage in a partial vacuum is represented as
+
+where  is the breakdown potential in volts DC,  and  are constants that depend on the surrounding gas,  represents the pressure of the surrounding gas,  represents the distance in centimetres between the electrodes, and  represents the Secondary Electron Emission Coefficient.
+A detailed derivation and some background information is given in the article about Paschen's law.
+
+
+== Diodes and other semiconductors ==
+
+Breakdown voltage is a parameter of a diode that defines the largest reverse voltage that can be applied without causing an exponential increase in the current in the diode. As long as the current is limited, exceeding the breakdown voltage of a diode does no harm to the diode. In fact, Zener diodes are essentially just heavily doped normal diodes that exploit the breakdown voltage of a diode to provide regulation of voltage levels.
+
+
+== References ==
+
+
+== See also ==
+Dielectric strength
+Electrical breakdown
+Avalanche breakdown
+Avalanche diode

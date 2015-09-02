@@ -1,0 +1,21 @@
+Stator
+The stator is the stationary part of a rotary system, found in electric generators, electric motors, sirens, or biological rotors.
+
+
+== In motors ==
+Depending on the configuration of a spinning electromotive device the stator may act as the field magnet, interacting with the armature to create motion, or it may act as the armature, receiving its influence from moving field coils on the rotor. The first DC generators (known as dynamos) and DC motors put the field coils on the stator, and the power generation or motive reaction coils on the rotor. This is necessary because a continuously moving power switch known as the commutator is needed to keep the field correctly aligned across the spinning rotor. The commutator must become larger and more robust as the current increases.
+
+The stator of these devices may be either a permanent magnet or an electromagnet. Where the stator is an electromagnet, the coil which energizes it is known as the field coil or field winding.
+The coil can be either iron core or aluminum. To reduce loading losses in motors, manufacturers invariably use copper as the conducting material in windings. (For more information, see: Copper in energy-efficient motors). Aluminum, because of its lower electrical conductivity, may be an alternate material in fractional horsepower motors, especially when the motors are used for very short durations.
+An AC alternator is able to produce power across multiple high-current power generation coils connected in parallel, eliminating the need for the commutator. Placing the field coils on the rotor allows for an inexpensive slip ring mechanism to transfer high-voltage, low current power to the rotating field coil.
+It consists of a steel frame enclosing a hollow cylindrical core (made up of laminations of silicon steel). The laminations are to reduce hysteresis and eddy current losses.
+
+
+== Fluid devices ==
+In a turbine, the stator element contains blades or ports used to redirect the flow of fluid. Such devices include the steam turbine and the torque converter. In a mechanical siren, the stator contains one or more rows of holes that admit air into the rotor; by controlling the flow of air through the holes, the sound of the siren can be altered.
+
+
+== References ==
+
+
+== External links ==

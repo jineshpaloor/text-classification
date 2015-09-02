@@ -1,0 +1,107 @@
+Alan Blumlein
+Alan Dower Blumlein (29 June 1903 – 7 June 1942) was an English electronics engineer, notable for his many inventions in telecommunications, sound recording, stereophonic sound, television and radar. He received 128 patents and was considered as one of the most significant engineers and inventors of his time.
+He died during World War II on 7 June 1942, aged 38, during the secret trial of an H2S airborne radar system then under development, when all on board the Halifax bomber he was flying in were killed when it crashed at Welsh Bicknor in Herefordshire.
+
+
+== Early life ==
+Alan Dower Blumlein was born on 29 June 1903 in Hampstead, London to Semmy Blumlein, a German-born naturalised British subject. Semmy was born to Joseph Blumlein, a German of Jewish descent, and Phillippine Hellmann, a French woman of German descent. Alan's mother, Jessie Dower, was Scottish, daughter of a missionary. He was christened as a Presbyterian, though he later married in a Church of England parish. His future career seems to have been determined by the age of seven, when he presented his father with an invoice for repairing the doorbell, signed "Alan Blumlein, Electrical Engineer" (with "paid" scrawled in pencil). His sister claimed that he could not read proficiently until he was 12. He replied "no, but I knew a lot of quadratic equations!"
+After leaving Highgate School in 1921, he studied at City and Guilds College (part of Imperial College). He won a Governors' scholarship and joined the second year of the course. He graduated with a First-Class Honours BSc two years later.
+In mid-1930, Blumlein met Doreen Lane, a preparatory school teacher five years his junior. After two-and-a-half years of courtship the two were married in 1933. Lane was warned by acquaintances before the wedding that, "There was a joke amongst some of his friends, they used to call it 'Blumlein-itis' or 'First Class Mind'. It seems that he didn't want to know anyone who didn't have a first class mind." Recording engineer, J.B. Kaye, who was Blumlein's closest friend and best man at the wedding, thought the couple were well matched.
+
+
+== Career and inventions ==
+
+
+=== Telecommunications ===
+In 1924 Blumlein started his first job at International Western Electric, a division of the Western Electric Company. The company subsequently became International Standard Electric Corporation and then, later on, Standard Telephones and Cables (STC).
+During his time there, he measured the amplitude/frequency response of human ears, and used the results to design the first weighting networks.
+In 1924 he published (with Professor Edward Mallett) the first of his only two IEE papers, on high-frequency resistance measurement. This won him the IEE's Premium award for innovation. The following year he wrote (with Norman Kipping) a series of seven articles for Wireless World.
+In 1925 and 1926, Blumlein and John Percy Johns designed an improved form of loading coil which reduced loss and crosstalk in long-distance telephone lines. These were used until the end of the analogue telephony era. The same duo also invented an improved form of AC measurement bridge which became known as the Blumlein Bridge. These two inventions were the basis for Blumlein's first two patents.
+His inventions while working at STC resulted in another five patents, which were not awarded until after he left the company in 1929.
+
+
+=== Sound recording ===
+In 1929 Blumlein handed in his notice at STC and joined the Columbia Graphophone Company, where he reported directly to general manager Isaac Shoenberg.
+His first project was to find a method of disc cutting that circumvented a Bell patent in the Western Electric moving-iron cutting head then used, and on which substantial royalties had to be paid. He invented the moving-coil disc cutting head, which not only got around the patent but offered greatly improved sound quality. He led a small team which developed the concept into a practical cutter. The other principal team members were Herbert Holman and Henry "Ham" Clark. Their work resulted in several patents.
+Early in 1931, the Columbia Graphophone Company and the Gramophone Company merged and became EMI. New joint research laboratories were set up at Hayes and Blumlein was officially transferred there on 1 November the same year.
+During the early 1930s Blumlein and Herbert Holman developed a series of moving-coil microphones, which were used in EMI recording studios and by the BBC at Alexandra Palace.
+
+
+=== Ultra-linear amplifier ===
+In June 1937, Blumlein patented the Ultra-Linear amplifier (US Patent 2,218,902, dated 5 June 1937). A deceptively simple design, the circuit provided a tap on the primary winding of the output transformer to provide feedback to the second grid, which improved the amplifier's linearity. With the tap placed at the anode end of the primary winding, the tube (valve) could be connected as a triode, and if the tap was at the supply end, it could be connected as a pure pentode. Blumlein discovered that if the tap was placed at a distance 15–20% down from the supply end of the output transformer, the tube or valve would combine the positive features of both the triode and the pentode design.
+
+
+=== Long-tailed pair ===
+Blumlein may or may not have invented the long-tailed pair, but his name is on the first patent (1936). The long-tailed pair is a form of differential amplifier that has been popular since the days of the vacuum tube (valve). It is now more pervasive than ever, as it is particularly suitable for implementation in integrated circuit form, and almost every operational amplifier integrated circuit contains at least one.
+
+
+=== Stereophonic sound ===
+In 1931, Blumlein invented what he called "binaural sound", now known as stereophonic sound or simply "stereo".
+In early 1931, Blumlein and his wife were at a local cinema. The sound reproduction systems of the early "talkies" invariably only had a single set of speakers – which could lead to the somewhat disconcerting effect of the actor being on one side of the screen whilst his voice appeared to come from the other. Blumlein declared to his wife that he had found a way to make the sound follow the actor across the screen.
+The genesis of these ideas is uncertain, but he explained them to Isaac Shoenberg in the late summer of 1931. His earliest notes on the subject are dated 25 September 1931, and his patent had the title "Improvements in and relating to Sound-transmission, Sound-recording and Sound-reproducing Systems". The application was dated 14 December 1931, and was accepted on 14 June 1933 as UK patent number 394,325.
+The patent covered many ideas in stereo, some of which are used today and some not. Some 70 claims include:
+A "shuffling" circuit, which aimed to preserve the directional effect when sound from a spaced pair of microphones was reproduced via stereo headphones instead of a pair of loudspeakers
+The use of a coincident pair of velocity microphones with their axes at right angles to each other, which is still known as a "Blumlein Pair"
+Recording two channels in the single groove of a record using the two groove walls at right angles to each other and 45 degrees to the vertical
+A stereo disc-cutting head
+Using hybrid transformers to matrix between left and right signals and sum and difference signals
+Blumlein's binaural experiments began in early 1933, and the first stereo discs were cut later the same year. Much of the development work on this system for cinematic use was completed by 1935. In Blumlein's short test films (most notably, "Trains At Hayes Station", which lasts 5 minutes 11 seconds, and, "The Walking & Talking Film"), his original intent of having the sound follow the actor was fully realised.
+In 1934, Blumlein recorded Mozart's Jupiter Symphony conducted by Sir Thomas Beecham at Abbey Road Studios in London using his vertical-lateral technique.
+
+
+=== Television ===
+Television was developed by many individuals and companies throughout the 1920s and 1930s. Blumlein's contributions, as a member of the EMI team, started in earnest in 1933 when his boss, Isaac Shoenberg, assigned him full-time to TV research.
+His ideas included:
+Resonant flyback scanning (the use of a tuned circuit in the creation of a sawtooth deflection waveform). (British Patent No. 400976, application filed April 1932.)
+Use of constant-impedance network in power supplies to obtain voltage regulation independent of load frequency, extending down to DC (421546, filed 16 June 1933).
+Black-level clamping (422914, filed 11 July 1933 by Blumlein, Browne and Hardwick). This is an improved form of DC restoration, compared to the simple DC restorer (consisting of a capacitor, diode and resistor) which had been patented by Peter Willans three months earlier.
+The slot antenna. (515684, filed 7 March 1939.)
+Blumlein was also largely responsible for the development of the waveform structure used in the 405-line Marconi-EMI system – developed for the UK's BBC Television Service at Alexandra Palace, the world's first scheduled "high definition" (240 lines or better) television service – which was later adopted as the CCIR System A.
+
+
+=== H2S radar ===
+
+Blumlein was so central to the development of the H2S airborne radar system (to aid bomb targeting), that after his death in June 1942, many believed that the project would fail. However it survived and was a factor in shortening the Second World War. Blumlein's role in the project was a closely guarded secret at the time and consequently only a brief announcement of his death was made some two years later, to avoid providing solace to Hitler.
+His invention of the line type pulse modulator (ref vol 5 of MIT Radiation Laboratory series) was a major contribution to high-powered pulse radars, not just the H2S's system, and continues to be used today.
+
+
+== Death ==
+
+Blumlein was killed in the crash of an H2S-equipped Handley Page Halifax test aircraft while making a test flight for the Telecommunications Research Establishment (TRE) on 7 June 1942. During the flight from RAF Defford, whilst at an altitude of 500 ft the Halifax developed an engine fire which rapidly grew out of control. The aircraft was seen to lose altitude, then rolled inverted and struck the ground. The crash occurred near the village of Welsh Bicknor in Herefordshire.
+As the Halifax was carrying a highly-secret cavity magnetron as part of the H2S test system the immediate recovery of the device was essential, and a team led by Bernard Lovell arrived at the crash scene that same night, and the magnetron was quickly recovered.
+After the RAF investigative board completed its report on the Halifax crash on 1 July 1942, it was distributed to a restricted list of approved recipients, but not publicly divulged. In the interests of wartime secrecy, the announcement of Blumlein's death was not made for another three years. The investigative board, headed by AIB Chief Inspector Vernon Brown—who later also investigated the post-war Star Tiger and Star Ariel disappearances—found that the Halifax bomber crash was caused by engine fire, attributed to the unscrewing of a tappet nut on the starboard outer engine, which had been improperly tightened by an RAF engine fitter while inspecting the engine some three hours prior to the crash. The loosened nut caused excessive valve clearance and a fracture of the valve stem which resulted in pumping ignited fuel outboard of the rocker cover and along the outside of the engine, causing a fire in the engine nacelle. Constantly fuelled by the broken intake, the fire burned rapidly along the wing and fuselage, eventually causing a large section of the wing to separate from the fuselage at approximately 350 feet of altitude. With the loss of all control over level flight, the rest of the plane rolled inverted and struck the ground at approximately 150 mph. The board found that the crew and passengers had not jumped immediately from the aircraft owing to several factors, including a loss of altitude while attempting to find an emergency field, the rapidly spreading fire, which blocked or impeded egress from the plane, and the fact that a sufficient number of parachutes were either not on board or were not being worn. Almost immediately following the crash, Prime Minister Churchill issued a directive requiring any test flights with civilians or scientific personnel to carry a sufficient number of parachutes for all individuals involved.
+After the RAF investigative board completed its report on the Halifax crash, it was ordered to be kept secret by Prime Minister Churchill, and the cause of the crash was not revealed publicly, even to the relatives of the deceased. As a result, numerous unfounded rumours of German sabotage as the cause of the crash would circulate for many years afterwards.
+
+
+== Personal life ==
+Alan Blumlein had two sons, Simon Blumlein and David Blumlein, Headmaster Emeritus of a prep school in Ealing, London.
+Outside of his work Blumlein was a lover of music and he attempted to learn to play the piano, but gave it up. He enjoyed horse riding and occasionally went cub hunting with his father-in-law.
+He was interested in many forms of engineering, including aviation, motor engineering and railway engineering. He obtained a pilot's licence and flew Tiger Moth aircraft of the London Aerodrome Club at Stag Lane Aerodrome. On one occasion, he persuaded a bus driver to allow him to drive the vehicle from Penzance to Land's End. On another he spent several hours assisting the operator of a railway Signal box in his duties at Paddington Station.
+
+
+== Tributes ==
+Alan Blumlein Way is a road on the Tektronix campus in Beaverton, Oregon, in keeping with their policy of naming roads after those who made significant contributions to the knowledge and understanding in the field of electronics.
+A Blue Plaque commemorating Blumlein was erected in 1977 by the Greater London Council at his former home in Ealing.
+There continues to be a meeting room named the Blumlein Room in the Institution of Engineering and Technology (IET) headquarters at Savoy Place, following a major refurbishment in 2015.
+
+
+== See also ==
+Blumlein transmission line, used to create high-voltage pulses with short rise and fall times.
+
+
+== Notes ==
+
+
+== References ==
+Citations
+
+Bibliography
+Alexander, Robert Charles (1999). The Inventor of Stereo: The Life and Works of Alan Dower Blumlein. Focal Press. ISBN 0-240-51628-1. 
+Burns, Russell W (2000). The Life and Times of A. D. Blumlein. IEE History of Technology series. IEE. p. 2. ISBN 0-85296-773-X. 
+
+
+== External links ==
+The crashed Halifax aircraft V9977
+Blumlein page at AlanTuring.net
+Biography of Blumlein on IEEE Global History Network
+Binaural test records and manuscripts created by Alan Blumlein and his research team at EMI (British Library)

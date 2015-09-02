@@ -1,0 +1,203 @@
+Audio and video interfaces and connectors
+Audio connectors and video connectors are electrical connectors (or optical connectors) for carrying audio signal and video signal, of either analog or digital format. Analog A/V connectors often use shielded cables to inhibit radio frequency interference (RFI) and noise.
+The existence of many different audio and video standards necessitates the definition of hardware interfaces, which define the physical characteristics of the connections between electrical equipment. This includes the types and numbers of wires required along with the strength and frequency of the signal. It also includes the physical design of the plugs and sockets.
+An interface may define a connector that is used only by that interface (e.g., DVI) or may define a connector that is also used by another interface; for example, RCA connectors are defined both by the composite video and component video interfaces.
+Since both analog and digital signals are used with some styles of connectors, knowledge of the interface used is necessary for a successful transfer of signals. Some interface types use only a distinctive connector or family of connectors, to ensure compatibility. Especially with analog interfaces, physically interchangeable connectors may not carry compatible signals.
+Some of these connectors, and other types of connectors, are also used at radio frequency (RF) to connect a radio or television receiver to an antenna or to a cable system; RF connector applications are not further described here.
+
+
+== Interfaces and their connectors ==
+
+
+== Interfaces ==
+
+
+== Multiple signals ==
+Some connectors can carry both audio and video signals simultaneously:
+HDMI combines DVI-compliant uncompressed video data with compressed or uncompressed audio, and supports other protocols.
+FireWire is used on Camcorders, commonly ones using MiniDV tapes, and high-end audio equipment.
+Digital Media Port a connector proposed by Sony on its audio/video products
+DisplayPort carries digital audio and video, as well as auxiliary information
+Mini DisplayPort smaller form factor of display port that performs the same function
+Thunderbolt
+Unified Display Interface (UDI)
+Mobile High-Definition Link (MHL)
+F connectors are used with RF modulators for televisions without direct inputs
+SCART, now the most common in Europe
+TRS phone connectors with more than one ring, or Sony's hybrid RCA with a TRS pin
+Coaxial cable/RG-6/RG-59/Cable television (CATV)
+Other composite connectors that carry video, audio, power, and USB:
+ADC, now-defunct Apple Display Connector
+Apple 30-pin dock connector, a docking cradle for Apple iPod, iPhone and iPad
+Portable Digital Media Interface (PDMI) - includes DisplayPort for digital video and audio, analog audio, USB 3.0, and power
+
+
+=== S/PDIF ===
+The electrical coaxial cable (with RCA jacks) or optical fibre (TOSLINK).
+Note that there are no differences in the signals transmitted over optical or coaxial S/PDIF connectors—both carry exactly the same information. Selection of one over the other rests mainly on the availability of appropriate connectors on the chosen equipment and the preference and convenience of the user. Connections longer than 6 meters or so, or those requiring tight bends, should use coaxial cable, since the high light signal attenuation of TOSLINK cables limits its effective range.
+
+
+=== HDMI ===
+
+High-Definition Multimedia Interface (HDMI) is a compact audio/video standard for transmitting uncompressed digital data.
+There are three HDMI connector types. Type A and Type B were defined by the HDMI 1.0 specification. Type C was defined by the HDMI 1.3 specification.
+Type A is electrically compatible with single link DVI-D. Type B is electrically compatible with dual link DVI-D but has not yet been used in any products.
+
+
+=== IEEE 1394 "FireWire" ===
+
+IEEE 1394 FireWire is a digital data transfer protocol commonly used for digital cameras (common on MiniDV tape camcorders), but also used for computer data and audio data transfers. In the United States, cable TV converter set top boxes by law also have the connection for transferring content directly to a TV (if equipped with a port) or computer for viewing. 1394 can also use coaxial cable as a medium for longer runs.
+Unlike Point-to-Point connections listed above, IEEE 1394 is able to host several signals on the same wire, with the data delivered and shown on the destination set. It is also fully bi-directional, with its full bandwidth used in one direction or the other, or split directions up to its maximum.
+
+
+=== DisplayPort ===
+
+DisplayPort is a digital display interface standard (approved May 2006, current version 1.1a approved on January 11, 2008). It defines a new license-free, royalty-free, digital audio/video interconnect, intended to be used primarily between a computer and its display monitor, or a computer and a home-theater system.
+The video signal is not compatible with DVI or HDMI, but a DisplayPort connector can pass these signals through. DisplayPort is a competitor to the HDMI connector, the de facto digital connection for high-definition consumer electronics devices.
+
+
+=== Combined audio/video interfaces ===
+Some connectors can carry both audio and video signals simultaneously:
+Digital Media Port a connector proposed by Sony on its audio/video products
+Unified Display Interface (UDI)
+SCART, now the most common in Europe
+Other composite connectors that carry video, audio, power, and USB:
+ADC, now-defunct Apple Display Connector
+Apple 30-pin dock connector, a docking cradle for Apple iPod, iPhone and iPad
+Portable Digital Media Interface (PDMI) - includes DisplayPort for digital video and audio, analog audio, USB 3.0, and power
+
+
+== Audio connectors ==
+Audio connectors are used for audio frequencies. They can be analog or digital.
+Single-wire connectors used frequently for analog audio include:
+Banana connectors
+Spade connectors
+Five-way binding posts and banana plugs for loudspeakers
+Fahnestock clips on early breadboard radio receivers.
+Euroblock "European-style terminal block" or "Phoenix connectors", screw terminal connectors used for audio and control signals
+Multi-conductor connectors:
+DB25 is for multi-track recording and other multi-channel audio, analog or digital
+DIN connectors and mini-DIN connectors
+Euroblock "European-style terminal block" or "Phoenix connectors", screw terminal connectors used for audio and control signals
+RCA connectors, also known as phono connectors or phono plugs, used for analog or digital audio or analog video
+Speakon connectors by Neutrik for loudspeakers
+Phone connector also known as tip-ring-sleeve (TRS) or tip-sleeve plug, phone plug, jack plug, mini-jack, and mini-stereo. This includes the original 6.35mm (quarter inch) jack and the more recent and standard 3.5mm (miniature or 1/8 inch) and 2.5mm (subminiature) jacks, both mono and stereo (balanced) versions.
+XLR connectors, also known as Cannon plugs, used for analog or digital balanced audio with a balanced line
+
+Digital audio interfaces and interconnects:
+ADAT interface (DB25)
+AES/EBU interface, normally with XLR connector
+S/PDIF, either over electrical coaxial cable (with RCA jacks) or optical fiber (TOSLINK).
+
+
+=== Phone connector ===
+
+A phone connector (tip, ring, sleeve) also called an audio jack, phone plug, jack plug, stereo plug, mini-jack, or mini-stereo. This includes the original 6.35mm (quarter inch) jack and the more recent 3.5mm (miniature or 1/8 inch) and 2.5mm (subminiature) jacks, both mono and stereo versions.
+
+
+=== DIN ===
+
+A DIN connector is a connector that was originally standardized by the Deutsches Institut für Normung (DIN). Mini-DIN is a variation.
+
+
+=== BNC ===
+
+The BNC (Bayonet Neill Concelman) connector is a very common type of RF connector used for terminating coaxial cable.
+
+
+=== TOSLINK ===
+
+TOSLINK or Optical Cable is a standardized optical fiber connection system.
+
+
+=== XLR ===
+
+XLR connector plugs and sockets are used mostly in professional audio and video electronics cabling applications. XLR connector are also known as Cannon plugs after their original manufacturer. They are used for analog or digital balanced audio with a balanced line
+Digital audio interfaces and interconnects with the AES/EBU interface also normally use an XLR connector.
+
+
+=== RCA ===
+
+RCA connectors, also known as phono connectors or phono plugs, are used for analog or digital audio or analog video. These were first used inside pre-World-War-II radio-phonographs to connect the turntable pickup to the radio chassis. They were not intended to be disconnected and reconnected frequently, and their retaining friction was quite sufficient for their original purpose. Furthermore, the design of both cable and chassis connectors was for minimum cost. Initially intended for audio frequency connections only, the RCA plug was also used for analog composite video and non-critical radio-frequency applications.
+
+
+== Video connectors ==
+
+Video connectors carry only video signals. Common video-only connectors include:
+Component video aka YPbPr (3 RCA or BNC; or D-Terminal)
+Composite video (1 RCA, Antenna socket, or BNC)
+DB13W3 ("13W3" computer video connector)
+DMS-59, single connector carrying two DVI and two VGA
+Musa, British connector used in broadcasting and telecommunications
+PAL connector, common in Europe as an antenna connector
+S-Video (1 Mini-DIN)
+SDI - Broadcast grade digital interface over BNC cables
+VGA connector A type of D-sub connector standard on most video cards
+Mini-VGA Found on some laptop computers
+5 BNC Connectors can also be used to carry the VGA signal as R, G, B, HSync, VSync
+Digital Visual Interface (DVI) A hybrid analog/digital connector commonly found on PC graphics cards and LCD monitors
+Mini-DVI Found on some Apple laptops
+Enhanced Graphics Adapter (EGA)
+RGBI interface
+RGB interface
+VESA Digital Flat Panel
+
+
+=== Mini-DIN ===
+
+The Mini-DIN connectors are a family of multi-pin electrical connectors used in a variety of applications. Mini-DIN is similar to the larger, older DIN connector. Both are standards of the Deutsches Institut für Normung, the German standards body.
+
+
+=== D-subminiature ===
+
+D-subminiature or D-sub is a common type of electrical connector used particularly in computers. Calling them "subminiature" was appropriate when they were first introduced, but today they are among the largest common connectors used in computers. The DB25 is used for multi-track recording and other multi-channel audio, analog or digital (ADAT interface (DB25)).
+
+
+=== Video In Video Out ===
+
+Video In Video Out, usually seen as the acronym VIVO (commonly pronounced vee-voh), is a graphics card port which enables some video cards to have bidirectional (input and output) video transfer through a Mini-DIN, usually of the 9-pin variety, and a specialised splitter cable (which can sometimes also transfer sound).
+VIVO is found predominantly on high-end ATI video cards, although a few high-end NVIDIA video cards also have this port. VIVO on these graphics cards typically supports Composite, S-Video, and Component as outputs, and composite and S-Video as inputs. Many other video cards only support component and/or S-Video outputs to complement Video Graphics Array or DVI, typically using a component breakout cable and an S-Video cable.
+
+
+=== DVI Connector ===
+
+
+== Color codes ==
+
+
+=== Audio ===
+For computers:
+† Although the mic input is usually mono, the input is still a TRS phone socket. Many mono 'computer' mics are fitted with TRS plugs. The tip is for the MIC and the ring is for power (to power an electret-condenser style MIC).
+There are exceptions to the above:
+Hosa cables use grey and orange for left and right analogue channels.
+RadioShack cables sometimes use grey and black for left and right.
+Older sound cards had non-standard colour codes until after PC99, prior to that there were no colors at all.
+
+
+==== PC System Design Guide Audio ====
+Older sound cards had no common standard color codes until after PC99. The PC System Design Guide (also known as the PC 97, PC 98, PC 99, or PC 2001 specification) is a series of hardware design requirements and recommendations for IBM PC compatible personal computers, compiled by Microsoft and Intel Corporation during 1997–2001. PC 99 introduced a color code for the various standard types of plugs and connectors used on PCs.
+The color codes for audio plugs follow:
+† Though the input is often mono, the actual connector is usually still a 3-conductor TRS phone minijack. Many mono computer microphones have 3-conductor TRS plugs.
+
+
+=== Video ===
+Newer connectors are identified by their shape and not their colour.
+
+
+== See also ==
+Speaker wire
+Category:Telecommunications standards
+Computer port (hardware)
+Speakon connectors
+Y-cable
+
+
+== References ==
+^ http://www.1394ta.org/consumers/FCC_complaint.html All Cable TV box have working 1394 ports, FCC rule CS Docket 97-80" and "section 47 C.F.R. 76.640(b)(4)
+^ http://www.1394ta.org/about/HANA/HANA_Presentation_041808.pdf Demonstrating the multi-device capabilities of IEEE A/V network.
+^ 2.5mm Audio Cables
+^ PC 99 System Design Guide, Intel Corporation and Microsoft Corporation, 14 July 1999. Chapter 3: PC 99 basic requirements (99 System Design Guide (Self extracting .exe). Requirement 3.18.3: Systems use a color-coding scheme for connectors and ports. Accessed 2009-02-05
+
+
+== External links ==
+Audio and Video Connector

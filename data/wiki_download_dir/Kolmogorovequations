@@ -1,0 +1,24 @@
+Kolmogorov equations
+In probability theory, Kolmogorov equations, including Kolmogorov forward equations and Kolmogorov backward equations, characterize random dynamic processes. Suppose we have a complete statistical description of a stochastic process x(t) and know some transformation (for example, velocity ) which defines a new process y(t) related to x(t). Then the Kolmogorov equations are a means for determining features of the stochastic process y(t).
+
+
+== Diffusion Processes vs. Jump Processes ==
+Writing in 1931, Andrei Kolmogorov started from the theory of discrete time Markov processes, which are described by the Chapman-Kolmogorov equation, and sought to derive a theory of continuous time Markov processes by extending this equation. He found that there are two kinds of continuous time Markov Processes, depending on the assumed behavior over small intervals of time:
+If you assume that "in a small time interval there is an overwhelming probability that the state will remain unchanged; however, if it changes, the change may be radical", then you are led to what are called jump processes.
+The other case leads to processes such as those "represented by diffusion and by Brownian motion; there it is certain that some change will occur in any time interval, however small; only, here it is certain that the changes during small time intervals will be also small".
+For each of these two kinds of processes, Kolmogorov derived a forward and a backward system of equations (four in all).
+
+
+== Kolmogorov equations: the modern view ==
+In the context of a continuous-time Markov process with jumps, see Kolmogorov equations (Markov jump process). In particular in natural sciences the forward equations are also known as master equations.
+In the context of a diffusion process, for the backward Kolmogorov equations see Kolmogorov backward equations (diffusion). The forward Kolmogorov equation are also known as Fokker–Planck equation.
+
+
+== History ==
+The equations are named after Andrei Kolmogorov since they were highlighted in his 1931 foundational work.
+William Feller referred to the equations for the jump process as Kolmogorov's equations. He later gave the names forward equation and backward equation to his more general version of the equations and used the same names as nicknames for each member of Kolmogorov's pair, while he referred to the diffusion equations as "forward" and "backward" Fokker–Planck equation.
+Much later, by 1957, Feller referred to the equations for the jump process as Kolmogorov forward equations and Kolmogorov backward equations.
+Other authors, such as Motoo Kimura referred to the diffusion (Fokker–Planck) equation as Kolmogorov forward equation, a name that has persisted.
+
+
+== References ==

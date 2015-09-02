@@ -1,0 +1,82 @@
+Motor controller
+A motor controller is a device or group of devices that serves to govern in some predetermined manner the performance of an electric motor. A motor controller might include a manual or automatic means for starting and stopping the motor, selecting forward or reverse rotation, selecting and regulating the speed, regulating or limiting the torque, and protecting against overloads and faults.
+
+
+== Applications ==
+Every electric motor has to have some sort of controller. The motor controller will have differing features and complexity depending on the task that the motor will be performing.
+The simplest case is a switch to connect a motor to a power source, such as in small appliances or power tools. The switch may be manually operated or may be a relay or contactor connected to some form of sensor to automatically start and stop the motor. The switch may have several positions to select different connections of the motor. This may allow reduced-voltage starting of the motor, reversing control or selection of multiple speeds. Overload and over current protection may be omitted in very small motor controllers, which rely on the supplying circuit to have over current protection. Small motors may have built-in overload devices to automatically open the circuit on overload. Larger motors have a protective overload relay or temperature sensing relay included in the controller and fuses or circuit breakers for over current protection. An automatic motor controller may also include limit switches or other devices to protect the driven machinery.
+More complex motor controllers may be used to accurately control the speed and torque of the connected motor (or motors) and may be part of closed loop control systems for precise positioning of a driven machine. For example, a numerically controlled lathe will accurately position the cutting tool according to a preprogrammed profile and compensate for varying load conditions and perturbing forces to maintain tool position.
+
+
+== Types of motor controller ==
+Motor controllers can be manually, remotely or automatically operated. They may include only the means for starting and stopping the motor or they may include other functions.
+An electric motor controller can be classified by the type of motor it is to drive such as permanent magnet, servo, series, separately excited, and alternating current.
+A motor controller is connected to a power source such as a battery pack or power supply, and control circuitry in the form of analog or digital input signals.
+
+
+=== Motor starters ===
+
+A small motor can be started by simply plugging it into an electrical receptacle or by using a switch or circuit breaker. A larger motor requires a specialized switching unit called a motor starter or motor contactor. When energized, a direct on line (DOL) starter immediately connects the motor terminals directly to the power supply. Reduced-voltage, star-delta or soft starters connect the motor to the power supply through a voltage reduction device and increases the applied voltage gradually or in steps. In smaller sizes a motor starter is a manually operated switch; larger motors, or those requiring remote or automatic control, use magnetic contactors. Very large motors running on medium voltage power supplies (thousands of volts) may use power circuit breakers as switching elements.
+A direct on line (DOL) or across the line starter applies the full line voltage to the motor terminals, the starters or cubicle locations, can usually be found on an ELO drawing. This is the simplest type of motor starter. A DOL motor starter also contains protection devices, and in some cases, condition monitoring. Smaller sizes of direct on-line starters are manually operated; larger sizes use an electromechanical contactor (relay) to switch the motor circuit. Solid-state direct on line starters also exist.
+A direct on line starter can be used if the high inrush current of the motor does not cause excessive voltage drop in the supply circuit. The maximum size of a motor allowed on a direct on line starter may be limited by the supply utility for this reason. For example, a utility may require rural customers to use reduced-voltage starters for motors larger than 10 kW.
+DOL starting is sometimes used to start small water pumps, compressors, fans and conveyor belts. In the case of an asynchronous motor, such as the 3-phase squirrel-cage motor, the motor will draw a high starting current until it has run up to full speed. This starting current is typically 6-7 times greater than the full load current. To reduce the inrush current, larger motors will have reduced-voltage starters or variable speed drives in order to minimise voltage dips to the power supply.
+A reversing starter can connect the motor for rotation in either direction. Such a starter contains two DOL circuits—one for clockwise operation and the other for counter-clockwise operation, with mechanical and electrical interlocks to prevent simultaneous closure. For three phase motors, this is achieved by swapping the wires connecting any two phases. Single phase AC motors and direct-current motors require additional devices for reversing rotation.
+
+
+=== Reduced voltage starters ===
+Two or more contactors may be used to provide reduced voltage starting of a motor. By using an autotransformer or a series inductance, a lower voltage is present at the motor terminals, reducing starting torque and inrush current. Once the motor has come up to some fraction of its full-load speed, the starter switches to full voltage at the motor terminals. Since the autotransformer or series reactor only carries the heavy motor starting current for a few seconds, the devices can be much smaller compared to continuously rated equipment. The transition between reduced and full voltage may be based on elapsed time, or triggered when a current sensor shows the motor current has begun to reduce. An autotransformer starter was patented in 1908.
+
+
+=== Adjustable-speed drives ===
+
+An adjustable-speed drive (ASD) or variable-speed drive (VSD) is an interconnected combination of equipment that provides a means of driving and adjusting the operating speed of a mechanical load. An electrical adjustable-speed drive consists of an electric motor and a speed controller or power converter plus auxiliary devices and equipment. In common usage, the term “drive” is often applied to just the controller. Most modern ASDs and VSDs can also implement soft motor starting. 
+
+
+=== Intelligent controllers ===
+An Intelligent Motor Controller (IMC) uses a microprocessor to control power electronic devices used for motor control. IMCs monitor the load on a motor and accordingly match motor torque to motor load. This is accomplished by reducing the voltage to the AC terminals and at the same time lowering current and kvar. This can provide a measure of energy efficiency improvement for motors that run under light load for a large part of the time, resulting in less heat, noise, and vibrations generated by the motor.
+
+
+== Overload relays ==
+A starter will contain protective devices for the motor. At a minimum this would include a thermal overload relay. The thermal overload is designed to open the starting circuit and thus cut the power to the motor in the event of the motor drawing too much current from the supply for an extended time. The overload relay has a normally closed contact which opens due to heat generated by excessive current flowing through the circuit. Thermal overloads have a small heating device that increases in temperature as the motor running current increases.
+There are two types of thermal overload relay. In one type, a bi-metallic strip located close to a heater deflects as the heater temperature rises until it mechanically causes the device to trip and open the circuit, cutting power to the motor should it become overloaded. A thermal overload will accommodate the brief high starting current of a motor while accurately protecting it from a running current overload. The heater coil and the action of the bi-metallic strip introduce a time delay that affords the motor time to start and settle into normal running current without the thermal overload tripping. Thermal overloads can be manually or automatically resettable depending on their application and have an adjuster that allows them to be accurately set to the motor run current.
+A second type of thermal overload relay uses a eutectic alloy, like a solder, to retain a spring-loaded contact. When too much current passes through the heating element for too long a time, the alloy melts and the spring releases the contact, opening the control circuit and shutting down the motor. Since eutectic alloy elements are not adjustable, they are resistant to casual tampering but require changing the heater coil element to match the motor rated current.
+Electronic digital overload relays containing a microprocessor may also be used, especially for high-value motors. These devices model the heating of the motor windings by monitoring the motor current. They can also include metering and communication functions.
+
+
+== Loss of voltage protection ==
+Starters using magnetic contactors usually derive the power supply for the contactor coil from the same source as the motor supply. An auxiliary contact from the contactor is used to maintain the contactor coil energized after the start command for the motor has been released. If a momentary loss of supply voltage occurs, the contactor will open and not close again until a new start command is given. this prevents restarting of the motor after a power failure. This connection also provides a small degree of protection against low power supply voltage and loss of a phase. However since contactor coils will hold the circuit closed with as little as 80% of normal voltage applied to the coil, this is not a primary means of protecting motors from low voltage operation.
+
+
+== Servo controllers ==
+
+Servo controllers are a wide category of motor control. Common features are:
+precise closed loop position control
+fast acceleration rates
+precise speed control Servo motors may be made from several motor types, the most common being:
+brushed DC motor
+brushless DC motors
+AC servo motors
+
+Servo controllers use position feedback to close the control loop. This is commonly implemented with encoders, resolvers, and Hall effect sensors to directly measure the rotor's position.
+Other position feedback methods measure the back EMF in the undriven coils to infer the rotor position, or detect the Kick-Back voltage transient (spike) that is generated whenever the power to a coil is instantaneously switched off. These are therefore often called "sensorless" control methods.
+A servo may be controlled using pulse-width modulation (PWM). How long the pulse remains high (typically between 1 and 2 milliseconds) determines where the motor will try to position itself. Another control method is pulse and direction.
+
+
+== Stepper motor controllers ==
+
+A stepper, or stepping, motor is a synchronous, brushless, high pole count, polyphase motor. Control is usually, but not exclusively, done open loop, i.e. the rotor position is assumed to follow a controlled rotating field. Because of this, precise positioning with steppers is simpler and cheaper than closed loop controls.
+Modern stepper controllers drive the motor with much higher voltages than the motor nameplate rated voltage, and limit current through chopping. The usual setup is to have a positioning controller, known as an indexer, sending step and direction pulses to a separate higher voltage drive circuit which is responsible for commutation and current limiting.
+
+
+== World record ==
+In 2008 a new world record was set. Researchers at the ETH Zurich in collaboration with the German companies ATE GmbH (motor manufacturer) and myonic GmbH (ball bearing manufacturer) developed a new electrical drive system with 1 million revolutions per minute. This is the highest rotational speed achieved by an electrical drive system so far. Today, the applied technologies are further developed and distributed by the Swiss high-tech company Celeroton AG.
+
+
+== References ==
+
+"Dallas Personal Robotics Group". Brief H-Bridge Theory of Operation. Retrieved July 7, 2005. 
+Links to manufacturers, associations, and other resources.
+
+
+== See also ==
+Motor control center (MCC)

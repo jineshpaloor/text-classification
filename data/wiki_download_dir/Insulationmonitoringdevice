@@ -1,0 +1,11 @@
+Insulation monitoring device
+An insulation monitoring device monitors the ungrounded system between an active phase conductor and earth. It is intended to give an alert (light and sound) or disconnect the power supply when the resistance between the two conductors drops below a set value, usually 50 kΩ (sample of IEC standard for medical applications). The main advantage is that the ungrounded or floating system allows a continuous operation of important consumers such as medical, chemical, military, etc.
+Some manufacturers of monitors for these systems are capable of handling VFDs (Variable Frequency (Speed) Drives). Most, however are not due to issues with the DC-portions of the VFDs.
+Most monitors work by injecting low level dc on the line and detecting. Some manufacturers use a patented AMP-monitoring principle (Adapted Measuring Pulse)
+
+
+== Further reading ==
+IEC 61557-8 Electrical safety in low voltage distribution systems up to 1 000 V a.c. and 1 500 V d.c. – Equipment for testing, measuring or monitoring of protective measures – Part 8: Insulation monitoring devices for IT systems
+Electrical Safety on Ships, Offshore and Onshore
+The IT earthing system (unearthed neutral) in LV
+Ungrounded Power Supply Systems in Medical Sites

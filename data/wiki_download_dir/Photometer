@@ -1,0 +1,77 @@
+Photometer
+A photometer, generally, is an instrument that measures light intensity or optical properties of solutions or surfaces. Photometers measure:
+Illuminance
+Irradiance
+Light absorption
+Scattering of light
+Reflection of light
+Fluorescence
+Phosphorescence
+Luminescence
+
+
+== History ==
+Before electronic light sensitive elements were developed, photometry was done by estimation by the eye. The relative luminous flux of a source was compared with a standard source. The photometer is placed such that the illuminance from the source being investigated is equal to the standard source, as the human eye can judge equal illuminance. The relative luminous fluxes can then be calculated as the illuminance decreases proportionally to the inverse square of distance. A standard example of such a photometer consists of a piece of paper with an oil spot on it that makes the paper slightly more transparent. When the spot is not visible from either side, the illuminance from the two sides is equal.
+By 1861, three types were in common use. These were Rumford's photometer, Ritchie's photometer, and photometers that used the extinction of shadows, which was considered to be the most precise.
+
+
+== Principle of photometers ==
+Most photometers detect the light with photoresistors, photodiodes or photomultipliers. To analyze the light, the photometer may measure the light after it has passed through a filter or through a monochromator for determination at defined wavelengths or for analysis of the spectral distribution of the light.
+
+
+== Photon counting ==
+
+Some photometers measure light by counting individual photons rather than incoming flux. The operating principles are the same but the results are given in units such as photons/cm2 or photons·cm−2·sr−1 rather than W/cm2 or W·cm−2·sr−1.
+Due to their individual photon counting nature, these instruments are limited to observations where the irradiance is low. The irradiance is limited by the time resolution of its associated detector readout electronics. With current technology this is in the megahertz range. The maximum irradiance is also limited by the throughput and gain parameters of the detector itself.
+The light sensing element in photon counting devices in NIR, visible and ultraviolet wavelengths is a photomultiplier to achieve sufficient sensitivity.
+In airborne and space-based remote sensing such photon counters are used at the upper reaches of the electromagnetic spectrum such as the X-ray to far ultraviolet. This is usually due to the lower radiant intensity of the objects being measured as well as the difficulty of measuring light at higher energies using its particle-like nature as compared to the wavelike nature of light at lower frequencies. Conversely, radiometers are typically used for remote sensing from the visible, infrared though radio frequency range.
+
+
+== Photography ==
+
+Photometers are used to determine the correct exposure in photography. In modern cameras, the photometer is usually built in. As the illumination of different parts of the picture varies, advanced photometers measure the light intensity in different parts of the potential picture and use an algorithm to determine the most suitable exposure for the final picture, adapting the algorithm to the type of picture intended (see Metering mode). Historically, a photometer was separate from the camera and known as an exposure meter. The advanced photometers then could be used either to measure the light from the potential picture as a whole, to measure from elements of the picture to ascertain that the most important parts of the picture are optimally exposed, or to measure the incident light to the scene with an integrating adapter.
+
+
+== Visible light reflectance photometry ==
+A reflectance photometer measures the reflectance of a surface as a function of wavelength. The surface is illuminated with white light, and the reflected light is measured after passing through a monochromator. This type of measurement has mainly practical applications, for instance in the paint industry to characterize the colour of a surface objectively.
+
+
+== UV and visible light transmission photometry ==
+
+These are optical instruments for measurement of the absorption of light of a given wavelength (or a given range of wavelengths) of coloured substances in solution. From the light absorption, Beer's law makes it possible to calculate the concentration of the coloured substance in the solution. Due to its wide range of application and its reliability and robustness, the photometer has become one of the principal instruments in biochemistry and analytical chemistry. Absorption photometers for work in aqueous solution work in the ultraviolet and visible ranges, from wavelength around 240 nm up to 750 nm.
+The principle of spectrophotometers and filter photometers is that (as far as possible) monochromatic light is allowed to pass through a container (cell) with optically flat windows containing the solution. It then reaches a light detector, that measures the intensity of the light compared to the intensity after passing through an identical cell with the same solvent but without the coloured substance. From the ratio between the light intensities, knowing the capacity of the coloured substance to absorb light (the absorbency of the coloured substance, or the photon cross section area of the molecules of the coloured substance at a given wavelength), it is possible to calculate the concentration of the substance using Beer's law.
+Two types of photometers are used: spectrophotometer and filter photometer. In spectrophotometers a monochromator (with prism or with grating) is used to obtain monochromatic light of one defined wavelength. In filter photometers, optical filters are used to give the monochromatic light. Spectrophotometers can thus easily be set to measure the absorbance at different wavelengths, and they can also be used to scan the spectrum of the absorbing substance. They are in this way more flexible than filter photometers, also give a higher optical purity of the analyzing light, and therefore they are preferably used for research purposes. Filter photometers are cheaper, robuster and easier to use and therefore they are used for routine analysis. Photometers for microtiter plates are filter photometers.
+
+
+== Infrared light transmission photometry ==
+
+Spectrophotometry in infrared light is mainly used to study structure of substances, as given groups give absorption at defined wavelengths. Measurement in aqueous solution is generally not possible, as water absorbs infrared light strongly in some wavelength ranges. Therefore, infrared spectroscopy is either performed in the gaseous phase (for volatile substances) or with the substances pressed into tablets together with salts that are transparent in the infrared range. Potassium bromide (KBr) is commonly used for this purpose. The substance being tested is thoroughly mixed with specially purified KBr and pressed into a transparent tablet, that is placed in the beam of light. The analysis of the wavelength dependence is generally not done using a monochromator as it is in UV-Vis, but with the use of an interferometer. The interference pattern can be analyzed using a Fourier transform algorithm. In this way, the whole wavelength range can be analyzed simultaneously, saving time, and an interferometer is also less expensive than a monochromator. The light absorbed in the infrared region does not correspond to electronic excitation of the substance studied, but rather to different kinds of vibrational excitation. The vibrational excitations are characteristic of different groups in a molecule, that can in this way be identified. The infrared spectrum typically has very narrow absorption lines, which makes them unsuited for quantitative analysis but gives very detailed information about the molecules. The frequencies of the different modes of vibration varies with isotope, and therefore different isotopes give different peaks. This makes it possible also to study the isotopic composition of a sample with infrared spectrophotometry.
+
+
+== Atomic absorption photometry ==
+
+Atomic absorption photometers are photometers that measure the light from a very hot flame. The solution to be analyzed is injected into the flame at a constant, known rate. Metals in the solution are present in atomic form in the flame. The monochromatic light in this type of photometer is generated by a discharge lamp where the discharge takes place in a gas with the metal to be determined. The discharge then emits light with wavelengths corresponding to the spectral lines of the metal. A filter may be used to isolate one of the main spectral lines of the metal to be analyzed. The light is absorbed by the metal in the flame, and the absorption is used to determine the concentration of the metal in the original solution.
+
+
+== Rumford's photometer ==
+
+Rumford's photometer (also called a shadow photometer) depended on the principle that a brighter light would cast a deeper shadow. The two lights to be compared were used to cast a shadow onto paper. If the shadows were of the same depth, the difference in distance of the lights would indicate the difference in intensity (e.g. a light twice as far would be four times the intensity).
+
+
+== Ritchie's photometer ==
+
+Ritchie's photometer depended on equal illumination of surfaces. It consisted of a box (a,b) six or eight inches long, and one in width and depth. In the middle, a wedge of wood (f,e,g) was angled upwards and covered with white paper. The user's eye looked through a tube (d) at the top of a box. The height of the apparatus was also adjustable via the stand (c). The lights to compare were placed at the side of the box (m, n)—which illuminated the paper surfaces so that the eye saw both surfaces at once. By changing the position of the lights, they were made to illuminate both surfaces equally, with the difference in intensity corresponding to the square of the difference in distance.
+
+
+== Method of extinction of shadows ==
+This type of photometer depended on the fact that if a light throws the shadow of an opaque object onto a white screen, there is a certain distance that, if a second light is brought there, obliterates all traces of the shadow.
+
+
+== References ==
+
+
+== See also ==
+Radiometry
+Raman spectroscopy
+Photodetector – A transducer capable of accepting an optical signal and producing an electrical signal containing the same information as in the optical signal.
+Article partly based on the corresponding article in Swedish Wikipedia

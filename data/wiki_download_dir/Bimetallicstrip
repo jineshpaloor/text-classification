@@ -1,0 +1,58 @@
+Bimetallic strip
+A bimetallic strip is used to convert a temperature change into mechanical displacement. The strip consists of two strips of different metals which expand at different rates as they are heated, usually steel and copper, or in some cases steel and brass. The strips are joined together throughout their length by riveting, brazing or welding. The different expansions force the flat strip to bend one way if heated, and in the opposite direction if cooled below its initial temperature. The metal with the higher coefficient of thermal expansion is on the outer side of the curve when the strip is heated and on the inner side when cooled
+The sideways displacement of the strip is much larger than the small lengthways expansion in either of the two metals. This effect is used in a range of mechanical and electrical devices. In some applications the bimetal strip is used in the flat form. In others, it is wrapped into a coil for compactness. The greater length of the coiled version gives improved sensitivity.
+
+
+== History ==
+
+The earliest surviving bimetallic strip was made by the eighteenth-century clockmaker John Harrison who is generally credited with its invention. He made it for his third marine chronometer (H3) of 1759 to compensate for temperature-induced changes in the balance spring. It should not be confused with his bimetallic mechanism for correcting for thermal expansion in the gridiron pendulum. His earliest examples had two individual metal strips joined by rivets but he also invented the later technique of directly fusing molten brass onto a steel substrate. A strip of this type was fitted to his last timekeeper, H5. Harrison's invention is recognized in the memorial to him in Westminster Abbey, England.
+
+
+== Applications ==
+
+
+=== Clocks ===
+Mechanical clock mechanisms are sensitive to temperature changes which lead to errors in time keeping. A bimetallic strip is used to compensate for this in some mechanisms. The most common method is to use a bimetallic construction for the circular rim of the balance wheel. As the spring controlling the balance becomes weaker with increasing temperature, so the balance becomes smaller in diameter to keep the period of oscillation (and hence timekeeping) constant.
+
+
+=== Thermostats ===
+
+In the regulation of heating and cooling, thermostats that operate over a wide range of temperatures are used. In these, one end of the bimetallic strip is mechanically fixed and attached to an electrical power source, while the other (moving) end carries an electrical contact. In adjustable thermostats another contact is positioned with a regulating knob or lever. The position so set controls the regulated temperature, called the set point.
+
+Some thermostats use a mercury switch connected to both electrical leads. The angle of the entire mechanism is adjustable to control the set point of the thermostat.
+Depending upon the application, a higher temperature may open a contact (as in a heater control) or it may close a contact (as in a refrigerator or air conditioner).
+The electrical contacts may control the power directly (as in a household iron) or indirectly, switching electrical power through a relay or the supply of natural gas or fuel oil through an electrically operated valve. In some natural gas heaters the power may be provided with a thermocouple that is heated by a pilot light (a small, continuously burning, flame). In devices without pilot lights for ignition (as in most modern gas clothes dryers and some natural gas heaters and decorative fireplaces) the power for the contacts is provided by reduced household electrical power that operates a relay controlling an electronic ignitor, either a resistance heater or an electrically powered spark generating device.
+
+
+=== Thermometers ===
+A direct indicating dial thermometer (such as a patio thermometer or a meat thermometer) uses a bimetallic strip wrapped into a coil. One end of the coil is fixed to the housing of the device and the other drives an indicating needle. A bimetallic strip is also used in a recording thermometer. Breguet's thermometer consists of a tri-metallic helix.
+
+
+=== Heat engines ===
+Simple toys have been built which demonstrate how the principle can be used to drive a heat engine.
+
+
+=== Electrical devices ===
+Bimetal strips are used in miniature circuit breakers to protect circuits from excess current. A coil of wire is used to heat a bimetal strip, which bends and operates a linkage that unlatches a spring-operated contact. This interrupts the circuit and can be reset when the bimetal strip has cooled down.
+Bimetal strips are also used in time-delay relays, lamp flashers, and fluorescent lamp starters. In some devices the current running directly through the bimetal strip is sufficient to heat it and operate contacts directly.
+
+
+== Calculations ==
+Curvature of a Bimetallic Beam:
+
+Where  and  are the Young's Modulus and height of Material One and  and  are the Young's Modulus and height of Material Two.  is the misfit strain, calculated by:
+
+Where α1 is the Coefficient of Thermal Expansion of Material One and α2 is the Coefficient of Thermal Expansion of Material Two. ΔT is the current temperature minus the reference temperature (the temperature where the beam has no flexure).
+
+
+== See also ==
+
+
+== Notes ==
+^ Sobel, Dava (1995). Longitude. London: Fourth Estate. p. 103. ISBN 0-00-721446-4. One of the inventions Harrison introduced in H-3... is called... a bi-metallic strip. 
+^ Clyne, TW. “Residual stresses in surface coatings and their effects on interfacial debonding.” Key Engineering Materials (Switzerland). Vol. 116-117, pp. 307-330. 1996
+^ Timoshenko, J. Opt. Soc. Am. 11, 233 (1925)
+
+
+== External links ==
+Video of a circular bimetalic wire powering a small motor with iced water. Accessed February 2011.

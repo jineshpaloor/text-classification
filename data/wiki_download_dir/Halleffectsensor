@@ -1,0 +1,79 @@
+Hall effect sensor
+A Hall effect sensor is a transducer that varies its output voltage in response to a magnetic field. Hall effect sensors are used for proximity switching, positioning, speed detection, and current sensing applications.
+In its simplest form, the sensor operates as an analog transducer, directly returning a voltage. With a known magnetic field, its distance from the Hall plate can be determined. Using groups of sensors, the relative position of the magnet can be deduced.
+Frequently, a Hall sensor is combined with circuitry that allows the device to act in a digital (on/off) mode, and may be called a switch in this configuration. Commonly seen in industrial applications such as the pictured pneumatic cylinder, they are also used in consumer equipment; for example some computer printers use them to detect missing paper and open covers. When high reliability is required, they are used in keyboards.
+Hall sensors are commonly used to time the speed of wheels and shafts, such as for internal combustion engine ignition timing, tachometers and anti-lock braking systems. They are used in brushless DC electric motors to detect the position of the permanent magnet. In the pictured wheel with two equally spaced magnets, the voltage from the sensor will peak twice for each revolution. This arrangement is commonly used to regulate the speed of disk drives.
+
+
+== Hall probe ==
+A Hall probe contains an indium compound semiconductor crystal such as indium antimonide, mounted on an aluminum backing plate, and encapsulated in the probe head. The plane of the crystal is perpendicular to the probe handle. Connecting leads from the crystal are brought down through the handle to the circuit box.
+When the Hall probe is held so that the magnetic field lines are passing at right angles through the sensor of the probe, the meter gives a reading of the value of magnetic flux density (B). A current is passed through the crystal which, when placed in a magnetic field has a "Hall effect" voltage developed across it. The Hall effect is seen when a conductor is passed through a uniform magnetic field. The natural electron drift of the charge carriers causes the magnetic field to apply a Lorentz force (the force exerted on a charged particle in an electromagnetic field) to these charge carriers. The result is what is seen as a charge separation, with a buildup of either positive or negative charges on the bottom or on the top of the plate. The crystal measures 5 mm square. The probe handle, being made of a non-ferrous material, has no disturbing effect on the field.
+A Hall probe should be calibrated against a known value of magnetic field strength. For a solenoid the Hall probe is placed in the center.
+
+
+== Working principle ==
+When a beam of charged particles passes through a magnetic field, forces act on the particles and the beam is deflected from a straight path. The flow of electrons through a conductor is known as a beam of charged carriers. When a conductor is placed in a magnetic field perpendicular to the direction of the electrons, they will be deflected from a straight path. As a consequence, one plane of the conductor will become negatively charged and the contrary side will become positively charged. The voltage between these planes is called Hall voltage.
+When the force on the charged particles from the electric field balances the force produced by magnetic field, the separation of them will stop. If the current is not changing, then the Hall voltage is a measure of the magnetic flux density. Basically, there are two kinds of Hall effect sensors. One is linear which means the output of voltage linearly depends on magnetic flux density; the other is called threshold which means there will be a sharp decrease of output voltage at each magnetic flux density.
+
+
+== Materials for Hall effect sensors ==
+The key factor determining sensitivity of Hall effect sensors is high electron mobility. As a result following materials are especially suitable for Hall effect sensors:
+gallium arsenide (GaAs)
+indium arsenide (InAs)
+indium phosphide (InP)
+indium antimonide (InSb)
+graphene 
+
+
+== Signal processing and interface ==
+Hall effect sensors are linear transducers. As a result such sensors require a linear circuit for processing of the sensor's output signal. Such a linear circuit:
+provides a constant driving current to the sensors
+amplifies the output signal
+In some cases the linear circuit may cancel the offset voltage of Hall effect sensors. Moreover, AC modulation of the driving current may also reduce the influence of this offset voltage.
+Hall effect sensors with linear transducers are commonly integrated with digital electronics. This enables advanced corrections of the sensor's characteristics (e.g. temperature coefficient corrections) and digital interfacing to microprocessor systems. In some solutions of IC Hall effect sensors a DSP is used, which provides for more choices among processing techniques.
+The Hall effect sensor interfaces may include input diagnostics, fault protection for transient conditions, and short/open circuit detection. It may also provide and monitor the current to the Hall effect sensor itself. There are precision IC products available to handle these features.
+
+
+== Advantages ==
+A Hall effect sensor may operate as an electronic switch.
+Such a switch costs less than a mechanical switch and is much more reliable.
+It can be operated up to 100 kHz.
+It does not suffer from contact bounce because a solid state switch with hysteresis is used rather than a mechanical contact.
+It will not be affected by environmental contaminants since the sensor is in a sealed package. Therefore it can be used under severe conditions.
+In the case of linear sensor (for the magnetic field strength measurements), a Hall effect sensor:
+can measure a wide range of magnetic fields
+is available that can measure either North or South pole magnetic fields
+can be flat
+
+
+== Disadvantages ==
+Hall effect sensors provide much lower measuring accuracy than fluxgate magnetometers or magnetoresistance-based sensors. Moreover, Hall effect sensors drift significantly, requiring compensation.
+
+
+== Applications ==
+
+
+=== Position sensing ===
+Sensing the presence of magnetic objects (connected with the position sensing) is the most common industrial application of Hall effect sensors, especially those operating in the switch mode (on/off mode). The Hall effect sensors are also used in the brushless DC motor to sense the position of the rotor and to switch the transistors in the right sequence.
+Smartphones use hall sensors to determine if the Flip Cover accessory is closed.
+
+
+=== DC current transformers ===
+Hall effect sensors may be utilized for contactless measurements of DC current in current transformers. In such a case the Hall effect sensor is mounted in the gap in magnetic core around the current conductor. As a result, the DC magnetic flux can be measured, and the DC current in the conductor can be calculated. The Hall effect was used to detect DC current in a superconducting DC transformer ref. "A Superconducting DC Transformer", a thesis presented to the faculty of the College of Engineering of the University of Cincinnati by Dale Arthur Nieman, 1964.
+
+
+=== Automotive fuel level indicator ===
+The Hall sensor is used in some automotive fuel level indicators. The main principle of operation of such indicator is position sensing of a floating element. This can either be done by using a vertical float magnet or a rotating lever sensor.
+In a vertical float system a permanent magnet is mounted on the surface of a floating object. The current carrying conductor is fixed on the top of the tank lining up with the magnet. When the level of fuel rises, an increasing magnetic field is applied on the current resulting in higher Hall voltage. As the fuel level decreases, the Hall voltage will also decrease. The fuel level is indicated and displayed by proper signal condition of Hall voltage.
+In a rotating lever sensor a diametrically magnetized ring magnet rotates about a linear hall sensor. The sensor only measures the perpendicular (vertical) component of the field. The strength of the field measured correlates directly to the angle of the lever and thus the level of the fuel tank.
+
+
+=== Keyboard Switch ===
+Developed by Everett A. Vorthmann and Joeseph T. Maupin for Micro Switch (a division of Honeywell) in 1969, the switch was known to still be in production until as late as 1990. The switch is one of the highest quality keyboard switches ever produced, with reliability being the main aim of the design. The key-switches have been tested to have a lifetime of over 30 billion keypresses, the switch also has dual open-collector outputs for reliability. The Honeywell Hall Effect switch is most famous used in the Space-cadet keyboard, a keyboard used on LISP machines.
+
+
+== References ==
+
+
+== Further reading ==
+A. Baumgartner et al., "Classical Hall effect in scanning gate experiments", Phys. Rev. B, 74, 165426 (2006), doi:10.1103/PhysRevB.74.165426

@@ -1,0 +1,38 @@
+Video processing
+In electronics engineering, video processing is a particular case of signal processing, which often employs video filters and where the input and output signals are video files or video streams. Video processing techniques are used in television sets, VCRs, DVDs, video codecs, video players, video scalers and other devices. For example—commonly only design and video processing is different in TV sets of different manufactures.
+
+
+== Video processor ==
+Video processors are often combined with video scalers to create a video processor that improves the apparent definition of video signals. They perform the following tasks:
+deinterlacing
+aspect ratio control
+digital zoom and pan
+brightness/contrast/hue/saturation/sharpness/gamma adjustments
+frame rate conversion and inverse-telecine
+color point conversion (601 to 709 or 709 to 601)
+color space conversion (YPBPR/YCBCR to RGB or RGB to YPBPR/YCBCR)
+mosquito noise reduction
+block noise reduction
+detail enhancement
+edge enhancement
+motion compensation
+primary and secondary color calibration (including hue/saturation/luminance controls independently for each)
+These can either be in chip form, or as a stand alone unit to be placed between a source device (like a DVD player or set-top-box) and a display with less-capable processing. The most widely recognized video processor companies in the market are:
+Genesis Microchip (with the FLI chipset – was Genesis Microchip, STMicroelectronics completes acquisition of Genesis Microchip on January 25, 2008)
+Sigma Designs (with the VXP chipset – was Gennum, Sigma Designs purchased the Image Processing group from Gennum on February 8, 2008)
+Integrated Device Technology (with the HQV chipset and Teranex system products – was Silicon Optix, IDT purchased SO on October 21, 2008)
+Silicon Image (with the VRS chipset and DVDO system products - was Anchor Bay Technologies, Silicon Image purchased ABT on February 10, 2011)
+All of these companies' chips are in devices ranging from DVD upconverting players (for Standard Definition) to HD DVD/Blu-ray Disc players and set-top boxes, to displays like plasmas, DLP (both front and rear projection), LCD (both flat-panels and projectors), and LCOS/"SXRD". Their chips are also becoming more available in stand alone devices (see "External links" below for links to a few of these).
+
+
+== See also ==
+
+Video scaler
+Processing amplifier
+Scan conversion
+Display resolution
+
+
+== References ==
+Bovik, Al (ed.). Handbook of Image and Video Processing. San Diego: Academic Press, 2000. ISBN 0-12-119790-5.
+Wang, Yao, Jörn Ostermann, and Ya-Qin Zhang. Video Processing and Communications. Signal Processing Series. Upper Saddle River, N.J.: Prentice Hall, 2002. ISBN 0-13-017547-1.

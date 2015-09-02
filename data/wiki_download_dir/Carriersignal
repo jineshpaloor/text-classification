@@ -1,0 +1,24 @@
+Carrier signal
+In telecommunications, a carrier signal, carrier wave, or just carrier, is a waveform (usually sinusoidal) that is modulated (modified) with an input signal for the purpose of conveying information. This carrier wave is usually a much higher frequency than the input signal. The purpose of the carrier is usually either to transmit the information through space as an electromagnetic wave (as in radio communication), or to allow several carriers at different frequencies to share a common physical transmission medium by frequency division multiplexing (as, for example, a cable television system). The term is also used for an unmodulated emission in the absence of any modulating signal.
+Frequency modulation (FM) and amplitude modulation (AM) are common modes of modulating the carrier. In the case of single-sideband modulation (SSB), the carrier is suppressed (and in some forms of SSB, eliminated). The carrier must be reintroduced at the receiver by a beat frequency oscillator (BFO). The frequency of a radio or television station is actually the carrier wave's center frequency.
+
+
+== Carrierless modulation systems ==
+Newer forms of radio communication (such as spread spectrum and ultra-wideband) do not use a conventional sinusoidal carrier wave, nor does OFDM (which is used in DSL and in the European standard for HDTV).
+OFDM may be thought of as an array of symmetrical carrier waves. The rules governing carrier-wave propagation affect OFDM differently from 8VSB.
+Some forms of spread spectrum transmission (and most forms of ultra-wideband) are mathematically defined as being devoid of carrier waves. Transmitter implementations typically produce residual carriers which may (or may not) be detectable or transmitted.
+
+
+== Carrier leakage ==
+Carrier leakage is interference caused by cross-talk or a DC offset. It is present as an unmodulated sine wave within the signal's bandwidth, whose amplitude is independent of the signal's amplitude. See frequency mixers, to read further about carrier leakage or local oscillator feedthrough.
+
+
+== See also ==
+Carrier recovery
+Carrier system
+Carrier tone
+Frequency-division multiplexing
+Sideband
+
+
+== References ==

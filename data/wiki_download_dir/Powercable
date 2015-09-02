@@ -1,0 +1,72 @@
+Power cable
+A power cable is an assembly of one or more electrical conductors, usually held together with an overall sheath. The assembly is used for transmission of electrical power. Power cables may be installed as permanent wiring within buildings, buried in the ground, run overhead, or exposed.
+Flexible power cables are used for portable devices, mobile tools and machinery.
+
+
+== History ==
+Early telegraph systems used the first forms of electrical cabling, transmitting tiny amounts of power. Gutta-percha insulation used on the first submarine cables was, however, unsuitable for building wiring use since it deteriorated rapidly when exposed to air.
+The first power distribution system developed by Thomas Edison in 1882 in New York City used copper rods, wrapped in jute and placed in rigid pipes filled with a bituminous compound. Although vulcanized rubber had been patented by Charles Goodyear in 1844, it was not applied to cable insulation until the 1880s, when it was used for lighting circuits. Rubber-insulated cable was used for 11,000 volt circuits in 1897 installed for the Niagara Falls power project.
+Mass-impregnated paper-insulated medium voltage cables were commercially practical by 1895. During World War II several varieties of synthetic rubber and polyethylene insulation were applied to cables.
+Typical residential and office construction in North America has gone through several technologies:
+Early bare and cloth-covered wires installed with staples
+Knob and tube wiring, 1880s-1930s, using asphalt-saturated cloth or later rubber insulation
+Armored cable, known by the genericized trademark "Bx" - flexible steel sheath with two cloth-covered, rubber-insulated conductors - introduced in 1906 but more expensive
+Rubber-insulated wires with jackets of woven cotton cloth (usually impregnated with tar), waxed paper filler - introduced in 1922
+Early two-wire PVC-insulated cable, known by the genericized trademark "Romex",  1950s
+Aluminum wire was used in the 1960s and 1970s as a cheap replacement for copper, but this is now considered unsafe due to corrosion
+Asbestos was used as an Insulator (electricity) in some cloth wires from the 1920s to 1970s.
+Modern three-wire PVC-insulated cable, also known as "Romex" - see thermoplastic-sheathed cable
+
+
+== Construction ==
+Modern power cables come in a variety of sizes, materials, and types, each particularly adapted to its uses. Large single insulated conductors are also sometimes called power cables in the industry.
+Cables consist of three major components: conductors, insulation, protective jacket. The makeup of individual cables varies according to application. The construction and material are determined by three main factors:
+Working voltage, determining the thickness of the insulation;
+Current-carrying capacity, determining the cross-sectional size of the conductor(s);
+Environmental conditions such as temperature, water, chemical or sunlight exposure, and mechanical impact, determining the form and composition of the outer cable jacket.
+Cables for direct burial or for exposed installations may also include metal armor in the form of wires spiralled around the cable, or a corrugated tape wrapped around it. The armor may be made of steel or aluminum, and although connected to earth ground is not intended to carry current during normal operation.
+Power cables use stranded copper or aluminum conductors, although small power cables may use solid conductors (For a detailed discussion on copper cables, see: Copper wire and cable.).
+The cable may include uninsulated conductors used for the circuit neutral or for ground (earth) connection.
+The overall assembly may be round or flat. Non-conducting filler strands may be added to the assembly to maintain its shape. Special purpose power cables for overhead or vertical use may have additional elements such as steel or Kevlar structural supports.
+Some power cables for outdoor overhead use may have no overall sheath. Other cables may have a plastic or metal sheath enclosing all the conductors. The materials for the sheath will be selected for resistance to water, oil, sunlight, underground conditions, chemical vapors, impact, or high temperatures. In nuclear industry applications the cable may have special requirements for ionizing radiation resistance. Cable materials may be specified not to produce large amounts of smoke if burned. Cables intended for underground use or direct burial in earth will have heavy plastic or metal, most often lead sheaths, or may require special direct-buried construction. When cables must run where exposed to mechanical impact damage, they may protected with flexible steel tape or wire armor, which may also be covered by a water resistant jacket.
+
+
+=== Higher voltages ===
+
+For circuits operating at or above 2,000 volts between conductors, a conductive shield may surround each insulated conductor. This equalizes electrical stress on the cable insulation. This technique was patented by Martin Hochstadter in 1916; the shield is sometimes called a Hochstadter shield. The individual conductor shields of a cable are connected to earth ground at the ends of the cable, and at locations along the length if voltage rise during faults would be dangerous.
+Cables for power distribution of 10 kV or higher may be insulated with oil and paper, and are run in a rigid steel pipe, semi-rigid aluminum or lead sheath. For higher voltages the oil may be kept under pressure to prevent formation of voids that would allow partial discharges within the cable insulation.
+
+Modern high-voltage cables use polyethylene or other polymers, including XLPE for insulation. They require special techniques for jointing and terminating, see High-voltage cable.
+Many multiconductor cables have a bare or insulated grounding or bonding wire which is for connection to earth ground. The grounding conductor connects equipment enclosures to ground for protection from electric shock.
+Electrical power cables are often installed in raceways, including electrical conduit and cable trays, which may contain one or more conductors.
+A hybrid cable can include conductors for control signals or may also include optical fibers for data.
+
+
+== Flexible cables ==
+
+All electrical cables are somewhat flexible, allowing them to be shipped to installation sites wound on reels or drums. Where applications require a cable to be moved repeatedly, such as for portable equipment, more flexible cables called "cords" or "flex" are used. Flexible cords contain fine stranded conductors, not solid core conductors, and have insulation and sheaths to withstand the forces of repeated flexing and abrasion. Heavy duty flexible power cords such as those feeding a mine face cutting machine are carefully engineered — their life is measured in weeks. Very flexible power cables are used in automated machinery, robotics, and machine tools. See power cord and extension cable for further description of flexible power cables. Other types of flexible cable include twisted pair, extensible, coaxial, shielded, and communication cable.
+An X-ray cable is a special type of flexible high-voltage cable.
+
+
+== See also ==
+American wire gauge -- For a table of cross section sizes
+Ampacity -- For a description of current carrying capacity of wires and cables
+Voltage drop -- For another consideration necessary in selecting proper cable sizes
+Cross-linked polyethylene
+Ethylene propylene rubber (EPR)
+Restriction of Hazardous Substances Directive
+Portable cord
+Overhead power line
+AC power plugs and sockets
+Industrial and multiphase power plugs and sockets
+
+
+== References ==
+
+
+== External links ==
+British Cables
+BS 7671:2008 Cable Sizing Tool
+Online Cable Sizing Tool to IEC 60364-5-52:2009 and NEC 2011
+Power Cords Blog - Industry News and Information
+Power cable test system - Power cable on-site testing

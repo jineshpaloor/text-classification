@@ -1,0 +1,56 @@
+Padmount transformer
+A padmount or pad-mounted transformer is a ground mounted electric power distribution transformer in a locked steel cabinet mounted on a concrete pad. Since all energized connection points are securely enclosed in a grounded metal housing, a padmount transformer can be installed in places that do not have room for a fenced enclosure. Padmount transformers are used with underground electric power distribution lines at service drops, to step down the primary voltage on the line to the lower secondary voltage supplied to utility customers. A single transformer may serve one large building, or many homes.
+Pad-mounted transformers are made in power ratings from around 75 to around 5000 kVA and often include built-in fuses and switches. Primary power cables may be connected with elbow connectors, which can be operated when energized using a hot stick and allows for flexibility in repair and maintenance.
+
+
+== Design ==
+Pad-mount transformers are available in various electrical and mechanical configurations. Pad-mount transformers operate on medium-voltage distribution systems, up to about 35 kV. The low-voltage winding matches the customer requirement and may be single-phase or three-phase.
+Pad-mount transformers are (nearly always) oil-filled units and so must be mounted outdoors only. The core and coils are enclosed in a steel oil-filled tank, with terminals for the transformer accessible in an adjacent lockable wiring cabinet. The wiring cabinet has high and low voltage wiring compartments. High and low voltage underground cables from below enter the terminal compartments directly. The top of the tank has a cover secured with carriage bolt-nut assemblies. The wiring cabinet has sidewalls on two ends with doors that open sideways to expose the high and low voltage wiring compartments.
+Pad-mount transformers have self protecting fuses consisting of a bayonet mount fuse placed in a high voltage compartment, with a back-up high energy current limiting fuse in series to protect against secondary faults and transformer overload. The bayonet mount fuse protects against secondary faults and transformer overload and is a field replaceable device. The backup current limiting fuse operates only during transformer failure, therefore it is not field replaceable. These transformers also serve the conventional low voltage fusing requirements.
+The use of polymeric cable and load break elbows enable switching and isolation to be carried out in the HV chamber in what is known as a "dead front" environment, i.e. all terminations are fully screened and watertight.
+Single- and three-phase pad-mounted transformers are used in underground industrial and residential power distribution systems, where there is a need for safe, reliable and aesthetically appealing transformer design. Their enclosed construction allows the installation of pad-mount transformers in public areas without the need of protective fencing. In residential areas, pad-mount transformers are usually located on street easements and supply multiple households.
+Three-phase pad-mounted transformers range in sizes from 75 kVA up to 5000 kVA with voltages ranging from 2,400 up to 34,500 delta or wye. Low-voltage pad-mounted range in size from 208y/120 through 24,940y/14,000.
+While most traditional pad-mount transformer are fixed on a concrete ‘pad’, today small single-phase designs are also available with the transformer already mounted on a ‘polypad’ base so that they can be mounted on hard ground, connected, and switched on.
+
+
+=== Tanks and compartments ===
+Pad-mount transformers have tanks and compartments assembled on top of a flat, rigid surface, usually a concrete pad. The pad-mounted transformer unit may be rolled, skidded or jacked into place, or raised using hooks. Underground cables are used to connect high voltage, which are connected to the bushings or to factory-installed auxiliary equipment. The high- and low-voltage compartments are separated by a metal barrier.
+
+
+=== Terminations ===
+Compartmental type pad-mounted transformers support underground entrance of primary and secondary conductors. Live and dead front primary termination on radial or loop feed service is provisioned for. Wet process electrical grade porcelain bushings with eyebolt terminals are provided for live front construction. For all voltage ratings, dead front construction with provisions for high voltage terminators is available. Secondary terminals are sealed into molded epoxy bushings and externally clamped to the tank wall.
+
+
+=== Switch and fuse ===
+In a three-phase pad-mounted transformer, oil immersed switches that switch in three current ratings are available for radial and loop feed. Load break and latch operations are facilitated through spring load mechanism. A three-phase gang-operated switch is mounted near the core and coil assembly for low cable capacitance. Depending on the customers requirement, and transformer size and rating, the most common fuse options include weak link expulsion fuses; Bay-o-Net fuses; dry well canisters; arc strangler fused switch blades; clip-mounted, full-range, current-limiting fuses; and S&C disconnects with E-rated power fuses.
+
+
+== Installation ==
+Pad-mount transformers are constructed particularly for installation in public areas, where there is a need for a tamper-proof design. Depending on the connection and access type, pad-mount transformers can be installed indoor and outdoor. Pad-mount transformers for indoors require dry-type construction.
+Usually inspection authorities require pad-mount transformers to be located away from the main building. The transformer must have at least 8 feet of unobstructed space in front for the doors to the electrical equipment to open.
+Upon installation, there should be a padlock on the transformer and a clearly visible warning sign indicating electrical voltage.
+
+
+== Application ==
+Pad-mount transformers are used for power distribution for residential areas and for commercial and industrial buildings. Pad-mounted transformers are used for the collector systems of wind farms. 
+
+
+== Standards ==
+American National Standards Institute /Institute of Electrical and Electronic Engineers (ANSI/IEEE)
+ANSI C57.12.00 – Standard General Requirements for Liquid-Immersed Distribution, Power, and Regulating Transformers
+ANSI C57.12.22 – Standard for Transformers - Pad-Mounted, Compartmental-Type, Self-Cooled, Three-Phase Distribution Transformers with High-Voltage Bushings, 2500 kVA and Smaller: High Voltage, 34,500Grd/19,920 Volts and Below; Low-Voltage, 480 Volts and Below - Requirements
+ANSI C57.12.26 – Standard for Transformers-Pad-Mounted, Compartmental-Type, Self-Cooled, Three-Phase Distribution Transformers for Use with Separable Insulated High- Voltage Connectors, 34,500 Grd/19,920 Volts and Below; 2500 kVA and Smaller
+ANSI C57.12.28 – Standard for Switchgear and Transformers, Pad-Mounted Equipment – Enclosure Integrity
+National Electrical Manufacturers Association (NEMA) Standards
+NEMA TR 1-1993 (R2000) – Transformers, Regulators and Reactors, Table 0-2 Audible Sound Levels for Liquid-Immersed Power Transformers.
+NEMA 260-1996 (2004) – Safety Labels for Pad-Mounted Switchgear and Transformers Sited in Public Areas
+
+
+== Inspection and maintenance ==
+The ageing and corrosion of pad-mount transformers can result in outages, safety hazards, and customer complaints. Debris, insects, and pests can lead to possible electrical failure. Laser-guided infrared temperature measurement can be used to detect elevated temperatures on critical transformer components, such as primary elbow connections. To improve safety and reliability of pad-mount transformers regular external/internal inspection and maintenance is conducted.
+
+
+== References ==
+^ "Padmount Transformer". The Electricity Forum. Retrieved 2011-01-02. 
+^ Langley Engineering. The information contained within this site is copyrighted to Langley Engineering unless otherwise stated. "Pad Mount Transformers". Langley Engineering. Retrieved 2011-01-02. 
+^ "Padmount Transformers". Pacific Crest Transformers. Retrieved 2011-01-02.

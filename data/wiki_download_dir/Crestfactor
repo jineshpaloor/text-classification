@@ -1,0 +1,83 @@
+Crest factor
+Crest factor is a measure of a waveform, such as alternating current or sound, showing the ratio of peak values to the effective value. In other words, crest factor indicates how extreme the peaks are in a waveform. Crest factor 1 indicates no peaks, such as direct current. Higher crest factors indicate peaks, for example sound waves tend to have high crest factors.
+Crest factor is the peak amplitude of the waveform divided by the RMS value of the waveform:
+
+The peak-to-average power ratio (PAPR) is the peak amplitude squared (giving the peak power) divided by the RMS value squared (giving the average power). It is the square of the crest factor:
+
+When expressed in decibels, crest factor and PAPR are equivalent, due to the way decibels are calculated for power ratios vs amplitude ratios.
+Crest factor and PAPR are therefore dimensionless quantities. While the crest factor is defined as a positive real number, in commercial products it is also commonly stated as the ratio of two whole numbers, e.g., 2:1. The PAPR is most used in signal processing applications. As it is a power ratio, it is normally expressed in decibels (dB). The crest factor of the test signal is a fairly important issue in loudspeaker testing standards; in this context it is usually expressed in dB.
+The minimum possible crest factor is 1, 1:1 or 0 dB.
+
+
+== Examples ==
+This table provides values for some normalized waveforms. All peak magnitudes have been normalized to 1.
+Notes: 1. crest factors specified for QPSK, QAM, WCDMA are typical factors needed for reliable communication, not the theoretical crest factors which can be larger.
+
+
+== Digital multimeters ==
+Crest factor is an important parameter to understand when trying to take accurate measurements of low frequency signals. For example, given a certain digital multimeter with an AC accuracy of 0.03% (always specified for sine waves) with an additional error of 0.2% for crest factors between 1.414 and 5, then the total error for measuring a triangular wave (crest factor = 1.73) is 0.03% + 0.2% = 0.23%.
+
+
+== Acoustics and Audio Engineering ==
+In acoustics and audio engineering, crest factor is usually expressed in decibels so it's defined as the level difference between the RMS and the peak value of the waveform. For example, for a sine wave the 1.414 ratio is 20 log(1.414) or 3 dB. Most ambient noise has a crest factor of around 10 dB while impulsive sounds such as gunshots can have crest factors of over 30 dB.
+
+
+== Peak-to-average ratio (PAR) meter ==
+A peak-to-average ratio meter (Par meter) is a device used to measure the ratio of the peak power level to the time-averaged power level in an electrical circuit. This quantity is known as the peak-to-average ratio (p/a r or PAR). Such meters are used as a quick means to identify degraded telephone channels.
+Par meters are very sensitive to envelope delay distortion. They may also be used for idle channel noise, nonlinear distortion, and amplitude-distortion measurements.
+The peak-to-average ratio can be determined for many signal parameters, such as voltage, current, power, frequency, and phase.
+
+
+== Crest factor reduction ==
+Many modulation techniques have been specifically designed to have constant envelope modulation, i.e., the minimum possible crest factor of 1:1.
+In general, modulation techniques that have smaller crest factors usually transmit more bits per second than modulation techniques that have higher crest factors. This is because (1) Any given linear amplifier has some "peak output power"—some maximum possible instantaneous peak amplitude it can support and still stay in the linear range. (2) The average power of the signal is the peak output power divided by the crest factor. (3) The number of bits per second transmitted (on average) is proportional to the average power transmitted (Shannon–Hartley theorem).
+Orthogonal frequency-division multiplexing (OFDM) is a very promising modulation technique; perhaps its biggest problem is its high crest factor. Many crest factor reduction techniques (CFR) have been proposed for OFDM. The reduction in crest factor results in a system that can either transmit more bits per second with the same hardware, or transmit the same bits per second with lower-power hardware (and therefore lower electricity costs) (and therefore less expensive hardware), or both.
+
+
+== Applications ==
+Electrical engineering — for describing the quality of an AC power waveform
+Vibration analysis — for estimating the amount of impact wear in a bearing
+Radio and audio electronics — for estimating the headroom required in a signal chainMusic has a widely varying crest factor. Typical values for a processed mix are around 4–8 (which corresponds to 12–18 dB of headroom, usually involving audio level compression), and 8–10 for an unprocessed recording (18–20 dB).
+
+Physiology — for analysing the sound of snoring
+
+
+== See also ==
+Clipping (signal processing)
+Form factor (electronics)
+
+
+== References ==
+^ "What is Crest Factor". 
+^ "Wireless 101: Peak to average power ratio (PAPR)". 
+^ JBL Speaker Power Requirements, which is applying the IEC standard 268-5, itself more recently renamed to 60268-5
+^ AES2-2012 standard, Annex B (Informative) Crest Factor, pp. 17-20 in the 2013-02-11 printing
+^ "Dr. Pro-Audio", Power handling, summarizes the various speaker standards
+^ a b c d "RMS and Average Values for Typical Waveforms". Archived from the original on 2010-07-21. 
+^ a b c R. Wolf; F. Ellinger; R.Eickhoff; Massimiliano Laddomada; Oliver Hoffmann (14 July 2011). Periklis Chatzimisios, ed. Mobile Lightweight Wireless Systems: Second International ICST Conference, Mobilight 2010, May 10-12, 2010, Barcelona, Spain, Revised Selected Papers. Springer. p. 164. ISBN 978-3-642-16643-3. Retrieved 13 December 2012. 
+^ a b c http://www.readbag.com/ece-ucsb-yuegroup-teaching-ece594bb-lectures-steer-rf-chapter1
+^ http://broadcastengineering.com/mag/broadcasting_transitioning_transmitters_cofdm/
+^ Op Amp Noise Theory and Applications - 10.2.1 rms versus P-P Noise
+^ Chapter 1 First-Order Low-Pass Filtered Noise - "The standard deviation of a Gaussian noise voltage is the root-mean-square or rms value of the voltage."
+^ Noise: Frequently Asked Questions - "Noise theoretically has an unbounded distribution so that it should have an infinite crest factor"
+^ Telecommunications Measurements, Analysis, and Instrumentation, Kamilo Feher, section 7.2.3 Finite Crest Factor Noise
+^ "Crest Factor Reduction of an OFDM/WiMAX Network".
+^ "Low Crest Factor Modulation Techniques for Orthogonal Frequency Division Multiplexing (OFDM)".
+^ R. Neil Braithwaite. "Crest Factor Reduction for OFDM Using Selective Subcarrier Degradation".
+^ K. T. Wong, B. Wang & J.-C. Chen, "OFDM PAPR Reduction by Switching Null Subcarriers & Data-Subcarriers," Electronics Letters, vol. 47, no. 1, pp. 62-63 January, 2011.
+^ S.C. Thompson, "Constant Envelope OFDM Phase Modulation," PhD Dissertation, UC San Diego, 2005.
+^ Nick Wells. "DVB-T2 in relation to the DVB-x2 Family of Standards" quote: "techniques which can reduce the PAPR, ... could result in a significant saving in electricity costs."
+^ What Is The “Crest Factor” And Why Is It Used?
+^ Crest factor analysis for complex signal processing
+^ Crest factor definition — Rane Pro Audio Reference
+^ Level Practices in Digital Audio
+^ Gain Structure — Setting the System Levels, Mackie Mixer Tips
+^ Setting sound system level controls: The most expensive system set up wrong never performs as well as an inexpensive system set up correctly.
+^ Palatal snoring identified by acoustic crest factor analysis
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C" (in support of MIL-STD-188).
+
+
+== External links ==
+Definition of peak-to-average ratio – ATIS (Alliance for Telecommunications Industry Solutions) Telecom Glossary 2K
+Definition of crest factor – ATIS (Alliance for Telecommunications Industry Solutions) Telecom Glossary 2K
+Peak-to-average power ratio (PAPR) of OFDM systems - tutorial

@@ -1,0 +1,60 @@
+Piezoelectric motor
+A piezoelectric motor or piezo motor is a type of electric motor based upon the change in shape of a piezoelectric material when an electric field is applied. Piezoelectric motors make use of the converse piezoelectric effect whereby the material produces acoustic or ultrasonic vibrations in order to produce a linear or rotary motion. In one mechanism, the elongation in a single plane is used to make a series of stretches and position holds, similar to the way a caterpillar moves. 
+
+
+== Current designs ==
+
+Motors are made in both linear and rotary types.
+Of these, one drive technique is to use piezoelectric ceramics to push a stator. These piezoelectric motors use three groups of crystals: two of which are Locking and one Motive, permanently connected to either the motor's casing or stator (not both) and sandwiched between the other two, which provides the motion. These piezoelectric motors are fundamentally stepping motors, with each step comprising either two or three actions, based on the locking type. Another mechanism employs the use of surface acoustic waves (SAW) to generate linear or rotational motion.
+A second drive technique is illustrated by the Squiggle motor, in which piezoelectric elements are bonded orthogonally to a nut and their ultrasonic vibrations rotate and translate a central lead screw. This is a direct drive mechanism.
+
+
+=== Locking mechanisms ===
+The non-powered behaviour of the first type of piezoelectric motor is one of two options: Normally Locked or Normally Free. When no power is being applied to a Normally Locked motor, the spindle or carriage (for rotary or linear types, respectively) will not move under external force. For a Normally Free motor, the spindle or carriage will move freely under external force. However, if both locking groups are powered at rest, a Normally Free motor will resist external force without providing any motive force.
+A combination of mechanical latches and crystals could be used, but this would restrict the maximum stepping rate of the motor.
+The non-power behaviour of the second type of motor is locked, as the drive screw is locked by the threads on the nut. Thus it holds its position with the power off.
+
+
+=== Stepping actions ===
+
+Regardless of locking type, stepping type piezoelectric motors — both linear and rotary — use the same mechanism to provide movement.
+First, one group of locking crystals is activated — this gives one locked side and one unlocked side of the 'sandwich'.
+Next, the motive crystal group is triggered and held — the expansion of this group moves the unlocked locking group along the motor path. This is the only stage where motor movement takes place.
+Then the locking group triggered in stage one is released (in Normally Locking motors, the other is triggered). Then the motive group is released, retracting the 'trailing' locking group. Finally, both locking groups are returned to their default states.
+
+
+=== Direct drive actions ===
+The direct drive piezoelectric motor uses continuous ultrasonic vibrations to provide movement. A two-channel sinusoidal or square wave is applied to the piezoelectric elements at an ultrasonic frequency of 40 kHz to 200 kHz, matching the first bending resonant frequency of the threaded tube. This creates an orbital motion which drives the screw.
+
+
+=== Speed and precision ===
+The growth and forming of piezoelectric crystals is a well-developed industry, yielding very uniform and consistent distortion for a given applied potential difference. This, combined with the minute scale of the distortions, gives the piezoelectric motor the ability to make very fine steps — manufacturers claim precision to the nanometer scale.
+The high response rate and fast distortion of the crystals also allows the steps to be made at very high frequencies — upwards of 5 MHz. This gives a maximum linear speed of approximately 800 mm per second, or nearly 2.9 km/h.
+A unique capability of piezoelectric motors is their ability to operate in the presence of strong magnetic fields, extending their applications to areas where traditional electromagnetic motors cannot be used - inside Nuclear Magnetic Resonance Antennas, for example. The maximum operating temperature is limited by Curie temperature of used piezoelectic ceramic and may exceed +250C.
+
+
+== Other designs ==
+
+
+=== Single action ===
+
+Very simple single-action stepping motors can be made with piezoelectric crystals. For example, with a hard and rigid rotor-spindle coated with a thin layer of a softer material (like a polyurethane rubber), a series of angled piezoelectric transducers can be arranged. (see Fig. 2). When one group of transducers is triggered, the rotor will be pushed around one step. This design is not capable of such small or precise steps as more complex designs, but can reach higher speeds and are cheaper to manufacture.
+
+
+== Patents ==
+The first U.S. patent to disclose a vibrationally-driven motor may be "Method and Apparatus for Delivering Vibratory Energy" (U.S. Pat. No. 3,184,842, Maropis, 1965). The Maropis patent describes a "vibratory apparatus wherein longitudinal vibrations in a resonant coupling element are converted to torsional vibrations in a toroid type resonant terminal element." The first practical piezomotors were designed and produced by V. Lavrinenko in Piezoelectronic Laboratory, starting 1964, Kiev Polytechnic Institute, USSR. Other important patents in the early development of this technology include:
+"Electrical motor", V. Lavrinenko, M. Nekrasov, Patent USSR # 217509, priority May 10, 1965.
+"Piezoelectric motor structures" (U.S. Pat. No. 4,019,073, Vishnevsky, et al., 1977)
+"Piezoelectrically driven torsional vibration motor" (U.S. Pat. No. 4,210,837, Vasiliev, et al., 1980)
+
+
+== See also ==
+Ultrasonic motor
+Ultrasonic Motor Drive as used in the Canon EF Mount
+Ultrasonic homogenizer
+
+
+== References ==
+^ attocube rotator ANR101
+^ attocube. "Working principle of attocube's positioners". 
+"Piezomotors" presentation for Halliburton, V. Lavrinenko, A. Tyshko 2008 [1]

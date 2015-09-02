@@ -1,0 +1,35 @@
+Resolver (electrical)
+A resolver is a type of rotary electrical transformer used for measuring degrees of rotation. It is considered an analog device, and has a digital counterpart, the rotary (or pulse) encoder.
+
+
+== Description ==
+
+The most common type of resolver is the brushless transmitter resolver (other types are described at the end). On the outside, this type of resolver may look like a small electrical motor having a stator and rotor. On the inside, the configuration of the wire windings makes it different. The stator portion of the resolver houses three windings: an exciter winding and two two-phase windings (usually labeled "x" and "y") (case of a brushless resolver). The exciter winding is located on the top; it is in fact a coil of a turning (rotary) transformer. This transformer induces current in the rotor without a direct electrical connection, thus there are no wires to the rotor limiting its rotation and no need for brushes. The two other windings are on the bottom, wound on a lamination. They are configured at 90 degrees from each other. The rotor houses a coil, which is the secondary winding of the turning transformer, and a separate primary winding in a lamination, exciting the two two-phase windings on the stator.
+The primary winding of the transformer, fixed to the stator, is excited by a sinusoidal electric current, which by electromagnetic induction induces current in the rotor. As these windings are arranged on the axis of the resolver, the same current is induced no matter what its position. This current then flows through the other winding on the rotor, in turn inducing current in its secondary windings, the two-phase windings back on the stator. The two two-phase windings, fixed at right (90°) angles to each other on the stator, produce a sine and cosine feedback current. The relative magnitudes of the two-phase voltages are measured and used to determine the angle of the rotor relative to the stator. Upon one full revolution, the feedback signals repeat their waveforms. This device may also appear in non-brushless type, i.e., only consisting in two lamination stacks, rotor and stator.
+Resolvers can perform very accurate analog conversion from polar to rectangular coordinates. Shaft angle is the polar angle, and excitation voltage is the magnitude. The outputs are the [x] and [y] components. Resolvers with four-lead rotors can rotate [x] and [y] coordinates, with the shaft position giving the desired rotation angle.
+Resolvers with four output leads are general sine/cosine computational devices. When used with electronic driver amplifiers and feedback windings tightly coupled to the input windings, their accuracy is enhanced, and they can be cascaded ("resolver chains") to compute functions with several terms, perhaps of several angles, such as gun (position) orders corrected for ship's roll and pitch.
+For the position evaluation, Resolver-to-Digital Converters are commonly used. They convert sine and cosine signal to binary signal (10 to 16 bit wide) that can more easily be used by the controller.
+
+
+== Types ==
+Basic resolvers are two-pole resolvers, meaning that the angular information is the mechanical angle of the stator. These devices can deliver the absolute angle position. Other types of resolver are multipole resolvers. They have 2p poles (p pole pairs), and thus can deliver p cycles in one rotation of the rotor: the electrical angle is p times the mechanical angle * p. Some types of resolvers include both types, with the 2-pole windings used for absolute position and the multipole windings for accurate position. Two-pole resolvers can usually reach angular accuracy up to about ±5′, whereas a multipole resolver can provide better accuracy, up to 10′′ for 16-pole resolvers, to even 1′′ for 128-pole resolvers.
+Multipole resolvers may also be used for monitoring multipole electrical motors. This device can be used in any application in which the exact rotation of an object relative to another object is needed, such as in a rotary antenna platform or a robot. In practice, the resolver is usually directly mounted to an electric motor. The resolver feedback signals are usually monitored for multiple revolutions by another device. This allows for geared reduction of assemblies being rotated and improved accuracy from the resolver system.
+Because the power supplied to the resolvers produces no actual work, the voltages used are usually low (<24 VAC) for all resolvers. Resolvers designed for terrestrial use tend to be driven at 50–60 Hz (utility frequency), while those for marine or aviation use tend to operate at 400 Hz (the frequency of the on-board generator driven by the engines). Aerospace applications utilize 2930 Hz to 10 kHz at voltages ranging from 4 Vrms to 10 Vrms. Many of the aerospace applications are used to determine the position of an actuator or torque motor position. Control systems tend to use higher frequencies (5 kHz).
+Other types of resolver include:
+Receiver resolvers
+These resolvers are used in the opposite way to transmitter resolvers (the type described above). The two diphased windings are energized, the ratio between the sine and the cosine representing the electrical angle. The system turns the rotor to obtain a zero voltage in the rotor winding. At this position, the mechanical angle of the rotor equals the electrical angle applied to the stator.
+Differential resolvers
+These types combine two diphased primary windings in one of the stacks of sheets, as with the receiver, and two diphased secondary windings in the other. The relation of the electrical angle delivered by the two secondary windings and the other angles is secondary electrical angle, mechanical angle, and primary electrical angle. These types were used, for instance, as analog trigonometric-function calculators.
+A related type is also the transolver, combining a two-phase winding like the resolver and a triphased winding like the synchro.
+
+
+== See also ==
+Rotary encoder
+Synchro
+RVDT
+LVDT
+
+
+== External links ==
+AMCI Resolver Tutorial
+Synchro/Resolver Conversion Handbook

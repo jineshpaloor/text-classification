@@ -1,0 +1,35 @@
+Ferrite core
+In electronics, a ferrite core is a type of magnetic core made of ferrite on which the windings of electric transformers and other wound components such as inductors are formed. It is used for its properties of high magnetic permeability coupled with low electrical conductivity (which helps prevent eddy currents). Because of their comparatively low losses at high frequencies, they are extensively used in the cores of RF transformers and inductors in applications such as switched-mode power supplies, and ferrite loopstick antennas for AM radio receivers.
+
+
+== Ferrites ==
+Ferrites are ceramic compounds of the transition metals with oxygen, which are ferrimagnetic but nonconductive. Ferrites that are used in transformer or electromagnetic cores contain iron oxides combined with nickel, zinc, and/or manganese compounds. They have a low coercivity and are called "soft ferrites" to distinguish them from "hard ferrites", which have a high coercivity and are used to make ferrite magnets. The low coercivity means the material's magnetization can easily reverse direction without dissipating much energy (hysteresis losses), while the material's high resistivity prevents eddy currents in the core, another source of energy loss. The most common soft ferrites are:
+Manganese-zinc ferrite (MnZn, with the formula MnaZn(1-a)Fe2O4). MnZn have higher permeability and saturation levels than NiZn.
+Nickel-zinc ferrite (NiZn, with the formula NiaZn(1-a)Fe2O4). NiZn ferrites exhibit higher resistivity than MnZn, and are therefore more suitable for frequencies above 1 MHz.
+For applications below 5 MHz, MnZn ferrites are used; above that, NiZn is the usual choice. The exception is with common mode inductors, where the threshold of choice is at 70 MHz.
+As any given blend has a trade off of maximum usable frequency, versus a higher mu value, within each of these sub-groups manufacturers produce a wide range materials for different applications blended to give either a high initial (low frequency) inductance, or lower inductance and higher maximum frequency, or for interference suppression ferrites, a very wide frequency range, but often with a very high loss factor (low Q).
+It is important to select the right material for the application, as the correct ferrite for a 100 kHz switching supply (high inductance, low loss, low frequency) is quite different to that for an RF transformer or ferrite rod antenna, (high frequency low loss, but lower inductance), and different again from a suppression ferrite (high loss, broadband)
+
+
+== Applications ==
+There are two broad applications for ferrite cores which differ in size and frequency of operation: signal transformers are of small size and higher frequencies, power transformers are of large size and lower frequencies. Cores can also be classified by shape, such as toroidal cores, shell cores or cylindrical cores.
+The ferrite cores used for power transformers work in the low frequency range (1 to 200 kHz usually) and are fairly large in size, can be toroidal, shell, or C shape, and are useful in all kinds of electronic switching devices -- especially power supplies from 1 watt to 1000 watts maximum, since more powerful applications are usually out of range of ferritic single core and require grain oriented lamination cores.
+The ferrite cores used for signals have a range of applications from 1 kHz to many MHz, perhaps as much as 300 MHz, and have found their main application in electronics, such as in AM Radios and RFID tags.
+
+
+== Ferrite rod aerial ==
+Ferrite rod aerials (or antennae) are a type of Small Magnetic Loop (SML) antenna very common in Broadcast band transistor radios (although they began to be used in vacuum tube ("valve") radios in the 1950s; they are also useful in VLF receivers, and can sometimes give good results over most of the shortwave frequencies assuming a suitable ferrite is used). They consist of a coil mounted on a ferrite core (a rod perhaps several inches longer than the coil, but potentially over 3 feet long). This core effectively "concentrates" radio waves to give a stronger signal than could be obtained by a simple wire antenna of comparable size, although still not as strong as the signal that could be obtained with a good outdoor wire aerial.
+Other names include loopstick antenna, ferrod, and ferrite-rod antenna. "Ferroceptor" is an older alternative name for a ferrite rod aerial, particularly used by Philips where the ferrite core would be called a "Ferroxcube" rod (a brand name acquired by Yageo from Philips in the year 2000). The short term ferrite rod sometimes refers to the coil-plus-ferrite combination that takes the place of both an external antenna and the radio's first tuned circuit, or just the ferrite core itself (the cylindrical rod or flat ferrite slab).
+
+
+== See also ==
+Balun
+Ferrite bead
+Ferrite (magnet)
+Ferrite (iron)
+Magnetic core
+Toroidal inductors and transformers
+Zinc ferrite
+
+
+== References ==

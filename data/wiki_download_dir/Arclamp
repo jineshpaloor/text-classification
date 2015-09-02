@@ -1,0 +1,66 @@
+Arc lamp
+An arc lamp or arc light is a lamp that produces light by an electric arc (also called a voltaic arc). The carbon arc light, which consists of an arc between carbon electrodes in air, invented by Humphry Davy in the first decade of the 1800s, was the first practical electric light. It was widely used starting in the 1870s for street and large building lighting until it was superseded by the incandescent light in the early 20th century. It continued in use in more specialized applications where a high intensity point light source was needed, such as searchlights and movie projectors until after World War II. The carbon arc lamp is now obsolete for all of these purposes and is only still made for very specialized purposes where a high intensity UV source is needed.
+The term is now used to refer to gas discharge lamps, which produce light by an arc between metal electrodes through an inert gas in a glass bulb. The common fluorescent lamp is a low-pressure mercury arc lamp. The xenon arc lamp, which produces a high intensity white light, is now used in many of the applications which formerly used the carbon arc, such as movie projectors and searchlights.
+
+
+== OperationEdit ==
+An arc is the discharge that occurs when a gas is ionized. A high voltage is pulsed across the lamp to "ignite" or "strike" the arc, after which the discharge can be maintained at a lower voltage. The "strike" requires an electrical circuit with an igniter and a ballast. The ballast is wired in series with the lamp and performs two functions.
+First, when the power is first switched on, the igniter/starter (which is wired in parallel across the lamp) sets up a small current through the ballast and starter. This creates a small magnetic field within the ballast windings. A moment later the starter interrupts the current flow from the ballast, which has a high inductance and therefore tries to maintain the current flow (the ballast opposes any change in current through it); it cannot, as there is no longer a 'circuit'. As a result, a high voltage appears across the ballast momentarily - to which the lamp is connected, therefore the lamp receives this high voltage across it which 'strikes' the arc within the tube/lamp. The circuit will repeat this action until the lamp is ionized enough to sustain the arc.
+When the lamp sustains the arc, the ballast performs its second function, to limit the current to that needed to operate the lamp. The lamp, ballast and igniter are rated matched to each other; these parts must be replaced with the same rating as the failed component or the lamp will not work.
+The colour of the light emitted by the lamp changes as its electrical characteristics change with temperature and time. Lightning is a similar principle where the atmosphere is ionized by the high potential difference (voltage) between earth and storm clouds.
+
+The temperature of the arc in an arc lamp can reach several thousand degrees Celsius. The outer glass envelope can reach 500 degrees Celsius, therefore before servicing one must ensure the bulb has cooled sufficiently to handle. Often, if these types of lamps are turned off or lose their power supply, one cannot restrike the lamp again for several minutes (called cold restrike lamps). However, some lamps (mainly fluorescent tubes/energy saving lamps) can be restruck as soon as they are turned off (called hot restrike lamps).
+The Vortek water-wall plasma arc lamp, invented in 1975 by David Camm and Roy Nodwell at the University of British Columbia Vancouver, Canada, made the Guinness Book of World Records in 1986 and 1993 as the most powerful continuously burning light source at over 300 kW or 1.2 million candle power.
+
+
+== Carbon arc lampEdit ==
+
+In popular use, the term arc lamp means carbon arc lamp only. In a carbon arc lamp, the electrodes are carbon rods in free air. To ignite the lamp, the rods are touched together, thus allowing a relatively low voltage to strike the arc. The rods are then slowly drawn apart, and electric current heats and maintains an arc across the gap. The tips of the carbon rods are heated and the carbon vaporizes. The carbon vapor in the arc is highly luminous, which is what produces the bright light. The rods are slowly burnt away in use, and the distance between them needs to be regularly adjusted in order to maintain the arc. Many ingenious mechanisms were invented to effect this automatically, mostly based on solenoids. In one of the simplest mechanically-regulated forms (which was soon superseded by more smoothly acting devices) the electrodes are mounted vertically. The current supplying the arc is passed in series through a solenoid attached to the top electrode. If the points of the electrodes are touching (as in start up) the resistance falls, the current increases and the increased pull from the solenoid draws the points apart. If the arc starts to fail the current drops and the points close up again. The Yablochkov candle is a simple arc lamp without a regulator, but it has the drawbacks that the arc cannot be restarted (single use) and a limited lifetime of only a few hours.
+
+
+== HistoryEdit ==
+The concept of carbon-arc lighting was first demonstrated by Sir Humphry Davy in the early 19th century (1802, 1805, 1807 and 1809 are all mentioned), using charcoal sticks and a 2000-cell battery to create an arc across a 4-inch (100 mm) gap. He mounted his electrodes horizontally and noted that, because of the strong convection flow of air, the arc formed the shape of an arch. He coined the term "arch lamp", which was contracted to "arc lamp" when the devices came into common usage.
+The arc lamp provided one of the first commercial uses for electricity, a phenomenon previously confined to experiment, the telegraph, and entertainment.
+
+
+=== Carbon-arc lighting in the U.S.Edit ===
+
+In the United States, there were attempts to produce arc lamps commercially after 1850 but the lack of a constant electricity supply thwarted efforts. Thus electrical engineers began focusing on the problem of improving Faraday's dynamo. The concept was improved upon by a number of people including William Staite and Charles F. Brush. It was not until the 1870s that lamps such as the Yablochkov candle were more commonly seen. In 1877, the Franklin Institute conducted a comparative test of dynamo systems. The one developed by Brush performed best, and Brush immediately applied his improved dynamo to arc-lighting an early application being Public Square in Cleveland, Ohio, on April 29, 1879. In 1880, Brush established the Brush Electric Company.
+The harsh and brilliant light was found most suitable for public areas, such as Cleveland's Public Square, being around 200 times more powerful than contemporary filament lamps.
+The usage of Brush electric arc lights spread quickly. Scientific American reported in 1881 that the system was being used in:
+800 lights in rolling mills, steel works, shops, etc.
+1,240 lights in woolen, cotton, linen, silk, and other factories
+425 lights in large stores, hotels, churches, etc.
+250 lights in parks, docks, and summer resorts
+275 lights in railroad depots and shops
+130 lights in mines, smelting works, etc.
+380 lights in factories and establishments of various kinds
+1,500 lights in lighting stations, for city lighting, etc.
+1,200 lights in England and other foreign countries.
+A total of over 6,000 lights which are actually sold
+There were three major advances in the 1880s:
+František Křižík invented in 1880 a mechanism to allow the automatic adjustment of the electrodes.
+The arcs were enclosed in a small tube to slow the carbon consumption (increasing the life span to around 100 hours).
+Flame arc lamps were introduced where the carbon rods had metal salts (usually magnesium, strontium, barium, or calcium fluorides) added to increase light output and produce different colours.
+
+In the U.S., patent protection of arc-lighting systems and improved dynamos proved difficult and as a result the arc-lighting industry became highly competitive. Brush's principal competition was from the team of Elihu Thomson and Edwin J. Houston. These two had formed the American Electric Corporation in 1880, but it was soon bought up by Charles A. Coffin, moved to Lynn, Massachusetts, and renamed the Thomson-Houston Electric Company. Thomson remained, though, the principal inventive genius behind the company patenting improvements to the lighting system. Under the leadership of Thomson-Houston's patent attorney, Frederick P. Fish, the company protected its new patent rights. Coffin's management also led the company towards an aggressive policy of buy-outs and mergers with competitors. Both strategies reduced competition in the electrical lighting manufacturing industry. By 1890, the Thomson-Houston company was the dominant electrical manufacturing company in the U.S. Nikola Tesla received U.S. Patent 447920, "Method of Operating Arc-Lamps" (March 10, 1891), that describes a 10,000 cycles per second alternator to suppress the disagreeable sound of power-frequency harmonics produced by arc lamps operating on frequencies within the range of human hearing.
+Around the turn of the century arc-lighting systems were in decline, but Thomson-Houston controlled key patents to urban lighting systems. This control slowed the expansion of incandescent lighting systems being developed by Thomas Edison's Edison General Electric Company. Conversely, Edison's control of direct current distribution and generating machinery patents blocked further expansion of Thomson-Houston. The roadblock to expansion was removed when the two companies merged in 1892 to form the General Electric Company.
+Arc lamps were used in some early motion-picture studios to illuminate interior shots. One problem was that they produce such a high level of ultra-violet light that many actors needed to wear sunglasses when off camera to relieve sore eyes resulting from the ultra-violet light. The problem was solved by adding a sheet of ordinary window glass in front of the lamp, blocking the ultra-violet. By the dawn of the "talkies", arc lamps had been replaced in film studios with other types of lights. In 1915, Elmer Ambrose Sperry began manufacturing his invention of a high-intensity carbon arc searchlight. These were used aboard warships of all navies during the 20th century for signaling and illuminating enemies. In the 1920s, carbon arc lamps were sold as family health products, a substitute for natural sunlight.
+Arc lamps were superseded by filament lamps in most roles, remaining in only certain niche applications such as cinema projection, followspots, and searchlights. Even in these applications conventional carbon arc lamps are being pushed into obsolescence by xenon arc lamps, but were still being manufactured as spotlights at least as late as 1982 and are still manufactured for at least one purpose - simulating sunlight in "accelerated aging" machines intended to estimate how fast a material is likely to be degraded by environmental exposure.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== BibliographyEdit ==
+Braverman, Harry (1974). Labor and Monopoly Capital. New York: Monthly Review Press. 
+MacLaren, Malcolm (1943). The Rise of the Electrical Industry during the Nineteenth Century. Princeton: Princeton University Press. 
+Noble, David F. (1977). America by Design: Science, Technology, and the Rise of Corporate Capitalism. New York: Oxford University Press. pp. 6–10. 
+Prasser, Harold C. (1953). The Electrical Manufacturers. Cambridge: Harvard University Press. 
+
+
+== External linksEdit ==
+Arc Lamp - Interactive Tutorial National High Magnetic Field Laboratory

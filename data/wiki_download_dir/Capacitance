@@ -1,0 +1,141 @@
+Capacitance
+Capacitance is the ability of a body to store an electrical charge. Any object that can be electrically charged exhibits capacitance. A common form of energy storage device is a parallel-plate capacitor. In a parallel plate capacitor, capacitance is directly proportional to the surface area of the conductor plates and inversely proportional to the separation distance between the plates. If the charges on the plates are +q and −q respectively, and V gives the voltage between the plates, then the capacitance C is given by
+
+which gives the voltage/current relationship
+
+The capacitance is a function only of the geometry of the design (area of the plates and the distance between them) and the permittivity of the dielectric material between the plates of the capacitor. For many dielectric materials, the permittivity and thus the capacitance, is independent of the potential difference between the conductors and the total charge on them.
+The SI unit of capacitance is the farad (symbol: F), named after the English physicist Michael Faraday. A 1 farad capacitor, when charged with 1 coulomb of electrical charge, has a potential difference of 1 volt between its plates. Historically, a farad was regarded as an inconveniently large unit, both electrically and physically. Its subdivisions were invariably used, namely the microfarad, nanofarad and picofarad. More recently, technology has advanced such that capacitors of 1 farad and greater (so-called 'supercapacitors') can be constructed in a structure little larger than a coin battery. Such capacitors are principally used for energy storage replacing more traditional batteries.
+The energy (measured in joules) stored in a capacitor is equal to the work required to push the charges into the capacitor, i.e. to charge it. Consider a capacitor of capacitance C, holding a charge +q on one plate and −q on the other. Moving a small element of charge dq from one plate to the other against the potential difference V = q/C requires the work dW:
+
+where W is the work measured in joules, q is the charge measured in coulombs and C is the capacitance, measured in farads.
+The energy stored in a capacitor is found by integrating this equation. Starting with an uncharged capacitance (q = 0) and moving charge from one plate to the other until the plates have charge +Q and −Q requires the work W:
+
+
+== CapacitorsEdit ==
+
+The capacitance of the majority of capacitors used in electronic circuits is generally several orders of magnitude smaller than the farad. The most common subunits of capacitance in use today are the microfarad (µF), nanofarad (nF), picofarad (pF), and, in microcircuits, femtofarad (fF). However, specially made supercapacitors can be much larger (as much as hundreds of farads), and parasitic capacitive elements can be less than a femtofarad.
+Capacitance can be calculated if the geometry of the conductors and the dielectric properties of the insulator between the conductors are known. A qualitative explanation for this can be given as follows.
+Once a positive charge is put unto a conductor, this charge creates an electrical field, repelling any other positive charge to be moved onto the conductor. I.e. increasing the necessary voltage. But if nearby there is another conductor with a negative charge on it, the electrical field of the positive conductor repelling the second positive charge is weakened (the second positive charge also feels the attracting force of the negative charge). So due to the second conductor with a negative charge, it becomes easier to put a positive charge on the already positive charged first conductor, and vice versa. I.e. the necessary voltage is lowered.
+As a quantitative example consider the capacitance of a capacitor constructed of two parallel plates both of area A separated by a distance d:
+
+where
+C is the capacitance, in Farads;
+A is the area of overlap of the two plates, in square meters;
+εr is the relative static permittivity (sometimes called the dielectric constant) of the material between the plates (for a vacuum, εr = 1);
+ε0 is the electric constant (ε0 ≈ 6988885390000000000♠8.854×10−12 F⋅m−1); and
+d is the separation between the plates, in meters;
+Capacitance is proportional to the area of overlap and inversely proportional to the separation between conducting sheets. The closer the sheets are to each other, the greater the capacitance. The equation is a good approximation if d is small compared to the other dimensions of the plates so that the electric field in the capacitor area is uniform, and the so-called fringing field around the periphery provides only a small contribution to the capacitance. In CGS units the equation has the form:
+
+where C in this case has the units of length. Combining the SI equation for capacitance with the above equation for the energy stored in a capacitance, for a flat-plate capacitor the energy stored is:
+
+where W is the energy, in joules; C is the capacitance, in farads; and V is the voltage, in volts.
+
+
+=== Voltage-dependent capacitorsEdit ===
+The dielectric constant for a number of very useful dielectrics changes as a function of the applied electrical field, for example ferroelectric materials, so the capacitance for these devices is more complex. For example, in charging such a capacitor the differential increase in voltage with charge is governed by:
+
+where the voltage dependence of capacitance, C(V), suggests that the capacitance is a function of the electric field strength, which in a large area parallel plate device is given by ε = V/d. This field polarizes the dielectric, which polarization, in the case of a ferroelectric, is a nonlinear S-shaped function of the electric field, which, in the case of a large area parallel plate device, translates into a capacitance that is a nonlinear function of the voltage.
+Corresponding to the voltage-dependent capacitance, to charge the capacitor to voltage V an integral relation is found:
+
+which agrees with Q = CV only when C is not voltage independent.
+By the same token, the energy stored in the capacitor now is given by
+
+Integrating:
+
+where interchange of the order of integration is used.
+The nonlinear capacitance of a microscope probe scanned along a ferroelectric surface is used to study the domain structure of ferroelectric materials.
+Another example of voltage dependent capacitance occurs in semiconductor devices such as semiconductor diodes, where the voltage dependence stems not from a change in dielectric constant but in a voltage dependence of the spacing between the charges on the two sides of the capacitor. This effect is intentionally exploited in diode-like devices known as varicaps.
+
+
+=== Frequency-dependent capacitorsEdit ===
+If a capacitor is driven with a time-varying voltage that changes rapidly enough, at some frequency the polarization of the dielectric cannot follow the voltage. As an example of the origin of this mechanism, the internal microscopic dipoles contributing to the dielectric constant cannot move instantly, and so as frequency of an applied alternating voltage increases, the dipole response is limited and the dielectric constant diminishes. A changing dielectric constant with frequency is referred to as dielectric dispersion, and is governed by dielectric relaxation processes, such as Debye relaxation. Under transient conditions, the displacement field can be expressed as (see electric susceptibility):
+
+indicating the lag in response by the time dependence of εr, calculated in principle from an underlying microscopic analysis, for example, of the dipole behavior in the dielectric. See, for example, linear response function. The integral extends over the entire past history up to the present time. A Fourier transform in time then results in:
+
+where εr(ω) is now a complex function, with an imaginary part related to absorption of energy from the field by the medium. See permittivity. The capacitance, being proportional to the dielectric constant, also exhibits this frequency behavior. Fourier transforming Gauss's law with this form for displacement field:
+
+where j is the imaginary unit, V(ω) is the voltage component at angular frequency ω, G(ω) is the real part of the current, called the conductance, and C(ω) determines the imaginary part of the current and is the capacitance. Z(ω) is the complex impedance.
+When a parallel-plate capacitor is filled with a dielectric, the measurement of dielectric properties of the medium is based upon the relation:
+
+where a single prime denotes the real part and a double prime the imaginary part, Z(ω) is the complex impedance with the dielectric present, Ccmplx(ω) is the so-called complex capacitance with the dielectric present, and C0 is the capacitance without the dielectric. (Measurement "without the dielectric" in principle means measurement in free space, an unattainable goal inasmuch as even the quantum vacuum is predicted to exhibit nonideal behavior, such as dichroism. For practical purposes, when measurement errors are taken into account, often a measurement in terrestrial vacuum, or simply a calculation of C0, is sufficiently accurate.)
+Using this measurement method, the dielectric constant may exhibit a resonance at certain frequencies corresponding to characteristic response frequencies (excitation energies) of contributors to the dielectric constant. These resonances are the basis for a number of experimental techniques for detecting defects. The conductance method measures absorption as a function of frequency. Alternatively, the time response of the capacitance can be used directly, as in deep-level transient spectroscopy.
+Another example of frequency dependent capacitance occurs with MOS capacitors, where the slow generation of minority carriers means that at high frequencies the capacitance measures only the majority carrier response, while at low frequencies both types of carrier respond.
+At optical frequencies, in semiconductors the dielectric constant exhibits structure related to the band structure of the solid. Sophisticated modulation spectroscopy measurement methods based upon modulating the crystal structure by pressure or by other stresses and observing the related changes in absorption or reflection of light have advanced our knowledge of these materials.
+
+
+== Capacitance matrixEdit ==
+The discussion above is limited to the case of two conducting plates, although of arbitrary size and shape. The definition C=Q/V still holds for a single plate given a charge, in which case the field lines produced by that charge terminate as if the plate were at the center of an oppositely charged sphere at infinity.
+ does not apply when there are more than two charged plates, or when the net charge on the two plates is non-zero. To handle this case, Maxwell introduced his coefficients of potential. If three plates are given charges , then the voltage of plate 1 is given by
+
+and similarly for the other voltages. Hermann von Helmholtz and Sir William Thomson showed that the coefficients of potential are symmetric, so that , etc. Thus the system can be described by a collection of coefficients known as the elastance matrix or reciprocal capacitance matrix, which is defined as:
+
+From this, the mutual capacitance  between two objects can be defined by solving for the total charge Q and using .
+
+Since no actual device holds perfectly equal and opposite charges on each of the two "plates", it is the mutual capacitance that is reported on capacitors.
+The collection of coefficients  is known as the capacitance matrix, and is the inverse of the elastance matrix.
+
+
+== Self-capacitanceEdit ==
+In electrical circuits, the term capacitance is usually a shorthand for the mutual capacitance between two adjacent conductors, such as the two plates of a capacitor. However, for an isolated conductor there also exists a property called self-capacitance, which is the amount of electric charge that must be added to an isolated conductor to raise its electric potential by one unit (i.e. one volt, in most measurement systems). The reference point for this potential is a theoretical hollow conducting sphere, of infinite radius, centered on the conductor. Using this method, the self-capacitance of a conducting sphere of radius R is given by:
+
+Example values of self-capacitance are:
+for the top "plate" of a van de Graaff generator, typically a sphere 20 cm in radius: 22.24 pF
+the planet Earth: about 710 µF
+The inter-winding capacitance of a coil, which changes its impedance at high frequencies and gives rise to parallel resonance, is variously called self-capacitance, stray capacitance, or parasitic capacitance.
+
+
+== Stray capacitanceEdit ==
+
+Any two adjacent conductors can function as a capacitor, though the capacitance is small unless the conductors are close together for long distances or over a large area. This (often unwanted) capacitance is called parasitic or "stray capacitance". Stray capacitance can allow signals to leak between otherwise isolated circuits (an effect called crosstalk), and it can be a limiting factor for proper functioning of circuits at high frequency.
+Stray capacitance between the input and output in amplifier circuits can be troublesome because it can form a path for feedback, which can cause instability and parasitic oscillation in the amplifier. It is often convenient for analytical purposes to replace this capacitance with a combination of one input-to-ground capacitance and one output-to-ground capacitance; the original configuration — including the input-to-output capacitance — is often referred to as a pi-configuration. Miller's theorem can be used to effect this replacement: it states that, if the gain ratio of two nodes is 1/K, then an impedance of Z connecting the two nodes can be replaced with a Z/(1 − k) impedance between the first node and ground and a KZ/(K − 1) impedance between the second node and ground. Since impedance varies inversely with capacitance, the internode capacitance, C, is replaced by a capacitance of KC from input to ground and a capacitance of (K − 1)C/K from output to ground. When the input-to-output gain is very large, the equivalent input-to-ground impedance is very small while the output-to-ground impedance is essentially equal to the original (input-to-output) impedance.
+
+
+== Capacitance of simple systemsEdit ==
+Calculating the capacitance of a system amounts to solving the Laplace equation ∇2φ = 0 with a constant potential φ on the surface of the conductors. This is trivial in cases with high symmetry. There is no solution in terms of elementary functions in more complicated cases.
+For quasi-two-dimensional situations analytic functions may be used to map different geometries to each other. See also Schwarz–Christoffel mapping.
+
+
+== Capacitance of nanoscale systemsEdit ==
+The capacitance of nanoscale dielectric capacitors such as quantum dots may differ from conventional formulations of larger capacitors. In particular, the electrostatic potential difference experienced by electrons in conventional capacitors is spatially well-defined and fixed by the shape and size of metallic electrodes in addition to the statistically large number of electrons present in conventional capacitors. In nanoscale capacitors, however, the electrostatic potentials experienced by electrons are determined by the number and locations of all electrons that contribute to the electronic properties of the device. In such devices, the number of electrons may be very small, however, the resulting spatial distribution of equipotential surfaces within the device are exceedingly complex.
+
+
+=== Single-electron devicesEdit ===
+The capacitance of a connected, or "closed", single-electron device is twice the capacitance of an unconnected, or "open", single-electron device. This fact may be traced more fundamentally to the energy stored in the single-electron device whose "direct polarization" interaction energy may be equally divided into the interaction of the electron with the polarized charge on the device itself due to the presence of the electron and the amount of potential energy required to form the polarized charge on the device (the interaction of charges in the device's dielectric material with the potential due to the electron).
+
+
+=== Few-electron devicesEdit ===
+The derivation of a "quantum capacitance" of a few-electron device involves the thermodynamic chemical potential of an N-particle system given by
+
+whose energy terms may be obtained as solutions of the Schrödinger equation. The definition of capacitance,
+,
+with the potential difference
+
+may be applied to the device with the addition or removal of individual electrons,
+ and .
+Then
+
+is the "quantum capacitance" of the device.
+This expression of "quantum capacitance" may be written as
+
+which differs from the conventional expression described in the introduction where , the stored electrostatic potential energy,
+
+by a factor of 1/2 with .
+However, within the framework of purely classical electrostatic interactions, the appearance of the factor of 1/2 is the result of integration in the conventional formulation,
+
+which is appropriate since  for systems involving either many electrons or metallic electrodes, but in few-electron systems, . The integral generally becomes a summation. One may trivially combine the expressions of capacitance and electrostatic interaction energy,
+ and ,
+respectively, to obtain,
+
+which is similar to the quantum capacitance. A more rigorous derivation is reported in the literature. In particular, to circumvent the mathematical challenges of the spatially complex equipotential surfaces within the device, an average electrostatic potential experiences by each electron is utilized in the derivation.
+The reason for apparent mathematical differences is understood more fundamentally as the potential energy, , of an isolated device (self-capacitance) is twice that stored in a "connected" device in the lower limit N=1. As N grows large, . Thus, the general expression of capacitance is
+.
+In nanoscale devices such as quantum dots, the "capacitor" is often an isolated, or partially isolated, component within the device. The primary differences between nanoscale capacitors and macroscopic (conventional) capacitors are the number of excess electrons (charge carriers, or electrons, that contribute to the device's electronic behavior) and the shape and size of metallic electrodes. In nanoscale devices, nanowires consisting of metal atoms typically do not exhibit the same conductive properties as their macroscopic, or bulk material, counterparts.
+
+
+== See alsoEdit ==
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==

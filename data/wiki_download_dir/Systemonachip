@@ -1,0 +1,65 @@
+System on a chip
+A system on a chip or system on chip (SoC or SOC) is an integrated circuit (IC) that integrates all components of a computer or other electronic system into a single chip. It may contain digital, analog, mixed-signal, and often radio-frequency functions—all on a single chip substrate. SoCs are very common in the mobile electronics market because of their low power consumption. A typical application is in the area of embedded systems.
+The contrast with a microcontroller is one of degree. Microcontrollers typically have under 100 kB of RAM (often just a few kilobytes) and often really are single-chip-systems, whereas the term SoC is typically used for more powerful processors, capable of running software such as the desktop versions of Windows and Linux, which need external memory chips (flash, RAM) to be useful, and which are used with various external peripherals. In short, for larger systems, the term system on a chip is hyperbole, indicating technical direction more than reality: a high degree of chip integration, leading toward reduced manufacturing costs, and the production of smaller systems. Many interesting systems are too complex to fit on just one chip built with a processor optimized for just one of the system's tasks.
+When it is not feasible to construct a SoC for a particular application, an alternative is a system in package (SiP) comprising a number of chips in a single package. In large volumes, SoC is believed to be more cost-effective than SiP since it increases the yield of the fabrication and because its packaging is simpler.
+Another option, as seen for example in higher end cell phones is package on package stacking during board assembly. The SoC chip includes processors and numerous digital peripherals, and comes in a ball grid package with lower and upper connections. The lower balls connect to the board and various peripherals, with the upper balls in a ring holding the memory buses used to access NAND flash and DDR2 RAM. Memory packages could come from multiple vendors.
+
+
+== StructureEdit ==
+
+A typical SoC consists of:
+a microcontroller, microprocessor or digital signal processor (DSP) core – multiprocessor SoCs (MPSoC) have more than one processor core
+memory blocks including a selection of ROM, RAM, EEPROM and flash memory
+timing sources including oscillators and phase-locked loops
+peripherals including counter-timers, real-time timers and power-on reset generators
+external interfaces, including industry standards such as USB, FireWire, Ethernet, USART, SPI
+analog interfaces including ADCs and DACs
+voltage regulators and power management circuits
+A bus – either proprietary or industry-standard such as the AMBA bus from ARM Holdings – connects these blocks. DMA controllers route data directly between external interfaces and memory, bypassing the processor core and thereby increasing the data throughput of the SoC.
+
+
+== Design flowEdit ==
+
+A SoC consists of both the hardware, described above, and the software controlling the microcontroller, microprocessor or DSP cores, peripherals and interfaces. The design flow for a SoC aims to develop this hardware and software in parallel.
+Most SoCs are developed from pre-qualified hardware blocks for the hardware elements described above, together with the software drivers that control their operation. Of particular importance are the protocol stacks that drive industry-standard interfaces like USB. The hardware blocks are put together using CAD tools; the software modules are integrated using a software-development environment.
+Chips are verified for logical correctness before being sent to foundry. This process is called functional verification and it accounts for a significant portion of the time and energy expended in the chip design life cycle (although the often quoted figure of 70% is probably an exaggeration). With the growing complexity of chips, hardware verification languages like SystemVerilog, SystemC, e, and OpenVera are being used. Bugs found in the verification stage are reported to the designer.
+Traditionally, engineers have employed simulation acceleration, emulation and/or an FPGA prototype to verify and debug both hardware and software for SoC designs prior to tapeout. With high capacity and fast compilation time, acceleration and emulation are powerful technologies that provide wide visibility into systems. Both technologies, however, operate slowly, on the order of MHz, which may be significantly slower – up to 100× slower – than the SoC's operating frequency. Acceleration and emulation boxes are also very large and expensive at $1M+.
+FPGA prototypes, in contrast, use FPGAs directly to enable engineers to validate and test at, or close to, a system’s full operating frequency with real-world stimulus. Tools such as Certus are used to insert probes in the FPGA RTL that make signals available for observation. This is used to debug hardware, firmware and software interactions across multiple FPGA with capabilities similar to a logic analyzer.
+Once the hardware of the SoC is debugged, the place-and-route phase of the design of an integrated circuit or application-specific integrated circuit (ASIC) occurs before it is fabricated.
+
+
+== FabricationEdit ==
+SoCs can be fabricated by several technologies, including:
+Full custom
+Standard cell
+Field-programmable gate array (FPGA)
+SoC designs usually consume less power and have a lower cost and higher reliability than the multi-chip systems that they replace. And with fewer packages in the system, assembly costs are reduced as well.
+However, like most VLSI designs, the total cost is higher for one large chip than for the same functionality distributed over several smaller chips, because of lower yields and higher non-recurring engineering costs.
+
+
+== BenchmarksEdit ==
+SoC research and development often compares many options. Benchmarks, such as COSMIC, are developed to help such evaluations.
+
+
+== See alsoEdit ==
+List of system-on-a-chip suppliers
+PSoC
+Electronic design automation
+Post-silicon validation
+Single-board computer
+Network on a chip
+Radio-on-a-chip
+ARM architecture
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Badawy, Wael; Jullien, Graham A., eds. (2003). System-on-Chip for Real-Time Applications. Kluwer international series in engineering and computer science, SECS 711. Boston: Kluwer Academic Publishers. ISBN 9781402072543. OCLC 50478525.  465 pages.
+Furber, Stephen B. (2000). ARM system-on-chip architecture. Boston: Addison-Wesley. ISBN 0-201-67519-6. 
+
+
+== External linksEdit ==
+SOCC Annual IEEE International SOC Conference
+Baya Free SoC Platform Assembly and IP Integration Tool

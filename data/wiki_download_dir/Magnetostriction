@@ -1,0 +1,44 @@
+Magnetostriction
+Magnetostriction (cf. electrostriction) is a property of ferromagnetic materials that causes them to change their shape or dimensions during the process of magnetization. The variation of materials' magnetization due to the applied magnetic field changes the magnetostrictive strain until reaching its saturation value, λ. The effect was first identified in 1842 by James Joule when observing a sample of iron.
+This effect causes losses due to frictional heating in susceptible ferromagnetic cores. The effect is also responsible for the low-pitched humming sound that can be heard coming from transformers.
+
+
+== Explanation ==
+Internally, ferromagnetic materials have a structure that is divided into domains, each of which is a region of uniform magnetic polarization. When a magnetic field is applied, the boundaries between the domains shift and the domains rotate; both of these effects cause a change in the material's dimensions. The reason that a change in the magnetic domains of a material results in a change in the materials dimensions is a consequence of magnetocrystalline anisotropy, that it takes more energy to magnetize a crystalline material in one direction than another. If a magnetic field is applied to the material at an angle to an easy axis of magnetization the material will tend to rearrange its structure so that an easy axis is aligned with the field to minimize the free energy of the system. Since different crystal directions are associated with different lengths this effect induces a strain in the material.
+The reciprocal effect, the change of the susceptibility (response to an applied field) of a material when subjected to a mechanical stress, is called the Villari effect. Two other effects are thus related to magnetostriction: the Matteucci effect is the creation of a helical anisotropy of the susceptibility of a magnetostrictive material when subjected to a torque and the Wiedemann effect is the twisting of these materials when a helical magnetic field is applied to them.
+The Villari reversal is the change in sign of the magnetostriction of iron from positive to negative when exposed to magnetic fields of approximately 40,000 A/m.
+On magnetization, a magnetic material undergoes changes in volume which are small: of the order 10−6.
+
+
+== Magnetostrictive hysteresis loop ==
+
+Like flux density, the magnetostriction also exhibit hysteresis versus strength of magnetizing field. The shape of this hysteresis loop (called "butterfly loop") can be reproduced using the Jiles-Atherton model.
+
+
+== Magnetostrictive materials ==
+
+Magnetostrictive materials can convert magnetic energy into kinetic energy, or the reverse, and are used to build actuators and sensors. The property can be quantified by the magnetostrictive coefficient, Λ, which may be positive or negative and is defined as the fractional change in length as the magnetization of the material increases from zero to the saturation value. The effect is responsible for the familiar "electric hum" ( Listen ) which can be heard near transformers and high power electrical devices.
+Cobalt exhibits the largest room-temperature magnetostriction of a pure element at 60 microstrains. Among alloys, the highest known magnetostriction is exhibited by Terfenol-D, (Ter for terbium, Fe for iron, NOL for Naval Ordnance Laboratory, and D for dysprosium). Terfenol-D, TbxDy1-xFe2, exhibits about 2,000 microstrains in a field of 2 kOe (160 kA/m) at room temperature and is the most commonly used engineering magnetostrictive material. Galfenol is a newer such material.
+Another very common magnetostrictive composite is the amorphous alloy Fe81Si3.5B13.5C2 with its trade name Metglas 2605SC. Favourable properties of this material are its high saturation-magnetostriction constant, λ, of about 20 microstrains and more, coupled with a low magnetic-anisotropy field strength, HA, of less than 1 kA/m (to reach magnetic saturation). Metglas 2605SC also exhibits a very strong ΔE-effect with reductions in the effective Young's modulus up to about 80% in bulk. This helps build energy-efficient magnetic MEMS.
+In early sonar transducers, during World War II, nickel was used as a magnetostrictive material. To alleviate the shortage of nickel, Japanese navy used an iron-aluminium alloy from the Alperm family.
+
+
+== See also ==
+Coil noise
+Inverse magnetostrictive effect
+Electrostriction
+Piezoelectricity
+Piezomagnetism
+SoundBug
+FeONIC—developer of audio products using magnetostriction
+Terfenol-D
+Galfenol
+
+
+== References ==
+
+
+== External links ==
+Magnetostriction
+"Magnetostriction and transformer noise" (PDF). Archived from the original (PDF) on 2006-05-10. 
+Invisible Speakers from Feonic that use Magnetostriction

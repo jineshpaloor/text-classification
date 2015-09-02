@@ -1,0 +1,56 @@
+Observability
+In control theory, observability is a measure for how well internal states of a system can be inferred by knowledge of its external outputs. The observability and controllability of a system are mathematical duals. The concept of observability was introduced by American-Hungarian engineer Rudolf E. Kalman for linear dynamic systems.
+
+
+== Definition ==
+Formally, a system is said to be observable if, for any possible sequence of state and control vectors, the current state can be determined in finite time using only the outputs (this definition is slanted towards the state space representation). Less formally, this means that from the system's outputs it is possible to determine the behaviour of the entire system. If a system is not observable, this means the current values of some of its states cannot be determined through output sensors. This implies that their value is unknown to the controller (although they can be estimated through various means).
+For time-invariant linear systems in the state space representation, there is a convenient test to check if a system is observable. Consider a SISO system with  states (see state space for details about MIMO systems), if the row rank of the following observability matrix
+
+is equal to , then the system is observable. The rationale for this test is that if  rows are linearly independent, then each of the  states is viewable through linear combinations of the output variables .
+A module designed to estimate the state of a system from measurements of the outputs is called a state observer or simply an observer for that system.
+Observability index
+The Observability index  of a linear time-invariant discrete system is the smallest natural number for which is satisfied that , where
+
+Detectability
+A slightly weaker notion than observability is detectability. A system is detectable if all the unstable modes are observable. 
+
+
+== Continuous time-varying system ==
+Consider the continuous linear time-variant system
+
+Suppose that the matrices  are given as well as inputs and outputs  for all  then it is possible to determine  to within an additive constant vector which lies in the null space of  defined by
+
+where  is the state-transition matrix.
+It is possible to determine a unique  if  is nonsingular. In fact, it is not possible to distinguish the initial state for  from that of  if  is in the null space of .
+Note that the matrix  defined as above has the following properties:
+ is symmetric
+ is positive semidefinite for 
+ satisfies the linear matrix differential equation
+
+ satisfies the equation
+
+
+== Nonlinear case ==
+Given the system , . Where  the state vector,  the input vector and  the output vector.  are to be smooth vectorfields.
+Now define the observation space  to be the space containing all repeated Lie derivatives. Now the system is observable in  if and only if .
+Note: 
+Early criteria for observability in nonlinear dynamic systems were discovered by Griffith and Kumar, Kou, Elliot and Tarn, and Singh.
+
+
+== Static systems and general topological spaces ==
+Observability may also be characterized for steady state systems (systems typically defined in terms of algebraic equations and inequalities), or more generally, for sets in  ,. Just as observability criteria are used to predict the behavior of Kalman filters or other observers in the dynamic system case, observability criteria for sets in  are used to predict the behavior of data reconciliation and other static estimators. In the nonlinear case, observability can be characterized for individual variables, and also for local estimator behavior rather than just global behavior.
+
+
+== See also ==
+Controllability
+State observer
+State space (controls)
+
+
+== References ==
+
+
+== External links ==
+Observability at PlanetMath.org.
+MATLAB function for checking observability of a system
+Mathematica function for checking observability of a system

@@ -1,0 +1,22 @@
+Busbar
+In electrical power distribution, a busbar (also spelled bus bar, or sometimes as buss bar or bussbar, with the term bus being a contraction of the Latin omnibus, "for all") is a metallic strip or bar (typically copper, brass or aluminium) that conducts electricity within a switchboard, distribution board, substation, battery bank, or other electrical apparatus. Its main purpose is to conduct a substantial current of electricity, and not to function as a structural member.
+The material composition and cross-sectional size of the busbar determine the maximum amount of current that can be safely carried. Busbars can have a cross-sectional area of as little as 10 square millimetres (0.016 sq in), but electrical substations may use metal tubes 50 millimetres (2.0 in) in diameter (20 square millimetres (0.031 sq in)) or more as busbars. An aluminium smelter will have very large busbars used to carry tens of thousands of amperes to the electrochemical cells that produce aluminium from molten salts.
+
+
+== Design and placement ==
+Busbars are produced in a variety of shapes such as flat strips, solid bars and rods, solid or hollow tubes, and braided wire. Some of these shapes allow heat to dissipate more efficiently due to their high surface area to cross-sectional area ratio. The skin effect makes 50–60 Hz AC busbars more than about 8 millimetres (0.31 in) thickness inefficient, so hollow or flat shapes are prevalent in higher current applications. A hollow section also has higher stiffness than a solid rod of equivalent current-carrying capacity, which allows a greater span between busbar supports in outdoor electrical switchyards.
+A busbar must be sufficiently rigid to support its own weight, and forces imposed by mechanical vibration and possibly earthquakes, as well as accumulated precipitation in outdoor exposures. In addition, thermal expansion from temperature changes induced by ohmic heating and ambient temperature variations, and magnetic forces induced by large currents must be considered.
+Busbars are typically contained inside switchgear, panel boards, and busway enclosures. They are also used to connect high voltage equipment at electrical switchyards. Distribution boards split the electrical supply into separate circuits at one location. Busways, or bus ducts, are long busbars with a protective cover. Rather than branching from the main supply at one location, they allow new circuits to branch off anywhere along the route of the busway.
+A busbar may either be supported on insulators, or else insulation may completely surround it. Busbars are protected from accidental contact either by a metal earthed enclosure or by elevation out of normal reach. Power neutral busbars may also be insulated. Earthing (safety grounding) busbars are typically bare and bolted directly onto any metal chassis of their enclosure. Busbars may be enclosed in a metal housing, in the form of bus duct or busway, segregated-phase bus, or isolated-phase bus.
+Busbars may be connected to each other and to electrical apparatus by bolted, clamped, or welded connections. Often, joints between high-current bus sections have precisely-machined matching surfaces that are silver-plated to reduce the contact resistance. At extra high voltages (more than 300 kV) in outdoor buses, corona discharge around the connections becomes a source of radio-frequency interference and power loss, so special connection fittings designed for these voltages are used.
+
+
+== See also ==
+Bus (computing)
+
+
+== References ==
+
+Walter A. Elmore. Protective Relaying Theory and Applications. Marcel Dekker Inc. ISBN 0-8247-9152-5. 
+Paschal, John (2000-10-01). "Ensuring a Good Bus Duct Installation". Electrical Construction & Maintenance. Retrieved 2009-04-06. 
+·Assessment Of Bus Duct And Their Relevance·

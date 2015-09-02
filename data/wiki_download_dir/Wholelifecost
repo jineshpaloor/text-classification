@@ -1,0 +1,69 @@
+Whole-life cost
+Whole-life cost, or Life-cycle cost (LCC), refers to the total cost of ownership over the life of an asset. Also commonly referred to as "cradle to grave" or "womb to tomb" costs. Costs considered include the financial cost which is relatively simple to calculate and also the environmental and social costs which are more difficult to quantify and assign numerical values. Typical areas of expenditure which are included in calculating the whole-life cost include, planning, design, construction and acquisition, operations, maintenance, renewal and rehabilitation, depreciation and cost of finance and replacement or disposal.
+
+
+== Financial ==
+Whole-life cost analysis is often used for option evaluation when procuring new assets and for decision-making to minimize whole-life costs throughout the life of an asset. It is also applied to comparisons of actual costs for similar asset types and as feedback into future design and acquisition decisions.
+The primary benefit is that costs which occur after an asset has been constructed or acquired, such as maintenance, operation, disposal, become an important consideration in decision-making. Previously, the focus has been on the up-front capital costs of creation or acquisition, and organisations may have failed to take account of the longer-term costs of an asset. It also allows an analysis of business function interrelationships. Low development costs may lead to high maintenance or customer service costs in the future. When making this calculation, the depreciation cost on the capital expense should not be included (refer page 2 of 
+
+
+== Environmental and social ==
+
+The use of environmental costs in a whole-life analysis allows a true comparison options, especially where both are quoted as "good" for the environment. For a major project such as the construction of a nuclear power station it is possible to calculate the environmental impact of making the concrete containment, the water required for refining the copper for the power plants and all the other components. Only by undertaking such an analysis is it possible to determine whether one solution carries a lower or higher environmental cost than another.
+Almost all major projects have some social impact. This may be the compulsory re-location of people living on land about to be submerged under a reservoir or a threat to the livelihood of small traders from the development of a hypermarket nearby.
+
+
+== Whole-life cost topics ==
+
+
+=== Project appraisal ===
+Whole-life costing is a key component in the economic appraisal associated with evaluating asset acquisition proposals. An economic appraisal is generally a broader based assessment, considering benefits and indirect or intangible costs as well as direct costs.
+In this way, the whole-life costs and benefits of each option are considered and usually converted using discount rates into net present value costs and benefits. This results in a benefit cost ratio for each option, usually compared to the "do-nothing" counterfactual. Typically the highest benefit-cost ratio option is chosen as the preferred option.
+Historically, asset investments have been based on expedient design and lowest cost construction. If such investment has been made without proper analysis of the standard of service required and the maintenance and intervention options available, the initial saving may result in increased expenditure throughout the asset's life.
+By using whole-life costs, this avoids issues with decisions being made based on the short-term costs of design and construction. Often the longer-term maintenance and operation costs can be a significant proportion of the whole-life cost.
+
+
+=== Asset management ===
+During the life of the asset, decisions about how to maintain and operate the asset need to be taken in context with the effect these activities might have on the residual life of the asset. If by investing 10% more per annum in maintenance costs the asset life can be doubled, this might be a worthwhile investment.
+Other issues which influence the lifecycle costs of an asset include:
+site conditions,
+historic performance of assets or materials,
+effective monitoring techniques,
+appropriate intervention strategies.
+Although the general approach to determining whole-life costs is common to most types of asset, each asset will have specific issues to be considered and the detail of the assessment needs to be tailored to the importance and value of the asset. High cost assets (and asset systems) will likely have more detail, as will critical assets and asset systems.
+Maintenance expenditure can account for many times the initial cost of the asset. Although an asset may be constructed with a design life of 30 years, in reality it will possibly perform well beyond this design life. For assets like these a balanced view between maintenance strategies and renewal/rehabilitation is required. The appropriateness of the maintenance strategy must be questioned, the point of intervention for renewal must be challenged. The process requires proactive assessment which must be based on the performance expected of the asset, the consequences and probabilities of failures occurring, and the level of expenditure in maintenance to keep the service available and to avert disaster.
+
+
+== IT industry usage ==
+Whole-life cost is often referred to as "total cost of ownership (TCO)" when applied to IT hardware and software acquisitions. Use of the term "TCO" appears to have been popularised by Gartner Group in 1987 but its roots are considerably older, dating at least to the first quarter of the twentieth century.
+It has since been developed as a concept with a number of different methodologies and software tools. A TCO assessment ideally offers a final statement reflecting not only the cost of purchase but all aspects in the further use and maintenance of the equipment, device, or system considered. This includes the costs of training support personnel and the users of the system, costs associated with failure or outage (planned and unplanned), diminished performance incidents (i.e. if users are kept waiting), costs of security breaches (in loss of reputation and recovery costs), costs of disaster preparedness and recovery, floor space, electricity, development expenses, testing infrastructure and expenses, quality assurance, boot image control, marginal incremental growth, decommissioning, e-waste handling, and more. When incorporated in any financial benefit analysis (e.g., ROI, IRR, EVA, ROIT, RJE) TCO provides a cost basis for determining the economic value of that investment.
+Understanding and familiarity with the term TCO has been somewhat facilitated as a result of various comparisons between the TCO of open source and proprietary software. Because the software cost of open source software is often zero, TCO has been used as a means to justify the up-front licensing costs of proprietary software. Studies which attempt to establish the TCO and provide comparisons have as a result been the subject of many discussions regarding the accuracy or perceived bias in the comparison.
+
+
+== Automobile industry, finances ==
+Total cost of ownership is also common in the automobile industry. In this context, the TCO denotes the cost of owning a vehicle from the purchase, through its maintenance, and finally its sale as a used car. Comparative TCO studies between various models help consumers choose a car to fit their needs and budget.
+TCO can and often does vary dramatically against TCA (total cost of acquisition), although TCO is far more relevant in determining the viability of any capital investment, especially with modern credit markets and financing. TCO also directly relates to a business's total costs across all projects and processes and, thus, its profitability. Some instances of "TCO" appear to refer to "total cost of operation", but this may be a subset of the total cost of ownership if it excludes maintenance and support costs.
+
+
+== See also ==
+Benefits Realisation Management
+Infrastructure
+Asset management
+
+
+== References ==
+
+
+== Further reading ==
+Riggs, James L., (1982), Engineering economics. McGraw-Hill, New York, 2nd edition, 1982.
+Norris, G. A. (2001): Integrating Life Cycle Cost Analysis and LCA, in: The International Journal of Life Cycle Assessment, Jg. 6, H. 2, p. 118–120.
+Schaltegger, S. & Burritt, R. (2000): Contemporary Environmental Accounting. Issues, Concepts and Practice. Sheffield: Greenleaf Publ.
+Kicherer, A.; Schaltegger, S.; Tschochohei, H. & Ferreira Pozo, B.: Eco-Efficiency. Combining Life Cycle Assessment and Life Cycle Costs via Normalization, International Journal of LCA, 2007, Vol 12, No 7, 537-543.
+
+
+== External links ==
+Whole-life cost forum
+Whole-life costing for sustainable drainage
+BSRIA article: "What is whole life cost analysis?"
+Role of depreciation
+Cost Structure and Life Cycle Cost (LCC) for Military Systems - Papers presented at the RTO Studies, Analysis and Simulation Panel (SAS) Symposium held in Paris, France, 24-25 October 2001

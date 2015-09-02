@@ -1,0 +1,43 @@
+René Thury
+René Thury (August 7, 1860 – April 23, 1938) was a Swiss pioneer in electrical engineering. He was known for his work with high voltage direct current electricity transmission and was known in the professional world as the "King of DC." 
+
+
+== Biography ==
+René Thury's father, Marc-Antoine Thury was a teacher of Natural History. From 1874 René became an apprentice at Société Instruments Physiques, a precision machine building firm in Geneva working for Emil Bürgin who made refinements to the dynamos of Zénobe Gramme. When Bürgin left SIP in 1876, Thury became his successor. He was also served as a laboratory technician of Prof. Jacques-Louis Soret at the University of Geneva. Soret had acquired a Burgin dynamo placing it in series with batteries, and Thury secretly devised a means to make the batteries superfluous.
+In 1877, he built a steam powered tricycle along with a medical student Jean-Jacques Nussberger who financed the project. It could reach 50 km/h and would be one of the first Swiss built cars. In 1904, Thury produced a gasoline electric parallel hybrid, whose all electric range was 40 km with a 550 kg battery, or 5 km with a 150 kg battery.
+Some Swiss and German financiers were investigating financing a concession to build Edison company equipment and as part of this, Thury spent 6 months visiting the Menlo Park labs of Thomas Edison in the winter of 1880-1881. Thury was impressed with the latitude that Edison's researchers were given to pursue their ideas and developed a friendship with Edison. He gained many insights, but also came to the conclusion that Edison's Dynamos could be significantly improved. Back in Geneva, he directed the fabrication under SIP license of Edison and Gramme dynamos. He later worked briefly for Bürgin & Alioth Société d'électricité Alioth, and then changed as technical director for the A. & H. de Meuron Cuénod, where he designed his multipole dynamo for which he was awarded a patent in 1883. During 1882, Thury built a six pole dynamo to this design that yielded a much more compact dynamo than those of Edison. At the 1884 Turin exhibition it won the gold medal. Over the period 1883 to 1926 his ideas resulted in 19 additional patents.
+
+In 1885 he built a system to supply Bözingen (a municipality now part of Biel/Bienne) with 30 kW of power generated from nearby Taubenlochschlucht gorge using DC transmission at 500 volts. After this he made some developments for electric railways.
+Thury solved the problems of commutation and built the first dynamo with voltages of up to 25,000 volts. He also developed the Thury control (Régulateur à Déclic).
+After his resignation in 1910, he worked as a consultant, building in France a high-frequency generator for wireless telegraph transmissions operating at 40 kilohertz with a 1000 kW maximum output.
+René Thury married Caroline Leuthold in 1889 and had five daughters and a son.
+
+
+== The Thury system ==
+The war of the currents was won by alternating current because transmission of power at high voltage could use transformers to easily convert between voltages. Marcel Deprez explored early transmission using direct current but avoiding transformers by placing generators and loads in series as arc light systems of Charles F. Brush did. Thury developed this idea into the first commercial system for high-voltage DC transmission, using generators in series to attain high transmission voltages. Like Brush's dynamos, current is kept constant, and when increasing load demands more pressure, voltage is increased.
+
+In 1889, the system was first put into service in Italy by the Acquedotto de Ferrari-Galliera company. Earlier the company had built a water supply for Genoa from the Gorzente River, and were interested whether turbines for electrical generation might address their long standing problem of reducing excess pressure. The first turbine of 140 hp (100 kW) was installed at Galvani station, which turned the two Thury 6-pole dynamos that each produce 1000 to 1100 volts at 45 amperes. In order to keep the same current, their speed varies from 20 to 475 rpm, regulated by changing the flow through the water turbine. The circuit supplied 15 motors along the line stretching to Genoa, including a 60 hp (44 kW) motor at the railway station, and motor transformers at Central Electric Lighting Station in Genoa. Additional generation plants followed providing lighting as well as motive power to a number of mills, factories and railway repair shops.
+An example of the mechanical voltage conversion employed was described for the lighting of Sampierdarena Train Station. The Thury system powered a 60 hp (44 kW) motor which drove via belts twelve Siemens and two Technomasio dynamos for the station's lights. Genoa's Thury system was progressively upgraded to transmit 630 kW at 14 kV DC over a circuit distance of 120 km, using later dynamos capable of producing 2.5 megawatts (5000 volts at 500 amperes) using double commutators to reduce the voltage on each commutator.
+Thury systems were installed over the next few years at several sites:
+1889 first station at 6 kV supplying Genoa from Gorzente River hydro turbines.
+1897 in La Chaux-de-Fonds (14 kV)
+1899 between St-Maurice and Lausanne (22 kV, 3.7 megawatts)
+1906 Lyon-Moutiers project (final capacity: 20 megawatts, 125 kV, 230 km)
+1911 Metropolitan Electric Supply Company, London, 100-ampere 5,000-volt generators 
+The Moutiers-Lyon system transmitted 20 megawatts of hydroelectric power a distance of 124 miles (200 km), including 6 miles (10 km) of underground cable. The system used eight series-connected generators with dual commutators for a total voltage of 150,000 volts between the poles, was steadily upgraded from 4.3 to 20 MW and ran from about 1906 until 1936. By 1913, fifteen Thury systems were in use in England, Hungary, Russia, Switzerland, France and Italy. Thury systems operated up to the 1930s, but the rotating conversion machinery required high maintenance and had high energy loss.
+The main limitations of the Thury system was that series distribution meant greater opportunity for power failures. Placing loads in series means that since current must flow through each device to get to the next, if the circuit is broken in any of the devices, the current stops at all other loads. Such series distribution was possible with automatic short circuiting mechanisms as in the Thomson-Houston and Brush high voltage DC arc light systems, but since each load is not independent as in modern parallel distribution, the approach was inherently more fragile.
+Attention was turned to conversion of DC to lower voltages that was more efficient and less cumbersome that mechanically driving smaller generators as in the Sampierdarena Railway station example.
+
+This was a challenge for all DC systems because the induction principle used in the step down transformers pioneered by Lucien Gaulard and ZBD in the early 1880s only worked with AC. Not until grid controlled mercury arc valves became available for power transmission during the period 1920 to 1940 was it possible to utilize high-voltage direct current for large transmission projects, but by that time AC transmission was dominant, cheap and reliable.
+
+
+== Realized Thury systems ==
+
+An incomplete list of realized Thury systems.
+
+
+== References ==
+
+
+== External links ==
+http://w3public.ville-ge.ch/seg/xmlarchives.nsf/Attachments/thuryframeset.htm/$file/thuryframeset.htm?OpenElement

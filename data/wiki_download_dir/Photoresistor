@@ -1,0 +1,33 @@
+Photoresistor
+A photoresistor or light-dependent resistor (LDR) or photocell is a light-controlled variable resistor. The resistance of a photoresistor decreases with increasing incident light intensity; in other words, it exhibits photoconductivity. A photoresistor can be applied in light-sensitive detector circuits, and light- and dark-activated switching circuits.
+A photoresistor is made of a high resistance semiconductor. In the dark, a photoresistor can have a resistance as high as several megohms (MΩ), while in the light, a photoresistor can have a resistance as low as a few hundred ohms. If incident light on a photoresistor exceeds a certain frequency, photons absorbed by the semiconductor give bound electrons enough energy to jump into the conduction band. The resulting free electrons (and their hole partners) conduct electricity, thereby lowering resistance. The resistance range and sensitivity of a photoresistor can substantially differ among dissimilar devices. Moreover, unique photoresistors may react substantially differently to photons within certain wavelength bands.
+A photoelectric device can be either intrinsic or extrinsic. An intrinsic semiconductor has its own charge carriers and is not an efficient semiconductor, for example, silicon. In intrinsic devices the only available electrons are in the valence band, and hence the photon must have enough energy to excite the electron across the entire bandgap. Extrinsic devices have impurities, also called dopants, added whose ground state energy is closer to the conduction band; since the electrons do not have as far to jump, lower energy photons (that is, longer wavelengths and lower frequencies) are sufficient to trigger the device. If a sample of silicon has some of its atoms replaced by phosphorus atoms (impurities), there will be extra electrons available for conduction. This is an example of an extrinsic semiconductor.
+
+
+== Design considerations ==
+
+Photoresistors are less light-sensitive devices than photodiodes or phototransistors: the two latter components are true semiconductor devices, while a photoresistor is a passive component and does not have a PN-junction. The photoresistivity of any photoresistor may vary widely depending on ambient temperature, making them unsuitable for applications requiring precise measurement of or sensitivity to light.
+Photoresistors also exhibit a certain degree of latency between exposure to light and the subsequent decrease in resistance, usually around 10 milliseconds. The lag time when going from lit to dark environments is even greater, often as long as one second. This property makes them unsuitable for sensing rapidly flashing lights, but is sometimes used to smooth the response of audio signal compression.
+
+
+== Applications ==
+
+It can be placed inn street-lights, to ensure less wastage of electricity. And also used as security system (anti-theft), By placing wide enough radius' beam of light, Which when interrupted starts circuit making bell at other end ring.
+Photoresistors come in many types. Inexpensive cadmium sulphide cells can be found in many consumer items such as camera light meters, street lights, clock radios, alarm devices, night lights, outdoor clocks, solar street lamps and solar road studs, etc.
+They are also used in some dynamic compressors together with a small incandescent or neon lamp, or light-emitting diode to control gain reduction. A common usage of this application can be found in many guitar amplifiers that incorporate an onboard tremolo effect, as the oscillating light patterns control the level of signal running through the amp circuit.
+The use of CdS and CdSe photoresistors is severely restricted in Europe due to the RoHS ban on cadmium.
+Lead sulphide (PbS) and indium antimonide (InSb) LDRs (light-dependent resistors) are used for the mid-infrared spectral region. Ge:Cu photoconductors are among the best far-infrared detectors available, and are used for infrared astronomy and infrared spectroscopy.
+
+
+== References ==
+
+
+== See also ==
+Optoelectronics
+
+
+== External links ==
+Using a photoresistor to measure nocturnal light levels - The Moonlight Sensor
+Using a photoresistor to track light
+Connecting a photoresistor to a circuit
+Photoresistor overview - detailing operation, structure and circuit information

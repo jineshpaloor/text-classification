@@ -1,0 +1,48 @@
+Tellegen's theorem
+Tellegen's theorem is one of the most powerful theorems in network theory. Most of the energy distribution theorems and extremum principles in network theory can be derived from it. It was published in 1952 by Bernard Tellegen. Fundamentally, Tellegen's theorem gives a simple relation between magnitudes that satisfy Kirchhoff's laws of electrical circuit theory.
+The Tellegen theorem is applicable to a multitude of network systems. The basic assumptions for the systems are the conservation of flow of extensive quantities (Kirchhoff's current law, KCL) and the uniqueness of the potentials at the network nodes (Kirchhoff's voltage law, KVL). The Tellegen theorem provides a useful tool to analyze complex network systems including electrical circuits, biological and metabolic networks, pipeline transport networks, and chemical process networks.
+
+
+== The theorem ==
+Consider an arbitrary lumped network whose graph  has  branches and  nodes. In an electrical network, the branches are two-terminal components and the nodes are points of interconnection. Suppose that to each branch of the graph we assign arbitrarily a branch potential difference  and a branch current  for , and suppose that they are measured with respect to arbitrarily picked associated reference directions. If the branch potential differences  satisfy all the constraints imposed by KVL and if the branch currents  satisfy all the constraints imposed by KCL, then
+
+Tellegen's theorem is extremely general; it is valid for any lumped network that contains any elements, linear or nonlinear, passive or active, time-varying or time-invariant. The generality is extended when  and  are linear operations on the set of potential differences and on the set of branch currents (respectively) since linear operations don't affect KVL and KCL. For instance, the linear operation may be the average or the Laplace transform. The set of currents can also be sampled at a different time from the set of potential differences since KVL and KCL are true at all instants of time. Another extension is when the set of potential differences  is from one network and the set of currents  is from an entirely different network, so long as the two networks have the same topology (same incidence matrix) Tellegen's theorem remains true. This extension of Tellegen's Theorem leads to many theorems relating to two-port networks.
+
+
+== Definitions ==
+We need to introduce a few necessary network definitions to provide a compact proof.
+Incidence matrix: The  matrix  is called node-to-branch incidence matrix for the matrix elements  being
+
+A reference or datum node  is introduced to represent the environment and connected to all dynamic nodes and terminals. The  matrix , where the row that contains the elements  of the reference node  is eliminated, is called reduced incidence matrix.
+The conservation laws (KCL) in vector-matrix form:
+
+The uniqueness condition for the potentials (KVL) in vector-matrix form:
+
+where  are the absolute potentials at the nodes to the reference node .
+
+
+== Proof ==
+Using KVL:
+
+because  by KCL. So:
+
+
+== Applications ==
+Network analogs have been constructed for a wide variety of physical systems, and have proven extremely useful in analyzing their dynamic behavior. The classical application area for network theory and Tellegen's theorem is electrical circuit theory. It is mainly in use to design filters in signal processing applications.
+A more recent application of Tellegen's theorem is in the area of chemical and biological processes. The assumptions for electrical circuits (Kirchhoff laws) are generalized for dynamic systems obeying the laws of irreversible thermodynamics. Topology and structure of reaction networks (reaction mechanisms, metabolic networks) can be analyzed using the Tellegen theorem.
+Another application of Tellegen's theorem is to determine stability and optimality of complex process systems such as chemical plants or oil production systems. The Tellegen theorem can be formulated for process systems using process nodes, terminals, flow connections and allowing sinks and sources for production or destruction of extensive quantities.
+A formulation for Tellegen's theorem of process systems:
+
+where  are the production terms,  are the terminal connections, and  are the dynamic storage terms for the extensive variables.
+
+
+== References ==
+In-line references
+
+General references
+
+
+== External links ==
+Circuit example for Tellegen's theorem
+G.F. Oster and C.A. Desoer, Tellegen's Theorem and Thermodynamic Inequalities
+Network thermodynamics

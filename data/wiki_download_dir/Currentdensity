@@ -1,0 +1,95 @@
+Current density
+In electromagnetism, current density is the electric current per unit area of cross section. It is defined as a vector whose magnitude is the electric current per cross-sectional area at a given point in space (i.e. it is a vector field). In SI units, the electric current density is measured in amperes per square metre.
+
+
+== Definition ==
+Electric current density J is simply the electric current I (SI unit: A) per unit area A (SI unit: m2). Its magnitude is given by the limit:
+
+For current density as a vector J, the surface integral over a surface S, followed by an integral over the time duration t1 to t2, gives the total amount of charge flowing through the surface in that time (t2 − t1):
+
+The area required to calculate the flux is real or imaginary, flat or curved, either as a cross-sectional area or a surface. For example, for charge carriers passing through an electrical conductor, the area is the cross-section of the conductor, at the section considered.
+The vector area is a combination of the magnitude of the area through which the mass passes through, A, and a unit vector normal to the area, . The relation is .
+If the current density J passes through the area at an angle θ to the area normal , then
+
+where · is the dot product of the unit vectors. This is, the component of current density passing through the surface (i.e. normal to it) is J cos θ, while the component of current density passing tangential to the area is J sin θ, but there is no current density actually passing through the area in the tangential direction. The only component of current density passing normal to the area is the cosine component.
+
+
+== Importance ==
+Current density is important to the design of electrical and electronic systems.
+Circuit performance depends strongly upon the designed current level, and the current density then is determined by the dimensions of the conducting elements. For example, as integrated circuits are reduced in size, despite the lower current demanded by smaller devices, there is trend toward higher current densities to achieve higher device numbers in ever smaller chip areas. See Moore's law.
+At high frequencies, current density can increase because the conducting region in a wire becomes confined near its surface, the so-called skin effect.
+High current densities have undesirable consequences. Most electrical conductors have a finite, positive resistance, making them dissipate power in the form of heat. The current density must be kept sufficiently low to prevent the conductor from melting or burning up, the insulating material failing, or the desired electrical properties changing. At high current densities the material forming the interconnections actually moves, a phenomenon called electromigration. In superconductors excessive current density may generate a strong enough magnetic field to cause spontaneous loss of the superconductive property.
+The analysis and observation of current density also is used to probe the physics underlying the nature of solids, including not only metals, but also semiconductors and insulators. An elaborate theoretical formalism has developed to explain many fundamental observations.
+The current density is an important parameter in Ampère's circuital law (one of Maxwell's equations), which relates current density to magnetic field.
+In special relativity theory, charge and current are combined into a 4-vector.
+
+
+== Calculation of current densities in matter ==
+
+
+=== Free currents ===
+Charge carriers which are free to move constitute a free current density, which are given by expressions such as those in this section.
+Electric current is a coarse, average quantity that tells what is happening in an entire wire. At position r at time t, the distribution of charge flowing is described by the current density:
+
+where J(r, t) is the current density vector, vd(r, t) is the particles' average drift velocity (SI unit: m∙s−1), and
+
+is the charge density (SI unit: coulombs per cubic metre), in which n(r, t) is the number of particles per unit volume ("number density") (SI unit: m−3), q is the charge of the individual particles with density n (SI unit: coulombs).
+A common approximation to the current density assumes the current simply is proportional to the electric field, as expressed by:
+
+where E is the electric field and σ is the electrical conductivity.
+Conductivity σ is the reciprocal (inverse) of electrical resistivity and has the SI units of siemens per metre (S m−1), and E has the SI units of newtons per coulomb (N C−1) or, equivalently, volts per metre (V m−1).
+A more fundamental approach to calculation of current density is based upon:
+
+indicating the lag in response by the time dependence of σ, and the non-local nature of response to the field by the spatial dependence of σ, both calculated in principle from an underlying microscopic analysis, for example, in the case of small enough fields, the linear response function for the conductive behaviour in the material. See, for example, Giuliani or Rammer. The integral extends over the entire past history up to the present time.
+The above conductivity and its associated current density reflect the fundamental mechanisms underlying charge transport in the medium, both in time and over distance.
+A Fourier transform in space and time then results in:
+
+where σ(k, ω) is now a complex function.
+In many materials, for example, in crystalline materials, the conductivity is a tensor, and the current is not necessarily in the same direction as the applied field. Aside from the material properties themselves, the application of magnetic fields can alter conductive behaviour.
+
+
+=== Polarization and magnetization currents ===
+Currents arise in materials when there is a non-uniform distribution of charge.
+In dielectric materials, there is a current density corresponding to the net movement of electric dipole moments per unit volume, i.e. the polarization P:
+
+Similarly with magnetic materials, circulations of the magnetic dipole moments per unit volume, i.e. the magnetization M lead to volume magnetization currents:
+
+Together, these terms form add up to the bound current density in the material (resultant current due to movements of electric and magnetic dipole moments per unit volume):
+
+
+=== Total current in materials ===
+The total current is simply the sum of the free and bound currents:
+
+
+=== Displacement current ===
+There is also a displacement current corresponding to the time-varying electric displacement field D:
+
+which is an important term in Ampere's circuital law, one of Maxwell's equations, since absence of this term would not predict electromagnetic waves to propagate, or the time evolution of electric fields in general.
+
+
+== Continuity equation ==
+
+Since charge is conserved, current density must satisfy a continuity equation. Here is a derivation from first principles.
+The net flow out of some volume V (which can have an arbitrary shape but fixed for the calculation) must equal the net change in charge held inside the volume:
+
+where ρ is the charge density, and dA is a surface element of the surface S enclosing the volume V. The surface integral on the left expresses the current outflow from the volume, and the negatively signed volume integral on the right expresses the decrease in the total charge inside the volume. From the divergence theorem:
+
+Hence:
+
+This relation is valid for any volume, independent of size or location, which implies that:
+
+and this relation is called the continuity equation.
+
+
+== In practice ==
+In electrical wiring, the maximum current density can vary from 4A∙mm−2 for a wire with no air circulation around it, to 6A∙mm−2 for a wire in free air. Regulations for building wiring list the maximum allowed current of each size of cable in differing conditions. For compact designs, such as windings of SMPS transformers, the value might be as low as 2 A∙mm−2. If the wire is carrying high frequency currents, the skin effect may affect the distribution of the current across the section by concentrating the current on the surface of the conductor. In transformers designed for high frequencies, loss is reduced if Litz wire is used for the windings. This is made of multiple isolated wires in parallel with a diameter twice the skin depth. The isolated strands are twisted together to increase the total skin area and to reduce the resistance due to skin effects.
+For the top and bottom layers of printed circuit boards, the maximum current density can be as high as 35 A∙mm−2 with a copper thickness of 35 µm. Inner layers cannot dissipate as much heat as outer layers; designers of circuit boards avoid putting high-current traces on inner layers.
+In semiconductors, the maximum current density is given by the manufacturer. A common average is 1 mA∙µm−2 at 25 °C for 180 nm technology. Above the maximum current density, apart from the joule effect, some other effects like electromigration appear in the micrometer scale.
+In biological organisms, ion channels regulate the flow of ions (for example, sodium, calcium, potassium) across the membrane in all cells. Current density is measured in pA∙pF−1 (picoamperes per picofarad), that is, current divided by capacitance, a de facto measure of membrane area.
+In gas discharge lamps, such as flashlamps, current density plays an important role in the output spectrum produced. Low current densities produce spectral line emission and tend to favour longer wavelengths. High current densities produce continuum emission and tend to favour shorter wavelengths. Low current densities for flash lamps are generally around 1000 A∙cm−2. High current densities can be more than 4000 A∙cm−2.
+
+
+== References ==
+
+
+== See also ==

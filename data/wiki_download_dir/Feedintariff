@@ -1,0 +1,295 @@
+Feed-in tariff
+A feed-in tariff (FIT, standard offer contract) advanced renewable tariff or renewable energy payments is a policy mechanism designed to accelerate investment in renewable energy technologies. It achieves this by offering long-term contracts to renewable energy producers, typically based on the cost of generation of each technology. Rather than pay an equal amount for energy, however generated, technologies such as wind power, for instance, are awarded a lower per-kWh price, while technologies such as solar PV and tidal power are offered a higher price, reflecting costs that are higher at the moment.
+In addition, feed-in tariffs often include "tariff degression", a mechanism according to which the price (or tariff) ratchets down over time. This is done in order to track and encourage technological cost reductions. The goal of feed-in tariffs is to offer cost-based compensation to renewable energy producers, providing price certainty and long-term contracts that help finance renewable energy investments.
+
+
+== Description ==
+FITs typically include three key provisions:
+guaranteed grid access
+long-term contracts
+cost-based purchase prices
+Under a feed-in tariff, eligible renewable electricity generators, including homeowners, business owners, farmers and private investors, are paid a cost-based price for the renewable electricity they supply to the grid. This enables diverse technologies (wind, solar, biogas, etc.) to be developed and provides investors a reasonable return. This principle was explained in Germany's 2000 RES Act:
+
+The compensation rates...have been determined by means of scientific studies, subject to the provision that the rates identified should make it possible for an installation – when managed efficiently – to be operated cost-effectively, based on the use of state-of-the-art technology and depending on the renewable energy sources naturally available in a given geographical environment.
+
+As a result, the tariff (or rate) may differ by technology, location (e.g. rooftop or ground-mounted for solar PV projects), size (residential or commercial scale) and region. The tariffs are typically designed to decline over time to track and encourage technological change.
+FITs typically offer a guaranteed purchase agreement for long (15–25 year) periods.
+Performance-based rates give incentives to producers to maximize the output and efficiency of their project.
+As of 2010, feed-in tariff policies had been enacted in over 50 countries, including Algeria, Australia, Austria, Belgium, Brazil, Canada, China, Cyprus, the Czech Republic, Denmark, Estonia, France, Germany, Greece, Hungary, Iran, Republic of Ireland, Israel, Italy, Kenya, the Republic of Korea, Lithuania, Luxembourg, the Netherlands, Portugal, South Africa, Spain, Switzerland, Tanzania, Thailand, Turkey and the United Kingdom. In early 2012 in Spain, the Rajoy administration suspended the Feed-in tariff for new projects.
+In 2008, a detailed analysis by the European Commission concluded that "well-adapted feed-in tariff regimes are generally the most efficient and effective support schemes for promoting renewable electricity". This conclusion was supported by other analyses, including by the International Energy Agency, the European Federation for Renewable Energy, as well as by Deutsche Bank.
+A feed in tariff can differentiate on the basis of marginal cost. This is a theoretical alternative which is based on the concept of price differentiation (Finon). Under such a policy the tariff price ranges from some level slightly above the spot rate to the price required to obtain the optimal level of production determined by the government. Firms with lower marginal costs receive prices on the lower end of the spectrum that increase their revenue but not by as much as under the uniform feed in tariff. The more marginal producers face the higher tariff price. This version of the policy has two objectives. The first is to reduce the profitability of certain production cites. Many renewable sources are highly dependent on their location. For example, windmills are most profitable in windy locations, and solar plants are best at sunny locations. This means that generators tend to be concentrated at these most profitable sites. The differentiated tariff seeks to make less naturally productive sites more profitable and so spread out the generators which many consider to be an undesirable good in the area (Finon). Imagine cutting down all the forests to build wind farms; this would not be good for the environment. This however leads to a less cost effective production of renewable electricity as the most efficient sites are being under utilized. The other goal of tariffs differentiated by marginal cost is to reduce the cost of the program (Finon). Under the uniform tariff all producers received the same price which was at times in gross excess of the price needed to incentivize them to produce. The additional revenue translates into profit. Thus, the differentiated tariff attempts to give each producer what it requires to maintain production so that the optimal market quantity of renewable energy production can be reached (Finon).
+
+
+=== Compensation ===
+
+There are three methods of compensation.
+Feed-in tariff - compensation is above retail, and as the percentage of adopters increases, the FIT is reduced to the retail rate.
+Net metering - allows producers to consume electricity from the grid, e.g., when the wind stops. Credits typically roll over to future periods. Payments (to the utility or the consumer) depend on net consumption.
+Power Purchase Agreement - pays for the generation of electricity and is normally below the retail rate, although in the case of solar can be higher, because solar tends to be produced closer to peak demand.
+
+
+== History ==
+
+
+=== United States ===
+The first form of feed-in tariff (under another name) was implemented in the US in 1978 under President Jimmy Carter, who signed the National Energy Act (NEA). This law included five separate Acts, one of which was the Public Utility Regulatory Policies Act (PURPA). The purpose of the National Energy Act was to encourage energy conservation and develop new energy resources, including renewables such as wind, solar and geothermal power.
+Within PURPA was a provision that required utilities to purchase electricity generated from qualifying independent power producers at rates not to exceed their avoided cost. Avoided costs were designed to reflect the cost that a utility would incur to provide that same electrical generation. Different interpretations of PURPA prevailed in the 1980s: some utilities and state utility commissions interpreted avoided costs narrowly to mean avoided fuel costs, while others chose to define "avoided costs" as the "avoided long-run marginal cost" of generation. The long-run costs referred to the anticipated cost of electricity in the years ahead. This last approach was adopted by California in its Standard Offer Contract No. 4. Another provision included in the PURPA law was that utilities were prevented from owning more than 50% of projects, to encourage new entrants.
+To comply with PURPA, some states began offering Standard Offer Contracts to producers. California's Public Utility Commission established a number of Standard Offer Contracts, including Standard Offer No.4 (SO4), which made use of fixed prices, based on the expected long-run cost of generation. The long-run estimates of electricity costs were based on the belief (widely held at the time) that oil and gas prices would continue to increase. This led to an escalating schedule of fixed purchase prices, designed to reflect the long-run avoided costs of new electrical generation. By 1992, private power producers had installed approximately 1,700 MW of wind capacity in California, some of which is still in service today. The adoption of PURPA also led to significant renewable energy generation in states such as Florida, and Maine.
+This notwithstanding, PURPA retains negative connotations in the U.S. electricity industry. When oil and gas prices plummeted in the late 1980s, the Standard Offer Contracts that were signed to encourage new renewable energy development seemed high by comparison. As a result, PURPA contracts came to be seen as an expensive burden on electricity ratepayers.
+Another source of opposition to PURPA stemmed from the fact that it was designed to encourage non-utility generation. This was interpreted as a threat by many large utilities, particularly monopolistic suppliers. As a result of its encouragement of non-utility generation, PURPA has also been interpreted as an important step toward increasing competition.
+
+
+=== Europe ===
+In 1990, Germany adopted its "Stromeinspeisungsgesetz" (StrEG), or "Law on Feeding Electricity into the Grid". The StrEG required utilities to purchase electricity generated from renewable energy suppliers at a percentage of the prevailing retail price of electricity. The percentage offered to solar and wind power was set at 90% of the residential electricity price, while other technologies such as hydro power and biomass sources were offered percentages ranging from 65–80%. A project cap of 5 MW was included.
+While Germany's StrEG was insufficient to encourage costlier technologies such as photovoltaics, it proved relatively effective at encouraging lower-cost technologies such as wind, leading to the deployment of 4,400 MW of new wind capacity between 1991 and 1999, representing approximately one third of the global capacity at the time.
+An additional challenge that StrEG addressed was the right to interconnect to the grid. The StrEG guaranteed renewable electricity producers grid access. Similar percentage-based feed-in laws were adopted in Spain, as well as in Denmark in the 1990s.
+
+
+=== Germany's Renewable Energy Sources Act ===
+Germany's Feed-in Law underwent a major restructuring in 2000, re-framed as the Act on Granting Priority to Renewable Energy Sources ("Erneuerbare Energien Gesetz", German Renewable Energy Act). In its new form, it proved to be the world's most effective policy framework at accelerating the renewable deployment.
+Important changes included:
+Purchase prices were based on generation cost. This led to different prices for wind power, solar power, biomass/biogas and geothermal and for projects of different sizes.
+Purchase guarantees were extended to 20 years.
+Utilities were allowed to participate.
+Rates were designed to decline annually based on expected cost reductions, known as "tariff degression".
+Since it was the most successful, the German policy (amended in 2004 and 2008) often was the benchmark against which other feed-in tariff policies were considered.
+Other countries followed the German approach. Long-term contracts are typically offered in a non-discriminatory manner to all renewable energy producers. Because purchase prices are based on costs, efficiently operated projects yield a reasonable rate of return.
+This principle was stated as:
+
+"The compensation rates...have been determined by means of scientific studies, subject to the proviso that the rates identified should make it possible for an installation – when managed efficiently – to be operated cost-effectively, based on the use of state-of-the-art technology and depending on the renewable energy sources naturally available in a given geographical environment."
+
+Feed-in tariff policies typically target a 5–10% return.
+Feed-in tariffs (REFIT) supported growth in solar power in Spain, Germany and wind power in Denmark.
+The success of photovoltaics in Germany resulted in an electricity price drop of up to 40% during peak output times, with savings between €520 million and 840 million for consumers. Savings for consumers have meant conversely reductions in the profit margin of big electric power companies, who reacted by lobbying the German government, which reduced subsidies in 2012. Energy utilities lobbied for the abolition, or against the introduction, of feed-in tariffs in other parts of the world, including Australia and California. Increase in the solar energy share in Germany also had the effect of closing gas- and coal-fired generation plants.
+
+
+== Effects on electricity rates ==
+FiTs have had both increased and decreased effects on electricity prices.
+Increases have been attributed to the fact that renewable energy is typically more expensive than electricity generated from conventional sources. Increases of approximately four Euros per month per household were recorded in Germany. However, renewable energy can reduce spot market prices via the merit order effect, the practice of using higher-cost fossil fuel facilities only when demand exceeds the capacity of lower cost facilities. This has led to electricity price reductions in Spain, Denmark and Germany.
+
+
+== Grid parity ==
+Grid parity occurs when the cost of an alternative technology for electricity production matches the existing average for the area. Parity can vary both in time (i.e. during the course of the day and over the course of years) and in space (i.e. geographically). The price of electricity from the grid varies widely from high-cost areas such as Hawaii and California, to lower-cost areas such as Wyoming and Idaho. In areas with time-of-day pricing, rates vary over the course of the day, rising during high-demand hours (e.g. 11 AM–8 PM) and declining during low-demand hours.
+In some areas wind power, landfill gas and biomass generation are already lower-cost than grid electricity. Parity has already been achieved in areas that use feed-in tariffs. For example, generation cost from landfill gas systems in Germany are currently lower than the average electricity spot market price In remote areas, electricity from solar photovoltaics can be cheaper than building new distribution lines to connect to the transmission grid.
+
+
+== Policy alternatives and complements ==
+Renewable Portfolio Standards (RPS) and subsidies create protected markets for renewable energy. RPS require utilities to obtain a minimum percentage of their energy from renewable sources. In some states, utilities can purchase Renewable Energy Certificates (USA), Renewable Energy Certificate System (EU), Renewable Energy Certificates Registry (AUS) to meet this requirement. These certificates are issued to renewable energy producers based on the amount of energy they feed into the grid. Selling the certificates is another way for the renewable producer to supplement its revenues.
+Certificate prices fluctuate based on overall energy demand and competition among renewable producers. If the amount of renewable energy produced exceeds the required amount, certificate prices may crash, as happened with carbon trading in Europe. This can damage the economic viability of the renewable producers.
+Quota systems favor large, vertically integrated generators and multinational electric utilities, if only because certificates are generally denominated in units of one megawatt-hour. They are also more difficult to design and implement than an FIT.
+
+
+== By country ==
+
+Feed-in tariff laws were in place in 46 jurisdictions globally by 2007. Information about solar tariffs may be found in a consolidated form, however not all of the countries are listed in this source.
+
+
+=== Algeria ===
+To cover the additional costs of producing electricity from renewables and for the costs of diversification, producers of electricity from renewables receive a bonus for each kWh produced, marketed or consumed. For electricity generated from solar or radiant heat only, the bonus is 300% of the price per kWh of electricity produced by the market operator defined by Law 02-01 of 22 Dhu El Kaada 1422 corresponding to 5 February 2002 until the minimum contribution of solar energy represents 25% of all primary energy. For electricity generated from facilities using solar thermal systems solar-gas hybrid, the bonus is 200% of the price per kWh.
+For contributions of solar energy below 25%, said bonus is paid in the following conditions:
+The price of electricity is fixed by the CREG (Gas and Electricity Regulatory Commission). According to the last decision which fixed it, the consumer pays his electricity as below:
+1.77 DZD/kWh for a consumption which is lower than 41.6 kWh/month.
+4.17 DZD/kWh for a consumption which is higher than 41.6 kWh/month.
+The other consumers (industry, agriculture...etc.), they pay 4.17 DZD/kWh.
+The feed-in tariff provides bonuses for electricity generated by cogeneration of 160%, taking into account thermal energy use of 20% of all primary energy used. The bonuses for solar generated electricity and cogeneration are cumulative. Remuneration of the generated electricity is guaranteed over the whole plant lifetime.
+
+
+=== Australia ===
+
+Feed-in tariffs were introduced in 2008 in South Australia and Queensland, 2009 in the Australian Capital Territory and Victoria and 2010 in New South Wales, Tasmania and Western Australia. The Northern Territory offers only local feed-in tariff schemes. A uniform federal scheme to supersede all State schemes was proposed by Tasmanian Greens Senator Christine Milne, but not enacted. By mid-2011, FiT in NSW and ACT had been closed to new generators, as the installed capacity cap had been reached. In NSW, both the FiT and the cap were cut, due to the overly generous original settings. The new conservative Victorian government replaced the original FiT with a less generous transitional FiT of 25 cents per kilowatt-hour for any power generated excess to the generator's usage, pending the outcome of an inquiry by the Victorian Competition and Efficiency Commission. This does not meet the normal definition and has been referred to as a "fake feed-in tariff". It is actually net metering with a payment for any kilowatt credit, instead of the normal roll over.
+
+
+=== Canada ===
+
+Ontario introduced a feed-in tariff in 2006, revised in 2009 and 2010, increasing from 42¢/kWh to 80.2¢/kWh for micro-scale (≤10 kW) grid-tied photovoltaic projects, and decreasing to 64.2¢/kWh for applications received after 2 July 2010. Applications received prior to then had until 31 May 2011 to install the system to receive the higher rate. Ontario's FiT program includes a tariff schedule for larger projects up to and including 10MW solar farms at a reduced rate. As of April 2010, several hundred projects have been approved, including 184 large scale projects, worth $8 billion. By April 2012, 12,000 systems had been installed and the rate decreased to 54.9¢/kWh, for applications received after 1 September 2011. The price schedule as 2013 revised solar prices down to 28-38¢/kWh.
+
+
+=== China ===
+As of August 2011 a national solar tariff was issued at about US$0.15 per kWh.
+China set a tariff for new onshore wind power plants in a move to help struggling project operators to realise profits. The National Development and Reform Commission (NDRC), the country's economic planning agency, announced four categories of onshore wind projects, which according to region will be able to apply for the tariffs. Areas with better wind resources will have lower tariffs, while those with lower outputs will be able to access more generous tariffs.
+The tariffs are set at 0.51 yuan (US 0.075, GBP 0.05), 0.54 yuan, 0.58 yuan and 0.61 yuan. These represent a significant premium on the average rate of 0.34 yuan per kilowatt-hour paid to coal-fired electricity generators.
+
+
+=== Czech Republic ===
+Czech Republic introduced a tariff with law no. 180/2005 in 2005. The tariff is guaranted for 15–30 years (depending on source). Supported sources are small hydropower (up to 10 MW), biomass, biogas, wind and photovoltaics. As of 2010 the highest tariff is 12.25 CZK/kWh for small photovoltaic. In 2010 over 1200 MW of photovoltaics were installed, but at the end of the year the FiT was eliminated for larger systems, and reduced by 50% for smaller systems. In 2011, no photovoltaic systems were installed.
+
+
+=== Egypt ===
+On the 20th of September 2014, The Ministry of Electricity announced the new feed-in tariff pricing for electricity generated by new and renewable energy sources for households and private sector companies. The energy tariff has been divided into five categories so that the price per kilowatt for households is EGP 0.84, but for 200 kilowatts of usage, the price rises to EGP 0.911. The third category, between 200 to 500 kilowatts, will be charged EGP 0.973, while the fourth, ranging from 500 kilowatts to 20 megawatts, will be charged EGP 0.973 per kilowatt per hour. The last category, which stretches between 20-50MW, will be charged EGP 1.02 per kilowatt per hour.Institutions that use over 50MW will be charged under a different system. The sale price for power generated from wind is calculated by the number of operating hours, and from 2500 hours up through 3000 hours, the rate is EGP 0.828.The rate will be set at EGP 0.684 for 3000–4000 hours.
+The government will purchase the electricity generated by investors, taking inflation into account, while consumption will be paid in local currency and depreciation rates reviewed after two years. The Ministry of Finance will provide concessional subsidised bank financing for households and institutions using less than 200 KW at a rate of 4%, and 8% for 200-500KW. The government is preparing a law that would allow for state-owned lands to be made available for new energy production projects under a usufruct system in exchange for 2% of the energy produced. The electricity companies will be obligated to purchase and transport the energy. The new tariff system also includes a reduction in customs on new and renewable energy production supplies by 2% while the proportion of bank financing has been set at 40-60%. The government hopes for new and renewable energy to account for 20% Egypt’s total energy mix by 2020.
+<http://www.dailynewsegypt.com/2014/09/20/electricity-ministry-sets-new-energy-feed-tariffs/>
+
+
+=== France ===
+The administrative procedure for ground-mounted PV systems was significantly modified in late 2009. The distinction between segments was essentially based on capacity, which determines the complexity of the administrative process. From 4 March to 30 September 2011, the tariff was attractive for installations only less than 100 kWp in size. Above 100 kWp, the FiT was 0,117 €/kWh, cutting into profits. A call for tenders for PV projects above 250 kWp was launched on 15 September 2011. The projects were to be analysed on multiple criteria, including the tariff rate requested by the applicant.
+On 19 April 2012 the FiT for small systems was reduced to €0.1079 for ground mounted systems, and to €0.1934 for residential rooftop arrays.
+
+
+=== Germany ===
+
+First introduced in 2000, the Erneuerbare-Energien-Gesetz (EEG) law is reviewed on a regular basis. Its predecessor was the 1991 "Stromeinspeisegesetz". As of May 2008, the cost of the program added about €1.01 (USD1.69) to each monthly residential electric bill. In 2012 the costs have risen to €0.03592/kWh. The impact to consumers by 2013 was over 200 euros a year, and the phrase 'energy poverty' became common.
+Tariff rates for PV electricity vary depending on system size and location. In 2009, tariffs were raised for electricity immediately consumed rather than supplied to the grid with increasing returns if more than 30% of overall production is consumed on-site. This is to incentivise demand-side management and help develop solutions to the intermittency of solar power. Tariff duration is usually 20 calendar years plus the year of installation. Systems receive the tariff in effect at the time of installation for the entire period.
+
+
+=== Greece ===
+The PV Feed-in tariffs for 2013 are:
+
+
+=== India ===
+India inaugurated its latest solar power program to date on 9 January 2010. The Jawaharlal Nehru National Solar Mission (JNNSM) was officially announced by Prime Minister of India on 12 January 2010. This program aimed to install 20,000 MW of solar power by 2022. The first phase of this program targeted 1000 MW, by paying a tariff fixed by the Central Electricity Regulatory Commission (CERC) of India. While in spirit this is a feed in tariff, several conditions affect project size and commissioning date. Th tariff for solar PV projects is fixed at Rs. 17.90 (USD 0.397)/kWh. Tariff for solar thermal projects is fixed Rs. 15.40 (USD 0.342/kWh). Tariff will be reviewed periodically by the CERC. In 2015, the feed in tariff is about Rs. 7.50 (USD 0.125)/kWh and is mostly applicable at utility level. The feed-in tariff for roof top PV plants is still not applicable.
+
+
+=== Indonesia ===
+The Indonesian government, operating mainly through the State Electricity Corporation (Perusahaan Listrik Negara, or PLN), encouraged independent power producers (IPPs) to invest in the electric power sector. Numerous IPPs are investing in large plants (over 500 MW) and many smaller plants (such as 200 MW and smaller). To support this investment, FiT arrangements are agreed with the PLN. Prices vary widely from relatively low prices for large coal-based plants such as the Cirebon coal plant which began operations in late 2012 to higher prices for smaller geothermal plants producing more expensive power from distant locations such as the Wayang Windu geothermal plant in West Java.
+
+
+=== Iran ===
+The Renewable Energy Organization of Iran (SUNA; سانا) first introduced a feed-in tariff in 2008. A purchase price of 1300 Rials/kWh (900 Rial/kWh for 4 night-time hours) was set for electricity from all types of renewable resources. In 2013 the Ministry of Energy introduced new feed-in tariffs, which was set at 4442 Rials/kWh (0.15 USD).
+
+
+=== Ireland ===
+REFIT III supports the medium and large scale production of Electricity from bioenergy sources such as Biomass, Biomass CHP and Anaerobic Digestion CHP. The REFIT scheme is administered by the Department of Communications Energy and Natural Resources (DCENR). The scheme was put in place following extensive lobbying by industrial representative bodies such as the Irish BioEnergy Association and the Micro Energy Generation Association.
+Residential and Micro scale Solar, Wind, Hydro and CHP receives no grant aid, no subsidy and no tax deductions are available. No Feed-In tariffs are available for these customers and net-metering is similarly unavailable. Co-operative and privately shared electricity between separate properties is illegal. A 9c/kWh Feed-In tariff was available from Electric Ireland until December 2014, when it was withdrawn without replacement. Income from this feed-in tariff was subject to income tax at up to 58%. No other Micro-scale Feed-In tariffs are available.
+Homeowners with grid connected micro-generation systems are charged a €9.45 per billing cycle "low-usage surcharge" for importing less than 2kWh per day or being a net exporter of energy in a billing period.
+
+
+=== Israel ===
+
+On 2 June 2008, the Israeli Public Utility Authority approved a feed-in tariff for solar plants. The tariff is limited to a total installation of 50MW during 7 years, whichever is reached first, with a maximum of 15 kWp installation for residential and a maximum of 50kWp for commercial. Bank Hapoalim offered 10 year loans for the installation of solar panels. The National Infrastructures Ministry announced that it would expand the feed-in tariff scheme to include medium-sized solar-power stations ranging from 50 kilowatts to 5 megawatts. The new tariff scheme caused solar company Sunday Solar Energy to announce that it would invest $133 million to install photovoltaic solar arrays on kibbutzim, which are social communities that divide revenues amongst their members.
+
+
+=== Italy ===
+Italy introduced a feed-in tariff in February 2007. By 2011 Italy installed 7128 MW, behind only Germany (7500 MW), and reduced the FiT.
+
+
+=== Japan ===
+An FiT of ¥42 (US$0.525) per kWh for 10 years for systems less than 10 kW, and ¥40 (US$0.50) for larger systems, but for 20 years, began on 1 July 2012. The rate was to be reviewed annually, for subsequently connected systems.
+To secure the second round price of 37.8 yen/kWh for a 20-year PPA term, foreign investors must complete the following actions by 31 March 2014:
+(1) acquire firm rights to a project site (by either purchasing land, entering into a lease or obtaining a firm written commitment from a landowner to make a project site available);
+(2) submit an application for consultation and grid connection to the electricity utility that will purchase power from the relevant renewable energy project (i.e. the utility that operates in the geographical area in which the project is based); and
+(3) obtain approval for their generation facility from the Ministry of Economy, Trade and Industry ("METI") under Article 6 of the Renewable Energy Law.
+Projects that complete the above steps by 31 March 2014 will be eligible to enter into a 20-year PPA with the relevant electricity utility at a price of 37.8 yen/kWh for 20 years.
+
+
+=== The Netherlands ===
+The Dutch Cabinet agreed on 27 March 2009 to implement some parts of a feed-in tariff in response to the global financial crisis. The proposed regulation may adjust the quota incentive system. As of the summer of 2009, The Netherlands operated a subsidy system. The subsidy budget has a quota for diverse types of energy, at several tens of million euros. The wind budget for wind was hardly used, because the tariffs are too low. The 2009 budget for Wind on Land was 900 MW (incl unused 400 MW from 2008); only 2.5 MW was used. Dutch utilities have no obligation to buy energy from windparks. The tariffs change annually. This created uncertain investment conditions. The subsidy system was introduced in 2008. The previous 2003 subsidy scheme Ministeriële regeling milieukwaliteit elektriciteitsproductie (Ministerial regulation for environmental electricity production) which was funded by charging 100 euro per household annually on top of energy taxes stopped in 2006 because it was seen as too expensive. In 2009, Dutch wind parks were still being built with grants from the old scheme. The old and new subsidy scheme was funded from the general budget.
+A feed-in tariff was briefly adopted in 2011, but ended a month later, in February.
+
+
+=== The Philippines ===
+Under the Renewable Energy Act of 2008, the Philippine Energy Regulatory Commission can "(guarantee) fixed rate per kilowatt-hour – the FIT rates – for power producers harnessing renewable energy under the FIT system." In February 2015, the ERC agreed to give a FIT rate of P8.53 per kilowatt hour for 20 years to the Burgos Wind Farm of the Energy Development Corporation.
+
+
+=== South Africa ===
+South Africa's National Energy Regulator (NERSA) announced 31 March 2009 a system of feed-in tariffs designed to produce 10 tw-h of electricity per year by 2013. The tariffs were substantially higher than those in NERSA's original proposal. The tariffs, differentiated by technology, were to be paid for 20 years.
+NERSA said in its release that the tariffs were based on the cost of generation plus a reasonable profit. The tariffs for wind energy and concentrating solar power were among the most attractive worldwide.
+The tariff for wind energy, 1.25 ZAR/kWh (€0.104/kWh) was greater than that offered in Germany and more than proposed in Ontario, Canada.
+The tariff for concentrating solar, 2.10 ZAR/kWh, was less than that in Spain. NERSA's revised program followed extensive public consultation.
+Stefan Gsänger, Secretary General of the World Wind Energy Association said, "South Africa is the first African country to introduce a feed-in tariff for wind energy. Many small and big investors will now be able to contribute to the take-off of the wind industry in the country. Such decentralised investment will enable South Africa to overcome its current energy crisis. It will also help many South African communities to invest in wind farms and generate electricity, new jobs and new income. We are especially pleased as this decision comes shortly after the first North American feed-in law has been proposed by the Government of the Canadian Province of Ontario".
+However, the tariff was abandoned before it began in favor of a competitive bidding process launched on 3 August 2011. Under this bidding process, the South African government planned to procure 3,750MW of renewable energy: 1,850MW of onshore wind, 1,450MW of solar PV, 200MW of CSP, 75MW of small hydro, 25MW of landfill gas, 12.5MW of biogas, 12.5MW of biomass and 100MW of small projects. The bidding process comprised two steps:
+Qualification phase. Projects are assessed based on structure of the project, legal, land acquisition and use, financial, environmental consent, technical, economic development and bid guarantee
+Evaluation phase. Compliant bids are then evaluated based on: (1) price relative to a ceiling provided in bid documentation, accounting for 70% of the decision, and (2) economic development, accounting for 30% of the decision.
+The first round of bids was due on 4 November 2011. PPA's were expected to be in place by June 2012. Projects should be commissioned by June 2014, except CSP projects expected by June 2015.
+
+
+=== Spain ===
+Spanish feed-in legislation was set by Royal decree 1578/2008 (Real Decreto 1578/2008), for photovoltaic installations, and Royal decree 661/2007 for other renewable technologies injecting electricity to the public grid. Originally under the 661/2007, photovoltaic tariffs were developed under a separate law due to its rapid growth.
+The decree 1578/2008 categorized installations in two main groups with differentiated tariffs:
+Building Integrated installations; with 34c€/kWh in systems up to 20 kW of nominal power, and for systems above 20 kW with a limit of nominal power of 2MW tariff of 31c€/kWh
+Non integrated installations; 32c€/kWh for systems up to 10MW of nominal power.
+For other technologies decree 661/2007 setd up:
+On 27 January 2012 the Spanish government temporarily stopped accepting applications for projects beginning operation after January 2013. Construction and operation of existing projects was not affected. The country's electrical system had a €24 billion deficit. FiT payments did not contribute significantly to that deficit. In 2008 the FiT was expected to result in 400 MW of solar being installed. However, it was so high that over 2600 MW was installed. Utilities in Spain reported that they had no way to pass on cost increases to consumers by increasing rates and instead accrued deficits, although this is under dispute.
+
+
+=== Switzerland ===
+Switzerland introduced the so-called "Cost-covering remuneration for feed-in to the electricity grid (CRF)" on 1 May 2008.
+CRF applies to hydropower (up to 10 megawatts), photovoltaics, wind energy, geothermal energy, biomass and waste material from biomass and will be applicable for 20 and 25 years, depending on the technology. The implementation is done through the national grid operator SWISSGRID.
+While high by appearance, CRF has had little effect, as the total amount of "extra" cost to the system was capped. Since about 2009, no more projects could be financed. About 15'000 projects awaited allocation of monies. If all those projects were implemented, Switzerland could mothball all its nuclear power plants, which currently supply 40% of its power.
+In 2011, after Fukushima, some local power companies, mostly owned by villages and cantons/provinces, selectively started offering their own tariff, thereby creating a mini-boom.
+As of March 2012 the KEV-FIT for Solar PV had been lowered several times to CHF 0.30-0.40/kWh (USD 0.33-0.44/kWh) depending on size, but was higher than in Germany and most of the rest of the world.
+
+
+=== Thailand ===
+In 2006, the Thai government enacted a tariff paid on top of utility avoided costs, differentiated by technology type and generator size and guaranteed for 7–10 years. Solar received the highest amount, 8 baht/kWh (about US cents 27/kWh). Large biomass projects received the lowest at 0.3 baht/kWh (at about 1 US cent per kWh). Additional per-kWh subsidies were provided for projects that offset diesel use in remote areas. Template:As of 2010 March 1364 MW of private sector renewable energy was online with an additional 4104 MW in the pipeline with signed PPAs. Biomass made up the bulk of this capacity: 1292 MW (online) and 2119 MW (PPA only). Solar electricity was second but growing more rapidly, with 78 MW online and signed PPAs for an additional 1759 MW.
+
+
+=== Uganda ===
+Uganda launched a tariff in 2011. The Uganda Electricity Transmission Company Limited held the transmission license in the country and was mandated by the Electricity Regulatory Authority to provide the following FiT for small-scale projects ranging from 0.5MW to 20MW.
+
+
+=== Ukraine ===
+Ukraine introduced the law 'On feed-in tariff' on 25 September 2008. The law guaranteed grid access for renewable energy producers (small hydro up to 10 MW, wind, biomass, photovoltaic and geothermal). The tariffs for renewable power producers are set by the national regulator. As of February 2013 the following tariffs per kWh were applied: biomass – UAH 1.3446 (EUR 0.13), wind – UAH 1.2277 (EUR 0.12), small hydro – UAH 0.8418 (EUR 0.08), solar - UAH 5.0509 (EUR 0.48). In case of significant fluctuations of the national currency against Euro the feed-in tariff adjusts.
+
+
+=== United Kingdom ===
+
+In October 2008 the United Kingdom announced that Britain would implement a scheme by 2010, in addition to its current renewable energy quota scheme (ROCS). In July 2009, he presented details of the scheme, which began in early April 2010.
+Less than a year into the scheme, in March 2011 the new coalition government announced that support for large-scale photovoltaic installations (greater than 50 kW) would be cut. This was in response to European speculators lining up to establish huge solar farms in the West Country that would have absorbed disproportionate amounts of the fund.
+On 9 June 2011, DECC confirmed tariff cuts for solar PV systems above 50 KW after 1 August 2011. Many are disappointed with DECC's decision. published by PVinsights. It was believed that the total subsidies for solar PV industry were unchanged, but that tariffs for large systems would be cut to benefit smaller systems. The fast track review was based on the long term plan to reach an annual installation of 1.9GW in 2020. In October 2011 DECC announced dramatic cuts of around 55% to tariff rates, with additional reductions for community or group schemes. The cuts were to be effective from 12 December 2011, with a consultation exercise to end on 23 December 2011. This was successfully challenged in the high court by an application for judicial review, jointly made by environmental pressure group Friends of the Earth (FoE) and two solar companies - Solarcentury and HomeSun. The judgment, made by Mr Justice Mitting after a two-day court hearing, was hailed as a major victory by green campaigners and the solar industry. Lawyers for the Department of Energy and Climate Change immediately moved to appeal the ruling. The appeal was unanimously rejected by the Supreme Court, allowing anyone who installed their systems before 3 March 2012 to receive the higher rate of 43.3 p/kWh.
+The 30.7 p/kWh rate was available for solar systems up to 5 MW, and consequently no larger systems were built. Feed-In-Tariff Payments are Tax-Free in the United Kingdom.
+As of April 2012, 263,274 systems, totaling 1,152.835 MW, were receiving FiT payments. Of these, 260,041 were solar photovoltaic, totaling 1,057.344 MW. Payments are for 25 years. A typical photovoltaic system costing £7,500 pays for itself in 7 years 8 months, and generates £23,610 over 25 years.
+
+
+=== United States ===
+
+In April 2009, 11 state legislatures were considering adopting a FiT as a complement to their renewable electricity mandates.
+
+
+==== California ====
+The California Public Utilities Commission (CPUC) approved a feed-in tariff on 31 January 2008 effective immediately.
+In 2010, Marin Energy Authority launched the first Community Choice Aggregate Feed-in Tariff program. The program was updated in November 2012, and now offers 20-year fixed-price contracts, with prices varying by energy source (peak, base-load, intermittent) and progress towards the current program cap of 10-MW.
+Municipal utility companies enacted feed in tariff pilot programs in Palo Alto and Los Angeles: Palo Alto CLEAN (Clean Local Energy Accessible Now) is a program to purchase up to 4MW of electricity generated by solar electric systems located in CPAU's service territory. In 2012 the minimum project size was 100 kW. Rates of purchase are between 12.360 ¢/kWh to 14.003 ¢/kWh depending on the length of the contract. The City began accepting applications on 2 April 2012.
+On 17 April 2012, Los Angeles Department of Water and Power's Board of Water and Power Commissioners approved a 10MW FiT Demonstration Program.
+As of 1 January 2010 state laws allowed homeowners to sell excess power to the utility. Previously the homeowner would get no credit for over-production over the course of the year. In order to get the California Solar Initiative (CSI) rebate the customer was not allowed to install a system that deliberately over-produces thereby, encouraging efficiency measures to be installed after solar installation. This over-production credit was not available to certain municipal utility customers namely Los Angeles Water and Power.
+
+
+==== Florida ====
+In February 2009, city commissioners in Gainesville, Florida, approved the nation's first solar feed-in tariff. The program was capped at 4 MW per year. As of 2011, Gainesville had increased solar generated electricity from 328 kW to 7,391 kW, approximately 1.2% of peak load energy (610 MW).
+
+
+==== Hawaii ====
+In September 2009 the Hawaii Public Utilities Commission required Hawaiian Electric Company (HECO & MECO & HELCO) to pay above-market prices for renewable energy fed into the electric grid. The policy offers projects a set price and standard 20-year contract. The PUC planned to review the initial feed-in tariff two years after the program started and every three years thereafter.
+Project size was limited to five megawatts (MW) for the island of ʻOahu and 2.72 MW for Maui and Hawaii island. The Commission's decision capped the total amount of feed-in tariff projects brought onto the electricity grid at 5% of the system peak on Oahu, Maui, and Hawaii Island for the first two years. Tier 3 was still pending a Decision and Order based on the findings of the Reliability Standards Working Group (a "docket within the docket").
+Tier 2 and 3 project size caps varied by island and by technology. Tier 2 includes larger systems that are less than or equal to: 100 kW-AC for on-shore wind and in-line hydropower on all islands; 100 kW-AC for PV and CSP on Lanai and Molokai; 250 kW-AC for PV on Maui and Hawaii; 500 kW-AC for CSP on Maui and Hawaii; and 500 kW-AC for PV and CSP on Oahu. Tier 3 covers systems larger than the Tier 2 caps.
+
+
+==== Maine ====
+In 2009 a "Feed-In" Tariff bill failed to pass. In June 2009 a pilot program was initiated however, and was available for projects up to 10MW in size. On April 24, 2013, the Maine Utility and Energy Committee was to consider a new bill: LD1085 "An Act to Establish the Renewable Energy Feed-in Tariff".
+
+
+==== New York ====
+The Long Island Power Authority (LIPA) adopted a feed-in tariff on 16 July 2012, for systems from 50 kW (AC) to 20 MW (AC), and was limited to 50 MW (AC). As customers cannot use their own electricity, it is actually a 20-year fixed rate power purchase agreement and LIPA retains the SRECs. The 2012 NY legislature failed to pass legislation which would have opened a New York market for SRECs starting in 2013. Payment is 22.5¢/kWh, less than what LIPA paid for peak generation at various times. At an estimated avoided cost of $0.075/kWh, the program added about $0.44/month to the average household electric bill.
+
+
+==== Oregon ====
+In June 2009, Oregon established a pilot solar volumetric incentive rate and payment program. Under this incentive program, systems are paid for the kilowatt-hours (kWh) generated over a 15-year period, at a rate set at the time a system is enrolled in the program. The Oregon Public Utility Commission (PUC) established rates and rules in May 2010. This program was offered by the three investor-owned utilities in Oregon and administered by the utilities. The PUC planned to periodically re-evaluate rates. Program costs were recoverable in utility rates and utility-owned systems were not eligible for the incentive.
+The pilot program installation cap was limited to an aggregate cap of 25 megawatts (MW) of solar photovoltaics (PV), with a maximum system size cap of 500 kilowatts (kW). The aggregate program cap was to be spread equally over four years, with 6.25 MW of capacity being eligible to receive the incentive each year. The aggregate cap was divided, based on 2008 retail sales revenue. PGE had a cap of 14.9 MW, Pacific Power 9.8 MW, and Idaho Power 0.4 MW. Idaho Power's program was limited to residential installations. Rates differed by system size and geographic zone. Small- and medium-scale systems participated in a program modeled after net metering. Larger-scale systems were competitivelly bid. Participating PV systems must be grid-connected, metered and meet all applicable codes and regulations. Systems must be "permanently installed".
+Systems sized 100 kW or less could participate based on net metering. Generating capacity of 20 MW of the aggregate cap was reserved for the net metering portion, with 12 MW available for residential and 8 MW available for small commercial systems. These residential and small commercial systems were paid for the amount of electricity generated, up to the amount of electricity consumed. In essence, customers were paid for the amount of utility electric load consumption that is offset by onsite generation. Unlike typical feed-in tariffs, customers can consume the electricity generated on-site and receive a production incentive – or a volumetric incentive payment – for the amount of electricity generated and consumed. To remove a perverse incentive to increase electricity consumption to receive a greater payment, the system had to be appropriately sized to meet average electricity consumption. Rates were determined by the PUC based on annual system cost and annual energy output, differentiated by geographic zones. The cost estimates were based on installation data from Energy Trust of Oregon. The actual rates paid to the customer-generator were the volumetric incentive rate minus the retail rate. The volumetric incentive rates were to be re-evaluated every six months. The rates for the performance-based incentive program ranged from $0.25/kWh to $0.411/kWh.
+
+
+==== Vermont ====
+Vermont adopted feed-in tariffs on 27 May 2009 as part of the Vermont Energy Act of 2009. Generators must possess a capacity of no more than 2.2 MW, and participation is limited to 50 MW in 2012, a limit that increased by 5 to 10 MW/year to a total of 127.5 MW in 2022. Payments were 24¢/kWh for solar, which was increased to 27.1¢/kWh in March 2012, and 11.8¢/kWh for wind over 100 kW and 25.3¢/kWh for wind turbines up to 100 kW. Other qualifying technologies included methane, hydro and biomass. Vermont's SPEED program called for 20% renewable energy by 2017 and 75% by 2032. The program was fully subscribed in 2012. Payments are for 25 years.
+
+
+=== Puerto Rico ===
+The territory operated a net metering program that paid the energy fed back to the grid at the retail rate. The rate varied monthly around 23 cents per kilowatt. The program credited the provider's account each month rather than making actual payments. At the end of the fiscal year (June) any excess was paid at a fixed 10 cents per KW of which 25% was retained for public schools. To participate in the program insurance and means for disconnecting the system accessible outside of the building and specific brands of equipment dictated by the government were required.
+
+
+== See also ==
+
+Automatic meter reading
+Distributed generation
+Electrical energy efficiency on United States farms
+Electricity meter
+Efficient energy use
+Micro combined heat and power
+Net metering
+Power Purchase Agreement
+Renewable energy commercialization
+Relative cost of electricity generated by different sources
+Smart meter
+Utility submeter
+Virtual power plant
+
+
+== References ==

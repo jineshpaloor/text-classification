@@ -1,0 +1,142 @@
+Electromotive force
+Electromotive force, also called emf (denoted  and measured in volt), is the voltage developed by any source of electrical energy such as a battery or dynamo. It is generally defined as the electrical potential for a source in a circuit. A device that supplies electrical energy is called a seat of electromotive force or emf. Emfs convert chemical, mechanical, and other forms of energy into electrical energy. The product of such a device is also know as emf.
+The word "force" in this case is not used to mean mechanical force, measured in newtons, but a potential, or energy per unit of charge, measured in volts.
+In electromagnetic induction, emf can be defined around a closed loop as the electromagnetic work that would be done on a charge if it travels once around that loop. (While the charge travels around the loop, it can simultaneously lose the energy gained via resistance into thermal energy.) For a time-varying magnetic flux linking a loop, the electric potential scalar field is not defined due to circulating electric vector field, but nevertheless an emf does work that can be measured as a virtual electric potential around that loop.
+In the case of a two-terminal device (such as an electrochemical cell or electromagnetic generator) which is modeled as a Thévenin's equivalent circuit, the equivalent emf can be measured as the open-circuit potential or voltage difference between the two terminals. This potential difference can drive a current if an external circuit is attached to the terminals.
+Devices that can provide emf include electrochemical cells, thermoelectric devices, solar cells, photodiodes, electrical generators, transformer and even Van de Graaff generators. In nature, emf is generated whenever magnetic field fluctuations occur through a surface. The shifting of the Earth's magnetic field during a geomagnetic storm, induces currents in the electrical grid as the lines of the magnetic field are shifted about and cut across the conductors.
+In the case of a battery, the charge separation that gives rise to a voltage difference between the terminals is accomplished by chemical reactions at the electrodes that convert chemical potential energy into electromagnetic potential energy. A voltaic cell can be thought of as having a "charge pump" of atomic dimensions at each electrode, that is:
+
+A source of emf can be thought of as a kind of charge pump that acts to move positive charge from a point of low potential through its interior to a point of high potential. … By chemical, mechanical or other means, the source of emf performs work dW on that charge to move it to the high potential terminal. The emf ℰ of the source is defined as the work dW done per charge dq: ℰ = dW/dq.
+
+Around 1830, Michael Faraday established that the reactions at each of the two electrode–electrolyte interfaces provide the "seat of emf" for the voltaic cell, that is, these reactions drive the current and are not an endless source of energy as was initially thougnht. In the open-circuit case, charge separation continues until the electrical field from the separated charges is sufficient to arrest the reactions. Years earlier, Alessandro Volta, who had measured a contact potential difference at the metal–metal (electrode–electrode) interface of his cells, had held the incorrect opinion that contact alone (without taking into account a chemical reaction) was the origin of the emf.
+In the case of an electrical generator, a time-varying magnetic field inside the generator creates an electric field via electromagnetic induction, which in turn creates a voltage difference between the generator terminals. Charge separation takes place within the generator, with electrons flowing away from one terminal and toward the other, until, in the open-circuit case, sufficient electric field builds up to make further charge separation impossible. Again the emf is countered by the electrical voltage due to charge separation. If a load is attached, this voltage can drive a current. The general principle governing the emf in such electrical machines is Faraday's law of induction.
+
+
+== Notation and units of measurement ==
+Electromotive force is often denoted by  or ℰ (script capital E, Unicode U+2130).
+In a device without internal resistance, if an electric charge Q passes through that device, and gains an energy W, the net emf for that device is the energy gained per unit charge, or W/Q. Like other measures of energy per charge, emf has SI units of volts, equivalent to joules per coulomb.
+Electromotive force in electrostatic units is the statvolt (in the centimeter gram second system of units equal in amount to an erg per electrostatic unit of charge).
+
+
+== Formal definitions of electromotive force ==
+Inside a source of emf that is open-circuited, the conservative electrostatic field created by separation of charge exactly cancels the forces producing the emf. Thus, the emf has the same value but opposite sign as the integral of the electric field aligned with an internal path between two terminals A and B of a source of emf in open-circuit condition (the path is taken from the negative terminal to the positive terminal to yield a positive emf, indicating work done on the electrons moving in the circuit). Mathematically:
+
+where Ecs is the conservative electrostatic field created by the charge separation associated with the emf, dℓ is an element of the path from terminal A to terminal B, and ‘·’ denotes the vector dot product. This equation applies only to locations A and B that are terminals, and does not apply to paths between points A and B with portions outside the source of emf. This equation involves the electrostatic electric field due to charge separation Ecs and does not involve (for example) any non-conservative component of electric field due to Faraday's law of induction.
+In the case of a closed path in the presence of a varying magnetic field, the integral of the electric field around a closed loop may be nonzero; one common application of the concept of emf, known as "induced emf" is the voltage induced in a such a loop. The "induced emf" around a stationary closed path C is:
+
+where now E is the entire electric field, conservative and non-conservative, and the integral is around an arbitrary but stationary closed curve C through which there is a varying magnetic field. The electrostatic field does not contribute to the net emf around a circuit because the electrostatic portion of the electric field is conservative (that is, the work done against the field around a closed path is zero).
+This definition can be extended to arbitrary sources of emf and moving paths C:
+
+which is a conceptual equation mainly, because the determination of the "effective forces" is difficult.
+
+
+== Electromotive force in thermodynamics ==
+When multiplied by an amount of charge dZ the emf ℰ yields a thermodynamic work term ℰdZ that is used in the formalism for the change in Gibbs energy when charge is passed in a battery:
+
+where G is the Gibb's free energy, S is the entropy, V is the system volume, P is its pressure and T is its absolute temperature.
+The combination ( ℰ, Z ) is an example of a conjugate pair of variables. At constant pressure the above relationship produces a Maxwell relation that links the change in open cell voltage with temperature T (a measurable quantity) to the change in entropy S when charge is passed isothermally and isobarically. The latter is closely related to the reaction entropy of the electrochemical reaction that lends the battery its power. This Maxwell relation is:
+
+If a mole of ions goes into solution (for example, in a Daniell cell, as discussed below) the charge through the external circuit is:
+
+where n0 is the number of electrons/ion, and F0 is the Faraday constant and the minus sign indicates discharge of the cell. Assuming constant pressure and volume, the thermodynamic properties of the cell are related strictly to the behavior of its emf by:
+
+where ΔH is the heat of reaction. The quantities on the right all are directly measurable.
+
+
+== Electromotive force and voltage difference ==
+An electrical voltage difference is sometimes called an emf. The points below illustrate the more formal usage, in terms of the distinction between emf and the voltage it generates:
+For a circuit as a whole, such as one containing a resistor in series with a voltaic cell, electrical voltage does not contribute to the overall emf, because the voltage difference on going around a circuit is zero. (The ohmic IR voltage drop plus the applied electrical voltage sum to zero. See Kirchhoff's Law). The emf is due solely to the chemistry in the battery that causes charge separation, which in turn creates an electrical voltage that drives the current.
+For a circuit consisting of an electrical generator that drives current through a resistor, the emf is due solely to a time-varying magnetic field within the generator that generates an electrical voltage that in turn drives the current. (The ohmic IR drop plus the applied electrical voltage again is zero. See Kirchhoff's Law)
+A transformer coupling two circuits may be considered a source of emf for one of the circuits, just as if it were caused by an electrical generator; this example illustrates the origin of the term "transformer emf".
+A photodiode or solar cell may be considered as a source of emf, similar to a battery, resulting in an electrical voltage generated by charge separation driven by light rather than chemical reaction.
+Other devices that produce emf are fuel cells, thermocouples, and thermopiles.
+In the case of an open circuit, the electric charge that has been separated by the mechanism generating the emf creates an electric field opposing the separation mechanism. For example, the chemical reaction in a voltaic cell stops when the opposing electric field at each electrode is strong enough to arrest the reactions. A larger opposing field can reverse the reactions in what are called reversible cells.
+The electric charge that has been separated creates an electric potential difference that can be measured with a voltmeter between the terminals of the device. The magnitude of the emf for the battery (or other source) is the value of this 'open circuit' voltage. When the battery is charging or discharging, the emf itself cannot be measured directly using the external voltage because some voltage is lost inside the source. It can, however, be inferred from a measurement of the current I and voltage difference V, provided that the internal resistance r already has been measured: ℰ = V + Ir.
+
+
+== Electromotive force generation ==
+
+
+=== Chemical sources ===
+
+The question of how batteries (galvanic cells) generate an emf is one that occupied scientists for most of the 19th century. The "seat of the electromotive force" was eventually determined by Walther Nernst to be primarily at the interfaces between the electrodes and the electrolyte.
+Molecules are groups of atoms held together by chemical bonds, and these bonds consist of electrical forces between electrons (negative) and protons (positive). The molecule in isolation is a stable entity, but when different molecules are brought together, some types of molecules are able to steal electrons from others, resulting in charge separation. This redistribution of charge is accompanied by a change in energy of the system, and a reconfiguration of the atoms in the molecules. The gain of an electron is termed "reduction" and the loss of an electron is termed "oxidation". Reactions in which such electron exchange occurs (which are the basis for batteries) are called reduction-oxidation reactions or redox reactions. In a battery, one electrode is composed of material that gains electrons from the solute, and the other electrode loses electrons, because of these fundamental molecular attributes. The same behavior can be seen in atoms themselves, and their ability to steal electrons is referred to as their electronegativity.
+As an example, a Daniell cell consists of a zinc anode (an electron collector), is oxidized as it dissolves into a zinc sulfate solution, the dissolving zinc leaving behind its electrons in the electrode according to the oxidation reaction (s = solid electrode; aq = aqueous solution):
+
+The zinc sulfate is the electrolyte in that half cell. It is a solution which contains zinc cations , and sulfate anions  with charges that balance to zero.
+In the other half cell, the copper cations in a copper sulfate electrolyte are drawn to the copper cathode to which they attach themselves as they adopt electrons from the copper electrode by the reduction reaction:
+
+in effect leaving a deficit of electrons on the copper cathode. The difference of excess electrons on the anode and deficit of electrons on the cathode creates an electrical potential between the two elecrodes. (A detailed discussion of the microscopic process of electron transfer between an electrode and the ions in an electrolyte may be found in Conway.)
+If the cathode and anode are connected by an external conductor, electrons would pass through that external circuit (light bulb in figure), while the ions pass through the salt bridge to maintain charge balance until such a time as the anode and cathode reach electrical equilibrium of zero volts as chemical equilibrium is reached in the cell. In the process the zinc anode is dissolved while the copper electrode is plated with copper. The so-called "salt bridge" is not made of salt but could be made of material able to wick the cations and anions (salts) in the solutions, where the flow of positively charged cations along the "bridge" amounts to the same number of negative charges flowing in the opposite direction.
+If the light bulb is removed (open circuit) the emf between the electrodes is opposed by the electric field due to charge separation, and the reactions stop.
+For this particular cell chemistry, at 273 K (room temperature), the emf ℰ = 1.0934 V, with a temperature coefficient of dℰ/dT = −4.53×10−4 V/K.
+
+
+==== Voltaic cells ====
+Volta developed the voltaic cell about 1792, and presented his work March 20, 1800. Volta correctly identified the role of dissimilar electrodes in producing the voltage, but incorrectly dismissed any role for the electrolyte. Volta ordered the metals in a 'tension series', “that is to say in an order such that any one in the list becomes positive when in contact with any one that succeeds, but negative by contact with any one that precedes it.” A typical symbolic convention in a schematic of this circuit ( –||– ) would have a long electrode 1 and a short electrode 2, to indicate that electrode 1 dominates. Volta's law about opposing electrode emfs implies that, given ten electrodes (for example, zinc and nine other materials), 45 unique combinations of voltaic cells (10 × 9/2) can be created.
+
+
+==== Electromotive force of cells ====
+The electromotive force produced by primary (single-use) and secondary (rechargeable) cells is usually of the order of a few volts. The figures quoted below are nominal, because emf varies according to the size of the load and the state of exhaustion of the cell.
+
+
+=== Electromagnetic induction ===
+
+The principle of electromagnetic induction, noted above, states that a time-dependent magnetic field produces a circulating electric field. A time-dependent magnetic field can be produced either by motion of a magnet relative to a circuit, by motion of a circuit relative to another circuit (at least one of these must be carrying a current), or by changing the current in a fixed circuit. The effect on the circuit itself, of changing the current, is known as self-induction; the effect on another circuit is known as mutual induction.
+For a given circuit, the electromagnetically induced emf is determined purely by the rate of change of the magnetic flux through the circuit according to Faraday's law of induction.
+An emf is induced in a coil or conductor whenever there is change in the flux linkages. Depending on the way in which the changes are brought about, there are two types: When the conductor is moved in a stationary magnetic field to procure a change in the flux linkage, the emf is statically induced. The electromotive force generated by motion is often referred to as motional emf. When the change in flux linkage arises from a change in the magnetic field around the stationary conductor, the emf is dynamically induced. The electromotive force generated by a time-varying magnetic field is often referred to as transformer emf.
+
+
+=== Contact potentials ===
+
+When solids of two different materials are in contact, thermodynamic equilibrium requires one of the solids assume a higher electrical potential than the other. This is called the contact potential. Dissimilar metals in contact produce what is known also as a contact electromotive force or Galvani potential. The magnitude of this potential difference is often expressed as a difference in Fermi levels in the two solids when they are at charge neutrality, where the Fermi level (a name for the chemical potential of an electron system) describes the energy necessary to remove an electron from the body to some common point (such as ground). If there is an energy advantage in taking an electron from one body to the other, such a transfer will occur. The transfer causes a charge separation, with one body gaining electrons and the other losing electrons. This charge transfer causes a potential difference between the bodies, which partly cancels the potential originating from the contact, and eventually equilibrium is reached. At thermodynamic equilibrium, the Fermi levels are equal (the electron removal energy is identical) and there is now a built-in electrostatic potential between the bodies. The original difference in Fermi levels, before contact, is referred to as the emf. The contact potential cannot drive steady current through a load attached to its terminals because that current would involve a charge transfer. No mechanism exists to continue such transfer and, hence, maintain a current, once equilibrium is attained.
+One might inquire why the contact potential does not appear in Kirchhoff's law of voltages as one contribution to the sum of potential drops. The customary answer is that any circuit involves not only a particular diode or junction, but also all the contact potentials due to wiring and so forth around the entire circuit. The sum of all the contact potentials is zero, and so they may be ignored in Kirchhoff's law.
+
+
+=== Solar cell ===
+
+Operation of a solar cell can be understood from the equivalent circuit at right. Light, of sufficient energy (greater than the bandgap of the material), creates mobile electron–hole pairs in a semiconductor. Charge separation occurs because of a pre-existing electric field associated with the p-n junction in thermal equilibrium (a contact potential creates the field). This charge separation between positive holes and negative electrons across a p-n junction (a diode) yields a forward voltage, the photo voltage, between the illuminated diode terminals. As has been noted earlier in the terminology section, the photo voltage is sometimes referred to as the photo emf, rather than distinguishing between the effect and the cause. The charge separation causes a photo voltage that drives current through any attached load.
+The current available to the external circuit is limited by internal losses I0=ISH + ID:
+
+Losses limit the current available to the external circuit. The light-induced charge separation eventually creates a current (called a forward current) ISH through the cell's junction in the direction opposite that the light is driving the current. In addition, the induced voltage tends to forward bias the junction. At high enough levels, this forward bias of the junction will cause a forward current, ID in the diode opposite that induced by the light. Consequently, the greatest current is obtained under short-circuit conditions, and is denoted as IL (for light-induced current) in the equivalent circuit. Approximately, this same current is obtained for forward voltages up to the point where the diode conduction becomes significant.
+The current delivered by the illuminated diode, to the external circuit is:
+
+where I0 is the reverse saturation current. Where the two parameters that depend on the solar cell construction and to some degree upon the voltage itself are m, the ideality factor, and kT/q the thermal voltage (about 0.026 V at room temperature). This relation is plotted in the figure using a fixed value m = 2. Under open-circuit conditions (that is, as I = 0), the open-circuit voltage is the voltage at which forward bias of the junction is enough that the forward current completely balances the photocurrent. Solving the above for the voltage V and designating it the open-circuit voltage of of the I–V equation as:
+
+which is useful in indicating a logarithmic dependence of Voc upon the light-induced current. Typically, the open-circuit voltage is not more than about 0.5 V.
+When driving a load, the photo voltage is variable. As shown in the figure, for a load resistance RL, the cell develops a voltage that is between the short-circuit value V = 0, I = IL and the open-circuit value Voc, I = 0, a value given by Ohm's law V = I RL, where the current I is the difference between the short-circuit current and current due to forward bias of the junction, as indicated by the equivalent circuit (neglecting the parasitic resistances).
+In contrast to the battery, at current levels delivered to the external circuit near IL, the solar cell acts more like a current source rather than a voltage source( near vertical part of the two illustrated curves). The current drawn is nearly fixed over a range of load voltages, to one electron per converted photon. The quantum efficiency, or probability of getting an electron of photocurrent per incident photon, depends not only upon the solar cell itself, but upon the spectrum of the light.
+The diode possesses a "built-in potential" due to the contact potential difference between the two different materials on either side of the junction. This built-in potential is established when the junction is manufactured and that voltage a by-product of thermodynamic equilibrium within the cell. Once established, this potential difference cannot drive a current, however, as connecting a load does not upset this equilibrium. In contrast, the accumulation of excess electrons in one region and of excess holes in another, due to illumination, results in a photo voltage that does drive a current when a load is attached to the illuminated diode. As noted above, this photo voltage also forward biases the junction, and so reduces the pre-existing field in the depletion region.
+
+
+== See also ==
+Counter-electromotive force
+Electric battery
+Electrochemical cell
+Electrolytic cell
+Galvanic cell
+Voltaic pile
+
+
+== References ==
+
+
+== Further reading ==
+Andrew Gray, "Absolute Measurements in Electricity and Magnetism", Electromotive force. Macmillan and co., 1884.
+John O'M. Bockris, Amulya K. N. Reddy (1973). "Electrodics". Modern Electrochemistry: An Introduction to an Interdisciplinary Area (2 ed.). Springer. ISBN 0-306-25002-0. 
+Roberts, Dana (1983). "How batteries work: A gravitational analog". Am. J. Phys. 51: 829. Bibcode:1983AmJPh..51..829R. doi:10.1119/1.13128. 
+Charles Albert Perkins, "Outlines of Electricity and Magnetism", Measurement of Electromotive Force. Henry Holt and co., 1896.
+John Livingston Rutgers Morgan, "The Elements of Physical Chemistry", Electromotive force. J. Wiley, 1899.
+George F. Barker, "On the measurement of electromotive force". Proceedings of the American Philosophical Society Held at Philadelphia for Promoting Useful Knowledge, American Philosophical Society. January 19, 1883.
+"Abhandlungen zur Thermodynamik, von H. Helmholtz. Hrsg. von Max Planck". (Tr. "Papers to thermodynamics, on H. Helmholtz. Hrsg. by Max Planck".) Leipzig, W. Engelmann, Of Ostwald classical author of the accurate sciences series. New consequence. No. 124, 1902.
+Nabendu S. Choudhury, "Electromotive force measurements on cells involving [beta]-alumina solid electrolyte". NASA technical note, D-7322.
+Henry S. Carhart, "Thermo-electromotive force in electric cells, the thermo-electromotive force between a metal and a solution of one of its salts". New York, D. Van Nostrand company, 1920. LCCN 20-20413
+Hazel Rossotti, "Chemical applications of potentiometry". London, Princeton, N.J., Van Nostrand, 1969. ISBN 0-442-07048-9 LCCN 69-11985 //r88
+Theodore William Richards and Gustavus Edward Behr, jr., "The electromotive force of iron under varying conditions, and the effect of occluded hydrogen". Carnegie Institution of Washington publication series, 1906. LCCN 07-3935 //r88
+G. W. Burns, et al., "Temperature-electromotive force reference functions and tables for the letter-designated thermocouple types based on the ITS-90". Gaithersburg, MD : U.S. Dept. of Commerce, National Institute of Standards and Technology, Washington, Supt. of Docs., U.S. G.P.O., 1993.
+Norio Sato (1998). "Semiconductor photoelectrodes". Electrochemistry at metal and semiconductor electrodes (2nd ed.). Elsevier. p. 326 ff. ISBN 0-444-82806-0. 
+
+
+== External links ==
+Electromotive Force in Inductors - Interactive Tutorial National High Magnetic Field Laboratory
+Hai, Pham Nam; Ohya, Shinobu; Tanaka, Masaaki; Barnes, Stewart E.; Maekawa, Sadamichi (2009-03-08). "Electromotive force and huge magnetoresistance in magnetic tunnel junctions". Nature 458 (7237): 489–92. Bibcode:2009Natur.458..489H. doi:10.1038/nature07879. PMID 19270681. Retrieved 2009-03-10.

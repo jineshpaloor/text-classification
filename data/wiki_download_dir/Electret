@@ -1,0 +1,63 @@
+Electret
+Electret (formed of elektr- from "electricity" and -et from "magnet") is a dielectric material that has a quasi-permanent electric charge or dipole polarisation. An electret generates internal and external electric fields, and is the electrostatic equivalent of a permanent magnet. Oliver Heaviside coined this term in 1885. Materials with electret properties were, however, already studied since the early 18th century. One particular example is the electrophorus, a device consisting of a slab with electret properties and a separate metal plate. The electrophorus was originally invented by Johan Carl Wilcke in Sweden and again by Alessandro Volta in Italy.
+
+
+== Similarity to magnets ==
+Electrets, like magnets, are dipoles. Another similarity is the radiant fields: They produce an electrostatic field (as opposed to a magnetic field) around their perimeter. When a magnet and an electret are near one another, a rather unusual phenomenon occurs: while stationary, neither has any effect on one another. However, when an electret is moved with respect to a magnetic pole, a force is felt which acts perpendicular to the magnetic field, pushing the electret along a path 90 degrees to the expected direction of 'push' as would be felt with another magnet.
+
+
+== Similarity to capacitors ==
+There is a similarity between an electret and the dielectric layer used in capacitors; the difference is that dielectrics in capacitors have an induced polarization that is only transient, dependent on the potential applied on the dielectric, while dielectrics with electret properties exhibit quasi-permanent charge storage or dipole polarization in addition. Some materials also display ferroelectricity; i.e. they react to the external fields with a hysteresis of the polarization; ferroelectrics can retain the polarization permanently because they are in thermodynamic equilibrium, and are used in ferroelectric capacitors. Although electrets are only in a metastable state, those fashioned from very low leakage materials can retain excess charge or polarization for many years. An electret microphone is a type of condenser microphone that eliminates the need for a power supply by using a permanently charged material.
+An electret is a stable dielectric material with a quasi-permanently embedded static electric charge (which, due to the high resistance of the material, will not decay for time periods of up to hundreds of years) and/or a quasi-permanently oriented dipole polarization. The name comes from electron (Greek word for amber) and magnet and was coined by Oliver Heaviside in 1885; drawing analogy to the formation of a magnet by alignment of magnetic domains in a piece of iron. Historically, electrets were made by first melting a suitable dielectric material such as a polymer or wax that contains polar molecules, and then allowing it to re-solidify in a powerful electrostatic field. The polar molecules of the dielectric align themselves to the direction of the electrostatic field, producing a dipole electret with a permanent electrostatic 'bias'. Modern electrets are usually made by embedding excess charges into a highly insulating dielectric, e.g. by means of an electron beam, a corona discharge, injection from an electron, electric breakdown across a gap or a dielectric barrier, etc.
+
+
+== Electret types ==
+There are two types of electrets:
+Real-charge electrets which contain excess charge of one or both polarities, either
+on the dielectric's surfaces (a surface charge)
+within the dielectric's volume (a space charge)
+
+Oriented-dipole electrets contain oriented (aligned) dipoles. Ferroelectric materials are one variant of these.
+Cellular space charge electrets with internal bipolar charges at the voids provide a new class of electret materials, that mimic ferroelectrics, hence they are known as ferroelectrets. Ferroelectrets display strong piezoelectricity, comparable to ceramic piezoelectric materials.
+Some dielectric materials are capable of acting both ways.
+
+
+== Materials ==
+Electret materials are quite common in nature. Quartz and other forms of silicon dioxide, for example, are naturally occurring electrets. Today, most electrets are made from synthetic polymers, e.g. fluoropolymers, polypropylene, polyethyleneterephthalate, etc. Real-charge electrets contain either positive or negative excess charges or both, while oriented-dipole electrets contain oriented dipoles. The quasi-permanent internal or external electric fields created by electrets can be exploited in various applications.
+
+
+== Manufacture ==
+Bulk electrets can be prepared by cooling a suitable dielectric material within a strong electric field, after heating it above its melting temperature. The field repositions the charge carriers or aligns the dipoles within the material. When the material cools, solidification freezes them in position. Materials used for electrets are usually waxes, polymers or resins. One of the earliest recipes consists of 45% carnauba wax, 45% white rosin, and 10% white beeswax, melted, mixed together, and left to cool in a static electric field of several kilovolts/cm. The thermo-dielectric effect, related to this process, was first described by the Brazilian researcher Joaquim Costa Ribeiro.
+Electrets can also be manufactured by embedding excess negative charge within a dielectric using a particle accelerator, or by stranding charges on, or near, the surface using high voltage corona discharges, a process called corona charging. Excess charge within an electret decays exponentially. The decay constant is a function of the material's relative dielectric constant and its bulk resistivity. Materials with extremely high resistivity, such as Teflon, may retain excess charge for many hundreds of years. Most commercially produced electrets are based on fluoropolymers (e.g. amorphous Teflon) machined to thin films.
+
+
+== Applications ==
+Electret materials have found commercial and technical interest. For example, they are used in electret microphones and in copy machines. They are also used in some types of air filters, for electrostatic collection of dust particles, in electret ion chambers for measuring ionizing radiation or radon and in Vibration Energy Harvesting.
+
+
+== Further reading ==
+Jefimenko, Oleg D. and David K. Walker (illus.), "Electrostatic motors; their history, types, and principles of operation". Star City [W. Va.], Electret Scientific Co. [1973]. LCCN 73180890
+Jefimenko, Oleg D., David K. Walker (illus.), and Thomas Valone (editor), "Electrostatic motors; their history, types, and principles of operation". NEW REVISED EDITION, Integrity Research Institute, Beltsville, MD [2011]. ISBN 1-935023-47-0
+Jefimenko, Oleg D., "Electrets," (with D. K. Walker) Phys. Teach. 18, 651-659 (1980).
+Jefimenko, Oleg D. and David K. Walker, "Volume charge distribution in carnauba wax electrets", J. Appl. Phys. 44, 3459 (1973)
+Adams, Charles K., "Nature's Electricity". Tab Books, Inc., Pa. (USA). ISBN 0-8306-2769-3
+Gross, Bernhard, "Charge storage in solid dielectrics; a bibliographical review on the electret and related effects". New York, Elsevier Pub. Co., 1964. (Supported by the United States Air Force through the Air Force Office of Scientific Research of the Air Research and Development Command, under grants number AF 60-6 and 61-140.)
+Sessler, Gerhard M. and Gerhard-Multhaupt, R. (editors), "Electrets - Third edition in two volumes°, Laplacian Press, Morgan Hill, California, USA, 1998/1999, ISBN 1-885540-07-8
+
+
+== See also ==
+Oliver Heaviside
+Corona wire
+Telephone
+Electret microphone
+Electromotive force
+Tip ring sleeve
+Ferroelectricity
+
+
+== References ==
+^ http://tikalon.com/blog/blog.php?article=2011/electret
+
+
+== Patents ==
+Nowlin, Thomas E., and Curt R. Raschke, U.S. Patent 4,291,245, "A process for making polymer electrets"

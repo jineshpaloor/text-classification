@@ -1,0 +1,80 @@
+DVD player
+A DVD player is a device that plays discs produced under both the DVD-Video and DVD-Audio technical standards, two different and incompatible standards. Some DVD players will also play audio CDs. DVD players are connected to a television to watch the DVD content, which could be a movie, a recorded TV show, or other content.
+The first DVD player was created by Tatung Company in Taiwan in collaboration with Pacific Digital Company from the United States in 1994. Some manufacturers originally announced that DVD players would be available as early as the middle of 1996. These predictions were too optimistic. Delivery was initially held up for "political" reasons of copy protection demanded by movie studios, but was later delayed by lack of movie titles. The first players appeared in Japan in November 1996, followed by U.S. players in March 1997, with distribution limited to only 7 major cities for the first 6 months.
+Players slowly trickled into other regions around the world. Prices for the first players in 1997 were $1000 and up. By the end of 2000, players were available for under $100 at discount retailers. In 2003 players became available for under $50. Six years after the initial launch, close to one thousand models of DVD players were available from over a hundred consumer electronics manufacturers.
+Fujitsu released the first DVD-ROM-equipped computer on Nov. 6 in Japan. Toshiba released a DVD-ROM-equipped computer and a DVD-ROM drive in Japan in early 1997 (moved back from December which was moved back from November). DVD-ROM drives from Toshiba, Pioneer, Panasonic, Hitachi, and Sony began appearing in sample quantities as early as January 1997, but none were available before May. The first PC upgrade kits (a combination of DVD-ROM drive and hardware decoder card) became available from Creative Labs, Hi-Val, and Diamond Multimedia in April and May 1997. In 2014, every major PC manufacturer has models that include DVD-ROM drives.
+The first DVD-Audio players were released in Japan by Pioneer in late 1999, but they did not play copy-protected discs. Matsushita (under the Panasonic and Technics labels) first released full-fledged players in July 2000 for $700 to $1,200. DVD-Audio players are now also made by Aiwa, Denon, JVC, Kenwood, Madrigal, Marantz, Nakamichi, Onkyo, Toshiba, Yamaha, and others. Sony released the first SACD players in May 1999 for $5,000. Pioneer's first DVD-Audio players released in late 1999 also played SACD. SACD players are now also made by Accuphase, Aiwa, Denon, Kenwood, Marantz, Philips, Sharp, and others.
+
+
+== Technical details ==
+
+A DVD player has to complete these tasks:
+Read a DVD disc in ISO – UDF version 1.02 format
+Optionally decrypt the data with either CSS and/or Macrovision
+Read and obey the DVD's Regional lockout codes and display a warning if the player is not authorized to play the DVD
+Decode the MPEG-2 video stream with a maximum of 10 Mbit/s (peak) or 8 Mbit/s (continuous)
+Decode sound in MP2, PCM or AC-3 format and output (with optional AC-3 to stereo downmixing) on stereo connector, optical or electric digital connector
+Output a video signal, either an analog one (in NTSC or PAL format) on the composite, S-Video, SCART, or component video connectors, or a digital one on the DVI or HDMI connectors.
+DVD players cannot play Blu-ray discs. However, most Blu-ray players are "backwards compatible" and they will play DVDs.
+
+
+== CD/DVD/AVI/MP4 playback ==
+Additionally, most DVD players allow users to play audio CDs (CD-DA, MP3, etc.) and Video CDs (VCD). A few include a home cinema decoder (i.e. Dolby Digital, Digital Theater Systems (DTS)). Some newer devices also play videos in the MPEG-4 ASP video compression format (such as DivX) popular in the Internet.
+
+
+== Portable players ==
+
+Most hardware DVD players have to be connected to a television; there are portable devices which have an attached LCD screen and stereo speakers. Portable DVD players are often used for long road trips and travel. They often have a plug for the 12 volt power jack in cars. Some models have two screens, so that two people in the back seat can both watch the movie. Other portable DVD players have a single screen that opens up like a laptop computer screen.
+
+
+== Output ==
+Due to multiple audio (and video) output devices, there are many outputs on a DVD player, such as an RCA jack, component outputs, and an HDMI output. Consumers may become confused with how to connect a player to a TV or amplifier. Most systems include an optional digital audio connector for this task, which is then paired with a similar input on the amplifier. The physical connection is typically RCA connectors or TOSLINK, which transmits a S/PDIF stream carrying either uncompressed digital audio (PCM) or the original compressed audio data (Dolby Digital, DTS, MPEG audio) to be decoded by the audio equipment.
+
+
+=== Video ===
+Video is another issue which continues to present most problems. Current players typically output analog video only, both composite video on an RCA jack as well as S-Video in the standard connector. However, neither of these connectors was intended to be used for progressive video, so yet another set of connectors has started to appear, to carry a form of component video, which keeps the three components of the video, one luminance signal and two color difference signal, as stored on the DVD itself, on fully separate wires (whereas S-Video uses two wires, uniting and degrading the two color signals, and composite uses only one, uniting and degrading all three signals). The connectors are further confused by using a number of different physical connectors on different player models, RCA or BNC, as well as using VGA cables in a non-standard way (VGA is normally analog RGB—a different, incompatible form of component video). Even worse, there are often two sets of component outputs, one carrying interlaced video, and the other progressive, or an interlaced/progressive switch (either a physical switch or a menu setting).
+In Europe (but not most other PAL areas), SCART connectors are typically used, which can carry composite and analog RGB interlaced video signals (RGB can be progressive, but not all DVD players and displays support this mode) or Y/C (S-Video), as well as analog two-channel sound and automatic 4:3 or 16:9 (widescreen) switching on a single convenient multi-wire cable. The analog RGB component signal offers video quality which is superior to S-Video and identical to YPbPr component video. However, analog RGB and S-Video signals can not be carried simultaneously, due to each using the same pins for different uses, and displays often must be manually configured as to the input signal, since no switching mode exists for S-Video. (A switching mode does exist to indicate whether composite or RGB is being used.) Some DVD players and set-top boxes offer YPbPr component video signals over the wires in the SCART connector intended for RGB, though this violates the official specification and manual configuration is again necessary. (Hypothetically, unlike RGB component, YPbPr component signals and S-Video Y/C signals could both be sent over the wire simultaneously, since they share the luminance (Y) component.)
+HDMI is a new digital connection for carrying high-definition video, similar to DVI. Along with video, HDMI also supports up to eight-channel digital audio. DVD players with connectors for high-definition video can upconvert the source to formats used for higher definition video (e.g., 720p, 1080i, 1080p, etc.), before outputting the signal. By no means, however, will the resulting signal be high-definition video; that is, aside from optional deinterlacing, upconverting generally consists of merely scaling the video's dimensions to match that of higher resolution formats, foregoing the scaling that would normally occur in the output device.
+
+
+=== USB ===
+Some DVD players include a USB video recorder. As well as such, there are also have DVD players with a USB port to be able to play digital media types as well as MP4, MP3, etc.
+
+
+=== Wireless ===
+Wireless connections (bluetooth and/or wifi) are useful to manage (play/record) wirelessly content from or to other devices (i.e. cell phones).
+
+
+== Prices ==
+As of 2014, retail prices for such a device, depending on its optional features (such as digital sound or video output), start between 30 and 80 USD/Euro. They are usually cheaper than VCRs.
+
+
+== Manufacture ==
+As of 2002 the largest producer of DVD players is China; in 2002 they produced 30 million players, more than 70% of the world output. These producers have to pay US$15–$20 per player in license fees, to the patent holders of the DVD technology (Sony, Philips, Toshiba and Time Warner) as well as for MPEG-2 licenses. To avoid these fees, China has developed the Enhanced Versatile Disc standard as an intended successor of DVD; as of 2004, EVD players were only being sold in China. Sudan has the highest percentage of DVD players.
+
+
+== Software ==
+Software DVD players are programs that allow users to view DVD videos on a computer with a DVD-ROM drive. Some examples are the VLC media player and MPlayer (both free software), as well as WinDVD, TotalMedia Theatre, PowerDVD, Fluendo DVD Player and DVD Player.
+Among others, there were also have variants & huge kinds of Software DVD players as well as multimedia player softwarea which can also able DVD video playback capability, whether its proprietary-type(as commercial softwares), freeware, shareware or just a free software are available in the market.
+
+
+== Successors ==
+There are successors to the DVD player: the HD DVD player and the Blu-ray Disc player, utilizing two incompatible technologies that reproduce higher quality video images than standard DVD. On February 19, 2008, Toshiba, creator of the former technology announced it would cease production on all HD DVD products leaving Blu-ray as the high definition successor to DVD players. Also, upscaling and up-converting DVD units are available that connect to televisions via a high definition interface and increase the overall picture quality.
+
+
+== Popularity of DVD players ==
+
+
+== See also ==
+CD
+CD-ROM
+Digital video recorder
+DVD-Audio
+HD media player
+Recorder (disambiguation)
+VCR
+Video scaler
+Comparison of portable media players
+
+
+== References ==

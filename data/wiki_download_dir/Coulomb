@@ -1,0 +1,53 @@
+Coulomb
+The coulomb (unit symbol: C) is the International System of Units (SI) unit of electric charge. It is the charge (symbol: Q or q) transported by a constant current of one ampere in one second:
+
+Thus, it is also the amount of excess charge on a capacitor of one farad charged to a potential difference of one volt:
+
+It is equivalent to the charge of approximately 7018624100000000000♠6.241×1018 (6995103600000000000♠1.036×10−5 mol) protons, and −1 C is equivalent to the charge of approximately 7018624100000000000♠6.241×1018 electrons.
+
+
+== Name and notation ==
+This SI unit is named after Charles-Augustin de Coulomb. As with every International System of Units (SI) unit named for a person, the first letter of its symbol is upper case (C). However, when an SI unit is spelled out in English, it should always begin with a lower case letter (coulomb)—except in a situation where any word in that position would be capitalized, such as at the beginning of a sentence or in material using title case. Note that "degree Celsius" conforms to this rule because the "d" is lowercase.— Based on The International System of Units, section 5.2.
+
+
+== Definition ==
+The SI system defines the coulomb in terms of the ampere and second: 1 C = 1 A × 1 s. The second is defined in terms of a frequency naturally emitted by caesium atoms. The ampere is defined using Ampère's force law; the definition relies in part on the mass of the international prototype kilogram, a metal cylinder housed in France. In practice, the watt balance is used to measure amperes with the highest possible accuracy.
+Since the charge of one electron is known to be about −6981160217656499999♠1.602176565(35)×10−19 C, −1 C can also be considered the charge of roughly 6.241509×10^18 electrons (or +1 C the charge of that many positrons or protons), where the number is the reciprocal of 1.602177×10^−19.
+The proposed redefinition of the ampere and other SI base units would have the effect of fixing the numerical value of the fundamental charge to an explicit constant expressed in coulombs, and therefore it would implicitly fix the value of the coulomb when expressed as a multiple of the fundamental charge (the numerical values of those quantities are the multiplicative inverses of each other).
+
+
+== SI prefixes ==
+See also SI prefix.
+
+
+== Conversions ==
+The magnitude of the electrical charge of one mole of elementary charges (approximately 6.022×1023, or Avogadro's number) is known as a faraday unit of charge (closely related to the Faraday constant). One faraday equals 96485.3399 coulombs. In terms of Avogadro's number (NA), one coulomb is equal to approximately 1.036 × NA×10−5 elementary charges.
+One ampere-hour = 3600 C, 1 mA⋅h = 3.6 C.
+The elementary charge is 6981160217656499999♠1.602176565(35)×10−19 C.
+One statcoulomb (statC), the obsolete CGS electrostatic unit of charge (esu), is approximately 3.3356×10−10 C or about one-third of a nanocoulomb.
+One coulomb is the magnitude (absolute value) of electrical charge in 6.24150934(14)×10^18 protons or electrons.
+
+
+== Relation to elementary charge ==
+The elementary charge, the charge of a proton (equivalently, the negative of the charge of an electron), is approximately 6981160217656499999♠1.602176565(35)×10−19 C. In SI, the elementary charge in coulombs is an approximate value: no experiment can be infinitely accurate. However, in other unit systems, the elementary charge has an exact value by definition, and other charges are ultimately measured relative to the elementary charge. For example, in conventional electrical units, the values of the Josephson constant KJ and von Klitzing constant RK are exact defined values (written KJ-90 and RK-90), and it follows that the elementary charge e = 2/(KJRK) is also an exact defined value in this unit system. Specifically, e90 = (6991200000000000000♠2×10−9)/(7004258128070000000♠25812.807 × 7005483597900000000♠483597.9) C exactly. SI itself may someday change its definitions in a similar way. For example, one possible proposed redefinition is "the ampere...is [defined] such that the value of the elementary charge e (charge on a proton) is exactly 6981160217648699999♠1.602176487×10−19 coulombs", (in which the numeric value is the 2006 CODATA recommended value, since superseded). This proposal is not yet accepted as part of the SI; the SI definitions are unlikely to change until at least 2015.
+
+
+== In everyday terms ==
+The charges in static electricity from rubbing materials together are typically a few microcoulombs.
+The amount of charge that travels through a lightning bolt is typically around 15 C, although large bolts can be up to 350 C.
+The amount of charge that travels through a typical alkaline AA battery from being fully charged to discharged is about 5 kC = 5000 C ≈ 1400 mA⋅h.
+According to Coulomb's law, two negative point charges of 2999900000000000000♠−1 C, placed one meter apart, would experience a repulsive force of 7009900000000000000♠9×109 N, a force roughly equal to the weight of 920000 metric tons of mass on the surface of the Earth.
+The hydraulic analogy uses everyday terms to illustrate movement of charge and the transfer of energy. The analogy equates charge to a volume of water, and voltage to pressure. One coulomb equals (the negative of) the charge of 7018624000000000000♠6.24×1018 electrons. The amount of energy transferred by the flow of 1 coulomb can vary; for example, 300 times fewer electrons flow through a lightning bolt than in the discharge of an AA battery, but the total energy transferred by the flow of the lightning's electrons is 300 million times greater.
+
+
+== See also ==
+Abcoulomb, a cgs unit of charge
+Ampère's circuital law
+Coulomb's law
+Electrostatics
+Elementary charge
+Faraday (unit), an obsolete unit
+Quantity of electricity
+
+
+== Notes and references ==

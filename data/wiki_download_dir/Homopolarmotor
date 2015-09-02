@@ -1,0 +1,34 @@
+Homopolar motor
+A homopolar motor is a direct current electric motor with two magnetic poles, the conductors of which always cut unidirectional lines of magnetic flux by rotating a conductor around a fixed axis that is parallel to the magnetic field. The resulting EMF (Electromotive Force) being continuous in one direction, the homopolar motor needs no commutator but still requires slip rings. The name homopolar indicates that the electrical polarity of the conductor and the magnetic field poles do not change (i.e., that it does not require commutation).
+
+
+== History ==
+
+The homopolar motor was the first electrical motor to be built. Its operation was demonstrated by Michael Faraday in 1821 at the Royal Institution in London.
+In 1821, soon after the Danish physicist and chemist Hans Christian Ørsted discovered the phenomenon of electromagnetism, Humphry Davy and British scientist William Hyde Wollaston tried, but failed, to design an electric motor. Faraday, having discussed the problem with the two men, went on to build two devices to produce what he called "electromagnetic rotation". One of these, now known as the homopolar motor, caused a continuous circular motion that was engendered by the circular magnetic force around a wire that extended into a pool of mercury wherein was placed a magnet. The wire would then rotate around the magnet if supplied with current from a chemical battery. These experiments and inventions formed the foundation of modern electromagnetic technology. In his excitement, Faraday published results without acknowledging his work with either Wollaston or Davy. The resulting controversy within the Royal Society strained his mentor relationship with Davy and may well have contributed to Faraday’s assignment to other activities, which consequently prevented his involvement in electromagnetic research, for several years.
+B. G. Lamme described in 1912 a homopolar machine rated 2,000 kW, 260 V, 7,700 A and 1,200 rpm with 16 slip rings operating at a peripheral velocity of 67 m/s. A unipolar generator rated 1,125 kW, 7.5 V 150,000 A, 514 rpm built in 1934 was installed in a U.S. steel mill for pipe welding purposes.
+
+
+== Principle of operation ==
+The homopolar motor is driven by the Lorentz force: as it moves through a magnetic field, the conductor is pushed through a magnetic field by opposing forces. This force induces a torque around the axis of rotation. Because the axis of rotation is parallel to the magnetic field, and the opposing magnetic fields do not change polarity, no commutation is required for the conductor to keep turning. This simplicity is achieved at the cost of not being able to have more than one coil turn, which makes this configured homopolar motor unsuited for most useful applications. Homopolar motors have advantages and disadvantages and have not been fully developed.
+Like most electro-mechanical machines, a homopolar motor is reversible: if the conductor is turned mechanically, then it will operate as a homopolar generator, producing a direct current voltage between the two terminals of the conductor. The direct current produced is an effect of the homopolar nature of the design.
+
+
+== Building a simple homopolar motor ==
+A homopolar motor is very easy to build. A permanent magnet is used to provide the external magnetic field in which the conductor will turn, and a battery causes a current to flow along a conducting wire. It is not necessary for the magnet to move, or even to be in contact with the rest of the motor; its sole purpose is to provide a magnetic field that will interact with the magnetic field induced by the current in the wire. One can attach the magnet to the battery and allow the conducting wire to rotate freely while closing the electric circuit by touching both the top of the battery and the magnet attached to the bottom of the battery. The wire and the battery may become hot if operated continuously. 
+
+
+== Gallery ==
+
+
+== Examples ==
+Railgun
+Ball bearing motor
+
+
+== See also ==
+Homopolar generators
+Barlow's wheel
+
+
+== References ==

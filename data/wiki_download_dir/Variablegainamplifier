@@ -1,0 +1,37 @@
+Variable-gain amplifier
+A variable-gain or voltage-controlled amplifier is an electronic amplifier that varies its gain depending on a control voltage (often abbreviated CV).
+VCAs have many applications, including audio level compression, synthesizers and amplitude modulation.
+A crude example is a typical inverting op-amp configuration with a light-dependent resistor (LDR) in the feedback loop. The gain of the amplifier then depends on the light falling on the LDR, which can be provided by an LED (an optocoupler). The gain of the amplifier is then controllable by the current through the LED. This is similar to the circuits used in optical audio compressors.
+A voltage-controlled amplifier can be realised by first creating a voltage-controlled resistor (VCR), which is used to set the amplifier gain. The VCR is one of the numerous interesting circuit elements that can be produced by using a JFET (junction field-effect transistor) with simple biasing. VCRs manufactured in this way can be obtained as discrete devices, e.g. VCR2N.
+Another type of circuit uses operational transconductance amplifiers.
+In audio applications logarithmic gain control is used to emulate how the ear hears loudness. David E. Blackmer's dbx 202 VCA was among the first successful implementations of a logarithmic VCA.
+
+
+== In sound mixing consoles ==
+Some mixing consoles come equipped with VCAs in each channel for console automation. The fader, which traditionally controls the audio signal directly, becomes a DC control voltage for the VCA. The maximum voltage available to a fader can be controlled by one or more master faders called VCA groups. The VCA master fader then controls the overall level of all of the channels assigned to it. Typically VCA groups are used to control various parts of the mix; vocals, guitars, drums or percussion. The VCA master fader allows a portion of a mix to be raised or lowered without affecting the blend of the instruments in that part of the mix.
+A benefit of VCA sub-group is that since it is directly affecting the gain level of each channel, changes to a VCA sub-group level affect not only the channel level, but also all of the levels sent to any post fader mixes. With traditional audio sub-groups, the sub-group master fader only affects the level going into the main mix and does not affect the level going to the post fader mixes. Consider the case of an instrument feeding a sub-group and a post fader mix. If you completely lower the sub-group master fader, you would no longer hear the instrument itself, but you would still hear it as part of the post fader mix, perhaps a reverb or chorus effect.
+VCA mixers are known to last longer than non- VCA mixers. Because the VCA controls the audio level instead of the physical fader, decay of the fader mechanism over time does not cause a degradation in audio quality.
+
+
+== Digital variable-gain amplifier ==
+A digitally controlled amplifier (DCA) is a variable-gain amplifier that is digitally controlled.
+The digitally controlled amplifier uses a stepped approach giving the circuit graduated increments of gain selection. This can be done in several fashions, but certain elements remain in any design.
+At its most basic form, a toggle switch strapped across the feedback resistor can provide two discrete gain settings. While this is not a computer controlled function, it describes the core function. With eight switches and eight resistors in the feedback loop, each switch can enable a particular resistor to control the feedback of the amplifier. If each switch was converted to a relay, a microcontroller could be used to activate the relays to attain the desired amount of gain.
+Relays can be replaced with Field Effect Transistors of an appropriate type to reduce the mechanical nature of the design. Other devices such as the CD4053 bi-directional CMOS integrated circuit can serve well as the switching function.
+To minimize the quantity of switches and resistors, combinations of resistance values can be utilized by activating multiple switches.
+
+
+== See also ==
+Automixer
+Console automation
+
+
+== References ==
+
+
+== External links ==
+Examples of non-optical VCAs
+Some schematics for VCAs
+Vacuum tube VCAs
+University of Toronto undergraduate lecture explaining how to implement a Voltage Controlled Amplifier using an operational amplifier and a photocell
+Allen & Heath's Guide to VCA Sound Desk Mixing

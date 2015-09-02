@@ -1,0 +1,110 @@
+Distribution board
+A distribution board (also known as panelboard or breaker panel) is a component of an electricity supply system which divides an electrical power feed into subsidiary circuits, while providing a protective fuse or circuit breaker for each circuit in a common enclosure. Normally, a main switch, and in recent boards, one or more residual-current devices (RCD) or residual current breakers with overcurrent protection (RCBO), are also incorporated.
+
+
+== Other names ==
+Distribution boards are also referred to as a:
+breaker panel
+circuit breaker panel
+consumer unit, or CU
+electrical panel
+fuseboard
+electric board
+fusebox.
+breaker box
+load centre/center
+panelboard
+power breaker
+service panel
+DB board (South Africa)
+ACDB (alternating current distribution board)
+DCDB (direct current distribution board)
+
+
+== North American boards ==
+In a North American distribution board, the circuit breakers are generally placed in two columns. Circuit breaker panelboards are always dead front, that is, the operator of the circuit breakers cannot contact live electrical parts. During servicing of the distribution board itself, though, when the cover has been removed and the cables are visible, North American breaker panelboards commonly have some live parts exposed.
+
+
+=== Breaker arrangement ===
+
+Breakers are usually arranged in two columns. In a US-style board, breaker positions are numbered left-to-right, along each row from top to bottom. This numbering system is universal across various competing manufacturers of breaker panels.
+Each row is fed from a different phase (A, B, and C below), to allow 2- or 3-pole common-trip breakers to have one pole on each phase. In North America, it is common to wire large permanently installed equipment line-to-line. This takes two slots in the panel (two-pole) and gives a voltage of 240V if the supply system is split phase and 208V if the supply system is three phase.
+
+
+==== Inside a North American panel ====
+
+The picture to the right shows the interior of a standard residential service, North American General Electric style breaker panel. The three power wires - two hot and one neutral - can be seen coming in at the top. The neutral wire is connected to the neutral busbar to the left with all the white wires, and the other two are the hot wires attached to the main breaker. Below it are the two rows of circuit breakers with the circuits' red and black hot wires leading off. Three wires (hot black, neutral white, and bare ground) can be seen directly exiting the box and running to a NEMA 5-15 electrical receptacle with a power cord plugged into it. The incoming bare stranded ground wire can be seen near the bottom of the neutral bus bar.
+The picture on the left shows a North American dual panel configuration. The main panel (on the right with cover in place) and a subpanel (on the left, with cover removed). Notice that the subpanel is fed by two large hot wires and a neutral wire running through a small angled conduit. This configuration appears to have three violations of the current U.S. National Electric Code: the main panel does not have a grounding conductor(here it is fed into the subpanel instead), the connection between the main and subpanel does not have a grounding conductor (it must use 4 instead of 3 wires), and the subpanel neutral bar is bonded to the ground bar (these should be separate bars after the first service disconnect, which in this case is the main panel).
+
+
+=== Fuse boxes ===
+
+A common design of fuse box that was used from 1940's through 1965 was the 60-amp fuse box which featured four plug fuses (i.e. Edison base) for branch circuits and one or more fuse blocks containing cartridge fuses for purposes such as major appliance circuits. Later on, the more substantial 100-amp panel with three-wire (230v) service became common; a fuse box could have fuse blocks for the main shutoff and an electric range circuit plus a number of plug fuses (Edison base or Type S) for individual circuits.
+
+
+== UK boards ==
+In the UK, domestic and small commercial or public installations usually have single-phase supplies at 230V (nominal standard). The main distribution boards in these installations are called consumer units (CUs), though they may be known as fuse boxes; older consumer units used fuses until the advent of mini-circuit breakers (MCBs).
+A consumer unit normally has a single horizontal row of fuses or MCBs, though some older units grouped four fuses in a square arrangement. For two-rate supplies (standard/off-peak), a second CU may be added (stacked). Multiple CUs are also found in larger premises.
+Larger commercial, public, and industrial installations generally use three-phase supplies, with distribution boards which have twin vertical rows of breakers. Larger installations will often use subsidiary distribution boards.
+In both cases, modern boards handling supplies up to around 100 A (CUs) or 200 A (distribution boards) use circuit breakers and RCDs on DIN rail mountings. The main distribution board in an installation will also normally provide a main switch (known as an incomer) which switches the phase and neutral lines for the whole supply. (n.b., an incomer may be referred to, or sold as, an isolator, but this is problematic, as it will not necessarily be used as an isolator in the strict sense.)
+For each phase, power is fed along a busbar. In split-phase panels, separate busbars are fed directly from the incomer, which allows RCDs to be used to protect groups of circuits. Alternatively RCBOs may be used to provide both overcurrent and residual-current protection to single circuits.
+Other devices, such as transformers (e.g., for bell circuits) and contactors (relays; e.g., for large motor or heating loads) may also be used.
+New British distribution boards generally have the live parts enclosed to IP20, even when the cover has been removed for servicing.
+
+
+=== Modern CU ===
+A typical new domestic CU used as a main panel may have from 6 to 24 ways for devices (some of which may occupy two ways), and will be split into two or more sections (e.g. a non-RCD section for alarms etc., an RCD-protected section for socket outlets, and an RCD-protected section for lighting and other built-in appliances). Secondary CUs used for outbuildings usually have 1 to 4 ways plus an RCD.
+
+
+=== Older CUs ===
+Recent (pre-17th edition wiring regulations) CUs would not usually have RCD protected sections for anything other than socket outlets, though some older CUs used RCD Incomers. Before the 1990s RCDs (and split busbars) were not standard in CUs.
+Rewirable Fuse Boxes
+
+Fuse Boxes usually use cartridge or rewirable fuses with no other protective device, and basic 4-ways boxes are very common. Some older boxes are made of brown-black bakelite, sometimes with a wooden base. Although their design is historic, these were standard equipment for new installs as recently as the 1980s, so they are very common. Fuseholders in these boxes may not provide protection from accidental contact with live terminals.
+The popular 4-way fusebox usually has two lighting and two socket circuits, with heavy or sustained loads such as immersion heater and oven on a socket circuit. This arrangement is not recommended practice today, but it is common in existing installations. Larger boxes with more ways will have separate fuses for large loads such as immersion heater, oven and shower.
+
+
+==== Circuit breaker retrofits ====
+Some of these fuseboxes have had their fuse carriers replaced with plug-in miniature circuit breakers. These retrofit MCBs are typically rated at 3kA breaking capacity, but many homes or properties have prospective short circuit currents as high as 6kA. Fault currents of over 3kA are thus interrupted by the incomer fuse, should they ever occur, and the MCB would not survive.
+
+
+=== Historic fuseboxes ===
+A small number of pre-1950 fuseboxes are still in service. These should be treated with caution because exposed live parts are common on these boxes. The installations they supply will not meet modern standards for electrical safety. Another characteristic of very old installations is that there may be two fuses for each circuit; one on the live and one on the neutral. In rare instances, old ring circuits may be encountered with no fewer than 4 15 A fuses per ring, one on each of L and N, and this duplicated for each of the 2 feeds for the ring.
+
+
+=== Inside a UK distribution board ===
+
+This picture shows the interior of a typical UK distribution panel. The three incoming phase wires connect to the busbars via a main switch in the centre of the panel. On each side of the panel are two busbars, for neutral and earth. The incoming neutral connects to the lower busbar on the right side of the panel, which is in turn connected to the neutral busbar at the top left. The incoming earth wire connects to the lower busbar on the left side of the panel, which is in turn connected to the earth busbar at the top right. The cover has been removed from the lower-right neutral bar; the neutral bar on the left side has its cover in place.
+Down the left side of the phase busbars are two two-pole RCBOs and two single-pole breakers, one unused. The two-pole RCBOs in the picture are not connected across two phases, but have supply-side neutral connections exiting behind the phase busbars. Down the right side of the busbars are a single-pole breaker, a two-pole RCBO and a three-pole breaker.
+
+The illustrated panel includes a great deal of unused space; it is likely that the manufacturer produces 18- and 24-position versions of this panel using the same chassis.
+
+
+== Manufacturer differences ==
+Most of the time, the panel and the breakers inserted into it must both be from the same company. Each company has one or more "systems", or kinds of breaker panels, that only accept breakers of that type. In Europe this is still the case, despite the adoption of a standard DIN rail for mounting and a standard cut-out shape, as the positions of the busbar connections are not standardised.
+Certain panels use seemingly interchangeable 1-inch-wide (25 mm) breakers. However, a given manufacturer will often specify exactly what devices are permitted to be installed in their equipment. These assemblies have been tested and approved for use by a recognized authority. Replacing or adding equipment which "just happens to fit" can result in unexpected or even dangerous conditions. Such installations should not be done without first consulting knowledgeable sources, including manufacturers.
+
+
+== Location and designation ==
+
+For reasons of aesthetics and security, circuit breaker panels are often placed in out-of-the-way closets, attics, garages, or basements, but sometimes they are also featured as part of the aesthetic elements of a building (as an art installation, for example) or where they can be easily accessed. However, current US building codes prohibit installing a panel in a bathroom (or similar room), in closets intended for clothing, or where there is insufficient space for a worker to access it. Specific situations, such as an installation outdoors, in a hazardous environment, or in other out-of-the-ordinary locations may require specialized equipment and more stringent installation practices.
+Large buildings or facilities with higher electric power demand may have multiple circuit breaker panels. Outlets may be labeled with the panel number and circuit number to allow quick identification of the source for maintenance.
+Distribution boards may be designated for three-phase or single-phase and normal power or emergency power, or designated by use such as distribution panels for supplying other panels, lighting panels for lights, power panels for equipment and receptacles and special uses. Panels are located throughout the building in electric closets serving a section of the building.
+In a theatre a specialty panel called a dimmer rack is used to feed stage lighting instruments. A US style dimmer rack has a 208Y/120 volt 3-phase feed. Instead of just circuit breakers, the rack has a solid state electronic dimmer with its own circuit breaker for each stage circuit. This is known as a dimmer-per-circuit arrangement. The dimmers are equally divided across the three incoming phases. In a 96 dimmer rack, there are 32 dimmers on phase A, 32 dimmers on phase B, and 32 on phase C to spread out the lighting load as equally as possible. In addition to the power feed from the supply transformer in the building, a control cable from the lighting desk carries information to the dimmers in a control protocol such as DMX-512. The information includes lighting level information for each channel, by which it controls which dimmer circuits come up and go out during the lighting changes of the show (light cues), and over what fade time.
+Distribution boards may be surface-mounted on a wall or may be sunk into the wall. The former arrangement allows for easier alteration or addition to wiring at a later date, but the latter arrangement may look neater, particularly in a residential situation. The other problem with recessing a distribution board into a wall is that if the wall is solid a lot of brick or block may need to be removed - for this reason recessed boards are generally only fitted on new-build projects when the required space can be built into the wall.
+
+
+== Mobile operation ==
+
+Sometimes it is desired to have a portable breaker panel, for example, for special events. In this case, a breaker panel is mounted to a board, together with various sockets. The American one pictured at the right has a cord with an L21-30 plug to supply power. Power leaves the board through four three-phase circuits: three 15 ampere circuits; and one 20 A circuit. The 15 A circuits each go to a triplex-box. The 20 A circuit goes to an L21-20 receptacle, and one leg of it goes to a 20 A duplex receptacle shown at the upper left. The neon night-lights on the upper right triplex box are to show the phase presence.
+The use of a load center in this type of configuration is dangerous and violates UL and NEC rules for their use. When power distribution is required on movie sets, concert stages and theatrical venues it should be provided via products listed "for portable power distribution."
+
+
+== See also ==
+Consumer unit
+Electric switchboard
+Electricity meter
+Circuit total limitation
+
+
+== References ==

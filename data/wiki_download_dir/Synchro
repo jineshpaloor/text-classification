@@ -1,0 +1,81 @@
+Synchro
+A synchro is, in effect, a transformer whose primary-to-secondary coupling may be varied by physically changing the relative orientation of the two windings. Synchros are often used for measuring the angle of a rotating machine such as an antenna platform. In its general physical construction, it is much like an electric motor. The primary winding of the transformer, fixed to the rotor, is excited by an alternating current, which by electromagnetic induction, causes currents to flow in three Y-connected secondary windings fixed at 120 degrees to each other on the stator. The relative magnitudes of secondary currents are measured and used to determine the angle of the rotor relative to the stator, or the currents can be used to directly drive a receiver synchro that will rotate in unison with the synchro transmitter. In the latter case, the whole device may be called a selsyn (a portmanteau of self and synchronizing).
+
+
+== Uses ==
+Synchro systems were first used in the control system of the Panama Canal in the early 1900s to transmit lock gate and valve stem positions, and water levels, to the control desks.
+
+Fire-control system designs developed during World War II used synchros extensively, to transmit angular information from guns and sights to an analog fire control computer, and to transmit the desired gun position back to the gun location. Early systems just moved indicator dials, but with the advent of the amplidyne, as well as motor-driven high-powered hydraulic servos, the fire control system could directly control the positions of heavy guns.
+Smaller synchros are still used to remotely drive indicator gauges and as rotary position sensors for aircraft control surfaces, where the reliability of these rugged devices is needed. Digital devices such as the rotary encoder have replaced synchros in most other applications.
+Selsyn motors were widely used in motion picture equipment to synchronize movie cameras and sound recording equipment, before the advent of crystal oscillators and microelectronics.
+Large synchros were used on naval warships, such as destroyers, to operate the steering gear from the wheel on the bridge.
+
+
+== Synchro system types ==
+There are two types of synchro systems: Torque systems and control systems.
+In a torque system, a synchro will provide a low-power mechanical output sufficient to position an indicating device, actuate a sensitive switch or move light loads without power amplification. In simpler terms, a torque synchro system is a system in which the transmitted signal does the usable work. In such a system, accuracy on the order of one degree is attainable.
+In a control system, a synchro will provide a voltage for conversion to torque through an amplifier and a servomotor. Control type synchros are used in applications that require large torques or high accuracy such as follow-up links and error detectors in servo, automatic control systems (such as an autopilot system). In simpler terms, a control synchro system is a system in which the transmitted signal controls a source of power which does the usable work.
+Quite often, one system will perform both torque and control functions. Individual units are designed for use in either torque or control systems. Some torque units can be used as control units, but control units cannot replace torque units.
+
+
+== Synchro functional categories ==
+A synchro will fall into one of eight functional categories. They are as follows:
+Torque Transmitter (TX)
+Input: Rotor positioned mechanically or manually by the information to be transmitted.
+Output: Electrical output from stator identifying the rotor position supplied to a torque receiver, torque differential transmitter or a torque differential receiver.
+Control Transmitter (CX)
+Input: Same as TX.
+Output: Electrical output same as TX but supplied to a control transformer or control differential transmitter.
+Torque Differential Transmitter (TDX)
+Input: TX output applied to stator; rotor positioned according to amount data from TX that must be modified.
+Output: Electrical output from rotor (representing an angle equal to the algebraic sum or difference of rotor position angle and angular data from TX) supplied to torque receivers, another TDX, or a torque differential receiver.
+Control Differential Transmitter (CDX)
+Input: Same as TDX but data supplied by CX.
+Output: Same as TDX but supplied to only a control transformer or another CDX.
+Torque Receiver (TR)
+Input: Electrical angle position data from TX or TDX supplied to stator.
+Output: Rotor assumes position determined by electrical input supplied.
+Torque Differential Receiver (TDR)
+Input: Electrical data supplied from two TX's, two TDX's or from one TX and one TDX (one connected to the rotor and one connected to the stator).
+Output: Rotor assumes position equal to the algebraic sum or difference of two angular inputs.
+Control Transformer (CT)
+Input: Electrical data from CX or CDX applied to stator. Rotor positioned mechanically or manually.
+Output: Electrical output from rotor (proportional to sine of the difference between rotor angular position and electrical input angle.
+Torque Receiver-Transmitter (TRX)
+This synchro was designed as a torque receiver, but may be used as either a transmitter or receiver.
+Input: Depending on the application, same as TX.
+Output: Depending on the application, same as TX or TR.
+
+
+== Operation ==
+On a practical level, synchros resemble motors, in that there is a rotor, stator, and a shaft. Ordinarily, slip rings and brushes connect the rotor to external power. A synchro transmitter's shaft is rotated by the mechanism that sends information, while the synchro receiver's shaft rotates a dial, or operates a light mechanical load. Single and three-phase units are common in use, and will follow the other's rotation when connected properly. One transmitter can turn several receivers; if torque is a factor, the transmitter must be physically larger to source the additional current. In a motion picture interlock system, a large motor-driven distributor can drive as many as 20 machines, sound dubbers, footage counters, and projectors.
+Synchros designed for terrestrial use tend to be driven at 50 or 60 hertz (the mains frequency in most countries), while those for marine or aeronautical use tend to operate at 400 hertz (the frequency of the on-board electrical generator driven by the engines).
+Single phase units have five wires: two for an exciter winding (typically line voltage) and three for the output/input. These three are bussed to the other synchros in the system, and provide the power and information to align the shafts of all the receivers. Synchro transmitters and receivers must be powered by the same branch circuit, so to speak; the mains excitation voltage sources must match in voltage and phase. The safest approach is to bus the five or six lines from transmitters and receivers at a common point. Different makes of selsyns, used in interlock systems, have different output voltages. In all cases, three-phase systems will handle more power and operate a bit more smoothly. The excitation is often 208/240 V 3-phase mains power. Many synchros operate on 30 to 60 V AC also.
+Synchro transmitters are as described, but 50 and 60-Hz synchro receivers require rotary dampers to keep their shafts from oscillating when not loaded (as with dials) or lightly loaded in high-accuracy applications.
+A different type of receiver, called a control transformer (CT), is part of a position servo that includes a servo amplifier and servo motor. The motor is geared to the CT rotor, and when the transmitter's rotor moves, the servo motor turns the CT's rotor and the mechanical load to match the new position. CTs have high-impedance stators and draw much less current than ordinary synchro receivers when not correctly positioned.
+Synchro transmitters can also feed synchro to digital converters, which provide a digital representation of the shaft angle.
+
+
+== Synchro variants ==
+So called 'brushless synchros' use rotary transformers (that have no magnetic interaction with the usual rotor and stator) to feed power to the rotor. These transformers have stationary primaries, and rotating secondaries. The secondary is somewhat like a spool wound with magnet wire, the axis of the spool concentric with the rotor's axis. The "spool" is the secondary winding's core, its flanges are the poles, and its coupling does not vary significantly with rotor position. The primary winding is similar, surrounded by its magnetic core, and its end pieces are like thick washers. The holes in those end pieces align with the rotating secondary poles.
+For high accuracy in gun fire control and aerospace work, so called multi-speed synchro data links were used. For instance, a two-speed link had two transmitters, one rotating for one turn over the full range (such as a gun's bearing), while the other rotated one turn for every 10 degrees of bearing. The latter was called a 36-speed synchro. Of course, the gear trains were made accordingly. At the receiver, the magnitude of the 1X channel's error determined whether the "fast" channel was to be used instead. A small 1X error meant that the 36x channel's data was unambiguous. Once the receiver servo settled, the fine channel normally retained control.
+For very critical applications, three-speed synchro systems have been used.
+So called multispeed synchros have stators with many poles, so that their output voltages go through several cycles for one physical revolution. For two-speed systems, these do not require gearing between the shafts.
+Differential synchros are another category. They have three-lead rotors and stators like the stator described above, and can be transmitters or receivers. A differential transmitter is connected between a synchro transmitter and a receiver, and its shaft's position adds to (or subtracts from, depending upon definition) the angle defined by the transmitter. A differential receiver is connected between two transmitters, and shows the sum (or difference, again as defined) between the shaft positions of the two transmitters. There are synchro-like devices called transolvers, somewhat like differential synchros, but with three-lead rotors and four-lead stators.
+A resolver is similar to a synchro, but has a stator with four leads, the windings being 90 degrees apart physically instead of 120 degrees. Its rotor might be synchro-like, or have two sets of windings 90 degrees apart. Although a pair of resolvers could theoretically operate like a pair of synchros, resolvers are used for computation.
+A special T-connected transformer arrangement invented by Scott ("Scott T") interfaces between resolver and synchro data formats; it was invented to interconnect two-phase AC power with three-phase power, but can also be used for precision applications.
+
+
+== See also ==
+Amplidyne
+Rotary encoder
+Resolver
+RVDT
+
+
+== Notes ==
+
+
+== References ==
+AC instrumentation transducers
+Upson, A.R.; Batchelor, J.H. (1978) [1965]. Synchro Engineering Handbook. Beckenham: Muirhead Vactric Components.

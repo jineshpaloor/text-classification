@@ -1,0 +1,159 @@
+Estimation theory
+Estimation theory is a branch of statistics that deals with estimating the values of parameters based on measured/empirical data that has a random component. The parameters describe an underlying physical setting in such a way that their value affects the distribution of the measured data. An estimator attempts to approximate the unknown parameters using the measurements.
+For example, it is desired to estimate the proportion of a population of voters who will vote for a particular candidate. That proportion is the parameter sought; the estimate is based on a small random sample of voters.
+Or, for example, in radar the goal is to estimate the range of objects (airplanes, boats, etc.) by analyzing the two-way transit timing of received echoes of transmitted pulses. Since the reflected pulses are unavoidably embedded in electrical noise, their measured values are randomly distributed, so that the transit time must be estimated.
+In estimation theory, two approaches are generally considered. 
+The probabilistic approach (described in this article) assumes that the measured data is random with probability distribution dependent on the parameters of interest
+The set-membership approach assumes that the measured data vector belongs to a set which depends on the parameter vector.
+For example, in electrical communication theory, the measurements which contain information regarding the parameters of interest are often associated with a noisy signal. Without randomness, or noise, the problem would be deterministic and estimation would not be needed.
+
+
+== Basics ==
+To build a model, several statistical "ingredients" need to be known. These are needed to ensure the estimator has some mathematical tractability.
+The first is a set of statistical samples taken from a random vector (RV) of size N. Put into a vector,
+
+Secondly, there are the corresponding M parameters
+
+which need to be established with their continuous probability density function (pdf) or its discrete counterpart, the probability mass function (pmf)
+
+It is also possible for the parameters themselves to have a probability distribution (e.g., Bayesian statistics). It is then necessary to define the Bayesian probability
+
+After the model is formed, the goal is to estimate the parameters, commonly denoted , where the "hat" indicates the estimate.
+One common estimator is the minimum mean squared error estimator, which utilizes the error between the estimated parameters and the actual value of the parameters
+
+as the basis for optimality. This error term is then squared and minimized for the MMSE estimator.
+
+
+== Estimators ==
+
+Commonly used estimators and estimation methods, and topics related to them:
+Maximum likelihood estimators
+Bayes estimators
+Method of moments estimators
+Cramér–Rao bound
+Minimum mean squared error (MMSE), also known as Bayes least squared error (BLSE)
+Maximum a posteriori (MAP)
+Minimum variance unbiased estimator (MVUE)
+nonlinear system identification
+Best linear unbiased estimator (BLUE)
+Unbiased estimators — see estimator bias.
+Particle filter
+Markov chain Monte Carlo (MCMC)
+Kalman filter, and its various derivatives
+Wiener filter
+
+
+== Examples ==
+
+
+=== Unknown constant in additive white Gaussian noise ===
+Consider a received discrete signal, , of  independent samples that consists of an unknown constant  with additive white Gaussian noise (AWGN)  with known variance  (i.e., ). Since the variance is known then the only unknown parameter is .
+The model for the signal is then
+
+Two possible (of many) estimators are:
+
+ which is the sample mean
+Both of these estimators have a mean of , which can be shown through taking the expected value of each estimator
+
+and
+
+At this point, these two estimators would appear to perform the same. However, the difference between them becomes apparent when comparing the variances.
+
+and
+
+It would seem that the sample mean is a better estimator since its variance is lower for every N > 1.
+
+
+==== Maximum likelihood ====
+
+Continuing the example using the maximum likelihood estimator, the probability density function (pdf) of the noise for one sample  is
+
+and the probability of  becomes ( can be thought of a )
+
+By independence, the probability of  becomes
+
+Taking the natural logarithm of the pdf
+
+and the maximum likelihood estimator is
+
+Taking the first derivative of the log-likelihood function
+
+and setting it to zero
+
+This results in the maximum likelihood estimator
+
+which is simply the sample mean. From this example, it was found that the sample mean is the maximum likelihood estimator for  samples of a fixed, unknown parameter corrupted by AWGN.
+
+
+==== Cramér–Rao lower bound ====
+
+To find the Cramér–Rao lower bound (CRLB) of the sample mean estimator, it is first necessary to find the Fisher information number
+
+and copying from above
+
+Taking the second derivative
+
+and finding the negative expected value is trivial since it is now a deterministic constant 
+Finally, putting the Fisher information into
+
+results in
+
+Comparing this to the variance of the sample mean (determined previously) shows that the sample mean is equal to the Cramér–Rao lower bound for all values of  and . In other words, the sample mean is the (necessarily unique) efficient estimator, and thus also the minimum variance unbiased estimator (MVUE), in addition to being the maximum likelihood estimator.
+
+
+=== Maximum of a uniform distribution ===
+
+One of the simplest non-trivial examples of estimation is the estimation of the maximum of a uniform distribution. It is used as a hands-on classroom exercise and to illustrate basic principles of estimation theory. Further, in the case of estimation based on a single sample, it demonstrates philosophical issues and possible misunderstandings in the use of maximum likelihood estimators and likelihood functions.
+Given a discrete uniform distribution  with unknown maximum, the UMVU estimator for the maximum is given by
+
+where m is the sample maximum and k is the sample size, sampling without replacement. This problem is commonly known as the German tank problem, due to application of maximum estimation to estimates of German tank production during World War II.
+The formula may be understood intuitively as:
+"The sample maximum plus the average gap between observations in the sample",
+the gap being added to compensate for the negative bias of the sample maximum as an estimator for the population maximum.
+This has a variance of
+
+so a standard deviation of approximately , the (population) average size of a gap between samples; compare  above. This can be seen as a very simple case of maximum spacing estimation.
+The sample maximum is the maximum likelihood estimator for the population maximum, but, as discussed above, it is biased.
+
+
+== Applications ==
+Numerous fields require the use of estimation theory. Some of these fields include (but are by no means limited to):
+Interpretation of scientific experiments
+Signal processing
+Clinical trials
+Opinion polls
+Quality control
+Telecommunications
+Project management
+Software engineering
+Control theory (in particular Adaptive control)
+Network intrusion detection system
+Orbit determination
+Measured data are likely to be subject to noise or uncertainty and it is through statistical probability that optimal solutions are sought to extract as much information from the data as possible.
+
+
+== See also ==
+Category:Estimation theory
+Category:Estimation for specific distributions
+
+
+== Notes ==
+
+
+== References ==
+
+
+== References ==
+Theory of Point Estimation by E.L. Lehmann and G. Casella. (ISBN 0387985026)
+Systems Cost Engineering by Dale Shermon. (ISBN 978-0-566-08861-2)
+Mathematical Statistics and Data Analysis by John Rice. (ISBN 0-534-209343)
+Fundamentals of Statistical Signal Processing: Estimation Theory by Steven M. Kay (ISBN 0-13-345711-7)
+An Introduction to Signal Detection and Estimation by H. Vincent Poor (ISBN 0-387-94173-8)
+Detection, Estimation, and Modulation Theory, Part 1 by Harry L. Van Trees (ISBN 0-471-09517-6; website)
+Optimal State Estimation: Kalman, H-infinity, and Nonlinear Approaches by Dan Simon website
+Ali H. Sayed, Adaptive Filters, Wiley, NJ, 2008, ISBN 978-0-470-25388-5.
+Ali H. Sayed, Fundamentals of Adaptive Filtering, Wiley, NJ, 2003, ISBN 0-471-46126-1.
+Thomas Kailath, Ali H. Sayed, and Babak Hassibi, Linear Estimation, Prentice-Hall, NJ, 2000, ISBN 978-0-13-022464-4.
+Babak Hassibi, Ali H. Sayed, and Thomas Kailath, Indefinite Quadratic Estimation and Control: A Unified Approach to H2 and Hoo Theories, Society for Industrial & Applied Mathematics (SIAM), PA, 1999, ISBN 978-0-89871-411-1.
+V.G.Voinov, M.S.Nikulin, "Unbiased estimators and their applications. Vol.1: Univariate case", Kluwer Academic Publishers, 1993, ISBN 0-7923-2382-3.
+V.G.Voinov, M.S.Nikulin, "Unbiased estimators and their applications. Vol.2: Multivariate case", Kluwer Academic Publishers, 1996, ISBN 0-7923-3939-8.

@@ -1,0 +1,166 @@
+Circuit breaker
+A circuit breaker is an automatically operated electrical switch designed to protect an electrical circuit from damage caused by overload or short circuit. Its basic function is to detect a fault condition and interrupt current flow. Unlike a fuse, which operates once and then must be replaced, a circuit breaker can be reset (either manually or automatically) to resume normal operation. Circuit breakers are made in varying sizes, from small devices that protect an individual household appliance up to large switchgear designed to protect high voltage circuits feeding an entire city.
+
+
+== Origins ==
+An early form of circuit breaker was described by Thomas Edison in an 1879 patent application, although his commercial power distribution system used fuses. Its purpose was to protect lighting circuit wiring from accidental short-circuits and overloads. A modern miniature circuit breaker similar to the ones now in use was patented by Brown, Boveri & Cie in 1924. Hugo Stotz, an engineer who had sold his company to BBC, was credited as the inventor on DRP (Deutsches Reichspatent) 458392. Stotz's invention was the forerunner of the modern thermal-magnetic breaker commonly used in household load centers to this day. Interconnection of multiple generator sources into an electrical grid required development of circuit breakers with increasing voltage ratings and increased ability to safely interrupt the increasing short circuit currents produced by networks. Simple air-break manual switches produced hazardous arcs when interrupting high currents; these gave way to oil-enclosed contacts, and various forms using directed flow of pressurized air, or of pressurized oil, to cool and interrupt the arc. By 1935, the specially constructed circuit breakers used at the Boulder Dam project use eight series breaks and pressurized oil flow to interrupt faults of up to 2,500 MVA, in three cycles of the AC power frequency.
+
+
+== Operation ==
+All circuit breaker systems have common features in their operation. Although details vary substantially depending on the voltage class, current rating and type of the circuit breaker.
+The circuit breaker must detect a fault condition; in low voltage circuit breakers this is usually done within the breaker enclosure. Circuit breakers for large currents or high voltages are usually arranged with protective relay pilot devices to sense a fault condition and to operate the trip opening mechanism. The trip solenoid that releases the latch is usually energized by a separate battery, although some high-voltage circuit breakers are self-contained with current transformers, protective relays and an internal control power source.
+Once a fault is detected,within the circuit breaker must open to interrupt the circuit; some mechanically-stored energy (using something such as springs or compressed air) contained within the breaker is used to separate the contacts, although some of the energy required may be obtained from the fault current itself. Small circuit breakers may be manually operated, larger units have solenoids to trip the mechanism, and electric motors to restore energy to the springs.
+The circuit breaker contacts must carry the load current without excessive heating, and must also withstand the heat of the arc produced when interrupting (opening) the circuit. Contacts are made of copper or copper alloys, silver alloys and other highly conductive materials. Service life of the contacts is limited by the erosion of contact material due to arcing while interrupting the current. Miniature and molded-case circuit breakers are usually discarded when the contacts have worn, but power circuit breakers and high-voltage circuit breakers have replaceable contacts.
+When a current is interrupted, an arc is generated. This arc must be contained, cooled and extinguished in a controlled way, so that the gap between the contacts can again withstand the voltage in the circuit. Different circuit breakers use vacuum, air, insulating gas or oil as the medium the arc forms in. Different techniques are used to extinguish the arc including:
+Lengthening / deflection of the arc
+Intensive cooling (in jet chambers)
+Division into partial arcs
+Zero point quenching (Contacts open at the zero current time crossing of the AC waveform, effectively breaking no load current at the time of opening. The zero crossing occurs at twice the line frequency, i.e. 100 times per second for 50 Hz and 120 times per second for 60 Hz AC)
+Connecting capacitors in parallel with contacts in DC circuits.
+Finally, once the fault condition has been cleared, the contacts must again be closed to restore power to the interrupted circuit.
+
+
+== Arc interruption ==
+Low-voltage MCB (Miniature Circuit Breaker) uses air alone to extinguish the arc. These circuit breakers contain so-called arc chutes, a stack of mutually insulated parallel metal plates which divide and cool the arc. By splitting the arc into smaller arcs the arc is cooled down while the arc voltage is increased and serves as an additional impedance which limits the current through the circuit breaker. The current-carrying parts near the contacts provide easy deflection of the arc into the arc chutes by a magnetic force of a current path, although Magnetic blowout coils or permanent magnets could also deflect the arc into the arc chute (used on circuit breakers for higher ratings). The number of plates in the arc chute is dependent on the short-circuit rating and nominal voltage of the circuit breaker.
+In larger ratings, oil circuit breakers rely upon vaporization of some of the oil to blast a jet of oil through the arc.
+Gas (usually sulfur hexafluoride) circuit breakers sometimes stretch the arc using a magnetic field, and then rely upon the dielectric strength of the sulfur hexafluoride (SF6) to quench the stretched arc.
+Vacuum circuit breakers have minimal arcing (as there is nothing to ionize other than the contact material), so the arc quenches when it is stretched a very small amount (less than 2–3 mm (0.079–0.118 in)). Vacuum circuit breakers are frequently used in modern medium-voltage switchgear to 38,000 volts.
+Air circuit breakers may use compressed air to blow out the arc, or alternatively, the contacts are rapidly swung into a small sealed chamber, the escaping of the displaced air thus blowing out the arc.
+Circuit breakers are usually able to terminate all current very quickly: typically the arc is extinguished between 30 ms and 150 ms after the mechanism has been tripped, depending upon age and construction of the device. The maximum current value and let-through energy determine the quality of the circuit breakers.
+
+
+== Short-circuit current ==
+Circuit breakers are rated both by the normal current that they are expected to carry, and the maximum short-circuit current that they can safely interrupt.
+Under short-circuit conditions, the calculated maximum prospective short circuit current may be many times the normal, rated current of the circuit. When electrical contacts open to interrupt a large current, there is a tendency for an arc to form between the opened contacts, which would allow the current to continue. This condition can create conductive ionized gases and molten or vaporized metal, which can cause further continuation of the arc, or creation of additional short circuits, potentially resulting in the explosion of the circuit breaker and the equipment that it is installed in. Therefore, circuit breakers must incorporate various features to divide and extinguish the arc.
+In air-insulated and miniature breakers an arc chute structure consisting (often) of metal plates or ceramic ridges cools the arc, and magnetic blowout coils deflect the arc into the arc chute. Larger circuit breakers such as those used in electrical power distribution may use vacuum, an inert gas such as sulfur hexafluoride or have contacts immersed in oil to suppress the arc.
+The maximum short-circuit current that a breaker can interrupt is determined by testing. Application of a breaker in a circuit with a prospective short-circuit current higher than the breaker's interrupting capacity rating may result in failure of the breaker to safely interrupt a fault. In a worst-case scenario the breaker may successfully interrupt the fault, only to explode when reset.
+MCB used to protect control circuits or small appliances may not have sufficient interrupting capacity to use at a panel board; these circuit breakers are called "supplemental circuit protectors" to distinguish them from distribution-type circuit breakers.
+
+
+== Standard current ratings ==
+Circuit breakers are manufactured in standard sizes, using a system of preferred numbers to cover a range of ratings. Miniature circuit breakers have a fixed trip setting; changing the operating current value requires changing the whole circuit breaker. Larger circuit breakers can have adjustable trip settings, allowing standardized elements to be applied but with a setting intended to improve protection. For example, a circuit breaker with a 400 ampere "frame size" might have its overcurrent detection set to operate at only 300 amperes, to protect a feeder cable.
+International Standard--- IEC 60898-1 and European Standard EN 60898-1 define the rated current In of a circuit breaker for low voltage distribution applications as the maximum current that the breaker is designed to carry continuously (at an ambient air temperature of 30 °C). The commonly-available preferred values for the rated current are 6 A, 10 A, 13 A, 16 A, 20 A, 25 A, 32 A, 40 A, 50 A, 63 A, 80 A, 100 A, and 125 A (Renard series, slightly modified to include current limit of British BS 1363 sockets). The circuit breaker is labeled with the rated current in amperes, but without the unit symbol "A". Instead, the ampere figure is preceded by a letter "B", "C" or "D", which indicates the instantaneous tripping current — that is, the minimum value of current that causes the circuit breaker to trip without intentional time delay (i.e., in less than 100 ms), expressed in terms of In:
+Circuit breakers are also rated by the maximum fault current that they can interrupt; this allows use of more economical devices on systems unlikely to develop the high short-circuit current found on, for example, a large commercial building distribution system.
+In the United States, Underwriters Laboratories (UL) certifies equipment ratings, called Series Ratings (or “integrated equipment ratings”) for circuit breaker equipment used for buildings. Power circuit breakers and medium- and high-voltage circuit breakers used for industrial or electric power systems are designed and tested to ANSI/IEEE standards in the C37 series.
+
+
+== Types of circuit breakers ==
+
+Many different classifications of circuit breakers can be made, based on their features such as voltage class, construction type, interrupting type, and structural features.
+
+
+=== Low-voltage circuit breakers ===
+Low-voltage (less than 1,000 VAC) types are common in domestic, commercial and industrial application, and include:
+MCB (Miniature Circuit Breaker)—rated current not more than 100 A. Trip characteristics normally not adjustable. Thermal or thermal-magnetic operation. Breakers illustrated above are in this category.
+There are three main types of MCBs: 1. Type B - trips between 3 and 5 times full load current; 2. Type C - trips between 5 and 10 times full load current; 3. Type D - trips between 10 and 20 times full load current. In the UK all MCBs must be selected in accordance with BS 7671.
+MCCB (Molded Case Circuit Breaker)—rated current up to 2,500 A. Thermal or thermal-magnetic operation. Trip current may be adjustable in larger ratings.
+Low-voltage power circuit breakers can be mounted in multi-tiers in low-voltage switchboards or switchgear cabinets.
+The characteristics of low-voltage circuit breakers are given by international standards such as IEC 947. These circuit breakers are often installed in draw-out enclosures that allow removal and interchange without dismantling the switchgear.
+Large low-voltage molded case and power circuit breakers may have electric motor operators so they can open and close under remote control. These may form part of an automatic transfer switch system for standby power.
+Low-voltage circuit breakers are also made for direct-current (DC) applications, such as DC for subway lines. Direct current requires special breakers because the arc is continuous—unlike an AC arc, which tends to go out on each half cycle. A direct current circuit breaker has blow-out coils that generate a magnetic field that rapidly stretches the arc. Small circuit breakers are either installed directly in equipment, or are arranged in a breaker panel.
+
+The DIN rail-mounted thermal-magnetic miniature circuit breaker is the most common style in modern domestic consumer units and commercial electrical distribution boards throughout Europe. The design includes the following components:
+Actuator lever - used to manually trip and reset the circuit breaker. Also indicates the status of the circuit breaker (On or Off/tripped). Most breakers are designed so they can still trip even if the lever is held or locked in the "on" position. This is sometimes referred to as "free trip" or "positive trip" operation.
+Actuator mechanism - forces the contacts together or apart.
+Contacts - Allow current when touching and break the current when moved apart.
+Terminals
+Bimetallic strip - separates contacts in response to smaller, longer-term overcurrents
+Calibration screw - allows the manufacturer to precisely adjust the trip current of the device after assembly.
+Solenoid - separates contacts rapidly in response to high overcurrents
+Arc divider/extinguisher
+
+
+=== Magnetic circuit breakers ===
+Magnetic circuit breakers use a solenoid (electromagnet) whose pulling force increases with the current. Certain designs utilize electromagnetic forces in addition to those of the solenoid. The circuit breaker contacts are held closed by a latch. As the current in the solenoid increases beyond the rating of the circuit breaker, the solenoid's pull releases the latch, which lets the contacts open by spring action. Some magnetic breakers incorporate a hydraulic time delay feature using a viscous fluid. A spring restrains the core until the current exceeds the breaker rating. During an overload, the speed of the solenoid motion is restricted by the fluid. The delay permits brief current surges beyond normal running current for motor starting, energizing equipment, etc. Short circuit currents provide sufficient solenoid force to release the latch regardless of core position thus bypassing the delay feature. Ambient temperature affects the time delay but does not affect the current rating of a magnetic breaker
+
+
+=== Thermal magnetic circuit breakers ===
+Thermal magnetic circuit breakers, which are the type found in most distribution boards, incorporate both techniques with the electromagnet responding instantaneously to large surges in current (short circuits) and the bimetallic strip responding to less extreme but longer-term over-current conditions. The thermal portion of the circuit breaker provides an "inverse time" response feature, which trips the circuit breaker sooner for larger overcurrents but allows smaller overloads to persist for a longer time. On very large over-currents during a short-circuit, the magnetic element trips the circuit breaker with no intentional additional delay.
+
+
+=== Common trip breakers ===
+
+When supplying a branch circuit with more than one live conductor, each live conductor must be protected by a breaker pole. To ensure that all live conductors are interrupted when any pole trips, a "common trip" breaker must be used. These may either contain two or three tripping mechanisms within one case, or for small breakers, may externally tie the poles together via their operating handles. Two-pole common trip breakers are common on 120/240-volt systems where 240 volt loads (including major appliances or further distribution boards) span the two live wires. Three-pole common trip breakers are typically used to supply three-phase electric power to large motors or further distribution boards.
+Two- and four-pole breakers are used when there is a need to disconnect multiple phase AC, or to disconnect the neutral wire to ensure that no current flows through the neutral wire from other loads connected to the same network when workers may touch the wires during maintenance. Separate circuit breakers must never be used for live and neutral, because if the neutral is disconnected while the live conductor stays connected, a dangerous condition arises: the circuit appears de-energized (appliances don't work), but wires remain live and some RCDs may not trip if someone touches the live wire (because some RCDs need power to trip). This is why only common trip breakers must be used when neutral wire switching is needed.
+
+
+=== Medium-voltage circuit breakers ===
+Medium-voltage circuit breakers rated between 1 and 72 kV may be assembled into metal-enclosed switchgear line ups for indoor use, or may be individual components installed outdoors in a substation. Air-break circuit breakers replaced oil-filled units for indoor applications, but are now themselves being replaced by vacuum circuit breakers (up to about 40.5 kV). Like the high voltage circuit breakers described below, these are also operated by current sensing protective relays operated through current transformers. The characteristics of MV breakers are given by international standards such as IEC 62271. Medium-voltage circuit breakers nearly always use separate current sensors and protective relays, instead of relying on built-in thermal or magnetic overcurrent sensors.
+Medium-voltage circuit breakers can be classified by the medium used to extinguish the arc:
+Vacuum circuit breakers—With rated current up to 6,300 A, and higher for generator circuit breakers. These breakers interrupt the current by creating and extinguishing the arc in a vacuum container - aka "bottle". Long life bellows are designed to travel the 6-10 mm the contacts must part. These are generally applied for voltages up to about 40,500 V, which corresponds roughly to the medium-voltage range of power systems. Vacuum circuit breakers tend to have longer life expectancies between overhaul than do air circuit breakers.
+Air circuit breakers—Rated current up to 6,300 A and higher for generator circuit breakers. Trip characteristics are often fully adjustable including configurable trip thresholds and delays. Usually electronically controlled, though some models are microprocessor controlled via an integral electronic trip unit. Often used for main power distribution in large industrial plant, where the breakers are arranged in draw-out enclosures for ease of maintenance.
+SF6 circuit breakers extinguish the arc in a chamber filled with sulfur hexafluoride gas.
+Medium-voltage circuit breakers may be connected into the circuit by bolted connections to bus bars or wires, especially in outdoor switchyards. Medium-voltage circuit breakers in switchgear line-ups are often built with draw-out construction, allowing breaker removal without disturbing power circuit connections, using a motor-operated or hand-cranked mechanism to separate the breaker from its enclosure. Some important manufacturer of VCB from 3.3 kV to 38 kV are ABB, Eaton, Siemens, HHI(Hyundai Heavy Industry), S&C Electric Company, Jyoti and BHEL.
+
+
+=== High-voltage circuit breakers ===
+
+Electrical power transmission networks are protected and controlled by high-voltage breakers. The definition of high voltage varies but in power transmission work is usually thought to be 72.5 kV or higher, according to a recent definition by the International Electrotechnical Commission (IEC). High-voltage breakers are nearly always solenoid-operated, with current sensing protective relays operated through current transformers. In substations the protective relay scheme can be complex, protecting equipment and buses from various types of overload or ground/earth fault.
+High-voltage breakers are broadly classified by the medium used to extinguish the arc.
+Bulk oil
+Minimum oil
+Air blast
+Vacuum
+SF6
+CO2
+Due to environmental and cost concerns over insulating oil spills, most new breakers use SF6 gas to quench the arc.
+Circuit breakers can be classified as live tank, where the enclosure that contains the breaking mechanism is at line potential, or dead tank with the enclosure at earth potential. High-voltage AC circuit breakers are routinely available with ratings up to 765 kV. 1,200 kV breakers were launched by Siemens in November 2011, followed by ABB in April the following year.
+High-voltage circuit breakers used on transmission systems may be arranged to allow a single pole of a three-phase line to trip, instead of tripping all three poles; for some classes of faults this improves the system stability and availability.
+High-voltage direct current circuit breakers are still a field of research as of 2015. Such breakers would be useful to interconnect HVDC transmission systems. 
+
+
+=== Sulfur hexafluoride (SF6) high-voltage circuit breakers ===
+
+A sulfur hexafluoride circuit breaker uses contacts surrounded by sulfur hexafluoride gas to quench the arc. They are most often used for transmission-level voltages and may be incorporated into compact gas-insulated switchgear. In cold climates, supplemental heating or de-rating of the circuit breakers may be required due to liquefaction of the SF6 gas.
+
+
+=== Disconnecting circuit breaker (DCB) ===
+
+The disconnecting circuit breaker (DCB) was introduced in 2000 and is a high-voltage circuit breaker modeled after the SF6-breaker. It presents a technical solution where the disconnecting function is integrated in the breaking chamber, eliminating the need for separate disconnectors. This increases the availability, since open-air disconnecting switch main contacts need maintenance every 2–6 years, while modern circuit breakers have maintenance intervals of 15 years. Implementing a DCB solution also reduces the space requirements within the substation, and increases the reliability, due to the lack of separate disconnectors.
+In order to further reduce the required space of substation, as well as simplifying the design and engineering of the substation, a fiber optic current sensor (FOCS) can be integrated with the DCB. A 420 kV DCB with integrated FOCS can reduce a substation’s footprint with over 50 % compared to a conventional solution of live tank breakers with disconnectors and current transformers, due to reduced material and no additional insulation medium.
+
+
+=== Carbon dioxide (CO2) high-voltage circuit breakers ===
+In 2012 ABB presented a 75 kV high-voltage breaker that uses carbon dioxide as the medium to extinguish the arc. The carbon dioxide breaker works on the same principles as an SF6 breaker and can also be produced as a disconnecting circuit breaker. By switching from SF6 to CO2 it is possible to reduce the CO2 emissions by 10 tons during the product’s life cycle.
+
+
+== Other breakers ==
+
+The following types are described in separate articles.
+Breakers for protections against earth faults too small to trip an over-current device:
+Residual-current device (RCD, formerly known as a residual current circuit breaker) — detects current imbalance, but does not provide over-current protection.
+Residual current breaker with over-current protection (RCBO) — combines the functions of an RCD and an MCB in one package. In the United States and Canada, panel-mounted devices that combine ground (earth) fault detection and over-current protection are called Ground Fault Interrupter (GFI) breakers; a wall mounted outlet device or separately enclosed plug-in device providing ground fault detection and interruption only (no overload protection) is called a Ground Fault Circuit Interrupter (GFCI).
+Earth leakage circuit breaker (ELCB)—This detects earth current directly rather than detecting imbalance. They are no longer seen in new installations for various reasons.
+
+Recloser—A type of circuit breaker that closes automatically after a delay. These are used on overhead electric power distribution systems, to prevent short duration faults from causing sustained outages.
+Polyswitch (polyfuse)—A small device commonly described as an automatically resetting fuse rather than a circuit breaker.
+
+
+== See also ==
+
+Arc-fault circuit interrupter
+Circuit breaker panel
+Circuit Total Limitation (CTL)
+Earthing system
+Hybrid switchgear modules
+Insulation monitoring device
+Network protector
+Power system protection
+Remote racking system
+Sulfur hexafluoride circuit breaker
+Motor control center (MCC)
+Power distribution center (PDC)
+
+
+== References ==
+
+General
+BS EN 60898-1. Electrical accessories — Circuit breakers for over-current protection for household and similar installations. British Standards Institution, 2003.
+
+
+== External links ==
+How Circuit Breakers Work.
+L. W. Brittian: Electrical Circuit Breakers
+http://hyperphysics.phy-astr.gsu.edu/hbase/electric/bregnd.html
+The Reality of Counterfeit Circuit Breakers.
+What are circuit breakers?

@@ -1,0 +1,39 @@
+John Renshaw Carson
+John Renshaw Carson (June 28, 1886 – October 31, 1940) was a noted transmission theorist for early communications systems. He invented single-sideband modulation.
+
+
+== Biography ==
+
+Carson was born in Pittsburgh, Pennsylvania, graduated from Princeton University in 1907 with a Bachelor of Science degree, and attended Massachusetts Institute of Technology 1907–1908 before returning to Princeton to receive his electrical engineering degree in 1909 and a Master of Science degree in 1912. From 1912 to 1914 Carson was an instructor in Electrical Engineering and Physics at Princeton, but in 1913 was offered a position at American Telephone & Telegraph (AT&T), and in 1914 left the university.
+At AT&T, Carson was involved in early radio telephone experiments. In 1915 he invented single-sideband modulation to transmit multiple telephone calls simultaneously on a single electrical circuit, and was responsible for installing the first such system between Pittsburgh and Baltimore. In 1922 he published a mathematical treatment of frequency modulation (FM), which introduced the Carson bandwidth rule. In his 1922 paper, Carson presented a negative opinion of narrowband FM, which occurs when the maximum frequency swing is made narrower than the audio bandwidth. Later, Edwin Armstrong managed to demonstrate that FM can be advantageous if the frequency swing is significantly wider than the audio bandwidth. From 1917 to 1925 Carson analyzed the effects of filters on amplitude modulation via operational calculus, thus allowing telephone system designers to predict crosstalk in multiple calls over a single pair of wires. He published a series of papers on this subject in the Bell System Technical Journal, culminating in his 1926 book Electrical Circuit Theory and Operational Calculus.
+From 1925 to 1940 Carson worked for Bell Telephone Laboratories as a mathematician and electrical engineer. Notable work during this era included his mathematical analysis of George C. Southworth's 1932 waveguide experiments.
+Carson received the 1924 IRE Morris N. Liebmann Memorial Award "in recognition of his valuable contributions to alternating current circuit theory and, in particular, to his investigations of filter systems and of single side band telephony." He received an honorary Doctor of Science degree from Brooklyn Polytechnic Institute in 1937, and the 1939 Elliott Cresson Medal from the Franklin Institute. His undergraduate letters are archived at Princeton University.
+
+
+== Patent ==
+U.S. Patent 1,449,382 : John Carson/AT&T: "Method and Means for Signaling with High Frequency Waves" filed on December 1, 1915; granted on March 27, 1923
+
+
+== Selected works ==
+1921: "Wave Propagation over Parallel Wires: The Proximity effect", Philosophical Magazine, volume IXLI, pages 607–633.
+1922: "Notes on the Theory of Modulation", Proceedings of the Institute of Radio Engineers, volume 10, issue 1, pages 57–64.
+1924: A Generalization of Reciprocal Theorem, Bell System Technical Journal 3: 393–399.
+1925: Selective Circuits and Static Interference, Bell System Technical Journal, 4:265.
+1926: Wave Propagation in Overhead Wires with Ground Return, Bell System Technical Journal, 5: 539.
+1926: Electrical Circuit Theory and Operational Calculus, New York : McGraw–Hill.
+1926: The Heaviside Operational Calculus, Bulletin of the American Mathematical Society 32(1):43–68, link from Project Euclid.
+1936: (with S. P. Mead and S. A. Schelkunoff) Hyper-Frequency Waveguides: Mathematical Theory, Bell System Technical Journal 15: 310–333.
+
+
+== See also ==
+Laplace–Carson transform
+
+
+== References ==
+
+
+== Sources ==
+John & Robb Carson Letters in Mudd Manuscript Library of Princeton University Library Archives.
+Brittain, J.E., "John R. Carson and the conservation of radio spectrum", Proceedings of the IEEE, volume 84, issue 6, June 1996, pages 909–910.
+Mario Lucertini, Ana Millán Gasca, F. Nicolò, Technological Concepts and Mathematical Models in the Evolution of Modern Engineering Systems, Birkhäuser, 2004, pages 114–117. ISBN 3-7643-6940-X.
+Julie K. Petersen, Fiber Optics Illustrated Dictionary, CRC Press, 2003, page 264. ISBN 0-8493-1349-X.

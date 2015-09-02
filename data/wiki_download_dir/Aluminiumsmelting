@@ -1,0 +1,56 @@
+Aluminium smelting
+Aluminium smelting is the process of extracting aluminium from its oxide, alumina, generally by the Hall-Héroult process. Alumina is extracted from the ore bauxite by means of the Bayer process at an alumina refinery.
+This is an electrolytic process, so an aluminium smelter uses prodigious amounts of electricity; they tend to be located very close to large power stations, often hydro-electric ones, and near ports since almost all of them use imported alumina. A large amount of carbon is also used in this process, resulting in significant amounts of greenhouse gas emissions.
+
+
+== Layout of an aluminium smelter ==
+The Hall-Héroult electrolysis process is the major production route for primary aluminium. An electrolysis cell is made of a steel shell with a series of insulating linings of refractory materials. The cell consists of a brick-lined outer steel shell as a container and support. Inside the shell, cathode blocks are cemented together by ramming paste. The top lining is in contact with the molten metal and acts as the cathode. The molten electrolyte is maintained at high temperature inside the cell. The prebaked anode is also made of carbon in the form of large sintered blocks suspended in the electrolyte. A single Soderberg electrode or a number of prebaked carbon blocks are used as anode, while the principal formulation and the fundamental reactions occurring on their surface are the same.
+An aluminium smelter consists of a large number of cell (pots) in which the electrolysis takes place. A typical smelter contains anywhere from 300 to 720 pots, each of which produces about a ton of aluminium a day, though the largest proposed smelters are up to five times that capacity. Smelting is run as a batch process, with the aluminium metal deposited at the bottom of the pots and periodically siphoned off. Power must be constantly available, since the pots have to be repaired at significant cost if the liquid metal solidifies.
+
+
+== Principle ==
+Alumina is dissolved in molten cryolite, typically at 960 °C, according to the following simplified reactions:
+Al2O3+3/2C=2Al+3/2CO2 : ΔG°=264460+3.75TlogT-92.52T cal
+Al2O3+3C=2Al+3CO : ΔG°=325660+3.75TlogT-155.07T cal
+Although the formation of carbon monoxide (CO) is thermodynamically favoured at this temperature, the presence of considerable overvoltage (difference between reversible and polarization potentials) changes the thermodynamic equilibrium and a mixture of CO and CO2 is produced. Carbon anodes are thus consumed during electrolysis, resulting in high energy consumption and greenhouse gas emissions in smelting plants.
+The Boudouard reaction may also take place as a side reaction:
+CO2 + C → 2CO : ΔG° = 40800-41.7 T cal
+CO2 reacts with carbon dust as well as the anode to form carbon monoxide. Formation of CO consumes twice as much carbon as required for CO2 formation. Carbon consumption shows that the primary anode product is CO2. By increasing the current density up to 1 A/cm2, the proportion of CO2 increases and carbon consumption decreases.
+
+
+== Cell components ==
+Electrolyte: The electrolyte is a molten bath of cryolite (Na3AlF6) and dissolved alumina. Cryolite is a good solvent for alumina with low melting point, satisfactory viscosity, low vapour pressure. Its density is also lower than that of liquid aluminium (2 vs 2.3 g/cm3), which allows natural separation of the product from the salt at the bottom of the cell. The cryolite ratio (NaF/AlF3) in pure cryolite is 3, with a melting temperature of 1010 °C, and it forms a eutectic with 11% alumina at 960 °C. In industrial cells the cryolite ratio is kept between 2 and 3 to decrease its melting temperature to 940-980 °C.
+Cathode: Carbon cathodes are essentially made of anthracite, graphite and petroleum coke, which are calcined at around 1200 °C and crushed and sieved prior to being used in cathode manufacturing. Aggregates are mixed with coal-tar pitch, formed, and baked. Carbon purity is not as stringent as for anode, because metal contamination from cathode is not significant. Carbon cathode must have adequate strength, good electrical conductivity and high resistance to wear and sodium penetration. Anthracite cathodes have higher wear resistance  and slower creep with lower amplitude [15] than graphitic and graphitized petroleum coke cathodes. Instead, dense cathodes with more graphitic order have higher electrical conductivity, lower energy consumption [14], and lower swelling due to sodium penetration. Swelling results in early and non-uniform deterioration of cathode blocks.
+Anode: Carbon anodes have a specific situation in aluminium smelting and depending on the type of anode, aluminium smelting is divided in two different technologies; “Soderberg” and “prebaked” anodes. Anodes are also made of petroleum coke, mixed with coal-tar-pitch, followed by forming and baking at elevated temperatures. The quality of anode affects technological, economical and environmental aspects of aluminium production. Energy efficiency is related to the nature of anode materials, as well as the porosity of baked anodes. Around 10% of cell power is consumed to overcome the electrical resistance of prebaked anode (50-60 μΩm). Carbon is consumed more than theoretical value due to a low current efficiency and non-electrolytic consumption. Inhomogeneous anode quality due to the variation in raw materials and production parameters also affects its performance and the cell stability.
+Prebaked anodes are divided into graphitized and coke types. For manufacturing of the graphitized anodes, anthracite and petroleum coke are calcined and classified. They are then mixed with coal-tar pitch and pressed. The pressed green anode is then baked at 1200 °C and graphitized. Coke anodes are made of calcined petroleum coke, recycled anode butts, and coal-tar pitch (binder). The anodes are manufactured by mixing aggregates with coal tar pitch to form a paste with a doughy consistency. This material is most often vibro-compacted but in some plants pressed. The green anode is then sintered at 1100-1200 °C for 300–400 hours, without graphitization, to increase its strength through decomposition and carbonization of the binder. Higher baking temperatures increase the mechanical properties and thermal conductivity, and decrease the air and CO2 reactivity. The specific electrical resistance of the coke-type anodes is higher than that of the graphitized ones, but they have higher compressive strength and lower porosity.
+Soderberg electrodes (in-situ baking), used for the first time in 1923 in Norway, are composed of a steel shell and a carbonaceous mass which is baked by the heat being escaped from the electrolysis cell. Soderberg Carbon-based materials such as coke and anthracite are crushed, heat-treated, and classified. These aggregates are mixed with pitch or oil as binder, briquetted and loaded into the shell. Temperature increases bottom to the top of the column and in-situ baking takes place as the anode is lowered into the bath. Significant amount of hydrocarbons are emitted during baking which is a disadvantage of this type of electrodes. Most of the modern smelters use prebaked anodes since the process control is easier and a slightly better energy efficiency is achieved, compared to Soderberg anodes.
+
+
+== Environmental issues of aluminium smelters ==
+The process produces a quantity of fluoride waste: perfluorocarbons and hydrogen fluoride as gases, and sodium and aluminium fluorides and unused cryolite as particulates. This can be as small as 0.5 kg per ton of aluminium in the best plants in 2007, up to 4 kg per ton of aluminium in older designs in 1974. Unless carefully controlled, hydrogen fluorides tend to be very toxic to vegetation around the plants. The perfluorocarbons gases are strong greenhouse gases with a long lifetime.
+The Soderburgh process which bakes the Anthracite/pitch mix as the anode is consumed, produces significant emissions of polycyclic aromatic hydrocarbons as the pitch is consumed in the smelter.
+The linings of the pots end up contaminated with cyanide-forming materials; Alcoa has a process for converting spent linings into aluminium fluoride for reuse and synthetic sand usable for building purposes and inert waste.
+
+
+== Example aluminium smelters ==
+Alcan Lynemouth Aluminium Smelter, powered by the coal-fired Lynemouth Power Station in North East England
+Anglesey Aluminium, powered by Wylfa nuclear power station in north-west Wales (shut down as of 30/09/09)
+The Valco aluminium smelter in Ghana, powered by the Akosombo Hydroelectric Project
+Fjarðaál in Iceland, to be powered by the Kárahnjúkar Hydropower Plant
+Jharsuguda in Orissa, India, to be powered by its own 1,215 megawatts (1,629,000 hp) coal-fired power station.
+Alcoa's Point Henry smelter near Geelong, Australia, powered by its own brown coal fueled power station and grid electricity.
+Aluminerie Alouette in Sept-Îles, Québec.
+Alba Smelter in Bahrain, powered by its own four power stations with a total generating capacity of 2,265 megawatts (3,037,000 hp).
+Egypt Aluminium in Egypt, powered by the high dam.
+Rio Tinto Alcan Kitimat Smelter, powered by the Kemano Hydro Electric Power station
+SMD (Structural & Mechanical division) of AMA are the biggest producers of aluminium smelters in Middle east and have successfully exported the smelters to Rio Tinto (Kitimat), Maaden, EMAL.
+
+
+== See also ==
+List of aluminium smelters
+Lead smelter
+Zinc smelting
+Solid oxide Hall–Héroult process
+
+
+== References ==

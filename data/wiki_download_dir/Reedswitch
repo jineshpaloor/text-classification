@@ -1,0 +1,50 @@
+Reed switch
+The reed switch is an electrical switch operated by an applied magnetic field. It was invented at Bell Telephone Laboratories in 1936 by W. B. Ellwood. It consists of a pair of contacts on ferrous metal reeds in a hermetically sealed glass envelope. The contacts may be normally open, closing when a magnetic field is present, or normally closed and opening when a magnetic field is applied. The switch may be actuated by a coil, making a reed relay, or by bringing a magnet near to the switch. Once the magnet is pulled away from the switch, the reed switch will go back to its original position.
+An example of a reed switch's application is to detect the opening of a door, when used as a proximity switch for a burglar alarm.
+
+
+== Description ==
+The reed switch contains a pair (or more) of magnetizable, flexible, metal reeds whose end portions are separated by a small gap when the switch is open. The reeds are hermetically sealed in opposite ends of a tubular glass envelope.
+
+A magnetic field (from an electromagnet or a permanent magnet) will cause the reeds to come together, thus completing an electrical circuit. The stiffness of the reeds causes them to separate, and open the circuit, when the magnetic field ceases. Another configuration contains a non-ferrous normally-closed contact that opens when the ferrous normally-open contact closes. Good electrical contact is assured by plating a thin layer of non-ferrous precious metal over the flat contact portions of the reeds; low-resistivity silver is more suitable than corrosion-resistant gold in the sealed envelope. There are also versions of reed switches with mercury "wetted" contacts. Such switches must be mounted in a particular orientation otherwise drops of mercury may bridge the contacts even when not activated.
+Since the contacts of the reed switch are sealed away from the atmosphere, they are protected against atmospheric corrosion. The hermetic sealing of a reed switch make them suitable for use in explosive atmospheres where tiny sparks from conventional switches would constitute a hazard.
+One important quality of the switch is its sensitivity, the amount of magnetic field necessary to actuate it. Sensitivity is measured in units of Ampere-turns, corresponding to the current in a coil multiplied by the number of turns. Typical pull-in sensitivities for commercial devices are in the 10 to 60 AT range. The lower the AT, the more sensitive the reed switch. Also, smaller reed switches, which have smaller parts, are more sensitive to magnetic fields, so the smaller the reed switch's glass envelope is, the more sensitive it is.
+In production, a metal reed is inserted in each end of a glass tube and the end of the tube heated so that it seals around a shank portion on the reed. Infrared-absorbing glass is used, so an infrared heat source can concentrate the heat in the small sealing zone of the glass tube. The thermal coefficient of expansion of the glass material and metal parts must be similar to prevent breaking the glass-to-metal seal. The glass used must have a high electrical resistance and must not contain volatile components such as lead oxide and fluorides. The leads of the switch must be handled carefully to prevent breaking the glass envelope.
+
+
+== Uses ==
+
+
+=== Reed relays ===
+
+One or more reed switches inside a coil is a reed relay. Reed relays are used when operating currents are relatively low, and offer high operating speed, good performance with very small currents which are not reliably switched by conventional contacts, high reliability and long life. Millions of reed relays were used in telephone exchanges in the 1970s and 80s. In particular they were used for switching in the British TXE family of telephone exchanges. The inert atmosphere around the reed contacts ensures that oxidation will not affect the contact resistance. Mercury-wetted reed relays are sometimes used, especially in high-speed counting circuits. Reliability is compromised by contacts sticking closed either from residual magnetism or welding.
+
+
+=== Magnetic sensors ===
+In addition to their use in reed relays, reed switches are widely used for electrical circuit control, particularly in the communications field.
+Reed switches actuated by magnets are commonly used in mechanical systems as proximity sensors. Examples are door and window sensors in burglar alarm systems and tamperproofing methods (however they can be disabled by a strong, external magnetic field). Reed switches are used in modern laptops to put the laptop on sleep/hibernation mode when the lid is closed. Speed sensors on bicycle wheels and car gears use a reed switch to actuate briefly each time a magnet on the wheel passes the sensor. Reed switches were formerly used in the keyboards for computer terminals, where each key had a magnet and a reed switch actuated by depressing the key; cheaper switches are now used. Electric and electronic pedal keyboards used by pipe organ and Hammond organ players often use reed switches, where the glass enclosure of the contacts protects them from dirt, dust, and other particles. They may also be used to control diving equipment such as flashlights or camera, which must be sealed to keep pressurized water out.
+At one time brushless DC electric motors used reed switches to sense the rotor's position relative to the field poles. This allows switching transistors to act as a commutator, but without the contact problems, wear and electrical noise of a traditional DC commutator. The motor design could also be 'inverted', placing permanent magnets onto the rotor and switching the field through the external, fixed coils. This avoided the need for any rubbing contact to provide power to the rotor. Such motors were used in low-power long-service-life items such as computer cooling fans and disk drives. As cheap Hall effect sensors became available, they replaced the reed switches and gave longer service lifetimes.
+Reed switches may be selected for a particular application when a solid-state Hall device is not suitable. Reed switches can be used to greatly reduce leakage current when compared with solid state devices; this may be useful, for example, in medical devices requiring protection of a patient from tiny leakage currents. The reed is hermetically sealed and can therefore operate in almost any environment, such as where flammable gas is present or where corrosion would affect open switch contacts. A reed switch has very low resistance when closed, typically as low as 50 milliohms, whereas the Hall Effect can be in the hundreds of ohms.
+The reed switch principle can be applied to directly switch a variety of loads ranging from nanovolts to kilovolts, femtoamperes to amperes, and DC to radio frequency. The Hall effect devices have very limited ranges of outputs and generally do not control a final device such as a lamp, solenoid, or motor. Reed sensors can withstand higher voltage than typical Hall devices.
+
+
+== References ==
+
+
+== Further reading ==
+Books
+"Electric Relays: Principles and Applications", Vladimir Gurevich, CRC Press, London - New York, 2005, 671 p.
+"Electronic Devices on Discrete Components for Industrial and Power Applications", Vladimir Gurevich, CRC Press, London - New York, 2008, 418 p.
+Journals
+Miedzinski, B., and M. Kristiansen, Investigations of Reed Switch Dynamics and Discharge Phenomena When Switching Intermediate and Heavy Loads. IEEE Transactions on Components, Hybrids, and Manufacturing Technology, Jun 1982, Volume 5, Issue 2 pg 231- 237. ISSN 0148-6411
+Hinohara, K., T. Kobayashi, and C. Kawakita, Magnetic and mechanical design of ultraminiature reed switches. IEEE Transactions on Components, Hybrids, and Manufacturing Technology, Apr 1992, Volume 15, Issue 2, pg 172-176. ISSN 0148-6411 DOI 10.1109/33.142891
+Pinnel, M., Magnetic materials for dry reed contacts. IEEE Transactions on Magnetics, Nov 1976, Volume 12, Issue 6, pg 789- 794. ISSN 0018-9464
+Demirdjioghlou, S. and M. Copeland, Force measurements on magnetic reeds, IEEE Transactions on Magnetics, Jun 1968, Volume 4, Issue 2, pg 179- 183. ISSN 0018-9464
+
+
+== External links ==
+Reed Switch FAQ
+Glossary of Reed Switch and Magnet Related Terms
+Advanced information about Reed Switches
+Reed Switch Information
+Glossary of Commonly Used Terms Relating to Reed Switch Products

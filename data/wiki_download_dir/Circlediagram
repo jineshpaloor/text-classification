@@ -1,0 +1,20 @@
+Circle diagram
+First conceived by A. Heyland in 1894 and B.A. Behrend in 1895, the circle diagram is the graphical representation of the performance of the electrical machine drawn in terms of the locus of the machine's input voltage and current. The circle diagram can be drawn for alternators, synchronous motors, transformers, induction motors. The Heyland diagram is an approximate representation of circle diagram applied to induction motors, which assumes that stator input voltage, rotor resistance and rotor reactance are constant and stator resistance and core loss are zero. Another common circle diagram form is as described in the two constant air-gap induction motor images shown here, where,
+Rs, Xs: Stator resistance and leakage reactance
+Rr', Xr', s: Rotor resistance and leakage reactance referred to the stator and rotor slip
+Rc, Xm, : Core and mechanical losses, magnetization reactance
+Vs, Impressed stator voltage
+I0 = OO', IBL = OA, I1 =OV: No load current, blocked rotor current, operating current
+Φ0, ΦBL : No load angle, blocked rotor angle
+Pmax, sPmax, PFmax, Tmax, sTmax: Maximum output power & related slip, maximum power factor, maximum torque & related slip
+η1, s1, PF1, Φ1,: Efficiency, slip, power factor, PF angle at operating current
+AB: Represents rotor power input, which divided by synchronous speed equals starting torque.
+The circle diagram is drawn using the data obtained from no load and either short circuit or, in case of machines, blocked rotor tests by fitting a half-circle in points O' and A.
+Beyond the error inherent in the constant air-gap assumption, the circle diagram introduces errors due to rotor reactance and rotor resistance variations caused by magnetic saturation and rotor frequency over the range from no-load to operating speed.
+
+
+== See also ==
+Steinmetz equivalent circuit
+
+
+== References ==

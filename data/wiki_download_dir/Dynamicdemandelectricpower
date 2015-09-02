@@ -1,0 +1,64 @@
+Dynamic demand (electric power)
+Dynamic Demand is the name of a semi-passive technology for adjusting load demands on an electrical power grid. (It is also the name of an independent not-for-profit organization in the UK supported by a charitable grant from the Esmée Fairbairn Foundation dedicated to promoting this technology.) The concept is that by monitoring the frequency of the power grid, as well as their own control parameters, individual, intermittent loads would switch on or off at optimal moments to balance the overall system load with generation, reducing critical power mismatches. As this switching would only advance or delay the appliance operating cycle by a few seconds, it would be unnoticeable to the end user. This is the foundation of dynamic demand control. In the United States, in 1982, a (now-lapsed) patent for this idea was issued to power systems engineer Fred Schweppe. Other patents have been issued based on this idea.    
+
+
+== The need for spinning reserve ==
+The power utilities are able to predict to a reasonable accuracy (generally to within one or two percent) the demand pattern throughout any particular day. This means that the free market in electricity is able to schedule just enough base load in advance. Any remaining imbalance would then be due either to inaccuracies in the prediction, or unscheduled changes in supply (such as a power station fault) and/or demand. Such imbalances are removed by requesting generators to operate in so called frequency response mode (also called frequency control mode), altering their output continuously to keep the frequency near the required value.
+The grid frequency is a system-wide indicator of overall power imbalance. For example, it will drop if there is too much demand because generators will start to slow down slightly. A generator in frequency-response mode will, under nominal conditions, run at reduced output in order to maintain a buffer of spare capacity. It will then continually alter its output on a second-to-second basis to the needs of the grid with droop speed control.
+This spinning reserve is a significant expense to the power utilities as often fuel must be burned or potential power sales lost to maintain it. The kind of generation used for fast response is usually fossil fuel powered which produces emissions of between 0.48 and 1.3 tonnes of CO2 equivalent for every megawatt hour (MWh) generated. Thus a significant environmental burden, in the form of increased greenhouse gas emissions, is associated with this imbalance.
+
+
+== Local load control ==
+In principle, any appliance that operates to a duty cycle (such as industrial or domestic air conditioners, water heaters, heat pumps and refrigeration) could be used to provide a constant and reliable grid balancing service by timing their duty cycles in response to system load.
+Because it is possible to measure grid frequency from any power outlet on the grid, it is possible to design controllers for electrical appliances that detect any frequency imbalance in real time. Dynamic-demand enabled appliances would react to this same signal. When the frequency decreases they would be more likely to switch off, reducing the load on the grid and helping to restore the balance. When the frequency increases past the standard, they would be more likely to switch on, using up the excess power. Obviously, the controller must also ensure that at no point does the appliance stray out of its acceptable operating range. As line frequency is directly related to the speed of rotation of generators on the system, millions of such devices acting together would act like a huge, fast-reacting peaking power plant.
+
+
+== Ancillary services ==
+The dynamic controller could also provide other ancillary services, such as aiding blackstart recovery—the ability of a power grid to be brought back to service after a power outage – if programmed with that function. Generally blackstarts are made more difficult because of the large number of reactive loads attempting to draw power simultaneously at start up when voltages are low. This causes huge overloads that trip local breakers delaying full system recovery. The dynamic controller could have these loads "wait their turn", as it were, until full power had been restored.
+Another vital balancing service is ‘fast reserve’ which is the use of standby plant to replace possible lost generation (e.g. due to a failed power generator or lost power line). By shedding load quickly while the running generators spin up, then switching back in to bring the frequency back to standard, dynamic controllers could spare the high cost of fast reserve generators. Also the fast response speed of this method would avoid possible brownouts occurring.
+The technology could also help facilitate greater use of generation from variable sources, like wind power. Demand-side techniques could be an efficient and cost-effective way to help integrate this resource onto the grid. In particular it would allow these sources to work in conjunction with virtual power reserves like municipal water towers to provide a reasonably predictable dispatchable capacity.
+
+
+== Implementation issues ==
+Dynamic demand devices have the potential to save considerable amounts of energy by the services they provide. But before dynamic demand control can be widely incorporated regulation must be put in place to mandate installation on at least new appliances or an effective market mechanism must be created to reward installation of the technology fairly. One method contemplated is to enable the electricity meter that measures the electricity consumption also measure the grid frequency, and switch to a higher tariff if the frequency drops below a certain level. The monthly electricity bill will then say that so many hours (and so many kilowatt hours) were on the Regular tariff and a few hours on the Short Supply tariff. Those consumers without smart demand management have to pay the extra cost, but those who install smart technologies that adapt to the short supply periods will save money.
+On 1 March 2011, RLtec launched its Dynamic Demand ™ frequency response service in hot water and HVAC load devices distributed across Sainsbury supermarket sites. This MW scale virtual power plant service provides commercial frequency regulating response to National Grid in the UK. The company is now called Open Energi.
+
+
+== Frequency service and reserve service ==
+The national grid in the UK already is a massive user of this technology at an industrial scale - up to 2 GW of load can be lost instantaneously by frequency sensitive relays switching off steelworks etc., which is matched over a 20-minute cycle by up to 2 GW of quite small emergency diesel generators. For a complete description of this complex system see for example "Emergency Diesel Standby Generator’s Potential Contribution to Dealing With Renewable Energy Sources Intermittency And Variability" - a talk by David Andrews of Wessex Water who works closely with the UK National Grid to provide this service, given at the Open University Seminar "Coping with Variability - Integrating Renewables into the Electricity System" 24 January 2006. [1]
+Up to 5 GW of such diesel generation is used in France for similar purposes, but these technologies seem to be relatively unknown [2]. There is no reason they should not be massively increased in scope [3] to cope with even the intermittence introduced by wind power.
+
+
+== UK government investigation ==
+In August 2007, the UK government published a report outlining what potential it sees for dynamic demand technology.[4] The report stops short of recommending the government encourage its introduction. It lists a number of technical and economic barriers to its introduction and recommends these be investigated before the government encourage the use of dynamic demand. Dynamic demand is one element of a wider government investigation into technologies that can cut greenhouse gas emissions.
+However in 2009 it was announced that domestic refrigerators are now being sold into the UK incorporating a dynamic load control system [5]
+
+
+== See also ==
+
+Advanced Distribution Automation
+Distribution management system
+Electricity market
+Electricity retailing
+Energy demand management
+Flexible AC transmission system
+Grid friendly
+GridLAB-D
+List of energy storage projects
+Energy Reduction Assets
+
+
+== References ==
+^ US-Patent No. 4,317,049: Frequency adaptive, power-energy re-scheduler
+^ US Patent No. 7,010,363: Electrical appliance energy consumption control methods and electrical energy consumption systems, Mar 2006.
+^ US Patent No. 7,149,605: "Electrical power distribution control methods, electrical energy demand monitoring methods, and power management devices," Dec 2006.
+^ US Patent No. 7,420,293: "Electrical appliance energy consumption control methods and electrical energy consumption systems," Sep 2008.
+^ US Patent No. 8,073,573 B2; "Electric Power Distribution Control Methods, Electrical Energy Demand Monitoring Methods, and Power Management Devices," Dec 2011.
+^ DJ Hammerstrom et al., "Pacific Northwest GridWise™ Testbed Demonstration Projects: Part I. Olympic Peninsula Project," PNNL-17167, October 2007.
+
+
+== External links ==
+Dynamic Demand U.K.
+Open Energi
+A Note On the Potential Value of "Dynamic Demand" Control (in the UK/EU)
+"Frequency Control by Demand Management". National Grid. Retrieved 2010-11-22.

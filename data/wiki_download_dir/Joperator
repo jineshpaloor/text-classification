@@ -1,0 +1,25 @@
+J operator
+In computer science, Peter Landin's J operator is a programming construct that post-composes a lambda expression with the continuation to the current lambda-context. The resulting “function” is first-class and can be passed on to subsequent functions, where if applied it will return its result to the continuation of the function in which it was created.
+
+
+== Generalized first-class return ==
+One can define the return statement as a first-class object by taking the J of the identity function. It can then be passed on to other functions and applied there to return from the function in which the “return” was created.
+
+
+== See also ==
+call-with-current-continuation
+
+
+== References ==
+By Landin
+Landin, P. J. (January 1964). "The Mechanical Evaluation of Expressions". Comput. J. 6 (4): 308–320. doi:10.1093/comjnl/6.4.308. 
+Landin, P. J. (February 1965). "Correspondence between ALGOL 60 and Church's Lambda-notation: Part I". Comm. ACM 8 (2): 89–101. doi:10.1145/363744.363749. 
+Landin, P. J. (March 1965). "A correspondence between ALGOL 60 and Church's Lambda-notations: Part II". Comm. ACM 8 (3): 158–167. doi:10.1145/363791.363804. 
+Landin, P.J., “A formal description of Algol 60.” Presented at IFIP Working Conf., Baden, Sept. 1964.
+Landin, P.J., “Programming without lmperatives—an Example,” UNIVAC S.P. Research Report (March, 1965)
+Landin, P.J., “Getting Rid of Labels,” UNIVAC S.P. Research Report (July, 1965)
+Landin, P.J., “An Analysis of Assignment in Programming Languages,” UNIVAC S.P. Research Report (September, 1965)
+By others
+Thielecke, H. (December 1998). "An Introduction to Landin's "A Generalization of Jumps and Labels"" (PDF). Higher-Order and Symbolic Computation 11 (2): 117–123. doi:10.1023/A:1010060315625.  
+Danvy, O.; Millikin, K. (November 2008). Tennent, Robert, ed. "A Rational Deconstruction of Landin's SECD Machine with the J Operator". Logical Methods in Computer Science 4 (4:12): 1–67. doi:10.2168/LMCS-4(4:12)2008.  
+Danvy, O.; Shan, C. C.; Zerny, I. (2009). "J Is for JavaScript: A Direct-Style Correspondence between Algol-Like Languages and JavaScript Using First-Class Continuations". Domain-Specific Languages (PDF). LNCS 5658. pp. 1–19. doi:10.1007/978-3-642-03034-5_1. ISBN 978-3-642-03033-8.

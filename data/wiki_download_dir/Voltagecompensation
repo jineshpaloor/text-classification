@@ -1,0 +1,11 @@
+Voltage compensation
+In a power system, voltage at various buses tends to increase or decrease during its daily operation. To ensure constant voltage to consumers, various techniques are utilized.
+When the voltage is below the required level, reactive power produced by inductance needs to be offset by capacitance.
+Synchronous condensers—can be used to generate reactive power, when they are operated as a motor.
+Shunt Capacitance—Capacitor banks can be connected in parallel to the transmission lines.
+Series Capacitance—Capacitors connected in series, especially for long lines can be used to raise the voltage.
+Tap Changing Transformers—Transformer tappings can be automatically changed, to alter the voltage accordingly.
+When the voltage is above the required level, reactive power produced by capacitance needs to be offset by inductance.
+Shunt Reactors—Inductor banks can be connected in parallel to the transmission lines also known as reactors.
+Static VAR compensators—
+Tap Changing Transformers—Transformer tappings can be automatically changed, to alter the voltage accordingly.

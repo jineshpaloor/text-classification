@@ -1,0 +1,109 @@
+Display device
+A display device is an output device for presentation of information in visual or tactile form (the latter used for example in tactile electronic displays for blind people). When the input information is supplied as an electrical signal, the display is called an electronic display.
+Common applications for electronic visual displays are televisions or computer monitors.
+
+
+== Segment displays ==
+
+Some displays can show only digits or alphanumeric characters. They are called segment displays, because they are composed of several segments that switch on and off to give appearance of desired glyph. The segments are usually single LEDs or liquid crystals. They are mostly used in digital watches and pocket calculators. There are several types:
+
+Seven-segment display (most common, digits only)
+Fourteen-segment display
+Sixteen-segment display
+HD44780 LCD controller a widely accepted protocol for LCDs.
+
+
+=== Underlying technologies ===
+Incandescent filaments
+Vacuum fluorescent display
+Cold cathode gas discharge
+Light-emitting diode (LED)
+Liquid crystal display (LCD)
+Physical vane with electromagnetic activation
+
+
+== Full-area 2-dimensional displays ==
+2-dimensional displays that cover a full area (usually a rectangle) are also called video displays, since it is the main modality of presenting video.
+
+
+=== Applications ===
+Full-area 2-dimensional displays are used in, for example:
+Television sets
+Computer monitors
+Head-mounted display
+Broadcast reference monitor
+Medical monitors
+
+
+=== Underlying technologies ===
+Underlying technologies for full-area 2-dimensional displays include:
+Cathode ray tube display (CRT)
+Light-emitting diode display (LED)
+Electroluminescent display (ELD)
+Electronic paper, E Ink
+Plasma display panel (PDP)
+Liquid crystal display (LCD)
+High-Performance Addressing display (HPA)
+Thin-film transistor display (TFT)
+
+Organic light-emitting diode display (OLED)
+Surface-conduction electron-emitter display (SED) (experimental)
+Field emission display (FED) (experimental)
+Laser TV (forthcoming)
+Carbon nanotubes (experimental)
+Quantum dot display (experimental)
+Interferometric modulator display (IMOD)
+The multiplexed display technique is used to drive most display devices.
+
+
+== Three-dimensional ==
+Swept-volume display
+Varifocal mirror display
+Emissive volume display
+Laser display
+Holographic display
+Light field displays
+
+
+== Mechanical types ==
+Ticker tape (historical)
+Split-flap display (or simply flap display)
+Flip-disc display (or flip-dot display)
+Rollsign
+Tactile electronic displays (aka refreshable Braille display) are usually intended for the blind. They use electro-mechanical parts to dynamically update a tactile image (usually of text) so that the image may be felt by the fingers.
+Optacon, using metal rods instead of light in order to convey images to blind people by tactile sensation.
+
+Idiot lights, the "Check Engine" light on an automobile dashboard is the quintessential idiot light, giving only the information that something is amiss, but not what particular subsystem or component, nor how urgent the problem is. Neither does it give any information about issues that may be still within acceptable limits, but trending towards failure.
+
+
+== History ==
+
+In the history of display technology, a variety of display devices and technologies have been used.
+
+
+== See also ==
+
+Audio and video connector
+Comparison CRT, LCD, Plasma
+Computer-controlled milling machines
+Digital image processing
+Graphical user interfaces
+Graphics chip
+Haptic technology
+Input device
+Human machine interface
+LCD projector
+Peripheral
+Rapid prototyping
+Text display
+Times Square, where numerous display devices can be seen in use
+Vector graphics vs. Raster graphics
+Video card
+
+
+== References ==
+
+
+== External links ==
+Society for Information Display - An international professional organization dedicated to the study of display technology
+University of Waterloo Stratford Campus - A university that offers students the opportunity to display their work on the school's 3-storey Christie MicroTile wall.

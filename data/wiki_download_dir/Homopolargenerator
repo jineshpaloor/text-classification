@@ -1,0 +1,78 @@
+Homopolar generator
+A homopolar generator is a DC electrical generator comprising an electrically conductive disc or cylinder rotating in a plane perpendicular to a uniform static magnetic field. A potential difference is created between the center of the disc and the rim (or ends of the cylinder) with an electrical polarity that depends on the direction of rotation and the orientation of the field. It is also known as a unipolar generator, acyclic generator, disk dynamo, or Faraday disc. The voltage is typically low, on the order of a few volts in the case of small demonstration models, but large research generators can produce hundreds of volts, and some systems have multiple generators in series to produce an even larger voltage. They are unusual in that they can source tremendous electric current, some more than a million amperes, because the homopolar generator can be made to have very low internal resistance.
+
+
+== The Faraday disc ==
+
+The first homopolar generator was developed by Michael Faraday during his experiments in 1831. It is frequently called the Faraday disc or Faraday wheel in his honor. It was the beginning of modern dynamos — that is, electrical generators which operate using a magnetic field. It was very inefficient and was not used as a practical power source, but it showed the possibility of generating electric power using magnetism, and led the way for commutated direct current dynamos and then alternating current alternators.
+The Faraday disc was primarily inefficient due to counterflows of current. While current flow was induced directly underneath the magnet, the current would circulate backwards in regions outside the influence of the magnetic field. This counterflow limits the power output to the pickup wires, and induces waste heating of the copper disc. Later homopolar generators would solve this problem by using an array of magnets arranged around the disc perimeter to maintain a steady field around the circumference, and eliminate areas where counterflow could occur.
+
+
+== Homopolar generator development ==
+
+Long after the original Faraday disc had been abandoned as a practical generator, a modified version combining the magnet and disc in a single rotating part (the rotor) was developed. Sometimes the name homopolar generator is reserved for this configuration. One of the earliest patents on the general type of homopolar generators was attained by A. F. Delafield, U.S. Patent 278,516. Other early patents for homopolar generators were awarded to S. Z. De Ferranti and C. Batchelor separately. Nikola Tesla was interested in the Faraday disc and conducted work with homopolar generators. He eventually patented an improved version of the device and his US patent ("Dynamo Electric Machine") describes an arrangement of two parallel discs with separate, parallel shafts, joined like pulleys by a metallic belt. Each disc had a field that was the opposite of the other, so that the flow of current was from the one shaft to the disc edge, across the belt to the other disc edge and to the second shaft. This would have greatly reduced the frictional losses caused by sliding contacts by allowing both electrical pickups to interface with the shafts of the two disks rather than at the shaft and a high-speed rim. Later, patents were awarded to C. P. Steinmetz and E. Thomson for their work with homopolar generators. The Forbes dynamo, developed by the Scottish electrical engineer George Forbes, was in widespread use during the beginning of the 20th century. Much of the development done in homopolar generators was patented by J. E. Noeggerath and R. Eickemeyer.
+Homopolar generators underwent a renaissance in the 1950s as a source of pulsed power storage. These devices used heavy disks as a form of flywheel to store mechanical energy that could be quickly dumped into an experimental apparatus. An early example of this sort of device was built by Sir Mark Oliphant at the Research School of Physical Sciences and Engineering, Australian National University. It stored up to 500 megajoules of energy and was used as an extremely high-current source for synchrotron experimentation from 1962 until it was disassembled in 1986. Oliphant's construction was capable of supplying currents of up to 2 megaamperes (MA).
+Similar devices of even larger size are designed and built by Parker Kinetic Designs (formerly OIME Research & Development) of Austin. They have produced devices for a variety of roles, from powering railguns to linear motors (for space launches) to a variety of weapons designs. Industrial designs of 10 MJ were introduced for a variety of roles, including electrical welding.
+
+
+== Description and operation ==
+
+
+=== Disk-type generator ===
+
+This device consists of a conducting flywheel rotating in a magnetic field with one electrical contact near the axis and the other near the periphery. It has been used for generating very high currents at low voltages in applications such as welding, electrolysis and railgun research. In pulsed energy applications, the angular momentum of the rotor is used to store energy over a long period and then release it in a short time.
+In contrast to other types of generators, the output voltage never changes polarity. The charge separation results from the Lorentz force on the free charges in the disk. The motion is azimuthal and the field is axial, so the electromotive force is radial. The electrical contacts are usually made through a "brush" or slip ring, which results in large losses at the low voltages generated. Some of these losses can be reduced by using mercury or other easily liquified metal or alloy (gallium, NaK) as the "brush", to provide essentially uninterrupted electrical contact.
+If the magnetic field is provided by a permanent magnet, the generator works regardless of whether the magnet is fixed to the stator or rotates with the disc. Before the discovery of the electron and the Lorentz force law, the phenomenon was inexplicable and was known as the Faraday paradox.
+
+
+=== Drum-type generator ===
+A drum-type homopolar generator has a magnetic field (B) that radiates radially from the center of the drum and induces voltage (V) down the length of the drum. A conducting drum spun from above in the field of a "loudspeaker" type of magnet that has one pole in the center of the drum and the other pole surrounding the drum could use conducting ball bearings at the top and bottom of the drum to pick up the generated current.
+
+
+== Astrophysical unipolar inductors ==
+Unipolar inductors occur in astrophysics where a conductor rotates through a magnetic field, for example, the movement of the highly conductive plasma in a cosmic body's ionosphere through its magnetic field. In their book, Cosmical Electrodynamics, Hannes Alfvén and Carl-Gunne Fälthammar write:
+"Since cosmical clouds of ionized gas are generally magnetized, their motion produces induced electric fields [..] For example the motion of the magnetized interplanetary plasma produces electric fields that are essential for the production of aurora and magnetic storms" [..]
+".. the rotation of a conductor in a magnetic field produces an electric field in the system at rest. This phenomenon is well known from laboratory experiments and is usually called 'homopolar ' or 'unipolar' induction.
+Unipolar inductors have been associated with the aurorae on Uranus, binary stars, black holes, galaxies, the Jupiter Io system, the Moon, the Solar Wind, sunspots, and in the Venusian magnetic tail.
+
+
+== Physics ==
+Like all dynamos, the Faraday disc converts kinetic energy to electrical energy. This machine can not be analysed using Faraday's own law of electromagnetic induction. This law (in its modern form) states that an electric current is induced in a closed electrical circuit when the magnetic flux enclosed by the circuit changes. In Faraday's law, EMF is the time-derivative of flux, so a DC EMF is only possible if the magnetic flux is getting uniformly larger and larger perpetually. But in the generator, the magnetic field is constant and the disc stays in the same position, so no magnetic fluxes are growing larger and larger. So this example cannot be analyzed directly with Faraday's law.
+The Lorentz force law is more easily used to explain the machine's behaviour. This law, formulated thirty years after Faraday's death, states that the force on an electron is proportional to the cross product of its velocity and the magnetic flux vector. In geometrical terms, this means that the force is at right-angles to both the velocity (azimuthal) and the magnetic flux (axial), which is therefore in a radial direction. The radial movement of the electrons in the disc produces a charge separation between the center of the disc and its rim, and if the circuit is completed an electric current will be produced.
+
+
+== See also ==
+
+Barlow's wheel
+Electric generator
+Electric motor
+Homopolar motor
+Faraday paradox
+Faraday's law of induction
+
+
+== References ==
+
+
+=== General references ===
+Don Lancaster, "Shattering the homopolar myths". Tech Musings, October, 1997. (PDF)
+Don Lancaster, "Understanding Faraday's Disk". Tech Musings, October, 1997. (PDF)
+John David Jackson, Classical Electrodynamics, Wiley, 3rd ed. 1998, ISBN 0-471-30932-X
+Arthur I. Miller, "Unipolar Induction: A Case Study of the Interaction between Science and Technology," Annals of Science, Volume 38, pp. 155–189 (1981).
+Olivier Darrigol, Electrodynamics from Ampere to Einstein, Oxford University Press, 2000, ISBN 0-19-850594-9
+Trevor Ophel and John Jenkin, (1996) Fire in the belly : the first 50 years of the pioneer school at the ANU Canberra : Research School of Physical Sciences and Engineering, Australian National University. ISBN 0-85800-048-2. (PDF)
+Thomas Valone, The Homopolar Handbook : A Definitive Guide to Faraday Disk and N-Machine Technologies. Washington, DC, U.S.A.: Integrity Research Institute, 2001. ISBN 0-964107-0-1-5
+
+
+=== Further reading ===
+Richard A. Marshall and William F. Weldon, "Parameter Selection for Homopolar Generators Used as Pulsed Energy Stores", Center for Electromechanics, University of Texas, Austin, Jul. 1980. (also published in: Electrical Machines and Electromechanics, 6:109–127, 1981.)
+
+
+== External links ==
+Popular Science Monthly, Construction of Unipolar Dynamos, April 1916, pp. 624–626, Scanned article available via Google Books: http://books.google.com/books?id=hCYDAAAAMBAJ&pg=PA624
+Robert Hebner, "Homopolar Generator". Homopolar Welding, UT-CEM.
+"K2-64: Unipolar generator". physics.umd.edu.
+Richard E. Berg and Carroll O. Alley, "The Unipolar Generator: A Demonstration of Special Relativity", Department of Physics, University of Maryland, 2005. (PDF)
+Richard Fitzpatrick, "Magnetohydrodynamic theory ", The homopolar generator. farside.ph.utexas.edu, 2006-02-16.
+"5K10.80 Homopolar Generator; Lecture Demonstrations.". physics.brown.edu
+William J. Beaty, "Untried Homopolar Generator Experiments". 1996.

@@ -1,0 +1,263 @@
+Dynamic random-access memory
+Dynamic random-access memory (DRAM) is a type of random-access memory that stores each bit of data in a separate capacitor within an integrated circuit. The capacitor can be either charged or discharged; these two states are taken to represent the two values of a bit, conventionally called 0 and 1. Since even "nonconducting" transistors always leak a small amount, the capacitors will slowly discharge, and the information eventually fades unless the capacitor charge is refreshed periodically. Because of this refresh requirement, it is a dynamic memory as opposed to static random access memory (SRAM) and other static types of memory.
+The main memory (the "RAM") in personal computers is dynamic RAM (DRAM). It is the RAM in desktops, laptops and workstation computers as well as some of the RAM of video game consoles. In contrast, SRAM, which is faster and more expensive than DRAM, is typically used for CPU caches.
+The advantage of DRAM is its structural simplicity: only one transistor and a capacitor are required per bit, compared to four or six transistors in SRAM. This allows DRAM to reach very high densities. Unlike flash memory, DRAM is volatile memory (vs. non-volatile memory), since it loses its data quickly when power is removed. The transistors and capacitors used are extremely small; billions can fit on a single memory chip.
+Due to the nature of its memory cells, DRAM consumes relatively large amounts of power, with different ways for managing the power consumption.
+
+
+== HistoryEdit ==
+
+The cryptanalytic machine code-named "Aquarius" used at Bletchley Park during World War II incorporated a hard-wired dynamic memory. Paper tape was read and the characters on it "were remembered in a dynamic store. ... The store used a large bank of capacitors, which were either charged or not, a charged capacitor representing cross (1) and an uncharged capacitor dot (0). Since the charge gradually leaked away, a periodic pulse was applied to top up those still charged (hence the term 'dynamic')".
+In 1964, Arnold Farber and Eugene Schlig, working for IBM, created a hard-wired memory cell, using a transistor gate and tunnel diode latch. They replaced the latch with two transistors and two resistors, a configuration that became known as the Farber-Schlig cell. In 1965, Benjamin Agusta and his team at IBM created a 16-bit silicon memory chip based on the Farber-Schlig cell, with 80 transistors, 64 resistors, and four diodes. In 1966, DRAM was invented by Dr. Robert Dennard at the IBM Thomas J. Watson Research Center. He was granted U.S. patent number 3,387,286 in 1968. Capacitors had been used for earlier memory schemes such as the drum of the Atanasoff–Berry Computer, the Williams tube and the Selectron tube.
+The Toshiba "Toscal" BC-1411 electronic calculator, which was introduced in November 1966, used a form of dynamic RAM built from discrete components.
+In 1969 Honeywell asked Intel to make a DRAM using a 3-transistor cell that they had developed. This became the Intel 1102 (512x1) in early 1970. However, the 1102 had many problems, prompting Intel to begin work on their own improved design, in secrecy to avoid conflict with Honeywell. This became the first commercially available DRAM, the Intel 1103 (1024x1), in October 1970, despite initial problems with low yield until the fifth revision of the masks. The 1103 was designed by Joel Karp and laid out by Pat Earhart. The masks were cut by Barbara Maness and Judy Garcia.
+The first DRAM with multiplexed row and column address lines was the Mostek MK4096 (4096x1) designed by Robert Proebsting and introduced in 1973. This addressing scheme uses the same address pins to receive the low half and the high half of the address of the memory cell being referenced, switching between the two halves on alternating bus cycles. This was a radical advance, effectively halving the number of address lines required, which enabled it to fit into packages with fewer pins, a cost advantage that grew with every jump in memory size. The MK4096 proved to be a very robust design for customer applications. At the 16K density, the cost advantage increased; the Mostek MK4116 16K DRAM, introduced in 1976, achieved greater than 75% worldwide DRAM market share. However, as density increased to 64K in the early 80s, Mostek was overtaken by Japanese DRAM manufacturers selling higher quality DRAMs using the same multiplexing scheme at below-cost prices. See Japan–United States relations#Trade frictions
+
+
+== Operation principleEdit ==
+
+DRAM is usually arranged in a rectangular array of charge storage cells consisting of one capacitor and transistor per data bit. The figure to the right shows a simple example with a four-by-four cell matrix. Some DRAM matrices are many thousands of cells in height and width.
+The long horizontal lines connecting each row are known as word-lines. Each column of cells is composed of two bit-lines, each connected to every other storage cell in the column (the illustration to the right does not include this important detail). They are generally known as the "+" and "−" bit lines.
+
+
+=== Operations to read a data bit from a DRAM storage cellEdit ===
+The sense amplifiers are disconnected.
+The bit-lines are precharged to exactly equal voltages that are in between high and low logic levels (e.g., 0.5 V if the two levels are 0 and 1 V). The bit-lines are physically symmetrical to keep the capacitance equal, and therefore at this time their voltages are equal.
+The precharge circuit is switched off. Because the bit-lines are relatively long, they have enough capacitance to maintain the precharged voltage for a brief time. This is an example of dynamic logic.
+The desired row's word-line is then driven high to connect a cell's storage capacitor to its bit-line. This causes the transistor to conduct, transferring charge from the storage cell to the connected bit-line (if the stored value is 1) or from the connected bit-line to the storage cell (if the stored value is 0). Since the capacitance of the bit-line is typically much higher than the capacitance of the storage cell, the voltage on the bit-line increases very slightly if the storage cell's capacitor is discharged and decreases very slightly if the storage cell is charged (e.g., 0.54 and 0.45 V in the two cases). As the other bit-line holds 0.50 V there is a small voltage difference between the two twisted bit-lines.
+The sense amplifiers are now connected to the bit-lines pairs. Positive feedback then occurs from the cross-connected inverters, thereby amplifying the small voltage difference between the odd and even row bit-lines of a particular column until one bit line is fully at the lowest voltage and the other is at the maximum high voltage. Once this has happened, the row is "open" (the desired cell data is available).
+All storage cells in the open row are sensed simultaneously, and the sense amplifier outputs latched. A column address then selects which latch bit to connect to the external data bus. Reads of different columns in the same row can be performed without a row opening delay because, for the open row, all data has already been sensed and latched.
+While reading of columns in an open row is occurring, current is flowing back up the bit-lines from the output of the sense amplifiers and recharging the storage cells. This reinforces (i.e. "refreshes") the charge in the storage cell by increasing the voltage in the storage capacitor if it was charged to begin with, or by keeping it discharged if it was empty. Note that due to the length of the bit-lines there is a fairly long propagation delay for the charge to be transferred back to the cell's capacitor. This takes significant time past the end of sense amplification, and thus overlaps with one or more column reads.
+When done with reading all the columns in the current open row, the word-line is switched off to disconnect the storage cell capacitors (the row is "closed") from the bit-lines. The sense amplifier is switched off, and the bit-lines are precharged again.
+
+
+=== To write to memoryEdit ===
+To store data, a row is opened and a given column's sense amplifier is temporarily forced to the desired high or low voltage state, thus causing the bit-line to charge or discharge the cell storage capacitor to the desired value. Due to the sense amplifier's positive feedback configuration, it will hold a bit-line at stable voltage even after the forcing voltage is removed. During a write to a particular cell, all the columns in a row are sensed simultaneously just as during reading, so although only a single column's storage-cell capacitor charge is changed, the entire row is refreshed (written back in), as illustrated in the figure to the right.
+
+
+=== Refresh rateEdit ===
+
+Typically, manufacturers specify that each row must have its storage cell capacitors refreshed every 64 ms or less, as defined by the JEDEC (Foundation for developing Semiconductor Standards) standard. Refresh logic is provided in a DRAM controller which automates the periodic refresh, stated differently, no software or other hardware has to perform it. This makes the controller's logic circuit more complicated, but this drawback is outweighed by the fact that DRAM is much cheaper per storage cell and because each storage cell is very simple, DRAM has much greater capacity per unit of surface than SRAM.
+Some systems refresh every row in a burst of activity involving all rows every 64 ms. Other systems refresh one row at a time staggered throughout the 64 ms interval. For example, a system with 213 = 8192 rows would require a staggered refresh rate of one row every 7.8 µs which is 64 ms divided by 8192 rows. A few real-time systems refresh a portion of memory at a time determined by an external timer function that governs the operation of the rest of a system, such as the vertical blanking interval that occurs every 10–20 ms in video equipment. All methods require some sort of counter to keep track of which row is the next to be refreshed. Most DRAM chips include that counter. Older types require external refresh logic to hold the counter.
+Under some conditions, most of the data in DRAM can be recovered even if the DRAM has not been refreshed for several minutes.
+
+
+=== Memory timingEdit ===
+
+Many parameters are required to fully describe the timing of DRAM operation. Here are some examples for two timing grades of asynchronous DRAM, from a data sheet published in 1998:
+Thus, the generally quoted number is the /RAS access time. This is the time to read a random bit from a precharged DRAM array. The time to read additional bits from an open page is much less.
+When such a RAM is accessed by clocked logic, the times are generally rounded up to the nearest clock cycle. For example, when accessed by a 100 MHz state machine (i.e. a 10 ns clock), the 50 ns DRAM can perform the first read in five clock cycles, and additional reads within the same page every two clock cycles. This was generally described as "5‐2‐2‐2" timing, as bursts of four reads within a page were common.
+When describing synchronous memory, timing is described by clock cycle counts separated by hyphens. These numbers represent tCL‐tRCD‐tRP‐tRAS in multiples of the DRAM clock cycle time. Note that this is half of the data transfer rate when double data rate signaling is used. JEDEC standard PC3200 timing is 3‐4‐4‐8 with a 200 MHz clock, while premium-priced high performance PC3200 DDR DRAM DIMM might be operated at 2‐2‐2‐5 timing.
+...Minimum random access time has improved from tRAC = 50 ns to tRCD + tCL = 22.5 ns, and even the premium 20 ns variety is only 2.5 times better compared to the typical case (~2.22 times better). CAS latency has improved even less, from tCAC = 13 ns to 10 ns. However, the DDR3 memory does achieve 32 times higher bandwidth; due to internal pipelining and wide data paths, it can output two words every 1.25 ns (1600 Mword/s), while the EDO DRAM can output one word per tPC = 20 ns (50 Mword/s).
+
+
+==== Timing abbreviationsEdit ====
+
+
+== Error detection and correctionEdit ==
+
+Electrical or magnetic interference inside a computer system can cause a single bit of DRAM to spontaneously flip to the opposite state. The majority of one-off ("soft") errors in DRAM chips occur as a result of background radiation, chiefly neutrons from cosmic ray secondaries, which may change the contents of one or more memory cells or interfere with the circuitry used to read/write them. Recent studies give widely varying error rates for single event upsets with over seven orders of magnitude difference, ranging from roughly one bit error, per hour, per gigabyte of memory to one bit error, per century, per gigabyte of memory.
+The problem can be mitigated by using redundant memory bits and additional circuitry that use these bits to detect and correct soft errors. In most cases, the detection and correction logic is performed by the memory controller, which can be a separate circuit or integrated into a CPU; sometimes, the required logic is transparently implemented within DRAM chips or modules, enabling the ECC memory functionality for otherwise ECC-incapable systems. The extra memory bits are used to record parity and to enable missing data to be reconstructed by error-correcting code (ECC). Parity allows the detection of all single-bit errors (actually, any odd number of wrong bits). The most common error-correcting code, a SECDED Hamming code, allows a single-bit error to be corrected and, in the usual configuration, with an extra parity bit, double-bit errors to be detected.
+An ECC-capable memory controller as used in many modern PCs can typically detect and correct errors of a single bit per 64-bit "word" (the unit of bus transfer), and detect (but not correct) errors of two bits per 64-bit word. Some systems also "scrub" the errors, by writing the corrected version back to memory. The ECC-aware firmware of some computers and ECC-aware operating systems, such as Linux, allow counting of detected and corrected memory errors, making it possible to identify and replace failing memory modules.
+Recent studies give widely varying error rates with over seven orders of magnitude difference, ranging from 10−10−10−17 error/bit·h, roughly one bit error, per hour, per gigabyte of memory to one bit error, per century, per gigabyte of memory. The Schroeder et al. 2009 study reported a 32% chance that a given computer in their study would suffer from at least one correctable error per year, and provided evidence that most such errors are intermittent hard rather than soft errors. A 2010 study at the University of Rochester also gave evidence that a substantial fraction of memory errors are intermittent hard errors. Large scale studies on non-ECC RAM in PCs and laptops suggest that undetected memory errors account for a substantial number of system failures: the study reported a one-in-1700 chance per 1.5% of memory tested (extrapolating to an approximately 26% chance for total memory) that a computer would have a memory error per 8 months.
+
+
+== PackagingEdit ==
+For economic reasons, the large (main) memories found in personal computers, workstations, and non-handheld game-consoles (such as PlayStation and Xbox) normally consist of dynamic RAM (DRAM). Other parts of the computer, such as cache memories and data buffers in hard disks, normally use static RAM (SRAM).
+Physically, most DRAM is packaged in black epoxy resin.
+
+
+=== General DRAM formatsEdit ===
+
+Dynamic random access memory is produced as integrated circuits (ICs) bonded and mounted into plastic packages with metal pins for connection to control signals and buses. In early use individual DRAM ICs were usually either installed directly to the motherboard or on ISA expansion cards; later they were assembled into multi-chip plug-in modules (DIMMs, SIMMs, etc.). Some standard module types are:
+DRAM chip (Integrated Circuit or IC)
+Dual in-line Package (DIP)
+
+DRAM (memory) modules
+Single In-line Pin Package (SIPP)
+Single In-line Memory Module (SIMM)
+Dual In-line Memory Module (DIMM)
+Rambus In-line Memory Module (RIMM), technically DIMMs but called RIMMs due to their proprietary slot.
+Small outline DIMM (SO-DIMM), about half the size of regular DIMMs, are mostly used in notebooks, small footprint PCs (such as Mini-ITX motherboards), upgradable office printers and networking hardware like routers.
+Small outline RIMM (SO-RIMM). Smaller version of the RIMM, used in laptops. Technically SO-DIMMs but called SO-RIMMs due to their proprietary slot.
+
+Stacked vs. non-stacked RAM modules
+Stacked RAM modules contain two or more RAM chips stacked on top of each other. This allows large modules to be manufactured using cheaper low density wafers. Stacked chip modules draw more power, and tend to run hotter than non-stacked modules. Stacked modules can be packaged using the older TSOP or the newer BGA style IC chips. Silicon dies connected with older wire bonding or newer TSV.
+Several proposed stacked RAM approaches exist, with TSV and much wider interfaces, including Wide I/O, Wide I/O 2, Hybrid Memory Cube and High Bandwidth Memory.
+
+
+=== Common DRAM modulesEdit ===
+Common DRAM packages as illustrated to the right, from top to bottom (last three types are not present in the group picture, and the last type is available in a separate picture):
+DIP 16-pin (DRAM chip, usually pre-fast page mode DRAM (FPRAM))
+SIPP 30-pin (usually FPRAM)
+SIMM 30-pin (usually FPRAM)
+SIMM 72-pin (often extended data out DRAM (EDO DRAM) but FPRAM is not uncommon)
+DIMM 168-pin (most SDRAM but were some extended data out DRAM (EDO DRAM))
+DIMM 184-pin (DDR SDRAM)
+RIMM 184-pin (RDRAM)
+DIMM 240-pin (DDR2 SDRAM and DDR3 SDRAM)
+DIMM 288-pin (DDR4 SDRAM)
+Common SO-DIMM DRAM modules:
+72-pin (32-bit)
+144-pin (64-bit) used for SO-DIMM SDRAM
+200-pin (72-bit) used for SO-DIMM DDR SDRAM and SO-DIMM DDR2 SDRAM
+204-pin (64-bit) used for SO-DIMM DDR3 SDRAM
+260-pin used for SO-DIMM DDR4 SDRAM
+
+
+=== Memory size of a DRAM moduleEdit ===
+The exact number of bytes in a DRAM module is always an integral power of two. A 512 MB (as marked on a module) SDRAM DIMM, actually contains 512 MiB (mebibytes) = 512 × 220 bytes = 229 bytes = 536,870,912 bytes exactly, and might be made of 8 or 9 SDRAM chips, each containing exactly 512 Mib (mebibits) of storage, and each one contributing 8 bits to the DIMM's 64- or 72-​bit width. For comparison, a 2 GB SDRAM module contains 2 GiB (gibibytes) = 2 × 230 bytes = 231 bytes = 2,147,483,648 bytes of memory, exactly. The module usually has 8 SDRAM chips of 256 MiB each.
+
+
+== VersionsEdit ==
+While the fundamental DRAM cell and array has maintained the same basic structure (and performance) for many years, there have been many different interfaces for communicating with DRAM chips. When one speaks about "DRAM types", one is generally referring to the interface that is used.
+
+
+=== Asynchronous DRAMEdit ===
+An asynchronous DRAM chip has power connections, some number of address inputs (typically 12), and a few (typically one or four) bidirectional data lines. There are four active-low control signals:
+/RAS, the Row Address Strobe. The address inputs are captured on the falling edge of /RAS, and select a row to open. The row is held open as long as /RAS is low.
+/CAS, the Column Address Strobe. The address inputs are captured on the falling edge of /CAS, and select a column from the currently open row to read or write.
+/WE, Write Enable. This signal determines whether a given falling edge of /CAS is a read (if high) or write (if low). If low, the data inputs are also captured on the falling edge of /CAS.
+/OE, Output Enable. This is an additional signal that controls output to the data I/O pins. The data pins are driven by the DRAM chip if /RAS and /CAS are low, /WE is high, and /OE is low. In many applications, /OE can be permanently connected low (output always enabled), but it can be useful when connecting multiple memory chips in parallel.
+This interface provides direct control of internal timing. When /RAS is driven low, a /CAS cycle must not be attempted until the sense amplifiers have sensed the memory state, and /RAS must not be returned high until the storage cells have been refreshed. When /RAS is driven high, it must be held high long enough for precharging to complete.
+Although the RAM is asynchronous, the signals are typically generated by a clocked memory controller, which limits their timing to multiples of the controller's clock cycle.
+
+
+==== RAS Only Refresh (ROR)Edit ====
+Classic asynchronous DRAM is refreshed by opening each row in turn.
+The refresh cycles are distributed across the entire refresh interval in such a way that all rows are refreshed within the required interval. To refresh one row of the memory array using /RAS Only Refresh, the following steps must occur:
+The row address of the row to be refreshed must be applied at the address input pins.
+/RAS must switch from high to low. /CAS must remain high.
+At the end of the required amount of time, /RAS must return high.
+This can be done by supplying a row address and pulsing /RAS low; it is not necessary to perform any /CAS cycles. An external counter is needed to iterate over the row addresses in turn.
+
+
+==== CAS before RAS refresh (CBR)Edit ====
+For convenience, the counter was quickly incorporated into RAM chips themselves. If the /CAS line is driven low before /RAS (normally an illegal operation), then the DRAM ignores the address inputs and uses an internal counter to select the row to open. This is known as /CAS-before-/RAS (CBR) refresh.
+This became the standard form of refresh for asynchronous DRAM, and is the only form generally used with SDRAM.
+
+
+==== Hidden refreshEdit ====
+Given support of CAS-before-RAS refresh, it is possible to deassert /RAS while holding /CAS low to maintain data output. If /RAS is then asserted again, this performs a CBR refresh cycle while the DRAM outputs remain valid. Because data output is not interrupted, this is known as "hidden refresh".
+
+
+=== Video DRAM (VRAM)Edit ===
+
+VRAM is a dual-ported variant of DRAM that was once commonly used to store the frame-buffer in some graphics adaptors.
+
+
+=== Window DRAM (WRAM)Edit ===
+WRAM is a variant of VRAM that was once used in graphics adaptors such as the Matrox Millenium and ATI 3D Rage Pro. WRAM was designed to perform better and cost less than VRAM. WRAM offered up to 25% greater bandwidth than VRAM and accelerated commonly used graphical operations such as text drawing and block fills.
+
+
+=== Fast page mode DRAM (FPM DRAM)Edit ===
+Fast page mode DRAM is also called FPM DRAM, FPRAM, Page mode DRAM, Fast page mode memory, or Page mode memory.
+In page mode, a row of the DRAM can be kept "open" by holding /RAS low while performing multiple reads or writes with separate pulses of /CAS so that successive reads or writes within the row do not suffer the delay of precharge and accessing the row. This increases the performance of the system when reading or writing bursts of data.
+Static column is a variant of page mode in which the column address does not need to be stored in, but rather, the address inputs may be changed with /CAS held low, and the data output will be updated accordingly a few nanoseconds later.
+Nibble mode is another variant in which four sequential locations within the row can be accessed with four consecutive pulses of /CAS. The difference from normal page mode is that the address inputs are not used for the second through fourth /CAS edges; they are generated internally starting with the address supplied for the first /CAS edge.
+
+
+=== Extended data out DRAM (EDO DRAM)Edit ===
+
+EDO DRAM, sometimes referred to as Hyper Page Mode enabled DRAM, is similar to Fast Page Mode DRAM with the additional feature that a new access cycle can be started while keeping the data output of the previous cycle active. This allows a certain amount of overlap in operation (pipelining), allowing somewhat improved performance. It was 5% faster than FPM DRAM, which it began to replace in 1995, when Intel introduced the 430FX chipset that supported EDO DRAM.
+To be precise, EDO DRAM begins data output on the falling edge of /CAS, but does not stop the output when /CAS rises again. It holds the output valid (thus extending the data output time) until either /RAS is deasserted, or a new /CAS falling edge selects a different column address.
+Single-cycle EDO has the ability to carry out a complete memory transaction in one clock cycle. Otherwise, each sequential RAM access within the same page takes two clock cycles instead of three, once the page has been selected. EDO's performance and capabilities allowed it to somewhat replace the then-slow L2 caches of PCs. It created an opportunity to reduce the immense performance loss associated with a lack of L2 cache, while making systems cheaper to build. This was also good for notebooks due to difficulties with their limited form factor, and battery life limitations. An EDO system with L2 cache was tangibly faster than the older FPM/L2 combination.
+Single-cycle EDO DRAM became very popular on video cards towards the end of the 1990s. It was very low cost, yet nearly as efficient for performance as the far more costly VRAM.
+Much equipment taking 72-pin SIMMs could use either FPM or EDO. Problems were possible, particularly when mixing FPM and EDO. Early Hewlett-Packard printers had FPM RAM built in; some, but not all, models worked if additional EDO SIMMs were added.
+
+
+=== Burst EDO DRAM (BEDO DRAM)Edit ===
+An evolution of EDO DRAM, Burst EDO DRAM, could process four memory addresses in one burst, for a maximum of 5‐1‐1‐1, saving an additional three clocks over optimally designed EDO memory. It was done by adding an address counter on the chip to keep track of the next address. BEDO also added a pipelined stage allowing page-access cycle to be divided into two components. During a memory-read operation, the first component accessed the data from the memory array to the output stage (second latch). The second component drove the data bus from this latch at the appropriate logic level. Since the data is already in the output buffer, quicker access time is achieved (up to 50% for large blocks of data) than with traditional EDO.
+Although BEDO DRAM showed additional optimization over EDO, by the time it was available the market had made a significant investment towards synchronous DRAM, or SDRAM [2]. Even though BEDO RAM was superior to SDRAM in some ways, the latter technology quickly displaced BEDO.
+
+
+=== Multibank DRAM (MDRAM)Edit ===
+Multibank DRAM applies the interleaving technique for main memory to second-level cache memory to provide a cheaper and faster alternative to SRAM. The chip splits its memory capacity into small blocks of 256 kB and allows operations to two different banks in a single clock cycle.
+This memory was primarily used in graphic cards with Tseng Labs ET6x00 chipsets, and was made by MoSys. Boards based upon this chipset often used the unusual RAM size configuration of 2.25 MB, owing to MDRAM's ability to be implemented in various sizes more easily. This size of 2.25 MB allowed 24-bit color at a resolution of 1024×768, a very popular display setting in the card's time.
+
+
+=== Synchronous graphics RAM (SGRAM)Edit ===
+
+SGRAM is a specialized form of SDRAM for graphics adaptors. It adds functions such as bit masking (writing to a specified bit plane without affecting the others) and block write (filling a block of memory with a single colour). Unlike VRAM and WRAM, SGRAM is single-ported. However, it can open two memory pages at once, which simulates the dual-port nature of other video RAM technologies.
+GDDR, or Graphics Double Data Rate Memory, refers to memory specifically designed for use on graphics cards. GDDR is distinct from the more widely known DDR SDRAM types such as DDR3, although they share some technologies, including double data rate design. Currently, the following generations of GDDR exist, with the higher number indicating the more recent specifications: GDDR2 GDDR3 GDDR4 GDDR5.
+GDDR5, or Graphics Double Data Rate version 5, SGRAM is a type of memory designed for use in graphics cards and other computer applications requiring high bandwidth. Like its predecessor, GDDR4, GDDR5 is based on DDR3 SDRAM which has double the data lines compared to DDR2 SDRAM, but GDDR5 also has 8-bit wide prefetch buffers similar to GDDR4. GDDR5 SGRAM conforms to the standards which were set out in the GDDR5 specification by the JEDEC. It uses an 8n-prefetch architecture and DDR interface to achieve high performance operation and can be configured to operate in ×32 mode or ×16 (clamshell) mode which is detected during device initialization. The GDDR5 interface transfers two 32-bit wide data words per write clock (WCK) cycle to/from the I/O pins. Corresponding to the 8n-prefetch, a single write or read access consists of a 256-bit wide two CK clock cycle data transfer at the internal memory core and eight corresponding 32-bit wide one-half WCK clock cycle data transfers at the I/O pins. GDDR5 operates with two different clock types. A differential command clock (CK) as a reference for address and command inputs, and a forwarded differential write clock (WCK) as a reference for data reads and writes, that runs at twice the CK frequency. Being more precise, the GDDR5 SGRAM uses a total of three clocks: two write clocks associated with two bytes (WCK01 and WCK23) and a single command clock (CK). Taking a GDDR5 with 5 Gbit/s data rate per pin as an example, the CK clock runs with 1.25 GHz and both WCK clocks at 2.5 GHz. The CK and WCKs are phase aligned during the initialization and training sequence. This alignment allows read and write access with minimum latency. A single 32-bit GDDR5 chip has about 67 signal pins and the rest are power and grounds in the 170 BGA package.
+
+
+=== Synchronous dynamic RAM (SDRAM)Edit ===
+
+SDRAM significantly revises the asynchronous memory interface, adding a clock (and a clock enable) line. All other signals are received on the rising edge of the clock.
+The /RAS and /CAS inputs no longer act as strobes, but are instead, along with /WE, part of a 3-bit command:
+The /OE line's function is extended to a per-byte "DQM" signal, which controls data input (writes) in addition to data output (reads). This allows DRAM chips to be wider than 8 bits while still supporting byte-granularity writes.
+Many timing parameters remain under the control of the DRAM controller. For example, a minimum time must elapse between a row being activated and a read or write command. One important parameter must be programmed into the SDRAM chip itself, namely the CAS latency. This is the number of clock cycles allowed for internal operations between a read command and the first data word appearing on the data bus. The "Load mode register" command is used to transfer this value to the SDRAM chip. Other configurable parameters include the length of read and write bursts, i.e. the number of words transferred per read or write command.
+The most significant change, and the primary reason that SDRAM has supplanted asynchronous RAM, is the support for multiple internal banks inside the DRAM chip. Using a few bits of "bank address" which accompany each command, a second bank can be activated and begin reading data while a read from the first bank is in progress. By alternating banks, an SDRAM device can keep the data bus continuously busy, in a way that asynchronous DRAM cannot.
+
+
+==== Single data rate (SDR)Edit ====
+
+Single data rate SDRAM (sometimes known as SDR) is a synchronous form of DRAM.
+
+
+==== Double data rate (DDR)Edit ====
+
+Double data rate SDRAM (DDR) was a later development of SDRAM, used in PC memory beginning in 2000. Subsequent versions are numbered sequentially (DDR2, DDR3, etc.). DDR SDRAM internally performs double-width accesses at the clock rate, and uses a double data rate interface to transfer one half on each clock edge. DDR2 and DDR3 increased this factor to 4× and 8×, respectively, delivering 4-word and 8-word bursts over 2 and 4 clock cycles, respectively. The internal access rate is mostly unchanged (200 million per second for DDR-400, DDR2-800 and DDR3-1600 memory), but each access transfers more data.
+
+
+=== Direct Rambus DRAM (DRDRAM)Edit ===
+
+Direct RAMBUS DRAM (DRDRAM) was developed by Rambus.
+
+
+=== Pseudostatic RAM (PSRAM)Edit ===
+PSRAM or PSDRAM is dynamic RAM with built-in refresh and address-control circuitry to make it behave similarly to static RAM (SRAM). It combines the high density of DRAM with the ease of use of true SRAM. PSRAM (made by Numonyx) is used in the Apple iPhone and other embedded systems such as XFlar Platform.
+Some DRAM components have a "self-refresh mode". While this involves much of the same logic that is needed for pseudo-static operation, this mode is often equivalent to a standby mode. It is provided primarily to allow a system to suspend operation of its DRAM controller to save power without losing data stored in DRAM, rather not to allow operation without a separate DRAM controller as is the case with PSRAM.
+An embedded variant of PSRAM is sold by MoSys under the name 1T-SRAM. It is technically DRAM, but behaves much like SRAM. It is used in Nintendo Gamecube and Wii consoles.
+
+
+=== Reduced Latency DRAM (RLDRAM)Edit ===
+Reduced Latency DRAM is a high performance double data rate (DDR) SDRAM that combines fast, random access with high bandwidth, mainly intended for networking and caching applications.
+
+
+=== 1T DRAMEdit ===
+Unlike all of the other variants described in this section of this article, 1T DRAM is a different way of constructing the basic DRAM bit cell. 1T DRAM is a "capacitorless" bit cell design that stores data in the parasitic body capacitor that is an inherent part of silicon on insulator (SOI) transistors. Considered a nuisance in logic design, this floating body effect can be used for data storage. Although refresh is still required, reads are non-destructive; the stored charge causes a detectable shift in the threshold voltage of the transistor.
+There are several types of 1T DRAMs: the commercialized Z-RAM from Innovative Silicon, the TTRAM from Renesas and the A-RAM from the UGR/CNRS consortium.
+The classic one-transistor/one-capacitor (1T/1C) DRAM cell is also sometimes referred to as "1T DRAM", particularly in comparison to 3T and 4T DRAM which it replaced in the 1970s.
+
+
+== SecurityEdit ==
+
+Although dynamic memory is only specified and guaranteed to retain its contents when supplied with power and refreshed every short period of time (often 64 ms), the memory cell capacitors often retain their values for significantly longer, particularly at low temperatures. Under some conditions most of the data in DRAM can be recovered even if it has not been refreshed for several minutes.
+This property can be used to circumvent security and recover data stored in memory and assumed to be destroyed at power-down by quickly rebooting the computer and dumping the contents of the RAM, or by cooling the chips and transferring them to a different computer. Such an attack was demonstrated to circumvent popular disk encryption systems, such as the open source TrueCrypt, Microsoft's BitLocker Drive Encryption, and Apple's FileVault. This type of attack against a computer is often called a cold boot attack.
+
+
+== See alsoEdit ==
+
+DRAM price fixing
+Flash memory
+List of device bandwidths
+Memory bank
+Memory geometry
+Regenerative capacitor memory
+Row hammer
+
+
+== ReferencesEdit ==
+
+
+== External linksEdit ==
+Modern DRAM Memory Systems:Performance analysis and a high performance, power-constrained DRAM scheduling algorithm – PhD dissertation by David Tawei Wang, has very well written and detailed discussion on how DRAM works.
+DRAM density and speed trends has some interesting historical trend charts of DRAM density and speed from 1980.
+Back to Basics—Memory, part 3
+Benefits of Chipkill-Correct ECC for PC Server Main Memory — A 1997 discussion of SDRAM reliability—some interesting information on "soft errors" from cosmic rays, especially with respect to Error-correcting code schemes
+a Tezzaron Semiconductor Soft Error White Paper 1994 literature review of memory error rate measurements.
+Soft errors' impact on system reliability — Ritesh Mastipuram and Edwin C Wee, Cypress Semiconductor, 2004
+Scaling and Technology Issues for Soft Error Rates A Johnston—4th Annual Research Conference on Reliability Stanford University, October 2000
+Challenges and future directions for the scaling of dynamic random-access memory (DRAM) — J. A. Mandelman, R. H. Dennard, G. B. Bronner, J. K. DeBrosse, R. Divakaruni, Y. Li, and C. J. Radens, IBM 2002
+Ars Technica: RAM Guide
+Versatile DRAM interface for the 6502 CPU
+David Tawei Wang (2005). "Modern DRAM Memory Systems: Performance Analysis and a High Performance, Power-Constrained DRAM-Scheduling Algorithm" (PDF). PhD thesis, University of Maryland, College Park. Retrieved 2007-03-10.  A detailed description of current DRAM technology.
+The Toshiba "Toscal" BC-1411 Desktop Calculator — An early electronic calculator that uses a form of dynamic RAM built from discrete components.
+Mitsubishi's 3D-RAM And Cache DRAM incorporate high performance, on-board SRAM cache
+Multi-port Cache DRAM — MP-RAM
+How to install DRAM installation guide for desktop and laptop computers.
+[3] – DRAM Errors in the Wild: A Large-Scale Field Study.
+What every programmer should know about memory by Ulrich Drepper, continued with: CPU Caches, Virtual memory, NUMA systems, What programmers can do - cache optimization, What programmers can do - multi-threaded optimizations, Memory performance tools, Future technologies

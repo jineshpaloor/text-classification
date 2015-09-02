@@ -1,0 +1,28 @@
+Inductive coupling
+In electrical engineering, two conductors are referred to as mutual-inductively coupled or magnetically coupled  when they are configured such that change in current through one wire induces a voltage across the ends of the other wire through electromagnetic induction. The amount of inductive coupling between two conductors is measured by their mutual inductance.
+The coupling between two wires can be increased by winding them into coils and placing them close together on a common axis, so the magnetic field of one coil passes through the other coil. The two coils may be physically contained in a single unit, as in the primary and secondary sides of a transformer, or may be separated. Coupling may be intentional or unintentional.
+Unintentional coupling is called cross-talk, and is a form of electromagnetic interference. Inductive coupling favors low frequency energy sources. High frequency energy sources generally use capacitive coupling.
+An inductively coupled transponder comprises an electronic data carrying device, usually a single microchip, and a large coil that functions as an antenna. Inductively coupled transponders are almost always operated passively.
+Magnetic coupling transfers torque from one magnetic gear to another. Some diver propulsion vehicles and remotely operated underwater vehicles use magnetic coupling to transfer torque from the electric motor to the prop. Magnetic gearing is also being explored for use in utility scale wind turbines as a means of enhancing reliability. The magnetic coupling has several advantages over a traditional stuffing box.
+
+
+== Uses ==
+Devices that use inductive coupling include:
+Transformers
+Electric motors and generators
+Induction loop communication systems
+Metal detectors
+Graphics tablet
+Radio Frequency Identification
+Electronic article surveillance tags to prevent theft (most types).
+Inductive Modems
+Resonant inductive coupling
+Inductive charging products charge batteries using inductive coupling, such as eCoupled; Torches, Cochlear Implants and many electric toothbrushes.
+Induction cookers and induction heating systems
+
+
+== Low frequency induction ==
+Low frequency induction is an unwanted form of inductive coupling, which can occur when a metallic pipeline is installed parallel to a high-voltage power line. The pipeline, which is a conductor, and is insulated from the earth by its protective coating, can develop voltages which are hazardous to personnel operating valves or otherwise contacting the pipeline.
+
+
+== References ==

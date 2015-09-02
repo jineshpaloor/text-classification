@@ -1,0 +1,60 @@
+Overvoltage
+When the voltage in a circuit or part of it is raised above its upper design limit, this is known as overvoltage. The conditions may be hazardous. Depending on its duration, the overvoltage event can be transient—a voltage spike—or permanent, leading to a power surge.
+
+
+== Explanation ==
+
+Electronic and electrical devices are designed to operate at a certain maximum supply voltage, and considerable damage can be caused by voltage that is higher than that for which the devices are rated.
+For example an electric light bulb has a wire in it that at the given rated voltage will carry a current just large enough for the wire to get very hot (giving off light and heat), but not hot enough for it to melt. The amount of current in a circuit depends on the voltage supplied: if the voltage is too high, then the wire may melt and the light bulb would have "burned out". Similarly other electrical devices may stop working, or may even burst into flames if an overvoltage is delivered to the circuit.
+
+
+== Sources ==
+
+
+=== Natural ===
+A typical natural source of transient overvoltage events is lightning. Bursts of solar wind following solar flares are also known to cause overvoltage in electrical circuits, especially onboard space satellites.
+
+
+=== Man made ===
+Man-made sources of spikes are usually caused by electromagnetic induction when switching on or off inductive loads (such as electric motors or electromagnets), or by switching heavy resistive AC loads when zero-crossing circuitry is not used - anywhere a large change of current takes place. One of the purposes of electromagnetic compatibility compliance is to eliminate such sources.
+An important potential source of dangerous overvoltage is electronic warfare. There is intensive military research in this field, whose goal is to produce various transient electromagnetic devices designed to generate electromagnetic pulses that will disable an enemy's electronic equipment. A recent military development is that of the exploding capacitor designed to radiate a high voltage electromagnetic pulse. Another intense source of an electromagnetic pulse is a nuclear explosion.
+
+
+== Conduction path ==
+The transient pulses can get into the equipment either by power or data lines, or directly through space from a strong electromagnetic field change - an electromagnetic pulse (EMP). Filters are used to prevent spikes entering or leaving the equipment through wires, and the devices coupled electromagnetically to space (such as radio-frequency pick-up coils in MRI scanners) are protected by shielding.
+
+
+== Overvoltage protection devices ==
+arcing horns
+avalanche diode
+gas filled tube
+lightning rod
+Metal Oxide Varistor
+SiBar Thyristor
+spark gap
+Transil
+Trisil
+Zener diode
+
+
+== See also ==
+
+Overvolting
+Crowbar (circuit)
+Uninterruptible power supply
+Transient (oscillation)
+Voltage spike
+Surge suppressor
+Electronic warfare
+Electronic countermeasures
+
+Electromagnetic pulse
+Transient electromagnetic device
+Lightning
+Electrostatic discharge
+Electromagnetic shielding
+Undervoltage-Lockout
+
+
+== External links ==
+Overvoltage protection

@@ -1,0 +1,93 @@
+Load management
+Load management, also known as demand side management (DSM), is the process of balancing the supply of electricity on the network with the electrical load by adjusting or controlling the load rather than the power station output. This can be achieved by direct intervention of the utility in real time, by the use of frequency sensitive relays triggering the circuit breakers (ripple control), by time clocks, or by using special tariffs to influence consumer behavior. Load management allows utilities to reduce demand for electricity during peak usage times, which can, in turn, reduce costs by eliminating the need for peaking power plants. In addition, peaking power plants also often require hours to bring on-line, presenting challenges should a plant go off-line unexpectedly. Load management can also help reduce harmful emissions, since peaking plants or backup generators are often dirtier and less efficient than base load power plants. New load-management technologies are constantly under development — both by private industry and public entities.
+
+
+== Brief history ==
+In 1972, Theodore George “Ted” Paraskevakos, while working for Boeing in Huntsville, Alabama, developed a sensor monitoring system which used digital transmission for security, fire, and medical alarm systems as well as meter-reading capabilities for all utilities. This technology was a spin-off of his patented automatic telephone line identification system, now known as caller ID. In, 1974, Mr. Paraskevakos was awarded a U.S. Patent for this technology.
+At the request of the Alabama Power Company, Mr. Paraskevakos developed a load-management system along with automatic meter-reading technology. In doing so, he utilized the ability of the system to monitor the speed of the watt power meter disc and, consequently, power consumption. This information, along with the time of day, gave the power company the ability to instruct individual meters to manage water heater and air conditioning consumption in order to prevent peaks in usage during the high consumption portions of the day. For this approach, Mr. Paraskevakos was awarded multiple patents.
+
+
+== Advantages and operating principles ==
+Since electrical energy is a form of energy that cannot be effectively stored in bulk, it must be generated, distributed, and consumed immediately. When the load on a system approaches the maximum generating capacity, network operators must either find additional supplies of energy or find ways to curtail the load, hence load management. If they are unsuccessful, the system will become unstable and blackouts can occur.
+Long-term load management planning may begin by building sophisticated models to describe the physical properties of the distribution network (i.e. topology, capacity, and other characteristics of the lines), as well as the load behavior. The analysis may include scenarios that account for weather forecasts, the predicted impact of proposed load-shed commands, estimated time-to-repair for off-line equipment, and other factors.
+The utilization of load management can help a power plant achieve a higher capacity factor, a measure of average capacity utilization. Capacity factor is a measure of the output of a power plant compared to the maximum output it could produce. Capacity factor is often defined as the ratio of average load to capacity or the ratio of average load to peak load in a period of time. A higher load factor is advantageous because a power plant may be less efficient at low load factors, a high load factor means fixed costs are spread over more kWh of output (resulting in a lower price per unit of electricity), and a higher load factor means greater total output. If the power load factor is affected by non-availability of fuel, maintenance shut-down, unplanned breakdown, or reduced demand (as consumption pattern fluctuate throughout the day), the generation has to be adjusted, since grid energy storage is often prohibitively expensive.
+Smaller utilities that buy power instead of generating their own find that they can also benefit by installing a load control system. The penalties they must pay to the energy provider for peak usage can be significantly reduced. Many report that a load control system can pay for itself in a single season.
+
+
+== Comparisons to demand response ==
+When the decision is made to curtail load, it is done so on the basis of system reliability. The utility in a sense "owns the switch" and sheds loads only when the stability or reliability of the electrical distribution system is threatened. The utility (being in the business of generating, transporting, and delivering electricity) will not disrupt their business process without due cause. Load management, when done properly, is non-invasive, and imposes no hardship on the consumer. The load should be shifted to off peak hours.
+Demand response places the "on-off switch" in the hands of the consumer using devices such as a smart grid controlled load control switch. While many residential consumers pay a flat rate for electricity year-round, the utility's costs actually vary constantly, depending on demand, the distribution network, and composition of the company's electricity generation portfolio. In a free market, the wholesale price of energy varies widely throughout the day. Demand response programs such as those enabled by smart grids attempt to incentivize the consumer to limit usage based upon cost concerns. As costs rise during the day (as the system reaches peak capacity and more expensive peaking power plants are used), a free market economy should allow the price to rise. A corresponding drop in demand for the commodity should meet a fall in price. While this works for predictable shortages, many crises develop within seconds due to unforeseen equipment failures. They must be resolved in the same time-frame in order to avoid a power blackout. Many utilities who are interested in demand response have also expressed an interest in load control capability so that they might be able to operate the "on-off switch" before price updates could be published to the consumers.
+The application of load control technology continues to grow today with the sale of both radio frequency and powerline communication based systems. Certain types of smart meter systems can also serve as load control systems.
+The largest residential load control system in the world is found in Florida and is managed by Florida Power and Light. It utilizes 800,000 load control transponders (LCTs) and controls 1,000 MW of electrical power (2,000 MW in an emergency). FPL has been able to avoid the construction of numerous new power plants due to their load management programs.
+
+
+== Ripple control ==
+Ripple control is the most common form of load control, and is used in many countries around the world, including Australia, New Zealand, the United Kingdom, Germany, the Netherlands, and South Africa. Ripple control involves superimposing a higher-frequency signal (usually between 100 and 1600 Hz) onto the standard 50–60 Hz of the main power signal. When receiver devices attached to non-essential residential or industrial loads receive this signal, they shut down the load until the signal is disabled or another frequency signal is received.
+Early implementations of ripple control occurred during World War II in various parts of the world using a system that communicates over the electrical distribution system. Ripple control systems are generally paired with a two- (or more) tiered pricing system, whereby electricity is more expensive during peak times (evenings) and cheaper during low-usage times (early morning).
+Affected residential devices will vary by region, but may include residential electric hot-water heaters, air conditioners, pool pumps, or crop-irrigation pumps. In a distribution network outfitted with load control, these devices are outfitted with communicating controllers that can run a program that limits the duty cycle of the equipment under control. Consumers are usually rewarded for participating in the load control program by paying a reduced rate for energy. Proper load management by the utility allows them to practice load shedding to avoid rolling blackouts and reduce costs.
+
+
+== Examples of schemes ==
+In many countries, including United States, United Kingdom and France, the power grids routinely use privately held, emergency diesel generators in load management schemes
+
+
+=== New Zealand ===
+
+Since the 1950s, New Zealand has had a system of load management based on ripple control, allowing the electricity supply for domestic and commercial water storage heaters to be switched off and on, as well as allowing remote control of nightstore heaters and street lights. Ripple injection equipment located within each local distribution network signals to ripple control receivers at the customer's premises. Control may either done manually by the local distribution network company in response to local outages or requests to reduce demand from the transmission system operator (i.e. Transpower), or automatically when injection equipment detects mains frequency falling below 49.2 Hz. Ripple control receivers are assigned to one of several ripple channels to allow the network company to only turn off supply on part of the network, and to allow staged restoration of supply to reduce the impact of a surge in demand when power is restored to water heaters after a period of time off.
+Depending on the area, the consumer may have two electricity meters, one for normal supply ("Anytime") and one for the load-managed supply ("Controlled"), with Controlled supply billed at a lower rate per kilowatt-hour than Anytime supply. For those with load-managed supply but only a single meter, electricity is billed at the "Composite" rate, priced between Anytime and Controlled.
+
+
+=== France ===
+France has an EJP tariff, which allows it to disconnect certain loads and to encourage consumers to disconnect certain loads. This tariff is no longer available for new clients (as of July 2009). The Tempo tariff also includes different types of days with different prices, but has been discontinued for new clients as well (as of July 2009). Reduced prices during nighttime are available for customers for a higher monthly fee.
+
+
+=== United Kingdom ===
+
+Rltec in the UK in 2009 reported that domestic refrigerators are being sold fitted with their dynamic load response systems. In 2011 it was announced that the Sainsbury supermarket chain will use dynamic demand technology on their heating and ventilation equipment.
+In the UK, night storage heaters are used to increase the load by about 5 GW to accommodate the nuclear programme. There is also a programme that allows industrial loads to be disconnected using circuit breakers triggered automatically by frequency sensitive relays fitted on site. This operates in conjunction with Standing Reserve, a programme using diesel generators.
+These can also be remotely switched using BBC Radio 4 Longwave Radio teleswitch.
+
+
+=== Germany ===
+Existing storage heaters in Germany are charged up with a lower tariff electricity, mainly during night and afternoon hours. The switch and the two-tariff electricity meter are remotely controlled, using either ripple control through the powerline or the European radio teleswitching system based on longwave radio signals.
+
+
+== See also ==
+Energy management system
+National Grid (Great Britain): Estimating costs per kWh of transmission
+Calculating the cost of back up: See spark spread
+Energy in the United Kingdom
+National Grid Reserve Service
+Cost of electricity by source
+Diesel-electric transmission
+Motor–generator
+Three-phase electric power
+Load bank
+Wet stacking
+
+
+== References ==
+^ Example of largest load management system developed by private industry
+^ US Dept. Of Energy, Office of Electricity Delivery and Electricity Reliability
+^ Analysis of current US DOE Projects Archived July 17, 2011 at the Wayback Machine
+^ U.S. Patent #3,842,208 (Sensor Monitoring Device)
+^ U.S. Patents 4,241,237, 4,455,453 and 7,940,901 (Remote Management of Products and Services) as well as Canadian Patent 1,155,243 (Apparatus and Method for Remote Sensor Monitoring, Metering and Control)
+^ N. A. Sinitsyn. S. Kundu, S. Backhaus (2013). "Safe Protocols for Generating Power Pulses with Heterogeneous Populations of Thermostatically Controlled Loads". Energy Conversion and Management 67: 297–308. arXiv:1211.0248. doi:10.1016/j.enconman.2012.11.021. 
+^ Michael Andreolas (February 2004). "Mega Load Management System Pays Dividends". Retrieved 21 June 2011. 
+^ "FPL Files Proposal to Enhance Energy Conservation Programs". May 2006. Retrieved 21 June 2011. 
+^ Jean Marie Polard. "The Remote Control Frequencies". Retrieved 21 June 2011. 
+^ Claverton Energy experts library Archived February 17, 2010 at the Wayback Machine
+^ Claverton Energy Experts Archived July 8, 2011 at the Wayback Machine
+^ (French) EDF EPJ
+^ (French) EDF Tempo
+^ (French) EDF Price grid
+^ News/media/downloads | Dynamic Demand, Smart Grid solutions, energy balancing
+^ Commercial Opportunities for Back-Up Generation and Load Reduction via National Grid, the National Electricity Transmission System Operator (NETSO) for England, Scotland, Wales and Offshore.
+^ EFR - Energy management via radio Archived July 20, 2011 at the Wayback Machine
+
+
+== External links ==
+Load Manager for automotive applications
+Distributed Energy Resources Customer Adoption Model (DER-CAM)
+Center for Energy and innovative Technologies
+All about ripple control in the Netherlands. Ales over Toonfrequent in Nederland

@@ -1,0 +1,12 @@
+Linear alternator
+A linear alternator is essentially a linear motor used as an electrical generator.
+An alternator is a type of alternating current (AC) electrical generator. The devices are often physically equivalent. The principal difference is in how they are used and which direction the energy flows. An alternator converts mechanical energy to electrical energy, whereas a motor converts electrical energy to mechanical energy. Like most electric motors and electric generators, the linear alternator works by the principle of electromagnetic induction. However, most alternators work with rotary motion, whereas "linear" alternators work with "linear" motion (i.e. motion in a straight line).
+
+
+== Theory ==
+When a magnet moves in relation to an electromagnetic coil, this changes the magnetic flux passing through the coil, and thus induces the flow of an electric current, which can be used to do work. A linear alternator is most commonly used to convert back-and-forth motion directly into electrical energy. This short-cut eliminates the need for a crank or linkage that would otherwise be required to convert a reciprocating motion to a rotary motion in order to be compatible with a rotary generator.
+
+
+== Applications ==
+The simplest type of linear alternator is the Faraday Flashlight. This is a torch (UK) or flashlight (USA) which contains a coil and a permanent magnet. When the appliance is shaken back and forth, the magnet oscillates through the coil and induces an electric current. This current is used to charge a capacitor, thus storing energy for later use. The appliance can then produce light, usually from a light-emitting diode, until the capacitor is discharged. It can then be re-charged by further shaking.
+Other devices which use linear alternators to generate electricity include the free-piston linear generator, an internal combustion engine, and the free-piston Stirling engine, an external combustion engine.

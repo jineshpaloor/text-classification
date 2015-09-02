@@ -1,0 +1,40 @@
+Polarity (mutual inductance)
+The polarity of a device with mutual inductance designates the relative instantaneous current directions of such device's winding leads.
+A dot marking convention, or alphanumeric marking convention, or both, can be used to denote the same relative instantaneous polarity of two mutually inductive components such as between transformer windings. These markings may be found on transformer cases beside terminals, winding leads, nameplates, schematic and wiring diagrams.
+Leads of primary and secondary windings are said be of the same polarity when instantaneous current entering the primary winding lead results in instantaneous current leaving the secondary winding lead as though the two leads were a continuous circuit.
+
+
+== Transformer windings ==
+Two methods are commonly used to denote which terminals present the same relative polarity. A dot may be used, or an alphanumeric designation. Alphanumeric designations are typically in the form H1 for primaries, and for secondaries, X1, (and Y1, Z1, if more windings present).
+Unlike single-phase transformers, three-phase transformers may incorporate a phase shift due to different winding configurations resulting in a multiple of 30 degree phase shift between H1 and X1 bushing designations.
+
+
+== Terminal layout conventions ==
+Referring to the circuit diagrams below:
+The circuit polarity signs '+' and '-' indicate example applied and resultant, relative voltage polarities.
+The instantaneous polarities of the voltages across each inductor with respect to the dotted terminals are the same.
+The circuit arrows indicate example applied and resultant relative current directions.
+The instantaneous directions of the current entering the primary inductor at its dotted end and the current leaving of the secondary inductor at its dotted end are the same.
+Subtractive polarity transformer designs are shown in the upper circuit diagrams. Additive polarity transformer designs are shown in the lower circuit diagrams.
+
+
+== Autotransformers ==
+If two mutually coupled inductors are in series, the dot convention can be used in the same manner as in the case of autotransformers. Relative polarity in autotransformer drawings is usually quite obvious by physical placement of the windings in circuit drawings.
+
+
+== See also ==
+Electrical polarity
+Instrument transformer
+
+
+== References ==
+
+
+== Bibliography ==
+Alexander, Charles (2009). Fundamentals of electric circuits. McGraw-Hill. ISBN 0073529559.  
+ANSI/IEEE C57.13, American National Standard Requirements for Instrument Transformers
+Brenner, Egon; Javid, Mansour (1959). "§18.1 'Symbols and Polarity of Mutual Inductance' in Chapter 18 - Circuits with Magnetic Circuits". Analysis of Electric Circuits. McGraw-Hill. pp. 589–590.  
+Boylestad, Robert L. (2003). "Section 21.8: Series connection of mutually coupled coils". Introductory Circuit Analysis (10th ed.). Prentice Hall. p. 954. ISBN 0-13-097417-X. 
+Knowlton, A.E. (Ed.) (1949). Standard Handbook for Electrical Engineers (8th ed.). McGraw-Hill. p. 552, §6-15 & p. 606, §6-162. 
+Kothari, D.P.; Nagrath, I.J. (2010). §3.7 'Transformer Testing' in Chapter 3 - Transformers (4th ed.). Tata McGraw-Hill. p. 73. ISBN 978-0-07-069967-0.  
+Parker, M. R; Ula, S.; Webb, W. E. (2005). "§2.5.5 'Transformers' & §10.1.3 'The Ideal Transformer'". In Whitaker, Jerry C. The Electronics Handbook (2nd ed.). Taylor & Francis. pp. 172, 1017. ISBN 0-8493-1889-0.

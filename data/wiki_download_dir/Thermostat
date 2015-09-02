@@ -1,0 +1,164 @@
+Thermostat
+A thermostat is a component of a HVAC control system which senses the temperature of a system so that the system's temperature is maintained near a desired setpoint. The thermostat does this by switching heating or cooling devices on or off, or regulating the flow of a heat transfer fluid as needed, to maintain the correct temperature.
+A thermostat may be a control unit for a heating or cooling system or a component part of or air conditioner. Thermostats can be constructed in many ways and may use a variety of sensors to measure the temperature. The output of the sensor then controls the heating or cooling apparatus. A thermostat may switch on and off at temperatures either side of the setpoint. This prevents equipment damage from frequent switching. Thermostats are also used in many household appliances.
+A thermostat is an instance of a "bang-bang controller" as the heating or cooling system output is not proportional to the difference between actual temperature and the set temperature; the equipment runs at full capacity until the set temperature is reached, then shuts off. Increasing the difference between the thermostat setting and the desired temperature therefore does not shorten the time to achieve the desired temperature.
+The term is derived from the Greek words θερμός thermos, "hot" and στατός statos, "standing, stationary".
+
+
+== Sensor types ==
+Early technologies included mercury thermometers with electrodes inserted directly through the glass, so that when a certain (fixed) temperature was reached the contacts would be closed by the mercury. These were accurate to within a degree of temperature.
+Common sensor technologies in use today include:
+Bimetallic mechanical or electrical sensors.
+Expanding wax pellets
+Electronic thermistors and semiconductor devices
+Electrical thermocouples
+These may then control the heating or cooling apparatus using:
+Direct mechanical control
+Electrical signals
+Pneumatic signals
+
+
+== History ==
+Possibly the earliest recorded examples of thermostat control were built by the Dutch innovator Cornelis Drebbel around 1620 in England. He invented a mercury thermostat to regulate the temperature of a chicken incubator. This is one of the first recorded feedback-controlled devices.
+Modern thermostat control was developed in the 1830s by Andrew Ure, a Scottish chemist, who invented the bi-metallic thermostat. The textile mills of the time needed a constant and steady temperature to operate optimally, so to achieve this, Ure designed the bimetallic thermostat, which would bend as one of the metals expanded in response to the increased temperature and cut off the energy supply.
+The first electric room thermostat was invented in 1883 by Warren S. Johnson of Wisconsin. Albert Butz invented the electric thermostat and patented it in 1886.
+One of the first industrial uses of the thermostat was in the regulation of the temperature in poultry incubators. Charles Hearson, a British engineer, designed the first modern incubator for eggs that was taken up for use on poultry farms in 1879. The incubators incorporated an accurate thermostat to regulate the temperature so as to precisely simulate the experience of an egg being hatched naturally.
+
+
+== Mechanical thermostats ==
+This covers only devices which both sense and control using purely mechanical means.
+
+
+=== Bimetal ===
+Domestic water and steam based central heating systems have traditionally been controlled by bi-metallic strip thermostats, and this is dealt with later in this article. Purely mechanical control has been localised steam or hot-water radiator bi-metallic thermostats which regulated the individual flow. However, Thermostatic Radiator Valves (TRV) are now being widely used.
+Purely mechanical thermostats are used to regulate dampers in some rooftop turbine vents, reducing building heat loss in cool or cold periods.
+Some automobile passenger heating systems have a thermostatically controlled valve to regulate the water flow and temperature to an adjustable level. In older vehicles the thermostat controls the application of engine vacuum to actuators that control water valves and flappers to direct the flow of air. In modern vehicles, the vacuum actuators may be operated by small solenoids under the control of a central computer.
+
+
+=== Wax pellet ===
+
+
+==== Automotive ====
+
+Perhaps the most common example of purely mechanical thermostat technology in use today is the internal combustion engine cooling system thermostat, used to maintain the engine near its optimum operating temperature by regulating the flow of coolant to an air-cooled radiator. This type of thermostat operates using a sealed chamber containing a wax pellet that melts and expands at a set temperature. The expansion of the chamber operates a rod which opens a valve when the operating temperature is exceeded. The operating temperature is determined by the composition of the wax. Once the operating temperature is reached, the thermostat progressively increases or decreases its opening in response to temperature changes, dynamically balancing the coolant recirculation flow and coolant flow to the radiator to maintain the engine temperature in the optimum range.
+On many automobile engines, including all Chrysler Group and General Motors products, the thermostat does not restrict flow to the heater core. The passenger side tank of the radiator is used as a bypass to the thermostat, flowing through the heater core. This prevents formation of steam pockets before the thermostat opens, and allows the heater to function before the thermostat opens. Another benefit is that there is still some flow through the radiator if the thermostat fails.
+
+
+==== Shower and other hot water controls ====
+A thermostatic mixing valve uses a wax pellet to control the mixing of hot and cold water. A common application is to permit operation of an electric water heater at a temperature hot enough to kill Legionella bacteria (above 60 °C (140 °F)), while the output of the valve produces water that is cool enough to not immediately scald (49 °C (120 °F)).
+
+
+=== Gas expansion ===
+Thermostats are sometimes used to regulate gas ovens. It consists of a gas-filled bulb connected to the control unit by a slender copper tube. The bulb is normally located at the top of the oven. The tube ends in a chamber sealed by a diaphragm. As the thermostat heats up, the gas expands applying pressure to the diaphragm which reduces the flow of gas to the burner.
+
+
+=== Pneumatic thermostats ===
+A pneumatic thermostat is a thermostat that controls a heating or cooling system via a series of air-filled control tubes. This "control air" system responds to the pressure changes (due to temperature) in the control tube to activate heating or cooling when required. The control air typically is maintained on "mains" at 15-18psi (although usually operable up to 20 psi). Pneumatic thermostats typically provide output/ branch/ post-restrictor(for single-pipe operation) pressures of 3-15psi which is piped to the end device (valve/ damper actuator/ Pneumatic-Electric switch, etc.).
+The pneumatic thermostat was invented by Warren Johnson in 1895 soon after he invented the electric thermostat. In 2009, Harry Sim was awarded a patent for a pneumatic-to-digital interface that allows pneumatically controlled buildings to be integrated with building automation systems to provide similar benefits as DDC.
+
+
+== Electrical and analog electronic thermostats ==
+
+
+=== Bimetallic switching thermostats ===
+
+Water and steam based central heating systems have traditionally had overall control by wall-mounted bi-metallic strip thermostats. These sense the air temperature using the differential expansion of two metals to actuate an on/off switch. Typically the central system would be switched on when the temperature drops below the set point on the thermostat, and switched off when it rises above, with a few degrees of hysteresis to prevent excessive switching. Bi-metallic sensing is now being superseded by electronic sensors. A principal use of the bi-metallic thermostat today is in individual electric convection heaters, where control is on/off, based on the local air temperature and the set point desired by the user. These are also used on air-conditioners, where local control is required.
+
+
+=== Simple two wire thermostats ===
+
+The illustration is the interior of a common two wire heat-only household thermostat, used to regulate a gas-fired heater via an electric gas valve. Similar mechanisms may also be used to control oil furnaces, boilers, boiler zone valves, electric attic fans, electric furnaces, electric baseboard heaters, and household appliances such as refrigerators, coffee pots and hair dryers. The power through the thermostat is provided by the heating device and may range from millivolts to 240 volts in common North American construction, and is used to control the heating system either directly (electric baseboard heaters and some electric furnaces) or indirectly (all gas, oil and forced hot water systems). Due to the variety of possible voltages and currents available at the thermostat, caution must be taken when selecting a replacement device.
+Set point control lever. This is moved to the right for a higher temperature. The round indicator pin in the center of the second slot shows through a numbered slot in the outer case.
+Bimetallic strip wound into a coil. The center of the coil is attached to a rotating post attached to lever (1). As the coil gets colder the moving end — carrying (4) — moves clockwise.
+Flexible wire. The left side is connected via one wire of a pair to the heater control valve.
+Moving contact attached to the bimetal coil. Thence, to the heater's controller.
+Magnet. This ensures a good contact when the contact closes. It also provides hysteresis to prevent short heating cycles, as the temperature must be raised several degrees before the contacts will open. As an alternative, some thermostats instead use a mercury switch on the end of the bimetal coil. The weight of the mercury on the end of the coil tends to keep it there, also preventing short heating cycles. However, this type of thermostat is banned in many countries due to its highly and permanently toxic nature if broken. When replacing these thermostats they must be regarded as chemical waste.
+Fixed contact screw. This is adjusted by the manufacturer. It is connected electrically by a second wire of the pair to the thermocouple and the heater's electrically operated gas valve.
+Not shown in the illustration is a separate bimetal thermometer on the outer case to show the actual temperature at the thermostat.
+
+
+==== Millivolt thermostats ====
+As illustrated in the use of the thermostat above, all of the power for the control system is provided by a thermopile which is a combination of many stacked thermocouples, heated by the pilot light. The thermopile produces sufficient electrical power to drive a low-power gas valve, which under control of one or more thermostat switches, in turn controls the input of fuel to the burner.
+This type of device is generally considered obsolete as pilot lights can waste a surprising amount of gas (in the same way a dripping faucet can waste a large amount of water over an extended period), and are also no longer used on stoves, but are still to be found in many gas water heaters and gas fireplaces. Their poor efficiency is acceptable in water heaters, since most of the energy "wasted" on the pilot still represents a direct heat gain for the water tank. The Millivolt system also makes it unnecessary for a special electrical circuit to be run to the water heater or furnace; these systems are often completely self-sufficient and can run without any external electrical power supply. For tankless "on demand" water heaters, pilot ignition is preferable because it is faster than hot-surface ignition and more reliable than spark ignition.
+Some programmable thermostats - those that offer simple "millivolt" or "two-wire" modes - will control these systems.
+
+
+==== 24 volt thermostats ====
+The majority of modern heating/cooling/heat pump thermostats operate on low voltage (typically 24 volts AC) control circuits. The source of the 24 volt AC power is a control transformer installed as part of the heating/cooling equipment. The advantage of the low voltage control system is the ability to operate multiple electromechanical switching devices such as relays, contactors, and sequencers using inherently safe voltage and current levels. Built into the thermostat is a provision for enhanced temperature control using anticipation. A heat anticipator generates a small amount of additional heat to the sensing element while the heating appliance is operating. This opens the heating contacts slightly early to prevent the space temperature from greatly overshooting the thermostat setting. A mechanical heat anticipator is generally adjustable and should be set to the current flowing in the heating control circuit when the system is operating. A cooling anticipator generates a small amount of additional heat to the sensing element while the cooling appliance is not operating. This causes the contacts to energize the cooling equipment slightly early, preventing the space temperature from climbing excessively. Cooling anticipators are generally non-adjustable.
+Electromechanical thermostats use resistance elements as anticipators. Most electronic thermostats use either thermistor devices or integrated logic elements for the anticipation function. In some electronic thermostats, the thermistor anticipator may be located outdoors, providing a variable anticipation depending on the outdoor temperature. Thermostat enhancements include outdoor temperature display, programmability, and system fault indication. While such 24 volt thermostats are incapable of operating a furnace when the mains power fails, most such furnaces require mains power for heated air fans (and often also hot-surface or electronic spark ignition) rendering moot the functionality of the thermostat. In other circumstances such as piloted wall and "gravity" (fanless) floor and central heaters the low voltage system described previously may be capable of remaining functional when electrical power is unavailable.
+There are no standards for wiring color codes, but convention has settled on the following terminal codes and colors. In all cases, the manufacturer's instructions should be considered definitive.
+
+
+==== Line voltage thermostats ====
+Line voltage thermostats are most commonly used for electric space heaters such as a baseboard heater or a direct-wired electric furnace. If a line voltage thermostat is used, system power (in the United States, 120 or 240 volts) is directly switched by the thermostat. With switching current often exceeding 40 amperes, using a low voltage thermostat on a line voltage circuit will result at least in the failure of the thermostat and possibly a fire. Line voltage thermostats are sometimes used in other applications, such as the control of fan-coil (fan powered from line voltage blowing through a coil of tubing which is either heated or cooled by a larger system) units in large systems using centralized boilers and chillers, or to control circulation pumps in hydronic heating applications.
+Some programmable thermostats are available to control line-voltage systems. Baseboard heaters will especially benefit from a programmable thermostat which is capable of continuous control (as are at least some Honeywell models), effectively controlling the heater like a lamp dimmer, and gradually increasing and decreasing heating to ensure an extremely constant room temperature (continuous control rather than relying on the averaging effects of hysteresis). Systems which include a fan (electric furnaces, wall heaters, etc.) must typically use simple on/off controls.
+
+
+== Digital electronic thermostats ==
+
+Newer digital thermostats have no moving parts to measure temperature and instead rely on thermistors or other semiconductor devices such as a resistance thermometer (resistance temperature detector). Typically one or more regular batteries must be installed to operate it, although some so-called "power stealing" digital thermostats use the common 24 volt AC circuits as a power source, but will not operate on thermopile powered "millivolt" circuits used in some furnaces. Each has an LCD screen showing the current temperature, and the current setting. Most also have a clock, and time-of-day and even day-of-week settings for the temperature, used for comfort and energy conservation. Some advanced models have touch screens, or the ability to work with home automation or building automation systems.
+Digital thermostats use either a relay or a semiconductor device such as triac to act as switch to control the HVAC unit. Units with relays will operate millivolt systems, but often make an audible "click" noise when switching on or off.
+More expensive models have a built-in PID controller, so that the thermostat knows ahead how the system will react to its commands. For instance, setting it up that temperature in the morning at 7 a.m. should be 21 °C, makes sure that at that time the temperature will be 21 °C, where a conventional thermostat would just start working at that time. The PID controller decides at what time the system should be activated in order to reach the desired temperature at the desired time. It also makes sure that the temperature is very stable (for instance, by reducing overshoots).
+Most digital thermostats in common residential use in North America and Europe are programmable thermostats, which will typically provide a 30% energy savings if left with their default programs; adjustments to these defaults may increase or reduce energy savings. The programmable thermostat article provides basic information on the operation, selection and installation of such a thermostat.
+
+
+== Thermostats and HVAC operation ==
+
+
+=== Ignition sequences in modern conventional systems ===
+Gas
+
+Start drafting fan (if the furnace is relatively recent) to create a column of air flowing up the chimney
+Heat ignitor or start spark-ignition system
+Open gas valve to ignite main burners
+Wait (if furnace is relatively recent) until the heat exchanger is at proper operating temperature before starting main blower fan or circulator pump
+
+Oil
+
+Similar to gas, except rather than opening a valve, the furnace will start an oil pump to inject oil into the burner
+
+Electric
+
+The blower fan or circulator pump will be started, and a large electromechanical relay or TRIAC will turn on the heating elements
+
+Coal (including grains such as corn, wheat, and barley, or pellets made of wood, bark, or cardboard)
+
+Generally rare today (though grains and pellets are increasing in popularity); similar to gas, except rather than opening a valve, the furnace will start a screw to drive coal/grain/pellets into the firebox
+
+With non-zoned (typical residential, one thermostat for the whole house) systems, when the thermostat's R (or Rh) and W terminals are connected, the furnace will go through its start-up procedure and produce heat.
+With zoned systems (some residential, many commercial systems — several thermostats controlling different "zones" in the building), the thermostat will cause small electric motors to open valves or dampers and start the furnace or boiler if it's not already running.
+Most programmable thermostats will control these systems.
+
+
+=== Combination heating/cooling regulation ===
+Depending on what is being controlled, a forced-air air conditioning thermostat generally has an external switch for heat/off/cool, and another on/auto to turn the blower fan on constantly or only when heating and cooling are running. Four wires come to the centrally-located thermostat from the main heating/cooling unit (usually located in a closet, basement, or occasionally in the attic): One wire usually red, supplies 24 volts AC power to the thermostat, while the other three supply control signals from the thermostat, usually white for heat, yellow for cooling, and green to turn on the blower fan. The power is supplied by a transformer, and when the thermostat makes contact between the 24 volt power and one or two of the other wires, a relay back at the heating/cooling unit activates the corresponding heat/fan/cool function of the unit(s).
+A thermostat, when set to "cool", will only turn on when the ambient temperature of the surrounding room is above the set temperature. Thus, if the controlled space has a temperature normally above the desired setting when the heating/cooling system is off, it would be wise to keep the thermostat set to "cool", despite what the temperature is outside. On the other hand, if the temperature of the controlled area falls below the desired degree, then it is advisable to turn the thermostat to "heat".
+
+
+=== Heat pump regulation ===
+
+The heat pump is a refrigeration based appliance which reverses refrigerant flow between the indoor and outdoor coils. This is done by energizing a reversing valve (also known as a "4-way" or "change-over" valve). During cooling, the indoor coil is an evaporator removing heat from the indoor air and transferring it to the outdoor coil where it is rejected to the outdoor air. During heating, the outdoor coil becomes the evaporator and heat is removed from the outdoor air and transferred to the indoor air through the indoor coil. The reversing valve, controlled by the thermostat, causes the change-over from heat to cool. Residential heat pump thermostats generally have an "O" terminal to energize the reversing valve in cooling. Some residential and many commercial heat pump thermostats use a "B" terminal to energize the reversing valve in heating. The heating capacity of a heat pump decreases as outdoor temperatures fall. At some outdoor temperature (called the balance point) the ability of the refrigeration system to transfer heat into the building falls below the heating needs of the building. A typical heat pump is fitted with electric heating elements to supplement the refrigeration heat when the outdoor temperature is below this balance point. Operation of the supplemental heat is controlled by a second stage heating contact in the heat pump thermostat. During heating, the outdoor coil is operating at a temperature below the outdoor temperature and condensation on the coil may take place. This condensation may then freeze onto the coil, reducing its heat transfer capacity. Heat pumps therefore have a provision for occasional defrost of the outdoor coil. This is done by reversing the cycle to the cooling mode, shutting off the outdoor fan, and energizing the electric heating elements. The electric heat in defrost mode is needed to keep the system from blowing cold air inside the building. The elements are then used in the "reheat" function. Although the thermostat may indicate the system is in defrost and electric heat is activated, the defrost function is not controlled by the thermostat. Since the heat pump has electric heat elements for supplemental and reheats, the heat pump thermostat provides for use of the electric heat elements should the refrigeration system fail. This function is normally activated by an "E" terminal on the thermostat. When in emergency heat, the thermostat makes no attempt to operate the compressor or outdoor fan.
+
+
+=== Thermostat location ===
+The thermostat should not be located on an outside wall or where it could be exposed to direct sunlight at any time during the day. It should be located away from the room's cooling or heating vents or device, yet exposed to general airflow from the room(s) to be regulated. An open hallway may be most appropriate for a single zone system, where living rooms and bedrooms are operated as a single zone. If the hallway may be closed by doors from the regulated spaces then these should be left open when the system is in use. If the thermostat is too close to the source controlled then the system will tend to "short cycle", and numerous starts and stops can be annoying and in some cases shorten equipment life. A multiple zoned system can save considerable energy by regulating individual spaces, allowing unused rooms to vary in temperature by turning off the heating and cooling.
+
+
+=== Dummy thermostats ===
+It has been reported that many thermostats in office buildings are non-functional dummy devices, installed to give tenants' employees an illusion of control. These dummy thermostats are in effect a type of placebo button. However, these thermostats are often used to detect the temperature in the zone, even though their controls are disabled. This function is often referred to as "lockout".
+
+
+== See also ==
+
+Automatic control
+On-off control
+OpenTherm
+
+
+== References ==
+
+
+== External links ==
+Professional Reference Guide
+"How A Thermostat Tends Your Furnance" 1951 article on the basics of the automatic furnace thermostats—this reference has good drawings and illustrations.
+How the Sun Affects a Thermostat (Energy2D: Online Java Simulation)

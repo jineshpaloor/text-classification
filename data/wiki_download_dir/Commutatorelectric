@@ -1,0 +1,128 @@
+Commutator (electric)
+A commutator is the moving part of a rotary electrical switch in certain types of electric motors and electrical generators that periodically reverses the current direction between the rotor and the external circuit. It consists of a cylinder composed of multiple metal contact segments on the rotating armature of the machine. Two or more stationary electrical contacts called "brushes" made of a soft conductor like carbon press against the commutator, making sliding contact with successive segments of the commutator as it rotates. The windings (coils of wire) on the armature are connected to the commutator segments.
+Commutators are used in direct current (DC) machines: dynamos (DC generators) and many DC motors as well as universal motors. In a motor the commutator applies electric current to the windings. By reversing the current direction in the rotating windings each half turn, a steady rotating force (torque) is produced. In a generator the commutator picks off the current generated in the windings, reversing the direction of the current with each half turn, serving as a mechanical rectifier to convert the alternating current from the windings to unidirectional direct current in the external load circuit. The first direct current commutator-type machine, the dynamo, was built by Hippolyte Pixii in 1832, based on a suggestion by André-Marie Ampère.
+Commutators are relatively inefficient, and also require periodic maintenance such as brush replacement. Therefore, commutated machines are declining in use, being replaced by alternating current (AC) machines, and in recent years by brushless DC motors which use semiconductor switches.
+
+
+== Principle of operation ==
+
+A commutator consists of a set of contact bars fixed to the rotating shaft of a machine, and connected to the armature windings. As the shaft rotates, the commutator reverses the flow of current in a winding. For a single armature winding, when the shaft has made one-half complete turn, the winding is now connected so that current flows through it in the opposite of the initial direction. In a motor, the armature current causes the fixed magnetic field to exert a rotational force, or a torque, on the winding to make it turn. In a generator, the mechanical torque applied to the shaft maintains the motion of the armature winding through the stationary magnetic field, inducing a current in the winding. In both the motor and generator case, the commutator periodically reverses the direction of current flow through the winding so that current flow in the circuit external to the machine continues in only one direction.
+
+
+=== Simplest practical commutator ===
+Practical commutators have at least three contact segments, to prevent a "dead" spot where two brushes simultaneously bridge only two commutator segments. Brushes are made wider than the insulated gap, to ensure that brushes are always in contact with an armature coil. For commutators with at least three segments, although the rotor can potentially stop in a position where two commutator segments touch one brush, this only de-energizes one of the rotor arms while the others will still function correctly. With the remaining rotor arms, a motor can produce sufficient torque to begin spinning the rotor, and a generator can provide useful power to an external circuit.
+
+
+== Ring/segment construction ==
+
+A commutator consists of a set of copper segments, fixed around the part of the circumference of the rotating machine, or the rotor, and a set of spring-loaded brushes fixed to the stationary frame of the machine. Two or more fixed brushes connect to the external circuit, either a source of current for a motor or a load for a generator.
+Commutator segments are connected to the coils of the armature, with the number of coils (and commutator segments) depending on the speed and voltage of the machine. Large motors may have hundreds of segments. Each conducting segment of the commutator is insulated from adjacent segments. Mica was used on early machines and is still used on large machines. Many other insulating materials are used to insulate smaller machines; plastics allow quick manufacture of an insulator, for example. The segments are held onto the shaft using a dovetail shape on the edges or underside of each segment. Insulating wedges around the perimeter of each segment are pressed so that the commutator maintains its mechanical stability throughout its normal operating range. Commutator is used to collect current from armature conductor.
+In small appliance and tool motors the segments are typically crimped permanently in place and cannot be removed. When the motor fails it is discarded and replaced. On large industrial machines (say, from several kilowatts to thousands of kilowatts in rating) it is economical to replace individual damaged segments, and so the end-wedge can be unscrewed and individual segments removed and replaced. Replacing the copper and mica segments is commonly referred to as "refilling". Refillable dovetailed commutators are the most common construction of larger industrial type commutators, but refillable commutators may also be constructed using external bands made of fiberglass (glass banded construction) or forged steel rings (external steel shrink ring type construction and internal steel shrink ring type construction). Disposable, molded type commutators commonly found in smaller DC motors are becoming increasingly more common in larger electric motors. Molded type commutators are not repairable and must be replaced if damaged. In addition to the commonly used heat, torque, and tonnage methods of seasoning commutators, some high performance commutator applications require a more expensive, specific "spin seasoning" process or over-speed spin-testing to guarantee stability of the individual segments and prevent premature wear of the carbon brushes. Such requirements are common with traction, military, aerospace, nuclear, mining, and high speed applications where premature failure can lead to serious negative consequences.
+Friction between the segments and the brushes eventually causes wear to both surfaces. Carbon brushes, being made of a softer material, wear faster and may be designed to be replaced easily without dismantling the machine. Older copper brushes caused more wear to the commutator, causing deep grooving and notching of the surface over time. The commutator on small motors (say, less than a kilowatt rating) is not designed to be repaired through the life of the device. On large industrial equipment, the commutator may be re-surfaced with abrasives, or the rotor may be removed from the frame, mounted in a large metal lathe, and the commutator resurfaced by cutting it down to a smaller diameter. The largest of equipment can include a lathe turning attachment directly over the commutator.
+
+
+== Brush construction ==
+
+Early machines used brushes made from strands of copper wire to contact the surface of the commutator. However, these hard metal brushes tended to scratch and groove the smooth commutator segments, eventually requiring resurfacing of the commutator. As the copper brushes wore away, the dust and pieces of the brush could wedge between commutator segments, shorting them and reducing the efficiency of the device. Fine copper wire mesh or gauze provided better surface contact with less segment wear, but gauze brushes were more expensive than strip or wire copper brushes.
+Modern rotating machines with commutators almost exclusively use carbon brushes, which may have copper powder mixed in to improve conductivity. Metallic copper brushes can be found in toy or very small motors, such as the one illustrated above, and some motors which only operate very intermittently, such as automotive starter motors.
+Motors and generators suffer from a phenomenon known as 'armature reaction', one of the effects of which is to change the position at which the current reversal through the windings should ideally take place as the loading varies. Early machines had the brushes mounted on a ring that was provided with a handle. During operation, it was necessary to adjust the position of the brush ring to adjust the commutation to minimise the sparking at the brushes. This process was known as 'rocking the brushes'.
+Various developments took place to automate the process of adjusting the commutation and minimizing the sparking at the brushes. One of these was the development of 'high resistance brushes', or brushes made from a mixture of copper powder and carbon. Although described as high resistance brushes, the resistance of such a brush was of the order of milliohms, the exact value dependent on the size and function of the machine. Also, the high resistance brush was not constructed like a brush but in the form of a carbon block with a curved face to match the shape of the commutator.
+The high resistance or carbon brush is made large enough that it is significantly wider than the insulating segment that it spans (and on large machines may often span two insulating segments). The result of this is that as the commutator segment passes from under the brush, the current passing to it ramps down more smoothly than had been the case with pure copper brushes where the contact broke suddenly. Similarly the segment coming into contact with the brush has a similar ramping up of the current. Thus, although the current passing through the brush was more or less constant, the instantaneous current passing to the two commutator segments was proportional to the relative area in contact with the brush.
+The introduction of the carbon brush had convenient side effects. Carbon brushes tend to wear more evenly than copper brushes, and the soft carbon causes far less damage to the commutator segments. There is less sparking with carbon as compared to copper, and as the carbon wears away, the higher resistance of carbon results in fewer problems from the dust collecting on the commutator segments.
+The ratio of copper to carbon can be changed for a particular purpose. Brushes with higher copper content perform better with very low voltages and high current, while brushes with a higher carbon content are better for high voltage and low current. High copper content brushes typically carry 150 to 200 amperes per square inch of contact surface, while higher carbon content only carries 40 to 70 amperes per square inch. The higher resistance of carbon also results in a greater voltage drop of 0.8 to 1.0 volts per contact, or 1.6 to 2.0 volts across the commutator.
+
+
+=== Brush holders ===
+
+A spring is typically used with the brush, to maintain constant contact with the commutator. As the brush and commutator wear down, the spring steadily pushes the brush downwards towards the commutator. Eventually the brush wears small and thin enough that steady contact is no longer possible or it is no longer securely held in the brush holder, and so the brush must be replaced.
+It is common for a flexible power cable to be directly attached to the brush, because current flowing through the support spring would cause heating, which may lead to a loss of metal temper and a loss of the spring tension.
+When a commutated motor or generator uses more power than a single brush is capable of conducting, an assembly of several brush holders is mounted in parallel across the surface of the very large commutator.
+This parallel holder distributes current evenly across all the brushes, and permits a careful operator to remove a bad brush and replace it with a new one, even as the machine continues to spin fully powered and under load.
+High power, high current commutated equipment is now uncommon, due to the less complex design of alternating current generators that permits a low current, high voltage spinning field coil to energize high current fixed-position stator coils. This permits the use of very small singular brushes in the alternator design. In this instance, the rotating contacts are continuous rings, called slip rings, and no switching happens.
+Modern devices using carbon brushes usually have a maintenance-free design that requires no adjustment throughout the life of the device, using a fixed-position brush holder slot and a combined brush-spring-cable assembly that fits into the slot. The worn brush is pulled out and a new brush inserted.
+
+
+=== Brush contact angle ===
+
+The different brush types make contact with the commutator in different ways. Because copper brushes have the same hardness as the commutator segments, the rotor cannot be spun backwards against the ends of copper brushes without the copper digging into the segments and causing severe damage. Consequently, strip/laminate copper brushes only make tangential contact with the commutator, while copper mesh and wire brushes use an inclined contact angle touching their edge across the segments of a commutator that can spin in only one direction.
+The softness of carbon brushes permits direct radial end-contact with the commutator without damage to the segments, permitting easy reversal of rotor direction, without the need to reorient the brush holders for operation in the opposite direction. Although never reversed, common appliance motors that use wound rotors, commutators and brushes have radial-contact brushes. In the case of a reaction-type carbon brush holder, carbon brushes may be reversely inclined with the commutator so that the commutator tends to push against the carbon for firm contact.
+
+
+== The commutating plane ==
+
+The contact point where a brush touches the commutator is referred to as the commutating plane. To conduct sufficient current to or from the commutator, the brush contact area is not a thin line but instead a rectangular patch across the segments. Typically the brush is wide enough to span 2.5 commutator segments. This means that two adjacent segments are electrically connected by the brush when it contacts both.
+
+
+=== Compensation for stator field distortion ===
+
+Most introductions to motor and generator design start with a simple two-pole device with the brushes arranged at a perfect 90-degree angle from the field. This ideal is useful as a starting point for understanding how the fields interact but it is not how a motor or generator functions in actual practice.
+
+In a real motor or generator, the field around the rotor is never perfectly uniform. Instead, the rotation of the rotor induces field effects which drag and distort the magnetic lines of the outer non-rotating stator.
+
+The faster the rotor spins, the further this degree of field distortion. Because a motor or generator operates most efficiently with the rotor field at right angles to the stator field, it is necessary to either retard or advance the brush position to put the rotor's field into the correct position to be at a right angle to the distorted field.
+These field effects are reversed when the direction of spin is reversed. It is therefore difficult to build an efficient reversible commutated dynamo, since for highest field strength it is necessary to move the brushes to the opposite side of the normal neutral plane.
+The effect can be considered to be analogous to timing advance in an internal combustion engine. Generally a dynamo that has been designed to run at a certain fixed speed will have its brushes permanently fixed to align the field for highest efficiency at that speed.
+
+
+=== Further compensation for self-induction ===
+
+Self-induction – The magnetic fields in each coil of wire join and compound together to create a magnetic field that resists changes in the current, which can be likened to the current having inertia.
+In the coils of the rotor, even after the brush has been reached, currents tend to continue to flow for a brief moment, resulting in a wasted energy as heat due to the brush spanning across several commutator segments and the current short-circuiting across the segments.
+Spurious resistance is an apparent increase in the resistance in the armature winding, which is proportional to the speed of the armature, and is due to the lagging of the current.
+To minimize sparking at the brushes due to this short-circuiting, the brushes are advanced a few degrees further yet, beyond the advance for field distortions. This moves the rotor winding undergoing commutation slightly forward into the stator field which has magnetic lines in the opposite direction and which oppose the field in the stator. This opposing field helps to reverse the lagging self-inducting current in the stator.
+So even for a rotor which is at rest and initially requires no compensation for spinning field distortions, the brushes should still be advanced beyond the perfect 90-degree angle as taught in so many beginners textbooks, to compensate for self-induction.
+
+
+== Limitations and alternatives ==
+
+Although direct current motors and dynamos once dominated industry, the disadvantages of the commutator have caused a decline in the use of commutated machines in the last century. These disadvantages are:
+Due to friction, the brushes and copper commutator segments wear out. In small consumer products such as power tools and appliances the brushes may last as long as the product, but larger machines require regular replacement of brushes and occasional resurfacing of the commutator. So commutated machines are not used in equipment at remote locations that must operate for long periods without maintenance.
+The resistance of the sliding contact between brush and commutator causes a voltage drop called the "brush drop". This may be several volts, so it can cause large power losses in low voltage, high current machines. The friction of the brush against the commutator also absorbs some of the energy of the machine. Alternating current motors, which do not use commutators, are much more efficient.
+There is a limit to the maximum current density and voltage which can be switched with a commutator. Very large direct current machines, say, more than several megawatts rating, cannot be built with commutators. The largest motors and generators are all alternating-current machines.
+The switching action of the commutator can cause sparking at the contacts, generating electromagnetic interference.
+With the wide availability of alternating current, DC motors have been replaced by more efficient AC synchronous or induction motors. In recent years, with the widespread availability of power semiconductors, in many remaining appications commutated DC motors have been replaced with "brushless direct current motors". These don't have a commutator; instead the direction of the current is switched electronically. A sensor keeps track of the rotor position and semiconductor switches such as transistors reverse the current. Operating life of these machines is much longer, limited mainly by bearing wear.
+
+
+== Repulsion induction motors ==
+These are single-phase AC-only motors with higher starting torque than could be obtained with split-phase starting windings, before high-capacitance (non-polar, relatively high-current electrolytic) starting capacitors became practical. They have a conventional wound stator as with any induction motor, but the wire-wound rotor is much like that with a conventional commutator. Brushes opposite each other are connected to each other (not to an external circuit), and transformer action induces currents into the rotor that develop torque by repulsion.
+One variety, notable for having an adjustable speed, runs continuously with brushes in contact, while another uses repulsion only for high starting torque and in some cases lifts the brushes once the motor is running fast enough. In the latter case, all commutator segments are connected together as well, before the motor attains running speed.
+Once at speed, the rotor windings become functionally equivalent to the squirrel-cage structure of a conventional induction motor, and the motor runs as such.
+
+
+== Laboratory commutators ==
+Commutators were used as simple forward-off-reverse switches for electrical experiments in physics laboratories. There are two well-known historical types:
+
+
+=== Ruhmkorff commutator ===
+This is similar in design to the commutators used in motors and dynamos. It was usually constructed of brass and ivory (later ebonite).
+
+
+=== Pohl commutator ===
+This consisted of a block of wood or ebonite with four wells, containing mercury, which were cross-connected by copper wires. The output was taken from a pair of curved copper wires which were moved to dip into one or other pair of mercury wells. Instead of mercury, ionic liquids or other liquid metals could be used.
+
+
+== See also ==
+Armature (electrical engineering)
+Slip ring
+Rotary transformer
+Mercury swivel commutator
+Brushless motor
+File:Kommutator animiert.gif
+
+
+== Patents ==
+Elihu Thomson - U.S. Patent 242,488 - Commutators for Dynamo Electric Machines - 1881 June 7.
+Henry Jacobs - U.S. Patent 246,612 - Commutator for Magneto Electric Machines - 1881 September 6.
+Frank. B. Rae & Clarence. L. Healy - U.S. Patent 294,270 - Commutator For Dynamo or Magneto Electric Machines - 1884 February 26.
+Nikola Tesla - U.S. Patent 334,823 - Commutator for Dynamo Electric Machines - 1886 January 26.
+Thomas E. Adams - U.S. Patent 340,537 - Commutator for Dynamo-Electric Machines - 1886 April 27.
+Nikola Tesla - U.S. Patent 382,845 - Commutator for Dynamo Electric Machines - 1888 May 15.
+
+
+== References ==
+
+
+== External links ==
+"Commutator and Brushes on DC Motor". HyperPhysics, Physics and Astronomy, Georgia State University.
+"PM Brushless Servo Motor Feedback Commutation Series – Part 1 Commutation Alignment – Why It Is Important." Mitchell Electronics.
+"PM Brushless Servo Motor Feedback Commutation Series – Part 2 Commutation Alignment – How It Is Accomplished." Mitchell Electronics.

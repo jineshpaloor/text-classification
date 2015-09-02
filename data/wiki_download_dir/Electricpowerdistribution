@@ -1,0 +1,110 @@
+Electric power distribution
+An electric power distribution system is the final stage in the delivery of electric power; it carries electricity from the transmission system to individual consumers. Distribution substations connect to the transmission system and lower the transmission voltage to medium voltage ranging between 2 kV and 35 kV with the use of transformers. Primary distribution lines carry this medium voltage power to distribution transformers located near the customer's premises. Distribution transformers again lower the voltage to the utilization voltage of household appliances and typically feed several customers through secondary distribution lines at this voltage. Commercial and residential customers are connected to the secondary distribution lines through service drops. Customers demanding a much larger amount of power may be connected directly to the primary distribution level or the subtransmission level.
+
+
+== History ==
+
+
+=== First commercial distribution of electric power ===
+
+In the very early days of electricity distribution (for example Thomas Edison's Pearl Street Station), direct current (DC) generators were connected to loads at the same voltage. The generation, transmission and loads had to be of the same voltage because there was no way of changing DC voltage levels, other than inefficient motor-generator sets. Low DC voltages (around 100 volts) were used since that was a practical voltage for incandescent lamps, which were the primary electrical load. Low voltage also required less insulation for safe distribution within buildings. The loss in a cable is proportional to the square of the current, and the resistance of the cable. And, since voltage and current are inversely proportional in this system, by greatly increasing the voltage the current is correspondingly reduced. Therefore, a higher transmission voltage would reduce the copper size to transmit a given quantity of power, but no efficient method existed to change the voltage of DC power circuits. To keep losses to an economically practical level the Edison DC system needed thick cables and local generators. Early DC generating plants needed to be within about 1.5 miles (2.4 km) of the farthest customer to avoid excessively large and expensive conductors.
+
+
+=== Introduction of alternating current ===
+
+The competition between the direct current (DC) and alternating current (AC) (in the U.S. backed by Thomas Edison and George Westinghouse respectively) was known as the War of Currents. At the conclusion of their campaigning, AC became the dominant form of transmission of power. Power transformers, installed at power stations, could be used to raise the voltage from the generators, and transformers at local substations could reduce voltage to supply loads. Increasing the voltage reduced the current in the transmission and distribution lines and hence the size of conductors and distribution losses. This made it more economical to distribute power over long distances. Generators (such as hydroelectric sites) could be located far from the loads.
+
+
+== Variations ==
+North American and European power distribution systems differ in that North American systems tend to have a greater number of low-voltage step-down transformers located close to customers' premises. For example, in the US a pole-mounted transformer in a suburban setting may supply 7-11 houses, whereas in the UK a typical urban or suburban low-voltage substation would normally be rated between 315 kVA and 1 MVA and supply a whole neighborhood. This is because the higher domestic voltage used in Europe (230 V vs 120 V) may be carried over a greater distance with acceptable power loss. An advantage of the North American system is that failure or maintenance on a single transformer will only affect a few customers. Advantages of the UK system are that the transformers are fewer in number, larger and more efficient, and due to the diversity of many loads there is reduced waste due to there being less need for spare capacity in the transformers. In North American city areas with many customers per unit area, network distribution may be used, with multiple transformers interconnected with low voltage distribution buses over several city blocks.
+Rural electrification systems, in contrast to urban systems, tend to use higher distribution voltages because of the longer distances covered by distribution lines (see Rural Electrification Administration). 7.2, 12.47, 25, and 34.5 kV distribution is common in the United States; 11 kV and 33 kV are common in the UK, Australia and New Zealand; 11 kV and 22 kV are common in South Africa. Other voltages are occasionally used.
+In New Zealand, Australia, Saskatchewan, Canada, and South Africa, single wire earth return systems (SWER) are used to electrify remote rural areas.
+While power electronics now allow for conversion between DC voltage levels, AC is preferred in distribution due to the economy, efficiency and reliability of transformers. High-voltage DC is used for transmission of large blocks of power over long distances, for transmission over submarine cables for medium distances or for interconnecting adjacent AC networks, but not for local distribution to customers.
+Because the maximum voltage a generator can produce is economically limited by the insulation of its windings, electric power is normally generated at a "medium" voltage, less than 33 kV, in a power station. The voltage is stepped up to "high " voltage (more than 66 kV) at the generating station for transmission to distant load centers. The exact voltage level depends on the amount of power to be transmitted and the distance. Different standardized voltages are used in different countries, depending on local engineering practice.
+Power is carried through this transmission network of high voltage lines for up to hundreds of kilometers. For reliability and economy, transmission systems are interconnected to form the "electric grid" which may have many sources and loads interconnected. Sometimes intermediate "sub transmission" voltage levels are used for smaller loads or geographically isolated places.
+At electrical substations, the voltage is stepped down to lower values for distribution, for example, around a city. "Medium" voltage, lower than 33 kV, is used for distribution. Near each customer's premises, a final transformer is used to reduce the transmission voltage to the level used by the customer's lighting and power equipment. Depending on the geographic density of customers, a single transformer may serve only one user or might have many individual customers. In very densely populated areas, "secondary networks" are used, with many distribution transformers feeding a "grid" at the utilization voltage. This improves reliability since many distribution transformers share the collected load.
+
+
+== Modern distribution systems ==
+
+The modern distribution system begins as the primary circuit leaves the sub-station and ends as the secondary service enters the customer's meter socket by way of a service drop. Distribution circuits serve many customers. The voltage used is appropriate for the shorter distance and varies from 2,300 to about 35,000 volts depending on utility standard practice, distance, and load to be served. Distribution circuits are fed from a transformer located in a substation, where the voltage is reduced from the high values used for power transmission.
+Conductors for distribution may be carried on overhead pole lines, or in densely populated areas, buried underground. Urban and suburban distribution is done with three-phase systems to serve both residential, commercial, and industrial loads. Distribution in rural areas may be only single-phase if it is not economical to install three-phase power for relatively few and small customers.
+Only large consumers are fed directly from distribution voltages; most utility customers are connected to a transformer, which reduces the distribution voltage to the relatively low voltage used by lighting and interior wiring systems. The transformer may be pole-mounted or set on the ground in a protective enclosure. In rural areas a pole-mount transformer may serve only one customer, but in more built-up areas multiple customers may be connected. In very dense city areas, a secondary network may be formed with many transformers feeding into a common bus at the utilization voltage. Each customer has a service drop connection and a meter for billing. (Some very small loads, such as yard lights, may be too small to meter and so are charged only a monthly rate.)
+A ground connection to local earth is normally provided for the customer's system as well as for the equipment owned by the utility. The purpose of connecting the customer's system to ground is to limit the voltage that may develop if high voltage conductors fall down onto lower-voltage conductors which are usually mounted lower to the ground, or if a failure occurs within a distribution transformer. If all conductive objects are bonded to the same earth grounding system, the risk of electric shock is minimized. However, multiple connections between the utility ground and customer ground can lead to stray voltage problems; customer piping, swimming pools or other equipment may develop objectionable voltages. These problems may be difficult to resolve since they often originate from places other than the customer's premises.
+
+
+=== International differences ===
+In many areas, "delta" three phase service is common. Delta service has no distributed neutral wire and is therefore less expensive. In North America and Latin America, three phase service is often a Y (wye) in which the neutral is grounded at various points. The neutral provides a low-resistance metallic return to the distribution transformer. Wye service is recognizable when a line has four conductors, one of which is lightly insulated. Three-phase wye service is ideal for motors and heavy power usage.
+Many areas in the world use single-phase 220 V or 230 V residential and light industrial service. In this system, the high voltage distribution network supplies a few substations per area, and the 230 V power from each substation is directly distributed. A live (hot) wire and neutral are connected to the building from one phase of three phase service. Single-phase distribution is used where motor loads are light.
+Europe
+In Europe, electricity is normally distributed for industry and domestic use by the three-phase, four wire system. This gives a three-phase voltage of 400 volts wye service and a single-phase voltage of 230 volts. For industrial customers, 3-phase 690 / 400 volt is also available.. Large industrial customers have their own transformers with an input from 10 kV to 220 kV.
+Japan
+Japan has a large number of small industrial manufacturers, and therefore supplies standard low-voltage three phase-service in many suburbs. Also, Japan normally supplies residential service as two phases of a three phase service, with a neutral. These work well for both lighting and motors. Japan provides 50 Hz or 60 Hz AC power from different power providers.
+
+
+=== Rural services ===
+Rural services normally try to minimize the number of poles and wires. Single-wire earth return (SWER) is the least expensive, with one wire. It uses higher voltages (than urban distribution), which in turn permits use of galvanized steel wire. The strong steel wire allows for less expensive wide pole spacing. Other areas use higher voltage split-phase or three phase service at higher cost.
+
+
+=== Metering ===
+Electricity meters use different metering equations depending on the form of electrical service. Since the math differs from service to service, the number of conductors and sensors in the meters also vary.
+
+
+=== Terms ===
+Besides referring to the physical wiring, the term electrical service also refers in an abstract sense to the provision of electricity to a building.
+
+
+== Distribution network configurations ==
+
+Distribution networks are divided into two types, radial or network. A radial system is arranged like a tree where each customer has one source of supply. A network system has multiple sources of supply operating in parallel. The secondary network is commonly found in big cities and is the most reliable system. Spot networks are used for concentrated loads. Radial systems are commonly used in rural or suburban areas.
+Radial systems usually include emergency connections where the system can be reconfigured in case of problems, such as a fault or required replacement. This can be done by opening and closing switches. It may be acceptable to close a loop for a short time.
+Within these networks there may be a mix of overhead line construction utilizing traditional utility poles and wires and, increasingly, underground construction with cables and indoor or cabinet substations. However, underground distribution is significantly more expensive than overhead construction. In part to reduce this cost, underground power lines are sometimes co-located with other utility lines in what are called common utility ducts. Distribution feeders emanating from a substation are generally controlled by a circuit breaker which will open when a fault is detected. Automatic circuit reclosers may be installed to further segregate the feeder thus minimizing the impact of faults.
+Long feeders experience voltage drop requiring capacitors or voltage regulators to be installed.
+Characteristics of the supply given to customers are generally mandated by contract between the supplier and customer. Variables of the supply include:
+AC or DC - Virtually all public electricity supplies are AC today. Users of large amounts of DC power such as some electric railways, telephone exchanges and industrial processes such as aluminium smelting usually either operate their own or have adjacent dedicated generating equipment, or use rectifiers to derive DC from the public AC supply
+Nominal voltage, and tolerance (for example, +/- 5 per cent)
+Frequency, commonly 50 or 60 Hz, 16.7 Hz and 25 Hz for some railways and, in a few older industrial and mining locations, 25 Hz.
+Phase configuration (single-phase, polyphase including two-phase and three-phase)
+Maximum demand (some energy providers measure as the largest mean power delivered within a 15 or 30 minute period during a billing period)
+Load factor, expressed as a ratio of average load to peak load over a period of time. Load factor indicates the degree of effective utilization of equipment (and capital investment) of distribution line or system.
+Power factor of connected load
+Earthing systems - TT, TN-S, TN-C-S or TN-C
+Prospective short circuit current
+Maximum level and frequency of occurrence of transients
+Reconfiguration, by exchanging the functional links between the elements of the system, represents one of the most important measures which can improve the operational performance of a distribution system. The problem of optimization through the reconfiguration of a power distribution system, in terms of its definition, is a historical single objective problem with constraints. Since 1975, when Merlin and Back introduced the idea of distribution system reconfiguration for active power loss reduction, until nowadays, a lot of researchers have proposed diverse methods and algorithms to solve the reconfiguration problem as a single objective problem. Some authors have proposed Pareto optimality based approaches (including active power losses and reliability indices as objectives). For this purpose, different artificial intelligence based methods have been used: microgenetic, branch exchange, particle swarm optimization and non-dominated sorting genetic algorithm. .
+
+
+== Distribution industry ==
+In the first half of the 20th century, electricity providers were vertically-integrated, meaning that the same company (a corporation or municipally-owned utility) provided power generation, transmission, distribution, and metering and billing. However, starting in the 1970s and 1980s nations began the process of deregulation and privatisation, leading to electricity markets. A major focus of these was the elimination of the former so called natural monopoly of generation, transmission, and distribution. Under deregulation, the distribution system would remain regulated, but generation, retail (e.g., customer interaction and billing) and sometimes transmission systems were transformed into competitive markets. The de-verticalization of the traditional electric utility led to new terminology to describe the business units (e.g., line company, wires business and network company, as opposed to a "supply" company or energy retailer).
+
+
+== See also ==
+
+
+== References ==
+^ Webb B. Garrison, Behind the headlines: American history's schemes, scandals, and escapades, Stackpole Books, 1983 - page 107
+^ Abdelhay A. Sallam and Om P. Malik (May 2011). Electric Distribution Systems. IEEE Computer Society Press. p. 21. ISBN 9780470276822. 
+^ Merlin, A.; Back, H. Search for a Minimal-Loss Operating Spanning Tree Configuration in an Urban Power Distribution System. In Proceedings of the 1975 Fifth Power Systems Computer Conference (PSCC), Cambridge, UK, 1–5 September 1975; pp. 1–18.
+^ Mendoza, J.E.; Lopez, M.E.; Coello, C.A.; Lopez, E.A. Microgenetic multiobjective reconfiguration algorithm considering power losses and reliability indices for medium voltage distribution network. IET Gener. Transm. Distrib. 2009, 3, 825–840.
+^ Bernardon, D.P.; Garcia, V.J.; Ferreira, A.S.Q.; Canha, L.N. Multicriteria distribution network reconfiguration considering subtransmission analysis. IEEE Trans. Power Deliv. 2010, 25, 2684–2691.
+^ Amanulla, B.; Chakrabarti, S.; Singh, S.N. Reconfiguration of power distribution systems considering reliability and power loss. IEEE Trans. Power Deliv. 2012, 27, 918–926.
+^ Tomoiagă, B.; Chindriş, M.; Sumper, A.; Sudria-Andreu, A.; Villafafila-Robles, R. Pareto Optimal Reconfiguration of Power Distribution Systems Using a Genetic Algorithm Based on NSGA-II. Energies 2013, 6, 1439-1455.
+Saskpower single-wire ground return electrification in 1949
+
+
+== External links ==
+IEEE Power Engineering Society
+IEEE Power Engineering Society Distribution Subcommittee
+U.S. Department of Energy Electric Distribution website
+
+
+== Further reading ==
+Brown, R. E., Electric Power Distribution Reliability,, 2nd ed., CRC Press, 2008.
+Burke, J., Power Distribution Engineering, Marcel Dekker, Inc., 1994.
+Hoffman, P., Scheer, R., Marchionini, B., Distributed Energy Resources: A Key Element of Grid Modernization DE - March/April 2004
+SE Group Planning & Design for Vermont Dept of Public Service, Utility Line Location Issues Paper, Summary Report, January 2003
+Short, T. A. Electric Power Distribution Handbook, 2nd ed., CRC Press, 2014.
+von Meier, A. Electric Power Systems: A Conceptual Introduction, John Wiley/IEEE Press, 2006.
+Westinghouse Electric Corporation, Distribution Systems, vol. 3, 1965.
+Westinghouse Electric Corporation, Electric power transmission patents; Tesla polyphase system. (Transmission of power; polyphase system; Tesla patents)
+Willis, H. L., Power Distribution Planning Reference Book, Marcel Dekker, Inc., 2nd ed., 2004.

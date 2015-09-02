@@ -1,0 +1,29 @@
+Beam tetrode
+A beam tetrode, sometimes called a "beam power tube", is a type of tetrode vacuum tube (or 'valve') with auxiliary beam-focusing plates designed to augment power-handling capability and help reduce unwanted emission effects. These tubes are usually used for power amplification, especially at audio-frequency.
+
+
+== History ==
+The problem of secondary emission in the tetrode tube was solved by Philips/Mullard with the introduction of a suppressor grid to produce the pentode construction. Since Philips held a patent on this design, other manufacturers were keen to produce pentode type tubes without infringing the patent. In the UK, two EMI engineers, Cabot Bull and Sidney Rodda, produced and patented an alternate design in 1932. Their design had the following features (compared to the normal pentode).
+The control and screen grids were wound so that the pitches were the same and the wires were in alignment (the pentode used different pitches).
+A pair of beam-forming plates was added at the two ends of the oval grid structure to focus the electron stream into a pair of beams 180 degrees apart (the pentode added a third grid). These plates are normally connected to the cathode.
+The design is today known as the beam tetrode but historically was also known as a kinkless tetrode, since it is a four-electrode device without the negative resistance kink in the anode current vs anode voltage characteristic curves of a true tetrode. Some authorities, notably outside the United Kingdom, argue that the beam plates constitute a fifth electrode.
+The EMI design had the following advantages over the pentode:
+The screen grid current was about 5-10% of the anode current compared with about 20% for the pentode, thus the beam tetrode was more power-efficient.
+The design introduced significantly less third-harmonic distortion into the signal than did the pentode.
+The design produced more output power than a similar pentode.
+Disadvantages of the beam tetrode were:
+It had higher inherent intermodulation distortion than the pentode. It could be reduced by adopting an ultra-linear design in a push-pull circuit. This connection links the screen grids to taps on the output transformer. Negative feedback also reduced harmonic and intermodulation distortion.
+The beam tetrode had smaller transconductance than a similar pentode and therefore required a larger input signal at the control grid for a given output power.
+The beam tetrode had more tendency to oscillate than a pentode if the circuit was not designed and laid out properly.
+The MOV (Marconi-Osram Valve) company, under the joint ownership of EMI and GEC, considered the design too difficult to manufacture due to the need for good alignment of the grid wires. As MOV had a design-share agreement with RCA of America, the design was passed to that company. RCA had the resources to produce a workable design resulting in the 6L6. Not long after, the beam tetrode appeared in a variety of offerings, including the 6V6 in December 1936, the MOV KT66 in 1937 and the KT88 in 1956, designed specifically for audio and highly prized by collectors today.
+Some tubes described as pentodes are actually beam tetrodes. The ubiquitous Mullard EL34 (6CA7), although manufactured by Mullard as a pentode, was also produced by other manufacturers as a beam tetrode instead.
+A beam tetrode family widely used in the US comprised the 25L6, 35L6, and 50L6, and their miniature versions the 50B5 and 50C5. They were functionally identical to the 6L6 with the exception of the heater voltages. They were used in millions of All American Five AM radio receivers. Most of these used a transformerless power supply circuit. In American radio receivers with transformer power supplies, built from about 1940-1950, the 6V6, 6V6G, 6V6GT and miniature 6AQ5 beam tetrodes were very commonly used.
+In military equipment, the 807, and 1625 with rated anode dissipations of 25 watts and operating from a supply of up to 750 volts, were in widespread use as the final amplifier in radio-frequency transmitters of up to 50 watts output power and in push-pull applications for audio. These tubes were very similar to a 6L6 but had a somewhat higher anode dissipation rating and the anode plate was connected to the top cap instead of a pin at the base. Large numbers entered the market after World War II and were used widely by radio amateurs in the USA and Europe through the 1950s and 1960s.
+The beam tetrode produces the lowest distortion of this class of tube by producing significantly less third-harmonic distortion, and lower intermodulation distortion when used in ultralinear mode. Even-harmonic distortion is automatically cancelled in a push-pull design. The beam tetrode can be operated as a triode (by connecting its screen grid to its anode), and in this mode functions more efficiently than a pentode operated in the same manner.
+
+
+== References ==
+
+
+== External links ==
+Tube Data Archive, thousands of tube data sheets

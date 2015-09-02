@@ -1,0 +1,83 @@
+Galvanic corrosion
+Galvanic corrosion is an electrochemical process in which one metal corrodes preferentially to another when both metals are in electrical contact, in the presence of an electrolyte. This same galvanic reaction is exploited in primary batteries to generate an electrical voltage.
+
+
+== Overview ==
+Dissimilar metals and alloys have different electrode potentials, and when two or more come into contact in an electrolyte, one metal acts as anode and the other as cathode. The electropotential difference between the dissimilar metals is the driving force for an accelerated attack on the anode member of the galvanic couple. The anode metal dissolves into the electrolyte, and deposit collects on the cathodic metal.
+The electrolyte provides a means for ion migration whereby metallic ions move from the anode to the cathode within the metal. This leads to the metal at the anode corroding more quickly than it otherwise would and corrosion at the cathode being inhibited. The presence of an electrolyte and an electrical conducting path between the metals is essential for galvanic corrosion to occur.
+In some cases, this type of reaction is intentionally encouraged. For example, low-cost household batteries typically contain carbon-zinc cells. As part of a closed circuit (the electron pathway), the zinc within the cell will corrode preferentially (the ion pathway) as an essential part of the battery producing electricity. Another example is the cathodic protection of buried or submerged structures. In this case, sacrificial anodes work as part of a galvanic couple, promoting corrosion of the anode, while protecting the cathode metal.
+In other cases, such as mixed metals in piping (for example, copper, cast iron and other cast metals), galvanic corrosion will contribute to accelerated corrosion of parts of the system. Corrosion inhibitors such as sodium nitrite or sodium molybdate can be injected into these systems to reduce the galvanic potential. However, the application of these corrosion inhibitors must be monitored closely. If the application of corrosion inhibitors increases the conductivity of the water within the system, the galvanic corrosion potential can be greatly increased.
+Acidity or alkalinity (pH) is also a major consideration with regard to closed loop bimetallic circulating systems. Should the pH and corrosion inhibition doses be incorrect, galvanic corrosion will be accelerated. In most HVAC systems, the use of sacrificial anodes and cathodes is not an option, as they would need to be applied within the plumbing of the system and, over time, would corrode and release particles that could cause potential mechanical damage to circulating pumps, heat exchangers, etc.
+
+
+== Examples of corrosion ==
+A common example of galvanic corrosion is the rusting of corrugated iron sheet, which becomes widespread when the protective zinc coating is broken and the underlying steel is attacked. The zinc is attacked preferentially because it is less noble, but once it has been consumed, rusting of the base metal can occur in earnest. By contrast, with a traditional tin can, the opposite of a protective effect occurs: because the tin is more noble than the underlying steel, when the tin coating is broken, the steel beneath is immediately attacked preferentially.
+
+
+=== Statue of Liberty ===
+
+A spectacular example of galvanic corrosion occurred in the Statue of Liberty when regular maintenance checks in the 1980s revealed that corrosion had taken place between the outer copper skin and the wrought iron support structure. Although the problem had been anticipated when the structure was built by Gustave Eiffel to Frédéric Bartholdi's design in the 1880s, the insulation layer of shellac between the two metals had failed over time and resulted in rusting of the iron supports. An extensive renovation requiring complete disassembly of the statue replaced the original insulation with PTFE. The structure was far from unsafe owing to the large number of unaffected connections, but it was regarded as a precautionary measure for what is considered a national symbol of the United States.
+
+
+=== Royal Navy and HMS Alarm ===
+In 17th-century England, Samuel Pepys (then serving as Admiralty Secretary), agreed to the removal of lead sheathing from British Royal Navy vessels to prevent the mysterious disintegration of their rudder-irons and bolt-heads, though he confessed himself baffled as to the reason the lead caused the corrosion.
+The problem recurred when vessels were sheathed in copper to reduce marine weed accumulation and protect against shipworm. In an experiment, the Royal Navy in 1761 had tried fitting the hull of the frigate HMS Alarm with 12-ounce copper plating. Upon her return from a voyage to the West Indies, it was found that although the copper remained in fine condition and had indeed deterred shipworm, it had also become detached from the wooden hull in many places because the iron nails used during its installation "...were found dissolved into a kind of rusty Paste". To the surprise of the inspection teams, however, some of iron nails were virtually undamaged. Closer inspection revealed that water-resistant brown paper trapped under the nail head had inadvertently protected some of the nails: "Where this covering was perfect, the Iron was preserved from Injury". The copper sheathing had been delivered to the dockyard wrapped in the paper which was not always removed before the sheets were nailed to the hull. The conclusion therefore reported to the Admiralty in 1763 was that iron should not be allowed direct contact with copper in sea water.
+
+
+=== US Navy Littoral Combat Ship Independence ===
+Serious galvanic corrosion has been reported on the latest US Navy attack littoral combat vessel the USS Independence caused by steel water jet propulsion systems attached to an aluminium hull. Without electrical isolation between the steel and aluminium, the aluminium hull acts as an anode to the stainless steel, resulting in aggressive galvanic corrosion.
+
+
+=== Lasagna cell ===
+ A "lasagna cell" is accidentally produced when salty moist food such as lasagna is stored in a steel baking pan and is covered with aluminum foil. After a few hours the foil develops small holes where it touches the lasagna, and the food surface becomes covered with small spots composed of corroded aluminum.
+In this example, the salty food (lasagna) is the electrolyte, the aluminum foil is the anode, and the steel pan is the cathode. If the aluminum foil only touches the electrolyte in small areas, the galvanic corrosion is concentrated, and corrosion can occur fairly rapidly.
+
+
+=== Electrolytic cleaning ===
+The common technique of cleaning silverware by immersion of the silver and a piece of aluminum in an electrolytic bath (usually sodium bicarbonate) is an example of galvanic corrosion. (Care should be exercised because this will also strip silver oxide from the silverware, which may be there for decoration. Use on silverplate is inadvisable, as this may cause unwanted galvanic corrosion of the base metal.)
+
+
+== Preventing galvanic corrosion ==
+
+There are several ways of reducing and preventing this form of corrosion.
+Electrically insulate the two metals from each other. If they are not in electrical contact, no galvanic couple will occur. This can be achieved by using non-conductive materials between metals of different electropotential. Piping can be isolated with a spool of pipe made of plastic materials, or made of metal material internally coated or lined. It is important that the spool be a sufficient length to be effective.
+Metal boats connected to a shore line electrical power feed will normally have to have the hull connected to earth for safety reasons. However the end of that earth connection is likely to be a copper rod buried within the marina, resulting in a steel-copper "battery" of about 0.5V. For such cases, the use of a galvanic isolator is essential, typically two semiconductor diodes in series. This prevents any current flow while the applied voltage is less than 1.4V (i.e. 0.7V per diode), but allows a full flow of current in case of an electrical fault. There will still be a very minor leakage of current through the diodes, which may result in slightly faster corrosion than normal.
+Ensure there is no contact with an electrolyte. This can be done by using water-repellent compounds such as greases, or by coating the metals with an impermeable protective layer, such as a suitable paint, varnish, or plastic. If it is not possible to coat both, the coating should be applied to the more noble, the material with higher potential. This is advisable because if the coating is applied only on the more active material, in case of damage to the coating there will be a large cathode area and a very small anode area, and for the exposed anodic area the corrosion rate will be correspondingly high.
+Using antioxidant paste is beneficial for preventing corrosion between copper and aluminum electrical connections. The paste consists of a lower nobility metal than aluminum or copper.
+Choose metals that have similar electropotentials. The more closely matched the individual potentials, the lesser the potential difference and hence the lesser the galvanic current. Using the same metal for all construction is the easiest way of matching potentials.
+Electroplating or other plating can also help. This tends to use more noble metals that resist corrosion better. Chrome, nickel, silver and gold can all be used. Galvanizing with zinc protects the steel base metal by sacrificial anodic action.
+Cathodic protection uses one or more sacrificial anodes made of a metal which is more active than the protected metal. Alloys of metals commonly used for sacrificial anodes include zinc, magnesium, and aluminium. This is commonplace on many buried or immersed metallic structures.
+Cathodic Protection can also be applied by connecting a direct current (DC) electrical power supply to oppose the corrosive galvanic current. (See impressed current cathodic protection)
+
+
+== Galvanic series ==
+
+All metals can be classified into a galvanic series representing the electrical potential they develop in a given electrolyte against a standard reference electrode. The relative position of two metals on such a series gives a good indication of which metal is more likely to corrode more quickly. However, other factors such as water aeration and flow rate can influence the rate of the process markedly.
+
+
+== Anodic index ==
+
+The compatibility of two different metals may be predicted by consideration of their anodic index. This parameter is a measure of the electrochemical voltage that will be developed between the metal and gold. To find the relative voltage of a pair of metals it is only required to subtract their anodic indices.
+For normal environments, such as storage in warehouses or non-temperature and humidity controlled environments, there should not be more than 0.25 V difference in the anodic index. For controlled environments, in which temperature and humidity are controlled, 0.50 V can be tolerated. For harsh environments, such as outdoors, high humidity, and salt environments, there should be not more than 0.15 V difference in the anodic index. For example; gold/silver would have a difference of 0.15V being acceptable 
+Often when design requires that dissimilar metals come in contact, the galvanic compatibility is managed by finishes and plating. The finishing and plating selected allows the dissimilar materials to be in contact, while protecting the base materials from corrosion. Note that it will always be the metal with the most negative anodic index which will ultimately suffer from corrosion when galvanic incompatibility is in play. This is why you should never place sterling silver and stainless steel tableware in a dishwasher at the same time, as the steel items will likely experience corrosion by the end of the cycle (soap and water having served as the chemical electrolyte, and heat having amplified the process).
+
+
+== See also ==
+Corrosion
+Galvanization
+Galvanic anode
+
+
+== References ==
+
+
+== External links ==
+Galvanic Corrosion and Other Types of Corrosion
+Corrosion Doctors
+Galvanic Corrosion Theory and documents
+Galvanic series
+Electrochemistry of corrosion From the Yeager Center at CWRU.
+Bimetallic corrosion
+The Straight Dope: why does ketchup dissolve aluminum?
+PIRA physics lecture demonstration 5e40.25
+Cathodic Protection 101: A basic tutorial

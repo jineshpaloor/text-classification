@@ -1,0 +1,35 @@
+Computer-on-module
+A computer-on-module (COM) or System on Module (SOM) is a type of single-board computer (SBC), a subtype of an embedded computer system. An extension of the concept of system on chip (SoC) and system in package (SiP), COM lies between a full-up computer and a microcontroller in nature.
+
+
+== Design ==
+Today's COM modules are complete embedded computers built on a single circuit board. The design is centered on a microprocessor with RAM, input/output controllers and all other features needed to be a functional computer on the one board. However, unlike a single-board computer, the COM will usually lack the standard connectors for any input/output peripherals to be attached directly to the board.
+The module will usually need to be mounted on a carrier board (or "baseboard") which breaks the bus out to standard peripheral connectors. Some COMs also include peripheral connectors and/or can be used without a carrier.
+A COM solution offers a dense package computer system for use in small or specialized applications requiring low power consumption or small physical size as is needed in embedded systems. As a COM is very compact and highly integrated, even complex CPUs, including multi-core technology, can be realized on a COM.
+Using a carrier board is a benefit in many cases, as it can implement special I/O interfaces, memory devices, connectors or form factors. Separating the design of the carrier board and COM makes design concepts more modular, if needed. A carrier tailored to a special application may involve high design overhead by itself. If the actual processor and main I/O controllers are located on a COM, it is much easier, for example, to upgrade a CPU component to the next generation, without having to redesign a very specialized carrier as well. This can save costs and shorten development times. On the other hand, this only works if the board-to-board connection between the COM and its carrier remains compatible between upgrades.
+Some devices also incorporate Field Programmable Gate Array (FPGA) components. FPGA-based functions can be added as IP cores to the COM itself or to the carrier card. Using FPGA IP cores adds to the modularity of a COM concept, because I/O functions can be adapted to special needs without extensive rewiring on the printed circuit board.
+
+
+== History ==
+The terms "Computer-on-Module" and "COM" were coined by VDC Research Group, Inc. (formerly Venture Development Corporation) (Natick, MA, USA) to describe this class of embedded computer boards.
+The world‘s first ARM-based System on Module (SOM) was created by Keith & Koep GmbH. Trizeps CPU modules with SODIMM 144 standard were the first generation of this system and later became the worldwide industry standard. Since then, Keith & Koep has etablished a second generation with SODIMM 200 standard. This is the world‘s longest-established SODIMM standard. It is recreated by various companies.
+The term became more notable upon industry standardization of the COM Express format.
+
+
+== See also ==
+COM Express
+CoreExpress
+Embedded System Module
+ESMexpress
+ETX Form Factor
+Smart Mobility Architecture
+Qseven
+SMARC
+XTX
+
+
+== External links ==
+Trizeps SODIMM Standard
+
+
+== References ==

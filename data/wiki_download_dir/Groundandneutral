@@ -1,0 +1,86 @@
+Ground and neutral
+As the neutral point of an electrical supply system is often connected to earth ground, ground and neutral are closely related. Under certain conditions, a conductor used to connect to a system neutral is also used for grounding (earthing) of equipment and structures. Current carried on a grounding conductor can result in objectionable or dangerous voltages appearing on equipment enclosures, so the installation of grounding conductors and neutral conductors is carefully defined in electrical regulations. Where a neutral conductor is used also to connect equipment enclosures to earth, care must be taken that the neutral conductor never rises to a high voltage with respect to local ground
+
+
+== Definitions ==
+Ground or earth in a mains (AC power) electrical wiring system is a conductor that provides a low-impedance path back to the source to prevent hazardous voltages from appearing on equipment. (The terms "ground" and "earth" are used synonymously here. "Ground" is more common in North American English, and "earth" is more common in British English.) Under normal conditions, a grounding conductor does not carry current.
+Neutral is a circuit conductor that may carry current in normal operation, and is connected to ground (earth) at the main electrical panel.
+In a polyphase or three-wire (three-phase) AC system, the neutral conductor is intended to have similar voltages to each of the other circuit conductors.
+In the electrical trade, the conductor of a 2-wire circuit connected to the supply neutral point and earth ground is also referred to as the "neutral." 
+The United States' National Electrical Code and Canadian electrical code only define neutral as the first of those. In North American use, the second definition is used in less formal language but not in official specifications. In the United Kingdom the Institution of Engineering and Technology defines a neutral conductor as one connected to the supply system neutral point, which includes both these uses.
+All neutral wires of the same electrical system should have the same electrical potential, because they are all connected through the system ground. Neutral conductors are usually insulated for the same voltage as the line conductors, with interesting exceptions.
+
+
+== Circuitry ==
+Neutral wires are usually connected at a neutral bus within panelboards or switchboards, and are "bonded" to earth ground at either the electrical service entrance, or at transformers within the system. For electrical installations with split-phase (three-wire single-phase service), the neutral point of the system is at the center-tap on the secondary side of the service transformer. For larger electrical installations, such as those with polyphase service, the neutral point is usually at the common connection on the secondary side of delta/wye connected transformers. Other arrangements of polyphase transformers may result in no neutral point, and no neutral conductors.
+
+
+== Earthing systems ==
+
+The IEC standard (IEC 60364) codifies methods of installing neutral and ground conductors in a building, where these earthing systems are designated with letter symbols. The letter symbols are common in countries using IEC standards, but North American practices rarely refer to the IEC symbols. The differences are that the conductors may be separate over their entire run from equipment to earth ground, or may be combined over all or part of their length. Different systems are used to minimize the voltage difference between neutral and local earth ground. Current flowing in a grounding conductor will produce a voltage drop along the conductor, and grounding systems seek to ensure this voltage does not reach unsafe levels.
+In the TN-S system, separate neutral and protective earth conductors are installed between the equipment and the source of supply (generator or electric utility transformer). Normal circuit currents flow only in the neutral, and the protective earth conductor bonds all equipment cases to earth to intercept any leakage current due to insulation failure. The neutral conductor is connected to earth at the building point of supply, but no common path to ground exists for circuit current and the protective conductor.
+In the TN-C system, a common conductor provides both the neutral and protective grounding. The neutral conductor is connected to earth ground at the point of supply, and equipment cases are connected to the neutral. The danger exists that a broken neutral connection will allow all the equipment cases to rise to a dangerous voltage if any leakage or insulation fault exists in any equipment. This can be mitigated with special cables but the cost is then higher.
+In the TN-C-S system, each piece of electrical equipment has both a protective ground connection to its case, and a neutral connection. These are all brought back to some common point in the building system, and a common connection is then made from that point back to the source of supply and to the earth.
+In a TT system, no lengthy common protective ground conductor is used, instead each article of electrical equipment (or building distribution system) has its own connection to earth ground.
+
+
+== Combining neutral with earth ==
+Stray voltages created in grounding (earthing) conductors by currents flowing in the supply utility neutral conductors can be troublesome. For example, special measures may be required in barns used for milking dairy cattle. Very small voltages, not usually perceptible to humans, may cause low milk yield, or even mastitis (inflammation of the udder). So-called "tingle voltage filters" may be required in the electrical distribution system for a milking parlour.
+Connecting the neutral to the equipment case provides some protection against faults, but may produce a dangerous voltage on the case if the neutral connection is broken.
+Combined neutral and ground conductors are commonly used in electricity supply companies' wiring and occasionally for fixed wiring in buildings and for some specialist applications where there is little alternative, such as railways and trams. Since normal circuit currents in the neutral conductor can lead to objectionable or dangerous differences between local earth potential and the neutral, and to protect against neutral breakages, special precautions such as frequent rodding down to earth (multiple ground rod connections), use of cables where the combined neutral and earth completely surrounds the phase conductor(s), and thicker than normal equipotential bonding must be considered to ensure the system is safe.
+
+
+=== Fixed appliances on three-wire circuits ===
+In North America, the cases of some kitchen stoves (ranges, ovens), cook tops, clothes dryers and other specifically listed appliances were grounded through their neutral wires as a measure to conserve copper from copper cables during World War II. This practice was removed from the NEC in the 1996 edition, but existing installations (called "old work") may still allow the cases of such listed appliances to be connected to the neutral conductor for grounding.
+This practice arose from the three-wire system used to supply both 120 volt and 240 volt loads. Because these listed appliances often have components that use either 120, or both 120 and 240 volts, there is often some current on the neutral wire. This differs from the protective grounding wire, which only carries current under fault conditions. Using the neutral conductor for grounding the equipment enclosure was considered safe since the devices were permanently wired to the supply and so the neutral was unlikely to be broken without also breaking both supply conductors. Also, the unbalanced current due to lamps and small motors in the appliances was small compared to the rating of the conductors and therefore unlikely to cause a large voltage drop in the neutral conductor.
+
+
+=== Portable appliances ===
+In North American and European practice, small portable equipment connected by a cord set is permitted under certain conditions to have merely two conductors in the attachment plug. A polarized plug can be used to maintain the identity of the neutral conductor into the appliance but it is never used as a chassis/case ground. The small cords to lamps, etc., often have one or more molded ridges or embedded strings to identify the neutral conductor, or may be identified by colour. Portable appliances never use the neutral conductor for case grounding, and often feature "double-insulated" construction.
+In places where the design of the plug and socket cannot ensure that a system neutral conductor is connected to particular terminals of the device, portable appliances must be designed on the assumption that either pole of each circuit may reach full voltage with respect to ground. This connection is made using "unpolarized" plugs.
+
+
+=== Technical equipment ===
+In North American practice, equipment connected by a cord set must have three wires, if supplied exclusively by 240 volts, or must have four wires (including neutral), if supplied by 120/240 volts.
+There are special provisions in the NEC for so-called technical equipment, mainly professional grade audio and video equipment supplied by so-called "balanced" 120 volt circuits. The center tap of a transformer is connected to ground, and the equipment is supplied by two line wires each 60 volts to ground (and 120 volts between line conductors). The center tap is not distributed to the equipment and no neutral conductor is used. These cases generally use a grounding conductor which is separated from the safety grounding conductor specifically for the purposes of noise and "hum" reduction.
+Another specialized distribution system was formerly specified in patient care areas of hospitals. An isolated power system was furnished, from a special isolation transformer, with the intention of minimizing any leakage current that could pass through equipment directly connected to a patient (for example, an electrocardiograph for monitoring the heart). The neutral of the circuit was not connected to ground. The leakage current was due to the distributed capacitance of the wiring and capacitance of the supply transformer.  Such distribution systems were monitored by permanently installed instruments to give an alarm when high leakage current was detected.
+
+
+== Shared neutral ==
+A shared neutral is a connection in which a plurality of circuits use the same neutral connection. This is also known as a common neutral, and the circuits and neutral together are sometimes referred to as an Edison circuit.
+
+
+=== Three-phase circuits ===
+In a three-phase circuit, a neutral is shared between all three phases. Commonly the system neutral is connected to the star point on the feeding transformer. This is the reason that the secondary side of most three-phase distribution transformers is wye or star wound. Three-phase transformers and their associated neutrals are usually found in industrial distribution environments.
+A system could be made entirely ungrounded. In this case a fault between one phase and ground would not cause any significant current. In fact, this is not a good scheme. Commonly the neutral is grounded (earthed) through a bond between the neutral bar and the earth bar. It is common on larger systems to monitor any current flowing through the neutral-to-earth link and use this as the basis for neutral fault protection.
+The connection between neutral and earth allows any phase-to-earth fault to develop enough current flow to "trip" the circuit overcurrent protection device. In some jurisdictions, calculations are required to ensure the fault loop impedance is low enough so that fault current will trip the protection (In Australia, this is referred to in AS3000:2007 Fault loop impedance calculation). This may limit the length of a branch circuit.
+In the case of two phases sharing one neutral, the worst-case current draw is one side has zero load and the other has full load, or when both sides have full load. The latter case results in 1 + 1@120deg = 1@60deg, i.e. the magnitude of the current in the neutral equals that of the other two wires.
+In a three-phase linear circuit with three identical resistive or reactive loads, the neutral carries no current. The neutral carries current if the loads on each phase are not identical. In some jurisdictions, the neutral is allowed to be reduced in size if no unbalanced current flow is expected. If the neutral is smaller than the phase conductors, it can be overloaded if a large unbalanced load occurs.
+The current drawn by non-linear loads, such as fluorescent & HID lighting and electronic equipment containing switching power supplies, often contains harmonics. Triplen harmonic currents (odd multiples of the third harmonic) are additive, resulting in more current in the shared neutral conductor than in any of the phase conductors. In the absolute worst case, the current in the shared neutral conductor can be triple that in each phase conductor. Some jurisdictions prohibit the use of shared neutral conductors when feeding single-phase loads from a three-phase source; others require that the neutral conductor be substantially larger than the phase conductors. It is good practice to use four-pole circuit breakers (as opposed to the standard three-pole) where the fourth pole is the neutral phase, and is hence protected against overcurrent on the neutral conductor.
+
+
+=== Split phase ===
+
+In split-phase wiring, for example, a duplex receptacle in a North American kitchen, devices may be connected with a cable that has three conductors, in addition to ground. The three conductors are usually coloured red, black, and white. The white serves as a common neutral, while the red and black each feed, separately, the top and bottom hot sides of the receptacle. Typically such receptacles are supplied from two circuit breakers in which the handles of two poles are tied together for a common trip. If two large appliances are used at once, current passes through both and the neutral only carries the difference in current. The advantage is that only three wires are required to serve these loads, instead of four. If one kitchen appliance overloads the circuit, the other side of the duplex receptacle will be shut off as well. This is called a multiwire branch circuit. Common trip is required when the connected load uses more than one phase simultaneously. The common trip prevents overloading of the shared neutral if one device draws more than rated current.
+
+
+== See also ==
+Appliance classes
+Electrical bonding
+Electrical wiring
+Electrical wiring (UK)
+Electrical wiring (United States)
+Earthing arrangements
+Ground (electricity)
+
+
+== References ==
+
+
+== Further reading ==
+Rick Gilmour et al., editor, Canadian Electrical Code Part I, Nineteenth Edition, C22.1-02 Safety Standard for Electrical Installations, Canadian Standards Association, Toronto, Ontario Canada (2002) ISBN 1-55324-690-X
+NFPA 70, National Electrical Code 2002, National Fire Protection Association, Inc., Quincy, Massachusetts USA, (2002). no ISBN
+IEE Wiring Regulations Regulations for Electrical Installations Fifteenth Edition 1981, The Institution of Electrical Engineers, (1981) Hitchin, Herts. United Kingdom
+EDISON CIRCUITS POSE SAFETY HAZARD
+The Complete Guide To Home Wiring
+Advanced Home Wiring

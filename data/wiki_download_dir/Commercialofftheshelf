@@ -1,0 +1,50 @@
+Commercial off-the-shelf
+In the United States, commercial off-the-shelf (COTS) is a Federal Acquisition Regulation (FAR) term for commercial items, including services, available in the commercial marketplace that can be bought and used under government contract. For example, consumer goods and construction materials may qualify as COTS but bulk cargo does not. Services associated with the commercial items may also qualify as COTS, including (but not limited to) installation services, training services, and cloud services.
+COTS purchases are alternatives to custom developments or one-off government-funded developments. COTS typically requires configuration that is tailored for specific uses and the key characteristic that differentiates COTS from Custom software is that the user configurations are within the defined parameters of the commercial item and not the result of customizations to the commercial item itself. The use of COTS has been mandated across many government and business programs, as such products may offer significant savings in procurement, development, and maintenance.
+Motivations for using COTS components include hopes for reduction of overall system-development and costs (as components can be bought or licensed instead of being developed from scratch) and reduced long-term maintenance costs. In the 1990s many regarded COTS as extremely effective in reducing cost and time In software development. COTS software came with many not-so-obvious tradeoffs—initial cost and development time can be reduced, but often with an increase in software component-integration work and also a dependency on the vendor, security issues and incompatibilities from future changes.
+
+
+== Software and services ==
+Commercial-off-the-shelf (COTS) software and services are built and delivered usually from a third party vendor. COTS can be purchased, leased or even licensed to the general public.
+COTS provides some of the following strengths:
+Applications are provided at a reduced cost.
+The application is more reliable when compared to custom built software because its reliability is proven through the use by other organizations.
+COTS is more maintainable because the systems documentation is provided with the application.
+The application is higher quality because competition improves the product quality.
+COTS is of higher complexity because specialists within the industry have developed the software.
+The marketplace, not industry, drives the development of the application.
+The delivery schedule is reduced because the basic schedule is operations.
+
+
+=== Security implications ===
+According to the United States Department of Homeland Security, software security is a serious risk of using COTS software. If the COTS software contains severe security vulnerabilities it can introduce significant risk into an organization’s software supply chain. The risks are compounded when COTS software is integrated or networked with other software products to create a new composite application or a system of systems. The composite application can inherit risks from its COTS components.
+The US Department of Homeland Security has sponsored efforts to manage supply chain cyber security issues related to the use of COTS. However, software industry observers such as Gartner and the SANS Institute indicate that supply chain disruption poses a major threat. Gartner predicts that "enterprise IT supply chains will be targeted and compromised, forcing changes in the structure of the IT marketplace and how IT will be managed moving forward." Also, the SANS Institute published a survey of 700 IT and security professionals in December 2012 that found that only 14% of companies perform security reviews on every commercial application brought in house, and over half of other companies do not perform security assessments. Instead companies either rely on vendor reputation (25%) and legal liability agreements (14%) or they have no policies for dealing with COTS at all and therefore have limited visibility into the risks introduced into their software supply chain by COTS.
+
+
+=== Issues in other industries ===
+In the medical device industry, COTS software can sometimes be identified as SOUP (software of unknown pedigree or software of unknown provenience), i.e. software that has not been developed with a known software development process or methodology, which precludes its use in medical devices. In this industry, faults in software components may become system failures in the device itself. The standard IEC 62304:2006 "Medical device software – Software life cycle processes" outlines specific practices to ensure that SOUP components support the safety requirements for the device being developed. In the case where the software components are COTS, DHS best practices for COTS software risk review can be applied. It should be noted, however, that simply being COTS software does not necessarily imply the lack of a fault history or transparent software development process. For well documented COTS software a distinction as clear SOUP is made, meaning that it may be used in medical devices.
+
+
+== Obsolescence ==
+
+A striking example of product obsolescence is the Condor Cluster, a US Air Force supercomputer built out of 1,760 Sony PlayStation 3s running the Linux operating system. Sony disabled the use of Linux on the PS3 in April 2010, leaving no means to procure functioning Linux replacement units. In general, COTS product obsolescence can require customized support or development of a replacement system. Such obsolescence problems have led to government-industry partnerships, where various businesses agree to stabilize some product versions for government use and plan some future features, in those product lines, as a joint effort. Hence, some partnerships have led to complaints of favoritism, to avoiding competitive procurement practices, and to claims of the use of sole-source agreements where not actually needed.
+There is also the danger of pre-purchasing a multi-decade supply of replacement parts (and materials) which would become obsolete within 10 years. All these considerations lead to compare a simple solution (such as "paper & pencil") to avoid overly complex solutions creating a "Rube Goldberg" system of creeping featurism, where a simple solution would have sufficed instead. Such comparisons also consider whether a group is creating a make-work system to justify extra funding, rather than providing a low-cost system which meets the basic needs, regardless of the use of COTS products.
+Applying the lessons of processor obsolescence learned during the Lockheed Martin F-22 Raptor, the Lockheed Martin F-35 Lightning II planned for processor upgrades during development, and switched to the more widely supported C++ programming language. They have also moved from ASICs to FPGAs. This moves more of the avionic design from fixed circuits to software that can be applied to future generations of hardware.
+COTS components are part of upgrades to the sonar of United States Navy submarines.
+
+
+== Nuclear weapons ==
+COTS parts inadvertently used in W76 nuclear warheads led to safety concerns with the weapons.
+
+
+== See also ==
+Commercial software
+Commodity off-the-shelf
+Turnkey
+
+
+== Notes ==
+
+
+== References ==
+"Commercial" is not the opposite of Free-Libre / Open Source Software (FLOSS)

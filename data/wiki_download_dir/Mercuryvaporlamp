@@ -1,0 +1,90 @@
+Mercury-vapor lamp
+A mercury-vapor lamp is a gas discharge lamp that uses an electric arc through vaporized mercury to produce light. The arc discharge is generally confined to a small fused quartz arc tube mounted within a larger borosilicate glass bulb. The outer bulb may be clear or coated with a phosphor; in either case, the outer bulb provides thermal insulation, protection from the ultraviolet radiation the light produces, and a convenient mounting for the fused quartz arc tube.
+Mercury vapor lamps are more energy efficient than incandescent and most fluorescent lights, with luminous efficacies of 35 to 65 lumens/watt. Their other advantages are a long bulb lifetime in the range of 24,000 hours and a high intensity, clear white light output. For these reasons, they are used for large area overhead lighting, such as in factories, warehouses, and sports arenas as well as for streetlights. Clear mercury lamps produce white light with a bluish-green tint due to mercury's combination of spectral lines. This is not flattering to human skin color, so such lamps are typically not used in retail stores. "Color corrected" mercury bulbs overcome this problem with a phosphor on the inside of the outer bulb that emits white light. They offer better color rendition than the more efficient high or low-pressure sodium vapor lamps.
+They operate at an internal pressure of around one atmosphere and require special fixtures, as well as an electrical ballast. They also require a warm-up period of 4 – 7 minutes to reach full light output. Mercury vapor lamps are becoming obsolete due to the higher efficiency and better color balance of metal halide lamps.
+
+
+== Origins ==
+
+Charles Wheatstone observed the spectrum of an electric discharge in mercury vapor in 1835, and noted the ultraviolet lines in that spectrum. In 1860, John Thomas Way used arc lamps operated in a mixture of air and mercury vapor at atmospheric pressure for lighting. The German physicist Leo Arons (1860–1919) studied mercury discharges in 1892 and developed a lamp based on a mercury arc.
+The first mercury vapor lamp was invented in 1901 by American engineer Peter Cooper Hewitt. Hewitt was issued U.S. Patent 682,692 on September 17, 1901. In 1903, Hewitt created an improved version that possessed higher color qualities which eventually found widespread industrial use. The ultraviolet light from mercury vapor lamps was applied to water treatment by 1910. The Hewitt lamps used a large amount of mercury. In the 1930s, improved lamps of the modern form, developed by the Osram-GEC company, General Electric company and others led to widespread use of mercury vapor lamps for general lighting.
+
+
+== Principle of operation ==
+The mercury in the tube is a liquid at normal temperatures. It needs to be vaporized and ionized before the tube will conduct electricity and the arc can start. So, like fluorescent tubes, mercury vapor lamps require a starter, which is usually contained within the mercury vapor lamp itself. A third electrode is mounted near one of the main electrodes and connected through a resistor to the other main electrode. In addition to the mercury, the tube is filled with argon gas at low pressure. When power is applied, there is sufficient voltage to ionize the argon and strike a small arc between the starting electrode and the adjacent main electrode. This starting arc discharge heats the mercury and eventually provides enough ionized mercury to strike an arc between the main electrodes. This process takes from 4 to 7 minutes, so mercury lamps are slow starting. Some bulbs include a thermal switch which shorts the starting electrode to the adjacent main electrode, extinguishing the starting arc once the main arc strikes.
+The mercury vapor lamp is a negative resistance device. This means its resistance decreases as the current through the tube increases. So if the lamp is connected directly to a constant-voltage source like the power lines, the current through it will increase until it destroys itself. Therefore it requires a ballast to limit the current through it. Mercury vapor lamp ballasts are similar to the ballasts used with fluorescent lamps. In fact, the first British fluorescent lamps were designed to operate from 80-watt mercury vapor ballasts.
+
+
+=== Metal halide ===
+A very closely related lamp design called the metal halide lamp uses various compounds in an amalgam with the mercury. Sodium iodide and scandium iodide are commonly in use. These lamps can produce much better quality light without resorting to phosphors. If they use a starting electrode, there is always a thermal shorting switch to eliminate any electrical potential between the main electrode and the starting electrode once the lamp is lit. (This electrical potential in the presence of the halides can cause the failure of the glass/metal seal). More modern metal halide systems do not use a separate starting electrode; instead, the lamp is started using high voltage pulses as with high-pressure sodium vapor lamps.
+
+
+=== Self-ballasted (SB) lamps ===
+There are mercury vapor lamps with a filament inside connected in series with the arc tube that functions as an electrical ballast. This is the only kind of mercury vapor lamp that should be connected directly to the mains without an external ballast. These lamps have only the same or slightly higher efficiency than incandescent lamps of similar size, but have a longer life. They give light immediately on startup, but usually needs a few minutes to restrike if power has been interrupted. Because of the light emitted by the filament, they have slightly better color rendering properties than mercury vapor lamps. The color temperature is higher than incandescent lamps because of the mercury spectral lines.
+
+
+== Operation ==
+
+When a mercury vapor lamp is first turned on, it will produce a dark blue glow because only a small amount of the mercury is ionized and the gas pressure in the arc tube is very low, so much of the light is produced in the ultraviolet mercury bands. As the main arc strikes and the gas heats up and increases in pressure, the light shifts into the visible range and the high gas pressure causes the mercury emission bands to broaden somewhat, producing a light that appears more nearly white to the human eye, although it is still not a continuous spectrum. Even at full intensity, the light from a mercury vapor lamp with no phosphors is distinctly bluish in color. The pressure in the quartz arc-tube rises to approximately one atmosphere once the bulb has reached its working temperature. If the discharge should be interrupted (e.g. by interruption of the electric supply), it is not possible for the lamp to restrike until the bulb cools enough for the pressure to fall considerably. The reason for a prolonged period of time before the lamp restrikes is because mercury vapor ballasts along with other HID lamp ballasts send relatively low voltage to the lamp upon start up, but as pressure increases inside the arc-tube, higher voltage is required to keep the lamp lit so the ballast sends higher voltage to the lamp. Once the ballast is shut off and turned on again, it starts over at a low voltage but if the lamp is still hot, then high pressure inside the arc-tube prevents the lamp from striking an arc and turning on.
+
+
+=== Color considerations ===
+
+To correct the bluish tinge, many mercury vapor lamps are coated on the inside of the outer bulb with a phosphor that converts some portion of the ultraviolet emissions into red light. This helps to fill in the otherwise very-deficient red end of the electromagnetic spectrum. These lamps are generally called "color corrected" lamps. Most modern mercury vapor lamps have this coating. One of the original complaints against mercury lights was they tended to make people look like "bloodless corpses" because of the lack of light from the red end of the spectrum. A common method of correcting this problem before phosphors were used was to operate the mercury lamp in conjunction with an incandescent lamp. There is also an increase in red color (e.g., due to the continuous radiation) in ultra-high-pressure mercury vapor lamps (usually greater than 200 atm.), which has found application in modern compact projection devices. When outside, coated or color corrected lamps can usually be identified by a blue "halo" around the light being given off.
+
+
+=== Emission line spectrum ===
+The strongest peaks of the emission line spectrum are
+
+In low-pressure mercury-vapor lamps only the lines at 184 nm and 253 nm are present. Only the light at 253 nm is usable. Synthetic quartz can be used in the manufacturing to keep the 184 nm light from being absorbed. In medium-pressure mercury-vapor lamps, the lines from 200–600 nm are present. The lamps can be constructed to emit primarily in the UV-A (around 400 nm) or UV-C (around 250 nm). High-pressure mercury-vapor lamps are those lamp commonly used for general lighting purposes. They emit primarily in the blue and green.
+
+
+== Usage of low-pressure lamps for surface cleaning ==
+
+Low-pressure mercury-vapor lamps usually have a quartz bulb in order to allow the transmission of short wavelength light. If synthetic quartz is used, then the transparency of the quartz is increased further and an emission line at 185 nm is observed also. Such a lamp can then be used for the cleaning or modification of surfaces. The line 185 nm will create ozone in an oxygen containing atmosphere, which helps in the cleaning process, but is also a health hazard.
+
+
+== Light pollution considerations ==
+For placements where light pollution is of prime importance (for example, an observatory parking lot), low-pressure sodium is preferred. As it emits narrow spectral lines at two very close wavelengths, it is the easiest to filter out. Mercury vapor lamps without any phosphor are second best; they produce only a few distinct mercury lines that need to be filtered out.
+
+
+== Bans ==
+The use of mercury vapor lamps for lighting purposes will be banned in the EU in 2015. As this ban is designed to phase out less efficient lamps it does not affect the use of mercury in compact fluorescent lamp nor the use of mercury lamps for purposes other than lighting. In the US, ballasts and fixtures were banned in 2008. Because of this, several manufacturers have begun selling replacement compact fluorescent lamps for mercury vapor fixtures, which do not require modifications to the existing fixture.
+
+
+== Ultraviolet hazards ==
+All mercury vapor lamps (including metal halide lamps) must contain a feature (or be installed in a fixture that contains a feature) that prevents ultraviolet radiation from escaping. Usually, the borosilicate glass outer bulb of the lamp performs this function but special care must be taken if the lamp is installed in a situation where this outer envelope can become damaged. There have been documented cases of lamps being damaged in gymnasiums by balls striking the lamps, resulting in sun burns and eye inflammation from shortwave ultraviolet radiation. When used in locations like gyms, the fixture should contain a strong outer guard or an outer lens to protect the lamp's outer bulb. Also, special "safety" lamps are made that will deliberately burn out if the outer glass is broken. This is usually achieved by using a thin carbon strip, which will burn up in the presence of air, to connect one of the electrodes.
+Even with these methods, some UV radiation can still pass through the outer bulb of the lamp. This causes the aging process of some plastics used in the construction of luminaires to be accelerated, leaving them significantly discolored after only a few years' service. Polycarbonate suffers particularly from this problem, and it is not uncommon to see fairly new polycarbonate surfaces positioned near the lamp to have turned a dull, 'ear-wax'-like color after only a short time. Certain polishes, such as Brasso, can be used to remove some of the yellowing, but usually only with limited success.
+
+
+== End of life ==
+Mercury vapor lamps do burn out eventually as the burner electrodes wear, increasing the arc gap. As the lamp nears the end of life, lumen depreciation becomes noticeable and the light given off has a greenish tinge to it. This comes about because the emitter is deposited as a film darkening the arctube wall and reducing light output.
+
+
+== Uses ==
+
+
+=== Photoresist exposure ===
+Ultra-high-pressure mercury vapor lamps are used in the area of photolithography to expose various photoresists. The unique spectral emission characteristics of mercury vapor lamps are ideal for photoresists, the most common of which are generally photosensitive between 350 and 500 nm wavelengths.
+
+
+=== Area and street lighting ===
+Although other types of HIDs are becoming more common, mercury vapor lamps are still commonly used for area lighting and street lighting in the United States.
+
+
+=== Molecular spectroscopy ===
+High-pressure mercury vapor (and some specially-designed metal-halide) lamps find application in molecular spectroscopy due to providing useful broadband continuum ('noise') energy at millimeter and terahertz wavelengths, owing to the high electron temperature of the arc plasma; the main UV emission line of ionized mercury (254 nm) correlates to a blackbody of T= 11,500 K. This property makes them among the very few simple, inexpensive sources available for generating such frequencies. For example, a standard 250-watt general-lighting mercury lamp produces significant output from 120 GHz-6 THz. In addition, shorter wavelengths in the mid-infrared are emitted from the hot quartz arc-tube envelope. As with the ultraviolet output, the glass outer bulb is largely opaque at these frequencies and thus for this purpose needs to be removed (or omitted in purpose-made lamps).
+
+
+== See also ==
+Ultra High Performance lamp
+History of street lighting in the United States
+List of light sources
+
+
+== References ==
+
+
+== Further reading ==
+Waymouth, John (1971). Electric Discharge Lamps. Cambridge, MA: The M.I.T. Press. ISBN 0-262-23048-8. 
+Museum of Electric Lamp Technology

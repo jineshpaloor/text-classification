@@ -1,0 +1,81 @@
+John Tukey
+John Wilder Tukey ForMemRS (/ˈtuːki/; June 16, 1915 – July 26, 2000) was an American mathematician best known for development of the FFT algorithm and box plot. The Tukey range test, the Tukey lambda distribution, the Tukey test of additivity, and the Teichmüller–Tukey lemma all bear his name.
+
+
+== Biography ==
+Tukey was born in New Bedford, Massachusetts in 1915, and obtained a B.A. in 1936 and M.Sc. in 1937, in chemistry, from Brown University, before moving to Princeton University where he received a Ph.D. in mathematics.
+During World War II, Tukey worked at the Fire Control Research Office and collaborated with Samuel Wilks and William Cochran. After the war, he returned to Princeton, dividing his time between the university and AT&T Bell Laboratories. He became a full professor at 35 and founding chairman of the Princeton statistics department in 1965.
+Among many contributions to civil society, Tukey served on a committee of the American Statistical Association that produced a report challenging the conclusions of the Kinsey Report, Statistical Problems of the Kinsey Report on Sexual Behavior in the Human Male.
+He was awarded the National Medal of Science by President Nixon in 1973. He was awarded the IEEE Medal of Honor in 1982 "For his contributions to the spectral analysis of random processes and the fast Fourier transform (FFT) algorithm."
+Tukey retired in 1985. He died in New Brunswick, New Jersey on July 26, 2000.
+
+
+== Scientific contributions ==
+Early in his career Tukey worked on developing statistical methods for computers at Bell Labs where he invented the term "bit".
+His statistical interests were many and varied. He is particularly remembered for his development with James Cooley of the Cooley–Tukey FFT algorithm. In 1970, he contributed significantly to what is today known as the jackknife estimation—also termed Quenouille-Tukey jackknife. He introduced the box plot in his 1977 book, "Exploratory Data Analysis".
+Tukey's range test, the Tukey lambda distribution, Tukey's test of additivity and Tukey's lemma all bear his name. He is also the creator of several little-known methods such as the trimean and Median-Median line, an easier alternative to linear regression.
+In 1974, he developed, with Jerome H. Friedman, the concept of the projection pursuit.
+
+
+=== Statistical practice ===
+He also contributed to statistical practice and articulated the important distinction between exploratory data analysis and confirmatory data analysis, believing that much statistical methodology placed too great an emphasis on the latter.
+Though he believed in the utility of separating the two types of analysis, he pointed out that sometimes, especially in natural science, this was problematic and termed such situations uncomfortable science.
+A D Gordon offered the following summary of Tukey's principles for statistical practice:
+... the usefulness and limitation of mathematical statistics; the importance of having methods of statistical analysis that are robust to violations of the assumptions underlying their use; the need to amass experience of the behaviour of specific methods of analysis in order to provide guidance on their use; the importance of allowing the possibility of data's influencing the choice of method by which they are analysed; the need for statisticians to reject the role of 'guardian of proven truth', and to resist attempts to provide once-for-all solutions and tidy over-unifications of the subject; the iterative nature of data analysis; implications of the increasing power, availability and cheapness of computing facilities; the training of statisticians.
+
+
+== Statistical terms ==
+Tukey coined many statistical terms that have become part of common usage, but the two most famous coinages attributed to him were related to computer science.
+While working with John von Neumann on early computer designs, Tukey introduced the word "bit" as a contraction of "binary digit". The term "bit" was first used in an article by Claude Shannon in 1948.
+In 2000, Fred Shapiro, a librarian at the Yale Law School, published a letter revealing that Tukey's 1958 paper "The Teaching of Concrete Mathematics" contained the earliest known usage of the term "software" found in a search of JSTOR's electronic archives, predating the OED's citation by two years. This led many to credit Tukey with coining the term, particularly in obituaries published that same year, although Tukey never claimed credit for any such coinage. In 1995, Paul Niquette claimed he had originally coined the term in October 1953, although he could not find any documents supporting his claim. The earliest known publication of the term "software" in an engineering context was in August 1953 by Richard R. Carhart, in a Rand Corporation Research Memorandum.
+
+
+== Quotes ==
+Doing statistics is like doing crosswords except that one cannot know for sure whether one has found the solution.
+The greatest value of a picture is when it forces us to notice what we never expected to see.
+
+
+== Publications ==
+Andrews, David F; Peter J Bickel; Frank R Hampel; Peter J Huber; W H Rogers & John W Tukey (1972). Robust estimates of location: survey and advances. Princeton University Press. ISBN 0-691-08113-1. OCLC 369963. 
+Basford, Kaye E & John W Tukey (1998). Graphical analysis of multiresponse data. Chapman & Hall/CRC. ISBN 0-8493-0384-2. OCLC 154674707. 
+Blackman, R B & John W Tukey (1959). The measurement of power spectra from the point of view of communications engineering. Dover Publications. ISBN 0-486-60507-8. 
+Cochran, William G; Frederick Mosteller & John W Tukey (1954). Statistical problems of the Kinsey report on sexual behavior in the human male. Journal of the American Statistical Association. 
+Hoaglin, David C; Frederick Mosteller & John W Tukey (eds) (1983). Understanding Robust and Exploratory Data Analysis. Wiley. ISBN 0-471-09777-2. OCLC 8495063. 
+Hoaglin, David C; Frederick Mosteller & John W Tukey (eds) (1985). Exploring Data Tables, Trends and Shapes. Wiley. ISBN 0-471-09776-4. OCLC 11550398. 
+Hoaglin, David C; Frederick Mosteller & John W Tukey (eds) (1991). Fundamentals of exploratory analysis of variance. Wiley. ISBN 0-471-52735-1. OCLC 23180322. 
+Morgenthaler, Stephan & John W Tukey (eds) (1991). Configural polysampling: a route to practical robustness. Wiley. ISBN 0-471-52372-0. OCLC 22381036. 
+Mosteller, Frederick & John W Tukey (1977). Data analysis and regression : a second course in statistics. Addison-Wesley. ISBN 0-201-04854-X. OCLC 3235470. 
+Tukey, John W (1940). Convergence and Uniformity in Topology. Princeton University Press. ISBN 0-691-09568-X. OCLC 227948615. 
+Tukey, John W (1977). Exploratory Data Analysis. Addison-Wesley. ISBN 0-201-07616-0. OCLC 3058187. 
+Tukey, John W; Ian C Ross; Verna Bertrand (1973–). Index to statistics and probability. R & D Press. ISBN 0-88274-001-6. OCLC 745715.  
+The collected works of John W Tukey, edited by William S Cleveland
+Brillinger, David R (ed) (1984). Volume I: Time series, 1949–1964. Wadsworth. ISBN 0-534-03303-2. OCLC 10998116. 
+Brillinger, David R (ed) (1985). Volume II: Time series, 1965–1984. Wadsworth. ISBN 0-534-03304-0. OCLC 159731367. 
+Jones, Lyle V (ed) (1985). Volume III: Philosophy and principles of data analysis, 1949–1964. Wadsworth & Brooks/Cole. ISBN 0-534-03305-9. OCLC 159731367. 
+Jones, Lyle V (ed) (1986). Volume IV: Philosophy and principles of data analysis, 1965–1986. Wadsworth & Brooks/Cole. ISBN 0-534-05101-4. OCLC 165832503. 
+Cleveland, William S (ed) (1988). Volume V: Graphics, 1965–1985. Wadsworth & Brooks/Cole. ISBN 0-534-05102-2. OCLC 230023465. 
+Mallows, Colin L (ed) (1990). Volume VI: More mathematical, 1938–1984. Wadsworth & Brooks/Cole. ISBN 0-534-05103-0. OCLC 232966724. 
+Cox, David R (ed) (1992). Volume VII: Factorial and ANOVA, 1949–1962. Wadsworth & Brooks/Cole. ISBN 0-534-05104-9. OCLC 165366083. 
+Braun, Henry I (ed) (1994). Volume VIII: Multiple comparisons, 1949–1983. Chapman & Hall/CRC. ISBN 0-412-05121-4. OCLC 165099761. 
+About John Tukey
+O'Connor, John J.; Robertson, Edmund F., "John Tukey", MacTutor History of Mathematics archive, University of St Andrews .
+Interview of John Tukey about his experience at Princeton
+
+
+== See also ==
+Tukey mean-difference plot
+Tukey median and Tukey depth
+
+
+== Notes ==
+
+
+== External links ==
+Royal Society obit. by Peter McCullagh
+John W. Tukey: His Life and Professional Contributions published in The Annals of Statistics
+John Wilder Tukey (1915–2000) in Notices of the American Mathematical Society
+Memories of John Tukey
+Short biography by Mary Bittrich
+Obituary from The New York Times
+"Remembering John W. Tukey", special issue of Statistical Science
+John Wilder Tukey at the Mathematics Genealogy Project

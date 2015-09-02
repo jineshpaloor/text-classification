@@ -1,0 +1,87 @@
+High-voltage cable
+A high-voltage cable (HV cable) is a cable used for electric power transmission at high voltage. A cable includes a conductor and insulation, and is suitable for being run underground or underwater. This is in contrast to a conductor, which does not have insulation. High-voltage cables of differing types have a variety of applications in instruments, ignition systems, and AC and DC power transmission. In all applications, the insulation of the cable must not deteriorate due to the high-voltage stress, ozone produced by electric discharges in air, or tracking. The cable system must prevent contact of the high-voltage conductor with other objects or persons, and must contain and control leakage current. Cable joints and terminals must be designed to control the high-voltage stress to prevent breakdown of the insulation. Often a high-voltage cable will have a metallic shield layer over the insulation, connected to the ground and designed to equalize the dielectric stress on the insulation layer.
+
+High-voltage cables may be any length, with relatively short cables used in apparatus, longer cables run within buildings or as buried cables in an industrial plant or for power distribution, and the longest cables often run as submarine cables under the ocean for power transmission.
+
+
+== Construction ==
+
+Like other power cables, high-voltage cables have the structural elements of one or more conductors, insulation, and a protective jacket. High-voltage cables differ from lower-voltage cables in that they have additional internal layers in the insulation jacket to control the electric field around the conductor.
+For circuits operating at or above 2,000 volts between conductors, a conductive shield may surround each insulated conductor. This equalizes electrical stress on the cable insulation. This technique was patented by Martin Hochstadter in 1916; the shield is sometimes called a Hochstadter shield. The individual conductor shields of a cable are connected to the ground at the ends of the shield, and at splices. Stress relief cones are applied at the shield ends.
+Cables for power distribution of 10 kV or higher may be insulated with oil and paper, and are run in a rigid steel pipe, semi-rigid aluminum or lead sheath. For higher voltages the oil may be kept under pressure to prevent formation of voids that would allow partial discharges within the cable insulation.
+Sebastian Ziani de Ferranti was the first to demonstrate in 1887 that carefully dried and prepared paper could form satisfactory cable insulation at 11,000 volts. Previously paper-insulated cable had only been applied for low-voltage telegraph and telephone circuits. An extruded lead sheath over the paper cable was required to ensure that the paper remained absolutely dry.
+Vulcanized rubber was patented by Charles Goodyear in 1844, but it was not applied to cable insulation until the 1880s, when it was used for lighting circuits. Rubber-insulated cable was used for 11,000 volt circuits in 1897 installed for the Niagara Falls Power Generation project.
+Mass-impregnated paper-insulated medium voltage cables were commercially practical by 1895. During World War II several varieties of synthetic rubber and polyethylene insulation were applied to cables. Modern high-voltage cables use polymers or polyethylene, including (XLPE) for insulation.
+
+
+== AC power cable ==
+High voltage is defined as any voltage over 1000 volts. Cables for 3000 and 6000 volts exist, but the majority of cables are used from 10 kV and upward. Those of 10 to 33 kV are usually called medium voltage cables, those over 50 kV high voltage cables.
+
+Modern HV cables have a simple design consisting of few parts. A conductor of copper or aluminum wires transports the current, see (1) in figure 1. (For a detailed discussion on copper cables, see main article: Copper wire and cable.)
+Conductor sections up to 2000 mm2 may transport currents up to 2000 amperes. The individual strands are often preshaped to provide a smoother overall circumference. The insulation (3) may consist of cross-linked polyethylene, also called XLPE. It is reasonably flexible and tolerates operating temperatures up to 120 °C. EPDM is also an insulation.
+At the inner (2) and outer (4) sides of this insulation, semi-conducting layers are fused to the insulation. The function of these layers is to prevent air-filled cavities between the metal conductors and the dielectric so that little electric discharges cannot arise and endanger the insulation material.
+The outer conductor or sheath (5) serves as an earthed layer and will conduct leakage currents if needed.
+Most high-voltage cables for power transmission that are currently sold on the market are insulated by a sheath of cross-linked polyethylene (XLPE). Some cables may have a lead or aluminium jacket in conjunction with XLPE insulation to allow for fiber optics. Before 1960, underground power cables were insulated with oil and paper and ran in a rigid steel pipe, or a semi-rigid aluminium or lead jacket or sheath. The oil was kept under pressure to prevent formation of voids that would allow partial discharges within the cable insulation. There are still many of these oil-and-paper insulated cables in use worldwide. Between 1960 and 1990, polymers became more widely used at distribution voltages, mostly EPDM (ethylene propylene diene M-class); however, their relative unreliability, particularly early XLPE, resulted in a slow uptake at transmission voltages. While cables of 330 kV are commonly constructed using XLPE, this has occurred only in recent decades.
+
+
+=== Quality ===
+During the development of HV insulation, which has taken about half a century, two characteristics proved to be paramount. First, the introduction of the semiconducting layers. These layers must be absolutely smooth, without even protrusions as small as a few µm. Further the fusion between the insulation and these layers must be absolute; any fission, air-pocket or other defect - of the same micro-dimensions as above - is detrimental for the breakdown characteristics of the cable.
+Secondly, the insulation must be free of inclusions, cavities or other defects of the same sort of size. Any defect of these types shortens the voltage life of the cable which is supposed to be in the order of 30 years or more.
+Cooperation between cable-makers and manufacturers of materials has resulted in grades of XLPE with tight specifications. Most producers of XLPE-compound specify an "extra clean" grade where the number and size of foreign particles are guaranteed. Packing the raw material and unloading it within a cleanroom environment in the cable-making machines is required. The development of extruders for plastics extrusion and cross-linking has resulted in cable-making installations for making defect-free and pure insulations. The final quality control test is an elevated voltage 50 or 60 Hz partial discharge test with very high sensitivity (in the range of 5 to 10 picoCoulombs) This test is performed on every reel of cable before it is shipped.
+
+
+== HVDC cable ==
+A high-voltage cable for HVDC transmission has the same construction as the AC cable shown in figure 1. The physics and the test-requirements are different. In this case the smoothness of the semiconducting layers (2) and (4) is of utmost importance. Cleanliness of the insulation remains imperative.
+Many HVDC cables are used for DC submarine connections, because at distances over 30 km AC can no longer be used. The longest submarine cable today is the NorNed cable between Norway and Holland that is almost 600 km long and transports 700 megawatts, a capacity equal to a large power station.
+Most of these long deep-sea cables are made in an older construction, using oil-impregnated paper as an insulator.
+
+
+== Cable terminals ==
+
+Terminals of high-voltage cables must manage the electric fields at the ends. Without such a construction the electric field will concentrate at the end of the earth-conductor as shown in figure 2.Equipotential lines are shown here which can be compared with the contour lines on a map of a mountainous region: the nearer these lines are to each other, the steeper the slope and the greater the danger, in this case the danger of an electric breakdown. The equipotential lines can also be compared with the isobars on a weather map: the denser the lines, the more wind and the greater the danger of damage.
+
+In order to control the equipotential lines (that is to control the electric field) a device is used that is called a stress-cone, see figure 3. The crux of stress relief is to flare the shield end along a logarithmic curve. Before 1960, the stress cones were handmade using tape—after the cable was installed. These were protected by potheads, so named because a potting compound/ dielectric was poured around the tape inside a metal/ porcelain body insulators. About 1960, preformed terminations were developed consisting of a rubber or elastomer body that is stretched over the cable end. On this rubber-like body R an shield electrode is applied that spreads the equipotential lines to guarantee a low electric field.
+The crux of this device, invented by NKF in Delft in 1964, is that the bore of the elastic body is narrower than the diameter of the cable. In this way the (blue) interface between cable and stress-cone is brought under mechanical pressure so that no cavities or air-pockets can be formed between cable and cone. Electric breakdown in this region is prevented in this way.
+This construction can further be surrounded by a porcelain or silicone insulator for outdoor use, or by contraptions to enter the cable into a power transformer under oil, or switchgear under gas-pressure.
+
+
+== Cable joints ==
+Connecting two high-voltage cables with one another poses two main problems. First, the outer conducting layers in both cables shall be terminated without causing a field concentration, similar as with the making of a cable terminal. Secondly, a field free space shall be created where the cut-down cable insulation and the connector of the two conductors safely can be accommodated. These problems have been solved by NKF in Delft in 1965 by introducing a device called bi-manchet.
+
+Figure 4 shows a photograph of the cross-section of such a device. At one side of this photograph the contours of a high-voltage cable are drawn. Here red represents the conductor of that cable and blue the insulation of the cable. The black parts in this picture are semi-conducting rubber parts. The outer one is at earth potential and spreads the electric field in a similar way as in a cable terminal. The inner one is at high-voltage and shields the connector of the conductors from the electric field.
+The field itself is diverted as shown in figure 5, where the equipotential lines are smoothly directed from the inside of the cable to the outer part of the bi-manchet (and vice versa at the other side of the device).
+
+The crux of the matter is here, like in the cable terminal, that the inner bore of this bi-manchet is chosen smaller than the diameter over the cable-insulation. In this way a permanent pressure is created between the bi-manchet and the cable surface and cavities or electrical weak points are avoided.
+Installing a terminal or bi-manchet is skilled work. Removing the outer semiconducting layer at the end of the cables, placing the field-controlling bodies, connecting the conductors, etc., require skill, cleanness and precision.
+
+
+== X-ray cable ==
+X-ray cables are used in lengths of several meters to connect the HV source with an X-ray tube or any other HV device in scientific equipment. They transmit small currents, in the order of milliamperes at DC voltages of 30 to 200 kV, or sometimes higher. The cables are flexible, with rubber or other elastomer insulation, stranded conductors, and an outer sheath of braided copper-wire. The construction has the same elements as other HV power cables.
+
+
+== Testing of high-voltage cables ==
+There are different causes for faulty cable insulations. Hence, there are various test and measurement methods to prove fully functional cables or to detect faulty ones. One needs to distinguish between cable testing and cable diagnosis. While cable testing methods result in a go/no go statement cable diagnosis methods allow judgement of the cables current condition. In some cases it is even possible to locate the position of the fault in the insulation. One of the favorite testing methods is VLF cable testing. Using a very low frequency voltage with frequencies in the range of 0.1 to 0.01 Hz protects the device under test from deteriorating due to the test itself, as it used to be with DC testing methods in the older days. Depending on the sort of treeing in the insulation two cable diagnostics methods are common. Water trees can be detected by tan delta measurement. Interpretation of measurement results yield the possibility to distinguish between new, strongly aged and faulty cables and appropriate maintenance and repair measures may be planned. Damages to the insulation and electrical treeing may be detected and located by partial discharge measurement. Data collected during the measurement procedure is compared to measurement values of the same cable gathered during the acceptance-test. This allows simple and quick classification of the dielectric condition of the tested cable.
+
+
+== See also ==
+Electric power transmission
+High-voltage direct current
+Power cable
+VLF cable testing
+
+
+== References ==
+
+
+=== Sources ===
+Kreuger, Frederik H. (1991). Industrial High Voltage. Volume 1. Delft University Press. ISBN 90-6275-561-5. 
+Kreuger, Frederik H. (1991). Industrial High Voltage. Volume 2. Delft University Press. ISBN 90-6275-562-3. 
+Kuffel, E.; Zaengl, W.S.; Kuffel, J. (2000). High Voltage Engineering (2 ed.). Butterworth‐Heinemann/Newnes. ISBN 0-7506-3634-3. 
+
+
+=== Notes ===
+
+
+== External links ==
+Tan delta measurement of medium- and high-voltage cables
+Partial discharge measurement to detect and locate electrical trees

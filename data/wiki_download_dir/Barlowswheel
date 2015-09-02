@@ -1,0 +1,15 @@
+Barlow's wheel
+Barlow's wheel was an early demonstration of a homopolar motor, designed and built by English mathematician and physicist, Peter Barlow in 1822. An electric current passes through the hub of the wheel to a mercury contact on the rim; this is contained in a small trough through which the rim passes. Due to health and safety considerations brine is sometimes used today in place of mercury. The interaction of the current with the magnetic field of a U-magnet causes the wheel to rotate. The presence of serrations on the wheel is unnecessary and the apparatus will work with a round metal disk, usually made of copper.
+"The points of the wheel, R, dip into mercury contained in a groove hollowed in the stand. A more rapid revolution will be obtained if a small electro-magnet be substituted for a steel magnet, as is shown in the cut. The electro-magnet is fixed to the stand, and included in the circuit with the spur-wheel, so that the current flows through them in succession. Hence the direction of the rotation will not be changed by reversing that of the current; since the polarity of the electromagnet will also be reversed."
+(Excerpt taken from the 1842 edition of the Manual of Magnetism, page 94)
+How The Wheel Moves
+Action of a magnet on current and how rotational motion is produced due to this can be shown by Barlow's wheel experiment. The apparatus consists of a star shaped copper wheel capable of rotating freely in a vertical plane about a horizontal axis. The point of each spoke of the star just dips into a pool of mercury kept in a small groove on the wodden base of the apparatus. The pool of mercury is kept in between the two opposite poles of a strong magnet. The wheel rotates with its plane being perpendicular to the direction of the magnetic field and during its rotation only one point of the star dips into the pool of mercury at a time. When the axis of the wheel and the mercury are connected to electric cell, the circuit is completed through the axis of the wheel (when a point dips in the mercury) and the mercury. On passing current through the circuit the wheel will begin to rotate due to the action of the magnet on the current. The direction of rotation of the wheel can be determined by applying Fleming's left hand rule. While rotating and when a spoke of the wheel just leaves the mercury the circuit breaks but due to inertia of motion the wheel continues its motion and brings the next spoke in contact with the mercury thereby restoring the electrical contact. In this way rotation of the wheel continues. On reversing the direction of the current or that of the magnetic field the wheel rotates in the opposite direction. The speed of rotation depends upon the strength of the magnetic field and the strength of the current. Here mechanical energy is obtained from electrical energy.
+
+
+== References ==
+
+
+== External links ==
+Barlow's wheel designed by Eckling 1840 (German page)
+Barlow's Wheel - Interactive Java Tutorial National High Magnetic Field Laboratory
+5H40.50 BARLOW'S WHEEL

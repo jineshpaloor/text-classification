@@ -1,0 +1,82 @@
+Transducer
+A transducer is a device that converts one form of energy to another. Energy types include (but are not limited to): electrical, mechanical, electromagnetic (including light), chemical, acoustic, and thermal energy. Usually a transducer converts a signal in one form of energy to a signal in another (for example, a loudspeaker driver converts an electric signal to sound), but any variable attenuation of energy may serve as input; for example, the light reflecting off the landscape, although it is not a signal, conveys information that image sensors, one form of transducer, can convert. A sensor is a transducer whose purpose is to sense (i.e. detect) some characteristic of its environs; it is used to detect a parameter in one form and report it in another form of energy, often an electrical signal. For example, a pressure sensor might detect pressure (a mechanical form of energy) and convert it to electrical signal for display at a remote gauge. Transducers are widely used in measuring instruments.
+An actuator is a transducer that accepts energy and produces the kinetic energy of movement (action). The energy supplied to an actuator might be electrical or mechanical (pneumatic, hydraulic, etc.). An electric motor and a hydraulic cylinder are both actuators, converting electrical energy and fluid power into motion for different purposes.
+Combination transducers have both functions; they both detect and create action. The most common example is an antenna, a transducer of radio waves that can transmit, receive, or both (transceiver). Another example is the typical ultrasonic transducer, which switches back and forth many times a second between acting as an actuator to produce ultrasonic waves, and acting as a sensor to detect ultrasonic waves. Rotating a DC electric motor's rotor will produce electricity, and voice-coil speakers can also act as microphones.
+
+
+== Applications ==
+
+Electromagnetic:
+Antenna – converts propagating electromagnetic waves to and from conducted electrical signals
+Magnetic cartridge – converts relative physical motion to and from electrical signals
+Tape head, Disk read-and-write head – converts magnetic fields on a magnetic medium to and from electrical signals
+Hall effect sensor – converts a magnetic field level into an electrical signal
+
+Electrochemical:
+pH probes
+Electro-galvanic fuel cell
+Hydrogen sensor
+
+Electromechanical (electromechanical output devices are generically called actuators):
+Electroactive polymers
+Galvanometer
+Microelectromechanical systems
+Rotary motor, linear motor
+Vibration powered generator
+Potentiometer when used for measuring position
+Linear variable differential transformer or Rotary variable differential transformer
+Load cell – converts force to mV/V electrical signal using strain gauge
+Accelerometer
+Strain gauge
+String potentiometer
+Air flow sensor
+Tactile sensor
+
+Electroacoustic:
+Loudspeaker, earphone – converts electrical signals into sound (amplified signal → magnetic field → motion → air pressure)
+Microphone – converts sound into an electrical signal (air pressure → motion of conductor/coil → magnetic field → electrical signal)
+Pickup (music technology) – converts motion of metal strings into an electrical signal (magnetism → electrical signal)
+Tactile transducer – converts electrical signal into vibration ( electrical signal → vibration)
+Piezoelectric crystal – converts deformations of solid-state crystals (vibrations) to and from electrical signals
+Geophone – converts a ground movement (displacement) into voltage (vibrations → motion of conductor/coil → magnetic field → signal)
+Gramophone pickup – (air pressure → motion → magnetic field → electrical signal)
+Hydrophone – converts changes in water pressure into an electrical signal
+Sonar transponder (water pressure → motion of conductor/coil → magnetic field → electrical signal)
+Ultrasonic transceiver, transmitting ultrasound (transduced from electricity) as well as receiving it after sound reflection from target objects, availing for imaging of those objects.
+
+Electro-optical (Photoelectric):
+Fluorescent lamp – converts electrical power into incoherent light
+Incandescent lamp – converts electrical power into incoherent light
+Light-emitting diode – converts electrical power into incoherent light
+Laser Diode – converts electrical power into coherent light
+Photodiode, photoresistor, phototransistor, photomultiplier – converts changing light levels into electrical signals
+Photodetector or photoresistor or light dependent resistor (LDR) – converts changes in light levels into changes in electrical resistance
+Cathode ray tube (CRT) – converts electrical signals into visual signals
+
+Electrostatic:
+Electrometer
+
+Thermoelectric:
+Resistance temperature detector (RTD) – converts temperature into an electrical resistance signal
+Thermocouple – converts relative temperatures of metallic junctions to electrical voltage
+Thermistor (includes PTC resistor and NTC resistor)
+
+Radioacoustic:
+Geiger–Müller tube – converts incident ionizing radiation to an electrical impulse signal
+Receiver (radio)
+transmitter-propagates electromagnetic transmissions to sound
+
+
+== See also ==
+Tactile sensor
+Horn analyzer
+
+
+== References ==
+Agarwal, Anant. Foundations of Analog and Digital Electronic Circuits.Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, 2005, p. 43.
+
+
+== External links ==
+Introduction to Closed Loop Hall Effect Current Transducers
+Federal Standard 1037C, August 7, 1996: transducer
+A sound transducer with a flat flexible diaphragm working with bending waves

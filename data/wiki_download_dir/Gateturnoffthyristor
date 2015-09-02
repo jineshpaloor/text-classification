@@ -1,0 +1,39 @@
+Gate turn-off thyristor
+A gate turn-off thyristor (GTO) is a special type of thyristor, which is a high-power semiconductor device. It was invented at General Electric. GTOs, as opposed to normal thyristors, are fully controllable switches which can be turned on and off by their third lead, the GATE lead.
+
+
+== Device description ==
+
+Normal thyristors (silicon-controlled rectifiers) are not fully controllable switches (a "fully controllable switch" can be turned on and off at will). Thyristors can only be turned ON and cannot be turned OFF. Thyristors are switched ON by a gate signal, but even after the gate signal is de-asserted (removed), the thyristor remains in the ON-state until any turn-off condition occurs (which can be the application of a reverse voltage to the terminals, or when the current flowing through (forward current) falls below a certain threshold value known as the "holding current"). Thus, a thyristor behaves like a normal semiconductor diode after it is turned on or "fired".
+The GTO can be turned on by a gate signal, and can also be turned off by a gate signal of negative polarity.
+Turn on is accomplished by a "positive current" pulse between the gate and cathode terminals. As the gate-cathode behaves like PN junction, there will be some relatively small voltage between the terminals. The turn on phenomenon in GTO is however, not as reliable as an SCR (thyristor) and small positive gate current must be maintained even after turn on to improve reliability.
+Turn off is accomplished by a "negative voltage" pulse between the gate and cathode terminals. Some of the forward current (about one-third to one-fifth) is "stolen" and used to induce a cathode-gate voltage which in turn induces the forward current to fall and the GTO will switch off (transitioning to the 'blocking' state.)
+GTO thyristors suffer from long switch off times, whereby after the forward current falls, there is a long tail time where residual current continues to flow until all remaining charge from the device is taken away. This restricts the maximum switching frequency to approx 1 kHz. It may be noted however, that the turn off time of a GTO is approximately ten times faster than that of a comparable SCR.
+To assist with the turn-off process, GTO thyristors are usually constructed from a large number (hundreds or thousands) of small thyristor cells connected in parallel.
+Comparison of an SCR and GTO of same rating.
+A distributed buffer gate turn-off thyristor (DB-GTO) is a thyristor with additional PN layers in the drift region to reshape the field profile and increase the voltage blocked in the off state. Compared to a typical PNPN structure of a conventional thyristor, this thyristor would be a PN-PN-PN type structure in here.
+
+
+== Reverse bias ==
+GTO thyristors are available with or without reverse blocking capability. Reverse blocking capability adds to the forward voltage drop because of the need to have a long, low doped P1 region.
+GTO thyristors capable of blocking reverse voltage are known as Symmetrical GTO thyristors, abbreviated S-GTO. Usually, the reverse blocking voltage rating and forward blocking voltage rating are the same. The typical application for symmetrical GTO thyristors is in current source inverters.
+GTO thyristors incapable of blocking reverse voltage are known as asymmetrical GTO thyristors, abbreviated A-GTO, and are generally more common than Symmetrical GTO thyristors. They typically have a reverse breakdown rating in the tens of volts. A-GTO thyristors are used where either a reverse conducting diode is applied in parallel (for example, in voltage source inverters) or where reverse voltage would never occur (for example, in switching power supplies or DC traction choppers).
+GTO thyristors can be fabricated with a reverse conducting diode in the same package. These are known as RCGTO, for Reverse Conducting GTO.
+
+
+== Safe operating area ==
+
+Unlike the insulated gate bipolar transistor (IGBT), the GTO thyristor requires external devices ("snubber circuits") to shape the turn on and turn off currents to prevent device destruction.
+During turn on, the device has a maximum dI/dt rating limiting the rise of current. This is to allow the entire bulk of the device to reach turn on before full current is reached. If this rating is exceeded, the area of the device nearest the gate contacts will overheat and melt from over current. The rate of dI/dt is usually controlled by adding a saturable reactor (turn-on snubber), although turn-on dI/dt is a less serious constraint with GTO thyristors than it is with normal thyristors, because of the way the GTO is constructed from many small thyristor cells in parallel. Reset of the saturable reactor usually places a minimum off time requirement on GTO based circuits.
+During turn off, the forward voltage of the device must be limited until the current tails off. The limit is usually around 20% of the forward blocking voltage rating. If the voltage rises too fast at turn off, not all of the device will turn off and the GTO will fail, often explosively, due to the high voltage and current focused on a small portion of the device. Substantial snubber circuits are added around the device to limit the rise of voltage at turn off. Reseting the snubber circuit usually places a minimum on time requirement on GTO based circuits.
+The minimum on and off time is handled in DC motor chopper circuits by using a variable switching frequency at the lowest and highest duty cycle. This is observable in traction applications where the frequency will ramp up as the motor starts, then the frequency stays constant over most of the speed ranges, then the frequency drops back down to zero at full speed.
+
+
+== Applications ==
+The main applications are in variable speed motor drives, high power inverters and traction. GTOs are increasingly being replaced by integrated gate-commutated thyristors, which are an evolutionary development of the GTO, and insulated gate bipolar transistors, which are members of the transistor family.
+
+
+== References ==
+
+Shah, P.B. Electronics Letters, vol. 36, p. 2108, (2000).
+Shah, P.B., Geil, B.R., Ervin, M.E. et al. IEEE Trans. Power Elect., vol. 17, p. 1073, (2002).

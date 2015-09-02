@@ -1,0 +1,25 @@
+Isolated-phase bus
+In electrical engineering, isolated-phase bus (IPB), also known as Phase-isolated Bus (PIB) in some countries, is a method of construction for circuits carrying very large currents, typically between a generator and its step-up transformer in a steam or large hydroelectric power plant.
+Each phase current is carried on a separate conductor, enclosed in a separate grounded metal housing. Conductors are usually hollow aluminum tubes or aluminum bars, supported within the housing on porcelain or polymer insulators. The metal housings are electrically connected so that induced current, nearly of the magnitude of the phase current, can flow through the housing, in the opposite direction from the phase current. The magnetic field produced by this current nearly exactly cancels the magnetic field produced by the phase current, so there is almost no external magnetic field produced. This also limits the amount of force produced between conductors during a short circuit. The external housings of the conductors remain at a low potential with respect to earth ground and are usually bonded to ground. Additionally, by enclosing the conductors in separate housings a high degree of protection from faults between the generator and the transformer is obtained. Since these conductors are between the generator and the first circuit breaker, if a fault were to occur the only way to interrupt it would be to stop the generator, which would take considerable time and result in much damage to the generator or conductors.
+Isolated-phase bus is made in ratings from 3000 amperes to 45,000 amperes, and rated for voltages from 5000 volts up to about 35,000 volts. In the larger current ratings, dry air is forced through the enclosures and within the tubular conductors for forced-air cooling of the conductors. The cooling air is recirculated through a heat exchanger. Some items of switchgear, such as circuit breakers and isolating switches, are made in housings compatible with the isolated-phase bus. Accessories such as instrument transformers, surge arresters, and capacitors are also made in compatible housings. Due to the expense of its construction and the energy loss, isolated-phase bus is usually used in short segments; a large underground powerhouse may have isolated-phase bus up to about 250 metres or so to connect generators to transformers in an underground cavern.
+Forced-air cooling can approximately double the rating over the same size conductors used in a self-cooled system. The extra cost of losses and cooling fan power consumption must be balanced against the lower capital cost of the bus.
+Various forms of flexible terminals, expansion joints, and weatherproof or fire-proof bushings and terminals are used with isolated-phase bus. Some types of apparatus such as disconnecting switches, circuit breakers, and instrument transformers are made in enclosures that can be welded to become an integral part of the isolated-phase bus system. Isolated-phase bus is usually custom manufactured for a particular project and requires accurate dimensions of the connected equipment for manufacturing.
+A smaller type of isolated-phase bus is manufactured for direct-current circuits; this may be used in the field circuit of a generator.
+Currently, the isolated Phase Bus current world record is 52,000 Amps (Manufacturer: Alstom Power, Nuclear Power Plant: Civaux, France 1997)
+Other types of bus are:
+Metal-enclosed segregated phase bus
+Low and high impedance bus duct
+Bare flat or tubular bus bars
+Non-segregated Phase Bus (NSPB)
+These are used at lower ratings or where adequate protection of the circuit by overcurrent devices is possible.
+
+
+== See also ==
+Busbar
+
+
+== References ==
+^ Donald G. Fink and H. Wayne Beaty, Standard Handbook for Electrical Engineers, Eleventh Edition,McGraw-Hill, New York, 1978, ISBN 0-07-020974-X pages 10-87 through 10-89
+^ http://www.specfabipb.com/ps-isolated-phase-bus.php
+
+ 3. Alstom Power, Isolated Phase Bus ENERBUS

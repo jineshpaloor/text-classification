@@ -1,0 +1,26 @@
+NI Multisim
+NI Multisim (formerly MultiSIM) is an electronic schematic capture and simulation program which is part of a suite of circuit design programs, along with NI Ultiboard. Multisim is one of the few circuit design programs to employ the original Berkeley SPICE based software simulation. Multisim was originally created by a company named Electronics Workbench, which is now a division of National Instruments. Multisim includes microcontroller simulation (formerly known as MultiMCU), as well as integrated import and export features to the Printed Circuit Board layout software in the suite, NI Ultiboard.
+Multisim is widely used in academia and industry for circuits education, electronic schematic design and SPICE simulation.
+
+
+== History ==
+Multisim was originally called Electronics Workbench and created by a company called Interactive Image Technologies. At the time it was mainly used as an educational tool to teach electronics technician and electronics engineering programs in colleges and universities. National Instruments has maintained this educational legacy, with a specific version of Multisim with features developed for teaching electronics.
+In 1999, Multisim was integrated with Ultiboard after the original company merged with Ultimate Technology, a PCB layout software company.
+In 2005, Interactive Image Technologies was acquired by National Instruments Electronics Workbench Group and Multisim was renamed to NI Multisim.
+
+
+== See also ==
+NI Ultiboard, the PCB layout software that is integrated with Multisim.
+OrCAD
+Comparison of EDA Software
+
+
+== References ==
+
+
+== External links ==
+Official website
+National Instruments Circuit Design Community Circuit design blog and community to share components, models and footprints
+Download Link for NI Multisim Allows a 30-day evaluation of the software
+Introduction to Multisim Schematic Capture and SPICE Simulation
+Getting Started with NI Ultiboard

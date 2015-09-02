@@ -1,0 +1,36 @@
+Push–pull converter
+A push–pull converter is a type of DC-to-DC converter, a switching converter that uses a transformer to change the voltage of a DC power supply. The distinguishing feature of a push-pull converter is that the transformer primary is supplied with current from the input line by pairs of transistors in a symmetrical push-pull circuit. The transistors are alternately switched on and off, periodically reversing the current in the transformer. Therefore current is drawn from the line during both halves of the switching cycle. This contrasts with buck-boost converters, in which the input current is supplied by a single transistor which is switched on and off, so current is only drawn from the line during half the switching cycle. During the other half the output power is supplied by energy stored in inductors or capacitors in the power supply. Push–pull converters have steadier input current, create less noise on the input line, and are more efficient in higher power applications.
+
+
+== Circuit operation ==
+
+The term push–pull is sometimes used to generally refer to any converter with bidirectional excitation of the transformer. For example, in a full-bridge converter, the switches (connected as an H-bridge) alternate the voltage across the supply side of the transformer, causing the transformer to function as it would for AC power and produce a voltage on its output side.
+However, push–pull more commonly refers to a two-switch topology with a split primary winding.
+In any case, the output is then rectified and sent to the load. Capacitors are often included at the output to filter the switching noise.
+In practice, it is necessary to allow a small interval between powering the transformer one way and powering it the other: the “switches” are usually pairs of transistors (or similar devices), and were the two transistors in the pair to switch simultaneously there would be a risk of shorting out the power supply. Hence, a small wait is needed to avoid this problem. This wait time is called "Dead Time" and is necessary to avoid transistor shoot-through.
+
+
+== Transistors ==
+N-type and P-type power transistors can be used. Power MOSFETs are often chosen for this role due to their high current switching capability and their inherently low ON resistance. The gates or bases of the power transistors are tied via a resistor to one of the supply voltages. A P-type transistor is used to pull up the N-type power transistor gate (common source) and an N-type transistor is used to pull down the P-type power transistor gate.
+Alternatively, all power transistors can be N-type, which offer around three times the gain of their P-type equivalents. In this alternative the N-type transistor used in place of the P-type has to be driven in this way: The voltage is amplified by one P-type transistor and one N-type transistor in common base configuration to rail-to-rail amplitude. Then the power transistor is driven in common drain configuration to amplify the current.
+In high frequency applications both transistors are driven with common source.
+The operation of the circuit means that both transistors are actually pushing, and the pulling is done by a low pass filter in general, and by a center tap of the transformer in the converter application. But because the transistors push in an alternating fashion, the device is called a push-pull converter.
+
+
+== Timing ==
+If both transistors are in their on state, a short circuit results. On the other hand if both transistors are in their off state, high voltage peaks appear due to back EMF.
+If the driver for the transistors is powerful and fast enough, the back EMF has no time to charge the capacity of the windings and of the body-diode of the MOSFETs to high voltages.
+If a microcontroller is used, it can be used to measure the peak voltage and digitally adjust the timing for the transistors, so that the peak only just appears. This is especially useful when the transistors are starting from cold with no peaks, and are in their boot phase.
+The cycle starts with no voltage and no current. Then one transistor turns on, a constant voltage is applied to the primary, current increases linearly, and a constant voltage is induced in the secondary. After some time T the transistor is turned off, the parasitic capacities of the transistors and the transformer and the inductance of the transformer form an LC circuit which swings to the opposite polarity. Then the other transistor turns on. For the same time T charge flows back into the storage capacitor, then changes the direction automatically, and for another time T the charge flows in the transformer. Then again the first transistor turns on until the current is stopped. Then the cycle is finished, another cycle can start anytime later. The S-shaped current is needed to improve over the simpler converters and deal efficiently with remanence.
+
+
+== See also ==
+Inverter (electrical)
+Push–pull output
+Class B or AB push–pull
+Rectifier
+
+
+== External links ==
+Switchmode PSU for car audio 12V to symmetric output push–pull converter used for powering car audio amplifiers. This is a true push–pull topology with two switches and a center-tapped transformer.
+Push-Pull converter basics An article covering the basic operating principles of the push-pull converter.

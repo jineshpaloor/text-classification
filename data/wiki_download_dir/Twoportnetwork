@@ -1,0 +1,206 @@
+Two-port network
+A two-port network (a kind of four-terminal network or quadripole) is an electrical network (circuit) or device with two pairs of terminals to connect to external circuits. Two terminals constitute a port if the currents applied to them satisfy the essential requirement known as the port condition: the electric current entering one terminal must equal the current emerging from the other terminal on the same port. The ports constitute interfaces where the network connects to other networks, the points where signals are applied or outputs are taken. In a two-port network, often port 1 is considered the input port and port 2 is considered the output port.
+The two-port network model is used in mathematical circuit analysis techniques to isolate portions of larger circuits. A two-port network is regarded as a "black box" with its properties specified by a matrix of numbers. This allows the response of the network to signals applied to the ports to be calculated easily, without solving for all the internal voltages and currents in the network. It also allows similar circuits or devices to be compared easily. For example, transistors are often regarded as two-ports, characterized by their h-parameters (see below) which are listed by the manufacturer. Any linear circuit with four terminals can be regarded as a two-port network provided that it does not contain an independent source and satisfies the port conditions.
+Examples of circuits analyzed as two-ports are filters, matching networks, transmission lines, transformers, and small-signal models for transistors (such as the hybrid-pi model). The analysis of passive two-port networks is an outgrowth of reciprocity theorems first derived by Lorentz.
+In two-port mathematical models, the network is described by a 2 by 2 square matrix of complex numbers. The common models that are used are referred to as z-parameters, y-parameters, h-parameters, g-parameters, and ABCD-parameters, each described individually below. These are all limited to linear networks since an underlying assumption of their derivation is that any given circuit condition is a linear superposition of various short-circuit and open circuit conditions. They are usually expressed in matrix notation, and they establish relations between the variables
+, voltage across port 1
+, current into port 1
+, voltage across port 2
+, current into port 2
+which are shown in figure 1. The difference between the various models lies in which of these variables are regarded as the independent variables. These current and voltage variables are most useful at low-to-moderate frequencies. At high frequencies (e.g., microwave frequencies), the use of power and energy variables is more appropriate, and the two-port current–voltage approach is replaced by an approach based upon scattering parameters.
+
+
+== General properties ==
+There are certain properties of two-ports that frequently occur in practical networks and can be used to greatly simplify the analysis. These include:
+Reciprocal networks
+A network is said to be reciprocal if the voltage appearing at port 2 due to a current applied at port 1 is the same as the voltage appearing at port 1 when the same current is applied to port 2. Exchanging voltage and current results in an equivalent definition of reciprocity. A network that consists entirely of linear passive components (that is, resistors, capacitors and inductors) is usually reciprocal, a notable exception being passive circulators and isolators that contain magnetized materials. In general, it will not be reciprocal if it contains active components such as generators or transistors.
+Symmetrical networks
+A network is symmetrical if its input impedance is equal to its output impedance. Most often, but not necessarily, symmetrical networks are also physically symmetrical. Sometimes also antimetrical networks are of interest. These are networks where the input and output impedances are the duals of each other.
+Lossless network
+A lossless network is one which contains no resistors or other dissipative elements.
+
+
+== Impedance parameters (z-parameters) ==
+
+where
+
+Notice that all the z-parameters have dimensions of ohms.
+For reciprocal networks . For symmetrical networks . For reciprocal lossless networks all the  are purely imaginary.
+
+
+=== Example: bipolar current mirror with emitter degeneration ===
+
+Figure 3 shows a bipolar current mirror with emitter resistors to increase its output resistance. Transistor Q1 is diode connected, which is to say its collector-base voltage is zero. Figure 4 shows the small-signal circuit equivalent to Figure 3. Transistor Q1 is represented by its emitter resistance rE ≈ VT / IE (VT = thermal voltage, IE = Q-point emitter current), a simplification made possible because the dependent current source in the hybrid-pi model for Q1 draws the same current as a resistor 1 / gm connected across rπ. The second transistor Q2 is represented by its hybrid-pi model. Table 1 below shows the z-parameter expressions that make the z-equivalent circuit of Figure 2 electrically equivalent to the small-signal circuit of Figure 4.
+The negative feedback introduced by resistors RE can be seen in these parameters. For example, when used as an active load in a differential amplifier, I1 ≈ −I2, making the output impedance of the mirror approximately R22 -R21 ≈ 2 β rORE /(rπ + 2RE) compared to only rO without feedback (that is with RE = 0 Ω) . At the same time, the impedance on the reference side of the mirror is approximately R11 − R12 ≈ , only a moderate value, but still larger than rE with no feedback. In the differential amplifier application, a large output resistance increases the difference-mode gain, a good thing, and a small mirror input resistance is desirable to avoid Miller effect.
+
+
+== Admittance parameters (y-parameters) ==
+
+where
+
+Notice that all the Y-parameters have dimensions of siemens.
+For reciprocal networks . For symmetrical networks . For reciprocal lossless networks all the  are purely imaginary.
+
+
+== Hybrid parameters (h-parameters) ==
+
+where
+
+This circuit is often selected when a current amplifier is wanted at the output. The resistors shown in the diagram can be general impedances instead.
+Notice that off-diagonal h-parameters are dimensionless, while diagonal members have dimensions the reciprocal of one another.
+
+
+=== Example: common-base amplifier ===
+
+Note: Tabulated formulas in Table 2 make the h-equivalent circuit of the transistor from Figure 6 agree with its small-signal low-frequency hybrid-pi model in Figure 7. Notation: rπ = base resistance of transistor, rO = output resistance, and gm = transconductance. The negative sign for h21 reflects the convention that I1, I2 are positive when directed into the two-port. A non-zero value for h12 means the output voltage affects the input voltage, that is, this amplifier is bilateral. If h12 = 0, the amplifier is unilateral.
+
+
+== Inverse hybrid parameters (g-parameters) ==
+
+where
+
+Often this circuit is selected when a voltage amplifier is wanted at the output. Notice that off-diagonal g-parameters are dimensionless, while diagonal members have dimensions the reciprocal of one another. The resistors shown in the diagram can be general impedances instead.
+
+
+=== Example: common-base amplifier ===
+
+Note: Tabulated formulas in Table 3 make the g-equivalent circuit of the transistor from Figure 8 agree with its small-signal low-frequency hybrid-pi model in Figure 9. Notation: rπ = base resistance of transistor, rO = output resistance, and gm = transconductance. The negative sign for g12 reflects the convention that I1, I2 are positive when directed into the two-port. A non-zero value for g12 means the output current affects the input current, that is, this amplifier is bilateral. If g12 = 0, the amplifier is unilateral.
+
+
+== ABCD-parameters ==
+The ABCD-parameters are known variously as chain, cascade, or transmission line parameters. There are a number of definitions given for ABCD parameters, the most common is,
+
+For reciprocal networks . For symmetrical networks . For networks which are reciprocal and lossless, A and D are purely real while B and C are purely imaginary.
+This representation is preferred because when the parameters are used to represent a cascade of two-ports, the matrices are written in the same order that a network diagram would be drawn, that is, left to right. However, the examples given below are based on a variant definition;
+
+where
+
+The negative signs in the definitions of parameters  and  arise because  is defined with the opposite sense to , that is, . The reason for adopting this convention is so that the output current of one cascaded stage is equal to the input current of the next. Consequently, the input voltage/current matrix vector can be directly replaced with the matrix equation of the preceding cascaded stage to form a combined  matrix.
+The terminology of representing the  parameters as a matrix of elements designated a11 etc. as adopted by some authors and the inverse  parameters as a matrix of elements designated b11 etc. is used here for both brevity and to avoid confusion with circuit elements.
+
+An ABCD matrix has been defined for Telephony four-wire Transmission Systems by P K Webb in British Post Office Research Department Report 630 in 1977.
+
+
+=== Table of transmission parameters ===
+The table below lists ABCD and inverse ABCD parameters for some simple network elements.
+
+
+== Scattering parameters (S-parameters) ==
+
+The previous parameters are all defined in terms of voltages and currents at ports. S-parameters are different, and are defined in terms of incident and reflected waves at ports. S-parameters are used primarily at UHF and microwave frequencies where it becomes difficult to measure voltages and currents directly. On the other hand, incident and reflected power are easy to measure using directional couplers. The definition is,
+
+where the  are the incident waves and the  are the reflected waves at port k. It is conventional to define the  and  in terms of the square root of power. Consequently, there is a relationship with the wave voltages (see main article for details).
+For reciprocal networks . For symmetrical networks . For antimetrical networks . For lossless reciprocal networks  and .
+
+
+== Scattering transfer parameters (T-parameters) ==
+
+Scattering transfer parameters, like scattering parameters, are defined in terms of incident and reflected waves. The difference is that T-parameters relate the waves at port 1 to the waves at port 2 whereas S-parameters relate the reflected waves to the incident waves. In this respect T-parameters fill the same role as ABCD parameters and allow the T-parameters of cascaded networks to be calculated by matrix multiplication of the component networks. T-parameters, like ABCD parameters, can also be called transmission parameters. The definition is,
+
+T-parameters are not so easy to measure directly unlike S-parameters. However, S-parameters are easily converted to T-parameters, see main article for details.
+
+
+== Combinations of two-port networks ==
+When two or more two-port networks are connected, the two-port parameters of the combined network can be found by performing matrix algebra on the matrices of parameters for the component two-ports. The matrix operation can be made particularly simple with an appropriate choice of two-port parameters to match the form of connection of the two-ports. For instance, the z-parameters are best for series connected ports.
+The combination rules need to be applied with care. Some connections (when dissimilar potentials are joined) result in the port condition being invalidated and the combination rule will no longer apply. This difficulty can be overcome by placing 1:1 ideal transformers on the outputs of the problem two-ports. This does not change the parameters of the two-ports, but does ensure that they will continue to meet the port condition when interconnected. An example of this problem is shown for series-series connections in figures 11 and 12 below.
+
+
+=== Series-series connection ===
+
+When two-ports are connected in a series-series configuration as shown in figure 10, the best choice of two-port parameter is the z-parameters. The z-parameters of the combined network are found by matrix addition of the two individual z-parameter matrices.
+
+As mentioned above, there are some networks which will not yield directly to this analysis. A simple example is a two-port consisting of a L-network of resistors R1 and R2. The z-parameters for this network are;
+
+Figure 11 shows two identical such networks connected in series-series. The total z-parameters predicted by matrix addition are;
+
+However, direct analysis of the combined circuit shows that,
+
+The discrepancy is explained by observing that R1 of the lower two-port has been by-passed by the short-circuit between two terminals of the output ports. This results in no current flowing through one terminal in each of the input ports of the two individual networks. Consequently, the port condition is broken for both the input ports of the original networks since current is still able to flow into the other terminal. This problem can be resolved by inserting an ideal transformer in the output port of at least one of the two-port networks. While this is a common text-book approach to presenting the theory of two-ports, the practicality of using transformers is a matter to be decided for each individual design.
+
+
+=== Parallel-parallel connection ===
+
+When two-ports are connected in a parallel-parallel configuration as shown in figure 13, the best choice of two-port parameter is the y-parameters. The y-parameters of the combined network are found by matrix addition of the two individual y-parameter matrices.
+
+
+=== Series-parallel connection ===
+
+When two-ports are connected in a series-parallel configuration as shown in figure 14, the best choice of two-port parameter is the h-parameters. The h-parameters of the combined network are found by matrix addition of the two individual h-parameter matrices.
+
+
+=== Parallel-series connection ===
+
+When two-ports are connected in a parallel-series configuration as shown in figure 15, the best choice of two-port parameter is the g-parameters. The g-parameters of the combined network are found by matrix addition of the two individual g-parameter matrices.
+
+
+=== Cascade connection ===
+
+When two-ports are connected with the output port of the first connected to the input port of the second (a cascade connection) as shown in figure 16, the best choice of two-port parameter is the ABCD-parameters. The a-parameters of the combined network are found by matrix multiplication of the two individual a-parameter matrices.
+
+A chain of n two-ports may be combined by matrix multiplication of the n matrices. To combine a cascade of b-parameter matrices, they are again multiplied, but the multiplication must be carried out in reverse order, so that;
+
+
+==== Example ====
+Suppose we have a two-port network consisting of a series resistor R followed by a shunt capacitor C. We can model the entire network as a cascade of two simpler networks:
+
+The transmission matrix for the entire network  is simply the matrix multiplication of the transmission matrices for the two network elements:
+
+Thus:
+
+
+== Interrelation of parameters ==
+Where  is the determinant of [x].
+Certain pairs of matrices have a particularly simple relationship. The admittance parameters are the matrix inverse of the impedance parameters, the inverse hybrid parameters are the matrix inverse of the hybrid parameters, and the [b] form of the ABCD-parameters is the matrix inverse of the [a] form. That is,
+
+
+== Networks with more than two ports ==
+While two port networks are very common (e.g., amplifiers and filters), other electrical networks such as directional couplers and circulators have more than 2 ports. The following representations are also applicable to networks with an arbitrary number of ports:
+Admittance (y) parameters
+Impedance (z) parameters
+Scattering (S) parameters
+For example three-port impedance parameters result in the following relationship:
+
+However the following representations are necessarily limited to two-port devices:
+Hybrid (h) parameters
+Inverse hybrid (g) parameters
+Transmission (ABCD) parameters
+Scattering transfer (T) parameters
+
+
+== Collapsing a two-port to a one port ==
+A two-port network has four variables with two of them being independent. If one of the ports is terminated by a load with no independent sources, then the load enforces a relationship between the voltage and current of that port. A degree of freedom is lost. The circuit now has only one independent parameter. The two-port becomes a one-port impedance to the remaining independent variable.
+For example, consider impedance parameters
+
+Connecting a load, ZL onto port 2 effectively adds the constraint
+
+The negative sign is because the positive direction for I2 is directed into the two-port instead of into the load. The augmented equations become
+
+The second equation can be easily solved for I2 as a function of I1 and that expression can replace I2 in the first equation leaving V1 ( and V2 and I2 ) as functions of I1
+
+So, in effect, I1 sees an input impedance  and the two-port's effect on the input circuit has been effectively collapsed down to a one-port; i.e., a simple two terminal impedance.
+
+
+== See also ==
+Admittance parameters
+Impedance parameters
+Scattering parameters
+Ray transfer matrix
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Bibliography ==
+Carlin, HJ, Civalleri, PP, Wideband circuit design, CRC Press, 1998. ISBN 0-8493-7897-4.
+William F. Egan, Practical RF system design, Wiley-IEEE, 2003 ISBN 0-471-20023-9.
+Farago, PS, An Introduction to Linear Network Analysis, The English Universities Press Ltd, 1961.
+Gray, P.R.; Hurst, P.J.; Lewis, S.H.; Meyer, R.G. (2001). Analysis and Design of Analog Integrated Circuits (4th ed.). New York: Wiley. ISBN 0-471-32168-0. 
+Ghosh, Smarajit, Network Theory: Analysis and Synthesis, Prentice Hall of India ISBN 81-203-2638-5.
+Jaeger, R.C.; Blalock, T.N. (2006). Microelectronic Circuit Design (3rd ed.). Boston: McGraw–Hill. ISBN 978-0-07-319163-8. 
+Matthaei, Young, Jones, Microwave Filters, Impedance-Matching Networks, and Coupling Structures, McGraw-Hill, 1964.
+Mahmood Nahvi, Joseph Edminister, Schaum's outline of theory and problems of electric circuits, McGraw-Hill Professional, 2002 ISBN 0-07-139307-2.
+Dragica Vasileska, Stephen Marshall Goodnick, Computational electronics, Morgan & Claypool Publishers, 2006 ISBN 1-59829-056-8.
+Clayton R. Paul, Analysis of Multiconductor Transmission Lines, John Wiley & Sons, 2008 ISBN 0470131543, 9780470131541.

@@ -1,0 +1,27 @@
+Traction substation
+A traction substation or traction current converter plant is an electrical substation that converts electric power from the form provided by the electrical power industry for public utility service to an appropriate voltage, current type and frequency to supply railways, trams (streetcars) or trolleybuses with traction current.
+
+
+== Conversions ==
+These systems can be used to convert three-phase 50Hz or 60Hz alternating current (AC) for the supply of AC railway electrification systems at a lower frequency and single phase, as used by many older systems, or to rectify AC into direct current (DC) for those systems (primarily public transit systems) using DC for traction power.
+
+
+== Equipment ==
+
+
+=== Rotating ===
+Originally, the conversion equipment usually consisted of one or more motor-generator sets containing three-phase synchronous AC motors and single-phase AC generators, mechanically coupled to a common shaft. Rotary converters were also used, especially where the desired output was DC current from an AC source.
+
+
+=== Static ===
+In the 1920s, DC was derived using electronic valves (mercury arc rectifiers). In modern systems, high-voltage DC (HVDC) "back-to-back" stations are used instead of mechanical equipment to convert between different frequencies and phases of AC power and solid-state thyristor rectifier systems are used for conversion from AC power to DC traction power.
+
+
+== Location ==
+Traction current converter plants are either decentralized (where one plant directly supplies the overhead lines or third rail of the traction system, with no feed into a traction current distribution network) or centralized (for the supply of the traction power network, usually in addition to the direct supply of the overhead lines or third rail).
+Central traction current converter plants are generally found in Germany (primarily in the cities of Neckarwestheim, Ulm, Nuremberg), Austria and Switzerland, while decentralized traction current converter plants are generally found in Norway, Sweden and the German states of Mecklenburg-Vorpommern and Brandenburg as well as parts of Great Britain. A list of current systems for electric rail traction provides further detail.
+
+
+== See also ==
+Traction powerstation
+Railway electrification system

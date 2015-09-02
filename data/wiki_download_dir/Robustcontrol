@@ -1,0 +1,49 @@
+Robust control
+Robust control is a branch of control theory whose approach to controller design explicitly deals with uncertainty. Robust control methods are designed to function properly provided that uncertain parameters or disturbances are found within some (typically compact) set. Robust methods aim to achieve robust performance and/or stability in the presence of bounded modeling errors.
+The early methods of Bode and others were fairly robust; the state-space methods invented in the 1960s and 1970s were sometimes found to lack robustness, prompting research to improve them. This was the start of the theory of Robust Control, which took shape in the 1980s and 1990s and is still active today.
+In contrast with an adaptive control policy, a robust control policy is static; rather than adapting to measurements of variations, the controller is designed to work assuming that certain variables will be unknown but bounded.
+
+
+== When is a control method said to be robust? ==
+Informally, a controller designed for a particular set of parameters is said to be robust if it would also work well under a different set of assumptions. High-gain feedback is a simple example of a robust control method; with sufficiently high gain, the effect of any parameter variations will be negligible. From the closed loop transfer function perspective, high open loop gain leads to substantial disturbance rejection in the face of system parameter uncertainty.
+The major obstacle to achieving high loop gains is the need to maintain system closed loop stability. Loop shaping which allows stable closed loop operation can be a technical challenge.
+Robust control systems often incorporate advanced topologies which include multiple feedback loops and feed-forward paths. The control laws may be represented by high order transfer functions required to simultaneously accomplish desired disturbance rejection performance with robust closed loop operation.
+High-gain feedback is the principle that allows simplified models of operational amplifiers and emitter-degenerated bipolar transistors to be used in a variety of different settings. This idea was already well understood by Bode and Black in 1927.
+
+
+== The modern theory of robust control ==
+The theory of robust control began in the late 1970s and early 1980s and soon developed a number of techniques for dealing with bounded system uncertainty.
+Probably the most important example of a robust control technique is H-infinity loop-shaping, which was developed by Duncan McFarlane and Keith Glover of Cambridge University; this method minimizes the sensitivity of a system over its frequency spectrum, and this guarantees that the system will not greatly deviate from expected trajectories when disturbances enter the system.
+An emerging area of robust control from application point of view is Sliding Mode Control (SMC) which is a variation of variable structure control (VSS). Robustness property of SMC towards matched uncertainty as well as the simplicity in design attracted a variety of applications.
+Another example is loop transfer recovery (LQG/LTR), which was developed to overcome the robustness problems of LQG control.
+Other robust techniques includes Quantitative Feedback Theory (QFT), Gain scheduling, Back stepping, Feedback linearisation etc.
+When system behavior varies considerably in normal operation, multiple control laws may have to be devised. Each distinct control law addresses a specific system behavior mode. An example is a computer hard disk drive. Separate robust control system modes are designed in order to address the rapid magnetic head traversal operation, known as the seek, a transitional settle operation as the magnetic head approaches its destination, and a track following mode during which the disk drive performs its data access operation.
+One of the challenges is to design a control system that addresses these diverse system operating modes and enables smooth transition from one mode to the next as quickly as possible.
+Such state machine driven composite control system is an extension of the gain scheduling idea where the entire control strategy changes based upon changes in system behavior.
+
+
+== References ==
+
+
+== Further reading ==
+
+
+== See also ==
+Control theory
+Control engineering
+Fractional-order control
+H-infinity control
+H-infinity loop-shaping
+Sliding mode control
+Intelligent control
+Process control
+Robust decision making
+Root locus
+Servomechanism
+Stable polynomial
+State space (controls)
+System identification
+Stability radius
+Iso-damping
+Active Disturbance Rejection Control
+Quantitative feedback theory

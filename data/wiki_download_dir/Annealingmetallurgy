@@ -1,0 +1,80 @@
+Annealing (metallurgy)
+Annealing, in metallurgy and materials science, is a heat treatment that alters the physical and sometimes chemical properties of a material to increase its ductility and reduce its hardness, making it more workable. It involves heating a material to above its recrystallization temperature, maintaining a suitable temperature, and then cooling.
+In annealing, atoms migrate in the crystal lattice and the number of dislocations decreases, leading to the change in ductility and hardness.
+In the cases of copper, steel, silver, and brass, this process is performed by heating the material (generally until glowing) for a while and then slowly letting it cool to room temperature in still air. Copper, silver and brass can be cooled slowly in air, or quickly by quenching in water, unlike ferrous metals, such as steel, which must be cooled slowly to anneal. In this fashion, the metal is softened and prepared for further work—such as shaping, stamping, or forming.
+
+
+== ThermodynamicsEdit ==
+Annealing occurs by the diffusion of atoms within a solid material, so that the material progresses towards its equilibrium state. Heat increases the rate of diffusion by providing the energy needed to break bonds. The movement of atoms has the effect of redistributing and eradicating the dislocations in metals and (to a lesser extent) in ceramics. This alteration to existing dislocations allows a metal object to deform more easily, increasing its ductility.
+The amount of process-initiating Gibbs free energy in a deformed metal is also reduced by the annealing process. In practice and industry, this reduction of Gibbs free energy is termed stress relief.
+The relief of internal stresses is a thermodynamically spontaneous process; however, at room temperatures, it is a very slow process. The high temperatures at which annealing occurs serve to accelerate this process.
+The reaction that facilitates returning the cold-worked metal to its stress-free state has many reaction pathways, mostly involving the elimination of lattice vacancy gradients within the body of the metal. The creation of lattice vacancies is governed by the Arrhenius equation, and the migration/diffusion of lattice vacancies are governed by Fick’s laws of diffusion.
+In steel, there is a decarburation mechanism that can be described as three distinct events: the reaction at the steel surface, the interstitial diffusion of carbon atoms and the dissolution of carbides within the steel.
+
+
+=== StagesEdit ===
+The three stages of the annealing process that proceed as the temperature of the material is increased are: recovery, recrystallization, and grain growth. The first stage is recovery, and it results in softening of the metal through removal of primarily linear defects called dislocations and the internal stresses they cause. Recovery occurs at the lower temperature stage of all annealing processes and before the appearance of new strain-free grains. The grain size and shape do not change. The second stage is recrystallization, where new strain-free grains nucleate and grow to replace those deformed by internal stresses. If annealing is allowed to continue once recrystallization has completed, then grain growth (the third stage) occurs. In grain growth, the microstructure starts to coarsen and may cause the metal to lose a substantial part of its original strength. This can however be regained with hardening.
+
+
+== Controlled atmospheresEdit ==
+The high temperature of annealing may result in oxidation of the metal’s surface, resulting in scale. If scale must be avoided, annealing is carried out in a special atmosphere, such as with endothermic gas (a mixture of carbon monoxide, hydrogen gas, and nitrogen gas). Annealing is also done in forming gas, a mixture of hydrogen and nitrogen.
+The magnetic properties of mu-metal (Espey cores) are introduced by annealing the alloy in a hydrogen atmosphere.
+
+
+== Setup and equipmentEdit ==
+Typically, large ovens are used for the annealing process. The inside of the oven is large enough to place the workpiece in a position to receive maximum exposure to the circulating heated air. For high volume process annealing, gas fired conveyor furnaces are often used. For large workpieces or high quantity parts, car-bottom furnaces are used so workers can easily move the parts in and out. Once the annealing process is successfully completed, workpieces are sometimes left in the oven so the parts cool in a controllable way. While some workpieces are left in the oven to cool in a controlled fashion, other materials and alloys are removed from the oven. Once removed from the oven, the workpieces are often quickly cooled off in a process known as quench hardening. Typical methods of quench hardening materials involve media such as air, water, oil, or salt. Salt is used as a medium for quenching usually in the form of brine (salt water). Brine provides faster cooling rates than water. This is because when an object is quenched in water air bubbles form on the surface of the object reducing the surface area the water is in contact with. The salt in the brine reduces the formation of air bubbles on the object's surface, meaning there is a larger surface area of the object in contact with the water, providing faster cooling rates. Quench hardening is generally applicable to some ferrous alloys, but not copper alloys.
+
+
+== Diffusion annealing of semiconductorsEdit ==
+In the semiconductor industry, silicon wafers are annealed, so that dopant atoms, usually boron, phosphorus or arsenic, can diffuse into substitutional positions in the crystal lattice, resulting in drastic changes in the electrical properties of the semiconducting material.
+
+
+== Specialized cyclesEdit ==
+
+
+=== NormalizationEdit ===
+Normalization is an annealing process applied to ferrous alloys to give the material a uniform fine-grained structure and make it less brittle. It is used on steels of less than 0.4% carbon to transform austenite into ferrite, pearlite and sorbite. It involves heating the steel to 20-50 Kelvin above its upper critical point. It is soaked for a short period at that temperature and then allowed to cool in air. Smaller grains form that produce a tougher, more ductile material. It eliminates columnar grains and dendritic segregation that sometimes occurs during casting. Normalizing improves machinability of a component and provides dimensional stability if subjected to further heat treatment processes.
+
+
+=== Process annealingEdit ===
+Process annealing, also called intermediate annealing, subcritical annealing, or in-process annealing, is a heat treatment cycle that restores some of the ductility to a product during the process of cold working, so it can be worked further without breaking further heat treatment cycles.
+The temperature range for process annealing ranges from 260 °C (500 °F) to 760 °C (1400 °F), depending on the alloy in question.
+
+
+=== Full annealEdit ===
+
+A full anneal typically results in the second most ductile state a metal can assume for metal alloy. Its purpose is to originate a uniform and stable microstructure that most closely resembles the metal's phase diagram equilibrium microstructre, thus letting the metal attain relatively low levels of hardness, yield strength and ultimate strength with high plasticity and toughness. To perform a full anneal on a steel for example, steel is heated to slightly above the austenitic temperature and held for sufficient time to allow the material to fully form austenite or austenite-cementite grain structure. The material is then allowed to cool very slowly so that the equilibrium microstructure is obtained. In most cases this means the material is allowed to furnace cool (the furnace is turned off and the steel is let cool down inside) but in some cases it's air cooled. The cooling rate of the steel has to be sufficiently slow so as to not let the austenite transform into bainite or martensite, but rather have it completely transform to pearlite and ferrite or cementite. This means that steels that are very hardenable (i.e. tend to form martensite under moderately low cooling rates) have to be furnace cooled. The details of the process depend on the type of metal and the precise alloy involved. In any case the result is a more ductile material but a lower yield strength and a lower tensile strength. This process is also called LP annealing for lamellar pearlite in the steel industry as opposed to a process anneal, which does not specify a microstructure and only has the goal of softening the material. Often the material to be machined is annealed, and then subject to further heat treatment to achieve the final desired properties.
+
+
+=== Short cycle annealEdit ===
+Short cycle annealing is used for turning normal ferrite into malleable ferrite. It consists of heating, cooling and then heating again from 4 to 8 hours.
+
+
+== Resistive heatingEdit ==
+Resistive heating can be used to efficiently anneal copper wire; the heating system employs a controlled electrical short circuit. It can be advantageous because it does not require a temperature-regulated furnace like other methods of annealing.
+The process consists of two conductive pulleys (step pulleys), which the wire passes across after it is drawn. The two pulleys have an electrical potential across them, which causes the wire to form a short circuit. The Joule effect causes the temperature of the wire to rise to approximately 400 °C. This temperature is affected by the rotational speed of the pulleys, the ambient temperature, and the voltage applied. Where t is the temperature of the wire, K is a constant, V is the voltage applied, r is the number of rotations of the pulleys per minute, and ta is the ambient temperature:
+t = ((KV ²)/(r))+ta
+The constant K depends on the diameter of the pulleys and the resistivity of the copper.
+Purely in terms of the temperature of the copper wire, an increase in the speed of the wire through the pulley system has the same effect as an increase in resistance. Therefore, the speed of the wire can be varied quadratically as the voltage is applied.
+
+
+== See alsoEdit ==
+Annealing (glass)
+Hollomon-Jaffe parameter
+Low hydrogen annealing
+Tempering (metallurgy)
+
+
+== ReferencesEdit ==
+
+
+== Further readingEdit ==
+Thesis of Degree, Cable Manufacture and Tests of General Use and Energy. - Jorge Luis Pedraz (1994), UNI, Files, Peru.
+Dynamic annealing of the Copper wire by using a Controlled Short circuit. = Jorge Luis Pedraz (1999), Peru: Lima, CONIMERA 1999, INTERCON 99,
+
+
+== External linksEdit ==
+Annealing with induction: Ameritherm offers annealing overview and Application Notes
+Annealing:efunda - engineering fundamentals
+Full Annealing:Material Science
+Annealing: Aluminum and Aircraft Metal Alloys

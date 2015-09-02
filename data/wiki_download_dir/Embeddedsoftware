@@ -1,0 +1,29 @@
+Embedded software
+Embedded software is computer software, written to control machines or devices that are not typically thought of as computers. It is typically specialized for the particular hardware that it runs on and has time and memory constraints. This term is sometimes used interchangeably with firmware, although firmware can also be applied to ROM-based code on a computer, on top of which the OS runs, whereas embedded software is typically the only software on the device in question.
+A precise and stable characteristic feature is that no or not all functions of embedded software are initiated/controlled via a human interface, but through machine-interfaces instead.
+Manufacturers 'build in' embedded software in the electronics in cars, telephones, modems, robots, appliances, toys, security systems, pacemakers, televisions and set-top boxes, and digital watches, for example. This software can be very simple, such as lighting controls running on an 8-bit microprocessor and a few kilobytes of memory with the suitable level of processing complexity determined with a Probably Approximately Correct Computation framework (a methodology based on Randomized algorithms), or can become very sophisticated in applications such as airplanes, missiles, and process control systems.
+
+
+== Operating systems ==
+Unlike standard computers that generally utilise a small number of operating systems (largely OS X, Windows and GNU/Linux), embedded software comes in a wide variety of operating systems, typically a real-time operating system. This runs from small one-person operations consisting of a run loop and a timer, to LynxOS, VxWorks, BeRTOS, ThreadX, to Windows CE or Linux (with patched kernel). Others include OpenWrt, PikeOS, eCos, Fusion RTOS, Nucleus RTOS, RTEMS, INTEGRITY, uC/OS, QNX, FreeBSD and OSE. Code is typically written in C or C++. Ada is used in some military and aviation projects.
+
+
+== Differences from application software ==
+Most consumers are familiar with application software that provide functionality on a computer. Embedded software however is often less visible, but no less complicated. Unlike application software, embedded software has fixed hardware requirements and capabilities, addition of third-party hardware or software is strictly controlled.
+Embedded software needs to include all needed device drivers at manufacturing time, and the device drivers are written for the specific hardware. The software is highly dependent on the CPU and specific chips chosen. Most embedded software engineers have at least a passing knowledge of reading schematics, and reading data sheets for components to determine usage of registers and communication system. Conversion between decimal, hexadecimal and binary is useful as well as using bit manipulation.
+Web applications are rarely used, although XML files and other output may be passed to a computer for display. File systems with folders are typically absent as are SQL databases.
+Software development requires use of a cross compiler, which runs on a computer but produces executable code for the target device. Debugging requires use of an in-circuit emulator, JTAG or SWD. Software developers often have access to the complete kernel (OS) source code.
+Size of the storage memory and RAM can vary significantly. Some systems run in 16 KB of Flash and 4 KB of RAM with a CPU operating at 8 MHz, other systems can rival contemporary computers. These space requirements lead to more work being done in C or embedded C++, instead of C++. Interpreted languages like BASIC and Java are not used.
+
+
+== Communication protocols ==
+Communications between processors and between one processor and other components are essential. Besides direct memory addressing, common protocols include I²C, SPI, serial ports, and USB.
+Communications protocols designed for use in embedded systems are available as closed source from companies including InterNiche Technologies and CMX Systems. Open-source protocols stem from uIP, lwip, and others.
+
+
+== References ==
+Edward A. Lee, "Embedded Software", Advances in Computers (M. Zelkowitz, editor) 56, Academic Press, London, 2002.
+
+
+== See also ==
+Embedded system

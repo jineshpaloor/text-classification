@@ -1,0 +1,39 @@
+Communications system
+In telecommunication, a communications system is a collection of individual communications networks, transmission systems, relay stations, tributary stations, and data terminal equipment (DTE) usually capable of interconnection and interoperation to form an integrated whole. The components of a communications system serve a common purpose, are technically compatible, use common procedures, respond to controls, and operate in union. Telecommunications is a method of communication (e.g., for sports broadcasting, mass media, journalism, etc.). A communications subsystem is a functional unit or operational assembly that is smaller than the larger assembly under consideration.
+
+
+== Types ==
+
+
+=== By media ===
+An optical communication system is any form of telecommunication that uses light as the transmission medium. Equipment consists of a transmitter, which encodes a message into an optical signal, a channel, which carries the signal to its destination, and a receiver, which reproduces the message from the received optical signal. Fiber-optic communication systems transmit information from one place to another by sending light through an optical fiber. The light forms an electromagnetic carrier wave that is modulated to carry information.
+A radio communication system is composed of several communications subsystems that give exterior communications capabilities. A radio communication system comprises a transmitting conductor in which electrical oscillations or currents are produced and which is arranged to cause such currents or oscillations to be propagated through the free space medium from one point to another remote therefrom and a receiving conductor at such distant point adapted to be excited by the oscillations or currents propagated from the transmitter.
+Power line communication systems operate by impressing a modulated carrier signal on power wires. Different types of powerline communications use different frequency bands, depending on the signal transmission characteristics of the power wiring used. Since the power wiring system was originally intended for transmission of AC power, the power wire circuits have only a limited ability to carry higher frequencies. The propagation problem is a limiting factor for each type of power line communications.
+
+
+=== By technology ===
+A duplex communication system is a system composed of two connected parties or devices which can communicate with one another in both directions. The term duplex is used when describing communication between two parties or devices. Duplex systems are employed in nearly all communications networks, either to allow for a communication "two-way street" between two connected parties or to provide a "reverse path" for the monitoring and remote adjustment of equipment in the field. Antenna:-an antenna is basically a small length of a qwert
+
+conductor that is used to radiate or receive electromagnetic waves.
+
+It acts as a conversion device.At the transmitting end it converts high frequency current into electromagnetic waves.At the receiving end it transforms electromagnetic waves into electrical signals that is fed into the input of the receiver. several types of antenna are used in communication.
+Examples of communications subsystems include the Defense Communications System (DCS).
+
+
+=== By Application area ===
+A tactical communications system is a communications system that (a) is used within, or in direct support of, tactical forces, (b) is designed to meet the requirements of changing tactical situations and varying environmental conditions, (c) provides securable communications, such as voice, data, and video, among mobile users to facilitate command and control within, and in support of, tactical forces, and (d) usually requires extremely short installation times, usually on the order of hours, in order to meet the requirements of frequent relocation.
+An Emergency communication system is any system (typically computer based) that is organized for the primary purpose of supporting the two way communication of emergency messages between both individuals and groups of individuals. These systems are commonly designed to integrate the cross-communication of messages between are variety of communication technologies.
+An Automatic call distributor (ACD) is a communication system that automatically queues, assigns and connects callers to handlers. This is used often in customer service (such as for product or service complaints), ordering by telephone (such as in a ticket office), or coordination services (such as in air traffic control).
+A Voice Communication Control System (VCCS) is essentially an ACD with characteristics that make it more adapted to use in critical situations (no waiting for dialtone, or lengthy recorded announcements, radio and telephone lines equally easily connected to, individual lines immediately accessible etc..)
+
+
+== See also ==
+Automatic call distributor
+
+
+== Notes ==
+
+
+== References ==
+Hansell, Clarence W., U.S. Patent 2,389,432, "Communication system by pulses through the Earth".
+ This article incorporates public domain material from the General Services Administration document "Federal Standard 1037C" (in support of MIL-STD-188).

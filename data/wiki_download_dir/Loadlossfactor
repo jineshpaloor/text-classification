@@ -1,0 +1,9 @@
+Load-loss factor
+Load-loss factor (LLF) is a factor which when multiplied by energy lost at time of peak and the number of load periods will give overall average energy lost.
+It is calculated as the ratio of the average load loss to the peak load loss.
+For electricity utilities, expect about 0.3.
+In the days when computers were uncommon, estimates were derived from the Load Factor using an empirical formula.
+
+
+== References ==
+Investigation of the Relationship between Load and Loss Factors for a Brazilian Electric Utility

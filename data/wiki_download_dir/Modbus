@@ -1,0 +1,199 @@
+Modbus
+Modbus is a serial communications protocol originally published by Modicon (now Schneider Electric) in 1979 for use with its programmable logic controllers (PLCs). Simple and robust, it has since become a de facto standard communication protocol, and it is now a commonly available means of connecting industrial electronic devices. The main reasons for the use of Modbus in the industrial environment are:
+developed with industrial applications in mind
+openly published and royalty-free
+easy to deploy and maintain
+moves raw bits or words without placing many restrictions on vendors
+Modbus enables communication among many (approximately 247) devices connected to the same network, for example a system that measures temperature and humidity and communicates the results to a computer. Modbus is often used to connect a supervisory computer with a remote terminal unit (RTU) in supervisory control and data acquisition (SCADA) systems. Many of the data types are named from its use in driving relays: a single-bit physical output is called a coil, and a single-bit physical input is called a discrete input or a contact.
+The development and update of Modbus protocols has been managed by the Modbus Organization since April 2004, when Schneider Electric transferred rights to that organization. The Modbus Organization is an association of users and suppliers of Modbus compliant devices that seeks to drive the adoption and evolution of Modbus.
+
+
+== Communication and devices ==
+Each device intended to communicate using Modbus is given a unique address. In serial and MB+ networks, only the node assigned as the Master may initiate a command. On Ethernet, any device can send out a Modbus command, although usually only one master device does so. A Modbus command contains the Modbus address of the device it is intended for (1 to 247). Only the intended device will act on the command, even though other devices might receive it (an exception is specific broadcastable commands sent to node 0 which are acted on but not acknowledged). All Modbus commands contain checksum information, to allow the recipient to detect transmission errors. The basic Modbus commands can instruct an RTU to change the value in one of its registers, control or read an I/O port, and command the device to send back one or more values contained in its registers.
+There are many modems and gateways that support Modbus, as it is a very simple protocol and often copied. Some of them were specifically designed for this protocol. Different implementations use wireline, wireless communication, such as in the ISM band, and even short message service (SMS) or General Packet Radio Service (GPRS). One of the more common designs of wireless networks makes use of Mesh networking. Typical problems that designers have to overcome include high latency and timing issues.
+
+
+== Frame format ==
+A Modbus frame is composed of an Application Data Unit (ADU) which encloses a Protocol Data Unit (PDU):
+ADU = Address + PDU + Error check
+PDU = Function code + Data
+All Modbus variants choose one of the following frame formats.
+Note about the CRC:
+Polynomial: x16 + x15 + x2 + 1 (CRC-16-ANSI also known as CRC-16-IBM, normal hexadecimal algebraic polynomial being 8005 and reversed A001)
+Initial value: 65,535
+Example of frame in hexadecimal: 01 04 02 FF FF B8 80 (CRC-16-ANSI calculation from 01 to FF gives 80B8 which is transmitted least significant byte first)
+Address, function, data, and LRC are all capital hexadecimal readable pairs of characters representing 8-bit values (0-255). For example, 122 (7x16+10) will be represented as 7A.
+LRC is calculated as the sum of 8-bit values, negated (two's complement) and encoded as an 8-bit value. Example: if address, function, and data encode as 247, 3, 19, 137, 0, and 10, their sum is 416. Two's complement (-416) trimmed to 8-bit is 96 (e.g. 256x2-416) which will be represented as 60 in hexadecimal. Hence the following frame :F7031389000A60<CR><LF>
+Unit identifier is used with Modbus/TCP devices that are composites of several Modbus devices, e.g. on Modbus/TCP to Modbus RTU gateways. In such case, the unit identifier tells the Slave Address of the device behind the gateway. Natively Modbus/TCP-capable devices usually ignore the Unit Identifier.
+The byte order for values in Modbus data frames is Big-Endian (MSB, Most Significant Byte of a value received first).
+
+
+== Supported function codes ==
+The various reading, writing and other operations are categorised as follows. The most primitive reads and writes are shown in bold. A number of sources use alternative terminology, for example Force Single Coil where the standard uses Write Single Coil.
+Prominent entities within a Modbus slave are:
+Coils: readable and writable, 1 bit (off/on)
+Discrete Inputs: readable, 1 bit (off/on)
+Input Registers: readable, 16 bits (0 to 65,535), essentially measurements and statuses
+Holding Registers: readable and writable, 16 bits (0 to 65,535), essentially configuration values
+
+
+== Format of data of requests and responses for main function codes ==
+Requests and responses follow frame formats described above. This section gives details of data formats of most used function codes.
+
+
+=== Function code 1 (read coils) and function code 2 (read discrete inputs) ===
+Request:
+Address of first coil/discrete input to read (16-bit)
+Number of coils/discrete inputs to read (16-bit)
+Normal response:
+Number of bytes of coil/discrete input values to follow (8-bit)
+Coil/discrete input values (8 coils/discrete inputs per byte)
+Value of each coil/discrete input is binary (0 for off, 1 for on). First requested coil/discrete input is stored as least significant bit of first byte in reply.
+If number of coils/discrete inputs is not a multiple of 8, most significant bit(s) of last byte will be stuffed with zeros.
+For example, if eleven coils are requested, two bytes of values are needed. Suppose states of those successive coils are on, off, on, off, off, on, on, on, off, on, on, then data part of the response will be 02E506 in hexadecimal.
+
+
+=== Function code 5 (force/write single coil) ===
+Request:
+Address of coil (16-bit)
+Value to force/write: 0 for off and 65,280 (FF00 in hexadecimal) for on
+Normal response: same as request.
+
+
+=== Function code 15 (force/write multiple coils) ===
+Request:
+Address of first coil to force/write (16-bit)
+Number of coils to force/write (16-bit)
+Number of bytes of coil values to follow (8-bit)
+Coil values (8 coil values per byte)
+Value of each coil is binary (0 for off, 1 for on). First requested coil is stored as least significant bit of first byte in request.
+If number of coils is not a multiple of 8, most significant bit(s) of last byte should be stuffed with zeros. See example for function codes 1 and 2.Normal response:
+Address of first coil (16-bit)
+number of coils (16-bit)
+
+
+=== Function code 4 (read input registers) and function code 3 (read holding registers) ===
+Request:
+Address of first register to read (16-bit)
+Number of registers to read (16-bit)
+Normal response:
+Number of bytes of register values to follow (8-bit)
+Register values (16 bits per register)
+Because the number of bytes for register values is 8-bit wide, only 128 registers can be read at once.
+
+
+=== Function code 6 (preset/write single holding register) ===
+Request:
+Address of holding register to preset/write (16-bit)
+New value of the holding register (16-bit)
+Normal response: same as request.
+
+
+=== Function code 16 (preset/write multiple holding registers) ===
+Request:
+Address of first holding register to preset/write (16-bit)
+Number of holding registers to preset/write (16-bit)
+Number of bytes of register values to follow (8-bit)
+New values of holding registers (16 bits per register)
+Because the number of bytes for register values is 8-bit wide, only 128 holding registers can be preset/written at once.
+Normal response:
+Address of first preset/written holding register (16-bit)
+number of preset/written holding registers (16-bit)
+
+
+=== Exception responses ===
+For a normal response, slave repeats the function code. Should a slave want to report an error, it will reply with the requested function code plus 128 (3 becomes 131 or 83 in hexadecimal), and will only include one byte of data, known as the exception code.
+
+
+=== Main Modbus exception codes ===
+
+
+== Coil, discrete input, input register, holding register numbers and addresses ==
+Some conventions govern how access to Modbus entities (coils, discrete inputs, input registers, holding registers) are referenced.
+It is important to make a distinction between entity number and entity address:
+Entity numbers combine entity type and entity location within their description table
+Entity address is the starting address, a 16-bit value in the data part of the Modbus frame. As such its range goes from 0 to 65,535
+In the traditional standard, numbers for those entities start with a digit, followed by a number of four digits in range 1 - 9,999:
+coils numbers start with a zero and then span from 00001 to 09999
+discrete input numbers start with a one and then span from 10001 to 19999
+input register numbers start with a three and then span from 30001 to 39999
+holding register numbers start with a four and then span from 40001 to 49999
+This translates into addresses between 0 and 9,998 in data frames.
+For example, in order to read holding registers starting at number 40001, corresponding address in the data frame will be 0 with a function code of 3 (as seen above). For holding registers starting at number 40100, address will be 99. Etc.
+This limits the number of addresses to 9,999 for each entity. A de facto referencing extends this to the maximum of 65,536.
+It simply consists of adding one digit to the previous list:
+coil numbers span from 000001 to 065536
+discrete input numbers span from 100001 to 165536
+input register numbers span from 300001 to 365536
+holding register numbers span from 400001 to 465536
+When using the extended referencing, all number references must be exactly six digits. This avoids confusion between coils and other entities. For example, to know the difference between holding register #40001 and coil #40001, if coil #40001 is the target, it must appear as #040001.
+
+
+=== JBUS mapping ===
+Another de facto protocol tightly related with Modbus appeared after it and was defined by PLC brand April Automates, resulting of a collaborative effort of French companies Renault Automation and Merlin Gerin et Cie in 1985: JBUS. Differences between Modbus and JBUS at that time (number of entities, slave stations) are now irrelevant as this protocol almost disappeared with April PLC series which AEG Schneider Automation bought in 1994 and then made them obsolete. However the name JBUS survived to some extent.
+JBUS supports function codes 1, 2, 3, 4, 5, 6, 15, and 16 and thus all the entities described above. However numbering is different with JBUS:
+Number and address coincide: entity #x has address x in the data frame
+Consequently, entity number does not include the entity type. For example, holding register #40010 in Modbus will be holding register #9, located at address 9 in JBUS
+Number 0 (and thus address 0) is not supported. Slave should not implement any real data at this number and address and it can return a null value or throw an error when requested
+
+
+== Implementations ==
+Almost all implementations have variations from the official standard. Different varieties might not communicate correctly between equipment of different suppliers. Some of the most common variations are:
+Data types
+Floating point IEEE
+32-bit integer
+8-bit data
+Mixed data types
+Bit fields in integers
+Multipliers to change data to/from integer. 10, 100, 1000, 256 ...
+
+Protocol extensions
+16-bit slave addresses
+32-bit data size (1 address = 32 bits of data returned)
+Word swapped data
+
+
+== Limitations ==
+Since Modbus was designed in the late 1970s to communicate to programmable logic controllers, the number of data types is limited to those understood by PLCs at the time. Large binary objects are not supported.
+No standard way exists for a node to find the description of a data object, for example, to determine if a register value represents a temperature between 30 and 175 degrees.
+Since Modbus is a master/slave protocol, there is no way for a field device to "report by exception" (except over Ethernet TCP/IP, called open-mbus)- the master node must routinely poll each field device, and look for changes in the data. This consumes bandwidth and network time in applications where bandwidth may be expensive, such as over a low-bit-rate radio link.
+Modbus is restricted to addressing 254 devices on one data link, which limits the number of field devices that may be connected to a master station (once again Ethernet TCP/IP being an exception).
+Modbus transmissions must be contiguous which limits the types of remote communications devices to those that can buffer data to avoid gaps in the transmission.
+Modbus protocol itself provides no security against unauthorized commands or interception of data.
+
+
+== Trade group ==
+Modbus Organization, Inc. is a trade association for the promotion and development of Modbus protocol.
+
+
+== Modbus Plus ==
+Despite the name, Modbus Plus is not a variant of Modbus. It is a different protocol, involving token passing.
+It is a proprietary specification of Schneider Electric, though it is unpublished rather than patented. It is normally implemented using a custom chipset available only to partners of Schneider.
+
+
+== References ==
+
+
+== Further reading ==
+Modbus Protocol; Modicon; 74 pages; 2000.
+
+
+== External links ==
+Modbus Organization with protocol specifications
+Cost free Modbus RTU Device Testing Software
+Free Modbus RTU source code on Protocessor website (requires signing up)
+Free Modbus Guide for Field Technician
+Perl module for Modbus/TCP
+Android based Modbus TCP Master
+Pymodbus: Full Modbus protocol implementation in Python, free software
+MinimalModbus: Light RTU only Modbus implementation in Python
+modbus-tk: Fast Modbus Implementation in Python
+Interesting Performance comparison of the 3 above mentioned python modules
+Tcl based Modbus RTU driver
+Open Source C library of Modbus protocol for Linux, Mac OS X, FreeBSD, QNX and Win32
+Freeware Modbus Slave Simulator Application
+Free PeakHMI RTU, TCP/IP and ACSII slave simulators
+Jamod - Java library of Modbus protocol
+ModSlave - Modbus TCP Slave Device written in Python, Free Software
+digitalpetri Modbus - A modern, asynchronous Modbus implementation for Java
+ShortBus Modbus Scanner, RTU and TCP/IP master testing , Server, RTU slave simulation freeware Visual Studio .NET

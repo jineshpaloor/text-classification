@@ -1,0 +1,171 @@
+Complex systems
+Complex systems present problems both in mathematical modelling and philosophical foundations. The study of complex systems represents a new approach to science that investigates how relationships between parts give rise to the collective behaviors of a system and how the system interacts and forms relationships with its environment.
+The equations from which models of complex systems are developed generally derive from statistical physics, information theory and non-linear dynamics and represent organized but unpredictable behaviors of natural systems that are considered fundamentally complex. The physical manifestations of such systems are difficult to define, so a common choice is to identify "the system" with the mathematical information model rather than referring to the undefined physical subject the model represents. One of a variety of journals using this approach to complexity is Complex Systems.
+Such systems are used to model processes in computer science, biology, economics, physics, chemistry, and many other fields. It is also called complex systems theory, complexity science, study of complex systems, sciences of complexity, non-equilibrium physics, and historical physics. A variety of abstract theoretical complex systems is studied as a field of mathematics.
+The key problems of complex systems are difficulties with their formal modelling and simulation. From such a perspective, in different research contexts complex systems are defined on the basis of their different attributes. Since all complex systems have many interconnected components, the science of networks and network theory are important aspects of the study of complex systems. A consensus regarding a single universal definition of complex system does not yet exist.
+For systems that are less usefully represented with equations various other kinds of narratives and methods for identifying, exploring, designing and interacting with complex systems are used.
+
+
+== Overview ==
+
+The study of mathematical complex system models is used for many scientific questions poorly suited to the traditional mechanistic conception provided by science. Complex systems is therefore often used as a broad term encompassing a research approach to problems in many diverse disciplines including anthropology, artificial intelligence, artificial life, chemistry, computer science, economics, evolutionary computation, earthquake prediction, meteorology, molecular biology, neuroscience, physics, psychology and sociology.
+Traditionally, engineering has striven to solve the non-linear system problem while bearing in mind that for small perturbations, most non-linear systems can be approximated with linear systems, significantly simplifying the analysis. Linear systems represent the main class of systems for which general techniques for stability control and analysis exist. However, many physical systems (for example lasers) are inherently "complex systems" in terms of the definition above, and engineering practice must now include elements of complex systems research.
+Information theory applies well to the complex adaptive systems, CAS, through the concepts of object-oriented design, as well as through formalized concepts of organization and disorder that can be associated with any systems evolution process.
+
+
+== History ==
+
+Complex systems is a new approach to science that studies how relationships between parts give rise to the collective behaviors of a system and how the system interacts and forms relationships with its environment.
+The earliest precursor to modern complex systems theory can be found in the classical political economy of the Scottish Enlightenment, later developed by the Austrian school of economics, which says that order in market systems is spontaneous (or emergent) in that it is the result of human action, but not the execution of any human design.
+Upon this the Austrian school developed from the 19th to the early 20th century the economic calculation problem, along with the concept of dispersed knowledge, which were to fuel debates against the then-dominant Keynesian economics. This debate would notably lead economists, politicians and other parties to explore the question of computational complexity.
+A pioneer in the field, and inspired by Karl Popper's and Warren Weaver's works, Nobel prize economist and philosopher Friedrich Hayek dedicated much of his work, from early to the late 20th century, to the study of complex phenomena, not constraining his work to human economies but venturing into other fields such as psychology, biology and cybernetics. Gregory Bateson played a key role in establishing the connection between anthropology and systems theory; he recognized that the interactive parts of cultures function much like ecosystems.
+
+
+== Typical areas of study ==
+
+
+=== Complexity in practice ===
+The traditional approach to dealing with complexity is to reduce or constrain it. Typically, this involves compartmentalisation: dividing a large system into separate parts. Organizations, for instance, divide their work into departments that each deal with separate issues. Engineering systems are often designed using modular components. However, modular designs become susceptible to failure when issues arise that bridge the divisions.
+
+
+=== Complexity management ===
+As projects and acquisitions become increasingly complex, companies and governments are challenged to find effective ways to manage mega-acquisitions such as the Army Future Combat Systems. Acquisitions such as the FCS rely on a web of interrelated parts which interact unpredictably. As acquisitions become more network-centric and complex, businesses will be forced to find ways to manage complexity while governments will be challenged to provide effective governance to ensure flexibility and resiliency.
+
+
+=== Complexity economics ===
+Over the last decades, within the emerging field of complexity economics new predictive tools have been developed to explain economic growth. Such is the case with the models built by the Santa Fe Institute in 1989 and the more recent economic complexity index (ECI), introduced by the Harvard economist Ricardo Hausmann and the MIT physicist Cesar Hidalgo. Based on the ECI, Hausmann, Hidalgo and their team of the The Observatory of Economic Complexity have produced GDP forecasts for the year 2020.
+
+
+=== Complexity and modeling ===
+
+One of Hayek's main contributions to early complexity theory is his distinction between the human capacity to predict the behaviour of simple systems and its capacity to predict the behaviour of complex systems through modeling. He believed that economics and the sciences of complex phenomena in general, which in his view included biology, psychology, and so on, could not be modeled after the sciences that deal with essentially simple phenomena like physics. Hayek would notably explain that complex phenomena, through modeling, can only allow pattern predictions, compared with the precise predictions that can be made out of non-complex phenomena.
+Mathematical models of complex systems are of three types: black-box (phenomenological), white-box (mechanistic, based on the first principles) and grey-box (mixtures of phenomenological and mechanistic models)  . In black-box models, the individual-based (mechanistic) mechanisms of a complex dynamic system remain hidden. Black-box models are completely nonmechanistic. They are phenomenological and ignore a composition and internal structure of a complex system. We cannot investigate interactions of subsystems of such a non-transparent model. A white-box model of complex dynamic system has ‘transparent walls’ and directly shows underlying mechanisms. All events at micro-, meso- and macro-levels of a dynamic system are directly visible at all stages of its white-box model evolution. In most cases mathematical modelers use the heavy black-box mathematical methods, which cannot produce mechanistic models of complex dynamic systems. Grey-box models are intermediate and combine black-box and white-box approaches. As a rule, this approach is used in ‘overloaded’ form, what makes it less transparent. It was demonstrated that the logical deterministic cellular automata approach allows to create the white-box models of ecosystems. Creation of a white-box model of complex system is associated with the problem of the necessity of an a priori basic knowledge of the modeling subject. The deterministic logical cellular automata are necessary but not sufficient condition of a white-box model. The second necessary prerequisite of a white-box model is the presence of the physical ontology of the object under study. The white-box modeling represents an automatic hyper-logical inference from the first principles because it is completely based on the deterministic logic and axiomatic theory of the subject. The purpose of the white-box modeling is to derive from the basic axioms a more detailed, more concrete mechanistic knowledge about the dynamics of the object under study. The necessity to formulate an intrinsic axiomatic system of the subject before creating its white-box model distinguishes the cellular automata models of white-box type from cellular automata models based on arbitrary logical rules. If cellular automata rules have not been formulated from the first principles of the subject, then such a model may have a weak relevance to the real problem.
+
+
+=== Complexity and chaos theory ===
+Complexity theory is rooted in chaos theory, which in turn has its origins more than a century ago in the work of the French mathematician Henri Poincaré. Chaos is sometimes viewed as extremely complicated information, rather than as an absence of order. Chaotic systems remain deterministic, though their long-term behavior can be difficult to predict with any accuracy. With perfect knowledge of the initial conditions and of the relevant equations describing the chaotic system's behavior, one can theoretically make perfectly accurate predictions about the future of the system, though in practice this is impossible to do with arbitrary accuracy. Ilya Prigogine argued that complexity is non-deterministic, and gives no way whatsoever to precisely predict the future.
+The emergence of complexity theory shows a domain between deterministic order and randomness which is complex. This is referred as the "edge of chaos".
+
+When one analyzes complex systems, sensitivity to initial conditions, for example, is not an issue as important as within the chaos theory in which it prevails. As stated by Colander, the study of complexity is the opposite of the study of chaos. Complexity is about how a huge number of extremely complicated and dynamic sets of relationships can generate some simple behavioral patterns, whereas chaotic behavior, in the sense of deterministic chaos, is the result of a relatively small number of non-linear interactions.
+Therefore, the main difference between chaotic systems and complex systems is their history. Chaotic systems do not rely on their history as complex ones do. Chaotic behaviour pushes a system in equilibrium into chaotic order, which means, in other words, out of what we traditionally define as 'order'. On the other hand, complex systems evolve far from equilibrium at the edge of chaos. They evolve at a critical state built up by a history of irreversible and unexpected events, which physicist Murray Gell-Mann called "an accumulation of frozen accidents." In a sense chaotic systems can be regarded as a subset of complex systems distinguished precisely by this absence of historical dependence. Many real complex systems are, in practice and over long but finite time periods, robust. However, they do possess the potential for radical qualitative change of kind whilst retaining systemic integrity. Metamorphosis serves as perhaps more than a metaphor for such transformations.
+
+
+=== General Form of Complexity Computation ===
+The computational law of reachable optimality is established as a general form of computation for ordered system and it reveals complexity computation is a compound computation of optimal choice and optimality driven reaching pattern overtime underlying a specific and any experience path of ordered system within the general limitation of system integrity.
+The computational law of reachable optimality has four key components as described below.
+1.Reachability of Optimality Any intended optimality shall be reachable. Unreachable optimality has no meaning for a member in the ordered system and even for the ordered system itself. 2. Prevailing and Consistency Maximizing reachability to explore best available optimality is the prevailing computation logic for all members in the ordered system and is accommodated by the ordered system. 3. Conditionality Realizable tradeoff between reachability and optimality depends primarily upon the initial bet capacity and how the bet capacity evolves along with the payoff table update path triggered by bet behavior and empowered by the underlying law of reward and punishment. Precisely, it is a sequence of conditional events where the next event happens upon reached status quo from experience path. 4. Robustness The more challenge a reachable optimality can accommodate, the more robust it is in term of path integrity.
+There are also four computation features in the law of reachable optimality.
+1. Optimal Choice Computation in realizing Optimal Choice can be very simple or very complex. A simple rule in Optimal Choice is to accept whatever is reached, Reward As You Go (RAYG). A Reachable Optimality computation reduces into optimizing reachability when RAYG is adopted. The Optimal Choice computation can be more complex when multiple NE strategies present in a reached game. 2. Initial Status Computation is assumed to start at an interested beginning even the absolute beginning of an ordered system in nature may not and need not present. An assumed neutral Initial Status facilitates an artificial or a simulating computation and is not expected to change the prevalence of any findings. 3. Territory An ordered system shall have a territory where the universal computation sponsored by the system will produce an optimal solution still within the territory. 4. Reaching Pattern The forms of Reaching Pattern in the computation space, or the Optimality Driven Reaching Pattern in the computation space, primarily depend upon the nature and dimensions of measure space underlying a computation space and the law of punishment and reward underlying the realized experience path of reaching. There are five basic forms of experience path we are interested in, persistently positive reinforcement experience path, persistently negative reinforcement experience path, mixed persistent pattern experience path, decaying scale experience path and selection experience path.
+The compound computation in selection experience path includes current and lagging interaction, dynamic topological transformation and implies both invariance and variance characteristics in an ordered system's experience path.
+In addition, the computation law of reachable optimality gives out the boundary between complexity model, chaotic model and determination model. When RAYG is the Optimal Choice computation, and the reaching pattern is a persistently positive experience path, persistently negative experience path, or mixed persistent pattern experience path, the underlying computation shall be a simple system computation adopting determination rules. If the reaching pattern has no persistent pattern experienced in RAYG regime, the underlying computation hints there is a chaotic system. When the optimal choice computation involves non-RAYG computation, it's a complexity computation driving the compound effect.
+
+
+== Institutes, research centers, journals and other resources ==
+
+
+=== Institutes and research centers ===
+Americas
+GRIFE Complex Systems Research Group at the University of Sao Paulo, Brazil
+Complexity Science Group at the University of Calgary, Alberta, Canada
+Waterloo Institute for Complexity and Innovation (WICI) at the University of Waterloo, Ontario, Canada
+Centro de Investigacion en Complejidad Social (CICS), Chile
+CEiBA Complex Systems Research Center, Bogotá, Colombia
+Centro de Ciencias de la Complejidad at the National Autonomous University of Mexico (UNAM)
+Mexican Institute of Complex Systems (MICS), Tampico, Tamaulipas, Mexico
+United States
+
+Center for Social Dynamics & Complexity (CSDC) at Arizona State University
+The Environmental Systems Dynamics Laboratory at the University of California, Berkeley
+Center for Complex Systems and Brain Sciences at Florida Atlantic University
+Northwestern Institute on Complex Systems (NICO), Northwestern University, Illinois
+Center for Complex Systems Research at the University of Illinois at Urbana–Champaign
+Center for Complex Networks and Systems Research at Indiana University
+Center for Complexity in Business at the Robert H. Smith School of Business, University of Maryland
+Center for Interdisciplinary Research on Complex Systems at Northeastern University, Boston, Massachusetts
+Center for Complex Networks Research at Northeastern University, Boston, Massachusetts
+Atlas of Economic Complexity, MIT and Harvard University, Massachusetts
+New England Complex Systems Institute, Cambridge, Massachusetts
+Center for the Study of Complex Systems at the University of Michigan
+Santa Fe Institute, Santa Fe, New Mexico
+Center for Complex Systems and Enterprises at Stevens Institute of Technology, Hoboken, New Jersey
+Center for Collective Dynamics of Complex Systems (CoCo) at Binghamton University, State University of New York
+Complexity in Health Group at the Kent State University, Ohio
+Vermont Complex Systems Center, Vermont
+Center for Social Complexity at George Mason University, Virginia
+Plexus Institute for the Study of Complex Change and Innovation, [? Washington]
+
+Europe
+Center for Nonlinear Phenomena and Complex Systems at the Université libre de Bruxelles, Belgium
+Center for the Study of Complex Systems and Cognition at the École Normale Supérieure, France
+Institut rhônalpin des systèmes complexes at the École Normale Supérieure de Lyon, France
+Max Planck Institute for the Physics of Complex Systems, Germany
+CASL Institute (Complex and Adaptive Systems Laboratory) at University College Dublin, Republic of Ireland
+Complexity Lab Research, Republic of Ireland
+International Research Center for Mathematics & Mechanics of Complex Systems (M&MoCS) at the University of L'Aquila, Italy
+Complex System Group at the Centre de Recerca Matemàtica, Spain
+Institute for Cross-Disciplinary Physics and Complex Systems (IFISC), Palma de Mallorca, Spain
+Institute for Biocomputation and Physics of Complex Systems (BIFI), University of Zaragoza, Spain
+Master's Programme in Complex Adaptive Systems at the University of Gothenburg, Sweden
+Bristol Centre for Complexity Sciences (BCCS) at the University of Bristol, England
+Centre for Complexity Science at Imperial College London, England
+Institute for Complex Systems Simulation at the University of Southampton, England
+Centre for Complexity Science at the University of Warwick, England
+York Centre for Complex Systems Analysis at the University of York, England
+Institute for Complex Systems and Mathematical Biology at the University of Aberdeen, Scotland
+Oceania
+ARC Centre for Complex Systems, Australia
+Institute of Global Dynamic Systems, Canberra, Australia
+Complex Systems Research at The University of Sydney
+
+
+=== Journals ===
+Advances in Complex Systems
+Complexity
+Complex Systems
+Interdisciplinary Description of Complex Systems
+
+
+=== Other resources ===
+Complexity Digest
+
+
+== Notable figures ==
+Samuel Bowles
+Paul Cilliers
+Murray Gell-Mann
+Cris Moore
+Bill McKelvey
+Jerry Sabloff
+Dave Snowden
+Geoffrey West
+Yaneer Bar-Yam
+Walter Clemens, Jr.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+Bazin, A. (2014). Defeating ISIS and Their Complex Way of War Small Wars Journal.
+Syed M. Mehmud (2011), A Healthcare Exchange Complexity Model
+Chu, D.; Strand, R.; Fjelland, R. (2003). "Theories of complexity". Complexity 8 (3). doi:10.1002/cplx.10059. 
+L.A.N. Amaral and J.M. Ottino, Complex networks — augmenting the framework for the study of complex system, 2004.
+Gell-Mann, Murray (1995). "Let's Call It Plectics" (PDF). Complexity 1 (5). 
+Nigel Goldenfeld and Leo P. Kadanoff, Simple Lessons from Complexity, 1999
+A. Gogolin, A. Nersesyan and A. Tsvelik, Theory of strongly correlated systems , Cambridge University Press, 1999.
+Kelly, K. (1995). Out of Control, Perseus Books Group.
+Donald Snooks, Graeme (2008). "A general theory of complex living systems: Exploring the demand side of dynamics". Complexity 13 (6). 
+Sorin Solomon and Eran Shir, Complexity; a science at 30, 2003.
+Preiser-Kapeller, Johannes, "Calculating Byzantium. Social Network Analysis and Complexity Sciences as tools for the exploration of medieval social dynamics". August 2010
+Walter Clemens, Jr., Complexity Science and World Affairs, SUNY Press, 2013.
+
+
+== External links ==
+The Open Agent-Based Modeling Consortium
+Complexity Science Focus
+INDECS (Interdisciplinary Description of Complex Systems)
+Center for Complex Systems Research, Univ. of Illinois
+Introduction to complex systems - Short course by Shlomo Havlin

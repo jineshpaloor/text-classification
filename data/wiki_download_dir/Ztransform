@@ -1,0 +1,195 @@
+Z-transform
+In mathematics and signal processing, the Z-transform converts a discrete-time signal, which is a sequence of real or complex numbers, into a complex frequency domain representation.
+It can be considered as a discrete-time equivalent of the Laplace transform. This similarity is explored in the theory of time scale calculus.
+
+
+== History ==
+The basic idea now known as the Z-transform was known to Laplace, and re-introduced in 1947 by W. Hurewicz as a tractable way to solve linear, constant-coefficient difference equations. It was later dubbed "the z-transform" by Ragazzini and Zadeh in the sampled-data control group at Columbia University in 1952.
+The modified or advanced Z-transform was later developed and popularized by E. I. Jury.
+The idea contained within the Z-transform is also known in mathematical literature as the method of generating functions which can be traced back as early as 1730 when it was introduced by de Moivre in conjunction with probability theory. From a mathematical view the Z-transform can also be viewed as a Laurent series where one views the sequence of numbers under consideration as the (Laurent) expansion of an analytic function.
+
+
+== Definition ==
+The Z-transform, like many integral transforms, can be defined as either a one-sided or two-sided transform.
+
+
+=== Bilateral Z-transform ===
+The bilateral or two-sided Z-transform of a discrete-time signal x[n] is the formal power series X(z) defined as
+
+where n is an integer and z is, in general, a complex number:
+
+where A is the magnitude of z, j is the imaginary unit, and ɸ is the complex argument (also referred to as angle or phase) in radians.
+
+
+=== Unilateral Z-transform ===
+Alternatively, in cases where x[n] is defined only for n ≥ 0, the single-sided or unilateral Z-transform is defined as
+
+In signal processing, this definition can be used to evaluate the Z-transform of the unit impulse response of a discrete-time causal system.
+An important example of the unilateral Z-transform is the probability-generating function, where the component x[n] is the probability that a discrete random variable takes the value n, and the function X(z) is usually written as X(s), in terms of s = z−1. The properties of Z-transforms (below) have useful interpretations in the context of probability theory.
+
+
+=== Geophysical definition ===
+In geophysics, the usual definition for the Z-transform is a power series in z as opposed to z−1. This convention is used, for example, by Robinson and Treitel and by Kanasewich. The geophysical definition is:
+
+The two definitions are equivalent; however, the difference results in a number of changes. For example, the location of zeros and poles move from inside the unit circle using one definition, to outside the unit circle using the other definition. Thus, care is required to note which definition is being used by a particular author.
+
+
+== Inverse Z-transform ==
+The inverse Z-transform is
+
+where C is a counterclockwise closed path encircling the origin and entirely in the region of convergence (ROC). In the case where the ROC is causal (see Example 2), this means the path C must encircle all of the poles of X(z).
+A special case of this contour integral occurs when C is the unit circle (and can be used when the ROC includes the unit circle which is always guaranteed when X(z) is stable, i.e. all the poles are within the unit circle). The inverse Z-transform simplifies to the inverse discrete-time Fourier transform:
+
+The Z-transform with a finite range of n and a finite number of uniformly spaced z values can be computed efficiently via Bluestein's FFT algorithm. The discrete-time Fourier transform (DTFT)—not to be confused with the discrete Fourier transform (DFT)—is a special case of such a Z-transform obtained by restricting z to lie on the unit circle.
+
+
+== Region of convergence ==
+The region of convergence (ROC) is the set of points in the complex plane for which the Z-transform summation converges.
+
+
+=== Example 1 (no ROC) ===
+Let x[n] = (0.5)n. Expanding x[n] on the interval (−∞, ∞) it becomes
+
+Looking at the sum
+
+Therefore, there are no values of z that satisfy this condition.
+
+
+=== Example 2 (causal ROC) ===
+
+Let  (where u is the Heaviside step function). Expanding x[n] on the interval (−∞, ∞) it becomes
+
+Looking at the sum
+
+The last equality arises from the infinite geometric series and the equality only holds if |0.5z−1| < 1 which can be rewritten in terms of z as |z| > 0.5. Thus, the ROC is |z| > 0.5. In this case the ROC is the complex plane with a disc of radius 0.5 at the origin "punched out".
+
+
+=== Example 3 (anticausal ROC) ===
+
+Let  (where u is the Heaviside step function). Expanding x[n] on the interval (−∞, ∞) it becomes
+
+Looking at the sum
+
+Using the infinite geometric series, again, the equality only holds if |0.5−1z| < 1 which can be rewritten in terms of z as |z| < 0.5. Thus, the ROC is |z| < 0.5. In this case the ROC is a disc centered at the origin and of radius 0.5.
+What differentiates this example from the previous example is only the ROC. This is intentional to demonstrate that the transform result alone is insufficient.
+
+
+=== Examples conclusion ===
+Examples 2 & 3 clearly show that the Z-transform X(z) of x[n] is unique when and only when specifying the ROC. Creating the pole–zero plot for the causal and anticausal case show that the ROC for either case does not include the pole that is at 0.5. This extends to cases with multiple poles: the ROC will never contain poles.
+In example 2, the causal system yields an ROC that includes |z| = ∞ while the anticausal system in example 3 yields an ROC that includes |z| = 0.
+
+In systems with multiple poles it is possible to have an ROC that includes neither |z| = ∞ nor |z| = 0. The ROC creates a circular band. For example,
+
+has poles at 0.5 and 0.75. The ROC will be 0.5 < |z| < 0.75, which includes neither the origin nor infinity. Such a system is called a mixed-causality system as it contains a causal term (0.5)nu[n] and an anticausal term −(0.75)nu[−n−1].
+The stability of a system can also be determined by knowing the ROC alone. If the ROC contains the unit circle (i.e., |z| = 1) then the system is stable. In the above systems the causal system (Example 2) is stable because |z| > 0.5 contains the unit circle.
+If you are provided a Z-transform of a system without an ROC (i.e., an ambiguous x[n]) you can determine a unique x[n] provided you desire the following:
+Stability
+Causality
+If you need stability then the ROC must contain the unit circle. If you need a causal system then the ROC must contain infinity and the system function will be a right-sided sequence. If you need an anticausal system then the ROC must contain the origin and the system function will be a left-sided sequence. If you need both, stability and causality, all the poles of the system function must be inside the unit circle.
+The unique x[n] can then be found.
+
+
+== Properties ==
+Parseval's theorem
+
+Initial value theorem: If x[n] is causal, then
+
+Final value theorem: If the poles of (z−1)X(z) are inside the unit circle, then
+
+
+== Table of common Z-transform pairs ==
+Here:
+
+is the unit (or Heaviside) step function and
+
+is the discrete-time (or Dirac delta) unit impulse function. Both are usually not considered as true functions but as distributions due to their discontinuity (their value on n = 0 usually does not really matter, except when working in discrete time, in which case they become degenerate discrete series ; in this section they are chosen to take the value 1 on n = 0, both for the continuous and discrete time domains, otherwise the content of the ROC column below would not apply). The two "functions" are chosen together so that the unit step function is the integral of the unit impulse function (in the continuous time domain), or the summation of the unit impulse function is the unit step function (in the discrete time domain), hence the choice of making their value on n = 0 fixed here to 1.
+
+
+== Relationship to Fourier series and Fourier transform ==
+For values of z in the region |z|=1, known as the unit circle, we can express the transform as a function of a single, real variable, ω, by defining z=ejω.  And the bi-lateral transform reduces to a Fourier series:
+
+which is also known as the discrete-time Fourier transform (DTFT) of the x[n] sequence. This 2π-periodic function is the periodic summation of a Fourier transform, which makes it a widely used analysis tool. To understand this, let X(f) be the Fourier transform of any function, x(t), whose samples at some interval, T, equal the x[n] sequence. Then the DTFT of the x[n] sequence can be written as:
+
+When T has units of seconds,  has units of hertz. Comparison of the two series reveals that    is a normalized frequency with units of radians per sample. The value ω=2π corresponds to  Hz.  And now, with the substitution    Eq.1 can be expressed in terms of the Fourier transform, X(•):
+
+When sequence x(nT) represents the impulse response of an LTI system, these functions are also known as its frequency response. When the x(nT) sequence is periodic, its DTFT is divergent at one or more harmonic frequencies, and zero at all other frequencies. This is often represented by the use of amplitude-variant Dirac delta functions at the harmonic frequencies. Due to periodicity, there are only a finite number of unique amplitudes, which are readily computed by the much simpler discrete Fourier transform (DFT).  (See DTFT; periodic data.)
+
+
+== Relationship to Laplace transform ==
+
+
+=== Bilinear transform ===
+
+The bilinear transform can be used to convert continuous-time filters (represented in the Laplace domain) into discrete-time filters (represented in the Z-domain), and vice versa. The following substitution is used:
+
+to convert some function  in the Laplace domain to a function  in the Z-domain (Tustin transformation), or
+
+from the Z-domain to the Laplace domain. Through the bilinear transformation, the complex s-plane (of the Laplace transform) is mapped to the complex z-plane (of the z-transform). While this mapping is (necessarily) nonlinear, it is useful in that it maps the entire jΩ axis of the s-plane onto the unit circle in the z-plane. As such, the Fourier transform (which is the Laplace transform evaluated on the jΩ axis) becomes the discrete-time Fourier transform. This assumes that the Fourier transform exists; i.e., that the jΩ axis is in the region of convergence of the Laplace transform.
+
+
+=== Starred transform ===
+
+Given a one-sided Z-transform, X(z), of a time-sampled function, the corresponding starred transform produces a Laplace transform and restores the dependence on sampling parameter, T:
+
+The inverse Laplace transform is a mathematical abstraction known as an impulse-sampled function.
+
+
+== Linear constant-coefficient difference equation ==
+The linear constant-coefficient difference (LCCD) equation is a representation for a linear system based on the autoregressive moving-average equation.
+
+Both sides of the above equation can be divided by α0, if it is not zero, normalizing α0 = 1 and the LCCD equation can be written
+
+This form of the LCCD equation is favorable to make it more explicit that the "current" output y[n] is a function of past outputs y[n−p], current input x[n], and previous inputs x[n−q].
+
+
+=== Transfer function ===
+Taking the Z-transform of the above equation (using linearity and time-shifting laws) yields
+
+and rearranging results in
+
+
+=== Zeros and poles ===
+From the fundamental theorem of algebra the numerator has M roots (corresponding to zeros of H) and the denominator has N roots (corresponding to poles). Rewriting the transfer function in terms of poles and zeros
+
+where qk is the k-th zero and pk is the k-th pole. The zeros and poles are commonly complex and when plotted on the complex plane (z-plane) it is called the pole–zero plot.
+In addition, there may also exist zeros and poles at z = 0 and z = ∞. If we take these poles and zeros as well as multiple-order zeros and poles into consideration, the number of zeros and poles are always equal.
+By factoring the denominator, partial fraction decomposition can be used, which can then be transformed back to the time domain. Doing so would result in the impulse response and the linear constant coefficient difference equation of the system.
+
+
+=== Output response ===
+If such a system H(z) is driven by a signal X(z) then the output is Y(z) = H(z)X(z). By performing partial fraction decomposition on Y(z) and then taking the inverse Z-transform the output y[n] can be found. In practice, it is often useful to fractionally decompose  before multiplying that quantity by z to generate a form of Y(z) which has terms with easily computable inverse Z-transforms.
+
+
+== See also ==
+Advanced Z-transform
+Bilinear transform
+Difference equation (recurrence relation)
+Discrete convolution
+Discrete-time Fourier transform
+Finite impulse response
+Formal power series
+Laplace transform
+Laurent series
+Probability-generating function
+Star transform
+Zak transform
+Zeta function regularization
+
+
+== References ==
+
+
+== Further reading ==
+Refaat El Attar, Lecture notes on Z-Transform, Lulu Press, Morrisville NC, 2005. ISBN 1-4116-1979-X.
+Ogata, Katsuhiko, Discrete Time Control Systems 2nd Ed, Prentice-Hall Inc, 1995, 1987. ISBN 0-13-034281-5.
+Alan V. Oppenheim and Ronald W. Schafer (1999). Discrete-Time Signal Processing, 2nd Edition, Prentice Hall Signal Processing Series. ISBN 0-13-754920-2.
+
+
+== External links ==
+Hazewinkel, Michiel, ed. (2001), "Z-transform", Encyclopedia of Mathematics, Springer, ISBN 978-1-55608-010-4 
+Numerical inversion of the Z-transform
+Z-Transform table of some common Laplace transforms
+Mathworld's entry on the Z-transform
+Z-Transform threads in Comp.DSP
+Z-Transform Module by John H. Mathews
+A graphic of the relationship between Laplace transform s-plane to Z-plane of the Z transform

@@ -1,0 +1,212 @@
+Product lifecycle
+In industry, product lifecycle management (PLM) is the process of managing the entire lifecycle of a product from inception, through engineering design and manufacture, to service and disposal of manufactured products. PLM integrates people, data, processes and business systems and provides a product information backbone for companies and their extended enterprise.
+
+
+== History ==
+The inspiration for the burgeoning business process now known as PLM came from American Motors Corporation (AMC). The automaker was looking for a way to speed up its product development process to compete better against its larger competitors in 1985, according to François Castaing, Vice President for Product Engineering and Development. After introducing its compact Jeep Cherokee (XJ), the vehicle that launched the modern sport utility vehicle (SUV) market, AMC began development of a new model, that later came out as the Jeep Grand Cherokee. The first part in its quest for faster product development was computer-aided design (CAD) software system that make engineers more productive. The second part in this effort was the new communication system that allowed conflicts to be resolved faster, as well as reducing costly engineering changes because all drawings and documents were in a central database. The product data management was so effective that after AMC was purchased by Chrysler, the system was expanded throughout the enterprise connecting everyone involved in designing and building products. While an early adopter of PLM technology, Chrysler was able to become the auto industry's lowest-cost producer, recording development costs that were half of the industry average by the mid-1990s.
+1982 - 1983 Rockwell Int'l developed initial concepts of PDM and PLM for the B-1B bomber program. A system called Engineering Data System (EDS) was augmented to interface with Computervision and CADAM systems to track part configurations and lifecycle of components and assemblies. A white paper on this topic was presented during those years at a Computervision User's Group meeting in San Diego. Shortly after Computervison released its system implementing only the PDM aspects as the lifecycle model was specific to Rockwell and Aerospace needs.
+
+
+== Forms ==
+PLM systems help organizations in coping with the increasing complexity and engineering challenges of developing new products for the global competitive markets.
+Product lifecycle management (PLM) should be distinguished from 'product life-cycle management (marketing)' (PLCM). PLM describes the engineering aspect of a product, from managing descriptions and properties of a product through its development and useful life; whereas, PLCM refers to the commercial management of life of a product in the business market with respect to costs and sales measures.
+Product lifecycle management can be considered one of the four cornerstones of a manufacturing corporation's information technology structure. All companies need to manage communications and information with their customers (CRM-customer relationship management), their suppliers and fulfillment (SCM-supply chain), their resources within the enterprise (ERP-enterprise resource planning) and their product planning and development (PLM).
+One form of PLM is called people-centric PLM. While traditional PLM tools have been deployed only on release or during the release phase, people-centric PLM targets the design phase.
+As of 2009, ICT development (EU-funded PROMISE project 2004–2008) has allowed PLM to extend beyond traditional PLM and integrate sensor data and real time 'lifecycle event data' into PLM, as well as allowing this information to be made available to different players in the total lifecycle of an individual product (closing the information loop). This has resulted in the extension of PLM into closed-loop lifecycle management (CL2M).
+
+
+== Benefits ==
+Documented benefits of product lifecycle management include:
+Reduced time to market
+Increase full price sales
+Improved product quality and reliability
+Reduced prototyping costs
+More accurate and timely request for quote generation
+Ability to quickly identify potential sales opportunities and revenue contributions
+Savings through the re-use of original data
+A framework for product optimization
+Reduced waste
+Savings through the complete integration of engineering workflows
+Documentation that can assist in proving compliance for RoHS or Title 21 CFR Part 11
+Ability to provide contract manufacturers with access to a centralized product record
+Seasonal fluctuation management
+Improved forecasting to reduce material costs
+Maximize supply chain collaboration
+
+
+== Areas of PLM ==
+Within PLM there are five primary areas;
+Systems engineering (SE)
+Product and portfolio m² (PPM)
+Product design (CAx)
+Manufacturing process management (MPM)
+Product data management (PDM)
+Note: While application software is not required for PLM processes, the business complexity and rate of change requires organizations execute as rapidly as possible.
+Systems engineering is focused on meeting all requirements, primary meeting customer needs, and coordinating the systems design process by involving all relevant disciplines. An important aspect for life cycle management is a subset within Systems Engineering called Reliability Engineering. Product and portfolio management is focused on managing resource allocation, tracking progress vs. plan for new product development projects that are in process (or in a holding status). Portfolio management is a tool that assists management in tracking progress on new products and making trade-off decisions when allocating scarce resources.Product design is the process of creating a new product to be sold by a business to its customers. Manufacturing process management is a collection of technologies and methods used to define how products are to be manufactured. Product data management is focused on capturing and maintaining information on products and/or services through their development and useful life. Change management is an important part of PDM/PLM.
+
+
+== Introduction to development process ==
+The core of PLM (product lifecycle management) is in the creation and central management of all product data and the technology used to access this information and knowledge. PLM as a discipline emerged from tools such as CAD, CAM and PDM, but can be viewed as the integration of these tools with methods, people and the processes through all stages of a product’s life. It is not just about software technology but is also a business strategy.
+
+For simplicity the stages described are shown in a traditional sequential engineering workflow. The exact order of event and tasks will vary according to the product and industry in question but the main processes are:
+Conceive
+Specification
+Concept design
+
+Design
+Detailed design
+Validation and analysis (simulation)
+Tool design
+
+Realise
+Plan manufacturing
+Manufacture
+Build/Assemble
+Test (quality check)
+
+Service
+Sell and deliver
+Use
+Maintain and support
+Dispose
+
+The major key point events are:
+Order
+Idea
+Kickoff
+Design freeze
+Launch
+The reality is however more complex, people and departments cannot perform their tasks in isolation and one activity cannot simply finish and the next activity start. Design is an iterative process, often designs need to be modified due to manufacturing constraints or conflicting requirements. Where a customer order fits into the time line depends on the industry type and whether the products are for example, built to order, engineered to order, or assembled to order.
+
+
+== Phases of product lifecycle and corresponding technologies ==
+Many software solutions have been developed to organize and integrate the different phases of a product’s lifecycle. PLM should not be seen as a single software product but a collection of software tools and working methods integrated together to address either single stages of the lifecycle or connect different tasks or manage the whole process. Some software providers cover the whole PLM range while others single niche application. Some applications can span many fields of PLM with different modules within the same data model. An overview of the fields within PLM is covered here. It should be noted however that the simple classifications do not always fit exactly, many areas overlap and many software products cover more than one area or do not fit easily into one category. It should also not be forgotten that one of the main goals of PLM is to collect knowledge that can be reused for other projects and to coordinate simultaneous concurrent development of many products. It is about business processes, people and methods as much as software application solutions. Although PLM is mainly associated with engineering tasks it also involves marketing activities such as product portfolio management (PPM), particularly with regards to new product development (NPD). There are several life-cycle models in industry to consider, but most are rather similar. What follows below is one possible life-cycle model; while it emphasizes hardware-oriented products, similar phases would describe any form of product or service, including non-technical or software-based products:
+
+
+=== Phase 1: Conceive ===
+
+
+==== Imagine, specify, plan, innovate ====
+The first stage is the definition of the product requirements based on customer, company, market and regulatory bodies’ viewpoints. From this specification, the product's major technical parameters can be defined. In parallel, the initial concept design work is performed defining the aesthetics of the product together with its main functional aspects. Many different media are used for these processes, from pencil and paper to clay models to 3D CAID computer-aided industrial design software.
+In some concepts, the investment of resources into research or analysis-of-options may be included in the conception phase – e.g. bringing the technology to a level of maturity sufficient to move to the next phase. However, life-cycle engineering is iterative. It is always possible that something doesn't work well in any phase enough to back up into a prior phase – perhaps all the way back to conception or research. There are many examples to draw from.
+
+
+=== Phase 2: Design ===
+
+
+==== Describe, define, develop, test, analyze and validate ====
+This is where the detailed design and development of the product’s form starts, progressing to prototype testing, through pilot release to full product launch. It can also involve redesign and ramp for improvement to existing products as well as planned obsolescence. The main tool used for design and development is CAD. This can be simple 2D drawing / drafting or 3D parametric feature based solid/surface modeling. Such software includes technology such as Hybrid Modeling, Reverse Engineering, KBE (knowledge-based engineering), NDT (Nondestructive testing), and Assembly construction.
+This step covers many engineering disciplines including: mechanical, electrical, electronic, software (embedded), and domain-specific, such as architectural, aerospace, automotive, ... Along with the actual creation of geometry there is the analysis of the components and product assemblies. Simulation, validation and optimization tasks are carried out using CAE (computer-aided engineering) software either integrated in the CAD package or stand-alone. These are used to perform tasks such as:- Stress analysis, FEA (finite element analysis); kinematics; computational fluid dynamics (CFD); and mechanical event simulation (MES). CAQ (computer-aided quality) is used for tasks such as Dimensional tolerance (engineering) analysis. Another task performed at this stage is the sourcing of bought out components, possibly with the aid of procurement systems.
+
+
+=== Phase 3: Realize ===
+
+
+==== Manufacture, make, build, procure, produce, sell and deliver ====
+Once the design of the product’s components is complete the method of manufacturing is defined. This includes CAD tasks such as tool design; creation of CNC Machining instructions for the product’s parts as well as tools to manufacture those parts, using integrated or separate CAM computer-aided manufacturing software. This will also involve analysis tools for process simulation for operations such as casting, molding, and die press forming. Once the manufacturing method has been identified CPM comes into play. This involves CAPE (computer-aided production engineering) or CAP/CAPP – (production planning) tools for carrying out factory, plant and facility layout and production simulation. For example: press-line simulation; and industrial ergonomics; as well as tool selection management. Once components are manufactured their geometrical form and size can be checked against the original CAD data with the use of computer-aided inspection equipment and software. Parallel to the engineering tasks, sales product configuration and marketing documentation work take place. This could include transferring engineering data (geometry and part list data) to a web based sales configurator and other desktop publishing systems.
+
+
+=== Phase 4: Service ===
+
+
+==== Use, operate, maintain, support, sustain, phase-out, retire, recycle and disposal ====
+The final phase of the lifecycle involves managing of in service information. Providing customers and service engineers with support information for repair and maintenance, as well as waste management/recycling information. This involves using tools such as Maintenance, Repair and Operations Management (MRO) software.
+There is an end-of-life to every product. Whether it be disposal or destruction of material objects or information, this needs to be considered since it may not be free from ramifications.
+
+
+=== All phases: product lifecycle ===
+
+
+==== Communicate, manage and collaborate ====
+None of the above phases can be seen in isolation. In reality a project does not run sequentially or in isolation of other product development projects. Information is flowing between different people and systems. A major part of PLM is the co-ordination and management of product definition data. This includes managing engineering changes and release status of components; configuration product variations; document management; planning project resources and timescale and risk assessment.
+For these tasks graphical, text and metadata such as product bills of materials (BOMs) needs to be managed. At the engineering departments level this is the domain of PDM – (product data management) software, at the corporate level EDM (enterprise data management) software, these two definitions tend to blur however but it is typical to see two or more data management systems within an organization. These systems are also linked to other corporate systems such as SCM, CRM, and ERP. Associated with these system are project management Systems for project/program planning.
+This central role is covered by numerous collaborative product development tools which run throughout the whole lifecycle and across organizations. This requires many technology tools in the areas of conferencing, data sharing and data translation. The field being product visualization which includes technologies such as DMU (digital mock-up), immersive virtual digital prototyping (virtual reality), and photo-realistic imaging.
+
+
+==== User skills ====
+The broad array of solutions that make up the tools used within a PLM solution-set (e.g., CAD, CAM, CAx...) were initially used by dedicated practitioners who invested time and effort to gain the required skills. Designers and engineers worked wonders with CAD systems, manufacturing engineers became highly skilled CAM users while analysts, administrators and managers fully mastered their support technologies. However, achieving the full advantages of PLM requires the participation of many people of various skills from throughout an extended enterprise, each requiring the ability to access and operate on the inputs and output of other participants.
+Despite the increased ease of use of PLM tools, cross-training all personnel on the entire PLM tool-set has not proven to be practical. Now, however, advances are being made to address ease of use for all participants within the PLM arena. One such advance is the availability of "role" specific user interfaces. Through tailorable user interfaces (UIs), the commands that are presented to users are appropriate to their function and expertise.
+These techniques include:-
+Concurrent engineering workflow
+Industrial design
+Bottom–up design
+Top–down design
+Front-loading design workflow
+Design in context
+Modular design
+NPD new product development
+DFSS design for Six Sigma
+DFMA design for manufacture / assembly
+Digital simulation engineering
+Requirement-driven design
+Specification-managed validation
+Configuration management
+
+
+=== Concurrent engineering workflow ===
+Concurrent engineering (British English: simultaneous engineering) is a workflow that, instead of working sequentially through stages, carries out a number of tasks in parallel. For example: starting tool design as soon as the detailed design has started, and before the detailed designs of the product are finished; or starting on detail design solid models before the concept design surfaces models are complete. Although this does not necessarily reduce the amount of manpower required for a project, as more changes are required due to the incomplete and changing information, it does drastically reduce lead times and thus time to market.
+Feature-based CAD systems have for many years allowed the simultaneous work on 3D solid model and the 2D drawing by means of two separate files, with the drawing looking at the data in the model; when the model changes the drawing will associatively update. Some CAD packages also allow associative copying of geometry between files. This allows, for example, the copying of a part design into the files used by the tooling designer. The manufacturing engineer can then start work on tools before the final design freeze; when a design changes size or shape the tool geometry will then update. Concurrent engineering also has the added benefit of providing better and more immediate communication between departments, reducing the chance of costly, late design changes. It adopts a problem prevention method as compared to the problem solving and re-designing method of traditional sequential engineering.
+
+
+=== Bottom–up design ===
+Bottom–up design (CAD-centric) occurs where the definition of 3D models of a product starts with the construction of individual components. These are then virtually brought together in sub-assemblies of more than one level until the full product is digitally defined. This is sometimes known as the review structure showing what the product will look like. The BOM contains all of the physical (solid) components; it may (but not also) contain other items required for the final product BOM such as paint, glue, oil and other materials commonly described as 'bulk items'. Bulk items typically have mass and quantities but are not usually modelled with geometry.
+Bottom–up design tends to focus on the capabilities of available real-world physical technology, implementing those solutions which this technology is most suited to. When these bottom–up solutions have real-world value, bottom–up design can be much more efficient than top–down design. The risk of bottom–up design is that it very efficiently provides solutions to low-value problems. The focus of bottom–up design is "what can we most efficiently do with this technology?" rather than the focus of top–down which is "What is the most valuable thing to do?"
+
+
+=== Top–down design ===
+Top–down design is focused on high-level functional requirements, with relatively less focus on existing implementation technology. A top level spec is decomposed into lower and lower level structures and specifications, until the physical implementation layer is reached. The risk of a top–down design is that it will not take advantage of the most efficient applications of current physical technology, especially with respect to hardware implementation. Top–down design sometimes results in excessive layers of lower-level abstraction and inefficient performance when the Top–down model has followed an abstraction path which does not efficiently fit available physical-level technology. The positive value of top–down design is that it preserves a focus on the optimum solution requirements.
+A part-centric top–down design may eliminate some of the risks of top–down design. This starts with a layout model, often a simple 2D sketch defining basic sizes and some major defining parameters. Industrial design brings creative ideas to product development. Geometry from this is associatively copied down to the next level, which represents different subsystems of the product. The geometry in the sub-systems is then used to define more detail in levels below. Depending on the complexity of the product, a number of levels of this assembly are created until the basic definition of components can be identified, such as position and principal dimensions. This information is then associatively copied to component files. In these files the components are detailed; this is where the classic bottom–up assembly starts.
+The top–down assembly is sometime known as a control structure. If a single file is used to define the layout and parameters for the review structure it is often known as a skeleton file.
+Defense engineering traditionally develops the product structure from the top down. The system engineering process prescribes a functional decomposition of requirements and then physical allocation of product structure to the functions. This top down approach would normally have lower levels of the product structure developed from CAD data as a bottom–up structure or design.
+
+
+=== Both-ends-against-the-middle design ===
+Both-ends-against-the-middle (BEATM) design is a design process that endeavors to combine the best features of top–down design, and bottom–up design into one process. A BEATM design process flow may begin with an emergent technology which suggests solutions which may have value, or it may begin with a top–down view of an important problem which needs a solution. In either case the key attribute of BEATM design methodology is to immediately focus at both ends of the design process flow: a top–down view of the solution requirements, and a bottom–up view of the available technology which may offer promise of an efficient solution. The BEATM design process proceeds from both ends in search of an optimum merging somewhere between the top–down requirements, and bottom–up efficient implementation. In this fashion, BEATM has been shown to genuinely offer the best of both methodologies. Indeed some of the best success stories from either top–down or bottom–up have been successful because of an intuitive, yet unconscious use of the BEATM methodology. When employed consciously, BEATM offers even more powerful advantages.
+
+
+=== Front loading design and workflow ===
+Front loading is taking top–down design to the next stage. The complete control structure and review structure, as well as downstream data such as drawings, tooling development and CAM models, are constructed before the product has been defined or a project kick-off has been authorized. These assemblies of files constitute a template from which a family of products can be constructed. When the decision has been made to go with a new product, the parameters of the product are entered into the template model and all the associated data is updated. Obviously predefined associative models will not be able to predict all possibilities and will require additional work. The main principle is that a lot of the experimental/investigative work has already been completed. A lot of knowledge is built into these templates to be reused on new products. This does require additional resources "up front" but can drastically reduce the time between project kick-off and launch. Such methods do however require organizational changes, as considerable engineering efforts are moved into "offline" development departments. It can be seen as an analogy to creating a concept car to test new technology for future products, but in this case the work is directly used for the next product generation.
+
+
+=== Design in context ===
+Individual components cannot be constructed in isolation. CAD and CaiD models of components are designed within the context of part or all of the product being developed. This is achieved using assembly modelling techniques. Other components’ geometry can be seen and referenced within the CAD tool being used. The other components within the sub-assembly may or may not have been constructed in the same system, their geometry being translated from other collaborative product development (CPD) formats. Some assembly checking such as DMU is also carried out using product visualization software.
+
+
+== Product and process lifecycle management (PPLM) ==
+Product and process lifecycle management (PPLM) is an alternate genre of PLM in which the process by which the product is made is just as important as the product itself. Typically, this is the life sciences and advanced specialty chemicals markets. The process behind the manufacture of a given compound is a key element of the regulatory filing for a new drug application. As such, PPLM seeks to manage information around the development of the process in a similar fashion that baseline PLM talks about managing information around development of the product.
+One variant of PPLM implementations are Process Development Execution Systems (PDES). They typically implement the whole development cycle of high-tech manufacturing technology developments, from initial conception, through development and into manufacture. PDES integrate people with different backgrounds from potentially different legal entities, data, information and knowledge and business processes.
+
+
+== Market size ==
+Total spending on PLM software and services was estimated in 2006 to be above $30 billion a year. Market growth estimates are in the area of 10%.
+
+
+== Pyramid of Production Systems ==
+
+According to Malakooti (2013), there are five long-term objectives that should be considered in production systems:
+cost which can be measured in terms of monetary units and usually consists of fixed and variable cost.
+Productivity which can be measured in terms of the number of products produced during a period of time.
+Quality which can be measured, for example, in terms of customers' satisfaction.
+Flexibility, for example,ability of the system to produce variety of products.
+Ecological Soundness which can be measured in terms of biological and environmental impacts of the production system.
+The relation between these five objects can be presented as pyramid which its tip is associated with the highest productivity, the highest quality, the most economical, the most flexibility, and the most sustainability. The points inside of this pyramid are associated with different combinations of five criteria. The tip of the pyramid is the ideal point but it is infeasible and the base of pyramid consists of the worst points.
+
+
+== See also ==
+
+
+== References ==
+
+
+== Further reading ==
+The Cost of PLM
+Saaksvuori, Antti (2008). Product Lifecycle Management. Springer. ISBN 978-3-540-78173-8. 
+Grieves, Michael (2005). Product Lifecycle Management: Driving the Next Generation of Lean Thinking. McGraw-Hill. ISBN 978-0-07-145230-4. 
+Stark, John (2004). Product Lifecycle Management: 21st Century Paradigm for Product Realisation. Springer. ISBN 978-1-85233-810-7. 
+Stark, John (2011). Product Lifecycle Management: 21st Century Paradigm for Product Realisation. Springer. ISBN 978-0-85729-545-3. 
+Stark, John (2006). Global Product: Strategy, Product Lifecycle Management and the Billion Customer Question. Springer. ISBN 978-1-84628-915-6. 
+Bergsjö, Dag (2009). Product Lifecycle Management – Architectural and Organisational Perspectives. Chalmers University of Technology. ISBN 978-91-7385-257-9. 
+
+
+== External links ==
+ Media related to Product lifecycle at Wikimedia Commons

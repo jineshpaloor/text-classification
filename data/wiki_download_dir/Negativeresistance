@@ -1,0 +1,325 @@
+Negative resistance
+In electronics, negative resistance (NR) is a property of some electrical circuits and devices in which an increase in voltage across the device's terminals results in a decrease in electric current through it.
+This is in contrast to an ordinary resistor in which an increase of applied voltage causes a proportional increase in current due to Ohm's law, resulting in a positive resistance. While a positive resistance consumes power from current passing through it, a negative resistance produces power. Under certain conditions it can increase the power of an electrical signal, amplifying it.
+Negative resistance is an uncommon property which occurs in a few nonlinear electronic components. In a nonlinear device, two types of resistance can be defined: 'static' or 'absolute resistance', the ratio of voltage to current , and differential resistance, the ratio of a change in voltage to the resulting change in current . The term negative resistance refers to negative differential resistance (NDR), . In general, a negative differential resistance is a two-terminal component which can amplify, converting DC power applied to its terminals to AC output power to amplify an AC signal applied to the same terminals. They are used in electronic oscillators and amplifiers, particularly at microwave frequencies. Most microwave energy is produced with negative differential resistance devices. They can also have hysteresis and be bistable, and so are used in switching and memory circuits. Examples of devices with negative differential resistance are tunnel diodes, Gunn diodes, and gas discharge tubes such as neon lamps. In addition, circuits containing amplifying devices such as transistors and op amps with positive feedback can have negative differential resistance. These are used in oscillators and active filters.
+Because they are nonlinear, negative resistance devices have a more complicated behavior than the positive "ohmic" resistances usually encountered in electric circuits. Unlike most positive resistances, negative resistance varies depending on the voltage or current applied to the device, and negative resistance devices can have negative resistance over only a limited portion of their voltage or current range. Therefore, there is no real "negative resistor" analogous to a positive resistor, which has a constant negative resistance over an arbitrarily wide range of current.
+
+
+== Negative resistance devices ==
+Electronic components with negative differential resistance include these devices:
+tunnel diode, resonant tunneling diode and other semiconductor diodes using the tunneling mechanism
+Gunn diode and other diodes using the transferred electron mechanism
+IMPATT diode, TRAPATT diode and other diodes using the impact ionization mechanism
+unijunction transistor (UJT)
+thyristors
+triode and tetrode vacuum tubes operating in the dynatron mode
+Some magnetron tubes and other microwave vacuum tubes
+maser
+parametric amplifier
+Electric discharges through gases also exhibit negative differential resistance, including these devices
+electric arc
+thyratron tubes
+neon lamp
+fluorescent lamp
+other gas discharge tubes
+In addition, active circuits with negative differential resistance can also be built with amplifying devices like transistors and op amps, using feedback. A number of new experimental negative differential resistance materials and devices have been discovered in recent years. The physical processes which cause negative resistance are diverse, and each type of device has its own negative resistance characteristics, specified by its current–voltage curve.
+
+
+== Definitions ==
+
+The resistance between two terminals of an electrical device or circuit is determined by its current–voltage (I–V) curve (characteristic curve), giving the current  through it for any given voltage  across it. Most materials, including the ordinary (positive) resistances encountered in electrical circuits, obey Ohm's law; the current through them is proportional to the voltage over a wide range. So the I–V curve of an ohmic resistance is a straight line through the origin with positive slope. The resistance is the ratio of voltage to current, the inverse slope of the line (in I–V graphs where the voltage  is the independent variable) and is constant.
+Negative resistance occurs in a few nonlinear (nonohmic) devices. In a nonlinear component the I–V curve is not a straight line, so it does not obey Ohm's law. Resistance can still be defined, but the resistance is not constant; it varies with the voltage or current through the device. The resistance of such a nonlinear device can be defined in two ways, which are equal for ohmic resistances:
+
+Static resistance (also called chordal resistance, absolute resistance or just resistance) – This is the common definition of resistance; the voltage divided by the current:
+
+.
+
+It is the inverse slope of the line (chord) from the origin through the point on the I–V curve. In a power source, like a battery or electric generator, positive current flows out of the positive voltage terminal, opposite to the direction of current in a resistor, so from the passive sign convention  and  have opposite signs, representing points lying in the 2nd or 4th quadrant of the I–V plane (diagram right). Thus power sources formally have negative static resistance ( However this term is never used in practice, because the term "resistance" is only applied to passive components. Static resistance determines the power dissipation in a component. Passive devices, which consume electric power, have positive static resistance; while active devices, which produce electric power, do not.
+Differential resistance (also called dynamic, or incremental resistance) – This is the derivative of the voltage with respect to the current; the ratio of a small change in voltage to the corresponding change in current, the inverse slope of the I–V curve at a point:
+
+.
+
+Differential resistance is only relevant to time-varying currents. Points on the curve where the slope is negative (declining to the right), meaning an increase in voltage causes a decrease in current, have negative differential resistance (). Devices of this type can amplify signals, and are what is usually meant by the term "negative resistance".
+Negative resistance, like positive resistance, is measured in ohms.
+Conductance is the reciprocal of resistance. It is measured in siemens (formerly mho) which is the conductance of a resistor with a resistance of one ohm. Each type of resistance defined above has a corresponding conductance
+Static conductance
+
+Differential conductance
+
+It can be seen that the conductance has the same sign as its corresponding resistance: a negative resistance will have a negative conductance while a positive resistance will have a positive conductance.
+
+
+== How it works ==
+One way in which the different types of resistance can be distinguished is in the directions that current and electric power flow between a circuit and an electronic component. The illustrations below, with a rectangle representing the component attached to a circuit, summarize how the different types work:
+
+
+== Types and terminology ==
+
+In an electronic device, the differential resistance , the static resistance , or both, can be nonpositive, so there are three categories of devices (fig. 1–3 above, and table) which could be called "negative resistances".
+The term "negative resistance" almost always means negative differential resistance . Negative differential resistance devices have unique capabilities: they can act as one-port amplifiers, increasing the power of a time-varying signal applied to their port (terminals), or excite oscillations in a tuned circuit to make an oscillator. They can also have hysteresis. It is not possible for a device to have negative differential resistance without a power source, and these devices can be divided into two categories depending on whether they get their power from an internal source or from their port:
+
+Passive negative differential resistance devices (fig. 1 above): These are the most well-known type of "negative resistances"; passive two-terminal components whose intrinsic I–V curve has a downward "kink", causing the current to decrease with increasing voltage over a limited range. The I–V curve, including the negative resistance region, lies in the 1st and 3rd quadrant of the plane so the device has positive static resistance. Examples are gas-discharge tubes, tunnel diodes, and Gunn diodes. These devices have no power source and in general work by converting external DC power from their port to time varying (AC) power, so they require a DC bias current applied to the port in addition to the signal. To add to the confusion, some authors call these "active" devices, since they can amplify. This category also includes a few three-terminal devices, such as the unijunction transistor. They are covered in the Negative differential resistance section below.
+
+Active negative differential resistance devices (fig. 3): Circuits can be designed in which a positive voltage applied to the terminals will cause a proportional "negative" current; a current out of the positive terminal, the opposite of an ordinary resistor, over a limited range, Unlike in the above devices, the downward-sloping region of the I–V curve passes through the origin, so it lies in the 2nd and 4th quadrants of the plane, meaning the device sources power. Amplifying devices like transistors and op-amps with positive feedback can have this type of negative resistance, and are used in feedback oscillators and active filters. Since these circuits produce net power from their port, they must have an internal DC power source, or else a separate connection to an external power supply. In circuit theory this is called an "active resistor". It is often simply referred to as "negative resistance" in electronics, although sometimes terms like "linear", "absolute", "ideal", or "pure" are added to distinguish this type from "passive" negative differential resistances. These are covered in the Active resistors section below.
+
+Occasionally ordinary power sources are referred to as "negative resistances" (fig. 2). Although the "static" or "absolute" resistance  of active devices (power sources) can be considered negative (see Negative static resistance section below) most ordinary power sources (AC or DC), such as batteries, generators, and (non positive feedback) amplifiers, have positive differential resistance (their source resistance). Therefore, these devices cannot function as one-port amplifiers or have the other capabilities of negative differential resistances.
+
+
+== Negative static or "absolute" resistance ==
+
+A point of some confusion is whether ordinary resistance ("static" or "absolute" resistance, ) can be negative. In electronics, the term "resistance" is customarily applied only to passive materials and components – such as wires, resistors and diodes. These cannot have  as shown by Joule's law . A passive device consumes electric power, so from the passive sign convention . Therefore, from Joule's law . In other words, no material can conduct electric current better than a "perfect" conductor with zero resistance. For a passive device to have  would violate either conservation of energy or the second law of thermodynamics, (diagram). Therefore, some authors state that static resistance can never be negative.
+
+However it is easily shown that the ratio of voltage to current v/i at the terminals of any power source (AC or DC) is negative. For electric power (potential energy) to flow out of a device into the circuit, charge must flow through the device in the direction of increasing potential energy, conventional current (positive charge) must move from the negative to the positive terminal. So the direction of the instantaneous current is out of the positive terminal. This is opposite to the direction of current in a passive device defined by the passive sign convention so the current and voltage have opposite signs, and their ratio is negative
+
+This can also be proved from Joule's law
+
+This shows that power can flow out of a device into the circuit () if and only if . Whether or not this quantity is referred to as "resistance" when negative is a matter of convention. The absolute resistance of power sources is negative, but this is not to be regarded as "resistance" in the same sense as positive resistances. The negative static resistance of a power source is a rather abstract and not very useful quantity, because it varies with the load. Due to conservation of energy it is always simply equal to the negative of the static resistance of the attached circuit (right).
+Work must be done on the charges by some source of energy in the device, to make them move toward the positive terminal against the electric field, so conservation of energy requires that negative static resistances have a source of power. The power may come from an internal source which converts some other form of energy to electric power as in a battery or generator, or from a separate connection to an external power supply circuit as in an amplifying device like a transistor, vacuum tube, or op amp.
+
+
+=== Eventual passivity ===
+A circuit cannot have negative static resistance (be active) over an infinite voltage or current range, because it would have to be able to produce infinite power. Any active circuit or device with a finite power source is "eventually passive". This property means if a large enough external voltage or current of either polarity is applied to it, its static resistance becomes positive
+
+where  is the maximum power the device can produce.
+Therefore, the ends of the I–V curve will eventually turn and enter the 1st and 3rd quadrants. Thus the range of the curve having negative static resistance is limited, confined to a region around the origin. For example, applying a voltage to a generator or battery (graph, above) greater than its open-circuit voltage will reverse the direction of current flow, making its static resistance positive so it consumes power. Similarly, applying a voltage to the negative impedance converter below greater than its power supply voltage Vs will cause the amplifier to saturate, also making its resistance positive.
+
+
+== Negative differential resistance ==
+In a device or circuit with negative differential resistance (NDR), in some part of the I–V curve the current decreases as the voltage increases:
+
+The I–V curve is nonmonotonic (having peaks and troughs) with regions of negative slope representing negative differential resistance.
+
+Passive negative differential resistances have positive static resistance; they consume net power. Therefore, the I–V curve is confined to the 1st and 3rd quadrants of the graph, and passes through the origin. This requirement means (excluding some asymptotic cases) that the region(s) of negative resistance must be limited, and surrounded by regions of positive resistance, and cannot include the origin.
+
+
+=== Types ===
+Negative differential resistances can be classified into two types:
+Voltage controlled negative resistance (VCNR, short-circuit stable, or "N" type): In this type the current is a single valued, continuous function of the voltage, but the voltage is a multivalued function of the current. In the most common type there is only one negative resistance region, and the graph is a curve shaped generally like the letter "N". As the voltage is increased, the current increases (positive resistance) until it reaches a maximum (i1), then decreases in the region of negative resistance to a minimum (i2), then increases again. Devices with this type of negative resistance include the tunnel diode, resonant tunneling diode, lambda diode, Gunn diode, and dynatron oscillators.
+Current controlled negative resistance (CCNR, open-circuit stable, or "S" type): In this type, the dual of the VCNR, the voltage is a single valued function of the current, but the current is a multivalued function of the voltage. In the most common type, with one negative resistance region, the graph is a curve shaped like the letter "S". Devices with this type of negative resistance include the IMPATT diode, UJT, SCRs and other thyristors, electric arc, and gas discharge tubes like thyratron tubes, fluorescent lamps and neon lights.
+Most devices have a single negative resistance region. However devices with multiple separate negative resistance regions can also be fabricated. These can have more than two stable states, and are of interest for use in digital circuits to implement multivalued logic.
+An intrinsic parameter used to compare different devices is the peak-to-valley current ratio (PVR), the ratio of the current at the top of the negative resistance region to the current at the bottom (see graphs, above):
+
+The larger this is, the larger the potential AC output for a given DC bias current, and therefore the greater the efficiency
+
+
+=== Amplification ===
+
+A negative differential resistance device can amplify an AC signal applied to it if the signal is biased with a DC voltage or current to lie within the negative resistance region of its I–V curve.
+The tunnel diode circuit is an example. The tunnel diode TD has voltage controlled negative differential resistance. The battery  adds a constant voltage (bias) across the diode so it operates in its negative resistance range, and provides power to amplify the signal. Suppose the negative resistance at the bias point is . For stability  must be less than . Using the formula for a voltage divider, the AC output voltage is
+  so the voltage gain is  
+In a normal voltage divider, the resistance of each branch is less than the resistance of the whole, so the output voltage is less than the input. Here, due to the negative resistance, the total AC resistance  is less than the resistance of the diode alone  so the AC output voltage  is greater than the input . The voltage gain  is greater than one, and increases without limit as  approaches .
+
+
+=== Explanation of power gain ===
+
+The diagrams illustrate how a biased negative differential resistance device can increase the power of a signal applied to it, amplifying it, although it only has two terminals. Due to the superposition principle the voltage and current at the device's terminals can be divided into a DC bias component () and an AC component ().
+
+Since a positive change in voltage  causes a negative change in current , the AC current and voltage in the device are 180° out of phase. This means in the AC equivalent circuit (right), the instantaneous AC current Δi flows through the device in the direction of increasing AC potential Δv, as it would in a generator. Therefore, the AC power dissipation is negative; AC power is produced by the device and flows into the external circuit.
+
+With the proper external circuit, the device can increase the AC signal power delivered to a load, serving as an amplifier, or excite oscillations in a resonant circuit to make an oscillator. Unlike in a two port amplifying device such as a transistor or op amp, the amplified signal leaves the device through the same two terminals (port) as the input signal enters.
+In a passive device, the AC power produced comes from the input DC bias current, the device absorbs DC power, some of which is converted to AC power by the nonlinearity of the device, amplifying the applied signal. Therefore, the output power is limited by the bias power
+
+The negative differential resistance region cannot include the origin, because it would then be able to amplify a signal with no applied DC bias current, producing AC power with no power input. The device also dissipates some power as heat, equal to the difference between the DC power in and the AC power out.
+The device may also have reactance and therefore the phase difference between current and voltage may differ from 180° and may vary with frequency. As long as the real component of the impedance is negative (phase angle between 90° and 270°), the device will have negative resistance and can amplify.
+The maximum AC output power is limited by size of the negative resistance region ( in graphs above)
+
+
+=== Reflection coefficient ===
+
+The reason that the output signal can leave a negative resistance through the same port that the input signal enters is that from transmission line theory, the AC voltage or current at the terminals of a component can be divided into two oppositely moving waves, the incident wave , which travels toward the device, and the reflected wave , which travels away from the device. A negative differential resistance in a circuit can amplify if the magnitude of its reflection coefficient , the ratio of the reflected wave to the incident wave, is greater than one.
+   where   
+The "reflected" (output) signal has larger amplitude than the incident; the device has "reflection gain". The reflection coefficient is determined by the AC impedance of the negative resistance device, , and the impedance of the circuit attached to it, . If  and  then  and the device will amplify. On the Smith chart, a graphical aide widely used in the design of high frequency circuits, negative differential resistance corresponds to points outside the unit circle , the boundary of the conventional chart, so special "expanded" charts must be used.
+
+
+=== Stability conditions ===
+Because it is nonlinear, a circuit with negative differential resistance can have multiple equilibrium points (possible DC operating points), which lie on the I–V curve. An equilibrium point will be stable, so the circuit converges to it within some neighborhood of the point, if its poles are in the left half of the s plane (LHP), while a point is unstable, causing the circuit to oscillate or "latch up" (converge to another point), if its poles are on the jω axis or right half plane (RHP), respectively. The equilibrium points are determined by the DC bias circuit, and their stability is determined by the AC impedance  of the external circuit. However, because of the different shapes of the curves, the condition for stability is different for VCNR and CCNR types of negative resistance:
+In a CCNR (S-type) negative resistance, the resistance function  is single-valued. Therefore, stability is determined by the poles of the circuit's impedance equation:.
+For nonreactive circuits () a sufficient condition for stability is that the total resistance is positive
+
+so the CCNR is stable for
+
+Since CCNRs are stable with no load at all, they are called "open circuit stable".
+In a VCNR (N-type) negative resistance, the conductance function  is single-valued. Therefore, stability is determined by the poles of the admittance equation . For this reason the VCNR is sometimes referred to as a negative conductance.
+As above, for nonreactive circuits a sufficient condition for stability is that the total conductance in the circuit is positive
+
+so the VCNR is stable for
+
+Since VCNRs are even stable with a short-circuited output, they are called "short circuit stable".
+For general negative resistance circuits with reactance, the stability must be determined by standard tests like the Nyquist stability criterion. Alternatively, in high frequency circuit design, the values of  for which the circuit is stable are determined by a graphical technique using "stability circles" on a Smith chart.
+
+
+=== Operating regions and applications ===
+For simple nonreactive negative resistance devices with  and  the different operating regions of the device can be illustrated by load lines on the I–V curve (see graphs).
+
+The DC load line (DCL) is a straight line determined by the DC bias circuit, with equation
+
+where  is the DC bias supply voltage and R is the resistance of the supply. The possible DC operating point(s) (Q points) occur where the DC load line intersects the I–V curve. For stability
+VCNRs require a low impedance bias (), such as a voltage source.
+CCNRs require a high impedance bias () such as a current source, or voltage source in series with a high resistance.
+The AC load line (L1 − L3) is a straight line through the Q point whose slope is the differential (AC) resistance  facing the device. Increasing  rotates the load line counterclockwise. The circuit operates in one of three possible regions (see diagrams), depending on .
+Stable region (green) (illustrated by line L1): When the load line lies in this region, it intersects the I–V curve at one point Q1. For nonreactive circuits it is a stable equilibrium (poles in the LHP) so the circuit is stable. Negative resistance amplifiers operate in this region. However, due to hysteresis, with an energy storage device like a capacitor or inductor the circuit can become unstable to make a nonlinear relaxation oscillator (astable multivibrator) or a monostable multivibrator.VCNRs are stable when .
+CCNRs are stable when .
+
+Unstable point (Line L2): When  the load line is tangent to the I–V curve. The total differential (AC) resistance of the circuit is zero (poles on the jω axis), so it is unstable and with a tuned circuit can oscillate. Linear oscillators operate at this point. Practical oscillators actually start in the unstable region below, with poles in the RHP, but as the amplitude increases the oscillations become nonlinear, and due to eventual passivity the negative resistance r decreases with increasing amplitude, so the oscillations stabilize at an amplitude where .
+Bistable region (red) (illustrated by line L3): In this region the load line can intersect the I–V curve at three points. The center point (Q1) is a point of unstable equilibrium (poles in the RHP), while the two outer points, Q2 and Q3 are stable equilibria. So with correct biasing the circuit can be bistable, it will converge to one of the two points Q2 or Q3 and can be switched between them with an input pulse. Switching circuits like flip-flops (bistable multivibrators) and Schmidt triggers operate in this region.
+VCNRs can be bistable when 
+CCNRs can be bistable when 
+
+
+== Active resistors – negative resistance from feedback ==
+
+In addition to the passive devices with intrinsic negative differential resistance above, circuits with amplifying devices like transistors or op amps can have negative resistance at their ports. The input or output impedance of an amplifier with enough positive feedback applied to it can be negative. If  is the input resistance of the amplifier without feedback,  is the amplifier gain, and  is the transfer function of the feedback path, the input resistance with positive shunt feedback is
+
+So if the loop gain  is greater than one,  will be negative. The circuit acts like a "negative linear resistor" over a limited range, with I–V curve having a straight line segment through the origin with negative slope (see graphs). It has both negative differential resistance and is active
+
+and thus obeys Ohm's law as if it had a negative value of resistance −R, over its linear range (such amplifiers can also have more complicated negative resistance I–V curves that do not pass through the origin).
+These are often called "active resistors". Applying a voltage across the terminals causes a proportional current out of the positive terminal, the opposite of an ordinary resistor. For example, connecting a battery to the terminals would cause the battery to charge rather than discharge.
+Considered as one-port devices, these circuits function similarly to the passive negative differential resistance components above, and like them can be used to make one-port amplifiers and oscillators with the advantages that:
+because they are active devices they do not require an external DC bias to provide power, and can be DC coupled,
+the amount of negative resistance can be varied by adjusting the loop gain,
+they can be linear circuit elements; the voltage is proportional to the current, so they do not cause harmonic distortion.
+The I–V curve can have voltage-controlled ("N" type) or current-controlled ("S" type) negative resistance, depending on whether the feedback loop is connected in "shunt" or "series".
+Negative reactances (below) can also be created, so feedback circuits can be used to create "active" linear circuit elements, resistors, capacitors, and inductors, with negative values. They are widely used in active filters because they can create transfer functions that cannot be realized with positive circuit elements. Examples of circuits with this type of negative resistance are the negative impedance converter (NIC), gyrator, Deboo integrator, frequency dependent negative resistance (FDNR), and generalized immittance converter (GIC).
+
+
+=== Feedback oscillators ===
+If an LC circuit is connected across the input of a positive feedback amplifier like that above, the negative differential input resistance  can cancel the positive loss resistance  inherent in the tuned circuit. If  this will create in effect a tuned circuit with zero AC resistance (poles on the jω axis). Spontaneous oscillation will be excited in the tuned circuit at its resonant frequency, sustained by the power from the amplifier. This is how feedback oscillators such as Hartley or Colpitts oscillators work. This negative resistance model is an alternate way of analyzing feedback oscillator operation. All linear oscillator circuits have negative resistance although in most feedback oscillators the tuned circuit is an integral part of the feedback network, so the circuit does not have negative resistance at all frequencies but only near the oscillation frequency.
+
+
+=== Q enhancement ===
+A tuned circuit connected to a negative resistance which cancels some but not all of its parasitic loss resistance (so ) will not oscillate, but the negative resistance will decrease the damping in the circuit (moving its poles toward the jω axis), increasing its Q factor so it has a narrower bandwidth and more selectivity. Q enhancement, also called regeneration, was first used in the regenerative radio receiver invented by Edwin Armstrong in 1912 and later in "Q multipliers". It is widely used in active filters. For example, RF integrated circuits use integrated inductors to save space, consisting of a spiral conductor fabricated on chip. These have high losses and low Q, so to create high Q tuned circuits their Q is increased by applying negative resistance.
+
+
+=== Chaotic circuits ===
+Circuits which exhibit chaotic behavior can be considered quasi-periodic or nonperiodic oscillators, and like all oscillators require a negative resistance in the circuit to provide power. Chua's circuit, a simple nonlinear circuit widely used as the standard example of a chaotic system, requires a nonlinear active resistor component, sometimes called Chua's diode. This is usually synthesized using a negative impedance converter circuit.
+
+
+=== Negative impedance converter ===
+
+A common example of an "active resistance" circuit is the negative impedance converter (NIC) shown in the diagram. The two resistors  and the op amp constitute a negative feedback non-inverting amplifier with gain of 2. The output voltage of the op-amp is
+
+So if a voltage  is applied to the input, the same voltage is applied "backwards" across , causing current to flow through it out of the input. The current is
+
+So the input impedance to the circuit is
+
+The circuit converts the impedance  to its negative. If  is a resistor of value , within the linear range of the op amp  the input impedance acts like a linear "negative resistor" of value . The input port of the circuit is connected into another circuit as if it was a component. An NIC can cancel undesired positive resistance in another circuit, for example they were originally developed to cancel resistance in telephone cables, serving as repeaters.
+
+
+=== Negative capacitance and inductance ===
+By replacing  in the above circuit with a capacitor () or inductor (), negative capacitances and inductances can also be synthesized. A negative capacitance will have an I–V relation and an impedance  of
+
+where . Applying a positive current to a negative capacitance will cause it to discharge; its voltage will decrease. Similarly, a negative inductance will have an I–V characteristic and impedance  of
+
+A circuit having negative capacitance or inductance can be used to cancel unwanted positive capacitance or inductance in another circuit. NIC circuits were used to cancel reactance on telephone cables.
+There is also another way of looking at them. In a negative capacitance the current will be 180° opposite in phase to the current in a positive capacitance. Instead of leading the voltage by 90° it will lag the voltage by 90°, as in an inductor. Therefore, a negative capacitance acts like an inductance in which the impedance has a reverse dependence on frequency ω; decreasing instead of increasing like a real inductance Similarly a negative inductance acts like a capacitance that has an impedance which increases with frequency. Negative capacitances and inductances are "non-Foster" circuits which violate Foster's reactance theorem. One application being researched is to create an active matching network which could match an antenna to a transmission line over a broad range of frequencies, rather than just a single frequency as with current networks. This would allow the creation of small compact antennas that would have broad bandwidth, exceeding the Chu–Harrington limit.
+
+
+== Oscillators ==
+
+Negative differential resistance devices are widely used to make electronic oscillators. In a negative resistance oscillator, a negative differential resistance device such as an IMPATT diode, Gunn diode, or microwave vacuum tube is connected across an electrical resonator such as an LC circuit, a quartz crystal, dielectric resonator or cavity resonator with a DC source to bias the device into its negative resistance region and provide power. A resonator such as an LC circuit is "almost" an oscillator; it can store oscillating electrical energy, but because all resonators have internal resistance or other losses, the oscillations are damped and decay to zero. The negative resistance cancels the positive resistance of the resonator, creating in effect a lossless resonator, in which spontaneous continuous oscillations occur at the resonator's resonant frequency.
+
+
+=== Uses ===
+Negative resistance oscillators are mainly used at high frequencies in the microwave range or above, since feedback oscillators function poorly at these frequencies. Microwave diodes are used in low- to medium-power oscillators for applications such as radar speed guns, and local oscillators for satellite receivers. They are a widely used source of microwave energy, and virtually the only solid-state source of millimeter wave and terahertz energy Negative resistance microwave vacuum tubes such as magnetrons produce higher power outputs, in such applications as radar transmitters and microwave ovens. Lower frequency relaxation oscillators can be made with UJTs and gas-discharge lamps such as neon lamps.
+The negative resistance oscillator model is not limited to one-port devices like diodes but can also be applied to feedback oscillator circuits with two port devices such as transistors and tubes. In addition, in modern high frequency oscillators, transistors are increasingly used as one-port negative resistance devices like diodes. At microwave frequencies, transistors with certain loads applied to one port can become unstable due to internal feedback and show negative resistance at the other port. So high frequency transistor oscillators are designed by applying a reactive load to one port to give the transistor negative resistance, and connecting the other port across a resonator to make a negative resistance oscillator as described below.
+
+
+=== Gunn diode oscillator ===
+
+The common Gunn diode oscillator (circuit diagrams) illustrates how negative resistance oscillators work. The diode D has voltage controlled ("N" type) negative resistance and the voltage source  biases it into its negative resistance region where its differential resistance is . The choke RFC prevents AC current from flowing through the bias source.  is the equivalent resistance due to damping and losses in the series tuned circuit , plus any load resistance. Analyzing the AC circuit with Kirchhoff's Voltage Law gives a differential equation for , the AC current
+
+Solving this equation gives a solution of the form
+     where    
+This shows that the current through the circuit, , varies with time about the DC Q point, . When started from a nonzero initial current  the current oscillates sinusoidally at the resonant frequency ω of the tuned circuit, with amplitude either constant, increasing, or decreasing exponentially, depending on the value of α. Whether the circuit can sustain steady oscillations depends on the balance between  and , the positive and negative resistance in the circuit:
+
+: (poles in left half plane) If the diode's negative resistance is less than the positive resistance of the tuned circuit, the damping is positive. Any oscillations in the circuit will lose energy as heat in the resistance  and die away exponentially to zero, as in an ordinary tuned circuit. So the circuit does not oscillate.
+
+: (poles on jω axis) If the positive and negative resistances are equal, the net resistance is zero, so the damping is zero. The diode adds just enough energy to compensate for energy lost in the tuned circuit and load, so oscillations in the circuit, once started, will continue at a constant amplitude. This is the condition during steady-state operation of the oscillator.
+
+: (poles in right half plane) If the negative resistance is greater than the positive resistance, damping is negative, so oscillations will grow exponentially in energy and amplitude. This is the condition during startup.
+Practical oscillators are designed in region (3) above, with net negative resistance, to get oscillations started. A widely used rule of thumb is to make . When the power is turned on, electrical noise in the circuit provides a signal  to start spontaneous oscillations, which grow exponentially. However, the oscillations cannot grow forever; the nonlinearity of the diode eventually limits the amplitude.
+At large amplitudes the circuit is nonlinear, so the linear analysis above does not strictly apply and differential resistance is undefined; but the circuit can be understood by considering  to be the "average" resistance over the cycle. As the amplitude of the sine wave exceeds the width of the negative resistance region and the voltage swing extends into regions of the curve with positive differential resistance, the average negative differential resistance  becomes smaller, and thus the total resistance  and the damping  becomes less negative and eventually turns positive. Therefore, the oscillations will stabilize at the amplitude at which the damping becomes zero, which is when .
+Gunn diodes have negative resistance in the range −5 to −25 ohms. In oscillators where  is close to ; just small enough to allow the oscillator to start, the voltage swing will be mostly limited to the linear portion of the I–V curve, the output waveform will be nearly sinusoidal and the frequency will be most stable. In circuits in which  is far below , the swing extends further into the nonlinear part of the curve, the clipping distortion of the output sine wave is more severe, and the frequency will be increasingly dependent on the supply voltage.
+
+
+=== Types of circuit ===
+Negative resistance oscillator circuits can be divided into two types, which are used with the two types of negative differential resistance – voltage controlled (VCNR), and current controlled (CCNR)
+
+Negative resistance (voltage controlled) oscillator: Since VCNR ("N" type) devices require a low impedance bias and are stable for load impedances less than r, the ideal oscillator circuit for this device has the form shown at top right, with a voltage source Vbias to bias the device into its negative resistance region, and parallel resonant circuit load LC. The resonant circuit has high impedance only at its resonant frequency, so the circuit will be unstable and oscillate only at that frequency.
+
+Negative conductance (current controlled) oscillator: CCNR ("S" type) devices, in contrast, require a high impedance bias and are stable for load impedances greater than r. The ideal oscillator circuit is like that at bottom right, with a current source bias Ibias (which may consist of a voltage source in series with a large resistor) and series resonant circuit LC. The series LC circuit has low impedance only at its resonant frequency and so will only oscillate there.
+
+
+=== Conditions for oscillation ===
+Most oscillators are more complicated than the Gunn diode example, since both the active device and the load may have reactance (X) as well as resistance (R). Modern negative resistance oscillators are designed by a frequency domain technique due to K. Kurokawa. The circuit diagram is imagined to be divided by a "reference plane" (red) which separates the negative resistance part, the active device, from the positive resistance part, the resonant circuit and output load (right). The complex impedance of the negative resistance part  depends on frequency ω but is also nonlinear, in general declining with the amplitude of the AC oscillation current I; while the resonator part  is linear, depending only on frequency. The circuit equation is  so it will only oscillate (have nonzero I) at the frequency ω and amplitude I for which the total impedance  is zero. This means the magnitude of the negative and positive resistances must be equal, and the reactances must be conjugate
+
+    and    
+For steady-state oscillation the equal sign applies. During startup the inequality applies, because the circuit must have excess negative resistance for oscillations to start.
+Alternately, the condition for oscillation can be expressed using the reflection coefficient. The voltage waveform at the reference plane can be divided into a component V1 travelling toward the negative resistance device and a component V2 travelling in the opposite direction, toward the resonator part. The reflection coefficient of the active device  is greater than one, while that of the resonator part  is less than one. During operation the waves are reflected back and forth in a round trip so the circuit will oscillate only if
+
+As above, the equality gives the condition for steady oscillation, while the inequality is required during startup to provide excess negative resistance. The above conditions are analogous to the Barkhausen criterion for feedback oscillators; they are necessary but not sufficient, so there are some circuits that satisfy the equations but do not oscillate. Kurokawa also derived more complicated sufficient conditions, which are often used instead.
+
+
+== Amplifiers ==
+Negative differential resistance devices such as Gunn and IMPATT diodes are also used to make amplifiers, particularly at microwave frequencies, but not as commonly as oscillators. Because negative resistance devices have only one port (two terminals), unlike two-port devices such as transistors, the outgoing amplified signal has to leave the device by the same terminals as the incoming signal enters it. Without some way of separating the two signals, a negative resistance amplifier is bilateral; it amplifies in both directions, so it suffers from sensitivity to load impedance and feedback problems. To separate the input and output signals, many negative resistance amplifiers use nonreciprocal devices such as isolators and directional couplers.
+
+
+=== Reflection amplifier ===
+
+One widely used circuit is the reflection amplifier in which the separation is accomplished by a circulator. A circulator is a nonreciprocal solid-state component with three ports (connectors) which transfers a signal applied to one port to the next in only one direction, port 1 to port 2, 2 to 3, and 3 to 1. In the reflection amplifier diagram the input signal is applied to port 1, a biased VCNR negative resistance diode N is attached through a filter F to port 2, and the output circuit is attached to port 3. The input signal is passed from port 1 to the diode at port 2, but the outgoing "reflected" amplified signal from the diode is routed to port 3, so there is little coupling from output to input. The characteristic impedance  of the input and output transmission lines, usually 50Ω, is matched to the port impedance of the circulator. The purpose of the filter F is to present the correct impedance to the diode to set the gain. At radio frequencies NR diodes are not pure resistive loads and have reactance, so a second purpose of the filter is to cancel the diode reactance with a conjugate reactance to prevent standing waves.
+The filter has only reactive components and so does not absorb any power itself, so power is passed between the diode and the ports without loss. The input signal power to the diode is
+
+The output power from the diode is
+
+So the power gain  of the amplifier is the square of the reflection coefficient
+
+ is the negative resistance of the diode −r. Assuming the filter is matched to the diode so  then the gain is
+
+The VCNR reflection amplifier above is stable for . while a CCNR amplifier is stable for . It can be seen that the reflection amplifier can have unlimited gain, approaching infinity as  approaches the point of oscillation at . This is a characteristic of all NR amplifiers, contrasting with the behavior of two-port amplifiers, which generally have limited gain but are often unconditionally stable. In practice the gain is limited by the backward "leakage" coupling between circulator ports.
+Masers and parametric amplifiers are extremely low noise NR amplifiers that are also implemented as reflection amplifiers; they are used in applications like radio telescopes.
+
+
+== Switching circuits ==
+Negative differential resistance devices are also used in switching circuits in which the device operates nonlinearly, changing abruptly from one state to another, with hysteresis. The advantage of using a negative resistance device is that a relaxation oscillator, flip-flop or memory cell can be built with a single active device, whereas the standard logic circuit for these functions, the Eccles-Jordan multivibrator, requires two active devices (transistors). Three switching circuits built with negative resistances are
+Astable multivibrator – a circuit with two unstable states, in which the output periodically switches back and forth between the states. The time it remains in each state is determined by the time constant of an RC circuit. Therefore, it is a relaxation oscillator, and can produce square waves or triangle waves.
+Monostable multivibrator – is a circuit with one unstable state and one stable state. When in its stable state a pulse is applied to the input, the output switches to its other state and remains in it for a period of time dependent on the time constant of the RC circuit, then switches back to the stable state. Thus the monostable can be used as a timer or delay element.
+Bistable multivibrator or flip flop – is a circuit with two stable states. A pulse at the input switches the circuit to its other state. Therefore, bistables can be used as memory circuits, and digital counters.
+
+
+== Other applications ==
+
+
+=== Neuronal models ===
+Some instances of neurons display regions of negative slope conductances (RNSC) in voltage-clamp experiments. The negative resistance here is implied were one to consider the neuron a typical Hodgkin–Huxley style circuit model.
+
+
+== History ==
+Negative resistance was first recognized during investigations of electric arcs, which were used for lighting during the 19th century. In 1881 Alfred Niaudet had observed that the voltage across arc electrodes decreased temporarily as the arc current increased, but many researchers thought this was a secondary effect due to temperature. The term "negative resistance" was applied by some to this effect, but the term was controversial because it was known that the resistance of a passive device could not be negative. Beginning in 1895 Hertha Ayrton, extending her husband William's research with a series of meticulous experiments measuring the I–V curve of arcs, established that arcs had negative resistance, igniting controversy. Frith and Rodgers in 1896 with the support of the Ayrtons introduced the concept of differential resistance, dv/di, and it was slowly accepted that arcs had negative differential resistance. In recognition of her research, Hertha Ayrton became the first woman voted for induction into the Institute of Electrical Engineers.
+
+
+=== Arc transmitters ===
+George Francis Fitzgerald first realized in 1892 that if the damping resistance in a resonant circuit could be made zero or negative, it would produce continuous oscillations. In the same year Elihu Thomson built a negative resistance oscillator by connecting an LC circuit to the electrodes of an arc, perhaps the first example of an electronic oscillator. William Duddell, a student of Ayrton at London Central Technical College, brought Thomson's arc oscillator to public attention. Due to its negative resistance, the current through an arc was unstable, and arc lights would often produce hissing, humming, or even howling noises. In 1899, investigating this effect, Duddell connected an LC circuit across an arc and the negative resistance excited oscillations in the tuned circuit, producing a musical tone from the arc. To demonstrate his invention Duddell wired several tuned circuits to an arc and played a tune on it. Duddell's "singing arc" oscillator was limited to audio frequencies. However, in 1903 Danish engineers Valdemar Poulsen and P. O. Pederson increased the frequency into the radio range by operating the arc in a hydrogen atmosphere in a magnetic field, inventing the Poulsen arc radio transmitter, which was widely used until the 1920s.
+
+
+=== Vacuum tubes ===
+By the early 20th century, although the physical causes of negative resistance were not understood, engineers knew it could generate oscillations and had begun to apply it. Heinrich Barkhausen in 1907 showed that oscillators must have negative resistance. Ernst Ruhmer and Adolf Pieper discovered that mercury vapor lamps could produce oscillations, and by 1912 AT&T had used them to build amplifying repeaters for telephone lines.
+In 1918 Albert Hull at GE discovered that vacuum tubes could have negative resistance in parts of their operating ranges, due to a phenomenon called secondary emission. In a vacuum tube when electrons strike the plate electrode they can knock additional electrons out of the surface into the tube. This represents a current away from the plate, reducing the plate current. Under certain conditions increasing the plate voltage causes a decrease in plate current. By connecting an LC circuit to the tube Hull created an oscillator, the dynatron oscillator. Other negative resistance tube oscillators followed, such as the magnetron invented by Hull in 1920.
+The negative impedance converter originated from work by Marius Latour around 1920. He was also one of the first to report negative capacitance and inductance. A decade later, vacuum tube NICs were developed as telephone line repeaters at Bell Labs by George Crisson and others, which made transcontinental telephone service possible. Transistor NICs, pioneered by Linvill in 1953, initiated a great increase in interest in NICs and many new circuits and applications developed.
+
+
+=== Solid state devices ===
+Negative differential resistance in semiconductors was observed around 1909 in the first point-contact junction diodes, called cat's whisker detectors, by researchers such as William Henry Eccles and G. W. Pickard. They noticed that when junctions were biased with a DC voltage to improve their sensitivity as radio detectors, they would sometimes break into spontaneous oscillations. However the effect was not pursued.
+The first person to exploit negative resistance diodes practically was Russian radio researcher Oleg Losev, who in 1922 discovered negative differential resistance in biased zincite (zinc oxide) point contact junctions. He used these to build solid-state amplifiers, oscillators, and amplifying and regenerative radio receivers, 25 years before the invention of the transistor. Later he even built a superheterodyne receiver. However his achievements were overlooked because of the success of vacuum tube technology. After ten years he abandoned research into this technology (dubbed "Crystodyne" by Hugo Gernsback), and it was forgotten.
+The first widely used solid-state negative resistance device was the tunnel diode, invented in 1957 by Japanese physicist Leo Esaki. Because they have lower parasitic capacitance than vacuum tubes due to their small junction size, diodes can function at higher frequencies, and tunnel diode oscillators proved able to produce power at microwave frequencies, above the range of ordinary vacuum tube oscillators. Its invention set off a search for other negative resistance semiconductor devices for use as microwave oscillators, resulting in the discovery of the IMPATT diode, Gunn diode, TRAPATT diode, and others. In 1969 Kurokawa derived conditions for stability in negative resistance circuits. Currently negative differential resistance diode oscillators are the most widely used sources of microwave energy, and many new negative resistance devices have been discovered in recent decades.
+
+
+== Notes ==
+
+
+== References ==
+
+
+== Further reading ==
+Gottlieb, Irving M. (1997). Practical Oscillator Handbook. Elsevier. ISBN 0080539386.  How negative differential resistance devices work in oscillators.
+Hong, Sungook (2001). Wireless: From Marconi's Black-Box to the Audion (PDF). USA: MIT Press. ISBN 0262082985. , ch. 6 Account of discovery of negative resistance and its role in early radio.
+Snelgrove, Martin (2008). "Negative resistance circuits". AccessScience Online Encyclopedia. McGraw-Hill. Retrieved May 17, 2012.  Elementary one-page introduction to negative resistance.

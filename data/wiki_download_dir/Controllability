@@ -1,0 +1,129 @@
+Controllability
+Controllability is an important property of a control system, and the controllability property plays a crucial role in many control problems, such as stabilization of unstable systems by feedback, or optimal control.
+Controllability and observability are dual aspects of the same problem.
+Roughly, the concept of controllability denotes the ability to move a system around in its entire configuration space using only certain admissible manipulations. The exact definition varies slightly within the framework or the type of models applied.
+The following are examples of variations of controllability notions which have been introduced in the systems and control literature:
+State controllability
+Output controllability
+Controllability in the behavioural framework
+
+
+== State controllability ==
+The state of a deterministic system, which is the set of values of all the system's state variables (those variables characterized by dynamic equations), completely describes the system at any given time. In particular, no information on the past of a system is needed to help in predicting the future, if the states at the present time are known and all current and future values of the control variables (those whose values can be chosen) are known.
+Complete state controllability (or simply controllability if no other context is given) describes the ability of an external input (the vector of control variables) to move the internal state of a system from any initial state to any other final state in a finite time interval.
+Note that controllability does not mean that once a state is reached, that state can be maintained, but merely that that (or any) state can be reached.
+
+
+== Continuous linear systems ==
+Consider the continuous linear system 
+
+There exists a control  from state  at time  to state  at time  if and only if  is in the column space of
+
+where  is the state-transition matrix, and  is the Controllability Gramian.
+In fact, if  is a solution to  then a control given by  would make the desired transfer.
+Note that the matrix  defined as above has the following properties:
+ is symmetric
+ is positive semidefinite for 
+ satisfies the linear matrix differential equation
+
+ satisfies the equation
+
+
+=== Continuous linear time-invariant (LTI) systems ===
+Consider the continuous linear time-invariant system
+
+where
+ is the  "state vector",
+ is the  "output vector",
+ is the  "input (or control) vector",
+ is the  "state matrix",
+ is the  "input matrix",
+ is the  "output matrix",
+ is the  "feedthrough (or feedforward) matrix".
+The  controllability matrix is given by
+
+The system is controllable if the controllability matrix has full row rank (i.e. ).
+
+
+== Discrete linear time-invariant (LTI) systems ==
+For a discrete-time linear state-space system (i.e. time variable ) the state equation is
+
+where  is an  matrix and  is a  matrix (i.e.  is  inputs collected in a  vector). The test for controllability is that the  matrix
+
+has full row rank (i.e., ). That is, if the system is controllable,  will have  columns that are linearly independent; if  columns of  are linearly independent, each of the  states is reachable by giving the system proper inputs through the variable .
+
+
+=== Derivation ===
+Given the state  at an initial time, arbitrarily denoted as k=0, the state equation gives  then  and so on with repeated back-substitutions of the state variable, eventually yielding
+
+or equivalently
+
+Imposing any desired value of the state vector  on the left side, this can always be solved for the stacked vector of control vectors if and only if the matrix of matrices at the beginning of the right side has full row rank.
+
+
+=== Example ===
+For example, consider the case when  and  (i.e. only one control input). Thus,  and  are  vectors. If  has rank 2 (full rank), and so  and  are linearly independent and span the entire plane. If the rank is 1, then  and  are collinear and do not span the plane.
+Assume that the initial state is zero.
+At time : 
+At time : 
+At time  all of the reachable states are on the line formed by the vector . At time  all of the reachable states are linear combinations of  and . If the system is controllable then these two vectors can span the entire plane and can be done so for time . The assumption made that the initial state is zero is merely for convenience. Clearly if all states can be reached from the origin then any state can be reached from another state (merely a shift in coordinates).
+This example holds for all positive , but the case of  is easier to visualize.
+
+
+=== Analogy for example of n = 2 ===
+Consider an analogy to the previous example system. You are sitting in your car on an infinite, flat plane and facing north. The goal is to reach any point in the plane by driving a distance in a straight line, come to a full stop, turn, and driving another distance, again, in a straight line. If your car has no steering then you can only drive straight, which means you can only drive on a line (in this case the north-south line since you started facing north). The lack of steering case would be analogous to when the rank of  is 1 (the two distances you drove are on the same line).
+Now, if your car did have steering then you could easily drive to any point in the plane and this would be the analogous case to when the rank of  is 2.
+If you change this example to  then the analogy would be flying in space to reach any position in 3D space (ignoring the orientation of the aircraft). You are allowed to:
+fly in a straight line
+turn left or right by any amount (Yaw)
+direct the plane upwards or downwards by any amount (Pitch)
+Although the 3-dimensional case is harder to visualize, the concept of controllability is still analogous.
+
+
+== Nonlinear systems ==
+Nonlinear systems in the control-affine form
+
+are locally accessible about  if the accessibility distribution  spans  space, when  equals the rank of  and R is given by:
+
+Here,  is the repeated Lie bracket operation defined by
+
+The controllability matrix for linear systems in the previous section can in fact be derived from this equation.
+
+
+== Output controllability ==
+Output controllability is the related notion for the output of the system (denoted y in the previous equations); the output controllability describes the ability of an external input to move the output from any initial condition to any final condition in a finite time interval. It is not necessary that there is any relationship between state controllability and output controllability. In particular:
+A controllable system is not necessarily output controllable. For example, if matrix D = 0 and matrix C does not have full row rank, then some positions of the output are masked by the limiting structure of the output matrix. Moreover, even though the system can be moved to any state in finite time, there may be some outputs that are inaccessible by all states. A trivial numerical example uses D=0 and a C matrix with at least one row of zeros; thus, the system is not able to produce a non-zero output along that dimension.
+An output controllable system is not necessarily state controllable. For example, if the dimension of the state space is greater than the dimension of the output, then there will be a set of possible state configurations for each individual output. That is, the system can have significant zero dynamics, which are trajectories of the system that are not observable from the output. Consequently, being able to drive an output to a particular position in finite time says nothing about the state configuration of the system.
+For a linear continuous-time system, like the example above, described by matrices , , , and , the  output controllability matrix
+
+has full row rank (i.e. rank ) if and only if the system is output controllable. This result is known as Kalman's criterion of controllability.
+
+
+== Controllability under input constraints ==
+In systems with limited control authority, it is often no longer possible to move any initial state to any final state inside the controllable subspace. This phenomenon is caused by constraints on the input that could be inherent to the system (e.g. due to saturating actuator) or imposed on the system for other reasons (e.g. due to safety-related concerns). The controllability of systems with input and state constraints is studied in the context of reachability and viability theory.
+
+
+== Controllability in the behavioural framework ==
+In the so-called behavioral system theoretic approach due to Willems (see people in systems and control), models considered do not directly define an input–output structure. In this framework systems are described by admissible trajectories of a collection of variables, some of which might be interpreted as inputs or outputs.
+A system is then defined to be controllable in this setting, if any past part of a behavior (trajectory of the external veriables) can be concatenated with any future trajectory of the behavior in such a way that the concatenation is contained in the behavior, i.e. is part of the admissible system behavior.
+
+
+== Stabilizability ==
+A slightly weaker notion than controllability is that of stabilizability. A system is said to be stabilizable when all uncontrollable state variables can be made to have stable dynamics. Thus, even though some of the state variables cannot be controlled (as determined by the controllability test above) all the state variables will still remain bounded during the system's behavior.
+
+
+== See also ==
+Observability
+State observer
+
+
+== Notes ==
+
+
+== References ==
+
+
+== External links ==
+Controllability at PlanetMath.org.
+MATLAB function for checking controllability of a system
+Mathematica function for checking controllability of a system

@@ -1,0 +1,48 @@
+Lumen (unit)
+The lumen (symbol: lm) is the SI derived unit of luminous flux, a measure of the total "amount" of visible light emitted by a source. Luminous flux differs from power (radiant flux) in that luminous flux measurements reflect the varying sensitivity of the human eye to different wavelengths of light, while radiant flux measurements indicate the total power of all electromagnetic waves emitted, independent of the eye's ability to perceive it. Lumens are related to lux in that one lux is one lumen per square meter.
+The lumen is defined in relation to the candela as
+1 lm = 1 cd⋅sr.
+A full sphere has a solid angle of 4π steradians, so a light source that uniformly radiates one candela in all directions has a total luminous flux of 1 cd × 4π sr = 4π cd⋅sr ≈ 12.57 lumens.
+
+
+== Explanation ==
+If a light source emits one candela of luminous intensity uniformly across a solid angle of one steradian, the total luminous flux emitted into that angle is one lumen (1 cd·1 sr = 1 lm). Alternatively, an isotropic one-candela light-source emits a total luminous flux of exactly 4π lumens. If the source were partially covered by an ideal absorbing hemisphere, that system would radiate half as much luminous flux—only 2π lumens. The luminous intensity would still be one candela in those directions that are not obscured.
+The lumen can be thought of casually as a measure of the total "amount" of visible light in some defined beam or angle, or emitted from some source. The number of candelas or lumens from a source also depends on its spectrum, via the nominal response of the human eye as represented in the luminosity function.
+The difference between the units lumen and lux is that the lux takes into account the area over which the luminous flux is spread. A flux of 1000 lumens, concentrated into an area of one square metre, lights up that square metre with an illuminance of 1000 lux. The same 1000 lumens, spread out over ten square metres, produces a dimmer illuminance of only 100 lux. Mathematically, 1 lx = 1 lm/m2.
+A source radiating a power of one watt of light in the color for which the eye is most efficient (a wavelength of 555 nm, in the green region of the optical spectrum) has luminous flux of 683 lumens. So a lumen represents at least 1/683 watts of visible light power, depending on the spectral distribution.
+
+
+== Lighting ==
+
+Lamps used for lighting are commonly labeled with their light output in lumens; in many jurisdictions this is required by law.
+A 23 W compact fluorescent lamp emits about 1,500–1,600 lm. Many compact fluorescent lamps and other alternative light sources are labeled as being equivalent to an incandescent bulb with a specific wattage. Below is a table that shows typical luminous flux for common incandescent bulbs and their equivalents.
+On September 1, 2010, European Union legislation came into force mandating that lighting equipment must be labelled primarily in terms of luminous flux (lm), instead of electric power (W). This change is a result of the EU's Eco-design Directive for Energy-using Products (EuP). For example, according to the European Union standard, an energy-efficient bulb that claims to be the equivalent of a 60 W tungsten bulb must have a minimum light output of 700–750 lm.
+
+
+== Projector output ==
+
+
+=== ANSI lumens ===
+The light output of projectors (including video projectors) is typically measured in lumens. A standardized procedure for testing projectors has been established by the American National Standards Institute, which involves averaging together several measurements taken at different positions. For marketing purposes, the luminous flux of projectors that have been tested according to this procedure may be quoted in "ANSI lumens", to distinguish them from those tested by other methods. ANSI lumen measurements are in general more accurate than the other measurement techniques used in the projector industry. This allows projectors to be more easily compared on the basis of their brightness specifications.
+The method for measuring ANSI lumens is defined in the IT7.215 document which was created in 1992. First the projector is set up to display an image in a room at a temperature of 25 degrees Celsius. The brightness and contrast of the projector are adjusted so that on a full white field, it is possible to distinguish between a 5% screen area block of 95% peak white, and two identically sized 100% and 90% peak white boxes at the center of the white field. The light output is then measured on a full white field at nine specific locations around the screen and averaged. This average is then multiplied by the screen area to give the brightness of the projector in "ANSI lumens".
+
+
+=== Peak lumens ===
+Peak lumens is a measure of light output normally used with CRT video projectors. The testing uses a test pattern typically at either 10 and 20 percent of the image area as white at the center of the screen, the rest as black. The light output is measured just in this center area. Limitations with CRT video projectors result in them producing greater brightness when just a fraction of the image content is at peak brightness. For example the Sony VPH-G70Q CRT video projector produces 1200 "peak" lumens but just 200 ANSI lumens.
+
+
+=== Color light output ===
+Brightness (white light output) measures the total amount of light projected in lumens. The color brightness specification Color Light Output measures red, green, and blue each on a nine-point grid, using the same approach as that used to measure brightness. Experts advise projector buyers to make certain that white light output and color light output are equal for optimum viewing experiences.
+
+
+== SI photometry units ==
+
+
+== See also ==
+Brightness
+Luminous efficacy
+Lux
+Nit (unit)
+
+
+== Notes and references ==

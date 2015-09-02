@@ -1,0 +1,40 @@
+Voltage converter
+A voltage converter is an electric power converter which changes the voltage of an electrical power source. It may be combined with other components to create a power supply.
+
+
+== §AC and DC ==
+AC voltage conversion uses a transformer. Conversion from one DC voltage to another requires electronic circuitry (electromechanical equipment was required before the development of semiconductor electronics). See the article on war of currents for more about this. Mains power (called household current in the US) is universally AC.
+
+
+== §Practical voltage converters ==
+
+
+=== §Mains converters ===
+A common use of the voltage converter is for a device that allows appliances made for the mains voltage of one geographical region to operate in an area with different voltage. Such a device may be called a voltage converter, power converter, travel adapter, etc. Most single phase alternating-current electrical outlets in the world supply power at 210–240 V or at 100–120 V. A transformer or autotransformer can be used; (auto)transformers are inherently reversible, so the same transformer can be used to step the voltage up, or step it down by the same ratio. Lighter and smaller devices can be made using electronic circuitry; reducing the voltage electronically is simpler and cheaper than increasing it. Small, inexpensive, travel adapters suitable for low-power devices such as electric shavers, but not, say, hairdriers, are available; travel adapters usually include plug-end adapters for the different standards used in different countries. A transformer would be used for higher power.
+Transformers do not change the frequency of electricity; in many regions with 100–120 V, electricity is supplied at 60 Hz, and 210–240 V regions tend to use 50 Hz. This may affect operation of devices which depend on mains frequency (some audio turntables and mains-only electric clocks, etc., although modern equipment is less likely to depend upon mains frequency). Equipment with high-powered motors or internal transformers designed to operate at 60 Hz may overheat at 50 Hz even if the voltage supplied is correct.
+Most mains-powered electrical equipment, though it may specify a single nominal voltage, actually has a range of tolerance above and below that point. Thus, devices usually can be used on either any voltage from approx. 100 to 120 V, or any voltage from approx. 210 to 240 V. In such cases, voltage converters need only be specified to convert any voltage within one range, to a voltage within the other, rather than separate converters being needed for all possible pairs of nominal voltages (110–220, 117–220, 110–230, etc.)
+
+
+=== §Converters for devices ===
+
+
+==== §Mains converters ====
+Another requirement is to provide low-voltage electricity to a device from mains electricity; this would be done by what is usually called a power supply. Most modern electronic devices require between 1.5 and 24 volts DC; lower-powered devices at these voltages can often work either from batteries or mains. Some devices incorporate a power supply and are simply plugged into the mains. Others use an external power supply comprising either a transformer and rectifier, or electronic circuitry. Switched-mode power supplies have become widespread in the early twenty-first century; they are smaller and lighter than the once-universal transformer converters, and are often designed to work from AC mains at any voltage between 100 and 250 V. Additionally, because they are typically rectified to operate at a DC voltage, they are minimally affected by the frequency of the mains (50 vs 60 Hz). Details on operation are given in the article on power supplies.
+
+
+==== §Mobile converters ====
+Voltage converters can be used in vehicles with 12 V DC outlets. A simple voltage dropper can be used to reduce the voltage for low-power devices; if more than 12V is required, or for high-powered devices, a switched-mode power supply is used. The output will usually be DC in the range 1.5–24 V. Power supplies that output either 100–120 V AC or 210–240 V AC are available; they are called inverters, due to the conversion form DC to AC rather than the voltage change. The output frequency and waveform of an inverter may not accurately replicate that supplied by mains electricity, although this is not usually a problem.
+
+
+== §Choosing a converter ==
+A converter to drive equipment should be specified to supply at least the actual watts or amperes used by the equipment; this is usually stated on a label on the equipment. A converter of higher rating is safe to use. Some equipment uses more power or current at startup; a 20% margin is usually adequate, although it may be included in the rated figure.
+
+
+== §See also ==
+Electric power conversion
+Extra-low voltage
+Low voltage
+High voltage
+
+
+== §References ==

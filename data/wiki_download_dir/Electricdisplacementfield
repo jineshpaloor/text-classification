@@ -1,0 +1,64 @@
+Electric displacement field
+In physics, the electric displacement field, denoted by D, is a vector field that appears in Maxwell's equations. It accounts for the effects of free and bound charge within materials. "D" stands for "displacement", as in the related concept of displacement current in dielectrics. In free space, the electric displacement field is equivalent to flux density, a concept that lends understanding to Gauss's law. It has the SI units of coulomb per squared metre (C m−2).
+
+
+== Definition ==
+In a dielectric material the presence of an electric field E causes the bound charges in the material (atomic nuclei and their electrons) to slightly separate, inducing a local electric dipole moment. The electric displacement field D is defined as
+
+where  is the vacuum permittivity (also called permittivity of free space), and P is the (macroscopic) density of the permanent and induced electric dipole moments in the material, called the polarization density. Separating the total volume charge density into free and bound charges:
+
+the density can be rewritten as a function of the polarization P:
+
+The polarization P is defined to be a vector field whose divergence yields the density of bound charges ρb in the material. The electric field satisfies the equation:
+
+and hence
+.
+The displacement field therefore satisfies Gauss's law in a dielectric:
+ .
+However, electrostatic forces on ions or electrons in the material are still governed by the electric field E in the material via the Lorentz Force. It should also be remembered that D is not determined exclusively by the free charge. Consider the relationship:
+
+which, by the fact that E has a curl of zero in electrostatic situations, evaluates to:
+
+The effect of this equation can be seen in the case of an object with a "frozen in" polarization like a bar electret, the electric analogue to a bar magnet. There is no free charge in such a material, but the inherent polarization gives rise to an electric field. If the wayward student were to assume that the D field were entirely determined by the free charge, he or she would conclude that the electric field were zero outside such a material, but this is patently not true. The electric field can be properly determined by using the above relation along with other boundary conditions on the polarization density to yield the bound charges, which will, in turn, yield the electric field.
+In a linear, homogeneous, isotropic dielectric with instantaneous response to changes in the electric field, P depends linearly on the electric field,
+
+where the constant of proportionality  is called the electric susceptibility of the material. Thus
+
+where ε = ε0 εr is the permittivity, and εr = 1 + χ the relative permittivity of the material.
+In linear, homogeneous, isotropic media, ε is a constant. However, in linear anisotropic media it is a tensor, and in nonhomogeneous media it is a function of position inside the medium. It may also depend upon the electric field (nonlinear materials) and have a time dependent response. Explicit time dependence can arise if the materials are physically moving or changing in time (e.g. reflections off a moving interface give rise to Doppler shifts). A different form of time dependence can arise in a time-invariant medium, in that there can be a time delay between the imposition of the electric field and the resulting polarization of the material. In this case, P is a convolution of the impulse response susceptibility χ and the electric field E. Such a convolution takes on a simpler form in the frequency domain—by Fourier transforming the relationship and applying the convolution theorem, one obtains the following relation for a linear time-invariant medium:
+
+where  is the frequency of the applied field. The constraint of causality leads to the Kramers–Kronig relations, which place limitations upon the form of the frequency dependence. The phenomenon of a frequency-dependent permittivity is an example of material dispersion. In fact, all physical materials have some material dispersion because they cannot respond instantaneously to applied fields, but for many problems (those concerned with a narrow enough bandwidth) the frequency-dependence of ε can be neglected.
+At a boundary, , where σf is the free charge density and the unit normal  points in the direction from medium 2 to medium 1.
+
+
+== History ==
+Recall that Gauss's law was formulated by Carl Friedrich Gauss in 1835, but was not published until 1867. This places a lower limit on the year of the formulation and use of D to not earlier than 1835. Again, considering the law in its usual form using E vector rather than D vector, it can be safely said that D formalism was not used earlier than 1860s.
+The Electric Displacement field was first found to be used in the year 1864 by James Clerk Maxwell, in his paper A Dynamical Theory of the Electromagnetic Field. Maxwell used calculus to exhibit Michael Faraday's theory, that light is an electromagnetic phenomenon. In PART V. — THEORY OF CONDENSERS, Maxwell introduced the term D in page 494, titled, Specific Capacity of Electric Induction (D), explained in a form different from the modern and familiar notations.
+Confusion over the term "Maxwell's equations" arises because it has been used for a set of eight equations that appeared in Part III of Maxwell's 1864 paper A Dynamical Theory of the Electromagnetic Field, entitled "General Equations of the Electromagnetic Field", and this confusion is compounded by the writing of six of those eight equations as three separate equations (one for each of the Cartesian axes), resulting in twenty equations and twenty unknowns. (As noted above, this terminology is not common: Modern references to the term "Maxwell's equations" refer to the Heaviside restatements.)
+It was Oliver Heaviside who reformulated the complicated Maxwell's equations to the modern, elegant form that we know today. But it wasn't until 1884 that Heaviside, concurrently with similar work by Willard Gibbs and Heinrich Hertz, grouped them together into a distinct set. This group of four equations was known variously as the Hertz–Heaviside equations and the Maxwell–Hertz equations, and are sometimes still known as the Maxwell–Heaviside equations.
+Hence, it was probably Heaviside who lent D the present significance it now has.
+
+
+== Example: Displacement field in a capacitor ==
+
+Consider an infinite parallel plate capacitor placed in space (or in a medium) with no free charges present except on the capacitor. In SI units, the charge density on the plates is equal to the value of the D field between the plates. This follows directly from Gauss's law, by integrating over a small rectangular pillbox straddling one plate of the capacitor:
+
+On the sides of the pillbox, dA is perpendicular to the field, so that part of the integral is zero, leaving, for the space inside the capacitor where the fields of the two plates add,
+,
+where A is surface area of the top face of the small rectangular pillbox and Qfree / A is just the free surface charge density on the positive plate. Outside the capacitor, the fields of the two plates cancel each other and |E| = |D| = 0. If the space between the capacitor plates is filled with a linear homogeneous isotropic dielectric with permittivity ε, the total electric field E between the plates will be smaller than D by a factor of ε: |E| = Qfree / (εA).
+If the distance d between the plates of a finite parallel plate capacitor is much smaller than its lateral dimensions we can approximate it using the infinite case and obtain its capacitance as
+
+where V is the potential difference sustained between the two plates. The partial cancellation of fields in the dielectric allows a larger amount of free charge to dwell on the two plates of the capacitor per unit potential drop than would be possible if the plates were separated by vacuum.
+
+
+== See also ==
+History of Maxwell's equations#The term Maxwell's equations
+Polarization density
+Electric susceptibility
+Magnetizing field
+Electric dipole moment
+
+
+== References ==
+
+"electric displacement field" at PhysicsForums

@@ -1,0 +1,67 @@
+Richard E. Bellman
+Richard Ernest Bellman (August 26, 1920 – March 19, 1984) was an American applied mathematician, celebrated for his invention of dynamic programming in 1953, and important contributions in other fields of mathematics.
+
+
+== Biography ==
+Bellman was born in 1920 in New York City to non-practising Jewish parents of Polish and Russian descent, Pearl (née Saffian) and John James Bellman, who ran a small grocery store on Bergen Street near Prospect Park, Brooklyn. He attended Abraham Lincoln High School, Brooklyn in 1937, and studied mathematics at Brooklyn College where he earned a BA in 1941. He later earned an MA from the University of Wisconsin–Madison. During World War II he worked for a Theoretical Physics Division group in Los Alamos. In 1946 he received his Ph.D at Princeton under the supervision of Solomon Lefschetz. Beginning 1949 Bellman worked for many years at RAND corporation and it was during this time that he developed dynamic programming.
+Later in life, Richard Bellman's interests began to emphasize biology and medicine, which he identified as “the frontiers of contemporary science”. In 1967, he became founding editor of the journal Mathematical Biosciences which specialized in the publication of applied mathematics research for medical and biological topics. In 1985, the Bellman Prize in Mathematical Biosciences was created in his honor, being award biannually to the journal's best research paper.
+Bellman was diagnosed with a brain tumor in 1973, which was removed but resulted in complications that left him severely disabled. He was a professor at the University of Southern California, a Fellow in the American Academy of Arts and Sciences (1975), a member of the National Academy of Engineering (1977), and a member of the National Academy of Sciences (1983).
+He was awarded the IEEE Medal of Honor in 1979, "for contributions to decision processes and control system theory, particularly the creation and application of dynamic programming". His key work is the Bellman equation.
+
+
+== Work ==
+
+
+=== Bellman equation ===
+A Bellman equation, also known as a dynamic programming equation, is a necessary condition for optimality associated with the mathematical optimization method known as dynamic programming. Almost any problem which can be solved using optimal control theory can also be solved by analyzing the appropriate Bellman equation. The Bellman equation was first applied to engineering control theory and to other topics in applied mathematics, and subsequently became an important tool in economic theory.
+
+
+=== Hamilton–Jacobi–Bellman equation ===
+The Hamilton–Jacobi–Bellman equation (HJB) equation is a partial differential equation which is central to optimal control theory. The solution of the HJB equation is the 'value function', which gives the optimal cost-to-go for a given dynamical system with an associated cost function. Classical variational problems, for example, the brachistochrone problem can be solved using this method as well. The equation is a result of the theory of dynamic programming which was pioneered in the 1950s by Richard Bellman and coworkers. The corresponding discrete-time equation is usually referred to as the Bellman equation. In continuous time, the result can be seen as an extension of earlier work in classical physics on the Hamilton-Jacobi equation by William Rowan Hamilton and Carl Gustav Jacob Jacobi.
+
+
+=== Curse of dimensionality ===
+The "Curse of dimensionality", is a term coined by Bellman to describe the problem caused by the exponential increase in volume associated with adding extra dimensions to a (mathematical) space. One implication of the curse of dimensionality is that some methods for numerical solution of the Bellman equation require vastly more computer time when there are more state variables in the value function. For example, 100 evenly-spaced sample points suffice to sample a unit interval with no more than 0.01 distance between points; an equivalent sampling of a 10-dimensional unit hypercube with a lattice with a spacing of 0.01 between adjacent points would require 1020 sample points: thus, in some sense, the 10-dimensional hypercube can be said to be a factor of 1018 "larger" than the unit interval. (Adapted from an example by R. E. Bellman, see below.) 
+
+
+=== Bellman–Ford algorithm ===
+Though discovering the algorithm after Ford he is referred to in the Bellman–Ford algorithm, also sometimes referred to as the Label Correcting Algorithm, computes single-source shortest paths in a weighted digraph where some of the edge weights may be negative. Dijkstra's algorithm accomplishes the same problem with a lower running time, but requires edge weights to be non-negative.
+
+
+== Publications ==
+Over the course of his career he published 619 papers and 39 books. During the last 11 years of his life he published over 100 papers despite suffering from crippling complications of brain surgery (Dreyfus, 2003). A selection:
+1957. Dynamic Programming
+1959. Asymptotic Behavior of Solutions of Differential Equations
+1961. An Introduction to Inequalities
+1961. Adaptive Control Processes: A Guided Tour
+1962. Applied Dynamic Programming
+1967. Introduction to the Mathematical Theory of Control Processes
+1970. Algorithms, Graphs and Computers
+1972. Dynamic Programming and Partial Differential Equations
+1982. Mathematical Aspects of Scheduling and Applications
+1983. Mathematical Methods in Medicine
+1984. Partial Differential Equations
+1984. Eye of the Hurricane: An Autobiography, World Scientific Publishing.
+1985. Artificial Intelligence
+1995. Modern Elementary Differential Equations
+1997. Introduction to Matrix Analysis
+2003. Dynamic Programming
+2003. Perturbation Techniques in Mathematics, Engineering and Physics
+2003. Stability Theory of Differential Equations (originally publ. 1953)
+
+
+== References ==
+
+
+== Further reading ==
+J.J. O'Connor and E.F. Robertson (2005). Biography of Richard Bellman from the MacTutor History of Mathematics.
+Stuart Dreyfus (2002). "Richard Bellman on the Birth of Dynamic Programming". In: Operations Research. Vol. 50, No. 1, Jan–Feb 2002, pp. 48–51.
+Stuart Dreyfus (2003) "Richard Ernest Bellman". In: International Transactions in Operational Research. Vol 10, no. 5, pp. 543–545.
+
+
+== External links ==
+
+"IEEE Global History Network - Richard Bellman". IEEE. Retrieved April 6, 2011. 
+Harold J. Kushner's speech on Richard Bellman, when accepting the Richard E. Bellman Control Heritage Award (click on "2004: Harold J. Kushner")
+IEEE biography
+Richard E. Bellman at the Mathematics Genealogy Project

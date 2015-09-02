@@ -1,0 +1,150 @@
+Gas-filled tube
+A gas-filled tube, also known as a discharge tube, is an arrangement of electrodes in a gas within an insulating, temperature-resistant envelope. Gas-filled tubes exploit phenomena related to electric discharge in gases, and operate by ionizing the gas with an applied voltage sufficient to cause electrical conduction by the underlying phenomena of the Townsend discharge.
+The voltage required to initiate and sustain discharge is dependent on the pressure and composition of the fill gas and geometry of the tube. Although the envelope is typically glass, power tubes often use ceramics, and military tubes often use glass-lined metal. Both hot cathode and cold cathode type devices are encountered.
+
+
+== Gases in use ==
+
+
+=== Hydrogen ===
+Hydrogen is used in tubes used for very fast switching, e.g. some thyratrons, dekatrons, and krytrons, where very steep edges are required. The build-up and recovery times of hydrogen are much shorter than in other gases. Hydrogen thyratrons are usually hot-cathode. Hydrogen (and deuterium) can be stored in the tube in the form of a metal hydride, heated with an auxiliary filament; hydrogen by heating such storage element can be used to replenish cleaned-up gas, and even to adjust the pressure as needed for a thyratron operation at a given voltage.
+
+
+=== Deuterium ===
+Deuterium is used in ultraviolet lamps for ultraviolet spectroscopy, in neutron generator tubes, and in special tubes (e.g. crossatron). It has higher breakdown voltage than hydrogen. In fast switching tubes it is used instead of hydrogen where high voltage operation is required. For a comparison, the hydrogen-filled CX1140 thyratron has anode voltage rating of 25 kV, while the deuterium-filled and otherwise identical CX1159 has 33 kV. Also, at the same voltage the pressure of deuterium can be higher than of hydrogen, allowing higher rise rates of rise of current before it causes excessive anode dissipation. Significantly higher peak powers are achievable. Its recovery time is however about 40% slower than for hydrogen.
+
+
+=== Noble gases ===
+
+Noble gases are frequently used in tubes for many purposes, from lighting to switching. Pure noble gases are employed in switching tubes. Noble-gas-filled thyratrons have better electrical parameters than mercury-based ones. The electrodes undergo damage by high-velocity ions. The neutral atoms of the gas slow the ions down by collisions, and reduce the energy transferred to the electrodes by the ion impact. Gases with high molecular weight, e.g. xenon, protect the electrodes better than lighter ones, e.g. neon.
+Helium is used in helium–neon lasers and in some thyratrons rated for high currents and high voltages. Helium provides about as short deionization time as hydrogen, but can withstand lower voltage, so it is used much less often.
+Neon has low ignition voltage and is frequently used in low-voltage tubes. Discharge in neon emits relatively bright red light; neon-filled switching tubes therefore also act as indicators, shining red when switched on. This is exploited in the decatron tubes, which act as both counters and displays. Its red light is exploited in neon signage. Used in fluorescent tubes with high power and short length, e.g. industrial lighting tubes. Has higher voltage drop in comparison with argon and krypton. Its low atomic mass provides only a little protection to the electrodes against accelerated ions; additional screening wires or plates can be used for prolonging the anode lifetime. In fluorescent tubes it is used in combination with mercury.
+Argon was the first gas used in fluorescent tubes and is still frequently used due to its low cost, high efficiency, and very low striking voltage. In fluorescent tubes it is used in combination with mercury. It was also used in early rectifier tubes; first thyratrons were derived from such argon-filled tubes.
+Krypton can be used in fluorescent lamps instead of argon; in that application it reduces the total energy losses on electrodes from about 15% to 7%. The voltage drop per lamp length is however lower than with argon, which can be compensated by smaller tube diameter. Krypton-filled lamps also require higher starting voltage; this can be alleviated by using e.g. 25%–75% argon-krypton mixture. In fluorescent tubes it is used in combination with mercury.
+Xenon in pure state has high breakdown voltage, making it useful in higher-voltage switching tubes. Xenon is also used as a component of gas mixtures when production of ultraviolet radiation is required, e.g. in plasma displays, usually to excite a phosphor. The wavelength produced is longer than with argon and krypton and penetrates the phosphors better. To lower the ionization voltage, neon-xenon or helium-xenon are used; above 350 torr, helium has lower breakdown voltage than neon and vice versa. At concentrations of 1% and less of xenon, the Penning effect becomes significant in such mixtures, as most of xenon ionization occurs by collision with excited atoms of the other noble gas; at more than few percents of xenon, the discharge ionizes xenon directly due to most energy of the electrons being spent on direct ionization of xenon.
+Penning mixtures are used where lower ionization voltage is required, e.g. in the neon lamps, Geiger–Müller tubes and other gas-filled particle detectors. A classical combination is about 98–99.5% of neon with 0.5–2% of argon, used in, e.g. neon bulbs and in monochrome plasma displays.
+
+
+=== Elemental vapors (metals and nonmetals) ===
+Mercury vapors are used for applications with high current, e.g. lights, mercury-arc valves, ignitrons. Mercury is used because of its high vapor pressure and low ionization potential. Mercury mixed with an inert gas is used where the energy losses in the tube have to be low and the tube lifetime should be long. In mercury-inert gas mixtures, the discharge is initially carried primarily by the inert gas; the released heat then serves to evaporate enough mercury to reach the desired vapor pressure. Low-voltage (hundreds volts) rectifiers use saturated mercury vapor in combination with a small amount of inert gas, allowing cold start of the tubes. High-voltage (kilovolts and more) rectifiers use pure mercury vapor at low pressure, requiring maintenance of maximum temperature of the tube. The liquid mercury serves as a reservoir of mercury, replenishing the vapors that are used up during the discharge. Unsaturated mercury vapor can be used, but as it can not be replenished, the lifetime of such tubes is lower. The strong dependence of vapor pressure on mercury temperature limits the environments the mercury-based tubes can operate in. In low-pressure mercury lamps, there is an optimum mercury pressure for the highest efficiency. Photons emitted by ionized mercury atoms can be absorbed by nearby nonionized atoms and either reradiated or the atom is deexcited nonradiatively, too high mercury pressure therefore causes losses of light. Too low mercury pressure leads to too few atoms present to get ionized and radiate photons. The optimum temperature for low-pressure mercury lamps is at about 42 °C, when the saturated vapor pressure of mercury (present as a drop of about 1 mg of liquid mercury in the tube, as a reservoir compensating for losses by clean-up) reaches this optimum. In lamps intended for operation at higher ambient temperatures, and at a wider temperature range, mercury is present in the form of an amalgam with e.g. bismuth and indium; the vapor pressure above amalgam is lower than above liquid mercury. Mercury is used in fluorescent tubes as a source of visible and ultraviolet light for exciting the phosphor; in that application it is usually used together with argon, or in some cases with krypton or neon. Mercury ions deionize slowly, limiting the switching speed of mercury-filled thyratrons. Ion bombardment with mercury ions of even relatively low energies also gradually destroys oxide-coated cathodes.
+Sodium vapors are used in sodium-vapor lamps.
+Sulfur vapors are used in sulfur lamps.
+Vapors of many metals, alone or together with a noble gas, are used in many lasers.
+
+
+=== Other gases ===
+
+Air can be used in some low-demanding applications.
+Nitrogen at relatively high pressure tends to be used in surge arresters, due to its short build-up time, giving the tubes fast response time to voltage surges.
+Halogens and alcohol vapors absorb ultraviolet radiation and have high electron affinity. When added to inert gases, they quench the discharge; this is exploited in e.g. Geiger–Müller tubes.
+
+
+=== Insulating gases ===
+
+In special cases (e.g., high-voltage switches), gases with good dielectric properties and very high breakdown voltages are needed. Highly electronegative elements, e.g., halogens, are favored as they rapidly recombine with the ions present in the discharge channel. One of the most popular choices is sulfur hexafluoride, used in special high-voltage applications. Other common options are dry pressurized nitrogen and halocarbons.
+
+
+== Gas-tube physics and technology ==
+
+The fundamental mechanism is the Townsend discharge, which is the sustained multiplication of electron flow by ion impact when a critical value of electric field strength for the density of the gas is reached. As the electric field is increased various phases of discharge are encountered as shown in the accompanying plot. The gas used dramatically influences the parameters of the tube. The breakdown voltage depends on the gas composition and electrode distance; the dependencies are described by Paschen's law.
+
+
+=== Gas pressure ===
+The gas pressure may range between 0.001 and 1000 torr; most commonly, pressures between 1–10 torr are used. The gas pressure influences the following factors:
+breakdown voltage (also called ignition voltage)
+current density
+operating voltage
+backfire voltage
+tube lifetime (lower pressure tubes tend to have shorter lifetimes due to using up of the gas)
+cathode sputtering, reduced at higher pressures
+Above a certain value, the higher the gas pressure, the higher the ignition voltage. High-pressure lighting tubes can require a few kilovolts impulse for ignition when cold, when the gas pressure is low. After warming up, when the volatile compound used for light emission is vaporized and the pressure increases, reignition of the discharge requires either significantly higher voltage or reducing the internal pressure by cooling down the lamp. For example, many sodium vapor lamps cannot be re-lit immediately after being shut off; they must cool down before they can be lit up again.
+The gas tends to be used up during the tube operation, by several phenomena collectively called clean-up. The gas atoms or molecules are adsorbed on the surfaces of the electrodes. In high voltage tubes, the accelerated ions can penetrate into the electrode materials. New surfaces, formed by sputtering of the electrodes and deposited on e.g. the inner surfaces of the tube, also readily adsorb gases. Non-inert gases can also chemically react with the tube components. Hydrogen may diffuse through some metals.
+For removal of gas in vacuum tubes, getters are used. For resupplying gas for gas-filled tubes, replenishers are employed. Most commonly, replenishers are used with hydrogen; a filament made from a hydrogen-absorbing metal (e.g. zirconium or titanium) is present in the tube, and by controlling its temperature the ratio of absorbed and desorbed hydrogen is adjusted, resulting in controlling of the hydrogen pressure in the tube. The metal filament acts as a hydrogen storage. This approach is used in e.g. hydrogen thyratrons or neutron tubes. Usage of saturated mercury vapor allows using a pool of liquid mercury as a large storage of material; the atoms lost by clean-up are automatically replenished by evaporation of more mercury. The pressure in the tube is however strongly dependent on the mercury temperature, which has to be controlled carefully.
+Large rectifiers use saturated mercury vapor with a small amount of an inert gas. The inert gas supports the discharge when the tube is cold.
+The mercury arc valve current-voltage characteristics are highly dependent on the temperature of the liquid mercury. The voltage drop in forward bias decreases from about 60 volts at 0 °C to somewhat above 10 volts at 50 °C and then stays constant; the reverse bias breakdown ("arc-back") voltage drops dramatically with temperature, from 36 kV at 60 °C to 12 kV at 80 °C to even less at higher temperatures. The operating range is therefore usually between 18–65 °C.
+
+
+=== Gas purity ===
+The gas in the tube has to be kept pure to maintain the desired properties; even small amount of impurities can dramatically change the tube values; presence of non-inert gases generally increases the breakdown and burning voltages. The presence of impurities can be observed by changes in the glow color of the gas. Air leaking into the tube introduces oxygen, which is highly electronegative and inhibits the production of electron avalanches. This makes the discharge look pale, milky, or reddish. Traces of mercury vapors glow bluish, obscuring the original gas color. Magnesium vapor colors the discharge green. To prevent outgassing of the tube components during operation, a bake-out is required before filling with gas and sealing. Thorough degassing is required for high-quality tubes; even as little as 10−8 torr of oxygen is sufficient for covering the electrodes with monomolecular oxide layer in few hours. Non-inert gases can be removed by suitable getters. for mercury-containing tubes, getters that do not form amalgams with mercury (e.g. zirconium, but not barium) have to be used. Cathode sputtering may be used intentionally for gettering non-inert gases; some reference tubes use molybdenum cathodes for this purpose.
+Pure inert gases are used where the difference between the ignition voltage and the burning voltage has to be high, e.g. in switching tubes. Tubes for indication and stabilization, where the difference has to be lower, tend to be filled with Penning mixtures; the lower difference between ignition and burning voltages allows using lower power supply voltages and smaller series resistances.
+
+
+== Lighting and display gas-filled tubes ==
+Fluorescent lighting, CFL lamps, mercury and sodium discharge lamps and HID lamps are all gas-filled tubes used for lighting.
+Neon lamps and neon signage (most of which is not neon based these days) are also low-pressure gas-filled tubes.
+Specialized historic low-pressure gas-filled tube devices include the Nixie tube (used to display numerals) and the Decatron (used to count or divide pulses, with display as a secondary function).
+Xenon flash lamps are gas-filled tubes used in cameras and strobe lights to produce bright flashes of light.
+The recently developed sulfur lamps are also gas-filled tubes when hot.
+
+
+== Gas-filled tubes in electronics ==
+Since the ignition or starter voltage depends on the ion concentration which may drop to zero after a long period of inactivity, many tubes are primed for ion availability:
+optically, by ambient light or by a 2-watt incandescent lamp, or by a glow discharge in the same envelope, and/or
+radioactively, by adding e.g. tritium to the gas, or by coating the envelope inside, and/or
+electrically, with a keep-alive or primer electrode
+
+
+=== Power devices ===
+Some important examples include the thyratron, krytron, and ignitron tubes, which are used to switch high-voltage currents. A specialized type of gas-filled tube called a Gas Discharge Tube (GDT) is fabricated for use as surge protectors, to limit voltage surges in electrical and electronic circuits.
+
+
+=== Computing tubes ===
+The Schmitt trigger effect of the negative differential resistance-region can be exploited to realize timers, relaxation oscillators and digital circuits with neon lamps, trigger tubes, relay tubes, dekatrons and nixie tubes.
+
+
+=== Indicators ===
+There were special neon lamps besides nixie tubes:
+Tuneon early tuning indicator, a glass tube with a short wire anode and a long wire cathode that glows partially; the glow length is proportional to the tube current
+Phosphored neon lamp
+Luminiscent trigger tube, used as latching indicators, or pixels of dot-matrix displays
+Direct-glow trigger tube
+Phosphored trigger tube
+
+
+=== Noise diodes ===
+Hot-cathode, gas-discharge noise diodes were available in normal radio tube glass envelopes for frequencies up to UHF, and as long, thin glass tubes with a normal bayonet light bulb mount for the filament and an anode top cap, for SHF frequencies and diagonal insertion into a waveguide.
+They were filled with a pure inert gas such as neon because mixtures made the output temperature-dependent. Their burning voltage was under 200 V, but they needed optical priming by an incandescent 2-watt lamp and a voltage surge in the 5-kV range for ignition.
+One miniature thyratron found an additional use as a noise source, when operated as a diode in a transverse magnetic field.
+
+
+== List of -tron tubes ==
+
+Mercury pool tubes
+Excitron, a mercury pool tube
+Gusetron or gausitron, a mercury arc pool tube
+Ignitron, a mercury pool tube
+Sendytron, a mercury pool tube
+
+Trignitron, a trade name for a mercury pool tube used in electric welders
+Capacitron, a mercury pool tube
+
+Corotron, a trade name for a gas-filled shunt regulator, usually contains small quantities of radioactive materials to set the regulated voltage
+Crossatron, a modulator tube
+Kathetron or cathetron, a hot cathode gas-filled triode with grid outside of the tube
+Neotron, a pulse generator
+Permatron, a hot cathode rectifier with anode current controlled by magnetic field
+Phanotron, a rectifier
+Plomatron, a grid-controlled mercury-arc rectifier
+Pulsatron, a gas-filled triode with two cathodes
+Strobotron, a cold cathode tube designed for high current narrow pulses, used in high-speed photography
+Takktron, a cold cathode rectifier for low currents at high voltages
+Thyratron, a hot cathode switching tube
+Trigatron, a high-current switch similar to a spark gap
+Alphatron, a form of ionization tube for measuring vacuum
+Dekatron, a counting tube (see also nixie tube and neon light)
+Plasmatron, a hot cathode tube with controlled anode current
+Tacitron, a low-noise thyratron with interruptible current flow
+Krytron, a fast cold-cathode switching tube
+
+
+== See also ==
+List of plasma (physics) articles
+
+
+== References ==
+
+
+== External links ==
+Pulse Power Switching Devices – An Overview (both vacuum and gas-filled switching tubes)
+Measurement of Radiation, Gas-Filled Detector
+Gas discharge tubes

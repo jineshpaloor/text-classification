@@ -1,0 +1,69 @@
+Governor (device)
+A governor, or speed limiter, is a device used to measure and regulate the speed of a machine, such as an engine. A classic example is the centrifugal governor, also known as the Watt or fly-ball governor, which uses weights mounted on spring-loaded arms to determine how fast a shaft is spinning, and then uses proportional control to regulate the shaft speed.
+
+
+== History ==
+
+Centrifugal governors were used to regulate the distance and pressure between millstones in windmills since the 17th century. Early steam engines employed a purely reciprocating motion, and were used for pumping water – an application that could tolerate variations in the working speed. It was not until the Scottish engineer James Watt introduced the rotative steam engine, for driving factory machinery, that a constant operating speed became necessary. Between the years 1775 and 1800, Watt, in partnership with industrialist Matthew Boulton, produced some 500 rotative beam engines. At the heart of these engines was Watt’s self-designed "conical pendulum" governor: a set of revolving steel balls attached to a vertical spindle by link arms, where the controlling force consists of the weight of the balls. The theoretical basis for the operation of governors was described by James Clerk Maxwell in 1868 in his seminal paper 'On Governors'. Building on Watt’s design was American engineer Willard Gibbs who in 1872 theoretically analyzed Watt’s conical pendulum governor from a mathematical energy balance perspective. During his Graduate school years at Yale University, Gibbs observed that the operation of the device in practice was beset with the disadvantages of sluggishness and a tendency to overcorrect for the changes in speed it was supposed to control. Gibbs theorized that, analogous to the equilibrium of the simple Watt governor (which depends on the balancing of two torques: one due to the weight of the "balls" and the other due to their rotation), thermodynamic equilibrium for any work producing thermodynamic system depends on the balance of two entities. The first is the heat energy supplied to the intermediate substance, and the second is the work energy performed by the intermediate substance. In this case, the intermediate substance is steam. These sorts of theoretical investigations culminated in the 1876 publication of the Gibbs' famous work On the Equilibrium of Heterogeneous Substances and in the construction of the Gibbs’ governor, shown adjacent. These formulations are ubiquitous today in the natural sciences in the form of the Gibbs' free energy equation, which is used to determine the equilibrium of chemical reactions; also known as Gibbs equilibrium.
+
+
+== Speed limiters ==
+
+Governors can be used to limit the top speed for vehicles, and for some classes of vehicle such devices are a legal requirement. They can more generally be used to limit the rotational speed of the internal combustion engine or protect the engine from damage due to excessive rotational speed.
+
+
+=== Cars ===
+Today, BMW, Audi, Volkswagen and Mercedes-Benz limit their production cars to 250 kilometres per hour (155 mph). Certain Quattro GmbH and AMG cars, and the Mercedes/McLaren SLR is an exception. The BMW Rolls-Royces are limited to 240 kilometres per hour (149 mph). Jaguars, although British, also have a limiter. As do the Swedish Saab and Volvo on cars where it is necessary.
+German manufacturers initially started the "gentlemen's agreement", electronically limiting their vehicles to a top speed of 250 kilometres per hour (155 mph), since such high speeds are more likely on the Autobahn. This was done to reduce the political willpower to introduce a legal speed limit.
+In European markets, General Motors Europe sometimes choose to discount the agreement, meaning that certain high-powered Opel or Vauxhall cars can exceed the 250 kilometres per hour (155 mph) mark, whereas their Cadillacs do not. Ferrari, Lamborghini, Maserati, Porsche, Aston Martin and Bentley also do not limit their cars, at least not to 250 kilometres per hour (155 mph). The Chrysler 300C SRT8 is limited to 270 km/h. Most Japanese domestic market vehicles are limited to only 180 kilometres per hour (112 mph) or 190 kilometres per hour (118 mph). The top speed is a strong sales argument, though speeds above about 300 kilometres per hour (190 mph) are not likely reachable on public roads.
+Many performance cars are limited to a speed of 250 kilometres per hour (155 mph) to limit insurance costs of the vehicle, and reduce the risk of tires failing.
+
+
+=== Mopeds ===
+Mopeds in the United Kingdom have had to have a 30 mph (48 km/h) speed limiter since 1977. Most other European countries have similar rules (see the main article).
+
+
+=== Public services vehicles ===
+Public service vehicles often have a legislated top speed. Scheduled coach services in the United kingdom (and also bus services) are limited to 65 mph.
+Urban public buses often have speed governors which are typically set to between 65 kilometres per hour (40 mph) and 100 kilometres per hour (62 mph).
+
+
+=== Trucks (HGVs) ===
+All heavy vehicles in Europe and New Zealand have law/by-law governors that limits their speeds to 90 kilometres per hour (56 mph) or 100 kilometres per hour (62 mph).
+
+
+== Example uses ==
+
+
+=== Aircraft ===
+Aircraft propellers are another application. The governor senses shaft RPM, and adjusts or controls the angle of the blades to vary the torque load on the engine. Thus as the aircraft speeds up (as in a dive) or slows (in climb) the RPM is held constant.
+
+
+=== Small engines ===
+Small engines, such as used to power lawn mowers, portable generators, and lawn and garden tractors, are equipped with a governor to fuel limit the engine to a maximum safe speed when unloaded and to maintain a relatively constant speed despite changes in loading. In the case of generator applications, the engine speed must be closely controlled so the output frequency of the generator will remain reasonably constant.
+Small engine governors are typically one of three types:
+Pneumatic: the governor mechanism detects air flow from the flywheel blower used to cool an air-cooled engine. The typical design includes an air vane mounted inside the engine's blower housing and linked to the carburetor's throttle shaft. A spring pulls the throttle open and, as the engine gains speed, increased air flow from the blower forces the vane back against the spring, partially closing the throttle. Eventually a point of equilibrium will be reached and the engine will run at a relatively constant speed. Pneumatic governors are simple in design and inexpensive to produce. However, they do not regulate engine speed very accurately and are affected by air density, as well as external conditions that may influence airflow.
+Centrifugal: a flyweight mechanism driven by the engine is linked to the throttle and works against a spring in a fashion similar to that of the pneumatic governor, resulting in essentially identical operation. A centrifugal governor is more complex to design and produce than a pneumatic governor. However, the centrifugal design is more sensitive to speed changes and hence is better suited to engines that experience large fluctuations in loading.
+Electronic: a servo motor is linked to the throttle and controlled by an electronic module that senses engine speed by counting electrical pulses emitted by the ignition system or a magnetic pickup. The frequency of these pulses varies directly with engine speed, allowing the control module to apply a proportional voltage to the servo to regulate engine speed. Due to their sensitivity and rapid response to speed changes, electronic governors are often fitted to engine-driven generators designed to power computer hardware, as the generator's output frequency must be held within narrow limits to avoid malfunction.
+
+
+=== Turbine controls ===
+
+In steam turbines, the steam turbine governing is the procedure of monitoring and controlling the flow rate of steam into the turbine with the objective of maintaining its speed of rotation as constant. The flow rate of steam is monitored and controlled by interposing valves between the boiler and the turbine.
+In water turbines, the governors have been used since the mid-19th century to control the speeds of the turbines. A variety of flyball systems were used during the first 100 years of water turbine governors. Flyball component acted directly to the value of the turbine or the wicket gate to control the amount of water that enters the turbines. A newer system with mechanical governors started around 1880. An early mechanical governors is a servomechanism that comprises a series of gears that use the turbine's speed to drive the flyball and turbine's power to drive the control mechanism. The mechanical governors were continued to be enhanced. By 1930, the mechanical governors had many parameters that could be set on the feedback system for precise controls. In the later part of the twentieth century, electronic governors and digital systems started to replace the mechanical governors.
+
+
+== Other uses of the term ==
+
+
+=== Computing ===
+The Linux kernel has a number of CPU frequency governors, which are a sort of policies that set the CPU frequency based on the selected governor and usage patterns. For example, when the "performance" governor is active, the CPU frequency will be set to its maximum value, the "powersave" governor sets the CPU to its lowest frequency, the "ondemand" governor sets the CPU frequency depending on the current usage, etc.
+
+
+== See also ==
+Regulator
+Servomechanism
+Hit and miss engine
+
+
+== References ==

@@ -1,0 +1,26 @@
+Memistor
+A memistor is a nanoelectric circuitry element used in parallel computing memory technology. Essentially, a resistor with memory able to perform logic operations and store information, it is a three-terminal implementation of the memristor. It is a possible future technology replacing flash and DRAM.
+
+
+== History ==
+While the memristor is defined in terms of a two-terminal circuit element, there was an implementation of a three-terminal device called a memistor developed by Bernard Widrow in 1960. Memistors formed basic components of a neural network architecture called ADALINE developed by Widrow and Ted Hoff (who later invented the microprocessor at Intel). The memistor was also used in Madaline.
+
+
+== Essence ==
+In one of the technical reports the memistor was described as follows:
+
+Like the transistor, the memistor is a 3-terminal element. The conductance between two of the terminals is controlled by the time integral of the current in the third, rather than its instantaneous value as in the transistor. Reproducible elements have been made which are continuously variable (thousands of possible analog storage levels), and which typically vary in resistance from 100 ohms to 1 ohm, and cover this range in about 10 seconds with several milliamperes of plating current. Adaptation is accomplished by direct current while sensing the neuron logical structure is accomplished nondestructively by passing alternating currents through the arrays of memistor cells.
+
+Since the conductance was described as being controlled by the time integral of current as in Chua's theory of the memristor, the memistor of Widrow may be considered as a form of memristor having three instead of two terminals. However, one of the main limitations of Widrow's memistors was that they were made from an electroplating cell rather than as a solid-state circuit element. Solid-state circuit elements were required to achieve the scalability of the integrated circuit which was gaining popularity around the same time as the invention of Widrow's memistor.
+An article on ArXiv suggests that the floating-gate MOSFET as well as other 3-terminal "memory transistors" may be modeled using dynamical systems equations in a similar fashion to the memristive systems of memristors.
+
+
+== See also ==
+Memristor
+
+
+== References ==
+
+
+== External links ==
+Memistor - Research at Cisco

@@ -1,0 +1,56 @@
+Rogowski coil
+A Rogowski coil, named after Walter Rogowski, is an electrical device for measuring alternating current (AC) or high speed current pulses. It consists of a helical coil of wire with the lead from one end returning through the centre of the coil to the other end, so that both terminals are at the same end of the coil. The whole assembly is then wrapped around the straight conductor whose current is to be measured. There is no metal (iron) core. The winding density, the diameter of the coil and the rigidity of the winding are critical for preserving immunity to external fields and low sensitivity to the positioning of the measured conductor.
+Since the voltage that is induced in the coil is proportional to the rate of change (derivative) of current in the straight conductor, the output of the Rogowski coil is usually connected to an electrical (or electronic) integrator circuit to provide an output signal that is proportional to the current. Single-chip signal processors with built-in analog to digital converters (like Analog Devices AD7763) are usually used for this purpose.
+
+
+== Advantages ==
+This type of coil has advantages over other types of current transformers.
+It is not a closed loop, because the second terminal is passed back through the center of the toroid core (commonly a plastic or rubber tube) and connected along the first terminal. This allows the coil to be open-ended and flexible, allowing it to be wrapped around a live conductor without disturbing it. However, positioning of the measured conductor is important in that case: It has been shown that, with flexible sensors, the effect of the position on the accuracy ranges from 1 to 3%. Another technique uses two rigid winding halves with a precise locking mechanism.
+Due to its low inductance, it can respond to fast-changing currents, down to several nanoseconds.
+Because it has no iron core to saturate, it is highly linear even when subjected to large currents, such as those used in electric power transmission, welding, or pulsed power applications. This linearity also enables a high-current Rogowski coil to be calibrated using much smaller reference currents.
+No danger of opening the secondary winding.
+Lower construction costs.
+Temperature compensation is simple.
+Conventional current transformers require an increase of the number of secondary turns, in order to keep the output current constant. Therefore, a Rogowski coil for large current is smaller than an equivalent rating current transformer.
+
+
+== Disadvantages ==
+This type of coil also has some disadvantages over other types of current transformers.
+The output of the coil must be passed through an integrator circuit to obtain the current waveform. The integrator circuit requires power, typically 3 to 24Vdc, while many commercial sensors use batteries to power their electronic parts.
+Traditional split-core current transformers do not require integrator circuits. The integrator is lossy, so the Rogowski coil does not have a response down to DC; neither does a conventional current transformer (see Néel effect coils for DC). However, they can measure very slow changing currents with frequency components down to 1Hz and less.
+
+
+== Applications ==
+Rogowski coils are used for current monitoring in precision welding systems, arc melting furnaces, or electromagnetic launchers. They are also used in short-circuit testing of electric generators and as sensors in protection systems of electrical plants. Another field of usage is the measurement of harmonic current content, due to their high linearity.
+
+
+== Formulae ==
+
+The voltage produced by a Rogowski coil is
+,
+where  is the area of one of the small loops,  is the number of turns,  is the length of the winding (the circumference of the ring),  is the rate of change of the current threading the loop,  V·s/(A·m) is the magnetic constant, and  is the major radius of the toroid, and  is its minor radius.
+This formula assumes the turns are evenly spaced and that these turns are small relative to the radius of the coil itself. At high frequencies, the Rogowski coil's inductance will decrease its output.
+The inductance of a toroid is
+
+
+== Similar devices ==
+A device similar to the Rogowski coil was described by Arthur Prince Chattock of Bristol University in 1887. Chattock used it to measure magnetic fields rather than currents. The definitive description was given by Walter Rogowski and W. Steinhaus in 1912.
+More recently, low-cost current sensors based on the principle of a Rogowski coil have been developed. These sensors share the principles of a Rogowski coil, measuring the rate of change of current using a transformer with no magnetic core. The difference from the traditional Rogowski coil is that the sensor can be manufactured using a planar coil rather than a toroidal coil. In order to reject the influence of conductors outside the sensor's measurement region, these planar Rogowski current sensors use a concentric coil geometry instead of a toroidal geometry to limit the response to external fields. The main advantage of the planar Rogowski current sensor is that the coil winding precision that is a requirement for accuracy can be achieved using low-cost printed circuit board manufacturing.
+
+
+== See also ==
+Current
+Current transformer
+List of electronics topics
+Pulsed power
+Toroidal inductors and transformers
+
+
+== References ==
+
+
+== External links ==
+Rogowski Coils, Using Rogowski Coils for Transient Current Measurements, Rocoil Ltd Operating Principle
+Rogowski Coil Designs, PAC World, Autumn 2007, protection relaying applications
+Miniature Wideband Current Probe sensor using this principle
+PEM UK Rogowski current transducer theory

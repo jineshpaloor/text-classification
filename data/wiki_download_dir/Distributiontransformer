@@ -1,0 +1,61 @@
+Distribution transformer
+A distribution transformer is a transformer that provides the final voltage transformation in the electric power distribution system, stepping down the voltage used in the distribution lines to the level used by the customer. The invention of a practical efficient transformer made AC power distribution feasible; a system using distribution transformers was demonstrated as early as 1882. 
+If mounted on a utility pole, they are called pole-mount transformers. If the distribution lines are located at ground level or underground, distribution transformers are mounted on concrete pads and locked in steel cases, thus known as pad-mount transformers.
+Distribution transformers normally have ratings less than 200 kVA,  although some national standards can describe units up to 5000 kVA as distribution transformers. Since distribution transformers are energized for 24 hours a day (even when they don't carry any load), reducing iron losses has an important role in their design. As they usually don't operate at full load, they are designed to have maximum efficiency at lower loads. To have a better efficiency, voltage regulation in these transformers should be kept to a minimum. Hence they are designed to have small leakage reactance.
+
+
+== Classification ==
+Distribution transformers are classified into different categories based on certain factors such as:
+Mounting location - pole, pad, underground vault
+Type of insulation - liquid-immersed or dry-type
+Number of Phases - single-phase or three-phase
+Voltage class
+Basic impulse insulation level (BIL).
+
+
+== Use ==
+Distribution transformers are normally located at a service drop, where wires run from a utility pole or underground power lines to a customer's premises. They are often used for the power supply of facilities outside settlements, such as isolated houses, farmyards or pumping stations at voltages below 30 kV. Another application is the power supply of the overhead wire of railways electrified with AC. In this case single phase distribution transformers are used. 
+The number of customers fed by a single distribution transformer varies depending on the number of customers in an area. Several homes may be fed off a single transformer in urban areas; rural distribution may require one transformer per customer. A large commercial or industrial complex will have multiple distribution transformers. Padmount transformers are used in urban areas and neighborhoods where the primary distribution lines run underground. Many large buildings have electric service provided at primary distribution voltage. These buildings have customer-owned transformers in the basement for step-down purposes.  In a secondary network system as used in urban areas, many distribution transformers may be connected in parallel, each equipped with its own network protector circuit breaker to isolate it from the secondary network in case of a fault.
+Distribution transformers are also found in the power collector networks of wind farms, where they step up power from each wind turbine to connect to a substation that may be several miles (kilometres) distant. 
+
+
+== Connections ==
+
+Both pole-mount and pad-mount transformers convert the high 'primary' voltage of the overhead or underground distribution lines to the lower 'secondary' voltage of the distribution wires inside the building. The primaries use the three-phase system. Main distribution lines always have three wires, while smaller "laterals" (close to the customer) may include one or two phases, used to serve all customers with single-phase power. If three-phase service is desired, one must have a three-phase supply. Primaries provide power at the standard distribution voltages used in the area; these range from as low as 2300 volts to about 35,000 volts depending on local distribution practice and standards; often 11,000 V (50 Hz systems )and 13,800 V (60 Hz) systems are used but many other voltages are standard.
+
+
+=== Primary ===
+The high voltage primary windings are brought out to bushings on the top of the case.
+Single phase transformers, generally used in the USA system, are attached to the overhead wires with two different types of connections:
+If a primary neutral wire is available, a 'wye' or 'phase to neutral' transformer can be used. This usually has only one bushing on top, connected to one of the primary phases. The other end of the primary winding is 'grounded' to the transformer's case, which is connected to the neutral wire of the 3 phase system, and also earth ground. This type of distribution system, called 'grounded wye', is preferred because the transformers present unbalanced loads on the line, causing currents in the neutral wire. With the 'delta' connection, this can cause variations in the voltages on the 3 phase wires.
+If no neutral wire is available, a 'delta' or 'phase to phase' transformer must be used. This has two bushings on top which are connected to two of the three primary wires, so the voltage across the primary winding is the phase-to-phase voltage. This type is used on long distribution lines where it is uneconomical to run a fourth neutral wire.
+
+Transformers providing three-phase secondary power, which are used for residential service in the European system, have three primary windings and are attached to all three primary phase wires. The windings are almost always connected in a 'wye' configuration, with the ends of the three windings connected and grounded.
+The transformer is always connected to the primary distribution lines through protective fuses and disconnect switches. For pole-mounted transformers this usually takes the form of a 'fused cutout'. An electrical fault causes the fuse to melt, and the device drops open to give a visual indication of trouble. It can also be manually opened while the line is energized by lineworkers using insulated hot sticks.
+
+
+=== Secondary ===
+The low voltage secondary windings are attached to three or four terminals on the transformer's side.
+In the USA and countries using its system, the secondary is most often the split-phase 120/240 volt system. The 240 V secondary winding is center-tapped and the center neutral wire is grounded, making the two end conductors "hot" with respect to the center tap. These three wires run down the service drop to the electric meter and service panel inside the building. Connecting a load between either hot wire and the neutral gives 120 volts. Connecting between both hot wires gives 240 volts.
+In Europe and countries using its system, the secondary is often the three phase 400Y/230 system. There are three 230 V secondary windings, each receiving power from a primary winding attached to one of the primary phases. One end of each secondary winding is connected to a 'neutral' wire, which is grounded. The other end of the 3 secondary windings, along with the neutral, are brought down the service drop to the service panel. 230 V loads are connected between any of the three phase wires and the neutral.
+Higher secondary voltages, such as 480 volts, are sometimes required for commercial and industrial uses. Some industrial customers require three-phase power at secondary voltages. To provide this, three-phase transformers can be used. In the US, which uses mostly single phase transformers, three identical single phase transformers are often wired in a transformer bank in either a wye or delta connection, to create a three phase transformer.
+
+
+== Construction ==
+
+Distribution transformers are made using a core made from laminations of sheet steel stacked and either glued together with resin or banded together with steel straps. Where large numbers of transformers are made to standard designs, a wound C-shaped core is economic to manufacture. A steel strip is wrapped around a former, pressed into shape and then cut into two C-shaped halves, which are re-assembled on the copper windings. 
+The primary coils are wound from enamel coated copper or aluminum wire and the high current, low voltage secondaries are wound using a thick ribbon of aluminum or copper. The windings are insulated with resin-impregnated paper. The entire assembly is baked to cure the resin and then submerged in a powder coated steel tank which is then filled with transformer oil (or other insulating liquid), which is inert and non-conductive. The transformer oil cools and insulates the windings, and protects the transformer winding from moisture, which will float on the surface of the oil. The tank is temporarily depressurized to remove any remaining moisture that would cause arcing and is sealed against the weather with a gasket at the top.
+Formerly, distribution transformers for indoor use would be filled with a polychlorinated biphenyl (PCB) liquid. Because these liquids persist in the environment and have adverse effects on animals, they have been banned. Other fire-resistant liquids such as silicones are used where a liquid-filled transformer must be used indoors. Certain vegetable oils have been applied as transformer oil; these have the advantage of a high fire point and are completely biodegradable in the environment. 
+Pole-mounted transformers often include accessories such as surge arresters or protective fuse links. A self-protected transformer includes an internal fuse and surge arrester; other transformers have these components mounted separately outside the tank.  Pole-mounted transformers may have lugs allowing direct mounting to a pole, or may be mounted on crossarms bolted to the pole. Aerial transformers, larger than around 75 kVA, may be mounted on a platform supported by one or more poles. A three-phase service may use three identical transformers, one per phase.
+Transformers designed for below-grade installation can be designed for periodic submersion in water. 
+Distribution transformers may include an off-load tap changer to allow slight adjustment of the ratio between primary and secondary voltage, to bring the customer voltage within the desired range on long or heavily loaded lines.
+Pad-mounted transformers have secure locked and bolted grounded metal enclosures to discourage unauthorized access to live internal parts. The enclosure may also include fuses, isolating switches, load-break bushings, and other accessories as described in technical standards. Pad-mounted transformers for distribution systems typically range from around 100 to 2000 kVA, although some larger units are also used.
+
+
+== References ==
+
+
+== Bibliography ==
+Bakshi, V.B.U.A. (2009). Transformers & Induction Machines. Technical Publications. ISBN 9788184313802. Retrieved 2014-01-14. 
+Harlow, James H. (2012). Electric Power Transformer Engineering, Third Edition, Volume 2. CRC Press. ISBN 143985629X. 
+Pansini, Anthony J. (2005). Guide to Electrical Power Distribution Systems. The Fairmont Press, Inc. ISBN 088173506X.

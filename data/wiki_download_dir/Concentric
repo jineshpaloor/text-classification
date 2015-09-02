@@ -1,0 +1,32 @@
+Concentric
+In geometry, two or more objects are said to be concentric, coaxal, or coaxial when they share the same center or axis. Circles, regular polygons and regular polyhedra, and spheres may be concentric to one another (sharing the same center point), as may cylinders (sharing the same central axis).
+
+
+== Geometric properties ==
+In the Euclidean plane, two circles that are concentric necessarily have different radii from each other. However, circles in three-dimensional space may be concentric, and have the same radius as each other, but nevertheless be different circles. For example, two different meridians of a terrestrial globe are concentric with each other and with the globe of the earth (approximated as a sphere). More generally, every two great circles on a sphere are concentric with each other and with the sphere.
+By Euler's theorem in geometry on the distance between the circumcenter and incenter of a triangle, two concentric circles (with that distance being zero) are the circumcircle and incircle of a triangle if and only if the radius of one is twice the radius of the other, in which case the triangle is equilateral.
+The circumcircle and the incircle of a regular n-gon, and the regular n-gon itself, are concentric. For the circumradius-to-inradius ratio for various n, see Bicentric polygon#Regular polygons.
+The region of the plane between two concentric circles is an annulus, and analogously the region of space between two concentric spheres is a spherical shell.
+For a given point c in the plane, the set of all circles having c as their center forms a pencil of circles. Each two circles in the pencil are concentric, and have different radii. Every point in the plane, except for the shared center, belongs to exactly one of the circles in the pencil. Every two disjoint circles, and every hyperbolic pencil of circles, may be transformed into a set of concentric circles by a Möbius transformation.
+
+
+== Applications and examples ==
+The ripples formed by dropping a small object into still water naturally form an expanding system of concentric circles. Evenly spaced circles on the targets used in target archery or similar sports provide another familiar example of concentric circles.
+Coaxial cable is a type of electrical cable in which the combined neutral and earth core completely surrounds the live core(s) in system of concentric cylindrical shells.
+Johannes Kepler's Mysterium Cosmographicum envisioned a cosmological system formed by concentric regular polyhedra and spheres.
+Concentric circles are also found in diopter sights, a type of mechanic sights commonly found on target rifles. They usually feature a large disk with a small-diametre hole near the shooter's eye, and a front globe sight (a circle contained inside another circle, called tunnel). When these sights are correctly aligned, the point of impact will be in the middle of the front sight circle.
+
+
+== See also ==
+Centered cube number
+Homoeoid
+Focaloid
+Circular symmetry
+Magic circle (mathematics)
+
+
+== References ==
+
+
+== External links ==
+Geometry: Concentric circles demonstration With interactive animation

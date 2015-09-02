@@ -1,0 +1,21 @@
+Polyphase coil
+Polyphase coils are electromagnetic coils connected together in a polyphase system such as a generator or motor. In modern systems, the number of phases is usually three or a multiple of three. Each phase carries a sinusoidal alternating current whose phase is delayed relative to one of its neighbours and advanced relative to its other neighbour. The phase currents are separated in time evenly within each period of the alternating current. For example, in a three-phase system, the phases are separated from each other by one-third of the period.
+
+
+== Coil construction ==
+Like all coils used in electrical machinery, polyphase coils (made from insulated conducting wire) are wound around ferromagnetic armatures with radial projections and maximum core-surface exposure to the magnetic field.
+The windings are physically separated around the circumference of an electrical machine. The result of such an arrangement is a rotating magnetic field that is used to convert electrical power to rotary mechanical work, or vice versa.
+
+
+== Polyphase motors and generators ==
+Compared to single-phase motors and generators, polyphase motors are simpler, because they do not require external circuitry (using capacitors and inductors) to produce a starting torque. Polyphase machines can deliver constant power over each period of the alternating current, eliminating the pulsations found in a single-phase machine as the current passes through zero amplitude.
+
+
+== History ==
+The use of polyphase coils in electrical power systems was pioneered by the engineers Nikola Tesla, Galileo Ferraris, and Michail Dolivo-Dobrovolsky.
+
+
+== See also ==
+Alternator
+Induction motor
+Single-phase generator

@@ -1,0 +1,65 @@
+Mesh networking
+A mesh network is a network topology in which each node relays data for the network. All mesh nodes cooperate in the distribution of data in the network.
+Mesh networks can relay messages using either a flooding technique or a routing technique. With routing, the message is propagated along a path by hopping from node to node until it reaches its destination. To ensure all its paths' availability, the network must allow for continuous connections and must reconfigure itself around broken paths, using self-healing algorithms such as Shortest Path Bridging. Self-healing allows a routing-based network to operate when a node breaks down or when a connection becomes unreliable. As a result, the network is typically quite reliable, as there is often more than one path between a source and a destination in the network. Although mostly used in wireless situations, this concept can also apply to wired networks and to software interaction.
+A mesh network whose nodes are all connected to each other is a fully connected network. Fully connected wired networks have the advantages of security and reliability: problems in a cable affect only the two nodes attached to it. However, in such networks, the number of cables, and therefore the cost, goes up rapidly as the number of nodes increases.
+Mesh networks can be considered a type of an ad-hoc network. Thus, mesh networks are closely related to mobile ad hoc networks (MANETs), although MANETs also must deal with problems introduced by the mobility of the nodes.
+
+
+== Wired ==
+Shortest path bridging allows Ethernet switches to be connected in a mesh topology and for all paths to be active.
+
+
+== Wireless ==
+Wireless mesh networks were originally developed for military applications. Mesh networks are typically wireless. Over the past decade, the size, cost, and power requirements of radios has declined, enabling multiple radios to be contained within a single mesh node, thus allowing for greater modularity; each can handle multiple frequency bands and support a variety of functions as needed—such as client access, backhaul service, and scanning (required for high-speed handoff in mobile applications)—even customized sets of them.
+Work in this field has been aided by the use of game theory methods to analyze strategies for the allocation of resources and routing of packets.
+Early wireless mesh networks all use nodes that have a single half-duplex radio that, at any one instant, can either transmit or receive, but not both at the same time. This requires a shared mesh configuration.
+Some later wireless mesh networks use nodes with more complex radio hardware that can receive packets from an upstream node and transmit packets to a downstream node simultaneously (on a different frequency or a different CDMA channel), which is a prerequisite for a switched mesh configuration.
+
+
+=== Examples ===
+In rural Catalonia, Guifi.net was developed in 2004 as a response to the lack of broadband internet, where commercial internet providers weren't providing a connection or a very poor one. Nowadays with more than 30,000 nodes it is only halfway a fully connected network, but following a peer to peer agreement it remained an open, free and neutral network with extensive redundancy.
+ZigBee digital radios are incorporated into some consumer appliances, including battery-powered appliances. ZigBee radios spontaneously organize a mesh network, using AODV routing; transmission and reception are synchronized. This means the radios can be off much of the time, and thus conserve power.
+
+In early 2007, the US-based firm Meraki launched a mini wireless mesh router. This is an example of a wireless mesh network (on a claimed speed of up to 50 megabits per second). The 802.11 radio within the Meraki Mini has been optimized for long-distance communication, providing coverage over 250 metres.
+This is an example of a single-radio mesh network being used within a community as opposed to multi-radio long range mesh networks like BelAir or MeshDynamics that provide multifunctional infrastructure, typically using tree based topologies and their advantages in O(n) routing.
+The Naval Postgraduate School, Monterey CA, demonstrated such wireless mesh networks for border security. In a pilot system, aerial cameras kept aloft by balloons relayed real time high resolution video to ground personnel via a mesh network.
+An MIT Media Lab project has developed the XO-1 laptop or "OLPC"(One Laptop per Child) which is intended for disadvantaged schools in developing nations and uses mesh networking (based on the IEEE 802.11s standard) to create a robust and inexpensive infrastructure. The instantaneous connections made by the laptops are claimed by the project to reduce the need for an external infrastructure such as the Internet to reach all areas, because a connected node could share the connection with nodes nearby. A similar concept has also been implemented by Greenpacket with its application called SONbuddy.
+In Cambridge, UK, on 3 June 2006, mesh networking was used at the “Strawberry Fair” to run mobile live television, radio and Internet services to an estimated 80,000 people.
+The Champaign-Urbana Community Wireless Network (CUWiN) project is developing mesh networking software based on open source implementations of the Hazy-Sighted Link State Routing Protocol and Expected Transmission Count metric. Additionally, the Wireless Networking Group in the University of Illinois at Urbana-Champaign are developing a multichannel, multi-radio wireless mesh testbed, called Net-X as a proof of concept implementation of some of the multichannel protocols being developed in that group. The implementations are based on an architecture that allows some of the radios to switch channels to maintain network connectivity, and includes protocols for channel allocation and routing.
+FabFi is an open-source, city-scale, wireless mesh networking system originally developed in 2009 in Jalalabad, Afghanistan to provide high-speed internet to parts of the city and designed for high performance across multiple hops. It is an inexpensive framework for sharing wireless internet from a central provider across a town or city. A second larger implementation followed a year later near Nairobi, Kenya with a freemium pay model to support network growth. Both projects were undertaken by the Fablab users of the respective cities.
+SMesh is an 802.11 multi-hop wireless mesh network developed by the Distributed System and Networks Lab at Johns Hopkins University. A fast handoff scheme allows mobile clients to roam in the network without interruption in connectivity, a feature suitable for real-time applications, such as VoIP.
+Many mesh networks operate across multiple radio bands. For example, Firetide and Wave Relay mesh networks have the option to communicate node to node on 5.2 GHz or 5.8 GHz, but communicate node to client on 2.4 GHz (802.11). This is accomplished using software-defined radio (SDR).
+The SolarMESH project examined the potential of powering 802.11-based mesh networks using solar power and rechargeable batteries. Legacy 802.11 access points were found to be inadequate due to the requirement that they be continuously powered. The IEEE 802.11s standardization efforts are considering power save options, but solar-powered applications might involve single radio nodes where relay-link power saving will be inapplicable.
+The WING project (sponsored by the Italian Ministry of University and Research and led by CREATE-NET and Technion) developed a set of novel algorithms and protocols for enabling wireless mesh networks as the standard access architecture for next generation Internet. Particular focus has been given to interference and traffic aware channel assignment, multi-radio/multi-interface support, and opportunistic scheduling and traffic aggregation in highly volatile environments.
+WiBACK Wireless Backhaul Technology has been developed by the Fraunhofer Institute for Open Communication Systems (FOKUS) in Berlin. Powered by solar cells and designed to support all existing wireless technologies, networks are due to be rolled out to several countries in sub-Saharan Africa in summer 2012.
+Recent standards for wired communications have also incorporated concepts from Mesh Networking. An example is ITU-T G.hn, a standard that specifies a high-speed (up to 1 Gbit/s) local area network using existing home wiring (power lines, phone lines and coaxial cables). In noisy environments such as power lines (where signals can be heavily attenuated and corrupted by noise) it's common that mutual visibility between devices in a network is not complete. In those situations, one of the nodes has to act as a relay and forward messages between those nodes that cannot communicate directly, effectively creating a mesh network. In G.hn, relaying is performed at the Data Link Layer.
+
+
+== See also ==
+
+
+=== Mesh network applications ===
+
+
+=== Mesh network devices ===
+
+
+=== Other topologies ===
+
+
+== References ==
+
+
+== External links ==
+Battelle Institute AoA Comparative Ratings for popular mesh network providers, specific to mission critical military programs.
+Architecture and Evaluation of the MIT Roofnet Mesh Network - Draft research paper describing the Roofnet project.
+WING Project Wireless Mesh Network distribution based on the roofnet source code
+First, Second and Third Generation Mesh Architectures History and evolution of Mesh Networking Architectures
+DARPA's ITMANET program and the FLoWS Project Investigating Fundamental Performance Limits of MANETS
+Robin Chase discusses Zipcar and Mesh networking Robin Chase talks at the Ted conference about the future of mesh networking and eco-technology
+Dynamic And Persistent Mesh Networks Hybrid mesh networks for military, homeland security and public safety
+Mesh Networks Research Group Projects and tutorials' compilation related to the Wireless Mesh Networks
+Tetrahedron Core Network Application of a tetrahedral structure to create a resilient partial-mesh 3-dimensional campus backbone data network
+Phantom anonymous, decentralized network, isolated from the Internet
+Qaul Project – Text messaging, file sharing and voice calls independent of internet and cellular networks
+the free content wiki for project meshnet and supporting projects

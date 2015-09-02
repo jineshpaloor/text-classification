@@ -1,0 +1,65 @@
+Insulated-gate bipolar transistor
+The insulated-gate bipolar transistor (IGBT) is a three-terminal power semiconductor device primarily used as an electronic switch which, as it was developed, came to combine high efficiency and fast switching. It switches electric power in many modern appliances: variable-frequency drives (VFDs), electric cars, trains, variable speed refrigerators, lamp ballasts, air-conditioners and even stereo systems with switching amplifiers. Since it is designed to turn on and off rapidly, amplifiers that use it often synthesize complex waveforms with pulse width modulation and low-pass filters. In switching applications modern devices feature pulse repetition rates well into the ultrasonic range—frequencies which are at least ten times the highest audio frequency handled by the device when used as an analog audio amplifier.
+The IGBT combines the simple gate-drive characteristics of MOSFETs with the high-current and low-saturation-voltage capability of bipolar transistors. The IGBT combines an isolated gate FET for the control input, and a bipolar power transistor as a switch, in a single device. The IGBT is used in medium- to high-power applications like switched-mode power supplies, traction motor control and induction heating. Large IGBT modules typically consist of many devices in parallel and can have very high current handling capabilities in the order of hundreds of amperes with blocking voltages of 6000 V, equating to hundreds of kilowatts.
+The first-generation IGBTs of the 1980s and early 1990s were prone to failure through such modes as latchup (in which the device will not turn off as long as current is flowing) and secondary breakdown (in which a localized hotspot in the device goes into thermal runaway and burns the device out at high currents). Second-generation devices were much improved. The current third-generation IGBTs are even better, with speed rivaling MOSFETs, and excellent ruggedness and tolerance of overloads.
+The extremely high pulse ratings of second- and third-generation devices also make them useful for generating large power pulses in areas including particle and plasma physics, where they are starting to supersede older devices such as thyratrons and triggered spark gaps.
+Their high pulse ratings, and low prices on the surplus market, also make them attractive to the high-voltage hobbyist for controlling large amounts of power to drive devices such as solid-state Tesla coils and coilguns.
+IGBTs are important for electric vehicles and hybrid cars.
+
+
+== History ==
+
+The IGBT is a semiconductor device with four alternating layers (P-N-P-N) that are controlled by a metal-oxide-semiconductor (MOS) gate structure without regenerative action. This mode of operation was first proposed by Yamagami in his Japanese patent S47-21739, which was filed in 1968. This mode of operation was first experimentally reported in the lateral four layer device (SCR) by B. W. Scharf and J. D. Plummer in 1978. This mode of operation was also experimentally discovered in vertical device in 1979 by B. J. Baliga. The device structure was referred to as a ‘V-groove MOSFET device with the drain region replaced by a p-type Anode Region’ in this paper and subsequently as 'the insulated-gate rectifier' (IGR), the insulated-gate transistor (IGT), the conductivity-modulated field-effect transistor (COMFET) and "bipolar-mode MOSFET".
+Plummer filed a patent application for IGBT mode of operation in the four layer device (SCR) in 1978. USP No.4199774 was issued in 1980 and B1 Re33209 was reissued in 1995 for the IGBT mode operation in the four layer device (SCR).
+Hans W. Becke and Carl F. Wheatley invented a similar device for which they filed a patent application in 1980, and which they referred to as "power MOSFET with an anode region". This patent has been called "the seminal patent of the insulated gate bipolar transistor." The patent claimed "no thyristor action occurs under any device operating conditions." This substantially means that the device exhibits non-latch-up IGBT operation over the entire device operation range.
+Practical devices capable of operating over an extended current range were first reported by Baliga et al. in 1982. A similar paper was also submitted by J. P. Russel et al. to IEEE Electron Device Letter in 1982. The applications for the device were initially regarded by the power electronics community to be severely restricted by its slow switching speed and latch-up of the parasitic thyristor structure inherent within the device. However, it was demonstrated by Baliga and also by A. M. Goodman et al. in 1983 that the switching speed could be adjusted over a broad range by using electron irradiation. This was followed by demonstration of operation of the device at elevated temperatures by Baliga in 1985. Successful efforts to suppress the latch-up of the parasitic thyristor and the scaling of the voltage rating of the devices at GE allowed the introduction of commercial devices in 1983, which could be utilized for a wide variety of applications.
+Complete suppression of the parasitic thyristor action and the resultant non-latch-up IGBT operation for the entire device operation range was achieved by A. Nakagawa et al. in 1984. The non-latch-up design concept was filed for US patents. To test the lack of latch-up, the prototype 1200V IGBTs were directly connected without any loads across a 600V constant voltage source and were switched on for 25 microseconds. The entire 600V was dropped across the device and a large short circuit current flowed. The devices successfully withstood this severe condition. This was the first demonstration of so-called "short-circuit-withstanding-capability" in IGBTs. Non-latch-up IGBT operation was ensured, for the first time, for the entire device operation range. In this sense, the non-latch-up IGBT proposed by Hans W. Becke and Carl F. Wheatley was realized by A. Nakagawa et al. in 1984. Products of non-latch-up IGBTs were first commercialized by Toshiba in 1985.
+Once the non-latch-up capability was achieved in IGBTs, it was found that IGBTs exhibited very rugged and a very large safe operating area. It was demonstrated that the product of the operating current density and the collector voltage exceeded the theoretical limit of bipolar transistors, 2×105 W/cm2, and reached 5×105 W/cm2.
+The insulating material is typically made of solid polymers which have issues with degradation. There are developments that use an ion gel to improve manufacturing and reduce the voltage required.
+
+
+== Device structure ==
+
+An IGBT cell is constructed similarly to a n-channel vertical construction power MOSFET except the n+ drain is replaced with a p+ collector layer, thus forming a vertical PNP bipolar junction transistor.
+This additional p+ region creates a cascade connection of a PNP bipolar junction transistor with the surface n-channel MOSFET.
+
+
+== Comparison with power MOSFETs ==
+An IGBT features a significantly lower forward voltage drop compared to a conventional MOSFET in higher blocking voltage rated devices. As the blocking voltage rating of both MOSFET and IGBT devices increases, the depth of the n- drift region must increase and the doping must decrease, resulting in roughly square relationship decrease in forward conduction versus blocking voltage capability of the device. By injecting minority carriers (holes) from the collector p+ region into the n- drift region during forward conduction, the resistance of the n- drift region is considerably reduced. However, this resultant reduction in on-state forward voltage comes with several penalties:
+The additional PN junction blocks reverse current flow. This means that unlike a MOSFET, IGBTs cannot conduct in the reverse direction. In bridge circuits, where reverse current flow is needed, an additional diode (called a freewheeling diode) is placed in parallel with the IGBT to conduct current in the opposite direction. The penalty isn't overly severe because at higher voltages, where IGBT usage dominates, discrete diodes have a significantly higher performance than the body diode of a MOSFET.
+The reverse bias rating of the N-drift region to collector P+ diode is usually only of tens of volts, so if the circuit application applies a reverse voltage to the IGBT, an additional series diode must be used.
+The minority carriers injected into the N-drift region take time to enter and exit or recombine at turn-on and turn-off. This results in longer switching times, and hence higher switching loss compared to a power MOSFET.
+The on-state forward voltage drop in IGBTs behaves very differently from power MOSFETS. The MOSFET voltage drop can be modeled as a resistance, with the voltage drop proportional to current. By contrast, the IGBT has a diode-like voltage drop (typically of the order of 2V) increasing only with the log of the current. Additionally, MOSFET resistance is typically lower for smaller blocking voltages, so the choice between IGBTs and power MOSFETS will depend on both the blocking voltage and current involved in a particular application.
+In general, high voltage, high current and low switching frequencies favor the IGBT while low voltage, low current and high switching frequencies are the domain of the MOSFET.
+
+
+== IGBT models ==
+Rather than using a device physics-based model, SPICE simulates IGBTs using Macromodels, a method that combines an ensemble of components like FETs and BJTs in a Darlington configuration. An alternative physics-based model is the Hefner model, introduced by Allen Hefner of the NIST. It is a fairly complex model that has shown very good results. Hefner's model is described in a 1988 paper and was later extended to a thermo-electrical model and a version using SABER.
+
+
+== Usage ==
+
+
+== See also ==
+
+Bootstrapping
+FGMOS
+Power electronics
+Power MOSFET
+Solar inverter
+Variable-frequency drive
+Bipolar junction transistor
+
+
+== References ==
+
+
+== Further reading ==
+Dr. Ulrich Nicolai, Dr. Tobias Reimann, Prof. Jürgen Petzoldt, Josef Lutz: Application Manual IGBT and MOSFET Power Modules, 1. Edition, ISLE Verlag, 1998, ISBN 3-932633-24-5 PDF-Version
+Wintrich, Arendt; Nicolai, Ulrich; Tursky, Werner; Reimann, Tobias (2011). PDF-Version (PDF) (2nd ed.). Nuremberg: Semikron. ISBN 978-3-938843-66-6. 
+
+
+== External links ==
+Device physics information from the University of Glasgow
+Spice model for IGBT
+IGBT driver calculation

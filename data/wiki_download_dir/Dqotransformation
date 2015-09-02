@@ -1,0 +1,62 @@
+Dqo transformation
+In electrical engineering, direct–quadrature–zero (or dq0 or dqo) transformation or zero–direct–quadrature (or 0dq or odq) transformation is a mathematical transformation that rotates the reference frame of three-phase systems in an effort to simplify the analysis of three-phase circuits. The dqo transform presented here is exceedingly similar to the transform first proposed in 1929 by Robert H. Park. In fact, the dqo transform is often referred to as Park’s transformation. In the case of balanced three-phase circuits, application of the dqo transform reduces the three AC quantities to two DC quantities. Simplified calculations can then be carried out on these DC quantities before performing the inverse transform to recover the actual three-phase AC results. It is often used in order to simplify the analysis of three-phase synchronous machines or to simplify calculations for the control of three-phase inverters. In analysis of three-phase synchronous machines the transformation transfers three-phase stator and rotor quantities into a single rotating reference frame to eliminate the effect of time varying inductances.
+
+
+== Definition ==
+The power-invariant, right-handed dqo transform applied to any three-phase quantities (e.g. voltages, currents, flux linkages, etc.) is shown below in matrix form:
+
+The inverse transform is:
+
+
+=== Geometric Interpretation ===
+The dqo transformation is two sets of axis rotations in sequence. We can begin with a 3D space where a, b, and c are orthogonal axes.
+
+If we rotate about the a axis by -45°, we get the following rotation matrix:
+,
+which resolves to
+.
+With this rotation, the axes look like
+
+Then we can rotate about the new b axis by about 35.26° ():
+,
+which resolves to
+.
+
+When these two matrices are multiplied, we get the Clarke transformation matrix C:
+
+This is the first of the two sets of axis rotations. At this point, we can relabel the rotated a, b, and c axes as α, β, and z. This first set of rotations places the z axis an equal distance away from all three of the original a, b, and c axes. In a balanced system, the values on these three axes would always balance each other in such a way that the z axis value would be zero. This is one of the core values of the dqo transformation; it can reduce the number relevant variables in the system.
+The second set of axis rotations is very simple. In electric systems, very often the a, b, and c values are oscillating in such a way that the net vector is spinning. In a balanced system, the vector is spinning about the z axis. Very often, it is helpful to rotate the reference frame such that the majority of the changes in the abc values, due to this spinning, are canceled out and any finer variations become more obvious. So, in addition to the Clarke transform, the following axis rotation is applied about the z axis:
+.
+Multiplying this matrix by the Clarke matrix results in the dqo transform:
+.
+The dqo transformation can be thought of in geometric terms as the projection of the three separate sinusoidal phase quantities onto two axes rotating with the same angular velocity as the sinusoidal phase quantities. The two axes are called the direct, or d, axis; and the quadrature or q, axis; that is, with the q-axis being at an angle of 90 degrees from the direct axis.
+
+
+== Comparison with other transforms ==
+
+
+=== Park's transformation ===
+The transformation originally proposed by Park differs slightly from the one given above. Park's transformation is:
+
+and
+
+Although useful, Park's transformation is not power invariant whereas the dqo transformation defined above is. Park's transformation gives the same zero component as the method of symmetrical components. The dqo transform shown above gives a zero component which is larger than that of Park or symmetrical components by a factor of .
+
+
+=== αβγ transform ===
+
+The dqo transform is conceptually similar to the αβγ transform. Whereas the dqo transform is the projection of the phase quantities onto a rotating two-axis reference frame, the αβγ transform can be thought of as the projection of the phase quantities onto a stationary two-axis reference frame.
+
+
+== References ==
+In-line references
+
+General references
+
+T.A.Lipo, “A Cartesian Vector Approach To Reference Theory of AC Machines”, Int. Conference On Electric Machines, Laussane, Sept. 18-24, 1984.
+
+
+== See also ==
+Symmetrical components
+ transform
+Vector control (motor)

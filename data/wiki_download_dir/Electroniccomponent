@@ -1,0 +1,402 @@
+Electronic component
+An electronic component is any basic discrete device or physical entity in an electronic system used to affect electrons or their associated fields. Electronic components are mostly industrial products, available in a singular form and are not to be confused with electrical elements, which are conceptual abstractions representing idealized electronic components.
+Electronic components have two or more electrical terminals (or leads) aside from antennas which may only have one terminal. These leads connect to create an electronic circuit with a particular function (for example an amplifier, radio receiver, or oscillator). Basic electronic components may be packaged discretely, as arrays or networks of like components, or integrated inside of packages such as semiconductor integrated circuits, hybrid integrated circuits, or thick film devices. The following list of electronic components focuses on the discrete version of these components, treating such packages as components in their own right.
+
+
+== Classification ==
+Components can be classified as passive, active, or electromechanic. The strict physics definition treats passive components as ones that cannot supply energy themselves, whereas a battery would be seen as an active component since it truly acts as a source of energy.
+However, electronic engineers who perform circuit analysis use a more restrictive definition of passivity. When only concerned with the energy of signals, it is convenient to ignore the so-called DC circuit and pretend that the power supplying components such as transistors or integrated circuits is absent (as if each such component had its own battery built in), though it may in reality be supplied by the DC circuit. Then, the analysis only concerns the AC circuit, an abstraction that ignores DC voltages and currents (and the power associated with them) present in the real-life circuit. This fiction, for instance, lets us view an oscillator as "producing energy" even though in reality the oscillator consumes even more energy from a DC power supply, which we have chosen to ignore. Under that restriction, we define the terms as used in circuit analysis as:
+Active components rely on a source of energy (usually from the DC circuit, which we have chosen to ignore) and usually can inject power into a circuit, though this is not part of the definition. Active components include amplifying components such as transistors, triode vacuum tubes (valves), and tunnel diodes.
+Passive components can't introduce net energy into the circuit. They also can't rely on a source of power, except for what is available from the (AC) circuit they are connected to. As a consequence they can't amplify (increase the power of a signal), although they may increase a voltage or current (such as is done by a transformer or resonant circuit). Passive components include two-terminal components such as resistors, capacitors, inductors, and transformers.
+Electromechanical components can carry out electrical operations by using moving parts or by using electrical connections
+Most passive components with more than two terminals can be described in terms of two-port parameters that satisfy the principle of reciprocity—though there are rare exceptions. In contrast, active components (with more than two terminals) generally lack that property.
+
+
+== Active components ==
+
+
+=== Semiconductors ===
+
+
+==== Diodes ====
+
+Conduct electricity easily in one direction, among more specific behaviors.
+Diode, Rectifier, Bridge rectifier
+Schottky diode, hot carrier diode – super fast diode with lower forward voltage drop
+Zener diode – Passes current in reverse direction to provide a constant voltage reference
+Transient voltage suppression diode (TVS), Unipolar or Bipolar – used to absorb high-voltage spikes
+Varactor, Tuning diode, Varicap, Variable capacitance diode – A diode whose AC capacitance varies according to the DC voltage applied.
+Light-emitting diode (LED) – A diode that emits light
+Photodiode – Passes current in proportion to incident light
+Avalanche photodiode Photodiode with internal gain
+Solar Cell, photovoltaic cell, PV array or panel, produces power from light
+
+DIAC (Diode for Alternating Current), Trigger Diode, SIDAC) – Often used to trigger an SCR
+Constant-current diode
+Peltier cooler – A semiconductor heat pump
+
+
+==== Transistors ====
+Transistors were considered the invention of the twentieth century that changed electronic circuits forever. A transistor is a semiconductor device used to amplify and switch electronic signals and electrical power.
+Transistors
+Bipolar junction transistor (BJT, or simply "transistor") – NPN or PNP
+Photo transistor – Amplified photodetector
+
+Darlington transistor – NPN or PNP
+Photo Darlington – Amplified photodetector
+
+Sziklai pair (Compound transistor, complementary Darlington)
+
+Field-effect transistor (FET)
+JFET (Junction Field-Effect Transistor) – N-CHANNEL or P-CHANNEL
+MOSFET (Metal Oxide Semiconductor FET) – N-CHANNEL or P-CHANNEL
+MESFET (MEtal Semiconductor FET)
+HEMT (High electron mobility transistor)
+
+Thyristors
+Silicon-controlled rectifier (SCR) – Passes current only after triggered by a sufficient control voltage on its gate
+TRIAC (TRIode for Alternating Current) – Bidirectional SCR
+Unijunction transistor (UJT)
+Programmable Unijunction transistor (PUT)
+SIT (Static induction transistor)
+SITh (Static induction thyristor)
+
+Composite transistors
+IGBT (Insulated-gate bipolar transistor)
+
+
+==== Integrated circuits ====
+Digital
+Analog
+Hall effect sensor –senses a magnetic field
+Current sensor – Senses a current through it
+
+
+==== Optoelectronic devices ====
+Optoelectronics
+Opto-Isolator, Opto-Coupler, Photo-Coupler – Photodiode, BJT, JFET, SCR, TRIAC, Zero-crossing TRIAC, Open collector IC, CMOS IC, Solid state relay (SSR)
+Opto switch, Opto interrupter, Optical switch, Optical interrupter, Photo switch, Photo interrupter
+LED display – Seven-segment display, Sixteen-segment display, Dot-matrix display
+
+
+=== Display technologies ===
+Current:
+Filament lamp (indicator lamp)
+Vacuum fluorescent display (VFD) (preformed characters, 7 segment, starburst)
+Cathode ray tube (CRT) (dot matrix scan, radial scan (e.g. radar), arbitrary scan (e.g. oscilloscope)) (monochrome & colour)
+LCD (preformed characters, dot matrix) (passive, TFT) (monochrome, colour)
+Neon (individual, 7 segment display)
+LED (individual, 7 segment display, starburst display, dot matrix)
+Flap indicator (numeric, preprinted messages)
+Plasma display (dot matrix)
+Obsolete:
+Filament lamp 7 segment display (aka 'minitron')
+Nixie Tube
+Dekatron (aka glow transfer tube)
+Magic eye tube indicator
+Penetron (a 2 colour see-through CRT)
+
+
+=== Vacuum tubes (valves) ===
+A vacuum tube is based on current conduction through a vacuum (see Vacuum tube).
+Diode or rectifier tube
+Amplifying tubes
+Triode
+Tetrode
+Pentode
+Hexode
+Pentagrid
+Octode
+Microwave tubes
+Klystron
+Magnetron
+Traveling-wave tube
+
+Optical detectors or emitters
+Phototube or Photodiode – tube equivalent of semiconductor photodiode
+Photomultiplier tube – Phototube with internal gain
+Cathode ray tube (CRT) or television picture tube
+Vacuum fluorescent display (VFD) – Modern non-raster sort of small CRT display
+Magic eye tube – Small CRT display used as a tuning meter (obsolete)
+X-ray tube – Produces x-rays
+
+
+=== Discharge devices ===
+Gas discharge tube
+Obsolete:
+Mercury arc rectifier
+Voltage regulator tube
+Nixie tube
+Thyratron
+Ignitron
+
+
+=== Power sources ===
+Sources of electrical power:
+Battery – acid- or alkali-based power supply
+Fuel cell – an electrochemical generator
+Power supply – usually a mains hook-up
+Photo voltaic device – generates electricity from light
+Thermo electric generator – generates electricity from temperature gradients
+Electrical generator – an electromechanical power source
+Piezoelectric pressure - creates electricity from mechanical strain
+Van de Graaferator - Van de Graaff generator or essentially creating voltage from friction
+
+
+== Passive components ==
+
+
+=== Resistors ===
+
+Pass current in proportion to voltage (Ohm's law) and oppose current.
+Resistor – fixed value
+Power resistor – larger to safely dissipate heat generated
+SIP or DIP resistor network – array of resistors in one package
+
+Variable resistor
+Rheostat – two-terminal variable resistor (often for high power)
+Potentiometer – three-terminal variable resistor (variable voltage divider)
+Trim pot – Small potentiometer, usually for internal adjustments
+Thermistor – thermally sensitive resistor whose prime function is to exhibit a large, predictable and precise change in electrical resistance when subjected to a corresponding change in body temperature.
+Humistor – humidity-varied resistor
+Photoresistor
+Memristor
+Varistor, Voltage Dependent Resistor, MOV – Passes current when excessive voltage is present
+
+Resistance wire, Nichrome wire – wire of high-resistance material, often used as a heating element
+Heater – heating element
+
+
+=== Capacitors ===
+
+Capacitors store and release electrical charge. They are used for filtering power supply lines, tuning resonant circuits, and for blocking DC voltages while passing AC signals, among numerous other uses.
+Capacitor
+Integrated capacitors
+MIS capacitor
+Trench capacitor
+
+Fixed capacitors
+Ceramic capacitor
+Film capacitor
+Electrolytic capacitor
+Aluminum electrolytic capacitor
+Tantalum electrolytic capacitor
+Niobium electrolytic capacitor
+Polymer capacitor, OS-CON
+
+Supercapacitor (Electric double-layer capacitor)
+Nanoionic supercapacitor
+Lithium-ion capacitor
+
+Mica capacitor
+Vacuum capacitor
+
+Variable capacitor – adjustable capacitance
+Tuning capacitor – variable capacitor for tuning a radio, oscillator, or tuned circuit
+Trim capacitor– small variable capacitor is usually for slight internal adjustments made with a small screw driver turned into the right position.
+Vacuum variable capacitor
+
+Capacitors for special applications
+Power capacitor
+Safety capacitor
+Filter capacitor
+Light-emitting capacitor
+Motor capacitor
+Photoflash capacitor
+Reservoir capacitor
+
+Capacitor network (array)
+
+Varicap diode – AC capacitance varies according to the DC voltage applied
+
+
+=== Magnetic (inductive) devices ===
+Electrical components that use magnetism in the storage and release of electrical charge through current:
+Inductor, coil, choke
+Variable inductor
+Saturable Inductor
+Transformer
+Magnetic amplifier (toroid)
+ferrite impedances, beads
+Motor / Generator
+Solenoid
+Loudspeaker and microphone
+
+
+=== Memristor ===
+Electrical components that pass charge in proportion to magnetism or magnetic flux, and have the ability to retain a previous resistive state, hence the name of Memory plus Resistor.
+Memristor
+
+
+=== Networks ===
+Components that use more than one type of passive component:
+RC network – forms an RC circuit, used in snubbers
+LC Network – forms an LC circuit, used in tunable transformers and RFI filters.
+
+
+=== Transducers, sensors, detectors ===
+Transducers generate physical effects when driven by an electrical signal, or vice versa.
+Sensors (detectors) are transducers that react to environmental conditions by changing their electrical properties or generating an electrical signal.
+The transducers listed here are single electronic components (as opposed to complete assemblies), and are passive (see Semiconductors and Tubes for active ones). Only the most common ones are listed here.
+Audio (see also piezoelectric devices)
+Loudspeaker – Magnetic or piezoelectric device to generate full audio
+Buzzer – Magnetic or piezoelectric sounder to generate tones
+
+Position, motion
+Linear variable differential transformer (LVDT) – Magnetic – detects linear position
+Rotary encoder, Shaft Encoder – Optical, magnetic, resistive or switches – detects absolute or relative angle or rotational speed
+Inclinometer – Capacitive – detects angle with respect to gravity
+Motion sensor, Vibration sensor
+Flow meter – detects flow in liquid or gas
+
+Force, torque
+Strain gauge – Piezoelectric or resistive – detects squeezing, stretching, twisting
+Accelerometer – Piezoelectric – detects acceleration, gravity
+
+Thermal
+Thermocouple, thermopile – Wires that generate a voltage proportional to delta temperature
+Thermistor – Resistor whose resistance changes with temperature, up PTC or down NTC
+Resistance Temperature Detector (RTD) – Wire whose resistance changes with temperature
+Bolometer – Device for measuring the power of incident electromagnetic radiation
+Thermal cutoff – Switch that is opened or closed when a set temperature is exceeded
+
+Magnetic field (see also Hall Effect in semiconductors)
+Magnetometer, Gauss meter
+
+Humidity
+Hygrometer
+
+Electromagnetic, light
+Photo resistor – Light dependent resistor (LDR)
+
+
+=== Antennas ===
+Antennas transmit or receive radio waves
+Elemental dipole
+Yagi
+Phased array
+Loop antenna
+Parabolic dish
+Log-periodic dipole array
+Biconical
+Feedhorn
+
+
+=== Assemblies, modules ===
+Multiple electronic components assembled in a device that is in itself used as a component
+Oscillator
+Display devices
+Liquid crystal display (LCD)
+Digital voltmeters
+
+Filter
+
+
+=== Prototyping aids ===
+Wire-wrap
+Breadboard
+
+
+== Electromechanical ==
+
+
+=== Piezoelectric devices, crystals, resonators ===
+Passive components that use piezoelectric effect:
+Components that use the effect to generate or filter high frequencies
+Crystal – a ceramic crystal used to generate precise frequencies (See the Modules class below for complete oscillators)
+Ceramic resonator – Is a ceramic crystal used to generate semi-precise frequencies
+Ceramic filter – Is a ceramic crystal used to filter a band of frequencies such as in radio receivers
+surface acoustic wave (SAW) filters
+
+Components that use the effect as mechanical transducers.
+Ultrasonic motor – Electric motor that uses the piezoelectric effects
+For piezo buzzers and microphones, see the Transducer class below
+
+
+=== Terminals and connectors ===
+Devices to make electrical connection
+Terminal
+Connector
+Socket
+Screw terminal, Terminal Blocks
+Pin header
+
+
+=== Cable assemblies ===
+Cables with connectors or terminals at their ends
+Power cord
+Patch cord
+Test lead
+
+
+=== Switches ===
+Components that can pass current ("closed") or break the flow of current ("open"):
+Switch – Manually operated switch.
+Electrical description: SPST, SPDT, DPST, DPDT, NPNT (general)
+Technology: slide switches, toggle switches, rocker switches, rotary switches, pushbutton switches
+
+Keypad – Array of pushbutton switches
+DIP switch – Small array of switches for internal configuration settings
+Footswitch – Foot-operated switch
+Knife switch – Switch with unenclosed conductors
+Micro switch – Mechanically activated switch with snap action
+Limit switch – Mechanically activated switch to sense limit of motion
+Mercury switch – Switch sensing tilt
+Centrifugal switch – Switch sensing centrifugal force due to rate of rotation
+Relay – Electrically operated switch (mechanical, also see Solid State Relay below)
+Reed switch – Magnetically activated switch
+Thermostat – Thermally activated switch
+Humidistat – Humidity activated switch
+Circuit breaker – Switch opened in response to excessive current: a resettable fuse
+
+
+=== Protection devices ===
+Passive components that protect circuits from excessive currents or voltages:
+Fuse – over-current protection, one time use
+Circuit breaker – resettable fuse in the form of a mechanical switch
+Resettable fuse or PolySwitch – circuit breaker action using solid state device
+Ground-fault protection or residual-current device – circuit breaker sensitive to mains currents passing to ground
+Metal oxide varistor (MOV), surge absorber, TVS – Over-voltage protection.
+Inrush current limiter – protection against initial Inrush current
+Gas discharge tube – protection against high voltage surges
+Spark gap – electrodes with a gap to arc over at a high voltage
+Lightning arrester – spark gap used to protect against lightning strikes
+
+
+=== Mechanical accessories ===
+Enclosure (electrical)
+Heat sink
+Fan
+
+
+=== Other ===
+Printed circuit boards
+Lamp
+Waveguide
+Memristor
+
+
+=== Obsolete ===
+Carbon amplifier (see Carbon microphones used as amplifiers)
+Carbon arc (negative resistance device)
+Dynamo (historic rf generator)
+Coherer
+
+
+== Standard symbols ==
+
+On a circuit diagram, electronic devices are represented by conventional symbols. Reference designators are applied to the symbols to identify the component.
+
+
+== See also ==
+
+Circuit design
+Circuit diagram
+Counterfeit electronic components
+Electrical element
+Electronic mixer
+Electronic components' Datasheets
+IEEE 315-1975
+
+
+== References ==

@@ -1,0 +1,25 @@
+Henry (unit)
+The henry (symbol H) is the unit of electrical inductance in the International System of Units. The unit is named after Joseph Henry (1797–1878), the American scientist who discovered electromagnetic induction independently of and at about the same time as Michael Faraday (1791–1867) in England. The magnetic permeability of a vacuum is 4π×10−7 H m-1 (henry per metre).
+The National Institute of Standards and Technology provides guidance for American users of SI to write the plural as henries.
+
+
+== Definition ==
+The inductance of an electric circuit is one henry when an electric current that is changing at one ampere per second results in an electromotive force across the inductor of one volt:
+,
+where v(t) denotes the resulting voltage across the circuit, i(t) is the current through the circuit, and L is the inductance of the circuit.
+The henry is a derived unit based on four of the seven base units of the International System of Units: kilogram (kg), meter (m), second (s), and ampere (A). Expressed in combinations of SI units, the henry is:
+
+in which the following additional derived units occur: coulomb (C), farad (F), joule (J), weber (Wb), tesla (T), volt (V), hertz (Hz), and ohm (Ω).
+
+
+== Yrneh ==
+The term yrneh, obtained by reversing the letters of henry, is said to have been used as a measure of reluctance, the reciprocal of the inductance. It is defined as: 1 yrneh = 1 henry-1. This word is not listed in the Oxford English Dictionary, however it is listed in Chambers Dictionary (11th edition).
+
+
+== See also ==
+Impedance
+Inductor
+Weber (unit)
+
+
+== References ==

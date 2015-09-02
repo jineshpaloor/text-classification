@@ -1,0 +1,18 @@
+Mead & Conway revolution
+The Mead & Conway revolution was a very-large-scale integration (VLSI) design revolution which resulted in a world-wide restructuring of academic education, and was paramount for the development of industries based on the application of microelectronics.
+
+
+== Details ==
+Immediately after the invention and commercialization of the integrated circuit (with 100 or fewer transistors in a chip), the design was co-located with integrated circuit technology. The circuits' design capability centered in the hands of industry, with universities falling behind in their capability to design computers and systems. But, as predicted by Moore’s law, the number of transistors which fit in a chip doubled every year, meaning that because of the high circuit complexity, the device physics experts were not qualified enough to cope. For this reason, Carver Mead, who coined the term "Moore's law", called for a separation of design from technology throughout the 1970s in order to establish electronic design automation (EDA) as its own discipline developing its own methodologies.
+In 1978-79, when approximately 20,000 transistors could be fabricated in a single chip, Carver Mead and Lynn Conway wrote the textbook Introduction to VLSI System Design which became a bestseller. It was the first VLSI design textbook for non-technologists. The authors intended the book to fill a gap in the literature and introduce electrical engineering and computer science students to integrated system architecture. This textbook triggered a breakthrough in education. Mead & Conway VLSI design courses were created in many universities. Computer science and electrical engineering professors throughout the world started teaching VLSI system design and used this textbook. Many of them also obtained a copy of Lynn Conway's notes for her famous MIT course in 1978, which included a collection of exercises.
+An important milestone that followed was the Multi Project Chip (MPC) concept that allowed multiple designs to be fabricated on a single wafer, greatly reducing cost to the point that students' design exercises and prototypes could be fabbed in small numbers. The first successful run of an MPC line was demonstrated at Lynn Conway's 1978 VLSI design course at MIT. A few weeks after completion of their designs, the students had the fabricated prototypes in their hands, available for testing. Lynn Conway's improved new Xerox PARC MPC VLSI implementation system and service was operated successfully for a dozen universities by in late 1979. It was then transferred to University of Southern California Information Sciences Institute, becoming the foundation for Metal Oxide Semiconductor Implementation Service (MOSIS), which has evolved since 1981 as a national infrastructure for fast-turnaround prototyping of VLSI chip designs by universities and researchers.
+In 1980 Defense Advanced Research Projects Agency began the DoD's new VLSI research program to support extensions of this work, resulting in many university and industry researchers being involved in following up the Mead-Conway innovations. The Mead & Conway revolution rapidly spread around the world and many national Mead & Conway scenes were organized, like the German multi-university E.I.S. project.
+
+
+== Further reading ==
+Michael A. Hiltzik: Dealers of Lightning - Xerox PARC and the Dawn of the Computer Age (Paperback); Harper Collins, 2000
+
+
+== External links ==
+Impact of the Mead-Conway VLSI chip design innovations, and of the MOSIS service based on Lynn Conway's MPC-79 Prototype
+Lynn Conway: The MPC Adventures (Xerox PARC Tech. Report VLSI-81-2)

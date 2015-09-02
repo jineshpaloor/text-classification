@@ -1,0 +1,119 @@
+Grace Hopper
+Grace Brewster Murray Hopper (December 9, 1906 – January 1, 1992), née Grace Brewster Murray, was an American computer scientist and United States Navy rear admiral. She was one of the first programmers of the Harvard Mark I computer in 1944, invented the first compiler for a computer programming language, and was one of those who popularized the idea of machine-independent programming languages which led to the development of COBOL, one of the first high-level programming languages. She is credited with popularizing the term "debugging" for fixing computer glitches (in one instance, removing a moth from a computer). Owing to her accomplishments and her naval rank, she is sometimes referred to as "Amazing Grace". The U.S. Navy Arleigh Burke class guided-missile destroyer USS Hopper (DDG-70) is named for her, as was the Cray XE6 "Hopper" supercomputer at NERSC.
+
+
+== Early life and education ==
+Hopper was born in New York City. She was the oldest in a family of three children. Her parents Walter Fletcher Murray and Mary Campbell Van Horne were of Dutch and Scottish descent, and attended West End Collegiate Church. Among her ancestors was her great grandfather, Alexander Wilson Russell, an Admiral in the US Navy who had fought in the Battle of Mobile Bay during the Civil War.
+Grace was curious as a child, a lifelong trait; at the age of seven she decided to determine how an alarm clock worked, and dismantled seven alarm clocks before her mother realized what she was doing (she was then limited to one clock). For her preparatory school education, she attended the Hartridge School in Plainfield, New Jersey. Rejected for early admission to Vassar College at age 16 (her test scores in Latin were too low), she was admitted the following year. She graduated Phi Beta Kappa from Vassar in 1928 with a bachelor's degree in mathematics and physics and earned her master's degree at Yale University in 1930.
+In 1934, she earned a Ph.D. in mathematics from Yale under the direction of Øystein Ore. Her dissertation, New Types of Irreducibility Criteria, was published that same year. Hopper began teaching mathematics at Vassar in 1931, and was promoted to associate professor in 1941.
+She was married to New York University professor Vincent Foster Hopper (1906–76) from 1930 until their divorce in 1945. She never remarried, and she kept his surname.
+
+
+== Career ==
+
+
+=== World War II ===
+
+In 1943, during World War II, Hopper obtained a leave of absence from Vassar and was sworn into the United States Navy Reserve, one of many women to volunteer to serve in the WAVES. She had to get an exemption to enlist; she was 15 pounds (6.8 kg) below the Navy minimum weight of 120 pounds (54 kg). She reported in December and trained at the Naval Reserve Midshipmen's School at Smith College in Northampton, Massachusetts. Hopper graduated first in her class in 1944, and was assigned to the Bureau of Ships Computation Project at Harvard University as a lieutenant, junior grade. She served on the Mark I computer programming staff headed by Howard H. Aiken. Hopper and Aiken coauthored three papers on the Mark I, also known as the Automatic Sequence Controlled Calculator. Hopper's request to transfer to the regular Navy at the end of the war was declined due to her age (38). She continued to serve in the Navy Reserve. Hopper remained at the Harvard Computation Lab until 1949, turning down a full professorship at Vassar in favor of working as a research fellow under a Navy contract at Harvard.
+
+
+=== UNIVAC ===
+In 1949, Hopper became an employee of the Eckert–Mauchly Computer Corporation as a senior mathematician and joined the team developing the UNIVAC I. In the early 1950s, the company was taken over by the Remington Rand corporation, and it was while she was working for them that her original compiler work was done. The compiler was known as the A compiler and its first version was A-0.
+In 1952 she had an operational compiler. "Nobody believed that," she said. "I had a running compiler and nobody would touch it. They told me computers could only do arithmetic."
+In 1954 Hopper was named the company's first director of automatic programming, and her department released some of the first compiler-based programming languages, including MATH-MATIC and FLOW-MATIC.
+
+
+=== COBOL ===
+
+In the spring of 1959, a two-day conference known as the Conference on Data Systems Languages (CODASYL) brought together computer experts from industry and government. Hopper served as a technical consultant to the committee, and many of her former employees served on the short-term committee that defined the new language COBOL (an acronym for COmmon Business-Oriented Language). The new language extended Hopper's FLOW-MATIC language with some ideas from the IBM equivalent, COMTRAN. Hopper's belief that programs should be written in a language that was close to English (rather than in machine code or in languages close to machine code, such as assembly languages) was captured in the new business language, and COBOL went on to be the most ubiquitous business language to date.
+From 1967 to 1977, Hopper served as the director of the Navy Programming Languages Group in the Navy's Office of Information Systems Planning and was promoted to the rank of captain in 1973. She developed validation software for COBOL and its compiler as part of a COBOL standardization program for the entire Navy.
+
+
+=== Standards ===
+In the 1970s, Hopper advocated for the Defense Department to replace large, centralized systems with networks of small, distributed computers. Any user on any computer node could access common databases located on the network. She developed the implementation of standards for testing computer systems and components, most significantly for early programming languages such as FORTRAN and COBOL. The Navy tests for conformance to these standards led to significant convergence among the programming language dialects of the major computer vendors. In the 1980s, these tests (and their official administration) were assumed by the National Bureau of Standards (NBS), known today as the National Institute of Standards and Technology (NIST).
+
+
+== Retirement ==
+
+Hopper retired from the Naval Reserve at age 60, in accordance with Navy attrition regulations, with the rank of commander at the end of 1966. She was recalled to active duty in August 1967 for a six-month period that turned into an indefinite assignment. She again retired in 1971, but was asked to return to active duty again in 1972. She was promoted to captain in 1973 by Admiral Elmo R. Zumwalt, Jr.
+After Republican Representative Philip Crane saw her on a March 1983 segment of 60 Minutes, he championed H.J.Res. 341, a joint resolution in the House of Representatives, which led to her promotion to commodore by special Presidential appointment. She remained on active duty for several years beyond mandatory retirement by special approval of Congress. In 1985, the rank of commodore was renamed rear admiral, lower half. She retired (involuntarily) from the Navy on August 14, 1986. At a celebration held in Boston on the USS Constitution to celebrate her retirement, Hopper was awarded the Defense Distinguished Service Medal, the highest non-combat decoration awarded by the Department of Defense. At the time of her retirement, she was the oldest active-duty commissioned officer in the United States Navy (79 years, eight months and five days), and aboard the oldest commissioned ship in the United States Navy (188 years, nine months and 23 days). (Admirals William D. Leahy, Chester W. Nimitz, Hyman G. Rickover and Charles Stewart were the only other officers in the Navy's history to serve on active duty at a higher age. Leahy and Nimitz served on active duty for life due to their promotions to the rank of fleet admiral.)
+She was then hired as a senior consultant to Digital Equipment Corporation, a position she retained until her death in 1992, aged 85.
+Her primary activity in this capacity was as a goodwill ambassador, lecturing widely on the early days of computers, her career, and on efforts that computer vendors could take to make life easier for their users. She visited a large fraction of Digital's engineering facilities, where she generally received a standing ovation at the conclusion of her remarks. Many people such as admirals and generals would ask her why satellite communication would take so long. So during many of her lectures, she illustrated a nanosecond using salvaged obsolete Bell System 25 pair telephone cable, cut it to 11.8 inch (30 cm) lengths, the distance that light travels in one nanosecond, and handed out the individual wires to her listeners. Although no longer a serving officer, she always wore her Navy full dress uniform to these lectures, which is allowed by US Navy uniform regulations.
+
+The most important thing I've accomplished, other than building the compiler, is training young people. They come to me, you know, and say, 'Do you think we can do this?' I say, "Try it." And I back 'em up. They need that. I keep track of them as they get older and I stir 'em up at intervals so they don't forget to take chances.
+
+She was interred with full military honors in Arlington National Cemetery.
+
+
+== Awards and recognition ==
+1969: Hopper was awarded the inaugural Computer Sciences Man of the Year award from the Data Processing Management Association.
+1971: The annual Grace Murray Hopper Award for Outstanding Young Computer Professionals was established in 1971 by the Association for Computing Machinery.
+1973: First American and the first woman of any nationality to be made a Distinguished Fellow of the British Computer Society.
+1982: American Association of University Women Achievement Award and an Honorary Doctor of Science from Marquette University.
+1985: Honorary Doctor of Letters from Western New England College (now Western New England University).
+1986: Upon her retirement, she received the Defense Distinguished Service Medal.
+1987: The first Computer History Museum Fellow Award Recipient "for contributions to the development of programming languages, for standardization efforts, and for lifelong naval service."
+1988: Golden Gavel Award at the Toastmasters International convention in Washington, DC.
+1991: National Medal of Technology.
+1991: Elected a Fellow of the American Academy of Arts and Sciences.
+1996: USS Hopper (DDG-70) was launched. Nicknamed Amazing Grace, it is on a very short list of U.S. military vessels named after women.
+2001: Eavan Boland wrote a poem dedicated to Grace Hopper titled "Code" in her 2001 release Against Love Poetry.
+2001: The Gracies, the Government Technology Leadership Award were named in her honor.
+2009: The Department of Energy's National Energy Research Scientific Computing Center named its flagship system "Hopper".
+2009: Office of Naval Intelligence creates the Grace Hopper Information Services Center.
+2013: Google made the Google Doodle for Hopper's 107th birthday an animation of her sitting at a computer, using COBOL to print out her age. At the end of the animation, a moth flies out of the computer.
+The Navy's Fleet Numerical Meteorology and Oceanography Center is located at 7 Grace Hopper Avenue in Monterey, California; the National Weather Service's San Francisco / Monterey Bay Area Hydrology / Geomorphology office is at 21 Grace Hopper Avenue.
+Grace Murray Hopper Park, located on South Joyce Street in Arlington, Virginia, is a small memorial park in front of her former residence (River House Apartments) and is now owned by Arlington County, Virginia.
+Women at Microsoft Corporation formed an employee group called Hoppers and established a scholarship in her honor. Hoppers has over 3000 members worldwide.
+Brewster Academy, a school located in Wolfeboro, New Hampshire, United States, dedicated their computer lab to her in 1985, calling it the Grace Murray Hopper Center for Computer Learning. The academy bestows a Grace Murray Hopper Prize to a graduate who excelled in the field of computer systems. Hopper had spent her childhood summers at a family home in Wolfeboro.
+An administration building on Naval Support Activity Annapolis (previously known as Naval Station Annapolis) in Annapolis, Maryland is named the Grace Hopper Building in her honor.
+Building 1482 aboard Naval Air Station North Island, housing the Naval Computer and Telecommunication Station San Diego, is named the Grace Hopper Building.
+Building 6007, C2/CNT West, Command, control, communications, computers, intelligence, surveillance and reconnaissance, or C4ISR, Center of Excellence in Aberdeen Proving Ground, Maryland is named the Rear Admiral Grace Hopper Building.
+A named professorship in the Department of Computer Sciences was established at Yale University in her honor. Joan Feigenbaum was named to this chair in 2008.
+Grace Hopper's legacy was an inspiring factor in the creation of the Grace Hopper Celebration of Women in Computing. Held yearly, this conference is designed to bring the research and career interests of women in computing to the forefront.
+A bridge over Goose Creek joining the north and south sides of the Naval Support Activity Charleston side of Joint Base Charleston, South Carolina is named the Grace Hopper Memorial Bridge in her honor.
+Grace Hopper was awarded 40 honorary degrees from universities worldwide during her lifetime.
+Beginning in 2015, one of the nine competition fields at the FIRST Robotics Competition world championship is named for Hopper.
+Born with Curiosity: The Grace Hopper Story is an upcoming documentary film Hopper.
+
+
+== Anecdotes ==
+
+Throughout much of her later career, Grace Hopper was much in demand as a speaker at various computer-related events. She was well known for her lively and irreverent speaking style, as well as a rich treasury of early war stories. She also received the nickname "Grandma COBOL".
+While she was working on a Mark II Computer at a US Navy research lab in Dahlgren, Virginia in 1947, her associates discovered a moth stuck in a relay and thereby impeding operation, whereupon she remarked that they were "debugging" the system. Though the term bug had been in use for many years in engineering to refer to small glitches and inexplicable problems, Admiral Hopper did bring the term into popularity. The remains of the moth can be found in the group's log book at the Smithsonian Institution's National Museum of American History in Washington, D.C.
+Grace Hopper is famous for her nanoseconds visual aid. People (such as generals and admirals) used to ask her why satellite communication took so long. She started handing out pieces of wire that were just under one foot long (11.80 inches)—the distance that light travels in one nanosecond. She gave these pieces of wire the metonym "nanoseconds." She was careful to tell her audience that the length of her nanoseconds was actually the maximum speed the signals would travel in a vacuum, and that signals would travel more slowly through the actual wires that were her teaching aids. Later she used the same pieces of wire to illustrate why computers had to be small to be fast. At many of her talks and visits, she handed out "nanoseconds" to everyone in the audience, contrasting them with a coil of wire nearly a thousand feet long, representing a microsecond. Later, while giving these lectures while working for DEC, she passed out packets of pepper, calling the individual grains of ground pepper picoseconds.
+Jay Elliot described Grace Hopper as appearing to be "'all Navy', but when you reach inside, you find a 'Pirate' dying to be released".
+
+
+== Obituary notices ==
+Betts, Mitch (Computerworld 26: 14, 1992)
+Bromberg, Howard (IEEE Software 9: 103–104, 1992)
+Danca, Richard A. (Federal Computer Week 6: 26–27, 1992)
+Hancock, Bill (Digital Review 9: 40, 1992)
+Power, Kevin (Government Computer News 11: 70, 1992)
+Sammet, J. E. (Communications of the ACM 35 (4): 128–131, 1992)
+Weiss, Eric A. (IEEE Annals of the History of Computing 14: 56–58, 1992)
+
+
+== See also ==
+
+Grace Hopper Celebration of Women in Computing
+Women in computing
+Women in the United States Navy
+Systems engineering
+
+
+== References ==
+
+
+== Further reading ==
+Beyer, Kurt W. (September 30, 2009). Grace Hopper and the Invention of the Information Age (1st ed.). Cambridge, Massachusetts: MIT Press. ISBN 978-0-262-01310-9. 
+Marx, Christy (August 2003). Grace Hopper: the first woman to program the first computer in the United States. Women hall of famers in mathematics and science (1st ed.). New York City: Rosen Publishing Group. ISBN 978-0-8239-3877-3. 
+Norman, Rebecca (June 1997). "Biographies of Women Mathematicians: Grace Murray Hopper". Agnes Scott College. Retrieved 2014-11-17. 
+Williams, Kathleen Broome (November 15, 2004). Grace Hopper: Admiral of the Cyber Sea (1st ed.). Annapolis, Maryland: Naval Institute Press. ISBN 978-1-55750-952-9. 
+Williams, Kathleen Broome (2001). Improbable Warriors: Women Scientists and the U.S. Navy in World War II. Annapolis, Maryland: Naval Institute Press. ISBN 978-1-55750-961-1.  Williams' book focuses on the lives and contributions of four notable women scientists: Mary Sears (1905–1997); Florence van Straten (1913–1992); Grace Murray Hopper (1906–1992); Mina Spiegel Rees (1902–1997).
+
+
+== External links ==
+RADM Grace Hopper, USN Ret. at the Wayback Machine (archived February 24, 2010) from Chips, the United States Navy information technology magazine.
+The Queen of Code (2015), a documentary film about Grace Hopper produced by FiveThirtyEight.

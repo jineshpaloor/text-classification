@@ -1,0 +1,41 @@
+Base load power plant
+Base load power sources are power production plants which can consistently generate the electrical power needed to satisfy minimum demand. That demand is called the base load requirement, it is the minimum level of demand on an electrical supply system over 24 hours.
+Historically, large power grids have used base load power plants exclusively. However, there is no specific technical requirement for this to be so. The base load requirement can equally well be met by the appropriate quantity of intermittent power sources and peaking power plants.
+
+
+== Description ==
+
+Baseload plant, (also baseload power plant or base load power station) is an energy station devoted to the production of base load supply. Baseload plants are the production facilities used to meet some or all of a given region's continuous energy demand, and produce energy at a constant rate, usually at a low cost relative to other production facilities available to the system. Examples of baseload plants using nonrenewable fuels include nuclear and coal-fired plants. Baseload plants typically run at all times through the year except in the case of repairs or scheduled maintenance. These plants are often designed for relatively high efficiency, and may be combined cycle plants, but may take several days to start up and shut down.
+Each baseload power plant on a grid is allotted a specific amount of the baseload power demand to handle. The base load power is determined by the load duration curve of the system. For a typical power system, the rule of thumb is that the base load power is usually 35-40% of the maximum load during the year.
+Peaks or spikes in customer power demand are frequently handled by smaller and more responsive, but perhaps somewhat less efficient types of power plants called peaking power plants, often powered with gas turbines.
+While historically large power grids have had base load power plant to exclusively meet the base load, there is no specific technical requirement for this to be so. The base load can equally well be met by the appropriate quantity of intermittent power sources and peaking power plant.
+Among the renewable energy sources, hydroelectric, geothermal, biogas, biomass, solar thermal with storage and ocean thermal energy conversion can provide base load power. A significant fraction of the average wind power production is available with 95% or greater probability, and so may be used for baseload power.
+Hydroelectric power also has the desirable attribute of dispatchability, but conversely a hydroelectric plant may run low on its "fuel" (water at the reservoir elevation) if a long drought occurs over its drainage basin.
+
+
+== Economics ==
+Power plants are designated baseload based on their low cost generation, efficiency and safety at rated output power levels. Baseload power plants do not change production to match power consumption demands since it is more economical to operate them at constant production levels. Use of higher cost combined-cycle plants or combustion turbines is thus minimized, and these plants can be cycled up and down to match more rapid fluctuations in consumption. Baseload generators, such as nuclear and coal, often have very high fixed costs, high plant load factor but very low marginal costs. On the other hand, peak load generators, such as natural gas, have low fixed costs, low plant load factor and high marginal costs. Typically baseload plants are large and provide a majority of the power used by a grid. Thus, they are more effective when used continuously to cover the power baseload required by the grid.
+
+
+== Base load power plant usage ==
+Nuclear power plants may take many hours, if not days, to change their power output, although modern stations, and those in France, can and do operate as load following power plants and alter their output to meet varying demands. Nuclear and coal power plants have low fuel costs. Because they require a long period of time to heat up to operating temperature, these plants typically handle large amounts of baseload demand. Different plants and technologies may have differing capacities to increase or decrease output on demand: nuclear plants are generally run at close to maximum output continuously (apart from maintenance, refueling and periodic refurbishment), while coal-fired plants may be cycled over the course of a day to meet demand. Plants with multiple generating units may be used as a group to improve the "fit" with demand, by operating each unit as close to peak efficiency as possible.
+
+
+== See also ==
+
+Capacity factor
+Energy demand management
+Grid energy storage
+Load balancing (electrical power)
+Smart grid
+Load following power plant
+Peaking power plant
+
+
+== References ==
+
+
+== External links ==
+Base Load Power Plants - Fundamentals of Electricity - Broken
+Levelized Costs of Electricity Production by Technology
+The Energy Resources and Economics Workbook (.doc)

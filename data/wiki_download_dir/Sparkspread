@@ -1,0 +1,50 @@
+Spark spread
+The spark spread is the theoretical gross margin of a gas-fired power plant from selling a unit of electricity, having bought the fuel required to produce this unit of electricity. All other costs (operation and maintenance, capital and other financial costs) must be covered from the spark spread. The term was first coined by Tony West's trading team on the trading floor of National Power Ltd in Swindon, UK during the late 1990s and quickly came into common usage as other traders realised the trading and hedging opportunities.
+The term dark spread refers to the similarly defined difference between cash streams (spread) for coal-fired power plants. These indicators of power plant economics are useful for tracing energy markets. For operating or investment decisions published "spread" data are not applicable. Local market conditions, actual plant efficiencies and other plant costs have to be considered. The higher the dark spread the better, for the generator; an IPP with a dark spread of €15/MWh will be more profitable than a competitor with a dark spread of only €10/MWh.
+Further definition of clean spread indicators include the price of carbon dioxide emission allowances (see: Emission trading).
+
+
+== Definition of spark spread ==
+Spark Spread = Price of Electricity - [ (Price of Gas) * (Heat Rate) ] = $/MWh - [ ($/MMBtu) * (MMBtu / MWh) ]
+Both prices in the above formula must be in the same currency and must refer to the same energy unit (usually MWh).
+A precise definition of a spark spread has to be given by the source publishing such indicators. Definitions should specify energy (electricity and fuel) prices considered (delivery point & conditions) and the plant efficiency used for the calculation. Also, any plant operating costs that may be included should be stated. (see: Methodology of Powernext).
+Typically, an efficiency of 0.5 (50 %) is considered for gas-fired plants, and 0.38 (38%) for coal-fired plants (see: Methodology of Powernext). In the UK, a non-rounded efficiency of 49.13% is used for calculating the spark spread.
+Both the UK and German Spark Spread tables use a fuel efficiency factor of 49.13% for the gas conversion. In reality, each gas-fired plant has a different fuel efficiency, but 49.13% is used as a standard in the UK market because it provides an easy conversion between gas and power volumes (25,000 therms of gas = 15 MW of energy). The spark spread value is therefore the power price minus the gas cost divided by 0.4913, i.e. Spark Spread = Power Price – (Gas cost/0.4913).
+As of August 2006,UK dark spreads were in the range of 10–30 £/MWh, while UK spark spreads were in the range of 4–9 £/MWh.
+
+
+== Clean spread ==
+In countries that are covered by the European Union Emissions Trading Scheme, generators have to consider also the cost of carbon dioxide emission allowances that will be under a cap and trade regime. Emission trading has started in the EU in January 2005.
+The Clean Spark Spread is calculated using a gas emissions intensity factor of 0.411 tCO2/MWh. Therefore the clean spark spread is calculated by subtracting the carbon price per tonne (multiplied by 0.411) from the ‘dirty’ spark spread, i.e. Clean Spark Spread = Spark Spread – (Carbon Price*0.411).
+Clean spark spread or "spark green spread" represents the net revenue a generator makes from selling power, having bought gas and the required number of carbon allowances. This spread is calculated by adjusting the cost of natural gas in MMBtu for the efficiency of the generation and subsequently applying the market cost of procuring or opportunity cost of setting aside an emissions allowance such as a European Union Allowance (EUA) in the European Union Emissions Trading Scheme (EU ETS).
+Let S: spark spread, E: electricity price, G: gas cost, Ng: number of carbon credits necessary to cover gas operation, Pcc: price of a carbon credit.
+Then, Clean spark spread = E - G - Ng*Pcc = S - Ng*Pcc
+Clean dark spread or "dark green spread" refers to an analogous indicator for coal-fired generation of electricity. The spark green spread and the dark green spread are especially important in areas where coal-fired electricity generation is prevalent as the convergence of the spreads will lead to an important decision point.
+Let D: dark spread, E: electricity price, C: coal cost, Nc: number of carbon credits necessary to cover coal operation (2–2.5x that of gas), Pcc: price of a carbon credit.
+Then, Clean dark spread = E - C - Nc*Pcc = D - Nc*Pcc
+Climate spread: The difference between the dark green spread and the spark green spread is known as the "Climate Spread".
+Climate spread = Clean dark spread - Clean spark spread = (D - Nc*Pcc) - (S - Ng*Pcc) = (D - S) - (Nc - Ng)*Pcc.
+Note: (D - S) and (Nc - Ng) are positive numbers.
+In a carbon constrained economy a power producer in a geographic area where coal is currently the preferred method by which electricity is generated may eventually encounter a negative climate spread if carbon credit prices rise. This would mean that when taking into consideration the cost to produce plus the cost of compliance with a cap and trade (coal is on average 2.5 times as polluting as natural gas for the same MWh of electricity), natural gas would be a better decision. This would begin to cause more internal abatement via power generation fuel switching and less reliance on flexible mechanisms. This is important due to concerns regarding supplementarity.
+Climate spread is also interesting in that it is the fundamental driver for the price of carbon credits. Since the ETS cap-and-trade system covers the major polluting industries, power generation by coal- and gas-fired power plants, by far the largest power sources, create the most carbon credit demand within the ETS. To cover emissions on an ever tightening ration of free EUA allowances, a coal-fired powered power plant will either have to abate internally or buy credits. If the price of marginal internal abatement is lower than the price of carbon credits, the firm will choose internal abatement. However marginal abatement becomes more and more expensive, at some point forcing the plant to buy credits – thus the carbon credit price is equal to the marginal cost of abatement to the extent that European power plants have chosen to abate.
+Clean Dark Spreads are a reflection of the cost of generating power from coal after taking into account fuel (coal) and carbon allowance costs. A positive spread effectively means that it is profitable to generate electricity on a Baseload basis for the period in question, while a negative spread means that generation would be a loss-making activity. However, it is important to note that the Clean Spark Spreads do not take into account additional generating charges (beyond fuel and carbon), such as operational costs.
+Both the UK and German Dark Spread tables use a fuel efficiency factor of 35% for the coal conversion, and an energy conversion factor of 7.1 for converting tonnes/coal into MWh/electricity. In reality, each type of coal has a different energy value and each coal-fired plant has a different fuel efficiency, but 35% is accepted as a broad standard. At the time of writing (March 2007) there is no liquid Dark Spread traded market in either the UK or Germany. The Dark Spread value is the power price minus the coal price divided by 0.35, i.e. Dark Spread = Power price – (Coal price/0.35).
+The Clean Dark Spread is calculated using a coal emissions intensity factor of 0.971 tCO2/MWh. Therefore the Clean Dark Spread is calculated by subtracting the carbon price (multiplied by 0.971) from the ‘dirty’ spark spread, i.e. Clean Dark Spread = Dark Spread – (Carbon Price*0.971).
+
+
+=== Spark spread as cost of replacement power for intermittent renewables ===
+Spark spread can be used to assess the loss of revenue if a power station is switched from a normal running scenario to one where it is held in reserve to provide power when a large population of wind, or other renewable generators, is unable to generate.
+In theory, the power station operator would be indifferent to such non-running as long as he was paid the spread it would have earned during the normally expected number of hour run. In fact, if paid the expected spark spread for the hours it had expected to run in normal operating mode, the operator would be better off, because it would not incur the variable operating and maintenance costs (O&M costs), which are proportional to the electrical energy produced.
+An assessment of the lost revenues is needed if some power plants, such as wind turbines, have absolute priority (must-run plants). A dispatching authority will in this case order the other plants to decrease power. In some countries plant operators are entitled to receive compensation for such interventions. In a competitive electricity market the situation can be handled by a balancing mechanism, in which any imbalance from the schedule (typically a day-ahead schedule) is penalized, either using the price from a balancing market or a calculated price.
+Thus, since UK spark spreads were in the range of 4–9 £/MWh – on average £6.5/MWh, or 0.65 p/kWh, we can assess the likely cost of relegating existing power stations to a standby role for a large penetration of renewables as being around 0.65 p/kWh.
+
+
+== See also ==
+List of energy storage projects
+Triad Demand
+
+
+== External links ==
+Provides a spark spread calculator
+Methods and equations for calculating spark spread (No such page on site)
+Mission climat download area: Tendances Carbon series (page also available in French & German

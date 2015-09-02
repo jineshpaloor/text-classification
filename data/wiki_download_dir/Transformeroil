@@ -1,0 +1,72 @@
+Transformer oil
+Transformer oil or insulating oil is an oil that is stable at high temperatures and has excellent electrical insulating properties. It is used in oil-filled transformers, some types of high voltage capacitors, fluorescent lamp ballasts, and some types of high voltage switches and circuit breakers. Its functions are to insulate, suppress corona and arcing, and to serve as a coolant.
+
+
+== Explanation ==
+
+The oil helps cool the transformer. Because it also provides part of the electrical insulation between internal live parts, transformer oil must remain stable at high temperatures for an extended period. To improve cooling of large power transformers, the oil-filled tank may have external radiators through which the oil circulates by natural convection. Very large or high-power transformers (with capacities of thousands of kVA) may also have cooling fans, oil pumps, and even oil-to-water heat exchangers.
+Large, high voltage transformers undergo prolonged drying processes, using electrical self-heating, the application of a vacuum, or both to ensure that the transformer is completely free of water vapor before the cooling oil is introduced. This helps prevent corona formation and subsequent electrical breakdown under load.
+Oil filled transformers with a conservator (oil reservoir) may have a gas detector relay (Buchholz relay). These safety devices detect the buildup of gas inside the transformer due to corona discharge, overheating, or an internal electric arc. On a slow accumulation of gas, or rapid pressure rise, these devices can trip a protective circuit breaker to remove power from the transformer. Transformers without conservators are usually equipped with sudden pressure relays, which perform a similar function as the Buchholz relay.
+The flash point (min) and pour point (max) are 140 °C and −6 °C respectively. The dielectric strength of new untreated oil is 12 MV/m (RMS) and after treatment it should be >24 MV/m (RMS).
+Large transformers for indoor use must either be of the dry type, that is, containing no liquid, or use a less-flammable liquid.
+Recently, research is underway in making transformer oil nano fluids by mixing insulating or semiconducting particles with transformer oil to enhance its thermal conductivity and electrical breakdown strength.
+
+
+== Mineral oil alternatives ==
+Silicone-based or fluorinated hydrocarbons, where the added expense of a fire-resistant offsets any additional costs of building a transformer vault, have also been presented as a viable mineral oil alternative. However, silicone has been proven to be much less biodegradable than esters in the event of a leak or spillage.
+Pentaerythritol tetra fatty acid natural and synthetic esters have emerged as an increasingly common mineral oil alternative. They offset all the main risks associated with mineral oil, such as high flammability, environmental impact and poor moisture tolerance. Esters are also non-toxic to aquatic life, readily biodegradable and provide a lower volatility and higher flash point.
+Additionally, they have a high fire point of over 300 °C and K-class fluids such as these are often used in high-risk transformer applications, such as indoors or offshore. They also have a lower pour point, greater moisture tolerance and improved function at high temperatures.
+Vegetable-based oils have also been suggested, but these are unsuitable for use in cold climates or for voltages over 230 kV. Some papers have also cited coconut oil as a potential substitute for use in transformers.
+
+
+== Polychlorinated biphenyls (PCBs) ==
+Well into the 1970s, polychlorinated biphenyls (PCBs) were often used as a dielectric fluid since they are not flammable. PCBs do not break down when released into the environment but accumulate in the tissues of plants and animals, where they can have hormone-like effects. When burned, PCBs can form highly toxic products, such as chlorinated dioxins and chlorinated dibenzofurans. Starting in the early 1970s, production and new uses of PCBs have been banned due to concerns about the accumulation of PCBs and toxicity of their byproducts. In many countries significant programs are in place to reclaim and safely destroy PCB contaminated equipment.
+In the USA, PCBs were banned in 1979. Since PCB and transformer oil are miscible in all proportions, and since sometimes the same equipment (drums, pumps, hoses, and so on) was used for either type of liquid, contamination of oil-filled transformers is possible. Under present regulations, concentrations of PCBs exceeding 5 parts per million can cause an oil to be classified as hazardous waste in California (California Code of Regulations, Title 22, section 66261). Throughout the USA, PCBs are regulated under the Toxic Substances Control Act. As a consequence, field and laboratory testing for PCB contamination is a common practice. Common brand names for PCB liquids include "Askarel", "Inerteen", "Aroclor" and many others.
+
+
+== Testing and oil quality ==
+Transformer oils are subject to electrical and mechanical stresses while a transformer is in operation. In addition there is contamination caused by chemical interactions with windings and other solid insulation, catalyzed by high operating temperature. The original chemical properties of transformer oil change gradually, rendering it ineffective for its intended purpose after many years. Oil in large transformers and electrical apparatus is periodically tested for its electrical and chemical properties, to make sure it is suitable for further use. Sometimes oil condition can be improved by filtration and treatment. Tests can be divided into:
+Dissolved gas analysis
+Furan analysis
+PCB analysis
+General electrical & physical tests:
+Color & Appearance
+Breakdown Voltage
+Water Content
+Acidity (Neutralization Value)
+Dielectric Dissipation Factor
+Resistivity
+Sediments & Sludge
+Flash Point
+Pour Point
+Density
+Kinematic Viscosity
+
+The details of conducting these tests are available in standards released by IEC, ASTM, IS, BS, and testing can be done by any of the methods. The Furan and DGA tests are specifically not for determining the quality of transformer oil, but for determining any abnormalities in the internal windings of the transformer or the paper insulation of the transformer, which cannot be otherwise detected without a complete overhaul of the transformer. Suggested intervals for these test are:
+General and physical tests - bi-yearly
+Dissolved gas analysis - yearly
+Furan testing - once every 2 years, subject to the transformer being in operation for min 5 years.
+
+
+== On-site testing ==
+
+Some transformer oil tests can be carried out in the field, using portable test apparatus. Other tests, such as dissolved gas, normally require a sample to be sent to a laboratory. Electronic on-line dissolved gas detectors can be connected to important or distressed transformers to continually monitor gas generation trends.
+To determine the insulating property of the dielectric oil, an oil sample is taken from the device under test, and its breakdown voltage is measured on-site according the following test sequence:
+In the vessel, two standard-compliant test electrodes with a typical clearance of 2.5 mm are surrounded by the insulating oil.
+During the test, a test voltage is applied to the electrodes. The test voltage is continuously increased up to the breakdown voltage with a constant slew rate of e.g. 2 kV/s.
+Breakdown occurs in an electric arc, leading to a collapse of the test voltage.
+Immediately after ignition of the arc, the test voltage is switched off automatically.
+Ultra fast switch off is crucial, as the energy that is brought into the oil and is burning it during the breakdown, must be limited to keep the additional pollution by carbonisation as low as possible.
+The root mean square value of the test voltage is measured at the very instant of the breakdown and is reported as the breakdown voltage.
+After the test is completed, the insulating oil is stirred automatically and the test sequence is performed repeatedly.
+The resulting breakdown voltage is calculated as mean value of the individual measurements.
+
+
+== See also ==
+Heat-transfer oil
+
+
+== References ==
+
+
+== External links ==

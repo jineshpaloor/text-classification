@@ -1,0 +1,108 @@
+Transfer function
+In engineering, a transfer function (also known as the system function or network function and, when plotted as a graph, transfer curve) is a mathematical representation for fit or to describe inputs and outputs of black box models.
+Typically it is a representation in terms of spatial or temporal frequency, of the relation between the input and output of a linear time-invariant system (LTI) with zero initial conditions and zero-point equilibrium. With optical imaging devices, for example, it is the Fourier transform of the point spread function (hence a function of spatial frequency) i.e., the intensity distribution caused by a point object in the field of view. A number of sources however use "transfer function" to mean some input-output characteristic in direct physical measures (e.g., output voltage as a function of input voltage of a two-port network) rather than its transform to the s-plane.
+
+
+== LTI systems ==
+Transfer functions are commonly used in the analysis of systems such as single-input single-output filters, typically within the fields of signal processing, communication theory, and control theory. The term is often used exclusively to refer to linear, time-invariant systems (LTI), as covered in this article. Most real systems have non-linear input/output characteristics, but many systems, when operated within nominal parameters (not "over-driven") have behavior that is close enough to linear that LTI system theory is an acceptable representation of the input/output behavior.
+The descriptions below are given in terms of a complex variable, s = σ + j*ω, which bears a brief explanation. In many applications, it is sufficient to define σ=0 (and s = j*ω), which reduces the Laplace transforms with complex arguments to Fourier transforms with real argument ω. The applications where this is common are ones where there is interest only in the steady-state response of an LTI system, not the fleeting turn-on and turn-off behaviors or stability issues. That is usually the case for signal processing and communication theory.
+Thus, for continuous-time input signal  and output , the transfer function  is the linear mapping of the Laplace transform of the input, , to the Laplace transform of the output :
+
+or
+.
+In discrete-time systems, the relation between an input signal  and output  is dealt with using the z-transform, and then the transfer function is similarly written as  and this is often referred to as the pulse-transfer function.
+
+
+=== Direct derivation from differential equations ===
+Consider a linear differential equation with constant coefficients
+
+where u and r are suitably smooth functions of t, and L is the operator defined on the relevant function space, that transforms u into r. That kind of equation can be used to constrain the output function u in terms of the forcing function r. The transfer function, written as an operator , is the right inverse of L, since .
+Solutions of the homogeneous, constant-coefficient differential equation  can be found by trying . That substitution yields the characteristic polynomial
+
+The inhomogeneous case can be easily solved if the input function r is also of the form . In that case, by substituting  one finds that  if and only if
+
+Taking that as the definition of the transfer function requires careful disambiguation between complex vs. real values, which is traditionally influenced by the interpretation of abs(H(s)) as the gain and -atan(H(s)) as the phase lag. Other definitions of the transfer function are used: for example 
+
+
+== Signal processing ==
+Let  be the input to a general linear time-invariant system, and  be the output, and the bilateral Laplace transform of  and  be
+
+Then the output is related to the input by the transfer function  as
+
+and the transfer function itself is therefore
+
+In particular, if a complex harmonic signal with a sinusoidal component with amplitude , angular frequency  and phase , where arg is the argument.
+
+where 
+is input to a linear time-invariant system, then the corresponding component in the output is:
+
+Note that, in a linear time-invariant system, the input frequency  has not changed, only the amplitude and the phase angle of the sinusoid has been changed by the system. The frequency response  describes this change for every frequency  in terms of gain:
+
+and phase shift:
+
+The phase delay (i.e., the frequency-dependent amount of delay introduced to the sinusoid by the transfer function) is:
+
+The group delay (i.e., the frequency-dependent amount of delay introduced to the envelope of the sinusoid by the transfer function) is found by computing the derivative of the phase shift with respect to angular frequency ,
+
+The transfer function can also be shown using the Fourier transform which is only a special case of the bilateral Laplace transform for the case where .
+
+
+=== Common transfer function families ===
+While any LTI system can be described by some transfer function or another, there are certain "families" of special transfer functions that are commonly used. Typical infinite impulse response filters are designed to implement one of these special transfer functions.
+Some common transfer function families and their particular characteristics are:
+Butterworth filter – maximally flat in passband and stopband for the given order
+Chebyshev filter (Type I) – maximally flat in stopband, sharper cutoff than Butterworth of same order
+Chebyshev filter (Type II) – maximally flat in passband, sharper cutoff than Butterworth of same order
+Bessel filter – best pulse response for a given order because it has no group delay ripple
+Elliptic filter – sharpest cutoff (narrowest transition between pass band and stop band) for the given order
+Optimum "L" filter
+Gaussian filter – minimum group delay; gives no overshoot to a step function.
+Hourglass filter
+Raised-cosine filter
+
+
+== Control engineering ==
+In control engineering and control theory the transfer function is derived using the Laplace transform.
+The transfer function was the primary tool used in classical control engineering. However, it has proven to be unwieldy for the analysis of multiple-input multiple-output (MIMO) systems, and has been largely supplanted by state space representations for such systems. In spite of this, a transfer matrix can be always obtained for any linear system, in order to analyze its dynamics and other properties: each element of a transfer matrix is a transfer function relating a particular input variable to an output variable.
+A useful representation bridging state space and transfer function methods was proposed by Howard H. Rosenbrock and it is referred to as Rosenbrock system matrix.
+
+
+== Optics ==
+In optics, modulation transfer function indicates the capability of optical contrast transmission.
+For example, when observing a series of black-white-light fringes drawn with a specific spatial frequency, the image quality may decay. White fringes fade while black ones turn brighter.
+The modulation transfer function in a specific spatial frequency is defined by:
+
+Where modulation (M) is computed from the following image or light brightness:
+
+
+== Non-linear systems ==
+Transfer functions do not properly exist for many non-linear components (for instance, they don't exist for relaxation oscillators, however an approximation called describing function can sometime (but not always) be used instead.
+
+
+== See also ==
+Analog computer
+Black box
+Bode plot
+Convolution
+Duhamel's principle
+Frequency response
+Laplace transform
+LTI system theory
+Nyquist plot
+Operational amplifier
+Optical transfer function
+Proper transfer function
+Rosenbrock system matrix
+Semilog graph
+Signal-flow graph
+Signal transfer function
+
+
+== References ==
+
+
+== External links ==
+Transfer function at PlanetMath.org.
+ECE 209: Review of Circuits as LTI Systems — Short primer on the mathematical analysis of (electrical) LTI systems.
+ECE 209: Sources of Phase Shift — Gives an intuitive explanation of the source of phase shift in two simple LTI systems. Also verifies simple transfer functions by using trigonometric identities.
+Transfer function model in Mathematica

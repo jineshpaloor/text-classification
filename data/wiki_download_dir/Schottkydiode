@@ -1,0 +1,77 @@
+Schottky diode
+The Schottky diode (named after German physicist Walter H. Schottky), also known as hot carrier diode, is a semiconductor diode with a low forward voltage drop and a very fast switching action. The cat's-whisker detectors used in the early days of wireless and metal rectifiers used in early power applications can be considered primitive Schottky diodes.
+When forward current flows through a solid-state diode, there is a small voltage drop across its terminals. A silicon diode has a typical voltage drop of 0.6–0.7 V, while a Schottky diode has a voltage drop of 0.15–0.45 V. This lower voltage drop can be used to give higher switching speeds and better system efficiency.
+
+
+== Construction ==
+
+A metal–semiconductor junction is formed between a metal and a semiconductor, creating a Schottky barrier (instead of a semiconductor–semiconductor junction as in conventional diodes). Typical metals used are molybdenum, platinum, chromium or tungsten, and certain silicides (e.g., palladium silicide and platinum silicide), whereas the semiconductor would typically be n-type silicon. The metal side acts as the anode, and n-type semiconductor acts as the cathode of the diode. This Schottky barrier results in both very fast switching and low forward voltage drop.
+The choice of the combination of the metal and semiconductor determines the forward voltage of the diode. Both n- and p-type semiconductors can develop Schottky barriers. However, the p-type typically has a much lower forward voltage. As the reverse leakage current increases dramatically with lowering the forward voltage, it can not be too low, so the usually employed range is about 0.5–0.7 V, and p-type semiconductors are employed only rarely. Titanium silicide and other refractory silicides, which are able to withstand the temperatures needed for source/drain annealing in CMOS processes, usually have too low a forward voltage to be useful, so processes using these silicides therefore usually do not offer Schottky diodes.
+With increased doping of the semiconductor, the width of the depletion region drops. Below a certain width, the charge carriers can tunnel through the depletion region. At very high doping levels, the junction does not behave as a rectifier anymore and becomes an ohmic contact. This can be used for the simultaneous formation of ohmic contacts and diodes, as a diodes will form between the silicide and lightly doped n-type region, and an ohmic contact will form between the silicide and the heavily doped n- or p-type region. Lightly doped p-type regions pose a problem, as the resulting contact has too high a resistance for a good ohmic contact, but too low a forward voltage and too high a reverse leakage to make a good diode.
+As the edges of the Schottky contact are fairly sharp, a high electric field gradient occurs around them, which limits how large the reverse breakdown voltage threshold can be. Various strategies are used, from guard rings to overlaps of metallization to spread out the field gradient. The guard rings consume valuable die area and are used primarily for larger higher-voltage diodes, while overlapping metallization is employed primarily with smaller low-voltage diodes.
+Schottky diodes are often used as antisaturation clamps in Schottky transistors. Schottky diodes made from palladium silicide (PtSi) are excellent due to their lower forward voltage (which has to be lower than the forward voltage of the base-collector junction). The Schottky temperature coefficient is lower than the coefficient of the B–C junction, which limits the use of PtSi at higher temperatures.
+For power Schottky diodes, the parasitic resistances of the buried n+ layer and the epitaxial n-type layer become important. The resistance of the epitaxial layer is more important than it is for a transistor, as the current must cross its entire thickness. However, it serves as a distributed ballasting resistor over the entire area of the junction and, under usual conditions, prevents localized thermal runaway.
+In comparison with the power p–n diodes the Schottky diodes are less rugged. The junction is direct contact with the thermally sensitive metallization, a Schottky diode can therefore dissipate less power than an equivalent-size p-n counterpart with a deep-buried junction before failing (especially during reverse breakdown). The relative advantage of the lower forward voltage of Schottky diodes is diminished at higher forward currents, where the voltage drop is dominated by the series resistance.
+
+
+== Reverse recovery time ==
+The most important difference between the p-n diode and the Schottky diode is the reverse recovery time (trr), when the diode switches from the conducting to the non-conducting state. In a p–n diode, the reverse recovery time can be in the order of hundreds of nanoseconds to less than 100 ns for fast diodes. Schottky diodes do not have a recovery time, as there is nothing to recover from (i.e., there is no charge carrier depletion region at the junction). The switching time is ~100 ps for the small-signal diodes, and up to tens of nanoseconds for special high-capacity power diodes. With p–n-junction switching, there is also a reverse recovery current, which in high-power semiconductors brings increased EMI noise. With Schottky diodes, switching is essentially "instantaneous" with only a slight capacitive loading, which is much less of a concern.
+This "instantaneous" switching is not always the case. In higher voltage Schottky devices, in particular, the guard ring structure needed to control breakdown field geometry creates a parasitic p-n diode with the usual recovery time attributes. As long as this guard ring diode is not forward biased, it adds only capacitance. If the Schottky junction is driven hard enough however, the forward voltage eventually will bias both diodes forward and actual trr will be greatly impacted. This is why trr numbers are published at very low forward current conditions (like 10 mA on a >1 A diode). The trr in a real application is what matters and this information is often harder to find. The Schottky diode models distributed by manufacturers are often listed without a valid TR parameter, leading to an optimistic expectation. Only a few subcircuit type models incorporate the guard ring element at all, but most Schottky diodes that operate above 50 V or so use guard rings out of necessity (BV, IR).
+It is often said that the Schottky diode is a "majority carrier" semiconductor device. This means that if the semiconductor body is a doped n-type, only the n-type carriers (mobile electrons) play a significant role in normal operation of the device. The majority carriers are quickly injected into the conduction band of the metal contact on the other side of the diode to become free moving electrons. Therefore, no slow random recombination of n and p type carriers is involved, so that this diode can cease conduction faster than an ordinary p–n rectifier diode. This property in turn allows a smaller device area, which also makes for a faster transition. This is another reason why Schottky diodes are useful in switch-mode power converters: the high speed of the diode means that the circuit can operate at frequencies in the range 200 kHz to 2 MHz, allowing the use of small inductors and capacitors with greater efficiency than would be possible with other diode types. Small-area Schottky diodes are the heart of RF detectors and mixers, which often operate at frequencies up to 50 GHz.
+
+
+== Limitations ==
+The most evident limitations of Schottky diodes are their relatively low reverse voltage ratings, and their relatively high reverse leakage current. For silicon-metal Schottky diodes, the reverse voltage is typically 50 V or less. Some higher-voltage designs are available (200 V is considered a high reverse voltage). Reverse leakage current, since it increases with temperature, leads to a thermal instability issue. This often limits the useful reverse voltage to well below the actual rating.
+While higher reverse voltages are achievable, they would present a higher forward breakdown voltage, comparable to other types of standard diodes. Such Schottky diodes would have no advantage  unless great switching speed is required.
+
+
+== Silicon carbide Schottky diode ==
+Schottky diodes constructed from silicon carbide have a much lower reverse leakage current than silicon Schottky diodes, and higher reverse voltage. As of 2011 they were available from manufacturers in variants up to 1700 V.
+Silicon carbide has a high thermal conductivity, and temperature has little influence on its switching and thermal characteristics. With special packaging, silicon carbide Schottky diodes can operate at junction temperatures of over 500 K (about 200 °C), which allows passive radiative cooling in aerospace applications.
+
+
+== Applications ==
+
+
+=== Voltage clamping ===
+While standard silicon diodes have a forward voltage drop of about 0.6 V and germanium diodes 0.2 V, Schottky diodes’ voltage drop at forward biases of around 1 mA is in the range of 0.15 V to 0.46 V (see the 1N5817 and 1N5711 datasheets found online at manufacturer's websites), which makes them useful in voltage clamping applications and prevention of transistor saturation. This is due to the higher current density in the Schottky diode.
+
+
+=== Reverse current and discharge protection ===
+Because of a Schottky diode's low forward voltage drop, less energy is wasted as heat making them the most efficient choice for applications sensitive to efficiency. For instance, they are used in stand-alone ("off-grid") photovoltaic (PV) systems to prevent batteries from discharging through the solar panels at night, called "blocking diodes". They are also used in grid-connected systems with multiple strings connected in parallel, in order to prevent reverse current flowing from adjacent strings through shaded strings if the "bypass diodes" have failed.
+
+
+=== Switched-mode power supplies ===
+Schottky diode are also used as rectifiers in switched-mode power supplies. The low forward voltage and fast recovery time leads to increased efficiency.
+They can also be used in power supply "OR"ing circuits in products that have both an internal battery and a mains adapter input, or similar. However, the high reverse leakage current presents a problem in this case, as any high-impedance voltage sensing circuit (e.g., monitoring the battery voltage or detecting whether a mains adapter is present) will see the voltage from the other power source through the diode leakage.
+
+
+== Designation ==
+
+Commonly encountered Schottky diodes include the 1N58xx series rectifiers, such as the 1N581x (1 ampere) and 1N582x (3 ampere) through-hole parts, and the SS1x (1 ampere) and SS3x (3 ampere) surface-mount parts. Schottky rectifiers are available in numerous surface-mount package styles.
+Small-signal Schottky diodes such as the 1N5711, 1N6263, 1SS106, 1SS108, and the BAT41–43, 45–49 series are widely used in high-frequency applications as detectors, mixers and nonlinear elements, and have superseded germanium diodes. They are also suitable for electrostatic discharge (ESD) protection of sensitive devices such as III-V-semiconductor devices, laser diodes and, to a lesser extent, exposed lines of CMOS circuitry.
+Schottky metal–semiconductor junctions are featured in the successors to the 7400 TTL family of logic devices, the 74S, 74LS and 74ALS series, where they are employed as Baker clamps in parallel with the collector-base junctions of the bipolar transistors to prevent their saturation, thereby greatly reducing their turn-off delays.
+
+
+== Alternatives ==
+When less power dissipation is desired, a MOSFET and a control circuit can be used instead, in an operation mode known as active rectification.
+A super diode consisting of a pn-diode or Schottky diode and an operational amplifier provides an almost perfect diode characteristic due to the effect of negative feedback, although its use is restricted to frequencies the operational amplifier used can handle.
+
+
+== See also ==
+Schottky barrier
+Schottky effect (Schottky emission)
+Heterostructure barrier varactor diode
+Active rectification
+Baker clamp and Schottky-TTL (in German)
+
+
+== References ==
+
+
+== External links ==
+Video tutorial on the characteristics of schottky diodes
+"Characteristics of Schottky Diodes" - PowerGuru
+"Introduction to Schottky Rectifiers"
+"Is the lowest forward voltage drop of real schottky diodes always the best choice?" Technical application, IXYS Corporation.
+"Schottky diode" in Electronics and Radio Today

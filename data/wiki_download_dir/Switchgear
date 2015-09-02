@@ -1,0 +1,157 @@
+Switchgear
+In an electric power system, switchgear is the combination of electrical disconnect switches, fuses or circuit breakers used to control, protect and isolate electrical equipment. Switchgear is used both to de-energize equipment to allow work to be done and to clear faults downstream. This type of equipment is directly linked to the reliability of the electricity supply.
+The very earliest central power stations used simple open knife switch, mounted on insulating panels of marble or asbestos. Power levels and voltages rapidly escalated, making opening manually operated switches too dangerous for anything other than isolation of a de-energized circuit. Oil-filled equipment allowed arc energy to be contained and safely controlled. By the early 20th century, a switchgear line-up would be a metal-enclosed structure with electrically operated switching elements, using oil circuit breakers. Today, oil-filled equipment has largely been replaced by air-blast, vacuum, or SF6 equipment, allowing large currents and power levels to be safely controlled by automatic equipment.
+High-voltage switchgear was invented at the end of the 19th century for operating motors and other electric machines. The technology has been improved over time and can now be used with voltages up to 1,100 kV.
+Typically, switchgears in substations are located on both the high- and low-voltage sides of large power transformers. The switchgear on the low-voltage side of the transformers may be located in a building, with medium-voltage circuit breakers for distribution circuits, along with metering, control, and protection equipment. For industrial applications, a transformer and switchgear line-up may be combined in one housing, called a unitized substation (USS).
+
+
+== History ==
+
+Switchgear is as old as electricity generation. The first models were very primitive: all components were simply fixed to a wall. Later they were mounted on wooden panels. For reasons of fire protection, the wood was replaced by slate or marble. This led to a further improvement, because the switching and measuring devices could be attached to the front, while the wiring was on the back.
+
+
+== Housing ==
+Switchgear for lower voltages may be entirely enclosed within a building. For higher voltages (over about 66 kV), switchgear is typically mounted outdoors and insulated by air, although this requires a large amount of space. Gas-insulated switchgear saves space compared with air-insulated equipment, although the equipment cost is higher. Oil insulated switchgear presents an oil spill hazard.
+Switches may be manually operated or have motor drives to allow for remote control.
+
+
+== Types ==
+A switchgear may be a simple open-air isolator switch or it may be insulated by some other substance. An effective although more costly form of switchgear is the gas-insulated switchgear (GIS), where the conductors and contacts are insulated by pressurized sulfur hexafluoride gas (SF6). Other common types are oil or vacuum insulated switchgear.
+The combination of equipment within the switchgear enclosure allows them to interrupt fault currents of thousands of amps. A circuit breaker (within a switchgear enclosure) is the primary component that interrupts fault currents. The quenching of the arc when the circuit breaker pulls apart the contacts open (disconnects the circuit) requires careful design. Circuit breakers fall into these five types:
+
+
+=== Oil ===
+
+Oil circuit breakers rely upon vaporization of some of the oil to blast a jet of oil along the path of the arc. The vapor released by the arcing consists of hydrogen gas. Mineral oil has better insulating property than air. Whenever there is a separation of current carrying contacts in the oil, the arc in circuit breaker is initialized at the moment of separation of contacts, and due to this arc the oil is vaporized and decomposed in mostly hydrogen gas and ultimately creates a hydrogen bubble around the electric arc. This highly compressed gas bubble around the arc prevents re-striking of the arc after current reaches zero crossing of the cycle. The oil circuit breaker is the one of the oldest type of circuit breakers. 
+
+
+=== Air ===
+Air circuit breakers may use compressed air (puff) or the magnetic force of the arc itself to elongate the arc. As the length of the sustainable arc is dependent on the available voltage, the elongated arc will eventually exhaust itself. Alternatively, the contacts are rapidly swung into a small sealed chamber, the escaping of the displaced air thus blowing out the arc.
+Circuit breakers are usually able to terminate all current flow very quickly: typically between 30 ms and 150 ms depending upon the age and construction of the device.
+
+
+=== Gas ===
+
+Gas (SF6) circuit breakers sometimes stretch the arc using a magnetic field, and then rely upon the dielectric strength of the SF6 gas to quench the stretched arc.
+
+
+=== Hybrid ===
+
+Hybrid switchgear is a type which combines the components of traditional air-insulated switchgear (AIS) and SF6 gas-insulated switchgear (GIS) technologies. It is characterized by a compact and modular design, which encompasses several different functions in one module.
+
+
+=== Vacuum ===
+Circuit breakers with vacuum interrupters have minimal arcing characteristics (as there is nothing to ionize other than the contact material), so the arc quenches when it is stretched by a small amount (<2–8 mm). Near zero current the arc is not hot enough to maintain a plasma, and current ceases; the gap can then withstand the rise of voltage. Vacuum circuit breakers are frequently used in modern medium-voltage switchgear to 40,500 volts. Unlike the other types, they are inherently unsuitable for interrupting DC faults. The reason vacuum circuit breakers are unsuitable for breaking high DC voltages is that with DC there is no "current zero" period. The plasma arc can feed itself by continuing to gasify the contact material.
+
+
+=== Carbon dioxide (CO2) ===
+Breakers that use carbon dioxide as the insulating and arc extinguishing medium work on the same principles as a sulfur hexafluoride (SF6) breaker. Because SF6 is a greenhouse gas more potent than CO2, by switching from SF6 to CO2 it is possible to reduce the greenhouse gas emissions by 10 tons during the product lifecycle.
+
+
+== Classification ==
+Several different classifications of switchgear can be made:
+By the current rating.
+By interrupting rating (maximum short circuit current kAIC that the device can safely interrupt)
+Circuit breakers can open and close on fault currents
+Load-break/Load-make switches can switch normal system load currents
+Isolators are off load disconnectors which are to be operated after Circuit Breakers, or else if the load current is very small
+
+By voltage class:
+Low voltage (less than 1 kV AC)
+Medium voltage (1 kV AC through to approximately 75 kV AC)
+High voltage (75 kV to about 230 kV AC)
+Extra high voltage, ultra high voltage (more than 230 kV)
+
+By insulating medium:
+Air
+Gas (SF6 or mixtures)
+Oil
+Vacuum
+Carbon dioxide (CO2)
+
+By construction type:
+Indoor (further classified by IP (Ingress Protection) class or NEMA enclosure type)
+Outdoor
+Industrial
+Utility
+Marine
+Draw-out elements (removable without many tools)
+Fixed elements (bolted fasteners)
+Live-front
+Dead-front
+Open
+Metal-enclosed (ME) — A switchgear assembly completely enclosed on all sides and the top with sheet metal.
+Metal-clad (MC) — A variety of metal-enclosed switchgear that has the following characteristics: the main switching and interrupting device of removable type; grounded metal barriers to separate compartments and enclose all major circuits and parts; mechanical interlocks; insulated bus conductors and other features.
+Arc-resistant
+
+By IEC degree of internal separationNo Separation (Form 1)
+Busbars separated from functional units (Form 2a, 2b, 3a, 3b, 4a, 4b)
+Terminals for external conductors separated from busbars (Form 2b, 3b, 4a, 4b)
+Terminals for external conductors separated from functional units but not from each other (Form 3a, 3b)
+Functional units separated from each other (Form 3a, 3b, 4a, 4b)
+Terminals for external conductors separated from each other (Form 4a, 4b)
+Terminals for external conductors separate from their associated functional unit (Form 4b)
+
+By interrupting device:
+Fuses
+Air Circuit Breaker
+Minimum Oil Circuit Breaker
+Oil Circuit Breaker
+Vacuum Circuit Breaker
+Gas (SF6) Circuit breaker
+CO2 Circuit Breaker
+
+By operating method:
+Manually operated
+Motor/stored energy operated
+Solenoid operated
+
+By type of current:
+Alternating current
+Direct current
+
+By application:
+Transmission system
+Distribution
+
+By purpose
+Isolating switches (disconnectors)
+Load-break switches.
+Grounding (earthing) switches
+
+A single line-up may incorporate several different types of devices, for example, air-insulated bus, vacuum circuit breakers, and manually operated switches may all exist in the same row of cubicles.
+Ratings, design, specifications and details of switchgear are set by a multitude of standards. In North America mostly IEEE and ANSI standards are used, much of the rest of the world uses IEC standards, sometimes with local national derivatives or variations.
+
+
+== Functions ==
+One of the basic functions of switchgear is protection, which is interruption of short-circuit and overload fault currents while maintaining service to unaffected circuits. Switchgear also provides isolation of circuits from power supplies. Switchgear is also used to enhance system availability by allowing more than one source to feed a load.
+
+
+== Safety ==
+To help ensure safe operation sequences of switchgear, trapped key interlocking provides predefined scenarios of operation. For example, if only one of two sources of supply are permitted to be connected at a given time, the interlock scheme may require that the first switch must be opened to release a key that will allow closing the second switch. Complex schemes are possible.
+Indoor switchgear can also be type tested for internal arc containment (e.g., IEC 62271-200). This test is important for user safety as modern switchgear is capable of switching large currents.
+Switchgear is often inspected using thermal imaging to assess the state of the system and predict failures before they occur. Other methods include partial discharge (PD) testing, using either fixed or portable testers, and acoustic emission testing using surface-mounted transducers (for oil equipment) or ultrasonic detectors used in outdoor switchyards. Temperature sensors fitted to cables to the switchgear can permanently monitor temperature build-up. SF6 equipment is invariably fitted with alarms and interlocks to warn of loss of pressure, and to prevent operation if the pressure falls too low.
+The increasing awareness of dangers associated with high fault levels has resulted in network operators specifying closed-door operations for earth switches and racking breakers. Many European power companies have banned operators from switch rooms while operating. Remote racking systems are available which allow an operator to rack switchgear from a remote location without the need to wear a protective arc flash hazard suit.
+...
+
+
+== See also ==
+Arc flash
+Circuit breaker
+Disconnector
+Electrical safety
+Electric arc
+High voltage
+Remote racking system
+Short circuit
+
+
+== References ==
+
+
+== External links ==
+The basic functions of LV switchgear
+(English) IEC TC17: Switchgear & ControlgearTechnical Committee, on tc17.iec.ch
+(English) IEEE Switchgear Committee, on ewh.ieee.org
+(German) Course ETHZ, handouts_2.pdf, on eeh.ee.ethz.ch
+Research on SF6 Switchgear Corona Rings

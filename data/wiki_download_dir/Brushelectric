@@ -1,0 +1,37 @@
+Brush (electric)
+A brush is a device which conducts current between stationary wires and moving parts, most commonly in a rotating shaft. Typical applications include electric motors, alternators and electric generators.
+
+
+== Etymology ==
+For an electric motor or generator to function, the coils of the rotor must be connected to complete an electrical circuit. To accomplish this, a copper or brass commutator or 'slip rings' are affixed to the shaft, and springs press braided copper wire 'brushes' onto the rings which conduct the current. Such brushes provided poor commutation as they moved from one commutator segment to the next. The cure was the introduction of 'high resistance brushes' made from graphite (sometimes with added copper). Although the resistance was of the order of tens of milliohms, they were high resistance enough to provide a gradual shift of current from one commutator segment to the next. The term brush remains in use. Since the brushes wear out, they can be replaced in products intended to allow maintenance.
+Metal fiber brushes are currently being developed again. These brushes may have advantages over current carbon brushes, but have not yet seen wide implementation.
+
+
+== Manufacturing process ==
+
+
+=== Mixing components ===
+Exact composition of the brush depends on the application. Graphite/carbon powder is commonly used. Copper is used for better conductance (rare for AC applications and not on automotive fuel pumps which run on carbon commutators). Binders, mostly phenol- or other resins or pitch, are mixed in so the powder holds its shape when compacted. Other additives include metal powders, and solid lubricants like MoS2, WS2. Much know-how and research is needed in order to define a brush grade mixture for each application or motor.
+
+
+=== Compacting the mixture ===
+The brush compound is compacted in a tool consisting of upper and lower punch and die, on mechanical or hydraulic presses. In this step, depending on later processing, the copper-wire (called shunt wire) can be inserted automatically through a hole in the upper punch and fixed into the pressed brush block by the powder pressed around. After this process, the brush is still very fragile and in professional jargon called a 'green brush'.
+
+
+=== Firing of green brushes ===
+Next follows heat treatment of the “green brushes” under artificial atmosphere (usually hydrogen and nitrogen). Temperatures range up to 1200°C. This process is called sintering or baking. During sintering, the binders either burn off or carbonize and form a crystalline structure between the carbon, copper and other additives. Baking is followed by graphitization (heat treatment). The heat treatment is transformed by a temperature curve exactly defined for each material mixture. Besides the mixture composition, the used temperature curve is the second big “secret” of each brush manufacturer. After the heat treatment, the brush structure is modified in a way which makes copying of the brush nearly impossible for competing companies.
+
+
+=== Secondary operations ===
+Sintering causes the brushes to shrink and to bend. They must be ground to net shape. Some companies use additional treatments in order to make the brush more durable by methods such as impregnation of the running surface by special oils, resins and grease.
+Manufacturing of carbon brushes requires an in-depth knowledge of materials and experience in mixture compositions. Very small changes in brush contents by just a few percent of components by weight can significantly change the properties of brushes on their applications. There are just a handful of brush developing companies in the world, which are mostly specialized on certain types of brushes.
+Carbon brushes are one of the least costly parts in an electric motor. On the other hand, they usually are the key part which delivers the durability (“life-time”) and performance to the motor they are used in. Their production requires very high attention to quality control and production process control throughout all steps of the production process.
+
+
+== Liquid metal brushes ==
+From time to time the use of liquid metals to make contacts is researched. Drawbacks of this approach are the need to contain the liquid metal as it is usually toxic or corrosive, and power losses from induction and turbulence.
+
+
+== See also ==
+Commutator (electric)
+Slip ring

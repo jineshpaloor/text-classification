@@ -1,0 +1,42 @@
+Metal rectifier
+A metal rectifier is an early type of semiconductor rectifier in which the semiconductor is copper oxide or selenium. They were used in power applications to convert alternating current to direct current in devices such as radios and battery chargers. Westinghouse Electric (1886) was a major manufacturer of these rectifiers, under the trade name Westector (now used as a trade name for an overcurrent trip device by Westinghouse Nuclear).
+In some countries the term "metal rectifier" is applied to all such devices; in others the term "metal rectifier" normally refers to copper-oxide types, and "selenium rectifier" to selenium-iron types.
+
+
+== Description ==
+
+Metal rectifiers consist of washer-like discs of different metals, either copper (with an oxide layer to provide the rectification) or steel plated with selenium, interspersed with aluminium discs (which were often of a larger size, to provide cooling).
+
+
+== Mode of operation ==
+The principle of operation of a metal rectifier is related to modern semiconductor rectifiers (Schottky diodes and p–n diodes), but somewhat more complex. Both selenium and copper oxide are semiconductors, in practice doped by impurities during manufacture. When they are deposited on metals, it would be expected that the result is a simple metal–semiconductor junction and that the rectification would be a result of a Schottky barrier. However, this is not always the case: the scientist S. Poganski discovered in the 1940s that the best selenium rectifiers were in fact semiconductor-semiconductor junctions between selenium and a thin cadmium selenide layer, generated out of the cadmium-tin metal coating during processing. In any case the result is that there is a depletion region in the semiconductor, with a built-in electric field, and this provides the rectifying action.
+
+
+== Performance ==
+Compared to later silicon or germanium devices, copper-oxide rectifiers tended to have poor efficiency, and the reverse voltage rating was rarely more than a few volts. A number of rectifier discs would need to be used in series to provide an adequate reverse breakdown voltage figure - a bridge rectifier for a 12V battery charger would often use 12 metal rectifiers. Selenium rectifiers were generally more efficient than metal-oxide types, and could handle higher voltages. However, considerably more skill was required for their construction.
+
+
+== Applications ==
+
+
+=== Radio receivers ===
+Metal rectifiers were also used as envelope detector (AM demodulator) diodes in radio receivers. The WX6 Westector was a typical example. It was about the size and shape of an AAA battery, with threaded posts at each end to which connections were made.
+Selenium rectifiers were once widely used as high-tension rectifiers in transformerless radio and TV sets, before cheaper silicon diodes became available. Although they were reasonably efficient in this application, (at least compared to vacuum-tube rectifiers), their internal resistance tended to increase as they aged. Apart from reducing the available high voltage, this tends to make them run hotter, producing an unpleasant smell as the selenium starts to evaporate.
+
+
+=== TV sets and photocopiers ===
+
+Specially designed selenium rectifiers were once widely used as EHT rectifiers in television sets and photocopiers. A layer of selenium was applied to a sheet of soft iron foil, and thousands of tiny discs (typically 2mm diameter) were punched out of this and assembled as "stacks" inside ceramic tubes. Rectifiers capable of supplying tens of thousands of volts could be made this way. Their internal resistance was extremely high, but most EHT applications only required a few hundred microamps at most, so this was not normally an issue. With the development of inexpensive high voltage silicon rectifiers, this technology has fallen into disuse.
+
+
+=== Electrolysis ===
+Metal rectifiers have been replaced by silicon diodes in most devices, however there are certain applications where the replacement of metal rectifiers with silicon units has proven impractical. These are mostly in electroplating, aluminium smelting and similar high-current low-voltage industrial applications, where the lower forward voltage drop of metal rectifiers is more important than their reverse breakdown voltage.
+Many purpose-designed transformer-rectifier ("Rectiformer") units were specifically designed around the characteristics of metal rectifiers, and substituting silicon rectifiers would necessitate replacing the complete assembly. As is the case with many other industrial processes, it is often considerably cheaper and more convenient to pay someone to manufacture replacement "legacy" metal rectifiers than to replace the rectiformer. Hence, metal rectifiers are still manufactured in small quantities today.
+
+
+== References ==
+
+
+== External links ==
+Rectifier used as an AM-demodulator
+Cougar Electronics - example of "legacy" selenium rectifier manufacturer

@@ -1,0 +1,37 @@
+Gyrotron
+A Gyrotron is a high-power linear-beam vacuum tube which generates millimeter-wave electromagnetic waves by the cyclotron resonance of electrons in a strong magnetic field. Output frequencies range from about 20 to 250 GHz, covering wavelengths from microwave to the edge of the terahertz gap. Typical output powers range from tens of kilowatts to 1–2 megawatts. Gyrotrons can be designed for pulsed or continuous operation.
+
+
+== Principle of operation ==
+
+The gyrotron is a type of free-electron maser which generates high-frequency electromagnetic radiation by stimulated cyclotron resonance of electrons moving through a strong magnetic field. It can produce high power at millimeter wavelengths because as a fast-wave device its dimensions can be much larger than the wavelength of the radiation. This is unlike conventional microwave vacuum tubes such as klystrons and magnetrons, in which the wavelength is determined by a single-mode resonant cavity, a slow-wave structure, and thus as operating frequencies increase, the resonant cavity structures must decrease in size, which limits their power-handling capability.
+In the gyrotron a hot filament in an electron gun at one end of the tube emits an annular-shaped (hollow tubular) beam of electrons, which is accelerated by a high-voltage anode and then travels through a large tubular resonant cavity structure in a strong axial magnetic field, usually created by a superconducting magnet around the tube. The field causes the electrons to move helically in tight circles around the magnetic field lines as they travel lengthwise through the tube. At the position in the tube where the magnetic field reaches its maximum the electrons radiate electromagnetic waves in a transverse direction (perpendicular to the axis of the tube) at their cyclotron resonance frequency. The millimeter radiation forms standing waves in the tube, which acts as an open-ended resonant cavity, and is formed into a beam, which radiates through a window in the side of the tube into a waveguide. The spent electron beam is absorbed by a collector electrode at the end of the tube.
+As in other linear-beam microwave tubes, the energy of the output electromagnetic waves comes from the kinetic energy of the electron beam, which is due to the accelerating anode voltage. In the region before the resonant cavity where the magnetic field strength is increasing, it compresses the electron beam, converting the longitudinal drift velocity to transverse orbital velocity, in a process similar to that occurring in a magnetic mirror used in plasma confinement. The orbital velocity of the electrons is 1.5 to 2 times their axial beam velocity. Due to the standing waves in the resonant cavity, the electrons become "bunched"; that is, their phase becomes synchronized so they are all at the same point in their orbit at the same time. Therefore, they emit coherent radiation.
+The electron speed in a gyrotron is slightly relativistic (comparable to but not close to the speed of light). This contrasts to the free-electron laser (and xaser) that work on different principles and whose electrons are highly relativistic.
+
+
+== Applications ==
+Gyrotrons are used for many industrial and high-technology heating applications. For example, gyrotrons are used in nuclear fusion research experiments to heat plasmas and also in manufacturing industry as a rapid heating tool in processing glass, composites, and ceramics, as well as for annealing (solar and semiconductors). Military applications include the Active Denial System.
+
+
+== Manufacturers ==
+The gyrotron was invented in the Soviet Union. Present makers include Communications & Power Industries (USA), Escape Dynamics, Inc. (USA), Gycom (Russia), Thales Group (EU), CEERI (INDIA), Toshiba (Japan), and Bridge12 Technologies, Inc.. System developers include Gyrotron Technology, Inc.
+
+
+== See also ==
+Electron cyclotron resonance
+Magnetron
+Klystron
+Cyclotron
+Fusion power
+Tokamak
+
+Terahertz radiation
+
+
+== References ==
+
+
+== External links ==
+Gyrotron
+Kupiszezwki, A. (1979). "The Gyrotron: A High Frequency Microwave Amplifier" (pdf). The Deep Space Network Progress Report (NASA JPL) 42 (52): 8–12. Bibcode:1979dsn..nasa....8K. NASA Code 310-10-64-10.

@@ -1,0 +1,37 @@
+Computational intelligence
+Computational intelligence (CI) is a set of nature-inspired computational methodologies and approaches to address complex real-world problems to which traditional approaches, i.e., first principles modeling or explicit statistical modeling, are ineffective or infeasible. Many such real-life problems are not considered to be well-posed problems mathematically, but nature provides many counterexamples of biological systems exhibiting the required function, practically. For instance, the human body has about 200 joints (degrees of freedom), but humans have little problem in executing a target movement of the hand, specified in just three Cartesian dimensions. Even if the torso were mechanically fixed, there is an excess of 7:3 parameters to be controlled for natural arm movement. Traditional models also often fail to handle uncertainty, noise and the presence of an ever-changing context. Computational Intelligence provides solutions for such and other complicated problems and inverse problems. It primarily includes artificial neural networks, evolutionary computation and fuzzy logic. In addition, CI also embraces biologically inspired algorithms such as swarm intelligence and artificial immune systems, which can be seen as a part of evolutionary computation, and includes broader fields such as image processing, data mining, and natural language processing. Furthermore other formalisms: Dempster–Shafer theory, chaos theory and many-valued logic are used in the construction of computational models.
+The characteristic of "intelligence" is usually attributed to humans. More recently, many products and items also claim to be "intelligent". Intelligence is directly linked to the reasoning and decision making. Fuzzy logic was introduced in 1965 as a tool to formalise and represent the reasoning process and fuzzy logic systems which are based on fuzzy logic possess many characteristics attributed to intelligence. Fuzzy logic deals effectively with uncertainty that is common for human reasoning, perception and inference and, contrary to some misconceptions, has a very formal and strict mathematical backbone ('is quite deterministic in itself yet allowing uncertainties to be effectively represented and manipulated by it', so to speak). Neural networks, introduced in 1940s (further developed in 1980s) mimic the human brain and represent a computational mechanism based on a simplified mathematical model of the perceptrons (neurons) and signals that they process. Evolutionary computation, introduced in the 1970s and more popular since the 1990s mimics the population-based sexual evolution through reproduction of generations. It also mimics genetics in so called genetic algorithms.
+
+
+== See also ==
+
+
+== Notes ==
+Computational Intelligence: An Introduction by Andries Engelbrecht. Wiley & Sons. ISBN 0-470-84870-7
+Computational Intelligence: A Logical Approach by David Poole, Alan Mackworth, Randy Goebel. Oxford University Press. ISBN 0-19-510270-3
+Computational Intelligence: Synergies of Fuzzy Logic, Neural Networks and Evolutionary Computing. 2013, John Wiley & Sons. ISBN 9781118337844
+Computational Intelligence: A Methodological Introduction by Kruse, Borgelt, Klawonn, Moewes, Steinbrecher, Held, 2013, Springer, ISBN 9781447150121
+
+
+== Publications ==
+IEEE Transactions on Neural Networks and Learning Systems
+IEEE Transactions on Fuzzy Systems
+IEEE Transactions on Evolutionary Computation
+IEEE Transactions on Autonomous Mental Development
+IEEE/ACM Transactions on Computational Biology and Bioinformatics
+IEEE Transactions on Computational Intelligence and AI in Games
+IEEE Transactions on NanoBioscience
+IEEE Transactions on Information Forensics and Security
+IEEE Transactions on Affective Computing
+IEEE Transactions on Smart Grid
+IEEE Transactions on Nanotechnology
+IEEE Systems Journal
+
+
+== Software ==
+Computational Intelligence Library
+Evolving Systems Toolbox
+OAT (Optimization Algorithm Toolkit): A set of standard computational intelligence optimization algorithms and problems in Java.
+
+
+== References ==

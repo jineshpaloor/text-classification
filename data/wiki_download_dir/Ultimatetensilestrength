@@ -1,0 +1,53 @@
+Ultimate tensile strength
+Ultimate tensile strength (UTS), often shortened to tensile strength (TS) or ultimate strength, is the maximum stress that a material can withstand while being stretched or pulled before failing or breaking. Tensile strength is distinct from compressive strength.
+Some materials break sharply, without plastic deformation, in what is called a brittle failure. Others, which are more ductile, including most metals, experience some plastic deformation and possibly necking before fracture.
+The UTS is usually found by performing a tensile test and recording the engineering stress versus strain. The highest point of the stress–strain curve (see point 1 on the engineering stress/strain diagrams below) is the UTS. It is an intensive property; therefore its value does not depend on the size of the test specimen. However, it is dependent on other factors, such as the preparation of the specimen, the presence or otherwise of surface defects, and the temperature of the test environment and material.
+Tensile strengths are rarely used in the design of ductile members, but they are important in brittle members. They are tabulated for common materials such as alloys, composite materials, ceramics, plastics, and wood.
+Tensile strength is defined as a stress, which is measured as force per unit area. For some non-homogeneous materials (or for assembled components) it can be reported just as a force or as a force per unit width. In the International System of Units (SI), the unit is the pascal (Pa)
+(Pa)=  where N is the newton, m is the metre, kg is the kilogram and s is the second.
+(or a multiple thereof, often megapascals (MPa), using the SI prefix mega); or, equivalently to pascals, newtons per square metre (N/m²). A United States customary unit is pounds per square inch (lb/in² or psi), or kilo-pounds per square inch (ksi, or sometimes kpsi), which is equal to 1000 psi; kilo-pounds per square inch are commonly used when measuring tensile strengths in USA.
+
+
+== Concept ==
+
+
+=== Ductile materials ===
+
+Many materials can display linear elastic behavior, defined by a linear stress–strain relationship, as shown in the left figure up to point 3. The elastic behavior of materials often extends into a non-linear region, represented in the figure by point 2 (the "yield point"), up to which deformations are completely recoverable upon removal of the load; that is, a specimen loaded elastically in tension elongate, but return to its original shape and size when unloaded. Beyond this elastic region, for ductile materials, such as steel, deformations are plastic. A plastically deformed specimen does not completely return to its original size and shape when unloaded. For many applications, plastic deformation is unacceptable, and is used as the design limitation.
+After the yield point, ductile metals undergo a period of strain hardening, in which the stress increases again with increasing strain, and they begin to neck, as the cross-sectional area of the specimen decreases due to plastic flow. In a sufficiently ductile material, when necking becomes substantial, it causes a reversal of the engineering stress–strain curve (curve A, right figure); this is because the engineering stress is calculated assuming the original cross-sectional area before necking. The reversal point is the maximum stress on the engineering stress–strain curve, and the engineering stress coordinate of this point is the ultimate tensile strength, given by point 1.
+The UTS is not used in the design of ductile static members because design practices dictate the use of the yield stress. It is, however, used for quality control, because of the ease of testing. It is also used to roughly determine material types for unknown samples.
+The UTS is a common engineering parameter when designing brittle members, because there is no yield point.
+
+
+== Testing ==
+
+Typically, the testing involves taking a small sample with a fixed cross-sectional area, and then pulling it with a tensometer at a constant strain (change in gauge length divided by initial gauge length) rate until the sample breaks.
+When testing some metals, indentation hardness correlates linearly with tensile strength. This important relation permits economically important nondestructive testing of bulk metal deliveries with lightweight, even portable equipment, such as hand-held Rockwell hardness testers.
+It should be noted that, while most metal forms, such as sheet, bar, tube, and wire, can exhibit the test UTS, fibers, such as carbon fibers, being only 2/10,000th of an inch in diameter, must be made into composites to create useful real-world forms. As the datasheet on T1000G below indicates, while the UTS of the fiber is very high at 6,370MPa, the UTS of a derived composite is 3,040MPa - less than half the strength of the fiber.
+
+
+== Typical tensile strengths ==
+^a Many of the values depend on manufacturing process and purity/composition.
+^b Multiwalled carbon nanotubes have the highest tensile strength of any material yet measured, with labs producing them at a tensile strength of 63 GPa, still well below their theoretical limit of 300 GPa. The first nanotube ropes (20mm in length) whose tensile strength was published (in 2000) had a strength of 3.6 GPa. The density depends on the manufacturing method, and the lowest value is 0.037 or 0.55 (solid).
+^c The strength of spider silk is highly variable. It depends on many factors including kind of silk (Every spider can produce several for sundry purposes.), species, age of silk, temperature, humidity, swiftness at which stress is applied during testing, length stress is applied, and way the silk is gathered (forced silking or natural spinning). The value shown in the table, 1000 MPa, is roughly representative of the results from a few studies involving several different species of spider however specific results varied greatly.
+^d Human hair strength varies by ethnicity and chemical treatments.
+
+
+== See also ==
+Flexural strength
+Strength of materials
+Tensile structure
+Toughness
+Failure
+Tension (physics)
+
+
+== References ==
+
+
+== Further reading ==
+Giancoli, Douglas, Physics for Scientists & Engineers Third Edition (2000). Upper Saddle River: Prentice Hall.
+Köhler T, Vollrath F (1995). "Thread biomechanics in the two orb-weaving spiders Araneus diadematus (Araneae, Araneidae) and Uloboris walckenaerius (Araneae, Uloboridae)". Journal of Experimental Zoology 271: 1–17. doi:10.1002/jez.1402710102. 
+T Follett, Life without metals
+Min-Feng Y, Lourie O, Dyer MJ, Moloni K, Kelly TF, Ruoff RS (2000). "Strength and Breaking Mechanism of Multiwalled Carbon Nanotubes Under Tensile Load". Science 287 (5453): 637–640. Bibcode:2000Sci...287..637Y. doi:10.1126/science.287.5453.637. PMID 10649994. 
+George E. Dieter, Mechanical Metallurgy (1988). McGraw-Hill, UK

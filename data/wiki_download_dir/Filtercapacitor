@@ -1,0 +1,69 @@
+Filter capacitor
+Filter capacitors are capacitors used for filtering of undesirable frequencies. They are common in electrical and electronic equipment, and cover a number of applications, such as:
+Glitch removal on Direct current (DC) power rails
+Radio frequency interference (RFI) removal for signal or power lines entering or leaving equipment
+Capacitors used after a voltage regulator to further smooth dc power supplies
+Capacitors used in audio, intermediate frequency (IF) or radio frequency (RF) frequency filters (e.g. low pass, high pass, notch, etc.)
+Arc suppression, such as across the contact breaker or 'points' in a spark-ignition engine
+Filter capacitors are not the same as reservoir capacitors, the tasks the two perform are different, albeit related.
+
+
+== Types ==
+Many filtering tasks have specific types of capacitor that are required or typically used for the task.
+
+
+=== High-pass and low-pass filters ===
+
+
+=== Power rail filtering ===
+Electrolytic capacitors are usually used due to high capacity at low cost and low size. Smaller non-electrolytics may be paralleled with these to compensate for electrolytics' poor performance at high frequencies.
+
+
+=== Radio frequency work ===
+Ceramic plate capacitors are usually favoured due to extremely low inductance and low cost. Where precision is needed, silver mica capacitors offer superior precision and stability. Where manual tunability is required, plastic film trimmers are sometimes used, though it has long been more popular to adjust the inductor to achieve tuning.
+
+
+==== Ultra High Frequency-UHF ====
+Disc and plate ceramic capacitors are used due to particularly low inductance. Often a ceramic disc sits in a notch cut in the PCB, with the tracks soldered directly to the disc for best performance.
+
+
+==== Microwave ====
+At microwave frequencies, the (FR4) Printed circuit board (PCB) material acts as a capacitor, and the PCB track has inherent inductance. The net result depends on the ratio of capacitance and inductance present.
+Increasing PCB track width causes additional capacitance, and thus a net capacitance. Narrowing track width reduces capacitance, produces a net inductance.
+
+
+=== Computer power rail filtering ===
+Computers use large numbers of filter capacitors, making size an important factor. Solid tantalum and wet tantalum capacitors offer some of the best CV (capacitance/voltage) performance in some of the most volumetrically efficient packaging available. High currents and low voltages also make low equivalent series resistance (ESR) important. Solid tantalum capacitors offer low ESR versions that can often meet ESR requirements but they are not the lowest ESR option among all capacitors. Solid tantalums have an additional issue which must be addressed during the design stage. Solid tantalum capacitors must be voltage derated in all applications. A 50% voltage derating is recommended and generally accepted as the industry standard; e.g.: A 50V solid tantalum capacitor should never be exposed to an actual application voltage above 25V. Solid tantalum capacitors are very reliable components if the proper care is taken and all design guidelines are carefully followed. Unfortunately, the failure mechanism for a solid tantalum capacitor is a short which will result in a violent flaring up and smoking on a PCB capable of damaging other components in close proximity as well as completely destroying the capacitor. Fortunately, most solid tantalum capacitor failures will be immediate and very evident. Once in application solid tantalum capacitor performance will improve over time and the chances of a failure due to component mis-manufacturing decrease. Wet tantalums are a type of the electrolytic capacitor, using a tantalum pellet in an electrolytic material sealed in a hermetic package. This type of tantalum capacitor does not require the same derating that a solid tantalum does and its failure mechanism is open. A 10% to 20% voltage derating curve is recommended for wet tantalums when operating from 85C to 125C. Wet tantalums are not commonly referred to as just 'electrolytics' because usually 'electrolytic' refers to aluminium electrolytics.
+
+
+=== Lowest cost ===
+Ceramic (for values <0.47 micro-farad-µF) and electrolytic (for 0.47 µF and up) are normally the preferred types where their performance is sufficient, since these are the lowest cost types of capacitors. Hence they are very popular in filters of many types.
+
+
+=== Mains filtering ===
+Mains filter capacitors are usually encapsulated wound plastic film types, since these deliver high voltage rating at low cost, and may be made self healing and fusible. Mains filter capacitors are often ceramic RFI/EMI suppression capacitors. The additional safety requirements for mains filtering are:
+Line to neutral capacitors are flame retardant, and in Europe are required to use class X dielectrics
+Line or neutral to earth: Must be flame retardant; also, the dielectric must be self healing and fusible. In Europe these are class Y capacitors.
+
+
+=== Contact suppression ===
+A wound plastic film mains rated capacitor plus series resistor are incorporated into a single component envelope for convenience and robustness. This reduces switch arcing and RFI. The most common combination of values is 0.1 µF + 100 Ω.
+
+
+=== DC motor suppression ===
+Ceramic disc capacitors are usually used in snubber circuits for low voltage motors for their low inductance and low cost.
+
+
+=== Speaker crossover networks ===
+Nonpolar aluminium electrolytics combine sufficient capacitance with low cost. In high end systems they may be paralleled with small non-electrolytic capacitors to improve their performance.
+
+
+=== Switched mode power supply filtering ===
+Low ESR (equivalent series resistance) electrolytics are often required to handle the high ripple current.
+
+
+== See also ==
+Glitch removal
+
+
+== References ==

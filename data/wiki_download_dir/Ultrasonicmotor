@@ -1,0 +1,55 @@
+Ultrasonic motor
+An ultrasonic motor is a type of electric motor powered by the ultrasonic vibration of a component, the stator, placed against another component, the rotor or slider depending on the scheme of operation (rotation or linear translation). Ultrasonic motors differ from piezoelectric actuators in several ways, though both typically use some form of piezoelectric material, most often lead zirconate titanate and occasionally lithium niobate or other single-crystal materials. The most obvious difference is the use of resonance to amplify the vibration of the stator in contact with the rotor in ultrasonic motors. Ultrasonic motors also offer arbitrarily large rotation or sliding distances, while piezoelectric actuators are limited by the static strain that may be induced in the piezoelectric element.
+One common application of ultrasonic motors is in camera lenses where they are used to move lens elements as part of the auto-focus system. Ultrasonic motors replace the noisier and often slower micro-motor in this application.
+
+
+== Mechanism ==
+
+Dry friction is often used in contact, and the ultrasonic vibration induced in the stator is used both to impart motion to the rotor and to modulate the frictional forces present at the interface. The friction modulation allows bulk motion of the rotor (i.e., for farther than one vibration cycle); without this modulation, ultrasonic motors would fail to operate.
+Two different ways are generally available to control the friction along the stator-rotor contact interface, traveling-wave vibration and standing-wave vibration. Some of the earliest versions of practical motors in the 1970s, by Sashida, for example, used standing-wave vibration in combination with fins placed at an angle to the contact surface to form a motor, albeit one that rotated in a single direction. Later designs by Sashida and researchers at Matsushita, ALPS, and Canon made use of traveling-wave vibration to obtain bi-directional motion, and found that this arrangement offered better efficiency and less contact interface wear. An exceptionally high-torque 'hybrid transducer' ultrasonic motor uses circumferentially-poled and axially-poled piezoelectric elements together to combine axial and torsional vibration along the contact interface, representing a driving technique that lies somewhere between the standing and traveling-wave driving methods.
+A key observation in the study of ultrasonic motors is that the peak vibration that may be induced in structures occurs at a relatively constant vibration velocity regardless of frequency. The vibration velocity is simply the time derivative of the vibration displacement in a structure, and is not (directly) related to the speed of the wave propagation within a structure. Many engineering materials suitable for vibration permit a peak vibration velocity of around 1 m/s. At low frequencies — 50 Hz, say — a vibration velocity of 1 m/s in a woofer would give displacements of about 10 mm, which is visible. As the frequency is increased, the displacement decreases, and the acceleration increases. As the vibration becomes inaudible at 20 kHz or so, the vibration displacements are in the tens of micrometers, and motors have been built that operate using 50 MHz surface acoustic wave (SAW) that have vibrations of only a few nanometers in magnitude. Such devices require care in construction to meet the necessary precision to make use of these motions within the stator.
+More generally, there are two types of motors, contact and non-contact, the latter of which is rare and requires a working fluid to transmit the ultrasonic vibrations of the stator toward the rotor. Most versions use air, such as some of the earliest versions by Hu Junhui. Research in this area continues, particularly in near-field acoustic levitation for this sort of application. (This is different from far-field acoustic levitation, which suspends the object at half to several wavelengths away from the vibrating object.)
+
+
+== Applications ==
+Canon was one of the pioneers of the ultrasonic motor, and made the "USM" famous in the late 1980s by incorporating it into its autofocus lenses for the Canon EF lens mount. Numerous patents on ultrasonic motors have been filed by Canon, its chief lensmaking rival Nikon, and other industrial concerns since the early 1980s. Canon has not only included an ultrasonic motor (USM) in their DSLR lenses, but also in the Canon PowerShot SX1 IS bridge camera. The ultrasonic motor is now used in many consumer and office electronics requiring precision rotations over long periods of time.
+The technology has been applied to photographic lenses by a variety of companies under different names:
+Canon – USM, UltraSonic Motor
+Minolta, Konica Minolta, Sony – SSM, Super Sonic wave Motor (ring motor)
+Nikon – SWM, Silent Wave Motor
+Olympus – SWD, Supersonic Wave Drive
+Panasonic – XSM, Extra Silent Motor
+Pentax – SDM, Supersonic Dynamic Motor
+Sigma – HSM, Hyper Sonic Motor
+Sony - DDSSM, Direct Drive Super Sonic wave Motor (linear motor)
+Tamron - USD, Ultrasonic Silent Drive; PZD, Piezo Drive
+Actuated Medical, Inc. - Direct Drive, MRI Compatible Ultrasonic Motor
+
+
+== See also ==
+Piezoelectric motor
+Linear actuator
+Ultrasonic homogenizer
+
+
+== References ==
+
+General
+Сertificate of authorship #217509 "Electric Engine", Lavrinenko V., Necrasov M., application #1006424 from 10 May 1965.
+US Patent #4.019.073, 1975.
+US Patent #4.453.103, 1982.
+US Patent #4.400.641, 1982.
+Piezoelectric motors. Lavrinenko V., Kartashev I., Vishnevskyi V., "Energiya" 1980.
+V. Snitka, V. Mizariene and D. Zukauskas The status of ultrasonic motors in the former Soviet Union, Ultrasonics, Volume 34, Issues 2-5, June 1996, Pages 247-250
+Principles of construction of piezoelectric motors. V. Lavrinenko, ISBN 978-3-659-51406-7, "Lambert", 2015, 236p.
+
+
+== External links ==
+Ultrasonic Actuators, Motors and Sensors page, from NASA JPL
+Design and performances of high torque ultrasonic motor for application of automobile
+Design of miniature ultrasonic motors
+Ultrasonic Lens Motor
+Micro/Nano Physics Research Laboratory, with research on ultrasonic piezoelectric actuators by Dr James Friend
+Institute of Piezomechanics, Kaunas University of Technology, Lithuania
+Disassembly of a Canon EF lens, revealing an ultrasonic motor
+Research Center for Microsystems and Nanotechnology, KTU, Lithuania

@@ -1,0 +1,154 @@
+Intelligent transportation system
+Intelligent transportation systems (ITS) are advanced applications which, without embodying intelligence as such, aim to provide innovative services relating to different modes of transport and traffic management and enable various users to be better informed and make safer, more coordinated, and 'smarter' use of transport networks.
+Although ITS may refer to all modes of transport, EU Directive 2010/40/EU (7 July 2010) defines ITS as systems in which information and communication technologies are applied in the field of road transport, including infrastructure, vehicles and users, and in traffic management and mobility management, as well as for interfaces with other modes of transport.
+
+
+== Background ==
+Recent governmental activity in the area of ITS – specifically in the United States – is further motivated by an increasing focus on homeland security. Many of the proposed ITS systems also involve surveillance of the roadways, which is a priority of homeland security. Funding of many systems comes either directly through homeland security organisations or with their approval. Further, ITS can play a role in the rapid mass evacuation of people in urban centres after large casualty events such as a result of a natural disaster or threat. Much of the infrastructure and planning involved with ITS parallels the need for homeland security systems.
+In the developing world, the migration from rural to urbanized habitats has progressed differently. Many areas of the developing world have urbanised without significant motorisation and the formation of suburbs. A small portion of the population can afford automobiles, but the automobiles greatly increase congestion in these multimodal transportation systems. They also produce considerable air pollution, pose a significant safety risk, and exacerbate feelings of inequities in the society. High-population density could be supported by a multimodal system of walking, bicycle transportation, motorcycles, buses, and trains.
+Other parts of the developing world, such as China, India & Brazil remain largely rural but are rapidly urbanising and industrialising. In these areas a motorised infrastructure is being developed alongside motorisation of the population. Great disparity of wealth means that only a fraction of the population can motorise, and therefore the highly dense multimodal transportation system for the poor is cross-cut by the highly motorised transportation system for the rich.
+
+
+== Intelligent transport technologies ==
+Intelligent transport systems vary in technologies applied, from basic management systems such as car navigation; traffic signal control systems; container management systems; variable message signs; automatic number plate recognition or speed cameras to monitor applications, such as security CCTV systems; and to more advanced applications that integrate live data and feedback from a number of other sources, such as parking guidance and information systems; weather information; bridge de-icing (US deicing) systems; and the like. Additionally, predictive techniques are being developed to allow advanced modelling and comparison with historical baseline data. Some of these technologies are described in the following sections.
+
+
+=== Wireless communications ===
+Various forms of wireless communications technologies have been proposed for intelligent transportation systems.
+Radio modem communication on UHF and VHF frequencies are widely used for short and long range communication within ITS.
+Short-range communications of 350 m can be accomplished using IEEE 802.11 protocols, specifically WAVE or the Dedicated Short Range Communications standard being promoted by the Intelligent Transportation Society of America and the United States Department of Transportation. Theoretically, the range of these protocols can be extended using Mobile ad hoc networks or Mesh networking.
+Longer range communications have been proposed using infrastructure networks such as WiMAX (IEEE 802.16), Global System for Mobile Communications (GSM), or 3G. Long-range communications using these methods are well established, but, unlike the short-range protocols, these methods require extensive and very expensive infrastructure deployment. There is lack of consensus as to what business model should support this infrastructure.
+Auto Insurance companies have utilised ad hoc solutions to support eCall and behavioural tracking functionalities in the form of Telematics 2.0.
+
+
+=== Computational technologies ===
+Recent advances in vehicle electronics have led to a move towards fewer, more capable computer processors on a vehicle. A typical vehicle in the early 2000s would have between 20 and 100 individual networked microcontroller/Programmable logic controller modules with non-real-time operating systems. The current trend is toward fewer, more costly microprocessor modules with hardware memory management and Real-Time Operating Systems. The new embedded system platforms allow for more sophisticated software applications to be implemented, including model-based process control, artificial intelligence, and ubiquitous computing. Perhaps the most important of these for Intelligent Transportation Systems is artificial intelligence.
+
+
+=== Floating car data/floating cellular data ===
+
+"Floating car" or "probe" data collection is a set of relatively low-cost methods for obtaining travel time and speed data for vehicles travelling along streets, highways, motorways (freeways), and other transport routes. Broadly speaking, three methods have been used to obtain the raw data:
+Triangulation method. In developed countries a high proportion of cars contain one or more mobile phones. The phones periodically transmit their presence information to the mobile phone network, even when no voice connection is established. In the mid-2000s, attempts were made to use mobile phones as anonymous traffic probes. As a car moves, so does the signal of any mobile phones that are inside the vehicle. By measuring and analysing network data using triangulation, pattern matching or cell-sector statistics (in an anonymous format), the data was converted into traffic flow information. With more congestion, there are more cars, more phones, and thus, more probes. In metropolitan areas, the distance between antennas is shorter and in theory accuracy increases. An advantage of this method is that no infrastructure needs to be built along the road; only the mobile phone network is leveraged. But in practice the triangulation method can be complicated, especially in areas where the same mobile phone towers serve two or more parallel routes (such as a motorway (freeway) with a frontage road, a motorway (freeway) and a commuter rail line, two or more parallel streets, or a street that is also a bus line). By the early 2010s, the popularity of the triangulation method was declining.
+Vehicle re-identification. Vehicle re-identification methods require sets of detectors mounted along the road. In this technique, a unique serial number for a device in the vehicle is detected at one location and then detected again (re-identified) further down the road. Travel times and speed are calculated by comparing the time at which a specific device is detected by pairs of sensors. This can be done using the MAC addresses from Bluetooth or other devices, or using the RFID serial numbers from Electronic Toll Collection (ETC) transponders (also called "toll tags").
+GPS based methods. An increasing number of vehicles are equipped with in-vehicle satnav/GPS (satellite navigation) systems that have two-way communication with a traffic data provider. Position readings from these vehicles are used to compute vehicle speeds. Modern methods may not use dedicated hardware but instead Smartphone based solutions using so called Telematics 2.0 approaches.
+Floating car data technology provides advantages over other methods of traffic measurement:
+Less expensive than sensors or cameras
+More coverage (potentially including all locations and streets)
+Faster to set up and less maintenance
+Works in all weather conditions, including heavy rain
+
+
+=== Sensing technologies ===
+Technological advances in telecommunications and information technology, coupled with ultramodern/state-of-the-art microchip, RFID (Radio Frequency Identification), and inexpensive intelligent beacon sensing technologies, have enhanced the technical capabilities that will facilitate motorist safety benefits for intelligent transportation systems globally. Sensing systems for ITS are vehicle- and infrastructure-based networked systems, i.e., Intelligent vehicle technologies. Infrastructure sensors are indestructible (such as in-road reflectors) devices that are installed or embedded in the road or surrounding the road (e.g., on buildings, posts, and signs), as required, and may be manually disseminated during preventive road construction maintenance or by sensor injection machinery for rapid deployment. Vehicle-sensing systems include deployment of infrastructure-to-vehicle and vehicle-to-infrastructure electronic beacons for identification communications and may also employ video automatic number plate recognition or vehicle magnetic signature detection technologies at desired intervals to increase sustained monitoring of vehicles operating in critical zones.
+
+
+==== Inductive loop detection ====
+
+Inductive loops can be placed in a roadbed to detect vehicles as they pass through the loop's magnetic field. The simplest detectors simply count the number of vehicles during a unit of time (typically 60 seconds in the United States) that pass over the loop, while more sophisticated sensors estimate the speed, length, and class of vehicles and the distance between them. Loops can be placed in a single lane or across multiple lanes, and they work with very slow or stopped vehicles as well as vehicles moving at high-speed.
+
+
+==== Video vehicle detection ====
+Traffic-flow measurement and automatic incident detection using video cameras is another form of vehicle detection. Since video detection systems such as those used in automatic number plate recognition do not involve installing any components directly into the road surface or roadbed, this type of system is known as a "non-intrusive" method of traffic detection. Video from cameras is fed into processors that analyse the changing characteristics of the video image as vehicles pass. The cameras are typically mounted on poles or structures above or adjacent to the roadway. Most video detection systems require some initial configuration to "teach" the processor the baseline background image. This usually involves inputting known measurements such as the distance between lane lines or the height of the camera above the roadway. A single video detection processor can detect traffic simultaneously from one to eight cameras, depending on the brand and model. The typical output from a video detection system is lane-by-lane vehicle speeds, counts, and lane occupancy readings. Some systems provide additional outputs including gap, headway, stopped-vehicle detection, and wrong-way vehicle alarms.
+
+
+==== Bluetooth detection ====
+Bluetooth is an accurate and inexpensive way to measure travel time and make origin and destination analysis. Bluetooth is a wireless standard used to communicate between electronic devices like mobile phones, smart phones, headsets, navigation systems, computers etc. Bluetooth road sensors are able to detect Bluetooth MAC addresses from Bluetooth devices in passing vehicles. If these sensors are interconnected they are able to calculate travel time and provide data for origin and destination matrices. Compared to other traffic measurement technologies, Bluetooth measurement has some differences:
+Accurate measurement points with absolute confirmation to provide to the second travel times.
+Is non-intrusive, which can lead to lower-cost installations for both permanent and temporary sites.
+Is limited to how many Bluetooth devices are broadcasting in a vehicle so counting and other applications are limited.
+Systems are generally quick to set up with little to no calibration needed.
+Since Bluetooth devices become more prevalent on board vehicles and with more portable electronics broadcasting, the amount of data collected over time becomes more accurate and valuable for travel time and estimation purposes.
+
+
+==== Audio detection ====
+It is also possible to measure traffic density on a road by using the Audio signal that comprises of the cumulative sound from tire noise, engine noise, engine-idling noise, honks and air turbulence noise. A roadside-installed microphone picks up the audio that comprises the various vehicle noise and Audio signal processing techniques can be used to estimate the traffic state. The accuracy of such a system compares well with the other methods described above.
+
+
+==== Information fusion from multiple traffic sensing modalities ====
+The data from the different sensing technologies can be combined in intelligent ways to determine the traffic state accurately. A Data fusion based approach that utilizes the road side collected acoustic, image and sensor data has been shown to combine the advantages of the different individual methods.
+
+
+== Intelligent transport applications ==
+
+
+=== Emergency vehicle notification systems ===
+The in-vehicle eCall is an emergency call generated either manually by the vehicle occupants or automatically via activation of in-vehicle sensors after an accident. When activated, the in-vehicle eCall device will establish an emergency call carrying both voice and data directly to the nearest emergency point (normally the nearest E1-1-2 Public-safety answering point, PSAP). The voice call enables the vehicle occupant to communicate with the trained eCall operator. At the same time, a minimum set of data will be sent to the eCall operator receiving the voice call.
+The minimum set of data contains information about the incident, including time, precise location, the direction the vehicle was traveling, and vehicle identification. The pan-European eCall aims to be operative for all new type-approved vehicles as a standard option. Depending on the manufacturer of the eCall system, it could be mobile phone based (Bluetooth connection to an in-vehicle interface), an integrated eCall device, or a functionality of a broader system like navigation, Telematics device, or tolling device. eCall is expected to be offered, at earliest, by the end of 2010, pending standardization by the European Telecommunications Standards Institute and commitment from large EU member states such as France and the United Kingdom.
+
+The EC funded project SafeTRIP is developing an open ITS system that will improve road safety and provide a resilient communication through the use of S-band satellite communication. Such platform will allow for greater coverage of the Emergency Call Service within the EU.
+
+
+=== Automatic road enforcement ===
+
+A traffic enforcement camera system, consisting of a camera and a vehicle-monitoring device, is used to detect and identify vehicles disobeying a speed limit or some other road legal requirement and automatically ticket offenders based on the license plate number. Traffic tickets are sent by mail. Applications include:
+Speed cameras that identify vehicles traveling over the legal speed limit. Many such devices use radar to detect a vehicle's speed or electromagnetic loops buried in each lane of the road.
+Red light cameras that detect vehicles that cross a stop line or designated stopping place while a red traffic light is showing.
+Bus lane cameras that identify vehicles traveling in lanes reserved for buses. In some jurisdictions, bus lanes can also be used by taxis or vehicles engaged in car pooling.
+Level crossing cameras that identify vehicles crossing railways at grade illegally.
+Double white line cameras that identify vehicles crossing these lines.
+High-occupancy vehicle lane cameras that identify vehicles violating HOV requirements.
+Turn cameras at intersections where specific turns are prohibited on red. This type of camera is mostly used in cities or heavy populated areas.
+
+
+=== Variable speed limits ===
+
+Recently some jurisdictions have begun experimenting with variable speed limits that change with road congestion and other factors. Typically such speed limits only change to decline during poor conditions, rather than being improved in good ones. One example is on Britain's M25 motorway, which circumnavigates London. On the most heavily traveled 14-mile (23 km) section (junction 10 to 16) of the M25 variable speed limits combined with automated enforcement have been in force since 1995. Initial results indicated savings in journey times, smoother-flowing traffic, and a fall in the number of accidents, so the implementation was made permanent in 1997. Further trials on the M25 have been thus far proven inconclusive.
+
+
+=== Collision avoidance systems ===
+Japan has installed sensors on its highways to notify motorists that a car is stalled ahead.
+
+
+=== Dynamic traffic light sequence ===
+A 2008 paper was written about using RFID for dynamic traffic light sequences. It circumvents or avoids problems that usually arise with systems that use image processing and beam interruption techniques. RFID technology with appropriate algorithm and database were applied to a multi-vehicle, multi-lane and multi-road junction area to provide an efficient time management scheme. A dynamic time schedule was worked out for the passage of each column. The simulation showed the dynamic sequence algorithm could adjust itself even with the presence of some extreme cases. The paper said the system could emulate the judgment of a traffic police officer on duty, by considering the number of vehicles in each column and the routing proprieties.
+
+
+== Cooperative systems on the road ==
+Communication cooperation on the road includes car-to-car, car-to-infrastructure, and vice versa. Data available from vehicles are acquired and transmitted to a server for central fusion and processing. These data can be used to detect events such as rain (wiper activity) and congestion (frequent braking activities). The server processes a driving recommendation dedicated to a single or a specific group of drivers and transmits it wirelessly to vehicles. The goal of cooperative systems is to use and plan communication and sensor infrastructure to increase road safety. The definition of cooperative systems in road traffic is according to the European Commission:
+"Road operators, infrastructure, vehicles, their drivers and other road users will cooperate to deliver the most efficient, safe, secure and comfortable journey. The vehicle-vehicle and vehicle-infrastructure co-operative systems will contribute to these objectives beyond the improvements achievable with stand-alone systems."
+ITS World Congress is a world-wide annual event to promote and showcase ITS technologies. ERTICO – ITS Europe, ITS America and ITS AsiaPacific work closely together in the preparation of the annual ITS World Congress and Exhibition attracting over 8,000 people. Each year the event takes place in a different region (Europe, Americas or Asia-Pacific).
+The first ITS World Congress was held in Paris in 1994 and it has become the most important annual ITS event. Subsequent events have been held in:
+1995 Yokohama 1996 Orlando 1997 Berlin 1998 Seoul 1999 Toronto 2000 Turin 2001 Sydney 2002 Chicago 2003 Madrid 2004 Nagoya 2005 San Francisco 2006 London 2007 Beijing 2008 New York 2009 Stockholm 2010 Busan 2011 Orlando 2012 Vienna 2013 Tokyo 2014 Detroit. The 2015 Congress will be in Bordeaux (October 5 - 9) Future Congress are scheduled for Melbourne 2016, Montreal 2017, Copenhagen 2018, Singapore 2019
+
+
+== Europe ==
+The Network of National ITS Associations is a grouping of national ITS interests formed in order to ensure that ITS knowledge and information is transmitted to all actors at the local and national level – such as small and medium-sized companies – and support ITS promotion from the ground up. It was officially launched 7 October 2004 in London. The Network currently consists of 27 member organisations. The Network Secretariat is at ERTICO – ITS Europe.
+ERTICO – ITS Europe is a multi-sector, public/private partnership pursuing the development and deployment of Intelligent Transport Systems and Services (ITS). We connect public authorities, industry players, infrastructure operators, users, national ITS associations and other organisations together and work to bring “Intelligence into Mobility”. The ERTICO work programme focuses on initiatives to improve transport safety, security and network efficiency whilst taking into account measures to reduce environmental impact. Our vision is of a future transport system working towards zero accidents, zero delays and fully informed people, where services are affordable and seamless, the environment is protected, privacy is respected and security is provided.
+
+
+== United States ==
+In the United States, each state has an Intelligent Transportation Systems (ITS) chapter that holds a yearly conference to promote and showcase ITS technologies and ideas. Representatives from each Department of Transportation (state, cities, towns, and counties) within the state attend this conference.
+
+
+== See also ==
+Automated planning and scheduling
+Automatic parking
+Driverless car
+Intelligent speed adaptation
+Intelligent Transportation Systems Institute
+Map database management
+National Transportation Communications for Intelligent Transportation System Protocol
+Road Weather Information System
+SCATS
+Scalable Urban Traffic Control
+STREAMS Integrated Intelligent Transport System
+Telematics
+Telematics 2.0
+Traffic estimation and prediction system
+Traffic Message Channel
+Traffic optimization
+Vehicular communication systems
+Vehicular Ad Hoc Network
+Freeway Traffic Management System or COMPASS
+RESCU – similar system to COMPASS used by the City of Toronto
+
+
+== References ==
+
+
+== External links ==
+Intelligent transportation system at DMOZ
+ITS Handbook available for free download online
+U.S. Department of Transportation - Intelligent Transportation Systems Joint Program Office website
+Guide to Federal ITS Research - U.S. Department of Transportation
+ITS Safety Applications Factsheet - U.S. Department of Transportation

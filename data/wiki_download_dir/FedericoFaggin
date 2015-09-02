@@ -1,0 +1,93 @@
+Federico Faggin
+Federico Faggin (born December 1, 1941) is an Italian American physicist, widely known for designing the first commercial microprocessor. He led the 4004 (MCS-4) project and the design group during the first five years of Intel's microprocessor effort. Most importantly, Faggin created in 1968, while working at Fairchild Semiconductor, the self-aligned MOS silicon gate technology that made possible dynamic memories, non-volatile memories, CCD image sensors, and the microprocessor. He was co-founder and CEO of Zilog, the first company solely dedicated to microprocessors.
+In 2010 he received the 2009 National Medal of Technology and Innovation, the highest honor the United States confers for achievements related to technological progress.
+In 2011, Faggin founded the Federico and Elvia Faggin Foundation to support the scientific study of consciousness at US universities and research institutes.
+
+
+== Life ==
+Born in Vicenza, Faggin received a laurea degree in physics, summa cum laude, at the University of Padua, Italy. At age 19, after his graduation from I.T.I.S. Alessandro Rossi, a technical high school in Vicenza, he took a job at Olivetti, in Italy, where he co-designed and led the implementation of a small digital transistor computer with 4 Ki × 12 bit of magnetic memory (1960). Faggin's father was a scholar who translated the Roman poet Virgil's works from the original Latin into modern Italian.
+After obtaining his university degree he worked at SGS Fairchild in Italy, where he developed SGS's first MOS process technology and designed its first integrated circuits. In 1968 he moved to Palo Alto and worked at Fairchild Semiconductor, where he created the MOS Silicon Gate technology with self-aligned gate, the basis of all modern CMOS computer chips. At Fairchild he produced the world's first commercial integrated circuit using Silicon Gate Technology with self aligned MOSFET transistors: the Fairchild 3708.
+In 1970 he joined Intel where Marcian Hoff, with Stanley Mazor and Intel's customer Masatoshi Shima, had formulated a new architecture for a family of Busicom calculators in 1969. Faggin was hired as project leader to implement such architecture. He created a new methodology for random logic chip design using silicon gate technology, and several design innovations that made it possible to fit the microprocessor in one chip. He developed the chip and logic design together with the layout of all the chips of the 4004 family (MCS-4). He built the tester to prove that the 4004 could be used for applications different from calculators, and successfully transferred the first microprocessor to production (1970–1971). During the project development he was assisted only by Masatoshi Shima, who had come from Japan to check on the progress and stayed-on to help, and a couple of technicians. Faggin also convinced Bob Noyce to negotiate the exclusivity clause, in order to open the marketing of the 4004 which originally was a custom design for Busicom.
+The design methodology created by Faggin was utilized for the implementation of all Intel’s early microprocessors and later also for Zilog's Z80. The 8008 development was originally assigned to Hal Feeney in March 1970 but was suspended until the 4004 was completed. It was resumed in January 1971 and Hal Feeney did the detailed design under Faggin’s direction and following his new methodology. Faggin developed the architectures and led the development of the 8080 and the 4040 microprocessors. When Faggin left Intel at the end of 1974 to found Zilog with Ralph Ungermann, he was department manager for MOS Research and Development with almost 80 engineers reporting to him and more than a dozen products under development.
+Zilog was the first company entirely dedicated to microprocessors while Intel was principally dedicated to memories. At Zilog, Faggin conceived the architecture of the Z80 microprocessor and helped Shima, who had joined the new company, in its design. He was Zilog's President and CEO until the end of 1980. In 1982, he co-founded Cygnet Technologies, maker of the Cygnet CoSystem personal telecommunications device, and was President and CEO of the company until 1986. In 1986 he co-founded and was CEO of Synaptics a company which produces the most widely used touchpad in the industry.
+Faggin is chairman emeritus of Synaptics and president of "Federico and Elvia Faggin Foundation" for the study of consciousness.
+
+
+== Accomplishments ==
+
+
+=== Fairchild Semiconductor ===
+The silicon-gate MOS technology, created at the Palo Alto, California, R&D Laboratories of Fairchild Semiconductor in 1968, was the world's first practical method to manufacture MOS (metal–oxide–semiconductor) integrated circuits with self-aligned gates. This technology replaced the traditional aluminium gate of an MOS transistor with a gate made of doped polycrystalline silicon, drastically reducing the physical size and the parasitic capacitances of the transistors. The advantages of silicon gate technology over metal gate technology were substantial:
+It allowed the integration of twice the number of transistors in the same chip area
+The circuits were 3 to 5 times faster, for the same power dissipation
+The circuits had 10 to 100 times less junction leakage current
+The technology had much higher reliability and
+It made possible the creation of new device types, such as non-volatile memory using floating-gate transistors, and CCD image sensors.
+It was the silicon gate MOS technology that made possible the creation of semiconductor memories in 1969–1970 and the microprocessor in 1970–1971. Federico Faggin was the project leader of the silicon gate technology and invented its unique process architecture.
+The world's first self-aligned gate commercial integrated circuit (1968) was the Fairchild 3708, an 8-bit analog multiplexer with decoding logic, using silicon gate technology. The 3708 had lower cost and much better speed and junction leakage characteristics (vital for an analog multiplexer), than the Fairchild 3705, the equivalent integrated circuit (using metal gate technology), that the 3708 replaced. The 3708 proved the commercial viability of the silicon gate technology. F. Faggin was the designer of the 3708. See also: Faggin, F., Klein T. (1969). "A Faster Generation Of MOS Devices With Low Threshold Is Riding The Crest of the New Wave, Silicon-Gate IC's." Electronics, September 29, 1969.
+
+
+=== Intel ===
+The world’s first microprocessor (1971) was made possible by the advanced capabilities of the silicon gate technology, the Intel 4004 was a 4-bit CPU (central processing unit) on a single chip. The 4004 was a member of a family of 4 chips designed specifically for Busicom, a Japanese calculator manufacturer. The other members of the family (constituting the MCS-4 family) were: the 4001, a 2k-bit metal-mask programmable ROM with programmable input-output lines; the 4002, a 320-bit dynamic RAM with a 4-bit output port; the 4003, a 10-bit serial input and serial/parallel output, static shift register to be used as I/O expander. F. Faggin was the project leader, the creator of the design methodology and the principal designer of the four chips. The new random logic design methodology with silicon gate technology devised by Faggin was used for all the early generations of microprocessors at Intel and Zilog.
+The world’s first 8-bit microprocessor (1972), the Intel 8008. Intel 8008 was the first single-chip 8-bit CPU and, like the 4004, was built with p-channel silicon gate technology. The architecture of the 8008 was created by CTC, Inc., with the purpose of powering the Datapoint 2200 intelligent terminal. F. Faggin was the project leader, H. Feeney did the detailed chip design.
+The Intel 4040 microprocessor (1974) was a much improved, software-compatible version of the 4004 CPU allowing it to interface directly with standard memories and I/O devices. Federico Faggin designed the 4040s architecture, and supervised Tom Innes's design work on details.
+The Intel 8080 microprocessor (1974) was the first high-performance 8-bit microprocessor, using the faster n-channel silicon gate technology. The 8080 was conceived by F. Faggin and designed by M. Shima under Faggin’s supervision. The 8080 was a major improvement over the 8008 architecture, yet it retained software compatibility with it. It was much faster and easier to interface to external memory and I/O devices than the 8008. The high performance and low cost of the 8080 allowed for the first time the use of microprocessors for many new applications, including the forerunners of the personal computer. US patent 4,010,440
+
+
+=== Zilog ===
+The Zilog Z80 microprocessor (1976). The Z80-CPU was a major improvement over the 8080, yet it retained software compatibility with it. Much faster and with more than twice as many registers and instructions of the 8080, it was part of a family of components that included several intelligent peripherals (the Z80-PIO, a programmable parallel input-output controller; the Z80-CTC, a programmable counter-timer; the Z80-SIO, programmable serial communications interface controller, and the Z80-DMA, programmable direct memory access controller). This chip family allowed the design of powerful and low-cost microcomputers with performance similar to minicomputers. The Z80-CPU had a substantially better bus structure and interrupt structure than the 8080 and could interface directly with dynamic RAM, since it included an internal memory-refresh controller. The Z80 was used in many of the early personal computers. Co-founder of Zilog with Ralph Ungermann, and CEO from its inception in November 1974 until the end of 1980, F. Faggin conceived and designed the Z80-CPU and its family of parts. He also co-designed the CPU, whose project leader was M. Shima. The Z80 was still in high-volume production in 1992 as a core in various system on a chip.
+The Zilog Z8 microcontroller (1978) was one of the first single-chip computers in the market. It integrated an 8-bit CPU, RAM, ROM and I/O facilities, sufficient for many control applications. Faggin conceived the Z8 in 1974, soon after he founded Zilog. The Z8 was designed in 1976–78 and was still in high-volume production in 2009.
+
+
+=== Communication CoSystem ===
+The Communication CoSystem (1984). The Cosystem was conceived by F. Faggin and designed and produced by Cygnet Technologies, Inc., the second startup company of Faggin. Attached to a personal computer and to a standard phone line, the CoSystem could automatically handle all the personal voice and data communications of the user, including electronic mail, data-base access, computer screen transfers during a voice communication, call record keeping, etc. The patent covering the CoSystem is highly cited in the personal communication field.
+
+
+=== Synaptics ===
+As cofounder, president and CEO of Synaptics, F. Faggin contributed also to the creation of the Synaptics I1000, the world’s first single-chip optical character recognizer (1991), and the Synaptics Touchpad (1994) and Touchscreen (1998). F. Faggin is a co-inventor of 10 patents assigned to Synaptics.
+
+
+=== Foveon ===
+During his tenure as president and CEO of Foveon, from 2003 to 2008, Faggin revitalized the company and provided a new technological and business direction resulting in image sensors superior in all critical parameters to the best sensors of the competition, while using approximately half the chip size of competing devices. Faggin also oversaw the successful acquisition of Foveon by the Japanese Sigma Corporation in November 2008.
+
+
+=== Federico and Elvia Faggin Foundation ===
+Founded in 2011 the “Federico and Elvia Faggin Foundation” supports the scientific study of consciousness at US universities and research institutes. The purpose of the Foundation is to advance the understanding of consciousness through theoretical and experimental research. Faggin’s interest in consciousness has his roots in the study of artificial neural networks at Synaptics, a company he started in 1986, that prompted his inquiry into whether or not it is possible to build a conscious computer. [1]
+
+
+== Papers ==
+On the silicon gate technology and the Fairchild 3708
+Faggin, F., Klein, T., and Vadasz, L. :"Insulated Gate Field Effect Transistor Integrated Circuits with Silicon Gates". The Silicon Gate Technology with self-aligned gates was presented by its developer Federico Faggin at the IEEE International Electron Device Meeting on October 23, 1968 in Washington D.C.. This new technology empowered the design of dynamic RAM memories, non-volatile memories, CCD sensors and the microprocessor.
+Federico Faggin and Thomas Klein.: "A Faster Generation of MOS Devices with Low Thresholds is Riding the Crest of the New Wave, Silicon-Gate IC's". The article published in Electronics (September 29, 1969) introduces the Fairchild 3708, the world's first commercial integrated circuit using Silicon Gate Technology, designed by Federico Faggin at Fairchild in 1968.
+F. Faggin, T. Klein: "Silicon-Gate Technology". "Solid State Electronics", 1970, Vo. 13, pp. 1125–1144
+On the 4004 microprocessor
+F. Faggin and M. E. Hoff: "Standard Parts and Custom Design Merge in a Four-chip Processor Kit". Electronics, April 24, 1972
+F. Faggin, et al.: "The MCS-4 An LSI Microcomputer System". IEEE 1972 Region Six Conference
+
+
+== Articles ==
+"The Birth of the Microprocessor" by Federico Faggin. Byte, March 1992, Vol.17 No.3, pp. 145–150.
+“The History of the 4004” by Federico Faggin, Marcian E. Hoff Jr., Stanley Mazor, Masatoshi Shima. IEEE Micro, December 1996, Volume 16 Number 6.
+"The 4004 microprocessor of Faggin, Hoff, Mazor, and Shima". IEEE Solid State Circuits Magazine, Winter 2009 Vol.1 No.1.
+
+
+== Awards ==
+
+Source: the book written by Angelo Gallippi titled: Faggin, Il padre del chip intelligente (Faggin, the father of the intelligent chip). Editor Adnkronos, Rome, first edition September 2002, covers the above-mentioned awards (pp. 279–285). Its second edition, February 2012, titled Federico Faggin, il padre del microprocessor (Federico Faggin, the father of the microprocessor). Editor Tecniche nuove, Milan, covers also the topic of Faggin’s interest in consciousness and his Federico and Elvia Faggin Foundation (pp. 182–187). Angelo Gallippi, a physicist, has been teaching Scientific and Technical Communication at the University La Sapienza in Rome. He is author of a dozen books and of an English-Italian Dictionary of informatics and multimedia (text translated from book cover in Italian)
+2012: Global Information Technology Award from the President of the Republic of Armenia.
+2012: Honorary Ph.D from the Polytechnic University (Armenia)
+2012: Premio Franca Florio, given by Ministro Francesco Profumo and Prof. Ing. Patrizia Livreri
+2013: Honorary Ph.D in science from Chapman University (CA) - Video on commencement address by Federico Faggin at Chapman University Schmidt School of Science
+2014: Enrico Fermi Award, given by the Italian Society of Physics: "For the invention of the MOS silicon gate technology that led him to the realization in 1971 of the first modern microprocessor."
+
+
+== References ==
+
+
+== External links ==
+"Executive Profile" from Foveon.com
+IEEE Global History Network Biography of Federico Faggin
+Oral History of Federico Faggin Computer History Museum. Recorded 2004-05
+Busicom Calculator Engineering Prototype (Gift of Federico Faggin to the Computer History Museum, Mountain View, California).
+Video of the Intel Intellec 4 microcomputer on YouTube
+"Computers Still No Match for Human Intelligence" Video and article interview with Federico Faggin 40 years after the release of the Intel 4004 microprocessor

@@ -1,0 +1,17 @@
+Availability factor
+The availability factor of a power plant is the amount of time that it is able to produce electricity over a certain period, divided by the amount of the time in the period. Occasions where only partial capacity is available may or may not be deducted. Where they are, the metric is titled Equivalent Availability Factor (EAF). The Availability Factor should not be confused with the capacity factor. The Capacity Factor for a period will always be less than the Equivalent Availability Factor for the same period. The difference depends on the utilization of the power plant.
+The availability of a power plant varies greatly depending on the type of fuel, the design of the plant and how the plant is operated. Everything else being equal, plants that are run less frequently have higher availability factors because they require less maintenance. Most thermal power stations, such as coal, geothermal and nuclear power plants, have availability factors between 70% and 90%. Newer plants tend to have significantly higher availability factors, but preventive maintenance is as important as improvements in design and technology. Gas turbines have relatively high availability factors, ranging from 80% to 99%. Gas turbines are commonly used for peaking power plants, co-generation plants and the first stage of combined cycle plants.
+The availability factor of wind and solar power plants depends on whether periods when the plant is operational, but there is no wind or sunlight, are counted as available, unavailable or disregarded. If they are only counted as available during favorable times, photovoltaic plants have an availability factor approaching or equal to 100%. Modern wind turbines also have very high availability factors, about 98%. However, solar and wind plants have relatively low capacity factors. Wind capacity factors range from 20-40% and solar capacity factors in Arizona are about 19%. This makes wind and solar availability factors much lower if times when sunlight or wind are not available are taken into account.
+
+
+== References ==
+Institute of Electrical and Electronics Engineers. Std 762-2006 - IEEE Standard Definitions for Use in Reporting Electric Generating Unit Reliability, Availability, and Productivity
+
+
+== See also ==
+Availability (Reliability Engineering)
+Capacity factor
+Generating Availability Data System (Electricity Industry)
+List of energy storage projects
+Utilization factor
+Forced outage rate

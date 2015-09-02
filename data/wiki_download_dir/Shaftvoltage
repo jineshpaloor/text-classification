@@ -1,0 +1,42 @@
+Shaft voltage
+Shaft voltage occurs in electric motors and generators due to leakage, induction, or capacitive coupling with the windings of the motor. It can occur in motors powered by variable-frequency drives, as often used in heating, ventilation, air conditioning and refrigeration systems. DC machines may have leakage current from the armature windings that energizes the shaft. Currents due to shaft voltage causes deterioration of motor bearings, but can be prevented with a grounding brush on the shaft, grounding of the motor frame, insulation of the bearing supports, or shielding.
+Shaft voltage can be induced by non-symmetrical magnetic fields of the motor (or generator) itself. External sources of shaft voltage include other coupled machines, and electrostatic charging due to rubber belts rubbing on drive pulleys.
+Every rotor has some degree of capacitive coupling to the motor's electrical windings, but the effective inline capacitor acts as a high-pass filter, so the coupling is often weak at 50–60 Hz line frequency. But many Variable Frequency Drives (VFD) induce significant voltage onto the shaft of the driven motor, because of the kilohertz switching of the insulated gate bipolar transistors (IGBTs), which produce the pulse width modulation used to control the motor. The presence of high frequency ground currents can cause sparks, arcing and electrical shocks and can damage bearings.
+
+
+== Counter-measures ==
+Techniques used to minimise this problem include: insulation, alternate discharge paths, Faraday shield, insulated bearings, ceramic bearings, grounding brush  and shaft grounding ring.
+
+
+=== Faraday shield ===
+
+An electrostatic shielded induction motor (ESIM) is one approach to the shaft-voltage problem, as the insulation reduces voltage levels below the dielectric breakdown. This effectively stops bearing degradation and offers one solution to accelerated bearing wear caused by fluting, induced by pulsewidth modulated (PWM) inverters.
+
+
+=== Grounding brush ===
+Grounding the shaft by installing a grounding device provides an alternate low-impedance path from the motor shaft to the motor case. This channels the current away from the bearings. It significantly reduces shaft voltage, and therefore bearing current, by not allowing voltage to build up on the rotor.
+
+
+=== Shaft grounding ring ===
+A shaft grounding ring (SGR) is similar to a grounding brush, except that this brush makes use of conductive micro fibers, creating a low impedance path from the motor shaft to ground.
+
+
+=== Insulated bearings ===
+Insulated bearings eliminate the path to ground through the bearing for current to flow. However, installing insulated bearings does not eliminate the shaft voltage, which will still find the lowest impedance path to ground. This can potentially cause a problem if the path happens to be through the driven load or through some other component.
+
+
+=== Shielded cable ===
+
+High frequency grounding can be significantly improved by installing shielded cable with an extremely low impedance path between the VFD and the motor. One popular cable type is continuous corrugated aluminum sheath cable.
+
+
+== See also ==
+Stray voltage
+
+
+== References ==
+
+
+== External links ==
+"Technical guide No. 5 – Bearing currents in modern AC drive systems" (PDF). Retrieved May 23, 2011. 
+A Unique System for Reducing High Frequency Stray Noise and Transient Common Mode Ground Currents to Zero, While Enhancing Other Ground Issues Meeting Notices and Rule Changes from Electrical Manufacturing and Coil Winding

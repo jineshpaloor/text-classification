@@ -1,0 +1,34 @@
+Interrupter
+An interrupter in electrical engineering is a device used to interrupt the flow of a steady direct current for the purpose of converting a steady electric field into a changing one. Frequently, the interrupter is used in conjunction with a coil to produce increased voltages either by a back emf effect or through transformer action in an induction coil.
+
+
+== Medical use ==
+
+
+=== Bird's interrupter ===
+The physician Golding Bird designed his own interrupter circuit for delivering shocks to patients from a voltaic cell through an induction coil. Previously, the interrupter had been a mechanical device requiring the physician to manually turn a cog wheel, or else employ an assistant to do this. Bird wished to free his hands to better apply the electricity to the required part of the patient. His interrupter worked automatically by magnetic induction and achieved a switching rate of around 5 Hz (five times per second). The faster the interrupter switches, the more frequently an electric shock is delivered to the patient and the aim is to make this as high as possible.
+
+
+=== Page's interrupter ===
+A rather more cumbersome interrupter was constructed by the American Charles Page slightly earlier in 1838 but Bird's work was entirely independent. Although there is little in common between the two interrupter designs, Page takes the credit for being the first to use permanent magnets in an automatic interrupter circuit. Bird's (and Page's) interrupter had the medically disadvantageous feature that current was supplied in opposite directions during the make and break operations, although the current was substantially less during the make operation than the break (current is only supplied at all while the switch is dynamically changing). Treatment often required that current was supplied in one specified direction only.
+
+
+=== Letheby's interrupter ===
+A modified version of the interrupter was produced by Henry Letheby which could output only the make, or only the break currents by a mechanism consisting of two spoked wheels. Bird also produced a uni-directional interrupter using a mechanism we would now call split-rings. The date of Bird's design is uncertain but may predate Letheby's. Both designs suffered from the disadvantage that automatic operation was lost and the interrupter had to once again be hand-cranked. Nevertheless, this arrangement remained a cheaper option than electromagnetic generators for some time.
+
+
+=== Other designs ===
+Other early interrupters worked by clockwork mechanisms or (non-magnetic) reed switches operated by motion of the patient's limbs. One example of such a device is found in the Pulvermacher chain.
+
+
+== References ==
+
+
+== Bibliography ==
+Bird, Golding "Observations on induced electric currents, with a description of a magnetic contact-breaker", Philosophical Magazine, pp. 18–22, no.71, vol.12, January 1838.
+Bird, Golding Lectures on Electricity and Galvanism, in their physiological and therapeutical relations, Wilson & Ogilvy, London, 1847.
+Coley, N. G. "The collateral sciences in the work of Golding Bird (1814–1854)", Medical History, vol.13, iss.4, pp. 363–376, October 1969.
+Morus, Iwan Rhys Frankenstein's Children: Electricity, Exhibition, and Experiment in Early-nineteenth-century London, Princeton University Press, 1998 ISBN 0-691-05952-7.
+Lardner, Dionysius Electricity, Magnetism, and Acoustics, London: Spottiswoode & Co. 1856.
+Letheby, Henry "A description of a new electro-magnetic machine adapted so as to give a succession of shocks in one direction", London Medical Gazette, pp. 858–859, 13 November 1846.
+Pulvermacher, Isaac Lewis "Improvement in voltaic batteries and apparatus for medical and other purposes", U.S. Patent 9,571, issued 1 February 1853.

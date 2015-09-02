@@ -1,0 +1,123 @@
+Asynchronous circuit
+An asynchronous circuit, or self-timed circuit, is a sequential digital logic circuit which is not governed by a clock circuit or global clock signal. Instead they often use signals that indicate completion of instructions and operations, specified by simple data transfer protocols. This type is contrasted with a synchronous circuit in which changes to the signal values in the circuit are triggered by repetitive pulses called a clock signal. Most digital devices today use synchronous circuits. However asynchronous circuits have the potential to be faster, and may also have advantages in lower power consumption, lower electromagnetic interference, and better modularity in large systems. Asynchronous circuits are an active area of research in digital logic design.
+
+
+== Synchronous vs asynchronous logic ==
+Digital logic circuits can be divided into combinational logic, in which the output signals depend only on the current input signals, and sequential logic, in which the output depends both on current input and the past history of inputs. In other words, sequential logic is combinational logic with memory. Virtually all practical digital devices require sequential logic. Sequential logic can be divided into two types, synchronous logic and asynchronous logic.
+In synchronous logic circuits, an electronic oscillator generates a repetitive series of equally spaced pulses called the clock signal. The clock signal is applied to all the memory elements in the circuit, called flip-flops. The output of the flip-flops only change when triggered by the edge of the clock pulse, so changes to the logic signals throughout the circuit all begin at the same time, at regular intervals synchronized by the clock. The outputs of all the memory elements in a circuit is called the state of the circuit. The state of a synchronous circuit changes only on the clock pulse. The changes in signal require a certain amount of time to propagate through the combinational logic gates of the circuit. This is called propagation delay. The period of the clock signal is made long enough so the output of all the logic gates have time to settle to stable values before the next clock pulse. As long as this condition is met, synchronous circuits will operate stably, so they are easy to design.
+However a disadvantage of synchronous circuits is that they can be slow. The maximum possible clock rate is determined by the logic path with the longest propagation delay, called the critical path. So logic paths that complete their operations quickly are idle much of the time. Another problem is that the widely distributed clock signal takes a lot of power, and must run whether the circuit is receiving inputs or not.
+In asynchronous circuits, there is no clock, and the state of the circuit changes as soon as the input changes. Since they don't have to wait for a clock pulse to begin processing inputs, asynchronous circuits can be faster than synchronous circuits, and their speed is theoretically limited only by the propagation delays of the logic gates. However, asynchronous circuits are more difficult to design and subject to problems not found in synchronous circuits. This is because the resulting state of an asynchronous circuit can be sensitive to the relative arrival times of inputs at gates. If transitions on two inputs arrive at almost the same time, the circuit can go into the wrong state depending on slight differences in the propagation delays of the gates. This is called a race condition. In synchronous circuits this problem is less severe because race conditions can only occur due to inputs from outside the synchronous system, asynchronous inputs. Although some fully asynchronous digital systems have been built (see below), today asynchronous circuits are typically used in a few critical parts of otherwise synchronous systems where speed is at a premium, such as signal processing circuits.
+
+
+== Theoretical foundation ==
+The term asynchronous logic is used to describe a variety of design styles, which use different assumptions about circuit properties. These vary from the bundled delay model – which uses 'conventional' data processing elements with completion indicated by a locally generated delay model – to delay-insensitive design – where arbitrary delays through circuit elements can be accommodated. The latter style tends to yield circuits which are larger than bundled data implementations, but which are insensitive to layout and parametric variations and are thus "correct by design".
+Asynchronous logic is the logic required for the design of asynchronous digital systems. These function without a clock signal and so individual logic elements cannot be relied upon to have a discrete true/false state at any given time. Boolean logic is inadequate for this and so extensions are required. Karl Fant developed a theoretical treatment of this in his work Logically determined design in 2005 which used four-valued logic with null and intermediate being the additional values. This architecture is important because it is quasi-delay insensitive. Scott Smith and Jia Di developed an ultra-low-power variation of Fant's Null Convention Logic that incorporates multi-threshold CMOS. This variation is termed Multi-threshold Null Convention Logic (MTNCL), or alternatively Sleep Convention Logic (SCL). Vadim Vasyukevich developed a different approach based upon a new logical operation which he called venjunction. This takes into account not only the current value of an element, but also its history.
+Petri nets are an attractive and powerful model for reasoning about asynchronous circuits. However, Petri nets have been criticized for their lack of physical realism (see Petri net: Subsequent models of concurrency). Subsequent to Petri nets other models of concurrency have been developed that can model asynchronous circuits including the Actor model and process calculi.
+
+
+== Benefits ==
+A variety of advantages have been demonstrated by asynchronous circuits, including both Quasi Delay Insensitive (QDI) circuits (generally agreed to be the most "pure" form of asynchronous logic that retains computational universality) and less pure forms of asynchronous circuitry which use timing constraints for higher performance and lower area and power:
+Robust handling of metastability of arbiters.
+Higher performance function units, which provide average-case (i.e. data-dependent) completion rather than worst-case completion. Examples include speculative completion which has been applied to design parallel prefix adders faster than synchronous ones, and a high-performance double-precision floating point adder' which outperforms leading synchronous designs.
+Early completion of a circuit when it is known that the inputs which have not yet arrived are irrelevant.
+Lower power consumption because no transistor ever transitions unless it is performing useful computation. Epson has reported 70% lower power consumption compared to synchronous design. Also, clock drivers can be removed which can significantly reduce power consumption. However, when using certain encodings, asynchronous circuits may require more area, which can result in increased power consumption if the underlying process has poor leakage properties (for example, deep submicrometer processes used prior to the introduction of High-k dielectrics).
+"Elastic" pipelines, which achieve high performance while gracefully handling variable input and output rates and mismatched pipeline stage delays.
+Freedom from the ever-worsening difficulties of distributing a high-fan-out, timing-sensitive clock signal.
+Better modularity and composability.
+Far fewer assumptions about the manufacturing process are required (most assumptions are timing assumptions).
+Circuit speed adapts to changing temperature and voltage conditions rather than being locked at the speed mandated by worst-case assumptions.
+Immunity to transistor-to-transistor variability in the manufacturing process, which is one of the most serious problems facing the semiconductor industry as dies shrink.
+Less severe electromagnetic interference (EMI). Synchronous circuits create a great deal of EMI in the frequency band at (or very near) their clock frequency and its harmonics; asynchronous circuits generate EMI patterns which are much more evenly spread across the spectrum.
+In asynchronous circuits, local signaling eliminates the need for global synchronization which exploits some potential advantages in comparison with synchronous ones. They have shown potential specifications in low power consumption, design reuse, improved noise immunity and electromagnetic compatibility. Asynchronous circuits are more tolerant to process variations and external voltage fluctuations.
+Less stress on the power distribution network. Synchronous circuits tend to draw a large amount of current right at the clock edge and shortly thereafter. The number of nodes switching (and thence, amount of current drawn) drops off rapidly after the clock edge, reaching zero just before the next clock edge. In an asynchronous circuit, the switching times of the nodes are not correlated in this manner, so the current draw tends to be more uniform and less bursty.
+
+
+== Disadvantages ==
+Area overhead may be up to double the number of circuit elements (transistors), due to addition of completion detection and design-for-test circuits.
+Fewer people are trained in this style compared to synchronous design.
+Synchronous designs are inherently easier to test and debug than asynchronous designs.
+Clock gating in more conventional synchronous designs is an approximation of the asynchronous ideal, and in some cases, its simplicity may outweigh the advantages of a fully asynchronous design.
+Performance (speed) of asynchronous circuits may be reduced in architectures that require input-completeness (more complex data path).
+Incompatible with commercial EDA tools 
+
+
+== Communication protocols ==
+There are several ways to create asynchronous communication channels. Usually, the sender signals the availability of data with a request, Req, and the receiver indicates completion with an acknowledgement signal, Ack, indicating that it is able to process new requests; this process is called a handshake. The differences lie in the way this signals are coded.
+
+
+=== Protocols ===
+There are two protocol families in asynchronous circuits, which differ in the way events are encoded:
+They may be represented by any transition on a wire, from 0 to 1 as well as 1 to 0. This is called transition signalling, the two-phase protocol, a half-handshake or Non-Return-to-Zero encoding
+Or the signals may require a reset before other operations are performed. For example, the sender resets the request wires once the acknowledgement is received, and the receiver resets the acknowledgement afterwards. This is the four-phase protocol, four-phase handshake, or Return-to-Zero encoding. Despite being apparently more complicated, the circuit-level implementations are usually faster and simpler.
+This basic distinction doesn't account for the wide variety of protocols. These events may encode requests and acknowledgements only or encode the data, which leads to the popular multi-wire encodings. A lot of other, less common protocols have been proposed. Those include using a single wire for request and acknowledgment, using several significant voltages, using only pulses or balance timings in order to remove the latches.
+
+
+=== Data encoding ===
+There are several ways to encode data in asynchronous circuits. The most obvious encoding, similar to what can be found in synchronous circuits, is the bundled-data encoding, which uses one wire per bit of data and a separate request wire. Another common way to encode the data is to use multiple wires to encode a single digit: the value is determined by the wire on which the event occurs. This avoids some of the delay assumptions necessary with bundled-data encoding, since the request and the data are not separated anymore.
+
+
+==== Bundled-data encoding ====
+This is the same encoding as in synchronous circuits: it uses one wire per data bit. The request and the acknowledgement are sent on separate wires with various protocols. These circuits usually assume a bounded delay model, the completion signals being delayed long enough for the calculations to take place.
+Such circuits are often referred to as micropipelines, whether they use a two-phase or four-phase protocol, even if the word was initially introduced for two-phase bundled-data.
+
+
+==== Multi-rail encoding ====
+Here, the request isn't sent on a dedicated wire: it is implicit, when a transition happens on one wire. Any m of n encoding can be used, where a digit is represented by m transitions on n wires, and the reception of these transitions is equivalent to a request, with the advantage that this communication is delay-insensitive. Usually, a one-hot (1 of n) encoding is preferred. They can represent a digit in radix n.
+Dual-rail encoding is by far the most common, mostly with a four-phase protocol which is also called three-state encoding, since it has two valid states (10 and 01, after a transition) and a reset state (00). Another common encoding, which leads to simpler implementation than one-hot two-phase dual-rail, is four state encoding, or level encoded dual-rail, which uses a data bit and a parity bit to achieve a two-phase protocol.
+
+
+== Asynchronous CPU ==
+Asynchronous CPUs are one of several ideas for radically changing CPU design.
+Unlike a conventional processor, a clockless processor (asynchronous CPU) has no central clock to coordinate the progress of data through the pipeline. Instead, stages of the CPU are coordinated using logic devices called "pipeline controls" or "FIFO sequencers." Basically, the pipeline controller clocks the next stage of logic when the existing stage is complete. In this way, a central clock is unnecessary. It may actually be even easier to implement high performance devices in asynchronous, as opposed to clocked, logic:
+components can run at different speeds on an asynchronous CPU; all major components of a clocked CPU must remain synchronized with the central clock;
+a traditional CPU cannot "go faster" than the expected worst-case performance of the slowest stage/instruction/component. When an asynchronous CPU completes an operation more quickly than anticipated, the next stage can immediately begin processing the results, rather than waiting for synchronization with a central clock. An operation might finish faster than normal because of attributes of the data being processed (e.g., multiplication can be very fast when multiplying by 0 or 1, even when running code produced by a naive compiler), or because of the presence of a higher voltage or bus speed setting, or a lower ambient temperature, than 'normal' or expected.
+Asynchronous logic proponents believe these capabilities would have these benefits:
+lower power dissipation for a given performance level, and
+highest possible execution speeds.
+The biggest disadvantage of the clockless CPU is that most CPU design tools assume a clocked CPU (i.e., a synchronous circuit). Many tools "enforce synchronous design practices". Making a clockless CPU (designing an asynchronous circuit) involves modifying the design tools to handle clockless logic and doing extra testing to ensure the design avoids metastable problems. The group that designed the AMULET, for example, developed a tool called LARD to cope with the complex design of AMULET3.
+Despite the difficulty of doing so, numerous asynchronous CPUs have been built, including:
+the ORDVAC and the (identical) ILLIAC I (1951)
+the Johnniac (1953)
+the WEIZAC (1955)
+the ILLIAC II (1962)
+The Victoria University of Manchester built Atlas
+The Honeywell CPUs 6180 (1972) and Series 60 Level 68 (1981) upon which Multics ran asynchronously
+Soviet bit-slice microprocessor modules (late 1970th)  produced as К587, К588  and К1883 (U83x in East Germany) 
+The Caltech Asynchronous Microprocessor, the world-first asynchronous microprocessor (1988);
+the ARM-implementing AMULET (1993 and 2000);
+the asynchronous implementation of MIPS R3000, dubbed MiniMIPS (1998);
+several versions of the XAP processor experimented with different asynchronous design styles: a bundled data XAP, a 1-of-4 XAP, and a 1-of-2 (dual-rail) XAP (2003?);
+an ARM-compatible processor (2003?) designed by Z. C. Yu, S. B. Furber, and L. A. Plana; "designed specifically to explore the benefits of asynchronous design for security sensitive applications";
+the "Network-based Asynchronous Architecture" processor (2005) that executes a subset of the MIPS architecture instruction set;
+the ARM996HS processor (2006) from Handshake Solutions
+the HT80C51 processor (2007???) from Handshake Solutions
+the SEAforth multi-core processor (2008) from Charles H. Moore.
+the GA144 multi-core processor (2010) from Charles H. Moore.
+The ILLIAC II was the first completely asynchronous, speed independent processor design ever built; it was the most powerful computer at the time.
+DEC PDP-16 Register Transfer Modules (ca. 1973) allowed the experimenter to construct asynchronous, 16-bit processing elements. Delays for each module were fixed and based on the module's worst-case timing.
+The Caltech Asynchronous Microprocessor (1988) was the first asynchronous microprocessor (1988). Caltech designed and manufactured the world's first fully Quasi Delay Insensitive processor. During demonstrations, the researchers amazed viewers by loading a simple program which ran in a tight loop, pulsing one of the output lines after each instruction. This output line was connected to an oscilloscope. When a cup of hot coffee was placed on the chip, the pulse rate (the effective "clock rate") naturally slowed down to adapt to the worsening performance of the heated transistors. When liquid nitrogen was poured on the chip, the instruction rate shot up with no additional intervention. Additionally, at lower temperatures, the voltage supplied to the chip could be safely increased, which also improved the instruction rate—again, with no additional configuration.
+In 2004, Epson manufactured the world's first bendable microprocessor called ACT11, an 8-bit asynchronous chip. Synchronous flexible processors are slower, since bending the material on which a chip is fabricated causes wild and unpredictable variations in the delays of various transistors, for which worst-case scenarios must be assumed everywhere and everything must be clocked at worst-case speed. The processor is intended for use in smart cards, whose chips are currently limited in size to those small enough that they can remain perfectly rigid.
+In 2014, IBM announced a SyNAPSE-developed chip that runs in an asynchronous manner, with one of the highest transistor counts of any chip ever produced. IBM's chip consumes orders of magnitude less power than traditional computing systems on pattern recognition benchmarks.
+
+
+== See also ==
+Sequential logic (asynchronous)
+
+
+== References ==
+
+
+== External links ==
+TiDE from Handshakesolutions in The Netherlands, Commercial asynchronous circuits design tool. Commercial asynchronous ARM(ARM996HS) and 8051(HT80C51) are available.
+S.M. Nowick and M. Singh, High-Performance Asynchronous Pipelines: an Overview, IEEE Design and Test of Computers, special issue on asynchronous design, vol. 28:5, pp. 8–22 (September/October 2011). Provides a good basic introduction to asynchronous design, handshaking protocols, data encoding techniques, industrial developments, as well as a technical overview of several leading high-performance pipelines, and their recent use at Intel, Achronix Semiconductor, and other companies.
+An introduction to asynchronous circuit design by Davis and Nowick
+Asynchronous logic elements. Venjunction and sequention by V. O. Vasyukevich
+Null convention logic, a design style pioneered by Theseus Logic, who have fabricated over 20 ASICs based on their NCL08 and NCL8501 microcontroller cores [1]
+The Status of Asynchronous Design in Industry Information Society Technologies (IST) Programme, IST-1999-29119, D. A. Edwards W. B. Toms, June 2004, via www.scism.lsbu.ac.uk
+The Red Star is a version of the MIPS R3000 implemented in asynchronous logic
+The Amulet microprocessors were asynchronous ARMs, built in the 1990s at University of Manchester, England
+The N-Protocol developed by Navarre AsyncArt, the first commercial asynchronous design methodology for conventional FPGAs.
+PGPSALM an asynchronous implementation of the 6502 microprocessor
+Caltech Async Group home page
+Tiempo: French company providing asynchronous IP and design tools
+Epson ACT11 Flexible CPU Press Release

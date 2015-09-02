@@ -1,0 +1,53 @@
+Structured cabling
+Structured cabling is building or campus telecommunications cabling infrastructure that consists of a number of standardized smaller elements (hence structured) called subsystems.
+
+
+== Subsystems ==
+Structured cabling falls into six subsystems:
+Entrance Facilities is the point where the telephone company network ends and connects with the on-premises wiring at the customer premises.
+Equipment Rooms house equipment and wiring consolidation points that serve the users inside the building or campus.
+Backbone Cabling connects between the equipment/telecommunications rooms, so named because the rooms are typically on different floors.
+Horizontal Cabling wiring can be IW (inside wiring) or Plenum Cabling and connects telecommunications rooms to individual outlets or work areas on the floor, usually through the wireways, conduits or ceiling spaces of each floor.
+Telecommunications Rooms or Telecommunications Enclosure connects between the backbone cabling and horizontal cabling.
+Work-Area Components connect end-user equipment to outlets of the horizontal cabling system.
+
+
+== Overview ==
+
+Structured cabling design and installation is governed by a set of standards that specify wiring data centers, offices, and apartment buildings for data or voice communications using various kinds of cable, most commonly category 5e (CAT-5e), category 6 (CAT-6), and fiber optic cabling and modular connectors. These standards define how to lay the cabling in various topologies in order to meet the needs of the customer, typically using a central patch panel (which is normally 19 inch rack-mounted), from where each modular connection can be used as needed. Each outlet is then patched into a network switch (normally also rack-mounted) for network use or into an IP or PBX (private branch exchange) telephone system patch panel.
+Lines patched as data ports into a network switch require simple straight-through patch cables at each end to connect a computer. Voice patches to PBXs in most countries require an adapter at the remote end to translate the configuration on 8P8C modular connectors into the local standard telephone wall socket. No adapter is needed in the U.S. as the 6P2C and 6P4C plugs most commonly used with RJ11 and RJ14 telephone connections are physically and electrically compatible with the larger 8P8C socket. RJ25 and RJ61 connections are physically but not electrically compatible, and cannot be used. In the UK, an adapter must be present at the remote end as the 6-pin BT socket is physically incompatible with 8P8C.
+It is common to color code patch panel cables to identify the type of connection, though structured cabling standards do not require it except in the demarcation wall field.
+Cabling standards demand that all eight conductors in Cat5/5e/6 cable are connected, resisting the temptation to 'double-up' or use one cable for both voice and data. IP phone systems, however, can run the telephone and the computer on the same wires.
+
+
+== Standards ==
+Network cabling standards are used internationally and are published by ISO/IEC, CENELEC and the Telecommunications Industry Association (TIA).
+Most European countries use CENELEC, IEC or ISO standards which are widely accepted in most parts of the world and internationally recognized, the main CENELEC document being EN50173, which introduces contextual links to the full suite of CENELEC documents. ISO/IEC 11801 heads the ISO/IEC documentation.
+Building Industry Consulting Service International is a recognised independent trainer of structured cabling installers with manufacturer independent design and installation best practice documents, it also plays a major role along with industry leaders in developing and designing the US standards:
+ANSI/TIA-568-C.0, Generic Telecommunications Cabling for Customer Premises, 2009
+ANSI/TIA-568-C.1, Commercial Building Telecommunications Cabling Standard, 2009
+ANSI/TIA-568-C.2, Balanced Twisted-Pair Telecommunication Cabling and Components Standard, published 2009
+ANSI/TIA-568-C.3, Optical Fiber Cabling Components Standard, published 2008, plus errata issued in October, 2008.
+TIA-569-B (2004; Amd 1 2009) Commercial Building Standard for Telecommunications Pathways and Spaces
+ANSI/TIA/EIA-606-A-2002, Administration Standard for Commercial Telecommunications Infrastructure.
+
+
+== See also ==
+ANSI
+ISO/IEC 11801, the International Electrotechnical Commission and International Organization for Standardization standard for generic cabling for premises
+On-premises wiring
+TIA/EIA-568, the Telecommunications Industry Association standard for telecommunications cabling in commercial premises
+Registered jack, a set of standards for telecommunications cabling termination (including RJ11, RJ15, and RJ45)
+Entrance facility
+110 Wiring Block
+
+
+== References ==
+
+
+== External links ==
+TIA
+ANSI
+BICSI
+EIA
+Fiber Optics LAN Section (FOLS)

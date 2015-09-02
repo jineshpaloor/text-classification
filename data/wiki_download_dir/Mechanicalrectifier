@@ -1,0 +1,28 @@
+Mechanical rectifier
+A mechanical rectifier is a device for converting alternating current (AC) to direct current (DC) by means of mechanically operated switches. The best-known type is the commutator, which is an integral part of a DC dynamo, but before solid-state devices became available, independent mechanical rectifiers were used for certain applications. Before the invention of semiconductors, rectification at high currents involved serious losses.
+There were various vacuum/gas devices, such as the mercury arc rectifiers, thyratrons, ignitrons, and vacuum diodes. Solid-state technology was in its infancy, represented by copper oxide and selenium rectifiers. All of these gave excessive forward voltage drop at high currents. One answer was mechanically opening and closing contacts, if this could be done quickly and cleanly enough.
+
+
+== Vibrator type ==
+This was the reverse of a vibrator inverter. An electromagnet, powered by DC through contacts it operated (like a buzzer) (or fed with AC), caused a spring to vibrate and the spring operated change-over contacts which converted the AC to DC. This arrangement was only suitable for low-power applications, e.g. auto radios and was also found in some motorcycle electrical systems, where it was combined with a voltage regulator.
+
+
+== Motor-driven type ==
+This operated on the same principle as the vibrator type but the change-over contacts were operated by a synchronous motor. It was suitable for high-power applications, e.g. electrolysis cells and electrostatic precipitators.
+
+
+=== Still rectifier ===
+A mechanical rectifier was patented in 1895 (US patent 547043) by William Joseph Still. The details are obscure but it appears from the diagram to be similar to a third-brush dynamo.
+
+
+=== BTH rectifier ===
+The machine shown in the reference  was designed by Read and Gimson et al., at British Thomson-Houston (BTH) Rugby, Warwickshire, England, in the early 1950s. It is a three-phase mechanical rectifier working at 220 volts and 15,000 amperes, and its application was the powering of huge banks of electrolysis cells.
+The central shaft was rotated by synchronous motor, driving an eccentric with a throw of about 2mm. (0.077 inch) Push-rods from this operated the contacts. The timing was critical, and was adjusted by rotating the position of the eccentric on its shaft, and by sliding wedges between the eccentric and push-rods.
+Crucial to this system were the commutating reactors, inductors that ensured the contacts closed when the voltage across them was small, and opened when the current was small. Without these, contact wear would have been intolerably heavy. These were series inductors that operated for most of the cycle with saturated cores. When the current decreased below that for saturation, their inductances reduced the current considerably. Contact switching was timed to occur while their cores were un-saturated.
+In the USA, similar rectifiers were made by the I-T-E circuit breaker company.
+This machinery was undoubtedly successful; its efficiency was determined to be 97.25%. Contact life was never fully determined but considerably exceeded 2000 hours. However, the rapid development of the silicon diode made it ultimately redundant.
+
+
+== References ==
+^ http://worldwide.espacenet.com/publicationDetails/originalDocument?CC=US&NR=547043A&KC=A&FT=D&ND=3&date=18951001&DB=EPODOC&locale=en_EP
+^ http://www.aqpl43.dsl.pipex.com/MUSEUM/POWER/mechrect/mechrect.htm

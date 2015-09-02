@@ -1,0 +1,221 @@
+Electric vehicle battery
+An electric vehicle battery (EVB) or traction battery is a battery used to power the propulsion of a battery electric vehicles (BEVs). Vehicle batteries are usually a secondary (rechargeable) battery. Traction batteries are used in forklifts, electric Golf carts, riding floor scrubbers, electric motorcycles, full-size electric cars, trucks, and vans, and other electric vehicles.
+Electric vehicle batteries differ from starting, lighting, and ignition (SLI) batteries because they are designed to give power over sustained periods of time. Deep cycle batteries are used instead of SLI batteries for these applications. Traction batteries must be designed with a high ampere-hour capacity. Batteries for electric vehicles are characterized by their relatively high power-to-weight ratio, energy to weight ratio and energy density; smaller, lighter batteries reduce the weight of the vehicle and improve its performance. Compared to liquid fuels, most current battery technologies have much lower specific energy; and this often impacts the maximum all-electric range of the vehicles. However, metal-air batteries have high specific energy because the cathode is provided by the surrounding oxygen in the air. Rechargeable batteries used in electric vehicles include lead-acid ("flooded", Deep cycle, and VRLA), NiCd, nickel metal hydride, lithium ion, Li-ion polymer, and, less commonly, zinc-air and molten salt batteries. The amount of electricity (i.e. electric charge) stored in batteries is measured in ampere hours or in coulombs, with the total energy often measured in watt hours.
+Rechargeable batteries are usually the most expensive component of BEVs, being about half the retail cost of the car. The cost of battery manufacture is substantial, but increasing returns to scale lower costs. Since the late 1990s, advances in battery technologies have been driven by demand for laptop computers and mobile phones, with consumer demand for more features, larger, brighter displays, and longer battery time driving research and development in the field. The BEV marketplace has reaped the benefits of these advances, but costs remain too high and, along with limited range, provide a key barrier to the use of rechargeable batteries in electric vehicles. We can however expect the cost to continue to decline. The cost of electric vehicle batteries has been reduced by more than 35% since 2008.
+Rechargeable traction batteries are routinely used all day, and fast–charged all night. Forklifts, for instance, are usually discharged and recharged every 24 hours of the work week.
+The predicted market for automobile traction batteries is over $37 billion in 2020.
+On an energy basis, the price of electricity to run an EV is a small fraction of the cost of liquid fuel needed to produce an equivalent amount of energy (energy efficiency). The cost of replacing the batteries dominates the operating costs.
+
+
+== Battery types ==
+
+
+=== Lead-acid ===
+
+Flooded lead-acid batteries are the cheapest and most common traction batteries available. There are two main types of lead-acid batteries: automobile engine starter batteries, and deep cycle batteries. Automobile alternators are designed to provide starter batteries high charge rates for fast charges, while deep cycle batteries used for electric vehicles like forklifts or golf carts, and as the auxiliary house batteries in RV's, require different multi-stage charging. No lead acid battery should be discharged below 50% of its capacity, as it shortens the battery's life. Flooded batteries require inspection of electrolyte level and occasional replacement of water which gases away during the normal charging cycle.
+Traditionally, most electric vehicles have used lead-acid batteries due to their mature technology, high availability, and low cost (exception: some early EVs, such as the Detroit Electric, used a nickel-iron battery.) Like all batteries, these have an environmental impact through their construction, use, disposal or recycling. On the upside, vehicle battery recycling rates top 95% in the United States. Deep-cycle lead batteries are expensive and have a shorter life than the vehicle itself, typically needing replacement every 3 years.
+Lead-acid batteries in EV applications end up being a significant (25–50%) portion of the final vehicle mass. Like all batteries, they have significantly lower energy density than petroleum fuels—in this case, 30–40 Wh/kg. While the difference isn't as extreme as it first appears due to the lighter drive-train in an EV, even the best batteries tend to lead to higher masses when applied to vehicles with a normal range. The efficiency (70–75%) and storage capacity of the current generation of common deep cycle lead acid batteries decreases with lower temperatures, and diverting power to run a heating coil reduces efficiency and range by up to 40%. Recent advances in battery efficiency, capacity, materials, safety, toxicity and durability are likely to allow these superior characteristics to be applied in car-sized EVs.
+Charging and operation of batteries typically results in the emission of hydrogen, oxygen and sulfur, which are naturally occurring and normally harmless if properly vented. Early Citicar owners discovered that, if not vented properly, unpleasant sulfur smells would leak into the cabin immediately after charging.
+Lead-acid batteries powered such early-modern EVs as the original versions of the EV1 and the RAV4EV.
+
+
+=== Nickel metal hydride ===
+
+Nickel-metal hydride batteries are now considered a relatively mature technology. While less efficient (60–70%) in charging and discharging than even lead-acid, they boast an energy density of 30–80 Wh/kg, far higher than lead-acid. When used properly, nickel-metal hydride batteries can have exceptionally long lives, as has been demonstrated in their use in hybrid cars and surviving NiMH RAV4EVs that still operate well after 100,000 miles (160,000 km) and over a decade of service. Downsides include the poor efficiency, high self-discharge, very finicky charge cycles, and poor performance in cold weather.
+GM Ovonic produced the NiMH battery used in the second generation EV-1, and Cobasys makes a nearly identical battery (ten 1.2 V 85 Ah NiMH cells in series in contrast with eleven cells for Ovonic battery). This worked very well in the EV-1. Patent encumbrance has limited the use of these batteries in recent years.
+
+
+=== Zebra ===
+
+The sodium or "zebra" battery uses a molten chloroaluminate sodium (NaAlCl4) as the electrolyte. This chemistry is also occasionally referred to as "hot salt". A relatively mature technology, the Zebra battery boasts an energy density of 120Wh/kg and reasonable series resistance. Since the battery must be heated for use, cold weather doesn't strongly affect its operation except for in increasing heating costs. They have been used in several EVs. Zebras can last for a few thousand charge cycles and are nontoxic. The downsides to the Zebra battery include poor power density (<300 W/kg) and the requirement of having to heat the electrolyte to about 270 °C (520 °F), which wastes some energy and presents difficulties in long-term storage of charge.
+Zebra batteries have been used in the Modec commercial vehicle since it entered production in 2006.
+
+
+=== Lithium ion ===
+
+Lithium-ion (and similar lithium polymer) batteries, widely known through their use in laptops and consumer electronics, dominate the most recent group of EVs in development. The traditional lithium-ion chemistry involves a lithium cobalt oxide cathode and a graphite anode. This yields cells with an impressive 200+ Wh/kg energy density and good power density, and 80 to 90% charge/discharge efficiency. The downsides of traditional lithium-ion batteries include short cycle lives (hundreds to a few thousand charge cycles) and significant degradation with age. The cathode is also somewhat toxic. Also, traditional lithium-ion batteries can pose a fire safety risk if punctured or charged improperly. These laptop cells don't accept or supply charge when cold, and so heaters can be necessary in some climates to warm them. The maturity of this technology is moderate. The Tesla Roadster uses "blades" of traditional lithium-ion "laptop battery" cells that can be replaced individually as needed.
+Most other EVs are utilizing new variations on lithium-ion chemistry that sacrifice energy and power density to provide fire resistance, environmental friendliness, very rapid charges (as low as a few minutes), and very long lifespans. These variants (phosphates, titanates, spinels, etc.) have been shown to have a much longer lifetime, with A123 expecting their lithium iron phosphate batteries to last for at least 10+ years and 7000+ charge cycles, and LG Chem expecting their lithium-manganese spinel batteries to last up to 40 years.
+Much work is being done on lithium ion batteries in the lab. Lithium vanadium oxide has already made its way into the Subaru prototype G4e, doubling energy density. Silicon nanowires, silicon nanoparticles, and tin nanoparticles promise several times the energy density in the anode, while composite and superlattice cathodes also promise significant density improvements.
+
+
+== Battery cost ==
+
+In 2010, scientists at Technical University of Denmark paid $10,000 for a certified EV battery with 25kWh capacity, with no rebates or overprice. Two out of 15 battery producers could supply the necessary technical documents about quality and fire safety. Estimated time was 10 years before battery price comes down to 1/3. However, costs came down more rapidly than estimated, and by 2015, market leaders Tesla and Nissan had battery costs below $300/kWh, with costs decreasing at about 8% per annum.
+Battery Cost Estimate Comparison
+Battery Longevity Estimate Comparison
+
+
+== EV parity ==
+In 2010, battery professor Poul Norby stated that he believed that lithium batteries will need to double their energy density and bring down the price from $500 (2010) to $100 per kWh capacity in order to make an impact on petrol cars. Citigroup indicates $230/kWh. As of October 2014, the cost of Tesla batteries is $180/kWh.
+Toyota Prius 2012 plug-in's official page declare 21 kilometres (13 mi) of autonomy and a battery capacity of 5.2 kWh with a ratio of 4 kilometres (2.5 mi)/kWh.
+Battery electric cars achieve about 5 miles (8.0 km)/kWh. The Chevrolet Volt is expected to achieve 50 MPG when running on the auxiliary power unit (a small onboard generator) - at 33% thermodynamic efficiency that would mean 12 kWh for 50 miles (80 km), or about 240 watt-hours per mile. For prices of 1 kWh of charge with various different battery technologies, see the "Energy/Consumer Price" column in the "Table of rechargeable battery technologies" section in the rechargeable battery article.
+The U.S. Energy Secretary Chu predicted costs for a 40 mile range battery will drop from a price in 2008 of $12K to $3,600 in 2015 and further to $1,500 by 2020. Li-ion, Li-poly, Aluminium-air batteries and zinc-air batteries have demonstrated energy densities high enough to deliver range and recharge times comparable to conventional fossil fuelled vehicles.
+
+
+=== Cost parity ===
+
+Different costs are important. One issue is purchase price, the other issue is total cost of ownership. As of 2015, electric cars are more expensive to initially purchase, but cheaper to run, and in at least some cases, total cost of ownership may be lower.
+According to Kammen et al., 2008, new PEVs would become cost efficient to consumers if battery prices would decrease from $1300/kWh to about $500/kWh (so that the battery may pay for itself).
+In 2010, the Nissan Leaf battery pack was sold at a price of $18,000. Nissan's initial price tag is at $750 per kilowatt hour which may exceed production costs in the first two years.
+
+
+=== Range parity ===
+Driving range parity means that the electric vehicle has the same range than an average all-combustion vehicle (500 kilometres or 310 miles), with 1+ kWh/Kg batteries. Higher range means that the electric vehicles would run more kilometers without recharge.
+Japanese and European Union officials are in talks to jointly develop advanced rechargeable batteries for electric cars to help nations reduce greenhouse-gas emissions. Developing a battery that can power an electric vehicle 500 kilometres (310 mi) on a single charging is feasible, said Japanese battery maker GS Yuasa Corp. Sharp Corp and GS Yuasa are among Japanese solar-power cell and battery makers that may benefit from cooperation.
+The lithium-ion battery in the AC Propulsion tzero provides 400 to 500 km (200 to 300 mi) of range per charge (single charge range). The list price of this vehicle when it was released in 2003 was $220,000.
+Driving in a Daihatsu Mira equipped with 74 kWh lithium ion batteries, the Japan EV Club has achieved a world record for an electric car: 1,003 kilometres (623 mi) without recharging.
+Zonda Bus, in Jiangsu, China offers the Zonda Bus New Energy with a 500-kilometre (310 mi) only-electric range.
+
+
+== Specifics ==
+
+
+=== Internal components ===
+
+Battery pack designs for Electric Vehicles (EVs) are complex and vary widely by manufacturer and specific application. However, they all incorporate a combination of several simple mechanical and electrical component systems which perform the basic required functions of the pack.
+The actual battery cells can have different chemistry, physical shapes, and sizes as preferred by various pack manufacturers. Battery pack will always incorporate many discrete cells connected in series and parallel to achieve the total voltage and current requirements of the pack. Battery packs for all electric drive EVs can contain several hundred individual cells.
+To assist in manufacturing and assembly, the large stack of cells is typically grouped into smaller stacks called modules. Several of these modules will be placed into a single pack. Within each module the cells are welded together to complete the electrical path for current flow. Modules can also incorporate cooling mechanisms, temperature monitors, and other devices. In most cases, modules also allow for monitoring the voltage produced by each battery cell in the stack by the Battery Management System (BMS).
+The battery cell stack has a main fuse which limits the current of the pack under a short circuit condition. A “service plug” or “service disconnect” can be removed to split the battery stack into two electrically isolated halves. With the service plug removed, the exposed main terminals of the battery present no high potential electrical danger to service technicians.
+The battery pack also contains relays, or contactors, which control the distribution of the battery pack’s electrical power to the output terminals. In most cases there will be a minimum of two main relays which connect the battery cell stack to the main positive and negative output terminals of the pack, those supplying high current to the electrical drive motor. Some pack designs will include alternate current paths for pre-charging the drive system through a pre-charge resistor or for powering an auxiliary buss which will also have their own associated control relays. For obvious safety reasons these relays are all normally open.
+The battery pack also contains a variety of temperature, voltage, and current sensors. Collection of data from the pack sensors and activation of the pack relays are accomplished by the pack ’s Battery Monitoring Unit (BMU) or Battery Management System (BMS). The BMS is also responsible for communications with the world outside the battery pack.
+
+
+=== Charging ===
+Batteries in BEVs must be periodically recharged. BEVs most commonly charge from the power grid (at home or using a street or shop recharging point), which is in turn generated from a variety of domestic resources, such as coal, hydroelectricity, nuclear and others. Home or grid power, such as photovoltaic solar cell panels, microhydro or wind may also be used and are promoted because of concerns regarding global warming.
+With suitable power supplies, good battery lifespan is usually achieved at rates not exceeding "0.5C" or so, taking two to three hours for a full charge, but faster charging can be done.
+Charging time is often limited by the capacity of the grid connection. A normal household outlet delivers 1.5 kilowatts (in the US, Canada, Japan, and other countries with 110 volt supply) and 3 kilowatts (in countries with 240 V supply).
+Many European countries feed domestic consumers with a 3 phase system fused at 16-25 amp allowing for a theoretical capacity around 11-17 kW. At this higher power level charging even a small, 7 kilowatt-hour (14–28 mi) pack, would require less than an hour. This is slow compared to the effective power delivery rate of an average petrol pump, about 5,000 kilowatts. In the UK, domestic premises are usually supplied with single phase 230 VAC fused at 40 A (some older premises), 60 A or 100 A, the latter offering a maximum household draw of 23 kW. Ultimately, even if the supply power is increased, batteries cannot accept charge at greater than their maximum charge rate (usually "2C" or "3C"), giving a recharge time of 20 to 30 minutes to 80%, with slower charging usually recommended for the remaining 20%.
+In 1995, some charging stations charged BEVs in one hour. In November 1997, Ford purchased a fast-charge system produced by AeroVironment called "PosiCharge" for testing its fleets of Ranger EVs, which charged their lead-acid batteries in between six and fifteen minutes. In February 1998, General Motors announced a version of its "Magne Charge" system which could recharge NiMH batteries in about ten minutes, providing a range of sixty to one hundred miles.
+In 2005, handheld device battery designs by Toshiba were claimed to be able to accept an 80% charge in as little as 60 seconds. Scaling this specific power characteristic up to the same 7 kilowatt-hour EV pack would result in the need for a peak of 340 kilowatts of power from some source for those 60 seconds. It is not clear that such batteries will work directly in BEVs as heat build-up may make them unsafe.
+Most people do not always require fast recharging because they have enough time, six to eight hours, during the work day or overnight to recharge. As the charging does not require attention it takes a few seconds for an owner to plug in and unplug their vehicle. Many BEV drivers prefer refueling at home, avoiding the inconvenience of visiting a fuel station. Some workplaces provide special parking bays for electric vehicles with charging equipment provided.
+
+
+==== Connectors ====
+The charging power can be connected to the car in two ways. The first is a direct electrical connection known as conductive coupling. This might be as simple as a mains lead into a weatherproof socket through special high capacity cables with connectors to protect the user from high voltages. The modern standard for plug-in vehicle charging is the SAE 1772 conductive connector (IEC 62196 Type 1) in the USA. The ACEA has chosen the VDE-AR-E 2623-2-2 (IEC 62196 Type 2) for deployment in Europe, which, without a latch, means unnecessary extra power requirements for the locking mechanism.
+The second approach is known as inductive charging. A special 'paddle' is inserted into a slot on the car. The paddle is one winding of a transformer, while the other is built into the car. When the paddle is inserted it completes a magnetic circuit which provides power to the battery pack. In one inductive charging system, one winding is attached to the underside of the car, and the other stays on the floor of the garage. The advantage of the inductive approach is that there is no possibility of electrocution as there are no exposed conductors, although interlocks, special connectors and ground fault detectors can make conductive coupling nearly as safe. Inductive charging can also reduce vehicle weight, by moving more charging componentry offboard. An inductive charging proponent from Toyota contended in 1998 that overall cost differences were minimal, while a conductive charging proponent from Ford contended that conductive charging was more cost efficient.
+
+
+==== Recharging spots ====
+
+In France, Électricité de France (EDF) and Toyota are installing recharging points for PHEVs on roads, streets and parking lots. EDF is also partnering with Elektromotive, Ltd. to install 250 new charging points over six months from October 2007 in London and elsewhere in the UK. Recharging points also can be installed for specific uses, as in taxi stands. Public charging has been described as costly, unmanageable, and resource-intensive.
+
+
+==== Travel range before recharging and trailers ====
+
+The range of a BEV depends on the number and type of batteries used. The weight and type of vehicle as well as terrain, weather, and the performance of the driver also have an impact, just as they do on the mileage of traditional vehicles. Electric vehicle conversion performance depends on a number of factors including the battery chemistry:
+Lead-acid batteries are the most available and inexpensive. Such conversions generally have a range of 30 to 80 km (20 to 50 mi). Production EVs with lead-acid batteries are capable of up to 130 km (80 mi) per charge.
+NiMH batteries have higher energy density than lead-acid; prototype EVs deliver up to 200 km (120 mi) of range.
+New lithium-ion battery-equipped EVs provide 320–480 km (200–300 mi) of range per charge. Lithium is also less expensive than nickel.
+Nickel-zinc battery are cheaper and lighter than Nickel-cadmium batteries. They are also cheaper (but not as light) than Lithium-Ion batteries.
+Finding the economic balance of range versus performance, battery capacity versus weight, and battery type versus cost challenges every EV manufacturer.
+With an AC system or Advanced DC systems regenerative braking can extend range by up to 50% under extreme traffic conditions without complete stopping. Otherwise, the range is extended by about 10 to 15% in city driving, and only negligibly in highway driving, depending upon terrain.
+BEVs (including buses and trucks) can also use genset trailers and pusher trailers in order to extend their range when desired without the additional weight during normal short range use. Discharged baset trailers can be replaced by recharged ones in a route point. If rented then maintenance costs can be deferred to the agency.
+Such BEVs can become Hybrid vehicles depending on the trailer and car types of energy and powertrain.
+
+
+=== Swapping and removing ===
+
+An alternative to recharging is to exchange drained or nearly drained batteries (or battery range extender modules) with fully charged batteries. This is called battery swapping and is done in exchange stations.
+On the other hand, MIRA has announced a retrofit hybrid conversion kit that provides removable battery packs that plug into a wall outlet for charging. Also XP Vehicles uses extension-cord-free charging hot-swap battery (removable power pack to recharge at home without extension cord).
+Features of swap stations include:
+The consumer is no longer concerned with battery capital cost, life cycle, technology, maintenance, or warrantee issues;
+Swapping is far faster than charging: battery swap equipment built by the firm Better Place has demonstrated automated swaps in less than 60 seconds;
+Swap stations increase the feasibility of distributed energy storage via the electric grid;
+Concerns about swap stations include:
+Potential for fraud (battery quality can only be measured over a full discharge cycle; battery lifetime can only be measured over repeated discharge cycles; those in the swap transaction cannot know if they are getting a worn or reduced effectiveness battery; battery quality degrades slowly over time, so worn batteries will be gradually forced into the system)
+Manufacturers are unwilling to standardize battery access / implementation details
+Safety concerns
+
+
+=== Re-filling ===
+Zinc-bromine flow batteries can be re-filled using a liquid, instead of recharged by connectors, saving time.
+
+
+=== Leasing ===
+Three companies are working on battery lease plans. Greenstop has completed trials of their ENVI Grid Network which allows consumers to easily monitor and recharge electric vehicle batteries. Think Car USA plans to lease the batteries for its City electric car to go on sale next year. Better Place is creating a system for consumers to "subscribe" to a service that offers recharging stations and battery exchange.
+Electric utilities are considering plans which would include providing electric vehicles to users (at a low price) and get their profits from selling the energy.
+
+
+=== V2G and afteruse ===
+
+Smart grid allows BEVs to provide power to the grid at any time, especially:
+During peak load periods, when the selling price of electricity can be very high. These vehicles can then be recharged during off-peak hours at cheaper rates while helping to absorb excess night time generation. Here the vehicles serve as a distributed battery storage system to buffer power.
+During blackouts, as backup.
+Pacific Gas and Electric Company (PG&E) has suggested that utilities could purchase used batteries for backup and load levelling purposes. They state that while these used batteries may be no longer usable in vehicles, their residual capacity still has significant value.
+
+
+=== Lifespan ===
+Individual batteries are usually arranged into large battery packs of various voltage and ampere-hour capacity products to give the required energy capacity. Battery service life should be considered when calculating the extended cost of ownership, as all batteries eventually wear out and must be replaced. The rate at which they expire depends on a number of factors.
+The depth of discharge (DOD) is the recommended proportion of the total available energy storage for which that battery will achieve its rated cycles. Deep cycle lead-acid batteries generally should not be discharged to below 20% of total capacity. More modern formulations can survive deeper cycles.
+In real world use, some fleet Toyota RAV4 EVs, using NiMH batteries, have exceeded 100,000 miles (160,000 km) with little degradation in their daily range. Quoting that report's concluding assessment:
+"The five-vehicle test is demonstrating the long-term durability of Nickel Metal Hydride batteries and electric drive trains. Only slight performance degradation has been observed to-date on four out of five vehicles.... EVTC test data provide strong evidence that all five vehicles will exceed the 100,000-mile (160,000 km) mark. SCE’s positive experience points to the very strong likelihood of a 130,000 to 150,000-mile (240,000 km) Nickel Metal Hydride battery and drive-train operational life. EVs can therefore match or exceed the lifecycle miles of comparable internal combustion engine vehicles.
+"In June 2003 the 320 RAV4 EVs of the SCE fleet were used primarily by meter readers, service managers, field representatives, service planners and mail handlers, and for security patrols and carpools. In five years of operation, the RAV4 EV fleet had logged more than 6.9 million miles, eliminating about 830 tons of air pollutants, and preventing more than 3,700 tons of tailpipe carbon dioxide emissions. Given the successful operation of its EVs to-date, SCE plans to continue using them well after they all log 100,000-miles."
+Lithium ion batteries are perishable to some degree; they lose some of their maximum storage capacity per year even if they are not used. Nickel metal hydride batteries lose much less capacity and are cheaper for the storage capacity they give, but have a lower total capacity initially for the same weight.
+Jay Leno's 1909 Baker Electric (see Baker Motor Vehicle) still operates on its original Edison cells. Battery replacement costs of BEVs may be partially or fully offset by the lack of regular maintenance such as oil and filter changes required for ICEVs, and by the greater reliability of BEVs due to their fewer moving parts. They also do away with many other parts that normally require servicing and maintenance in a regular car, such as on the gearbox, cooling system, and engine tuning. And by the time batteries do finally need definitive replacement, they can be replaced with later generation ones which may offer better performance characteristics.
+
+
+=== Safety ===
+The safety issues of battery electric vehicles are largely dealt with by the international standard ISO 6469. This document is divided in three parts dealing with specific issues:
+On-board electrical energy storage, i.e. the battery
+Functional safety means and protection against failures
+Protection of persons against electrical hazards.
+Firefighters and rescue personnel receive special training to deal with the higher voltages and chemicals encountered in electric and hybrid electric vehicle accidents. While BEV accidents may present unusual problems, such as fires and fumes resulting from rapid battery discharge, many experts agree that BEV batteries are safe in commercially available vehicles and in rear end collisions, are safer than gasoline propelled cars with a rear gasoline tanks.
+Usually, battery performance testing includes the determination of:
+State Of Charge (SOC)
+State of Health (SOH)
+Energy Efficiency
+Performance testing simulates the drive cycles for the drive trains of Battery Electric Vehicles (BEV), Hybrid Electric Vehicles (HEV) and Plug in Hybrid Electric Vehicles (PHEV) as per the required specifications of car manufacturers (OEMs). During these drive cycles, controlled cooling of the battery can be performed, simulating the thermal conditions in the car.
+In addition, climatic chambers assure constant environmental conditions during the characterization and allow the simulation to be performed for the full automotive temperature range covering climatic conditions.
+
+
+=== Patents ===
+
+Patents may be used to suppress development or deployment of this technology. For instance, patents relevant to the use of Nickel metal hydride cells in cars were held by an offshoot of Chevron Corporation, a petroleum company, who maintained veto power over any sale or licensing of NiMH technology.
+
+
+== Research, development and innovation ==
+R&D Magazine's prestigious R&D 100 Awards — also called the “Oscars of Invention”— for 2008:
+Argonne National Laboratory has received an award for EnerDel/Argonne High-Power Lithium-Ion Battery for Hybrid Electric Vehicles – a highly reliable and extremely safe device that is lighter in weight, more compact, more powerful and longer lasting than the nickel-metal hydride (Ni-MH) batteries that are found in today’s hybrid electric vehicles.
+Lawrence Berkeley National Laboratory : Nanostructured Polymer Electrolyte for Rechargeable Lithium Batteries – a polymer electrolyte that enables the development of rechargeable lithium metal batteries with an energy density that is high enough "to enable electric battery-driven transportation technology".
+
+
+=== Carbon nanotube battery ===
+Next-Alternative is developing a carbon nanotube lead acid battery pack that will, according to the company, deliver 380 miles (610 km) range and can be recharged in less than 10 minutes. They plan to extend current battery life times 4-fold with this technology.
+
+
+== Future ==
+Battery-operated vehicles (like the Nissan Leaf) are projected to have annual sales in 2020 of 100,000 units in the U.S. and 1.3 million worldwide — 1.8 percent of the 71 million cars expected to be sold in 2020. Another 3.9 million plug-ins and hybrids will be sold worldwide, bringing the total electric and hybrid market to about 7 percent of all cars sold in 2020.
+Bolloré a French automotive parts group developed a concept car the "Bluecar" using Lithium metal polymer batteries developed by a subsidiary Batscap. It had a range of 250 km and top speed of 125 km/h.
+
+
+== Ultracapacitors ==
+Electric double-layer capacitors (or "ultracapacitors") are used in some electric vehicles, such as AFS Trinity's concept prototype, to store rapidly available energy with their high power density, in order to keep batteries within safe resistive heating limits and extend battery life.
+Since commercially available ultracapacitors have a low energy density no production electric cars use ultracapacitors exclusively. But using a Electric car with both Battery and ultracapacitor can limit the limitations of both.
+
+
+== Promotion ==
+US President Barack Obama has announced 48 new advanced battery and electric drive projects that will receive $2.4 billion in funding under the American Recovery and Reinvestment Act. These projects will accelerate the development of U.S. manufacturing capacity for batteries and electric drive components as well as the deployment of electric drive vehicles, helping to establish American leadership in creating the next generation of advanced vehicles.
+The announcement marks the single largest investment in advanced battery technology for hybrid and electric-drive vehicles ever made. Industry officials expect that this $2.4 billion investment, coupled with another $2.4 billion in cost share from the award winners, will result directly in the creation tens of thousands of manufacturing jobs in the U.S. battery and auto industries.
+The new awards cover $1.5 billion in grants to United States-based manufacturers to produce batteries and their components and to expand battery recycling capacity.
+Joe Biden announced in Detroit over $1 billion in grants to companies and universities based in Michigan. Reflecting the state's leadership in clean energy manufacturing, Michigan companies and institutions are receiving the largest share of grant funding of any state. Two companies, A123 and Johnson Controls, will receive a total of approximately $550 million to establish a manufacturing base in the state for advanced batteries, and two others, Compact Power and Dow Kokam, will receive a total of over $300 million for manufacturing battery cells and materials. Large automakers based in Michigan, including GM, Chrysler, and Ford, will receive a total of more than $400 million to manufacture batteries and electric drive components. And three educational institutions in Michigan — the University of Michigan, Wayne State University in Detroit, and Michigan Technological University in Houghton, in the Upper Peninsula — will receive a total of more than $10 million for education and workforce training programs to train researchers, technicians, and service providers, and to conduct consumer research to accelerate the transition towards advanced vehicles and batteries.
+Energy Secretary Steven Chu visited Celgard, in Charlotte, North Carolina, to announce a $49 million grant for the company to expand its separator production capacity to serve the expected increased demand for lithium-ion batteries from manufacturing facilities in the United States. Celgard will be expanding its manufacturing capacity in Charlotte, North Carolina, and nearby Concord, NC, and the company expects the new separator production to come online in 2010. Celgard expects that approximately hundreds of jobs could be created, with the first of those jobs beginning as early as fall 2009.
+EPA Administrator Lisa Jackson was in St. Petersburg, Florida, to announce a $95.5 million grant for Saft America, Inc. to construct a new plant in Jacksonville on the site of the former Cecil Field military base, to manufacture lithium-ion cells, modules and battery packs for military, industrial, and agricultural vehicles.
+Deputy Secretary of the Department of Transportation John Porcari visited East Penn Manufacturing Co, in Lyon Station, Pennsylvania, to award the company a $32.5 million grant to increase production capacity for their valve regulated lead-acid batteries and the UltraBattery, a lead-acid battery combined with a carbon supercapacitor, for micro and mild hybrid applications.
+
+
+== See also ==
+
+
+== References ==
+
+
+== External links ==
+Testing EV Battery Packs in a Manufacturing Environment
+Car Traction Batteries - the New Gold Rush 2010–2020 (IDTechEx).
+Glossary of Battery Terms and Definitions
+2011 NACS Annual Fuels Report
+Asian Manufacturers Will Lead the $8 Billion Market for Electric Vehicle Batteries (Pike Research)
+Factors crucial to the success of rechargeable batteries in vehicles, Former Grail Research Analyst, April 2012
+Construction
+Traction Batteries Construction
+Pictures of car battery construction

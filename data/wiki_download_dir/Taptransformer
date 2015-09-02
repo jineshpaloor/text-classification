@@ -1,0 +1,19 @@
+Tap (transformer)
+A tap is a connection point along a transformer winding that allows a certain number of turns to be selected. This means, a transformer with a variable turns ratio is produced, enabling voltage regulation of the output. The tap selection is made with a tap changer mechanism.
+
+
+== Voltage considerations ==
+
+If only one tap changer is required, tap points are usually made on the high voltage, or low current, side of the winding to minimize the current handling requirements of the contacts. However, a transformer may include a tap changer on each winding if it is advantageous to do so.
+For more on this see tap changer.
+
+
+== See also ==
+Tap changer
+Center tap
+
+
+== References ==
+
+Hindmarsh, J. (1984). Electrical Machines and their Applications, 4th ed. Pergamon. ISBN 0-08-030572-5. 
+Central Electricity Generating Board (1982). Modern Power Station Practice: Volume 4. Pergamon. ISBN 0-08-016436-6.

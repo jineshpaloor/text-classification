@@ -1,0 +1,76 @@
+Vehicular automation
+Vehicular automation involves the use of mechatronics, artificial intelligence, and multi-agent system to assist a vehicle's operator. These features and the vehicles employing them may be labeled as intelligent or smart. A vehicle using automation for difficult tasks, especially navigation, may be referred to as semi-autonomous. A vehicle relying solely on automation is consequently referred to as robotic or autonomous. After the invention of the integrated circuit, the sophistication of automation technology increased. Manufacturers and researchers subsequently added a variety of automated functions to automobiles and other vehicles.
+
+
+== Ground vehicles ==
+
+Ground vehicles employing automation and teleoperation range from shipyard gantries and mining trucks to the likes of bomb-disposal robots and robotic insects.
+There are plenty of autonomous and semi-autonomous ground vehicles being made for the purpose of transporting passengers. One such example is the free-ranging on grid (FROG) technology which consists of autonomous vehicles, a magnetic track and a supervisory system. The FROG system is deployed for industrial purposes in factory sites and has been operated since 1999 as a public transport system in the city of Capelle aan den IJssel to connect the Rivium business park with the neighboring city of Rotterdam (where the route terminates at the Kralingse Zoom metro station). The system experienced a crash in 2005 that proved to be caused by a human error.
+Applications for automation in ground vehicles include the following:
+Vehicle tracking system system ESITrack, Lojack
+Rear-view alarm, to detect obstacles behind.
+Anti-lock braking system (ABS) (also Emergency Braking Assistance (EBA)), often coupled with Electronic brake force distribution (EBD), which prevents the brakes from locking and losing traction while braking. This shortens stopping distances in most cases and, more importantly, allows the driver to steer the vehicle while braking.
+Traction control system (TCS) actuates brakes or reduces throttle to restore traction if driven wheels begin to spin.
+Four wheel drive (AWD) with a centre differential. Distributing power to all four wheels lessens the chances of wheel spin. It also suffers less from oversteer and understeer.
+Electronic Stability Control (ESC) (also known for Mercedes-Benz proprietary Electronic Stability Program (ESP), Acceleration Slip Regulation (ASR) and Electronic differential lock (EDL)). Uses various sensors to intervene when the car senses a possible loss of control. The car's control unit can reduce power from the engine and even apply the brakes on individual wheels to prevent the car from understeering or oversteering.
+Dynamic steering response (DSR) corrects the rate of power steering system to adapt it to vehicle's speed and road conditions.
+Research is ongoing and prototypes of autonomous ground vehicles exist.
+
+
+=== Cars ===
+Extensive automation for cars focuses on either introducing robotic cars or modifying modern car designs to be semi-autonomous. Semi-autonomous designs could be implemented sooner as they rely less on technology that is still at the forefront of research. An example is the Dual mode monorail. Groups such as RUF (Denmark), BiWay (UK), ATN (New Zealand) and TriTrack (USA) are working on projects consisting of private cars that dock onto monorail tracks and are driven autonomously around the track.
+As a method of automating cars without extensively modifying the cars as much as a robotic car, Automated highway systems (AHS) aims to construct lanes on highways that would be equipped with, for example, magnets to guide the vehicles. Highway computers would manage the traffic and direct the cars to avoid crashes.
+The European Commission has established a smart car development program called the Intelligent Car Flagship Initiative. The goals of that program include:
+Autonomous Cruise Control
+Lane departure warning system
+Project AWAKE for drowsy drivers
+There are plenty of further uses for automation in relation to cars. These include:
+Adaptive cruise control
+Adaptive headlamps
+Advanced Automatic Collision Notification, such as OnStar
+Intelligent Parking Assist System
+Automatic Parking
+Automotive night vision with pedestrian detection
+Blind spot monitoring
+Driver Monitoring System
+Robotic car or self-driving car which may result in less-stressed "drivers", higher efficiency (the driver can do something else), increased safety and less pollution (e.g. via completely automated fuel control)
+Precrash system
+Safe speed governing
+Traffic sign recognition
+Following another car on a motorway – "enhanced" or "adaptive" cruise control, as used by Ford and Vauxhall
+Distance control assist – as developed by Nissan
+Dead man's switch – there is a move to introduce deadman's braking into automotive application, primarily heavy vehicles, and there may also be a need to add penalty switches to cruise controls.
+
+
+== Aircraft ==
+
+Aircraft has received much attention for automation, especially for navigation. A system capable of autonomously navigating a vehicle (especially aircraft) is known as autopilot.
+
+
+== Submersibles ==
+Underwater vehicles have been a focus for automation for tasks such as pipeline inspection and underwater mapping. See Autonomous underwater vehicle.
+
+
+== Limitations ==
+One of the current limitations for vehicular automation is the sheer amount of processing power required to mimic the vision of a human operator. This is a problem not just in expense but also in the electrical power required to run the processors.
+
+
+== See also ==
+Unmanned vehicle
+Car safety
+PReVENT
+VIAC, the intercontinental challenge
+Intelligent Transportation System
+Intelligent speed adaptation
+Transit media
+mobileye
+Driverless tractor
+Autonomous car
+
+
+== References ==
+
+
+== External links ==
+European Commission Intelligent Car website
+U.S. Department of Transportation - Intelligent Transportation Systems Joint Program Office website
