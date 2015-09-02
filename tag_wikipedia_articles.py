@@ -4,7 +4,7 @@ import wikipedia
 import gensim
 import logging
 
-logging.basicConfig(filename='wiki.log', level=logging.INFO)
+logging.basicConfig(filename='data/wiki.log', level=logging.INFO)
 
 DICT_PATH = "data/wiki.dict"
 MODEL_PATH = "data/wiki.lda"
