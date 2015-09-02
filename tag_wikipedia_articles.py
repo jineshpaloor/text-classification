@@ -4,11 +4,11 @@ import wikipedia
 import gensim
 import logging
 
-logging.basicConfig(filename='wiki_normal.log', level=logging.INFO)
+logging.basicConfig(filename='wiki.log', level=logging.INFO)
 
 DICT_PATH = "data/wiki.dict"
 MODEL_PATH = "data/wiki.lda"
-OUTPUT_PATH = "data/output_normal.txt"
+OUTPUT_PATH = "data/output.txt"
 WIKI_PATH = "data/wiki_download_dir"
 
 f = open('data/stop-words/stop-words-english4.txt', 'r')
@@ -17,46 +17,71 @@ f.close()
 
 
 class TagWiki(object):
-    def __init__(self):
+    def __init__(self, distributed=False):
         self.electrical_links = wikipedia.page("Index_of_electrical_engineering_articles").links
-        self.dictionary = gensim.corpora.Dictionary()
+        self.wiki_path = WIKI_PATH
         self.lda = None
-        self.topdir = WIKI_PATH
 
-    def prepare_dictionary_from_docs(self):
-        """
-        iterate through the wikipedia docs dir.
-        """
-        for fn in os.listdir(self.topdir):
-            fin = open(os.path.join(self.topdir, fn), 'rb')
-            text = fin.read()
-            fin.close()
-            content = [x for x in gensim.utils.tokenize(text, lowercase=True, deacc=True, errors="ignore") if x not in STOPLIST]
-            self.dictionary.add_documents([content])
-        self.dictionary.save(DICT_PATH)
-        return True
+        # initialize dictionary
+        if os.path.exists(DICT_PATH):
+            self.dictionary = gensim.corpora.Dictionary.load(DICT_PATH)
+        else:
+            self.dictionary = gensim.corpora.Dictionary()
 
-    # Pass 2: Process topics
-    def process_topics_from_docs(self):
+    def _init_lda(self):
+        """ initialize lda model. This should be called only after the dictionary is prepared.
+        Otherwise dictionary saved to a file should be ready beforehand.
+        """
         if os.path.exists(MODEL_PATH):
             self.lda = gensim.models.ldamodel.LdaModel.load(MODEL_PATH)
         else:
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=30, 
-                update_every=30, chunksize=2, passes=10) #, distributed=True)
-        f = open(OUTPUT_PATH, "w") 
+                update_every=30, chunksize=2, passes=10, distributed=distributed)
 
-        for fn in os.listdir(self.topdir):
+    def get_processed_content(self, fn):
+        """
+        Read a document from file, remove punctuation, stopwords etc and return list of words
+        """
+        fin = open(os.path.join(self.wiki_path, fn), 'rb')
+        text = fin.read()
+        fin.close()
+        return (x for x in gensim.utils.tokenize(text, lowercase=True, deacc=True, errors="ignore") if x not in STOPLIST)
+
+    def prepare_dictionary_from_docs(self):
+        """
+        iterate through the wikipedia docs dir.
+        """
+        for fn in os.listdir(self.wiki_path):
+            content = self.get_processed_content(fn)
+            self.dictionary.add_documents([content])
+        self.dictionary.save(DICT_PATH)
+        return True
+
+    def get_sorted_topics(self, bow):
+        """ 
+        take bow as input and return back the relevent topics for it
+        """
+        return sorted(self.lda[bow], key=lambda x: x[1], reverse=True)
+
+    # Pass 2: Process topics
+    def process_topics_from_docs(self):
+        """
+        Read documents from wikipedia articles in data folder and then
+          - update lda model
+          - predict the relevent topics for the document
+        """
+        self._init_lda()
+        f = open(OUTPUT_PATH, "w") 
+        for fn in os.listdir(self.wiki_path):
             try:
                 logging.info("processing {0}".format(fn))
-                fin = open(os.path.join(self.topdir, fn), 'rb')
-                text = fin.read()
-                fin.close()
-                content = [x for x in gensim.utils.tokenize(text, lowercase=True, deacc=True, errors="ignore") if x not in STOPLIST]
+                content = self.get_processed_content(fn)
                 content_bow = self.dictionary.doc2bow(content)
                 self.lda.update([content_bow])
-                f.write("{0}::    {1}\n".format(link, sorted(self.lda[new_bag_of_words], key=lambda x: x[1], reverse=True)))
-            except:
+                topics = self.get_sorted_topics(content_bow)
+                f.write("{0}::    {1}\n".format(fn, topics))
+            except UnicodeError:
                 logging.info("PROCESSING FAILED!")
                 continue
         f.close()
@@ -65,32 +90,27 @@ class TagWiki(object):
  
     # Pass 1: Prepare a dictionary
     def prepare_dictionary(self):
-        if os.path.exists(DICT_PATH):
-            self.dictionary = gensim.corpora.Dictionary.load(DICT_PATH)
-            return True
-
         for link in self.electrical_links:
             try:
                 page = wikipedia.page(link)
                 logging.info(link)
-            except:
+                title = gensim.parsing.preprocess_string(page.title)
+                content = gensim.parsing.preprocess_string(page.content)
+                self.dictionary.add_documents([title, content])
+            except UnicodeError:
                 logging.info("failed: {0}".format(link))
                 continue
-            title = gensim.parsing.preprocess_string(page.title)
-            content = gensim.parsing.preprocess_string(page.content)
-        
-            self.dictionary.add_documents([title, content])
         self.dictionary.save(DICT_PATH)
         return True
     
     # Pass 2: Process topics
     def process_topics(self):
-        if os.path.exists(MODEL_PATH):
-            self.lda = gensim.models.ldamodel.LdaModel.load(MODEL_PATH)
-        else:
-            self.lda = gensim.models.ldamodel.LdaModel(
-                corpus=None, id2word=self.dictionary, num_topics=30, 
-                update_every=30, chunksize=2, passes=10) #, distributed=True)
+        """
+        Read documents using wikipedia library api and then
+          - update lda model
+          - predict the relevent topics for the document
+        """
+        self._init_lda()
         f = open(OUTPUT_PATH, "w") 
         for link in self.electrical_links:
             try:
@@ -104,8 +124,9 @@ class TagWiki(object):
             
                 new_bag_of_words = title_bow + content_bow
                 self.lda.update([content_bow])
-                f.write("{0}::    {1}\n".format(link, sorted(self.lda[new_bag_of_words], key=lambda x: x[1], reverse=True)))
-            except:
+                topics = self.get_sorted_topics(new_bag_of_words)
+                f.write("{0}::    {1}\n".format(link, topics))
+            except UnicodeError:
                 logging.info("PROCESSING FAILED!")
                 continue
         f.close()
@@ -115,17 +136,24 @@ class TagWiki(object):
 def main():
     start_time = time.time()
     logging.info("START TIME :{0}".format(start_time))
-    wiki = TagWiki()
+
+    wiki = TagWiki(distributed=True)
     logging.info("No. of keys at start :{0}".format(wiki.dictionary.keys().__len__()))
-    wiki.prepare_dictionary() #_from_docs()
+
+    wiki.prepare_dictionary_from_docs()
     dict_prepare_time = time.time()
     logging.info("TIME AFTER DICTIONARY PREPARATION :{0}".format(dict_prepare_time))
-    wiki.process_topics() #_from_docs()
+
+    wiki.process_topics_from_docs()
     first_pass = time.time()
     logging.info("TIME AFTER FIRST PASS :{0}".format(first_pass))
-    wiki.process_topics() #_from_docs()
+
+    wiki.process_topics_from_docs()
     second_pass = time.time()
     logging.info("TIME AFTER SECOND PASS :{0}".format(second_pass))
+
+    total_time = (start_time - second_pass) / 60
+    logging.info("TOTAL TIME ELAPSED :{0}".format(total_time))
     
     
 if __name__ == '__main__':
