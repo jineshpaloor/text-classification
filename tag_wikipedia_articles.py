@@ -21,6 +21,7 @@ class TagWiki(object):
         self.electrical_links = wikipedia.page("Index_of_electrical_engineering_articles").links
         self.wiki_path = WIKI_PATH
         self.lda = None
+        self.distributed = distributed
 
         # initialize dictionary
         if os.path.exists(DICT_PATH):
@@ -37,7 +38,7 @@ class TagWiki(object):
         else:
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=30, 
-                update_every=30, chunksize=2, passes=10, distributed=distributed)
+                update_every=30, chunksize=2, passes=10, distributed=self.distributed)
 
     def get_processed_content(self, fn):
         """
