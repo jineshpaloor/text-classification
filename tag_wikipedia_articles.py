@@ -4,18 +4,17 @@ import wikipedia
 import gensim
 import logging
 
+# set module lever logger
+FORMAT = '%(asctime)-15s :: %(message)s'
 module_logger = logging.getLogger('wiki_module_logger')
+module_logger.setLevel(logging.DEBUG)
 # set file handler
 fh = logging.FileHandler('data/wiki_module.log')
 fh.setLevel(logging.DEBUG)
-FORMAT = '%(asctime)-15s :: %(message)s'
 formatter = logging.Formatter(FORMAT)
 fh.setFormatter(formatter)
 module_logger.addHandler(fh)
 
-DICT_PATH = "data/wiki.dict"
-MODEL_PATH = "data/wiki_normal.lda"
-OUTPUT_PATH = "data/output_normal.txt"
 WIKI_PATH = "data/wiki_download_dir"
 
 f = open('data/stop-words/stop-words-english4.txt', 'r')
@@ -25,12 +24,23 @@ f.close()
 
 class TagWiki(object):
     def __init__(self, distributed=False):
-        log_file = 'data/wiki_{0}.log'.format('distributed' if distributed else 'normal')
+        if distributed:
+            self.OUTPUT_PATH = "data/output_distributed.txt"
+            self.DICT_PATH = "data/wiki_distributed.dict"
+            self.MODEL_PATH = "data/wiki_distributed.lda"
+            log_file = 'data/wiki_distributed.log'
+        else:
+            self.OUTPUT_PATH = "data/output_normal.txt"
+            self.DICT_PATH = "data/wiki_normal.dict"
+            self.MODEL_PATH = "data/wiki_normal.lda"
+            log_file = 'data/wiki_normal.log'
         self.logger = logging.getLogger('wiki_log')
+        self.logger.setLevel(logging.DEBUG)
         ch = logging.FileHandler(log_file)
         ch.setLevel(logging.DEBUG)
         ch.setFormatter(formatter)
         self.logger.addHandler(ch)
+        self.logger.info("Tag wiki initialized")
 
         self.electrical_links = []
         self.wiki_path = WIKI_PATH
@@ -38,8 +48,8 @@ class TagWiki(object):
         self.distributed = distributed
 
         # initialize dictionary
-        if os.path.exists(DICT_PATH):
-            self.dictionary = gensim.corpora.Dictionary.load(DICT_PATH)
+        if os.path.exists(self.DICT_PATH):
+            self.dictionary = gensim.corpora.Dictionary.load(self.DICT_PATH)
         else:
             self.dictionary = gensim.corpora.Dictionary()
 
@@ -47,8 +57,8 @@ class TagWiki(object):
         """ initialize lda model. This should be called only after the dictionary is prepared.
         Otherwise dictionary saved to a file should be ready beforehand.
         """
-        if os.path.exists(MODEL_PATH):
-            self.lda = gensim.models.ldamodel.LdaModel.load(MODEL_PATH)
+        if os.path.exists(self.MODEL_PATH):
+            self.lda = gensim.models.ldamodel.LdaModel.load(self.MODEL_PATH)
         else:
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=30,
@@ -68,9 +78,10 @@ class TagWiki(object):
         iterate through the wikipedia docs dir. and update dictionary
         """
         for fn in os.listdir(self.wiki_path):
+            self.logger.info("dict update {0}".format(fn))
             content = self.get_processed_content(fn)
             self.dictionary.add_documents([content])
-        self.dictionary.save(DICT_PATH)
+        self.dictionary.save(self.DICT_PATH)
         return True
 
     def get_sorted_topics(self, bow):
@@ -87,7 +98,7 @@ class TagWiki(object):
           - predict the relevent topics for the document
         """
         self._init_lda()
-        f = open(OUTPUT_PATH, "w")
+        f = open(self.OUTPUT_PATH, "w")
         for fn in os.listdir(self.wiki_path):
             try:
                 self.logger.info("processing {0}".format(fn))
@@ -96,11 +107,12 @@ class TagWiki(object):
                 self.lda.update([content_bow])
                 topics = self.get_sorted_topics(content_bow)
                 f.write("{0}::    {1}\n".format(fn, topics))
+                self.logger.info("finished   {0}".format(fn))
             except UnicodeError:
                 self.logger.info("PROCESSING FAILED!")
                 continue
         f.close()
-        self.lda.save(MODEL_PATH)
+        self.lda.save(self.MODEL_PATH)
         return True
 
     # Pass 1: Prepare a dictionary
@@ -116,7 +128,7 @@ class TagWiki(object):
             except UnicodeError:
                 self.logger.info("failed: {0}".format(link))
                 continue
-        self.dictionary.save(DICT_PATH)
+        self.dictionary.save(self.DICT_PATH)
         return True
 
     # Pass 2: Process topics
@@ -127,7 +139,7 @@ class TagWiki(object):
           - predict the relevent topics for the document
         """
         self._init_lda()
-        f = open(OUTPUT_PATH, "w")
+        f = open(self.OUTPUT_PATH, "w")
         for link in self.electrical_links:
             try:
                 self.logger.info("processing: {0}".format(link))
@@ -146,14 +158,14 @@ class TagWiki(object):
                 self.logger.info("PROCESSING FAILED!")
                 continue
         f.close()
-        self.lda.save(MODEL_PATH)
+        self.lda.save(self.MODEL_PATH)
         return True
 
 def main():
     start_time = time.time()
     module_logger.info("START TIME :{0}".format(start_time))
 
-    wiki = TagWiki(distributed=False)
+    wiki = TagWiki(distributed=True)
     module_logger.info("No. of keys at start :{0}".format(wiki.dictionary.keys().__len__()))
 
     wiki.prepare_dictionary_from_docs()
