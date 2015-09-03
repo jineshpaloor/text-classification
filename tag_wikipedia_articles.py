@@ -5,7 +5,9 @@ import gensim
 import logging
 
 # set module lever logger
-FORMAT = '%(asctime)-15s :: %(message)s'
+FORMAT = '%(asctime)-15s :: %(levelname)s :: %(name)s :: %(message)s'
+logging.basicConfig(filename='data/wiki_module.log', level=logging.DEBUG, format=FORMAT)
+
 module_logger = logging.getLogger('wiki_module_logger')
 module_logger.setLevel(logging.DEBUG)
 # set file handler
@@ -57,12 +59,18 @@ class TagWiki(object):
         """ initialize lda model. This should be called only after the dictionary is prepared.
         Otherwise dictionary saved to a file should be ready beforehand.
         """
-        if os.path.exists(self.MODEL_PATH):
+        if False: #os.path.exists(self.MODEL_PATH):
             self.lda = gensim.models.ldamodel.LdaModel.load(self.MODEL_PATH)
         else:
+            # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=30,
                 update_every=1, chunksize=1, passes=10, distributed=self.distributed)
+
+    def chunks(self, l, n):
+        """Yield successive n-sized chunks from l."""
+        for i in xrange(0, len(l), n):
+            yield l[i:i+n]
 
     def get_processed_content(self, fn):
         """
@@ -90,30 +98,46 @@ class TagWiki(object):
         """
         return sorted(self.lda[bow], key=lambda x: x[1], reverse=True)
 
+    def get_bow_for_files(self, fns):
+        bow_list = []
+        for fn in fns:
+            self.logger.info("processing {0}".format(fn))
+            content = self.get_processed_content(fn)
+            content_bow = self.dictionary.doc2bow(content)
+            self.logger.info("finished   {0}".format(fn))
+            bow_list.append(content_bow)
+        return bow_list
+
     # Pass 2: Process topics
-    def process_topics_from_docs(self):
+    def update_lda_model(self):
         """
         Read documents from wikipedia articles in data folder and then
           - update lda model
           - predict the relevent topics for the document
         """
         self._init_lda()
-        f = open(self.OUTPUT_PATH, "w")
-        for fn in os.listdir(self.wiki_path):
+        file_names = os.listdir(self.wiki_path)
+        for fns in self.chunks(file_names, 5):
+            # update lda for files
             try:
-                self.logger.info("processing {0}".format(fn))
-                content = self.get_processed_content(fn)
-                content_bow = self.dictionary.doc2bow(content)
-                self.lda.update([content_bow])
-                topics = self.get_sorted_topics(content_bow)
-                f.write("{0}::    {1}\n".format(fn, topics))
-                self.logger.info("finished   {0}".format(fn))
+                content_bow_list = self.get_bow_for_files(fns)
+                self.lda.update(content_bow_list)
             except UnicodeError:
                 self.logger.info("PROCESSING FAILED!")
                 continue
-        f.close()
         self.lda.save(self.MODEL_PATH)
         return True
+
+    def print_document_topics(self):
+        file_names = os.listdir(self.wiki_path)
+        for fn in file_names:
+            # get the topics for files and write it to log file
+            content = self.get_processed_content(fn)
+            content_bow = self.dictionary.doc2bow(content)
+            topics = self.get_sorted_topics(content_bow)
+            self.logger.info("{0} :: {1}\n".format(fn, topics))
+        return True
+
 
     # Pass 1: Prepare a dictionary
     def prepare_dictionary(self):
@@ -172,13 +196,13 @@ def main():
     dict_prepare_time = time.time()
     module_logger.info("TIME AFTER DICTIONARY PREPARATION :{0}".format(dict_prepare_time))
 
-    wiki.process_topics_from_docs()
+    wiki.update_lda_model()
     first_pass = time.time()
     module_logger.info("TIME AFTER FIRST PASS :{0}".format(first_pass))
 
-    wiki.process_topics_from_docs()
+    wiki.print_document_topics()
     second_pass = time.time()
-    module_logger.info("TIME AFTER SECOND PASS :{0}".format(second_pass))
+    module_logger.info("TIME AFTER DOC PRINT  :{0}".format(second_pass))
 
     total_time = (start_time - second_pass) / 60
     module_logger.info("TOTAL TIME ELAPSED :{0}".format(total_time))
