@@ -1,4 +1,5 @@
 import time
+import sys
 import os
 import wikipedia
 import gensim
@@ -6,19 +7,9 @@ import logging
 
 # set module lever logger
 FORMAT = '%(asctime)-15s :: %(levelname)s :: %(name)s :: %(message)s'
-logging.basicConfig(filename='data/wiki_module.log', level=logging.DEBUG, format=FORMAT)
-
-module_logger = logging.getLogger('wiki_module_logger')
-module_logger.setLevel(logging.DEBUG)
-# set file handler
-fh = logging.FileHandler('data/wiki_module.log')
-fh.setLevel(logging.DEBUG)
 formatter = logging.Formatter(FORMAT)
-fh.setFormatter(formatter)
-module_logger.addHandler(fh)
 
 WIKI_PATH = "data/wiki_download_dir"
-
 f = open('data/stop-words/stop-words-english4.txt', 'r')
 STOPLIST = [w.strip() for w in f.readlines() if w]
 f.close()
@@ -65,7 +56,7 @@ class TagWiki(object):
             # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=30,
-                update_every=1, chunksize=1, passes=10, distributed=self.distributed)
+                update_every=10, chunksize=10, passes=10, distributed=self.distributed)
 
     def chunks(self, l, n):
         """Yield successive n-sized chunks from l."""
@@ -85,6 +76,7 @@ class TagWiki(object):
         """
         iterate through the wikipedia docs dir. and update dictionary
         """
+        self.logger.info("START PREPARING DICT")
         for fn in os.listdir(self.wiki_path):
             self.logger.info("dict update {0}".format(fn))
             content = self.get_processed_content(fn)
@@ -101,10 +93,9 @@ class TagWiki(object):
     def get_bow_for_files(self, fns):
         bow_list = []
         for fn in fns:
-            self.logger.info("processing {0}".format(fn))
+            self.logger.info("processing: {0}".format(fn))
             content = self.get_processed_content(fn)
             content_bow = self.dictionary.doc2bow(content)
-            self.logger.info("finished   {0}".format(fn))
             bow_list.append(content_bow)
         return bow_list
 
@@ -115,11 +106,13 @@ class TagWiki(object):
           - update lda model
           - predict the relevent topics for the document
         """
+        self.logger.info("START UPDATING LDA")
         self._init_lda()
         file_names = os.listdir(self.wiki_path)
         for fns in self.chunks(file_names, 5):
             # update lda for files
             try:
+                self.logger.info("updating lda: {0}".format(fns))
                 content_bow_list = self.get_bow_for_files(fns)
                 self.lda.update(content_bow_list)
             except UnicodeError:
@@ -128,16 +121,20 @@ class TagWiki(object):
         self.lda.save(self.MODEL_PATH)
         return True
 
+    def get_text_topic(self, topic):
+        return self.lda.print_topic(topic[0])
+
     def print_document_topics(self):
+        self.logger.info("START PRINTING DOCUMENTS")
         file_names = os.listdir(self.wiki_path)
         for fn in file_names:
             # get the topics for files and write it to log file
             content = self.get_processed_content(fn)
             content_bow = self.dictionary.doc2bow(content)
             topics = self.get_sorted_topics(content_bow)
-            self.logger.info("{0} :: {1}\n".format(fn, topics))
+            topic = self.get_text_topic(topics[0])
+            self.logger.info("{0} :: {1}\n".format(fn, topic))
         return True
-
 
     # Pass 1: Prepare a dictionary
     def prepare_dictionary(self):
@@ -181,15 +178,37 @@ class TagWiki(object):
             except UnicodeError:
                 self.logger.info("PROCESSING FAILED!")
                 continue
+
         f.close()
         self.lda.save(self.MODEL_PATH)
         return True
 
 def main():
+    run_type = sys.argv[1]
+    if run_type.lower() not in ['true', 'false']:
+        print 'Invalid input'
+        sys.exit(0)
+    if run_type.lower() == 'true':
+        distributed = True
+        fn = 'data/wiki_module_{0}.log'.format('distributed')
+    else:
+        distributed = False
+        fn = 'data/wiki_module_{0}.log'.format('normal')
+   
+    logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
+    module_logger = logging.getLogger('wiki_module_logger')
+    module_logger.setLevel(logging.DEBUG)
+    # set file handler
+    fh = logging.FileHandler(fn)
+    fh.setLevel(logging.DEBUG)
+
+    fh.setFormatter(formatter)
+    module_logger.addHandler(fh)
+
     start_time = time.time()
     module_logger.info("START TIME :{0}".format(start_time))
 
-    wiki = TagWiki(distributed=True)
+    wiki = TagWiki(distributed=distributed)
     module_logger.info("No. of keys at start :{0}".format(wiki.dictionary.keys().__len__()))
 
     wiki.prepare_dictionary_from_docs()
