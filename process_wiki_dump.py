@@ -1,3 +1,4 @@
+import sys
 import logging
 import itertools
 
@@ -11,47 +12,166 @@ from gensim.parsing.preprocessing import STOPWORDS
 logging.basicConfig(format='%(levelname)s : %(message)s', level=logging.INFO)
 logging.root.level = logging.INFO  # ipython sometimes messes up the logging setup; restore
 
+# set module lever logger
+FORMAT = '%(asctime)-15s :: %(levelname)s :: %(name)s :: %(message)s'
+formatter = logging.Formatter(FORMAT)
 
-class WikiCorpus(object):
-    def __init__(self, dump_file, dictionary=None, clip_docs=None):
+class ProcessWiki(object):
+
+    def __init__(self, dump_file):
         """
-        Parse the first `clip_docs` Wikipedia documents from file `dump_file`.
-        Yield each document in turn, as a list of tokens (unicode strings).
         """
         self.dump_file = dump_file
-        self.dictionary = dictionary
-        self.clip_docs = clip_docs
+        self.dictionary = gensim.corpora.Dictionary([])
+        self.clip_docs = 5
     
-    def __iter__(self):
-        self.titles = []
-        for title, tokens in itertools.islice(self.iter_wiki(), self.clip_docs):
-            self.titles.append(title)
-            yield self.dictionary.doc2bow(tokens)
-    
-    def __len__(self):
-        return self.clip_docs
+        if distributed:
+            vt = 'distributed'
+        else:
+            vt = 'normal'
 
-    def tokenize(self, text):
-        return [token for token in simple_preprocess(text) if token not in STOPWORDS]
+        self.OUTPUT_PATH = "logs/output_{0}.txt".format(vt)
+        self.DICT_PATH = "logs/wiki_{0}.dict".format(vt)
+        self.MODEL_PATH = "logs/wiki_{0}.lda".format(vt)
+        log_file = 'logs/wiki_{0}.log'.format(vt)
+
+        self.logger = logging.getLogger('wiki_log')
+        self.logger.setLevel(logging.DEBUG)
+        ch = logging.FileHandler(log_file)
+        ch.setLevel(logging.DEBUG)
+        ch.setFormatter(formatter)
+        self.logger.addHandler(ch)
+        self.logger.info("Tag wiki initialized")
+
+        self.lda = None
+        self.distributed = distributed
+
+        # initialize dictionary
+        if os.path.exists(self.DICT_PATH):
+            self.dictionary = gensim.corpora.Dictionary.load(self.DICT_PATH)
+        else:
+            self.dictionary = gensim.corpora.Dictionary()
 
     def iter_wiki(self):
         """Yield each article from the Wikipedia dump, as a `(title, tokens)` 2-tuple."""
         ignore_namespaces = 'Wikipedia Category File Portal Template MediaWiki User Help Book Draft'.split()
         for title, text, pageid in _extract_pages(smart_open(self.dump_file)):
             text = filter_wiki(text)
-            tokens = self.tokenize(text)
+            tokens = [token for token in simple_preprocess(text) if token not in STOPWORDS]
             if len(tokens) < 50 or any(title.startswith(ns + ':') for ns in ignore_namespaces):
                 continue  # ignore short articles and various meta-articles
             yield title, tokens
 
+    def _init_lda(self):
+        """ initialize lda model. This should be called only after the dictionary is prepared.
+        Otherwise dictionary saved to a file should be ready beforehand.
+        """
+        if False: #os.path.exists(self.MODEL_PATH):
+            self.lda = gensim.models.ldamodel.LdaModel.load(self.MODEL_PATH)
+        else:
+            # chunksize determines the number of documents to be processed in a worker.
+            self.lda = gensim.models.ldamodel.LdaModel(
+                corpus=None, id2word=self.dictionary, num_topics=30,
+                update_every=10, chunksize=10, passes=10, distributed=self.distributed)
 
-def main(wiki_path):
-    # create a stream of bag-of-words vectors
-    wiki_corpus = WikiCorpus(wiki_path)
-    vector = next(iter(wiki_corpus))
-    print(vector)  # print the first vector in the stream
+    # Pass 1: Prepare Dictionary
+    def prepare_dictionary_from_docs(self):
+        """
+        iterate through the wikipedia docs dir. and update dictionary
+        """
+        self.logger.info("START PREPARING DICT")
+        for title, tokens in self.iter_wiki():
+            self.logger.info("dict update {0}".format(title))
+            self.dictionary.add_documents([tokens])
+        self.dictionary.save(self.DICT_PATH)
+        return True
+
+    # Pass 2: Process topics
+    def update_lda_model(self):
+        """
+        Read documents from wikipedia articles in data folder and then
+          - update lda model
+          - predict the relevent topics for the document
+        """
+        self.logger.info("START UPDATING LDA")
+        self._init_lda()
+        counter = 0
+        bow_list = []
+        for title, tokens in itertools.islice(self.iter_wiki(), self.clip_docs):
+            try:
+                self.logger.info("updating lda: {0}".format(title))
+                bow = self.dictionary.doc2bow(tokens)
+                bow_list.append(bow)
+                if counter == 5:
+                    self.lda.update(bow_list)
+                    counter = 0
+                    bow_list = []
+                else:
+                    counter += 1
+            except UnicodeError:
+                self.logger.info("PROCESSING FAILED!")
+                continue
+        self.lda.save(self.MODEL_PATH)
+        return True
+
+    # Pass 3: Print topic for each document
+    def print_document_topics(self):
+        self.logger.info("START PRINTING DOCUMENTS")
+        for title, tokens in self.iter_wiki():
+            # get the topics for files and write it to log file
+            bow = self.dictionary.doc2bow(tokens)
+            topics = sorted(self.lda[bow], key=lambda x: x[1], reverse=True)
+            topic = self.lda.print_topic(topic[0])
+            self.logger.info("{0} :: {1}\n".format(title, topic))
+        return True
+
+
+def main(wiki_path, run_type):
+    if run_type.lower() not in ['true', 'false']:
+        print 'Invalid input'
+        sys.exit(0)
+    if run_type.lower() == 'true':
+        distributed = True
+        fn = 'logs/wiki_module_{0}.log'.format('distributed')
+    else:
+        distributed = False
+        fn = 'logs/wiki_module_{0}.log'.format('normal')
+
+    logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
+    module_logger = logging.getLogger('wiki_module_logger')
+    module_logger.setLevel(logging.DEBUG)
+    # set file handler
+    fh = logging.FileHandler(fn)
+    fh.setLevel(logging.DEBUG)
+
+    fh.setFormatter(formatter)
+    module_logger.addHandler(fh)
+
+    start_time = time.time()
+
+    module_logger.info("START TIME :{0}".format(start_time))
+    wiki = ProcessWiki(wiki_path)
+
+    # PASS 1
+    wiki.prepare_dictionary_from_docs()
+    dict_prepare_time = time.time()
+    module_logger.info("TIME AFTER DICTIONARY PREPARATION :{0}".format(dict_prepare_time))
+
+    # PASS 2
+    wiki.update_lda_model()
+    first_pass = time.time()
+    module_logger.info("TIME AFTER FIRST PASS :{0}".format(first_pass))
+
+    # PASS 3
+    wiki.print_document_topics()
+    second_pass = time.time()
+    module_logger.info("TIME AFTER DOC PRINT  :{0}".format(second_pass))
+
+    total_time = (start_time - second_pass) / 60
+    module_logger.info("TOTAL TIME ELAPSED :{0}".format(total_time))
 
 
 if __name__ == '__main__':
     wiki_path = sys.argv[1]
-    main(wiki_path)
+    run_type = sys.argv[2]
+    main(wiki_path, run_type)
