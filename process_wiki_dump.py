@@ -170,8 +170,26 @@ def main(wiki_path, run_type):
     total_time = (start_time - second_pass) / 60
     module_logger.info("TOTAL TIME ELAPSED :{0}".format(total_time))
 
+def create_wiki_dict(wiki_path, run_type):
+    from gensim.corpora.wikicorpus import WikiCorpus
+
+    logging.basicConfig(filename='logs/create_wiki_dict.log', level=logging.DEBUG, format=FORMAT)
+    module_logger = logging.getLogger('wiki_module_logger')
+    module_logger.setLevel(logging.DEBUG)
+    # set file handler
+    fh = logging.FileHandler(fn)
+    fh.setLevel(logging.DEBUG)
+    fh.setFormatter(formatter)
+    module_logger.addHandler(fh)
+
+    module_logger.info("START")
+    wiki_corpus = WikiCorpus(wiki_path)  # This will take many hours! Output is Wikipedia in bucket-of-words (BOW) sparse matrix.
+    module_logger.info("Wiki corpus ready")
+    wiki_corpus.dictionary.save("logs/wiki_dump_dict.dict")
+    module_logger.info("Dictionary Created")
 
 if __name__ == '__main__':
     wiki_path = sys.argv[1]
     run_type = sys.argv[2]
-    main(wiki_path, run_type)
+    #main(wiki_path, run_type)
+    create_wiki_dict(wiki_path, run_type)
