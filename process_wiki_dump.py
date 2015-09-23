@@ -1,6 +1,9 @@
+import time
+import os
 import sys
 import logging
 import itertools
+import gc
 
 import numpy as np
 import gensim
@@ -18,22 +21,20 @@ formatter = logging.Formatter(FORMAT)
 
 class ProcessWiki(object):
 
-    def __init__(self, dump_file):
-        """
-        """
+    def __init__(self, dump_file, distributed):
         self.dump_file = dump_file
         self.dictionary = gensim.corpora.Dictionary([])
         self.clip_docs = 5
-    
+
         if distributed:
             vt = 'distributed'
         else:
             vt = 'normal'
 
-        self.OUTPUT_PATH = "logs/output_{0}.txt".format(vt)
-        self.DICT_PATH = "logs/wiki_{0}.dict".format(vt)
-        self.MODEL_PATH = "logs/wiki_{0}.lda".format(vt)
-        log_file = 'logs/wiki_{0}.log'.format(vt)
+        self.OUTPUT_PATH = "/mnt/data/logs/output_{0}.txt".format(vt)
+        self.DICT_PATH = "/mnt/data/logs/wiki_dump_{0}.dict".format(vt)
+        self.MODEL_PATH = "/mnt/data/logs/wiki_dump_{0}.lda".format(vt)
+        log_file = '/mnt/data/logs/wiki_dump_{0}.log'.format(vt)
 
         self.logger = logging.getLogger('wiki_log')
         self.logger.setLevel(logging.DEBUG)
@@ -71,7 +72,7 @@ class ProcessWiki(object):
         else:
             # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
-                corpus=None, id2word=self.dictionary, num_topics=30,
+                corpus=None, id2word=self.dictionary, num_topics=100,
                 update_every=10, chunksize=10, passes=10, distributed=self.distributed)
 
     # Pass 1: Prepare Dictionary
@@ -81,9 +82,12 @@ class ProcessWiki(object):
         """
         self.logger.info("START PREPARING DICT")
         for title, tokens in self.iter_wiki():
-            self.logger.info("dict update {0}".format(title))
-            self.dictionary.add_documents([tokens])
-        self.dictionary.save(self.DICT_PATH)
+            try:
+                self.logger.info("{0} dict update {1}".format(counter, title))
+                self.dictionary.add_documents([tokens])
+                self.dictionary.save(self.DICT_PATH)
+            except UnicodeError:
+                continue
         return True
 
     # Pass 2: Process topics
@@ -118,11 +122,14 @@ class ProcessWiki(object):
     def print_document_topics(self):
         self.logger.info("START PRINTING DOCUMENTS")
         for title, tokens in self.iter_wiki():
-            # get the topics for files and write it to log file
-            bow = self.dictionary.doc2bow(tokens)
-            topics = sorted(self.lda[bow], key=lambda x: x[1], reverse=True)
-            topic = self.lda.print_topic(topic[0])
-            self.logger.info("{0} :: {1}\n".format(title, topic))
+            try:
+                # get the topics for files and write it to log file
+                bow = self.dictionary.doc2bow(tokens)
+                topics = sorted(self.lda[bow], key=lambda x: x[1], reverse=True)
+                topic = self.lda.print_topic(topics[0][0])
+                self.logger.info("{0} :: {1}\n".format(title, topic))
+            except UnicodeError:
+                pass
         return True
 
 
@@ -132,10 +139,10 @@ def main(wiki_path, run_type):
         sys.exit(0)
     if run_type.lower() == 'true':
         distributed = True
-        fn = 'logs/wiki_module_{0}.log'.format('distributed')
+        fn = '/mnt/data/logs/wiki_dump_module_{0}.log'.format('distributed')
     else:
         distributed = False
-        fn = 'logs/wiki_module_{0}.log'.format('normal')
+        fn = '/mnt/data/logs/wiki_dump_module_{0}.log'.format('normal')
 
     logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
     module_logger = logging.getLogger('wiki_module_logger')
@@ -150,7 +157,7 @@ def main(wiki_path, run_type):
     start_time = time.time()
 
     module_logger.info("START TIME :{0}".format(start_time))
-    wiki = ProcessWiki(wiki_path)
+    wiki = ProcessWiki(wiki_path, distributed)
 
     # PASS 1
     wiki.prepare_dictionary_from_docs()
@@ -167,13 +174,14 @@ def main(wiki_path, run_type):
     second_pass = time.time()
     module_logger.info("TIME AFTER DOC PRINT  :{0}".format(second_pass))
 
-    total_time = (start_time - second_pass) / 60
+    total_time = (second_pass - start_time) / 60
     module_logger.info("TOTAL TIME ELAPSED :{0}".format(total_time))
 
 def create_wiki_dict(wiki_path, run_type):
     from gensim.corpora.wikicorpus import WikiCorpus
 
-    logging.basicConfig(filename='logs/create_wiki_dict.log', level=logging.DEBUG, format=FORMAT)
+    fn = 'logs/create_wiki_dict.log'
+    logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
     module_logger = logging.getLogger('wiki_module_logger')
     module_logger.setLevel(logging.DEBUG)
     # set file handler
