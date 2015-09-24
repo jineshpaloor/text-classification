@@ -31,10 +31,10 @@ class ProcessWiki(object):
         else:
             vt = 'normal'
 
-        self.OUTPUT_PATH = "/mnt/data/logs/output_{0}.txt".format(vt)
-        self.DICT_PATH = "/mnt/data/logs/wiki_dump_{0}.dict".format(vt)
-        self.MODEL_PATH = "/mnt/data/logs/wiki_dump_{0}.lda".format(vt)
-        log_file = '/mnt/data/logs/wiki_dump_{0}.log'.format(vt)
+        self.DICT_PATH = "/data/logs/wiki_dump_{0}.dict".format(vt)
+        # /data/logs/wiki_dump_dict.dict
+        self.MODEL_PATH = "/data/logs/wiki_dump_{0}.lda".format(vt)
+        log_file = '/data/logs/wiki_dump_{0}.log'.format(vt)
 
         self.logger = logging.getLogger('wiki_log')
         self.logger.setLevel(logging.DEBUG)
@@ -72,18 +72,20 @@ class ProcessWiki(object):
         else:
             # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
-                corpus=None, id2word=self.dictionary, num_topics=100,
-                update_every=10, chunksize=10, passes=10, distributed=self.distributed)
+                corpus=None, id2word=self.dictionary.id2token, num_topics=100,
+                update_every=1, chunksize=10000, passes=1, distributed=self.distributed)
 
     # Pass 1: Prepare Dictionary
     def prepare_dictionary_from_docs(self):
         """
         iterate through the wikipedia docs dir. and update dictionary
         """
+        if os.path.exists(self.DICT_PATH):
+            return True
         self.logger.info("START PREPARING DICT")
         for title, tokens in self.iter_wiki():
             try:
-                self.logger.info("{0} dict update {1}".format(counter, title))
+                self.logger.info("dict update {0}".format(title))
                 self.dictionary.add_documents([tokens])
                 self.dictionary.save(self.DICT_PATH)
             except UnicodeError:
@@ -139,10 +141,10 @@ def main(wiki_path, run_type):
         sys.exit(0)
     if run_type.lower() == 'true':
         distributed = True
-        fn = '/mnt/data/logs/wiki_dump_module_{0}.log'.format('distributed')
+        fn = '/data/logs/wiki_dump_module_{0}.log'.format('distributed')
     else:
         distributed = False
-        fn = '/mnt/data/logs/wiki_dump_module_{0}.log'.format('normal')
+        fn = '/data/logs/wiki_dump_module_{0}.log'.format('normal')
 
     logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
     module_logger = logging.getLogger('wiki_module_logger')
@@ -180,7 +182,7 @@ def main(wiki_path, run_type):
 def create_wiki_dict(wiki_path, run_type):
     from gensim.corpora.wikicorpus import WikiCorpus
 
-    fn = 'logs/create_wiki_dict.log'
+    fn = '/data/logs/create_wiki_dict.log'
     logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
     module_logger = logging.getLogger('wiki_module_logger')
     module_logger.setLevel(logging.DEBUG)
@@ -193,11 +195,11 @@ def create_wiki_dict(wiki_path, run_type):
     module_logger.info("START")
     wiki_corpus = WikiCorpus(wiki_path)  # This will take many hours! Output is Wikipedia in bucket-of-words (BOW) sparse matrix.
     module_logger.info("Wiki corpus ready")
-    wiki_corpus.dictionary.save("logs/wiki_dump_dict.dict")
+    wiki_corpus.dictionary.save("/data/logs/wiki_dump_dict.dict")
     module_logger.info("Dictionary Created")
 
 if __name__ == '__main__':
     wiki_path = sys.argv[1]
     run_type = sys.argv[2]
-    #main(wiki_path, run_type)
-    create_wiki_dict(wiki_path, run_type)
+    main(wiki_path, run_type)
+    #create_wiki_dict(wiki_path, run_type)
