@@ -72,7 +72,7 @@ class ProcessWiki(object):
         else:
             # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
-                corpus=None, id2word=self.dictionary.id2token, num_topics=100,
+                corpus=None, id2word=self.dictionary, num_topics=100,
                 update_every=1, chunksize=10000, passes=1, distributed=self.distributed)
 
     # Pass 1: Prepare Dictionary
