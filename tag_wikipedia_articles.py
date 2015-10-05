@@ -10,23 +10,29 @@ FORMAT = '%(asctime)-15s :: %(levelname)s :: %(name)s :: %(message)s'
 formatter = logging.Formatter(FORMAT)
 
 WIKI_PATH = "data/wiki_download_dir"
+#WIKI_PATH = "data/bbc/business"
 f = open('data/stop-words/stop-words-english4.txt', 'r')
 STOPLIST = [w.strip() for w in f.readlines() if w]
 f.close()
 
 
 class TagWiki(object):
-    def __init__(self, distributed=False):
+    def __init__(self, topics, update_every, chunk, passes, distributed=False):
+         self.num_topics = topics
+         self.update_every = update_every
+         self.chunksize = chunk
+         self.passes = passes
+
         if distributed:
-            self.OUTPUT_PATH = "data/output_distributed.txt"
             self.DICT_PATH = "data/wiki_distributed.dict"
-            self.MODEL_PATH = "data/wiki_distributed.lda"
-            log_file = 'data/wiki_distributed.log'
+            self.OUTPUT_PATH = "data/output_distributed_{0}_chunk_{1}_passes_{2}.txt".format(self.num_topics, self.chunksize, self.passes)
+            self.MODEL_PATH = "data/wiki_distributed_topics_{0}_chunk_{1}_passes_{2}.lda".format(self.num_topics, self.chunksize, self.passes)
+            log_file = 'data/wiki_distributed.log'.format(self.num_topics, self.chunksize, self.passes)
         else:
-            self.OUTPUT_PATH = "data/output_normal.txt"
             self.DICT_PATH = "data/wiki_normal.dict"
-            self.MODEL_PATH = "data/wiki_normal.lda"
-            log_file = 'data/wiki_normal.log'
+            self.OUTPUT_PATH = "data/output_normal_{0}_chunk_{1}_passes_{2}.txt".format(self.num_topics, self.chunksize, self.passes)
+            self.MODEL_PATH = "data/wiki_normal_topics_{0}_chunk_{1}_passes_{2}.lda".format(self.num_topics, self.chunksize, self.passes)
+            log_file = 'data/wiki_normal_topics_{0}_chunk_{1}_passes_{2}.log'.format(self.num_topics, self.chunksize, self.passes)
         self.logger = logging.getLogger('wiki_log')
         self.logger.setLevel(logging.DEBUG)
         ch = logging.FileHandler(log_file)
@@ -55,8 +61,9 @@ class TagWiki(object):
         else:
             # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
-                corpus=None, id2word=self.dictionary, num_topics=30,
-                update_every=10, chunksize=10, passes=10, distributed=self.distributed)
+                corpus=None, id2word=self.dictionary, num_topics=self.num_topics,
+                update_every=self.update_every, chunksize=self.chunk_size, 
+                passes=self.passes, distributed=self.distributed)
 
     def chunks(self, l, n):
         """Yield successive n-sized chunks from l."""
@@ -76,11 +83,15 @@ class TagWiki(object):
         """
         iterate through the wikipedia docs dir. and update dictionary
         """
+        if os.path.exists(self.DICT_PATH):
+            return True
         self.logger.info("START PREPARING DICT")
         for fn in os.listdir(self.wiki_path):
             self.logger.info("dict update {0}".format(fn))
             content = self.get_processed_content(fn)
             self.dictionary.add_documents([content])
+        self.dictionary.filter_extremes(no_below=20, no_above=0.1, keep_n=100000)            
+        self.dictionary.compactify()
         self.dictionary.save(self.DICT_PATH)
         return True
 
@@ -127,13 +138,16 @@ class TagWiki(object):
     def print_document_topics(self):
         self.logger.info("START PRINTING DOCUMENTS")
         file_names = os.listdir(self.wiki_path)
+        f = open(self.OUTPUT_PATH, "w")
         for fn in file_names:
             # get the topics for files and write it to log file
             content = self.get_processed_content(fn)
             content_bow = self.dictionary.doc2bow(content)
             topics = self.get_sorted_topics(content_bow)
-            topic = self.get_text_topic(topics[0])
-            self.logger.info("{0} :: {1}\n".format(fn, topic))
+            #topic = self.get_text_topic(topics[0])
+            self.logger.info("{0} :: {1}\n".format(fn, topics))
+            f.write("{0}: {1}\n".format(link, topics))
+        f.close()
         return True
 
     # Pass 1: Prepare a dictionary
@@ -183,7 +197,7 @@ class TagWiki(object):
         self.lda.save(self.MODEL_PATH)
         return True
 
-def main():
+def main(topics, update_every, chunk, passes):
     run_type = sys.argv[1]
     if run_type.lower() not in ['true', 'false']:
         print 'Invalid input'
@@ -208,7 +222,7 @@ def main():
     start_time = time.time()
     module_logger.info("START TIME :{0}".format(start_time))
 
-    wiki = TagWiki(distributed=distributed)
+    wiki = TagWiki(topics, update_every, chunk, passes, distributed=distributed)
     module_logger.info("No. of keys at start :{0}".format(wiki.dictionary.keys().__len__()))
 
     wiki.prepare_dictionary_from_docs()
@@ -229,4 +243,13 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    data = [
+        (30, 10, 30, 10),
+        (30, 10, 50, 10),
+        (20, 10, 100, 10),
+        (10, 10, 100, 10),
+        (100, 10, 10, 10),
+        (30, 10, 10, 100),
+    ]
+    for topics, update_every, chunk, passes in data:
+        main(topics, update_every, chunk, passes)
