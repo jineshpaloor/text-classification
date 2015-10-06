@@ -119,6 +119,8 @@ class TagWiki(object):
         """
         self.logger.info("START UPDATING LDA")
         self._init_lda()
+        if os.path.exists(self.MODEL_PATH):
+            return True
         file_names = os.listdir(self.wiki_path)
         for fns in self.chunks(file_names, 5):
             # update lda for files
@@ -146,7 +148,7 @@ class TagWiki(object):
             topics = self.get_sorted_topics(content_bow)
             #topic = self.get_text_topic(topics[0])
             self.logger.info("{0} :: {1}\n".format(fn, topics))
-            f.write("{0}: {1}\n".format(link, topics))
+            f.write("{0}: {1}\n".format(fn, topics))
         f.close()
         return True
 
