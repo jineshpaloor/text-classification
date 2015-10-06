@@ -18,10 +18,10 @@ f.close()
 
 class TagWiki(object):
     def __init__(self, topics, update_every, chunk, passes, distributed=False):
-         self.num_topics = topics
-         self.update_every = update_every
-         self.chunksize = chunk
-         self.passes = passes
+        self.num_topics = topics
+        self.update_every = update_every
+        self.chunksize = chunk
+        self.passes = passes
 
         if distributed:
             self.DICT_PATH = "data/wiki_distributed.dict"
@@ -62,7 +62,7 @@ class TagWiki(object):
             # chunksize determines the number of documents to be processed in a worker.
             self.lda = gensim.models.ldamodel.LdaModel(
                 corpus=None, id2word=self.dictionary, num_topics=self.num_topics,
-                update_every=self.update_every, chunksize=self.chunk_size, 
+                update_every=self.update_every, chunksize=self.chunksize,
                 passes=self.passes, distributed=self.distributed)
 
     def chunks(self, l, n):
@@ -90,7 +90,7 @@ class TagWiki(object):
             self.logger.info("dict update {0}".format(fn))
             content = self.get_processed_content(fn)
             self.dictionary.add_documents([content])
-        self.dictionary.filter_extremes(no_below=20, no_above=0.1, keep_n=100000)            
+        self.dictionary.filter_extremes(no_below=20, no_above=0.1, keep_n=100000)
         self.dictionary.compactify()
         self.dictionary.save(self.DICT_PATH)
         return True
@@ -119,6 +119,8 @@ class TagWiki(object):
         """
         self.logger.info("START UPDATING LDA")
         self._init_lda()
+        if os.path.exists(self.MODEL_PATH):
+            return True
         file_names = os.listdir(self.wiki_path)
         for fns in self.chunks(file_names, 5):
             # update lda for files
@@ -146,7 +148,7 @@ class TagWiki(object):
             topics = self.get_sorted_topics(content_bow)
             #topic = self.get_text_topic(topics[0])
             self.logger.info("{0} :: {1}\n".format(fn, topics))
-            f.write("{0}: {1}\n".format(link, topics))
+            f.write("{0}: {1}\n".format(fn, topics))
         f.close()
         return True
 
@@ -208,7 +210,7 @@ def main(topics, update_every, chunk, passes):
     else:
         distributed = False
         fn = 'data/wiki_module_{0}.log'.format('normal')
-   
+
     logging.basicConfig(filename=fn, level=logging.DEBUG, format=FORMAT)
     module_logger = logging.getLogger('wiki_module_logger')
     module_logger.setLevel(logging.DEBUG)
