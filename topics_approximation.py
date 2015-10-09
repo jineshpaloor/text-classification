@@ -110,16 +110,16 @@ class MyCorpus(object):
         
         elbow = np.argmin(diff3[3:]) + 3
         
-        #f = open("data/map.txt", "w")
-        #print ks
-        #print list(inertias)
-        #print elbow
-        #f.write(str(ks))
-        #f.write("\n")
-        #f.write(str(list(inertias)))
-        #f.write("\n")
-        #f.write(str(elbow))
-        #f.close()
+        f = open("data/map.txt", "w")
+        print ks
+        print list(inertias)
+        print elbow
+        f.write(str(ks))
+        f.write("\n")
+        f.write(str(list(inertias)))
+        f.write("\n")
+        f.write(str(elbow))
+        f.close()
 
         self.logger.info("k means create image")
         plt.plot(ks, inertias, "b*-")
