@@ -110,24 +110,23 @@ class MyCorpus(object):
         
         elbow = np.argmin(diff3[3:]) + 3
         
-        f = open("data/map.txt", "w")
-        print ks
-        print list(inertias)
-        print elbow
-        f.write(str(ks))
-        f.write("\n")
-        f.write(str(list(inertias)))
-        f.write("\n")
-        f.write(str(elbow))
-        f.close()
+        #f = open("data/map.txt", "w")
+        #print ks
+        #print list(inertias)
+        #print elbow
+        #f.write(str(ks))
+        #f.write("\n")
+        #f.write(str(list(inertias)))
+        #f.write("\n")
+        #f.write(str(elbow))
+        #f.close()
 
-        #self.logger.info("k means create image")
-        #plt.plot(ks, inertias, "b*-")
-        #plt.plot(ks[elbow], inertias[elbow], marker='o', markersize=12,
-                 #markeredgewidth=2, markeredgecolor='r', markerfacecolor=None)
-        #plt.ylabel("Inertia")
-        #plt.xlabel("K")
-        #plt.show()
+        self.logger.info("k means create image")
+        plt.plot(ks, inertias, "b*-")
+        plt.plot(ks[elbow], inertias[elbow], marker='o', markersize=12, markeredgewidth=2, markeredgecolor='r', markerfacecolor=None)
+        plt.ylabel("Inertia")
+        plt.xlabel("K")
+        plt.show()
 
     def topic_scatter(self):
         self.logger.info("topic scatter..")
